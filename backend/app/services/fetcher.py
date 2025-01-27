@@ -5,10 +5,20 @@ import asyncio
 import logging
 from fastapi import HTTPException
 from tenacity import retry, stop_after_attempt, wait_exponential
+from asyncio import Semaphore
+import time
 
-from config import SEMANTIC_SCHOLAR_API_URL
+from config import (
+    SEMANTIC_SCHOLAR_API_URL,
+    MAX_CONCURRENT_REQUESTS,
+    REQUEST_INTERVAL
+)
 
 logger = logging.getLogger(__name__)
+
+# 全局信号量和上次请求时间
+API_SEMAPHORE = Semaphore(MAX_CONCURRENT_REQUESTS)
+LAST_REQUEST_TIME = 0
 
 async def get_client():
     """
@@ -20,6 +30,15 @@ async def get_client():
         timeout=60.0
     )
 
+async def wait_for_rate_limit():
+    """确保请求间隔符合配置"""
+    global LAST_REQUEST_TIME
+    current_time = time.time()
+    elapsed = current_time - LAST_REQUEST_TIME
+    if elapsed < REQUEST_INTERVAL:
+        await asyncio.sleep(REQUEST_INTERVAL - elapsed)
+    LAST_REQUEST_TIME = time.time()
+
 @retry(
     stop=stop_after_attempt(3),
     wait=wait_exponential(min=4, max=10),
@@ -29,19 +48,21 @@ async def fetch_papers(client, url, params):
     """
     通用的论文获取函数，包含重试机制和错误处理
     """
-    try:
-        response = await client.get(url, params=params)
-        response.raise_for_status()
-        return response
-    except httpx.TimeoutException as e:
-        logger.error(f"请求超时: {str(e)}")
-        raise HTTPException(status_code=504, detail="API请求超时")
-    except httpx.HTTPStatusError as e:
-        logger.error(f"HTTP错误: {str(e)}")
-        raise HTTPException(status_code=e.response.status_code, detail=str(e))
-    except Exception as e:
-        logger.error(f"未知错误: {str(e)}")
-        raise HTTPException(status_code=500, detail="服务器内部错误")
+    async with API_SEMAPHORE:  # 使用信号量控制并发
+        await wait_for_rate_limit()  # 确保请求间隔
+        try:
+            response = await client.get(url, params=params)
+            response.raise_for_status()
+            return response
+        except httpx.TimeoutException as e:
+            logger.error(f"请求超时: {str(e)}")
+            raise HTTPException(status_code=504, detail="API请求超时")
+        except httpx.HTTPStatusError as e:
+            logger.error(f"HTTP错误: {str(e)}")
+            raise HTTPException(status_code=e.response.status_code, detail=e.response.text)
+        except Exception as e:
+            logger.error(f"未知错误: {str(e)}")
+            raise HTTPException(status_code=500, detail="服务器内部错误")
 
 async def fetch_papers_batch(client, query: str, offset: int, limit: int):
     """
@@ -64,11 +85,12 @@ async def fetch_paper_details(client, paper_id: str):
     获取单篇论文的详细信息，包括引用关系
     """
     try:
-        response = await client.get(
+        # 使用基础的 fetch_papers 函数来获取数据
+        response = await fetch_papers(
+            client,
             f"/paper/{paper_id}",
             params={"fields": "references,citations"}
         )
-        response.raise_for_status()
         return response.json()
     except Exception as e:
         logger.warning(f"获取论文 {paper_id} 的引用信息失败: {str(e)}")

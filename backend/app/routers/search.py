@@ -16,6 +16,7 @@ from app.services.fetcher import (
     # 如果你还用到了 fetch_paper_details 等，可一并导入
 )
 from app.services.scorer import calculate_paper_score
+from app.routers.paper import get_paper_citations  # 添加这行导入
 
 logger = logging.getLogger(__name__)
 router = APIRouter()
@@ -239,6 +240,25 @@ async def search_papers(
                             近5年: {len([y for y in years if y >= current_year - 5])}篇
                             5年以上: {len([y for y in years if y < current_year - 5])}篇
                             """)
+
+            # 获取前N篇论文的引用信息
+            logger.info("====== 获取引用网络 ======")
+            for paper in processed_papers[:5]:
+                try:
+                    paper_id = paper.get('id')  # 改用 'id' 而不是 'paperId'
+                    logger.info(f"论文: {paper.get('title')}")
+                    logger.info(f"尝试获取论文ID: {paper_id} 的引用信息")
+                    if paper_id:
+                        citations = await get_paper_citations(paper_id)
+                        if citations:
+                            logger.info(f"""
+                            引用数量: {len(citations)}
+                            前5篇引用论文:
+                            {', '.join([cite['citingPaper']['title'] for cite in citations[:5]])}
+                            """)
+                except Exception as e:
+                    logger.error(f"获取论文 {paper.get('title')} 的引用信息失败: {str(e)}")
+                    continue
 
             return {
                 "query": query,

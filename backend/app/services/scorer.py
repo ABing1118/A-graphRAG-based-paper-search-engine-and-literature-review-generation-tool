@@ -10,6 +10,7 @@ def calculate_paper_score(paper):
     1. 年份权重：越新的文章分数越高
     2. 引用量权重：使用对数计算，避免引用差异过大
     3. 期刊/会议权重：顶级期刊和会议有额外加分
+    4. 摘要加分：有摘要的论文额外加分
     
     Args:
         paper (dict): 包含论文信息的字典
@@ -49,5 +50,10 @@ def calculate_paper_score(paper):
         if venue and top_venue in venue:
             score += weight
             break
+
+    # 4. 摘要加分 (新增)
+    abstract = paper.get("abstract", "").strip()
+    if abstract and abstract.lower() not in ["no abstract", "暂无摘要"]:
+        score += 10  # 有摘要加10分
 
     return score
