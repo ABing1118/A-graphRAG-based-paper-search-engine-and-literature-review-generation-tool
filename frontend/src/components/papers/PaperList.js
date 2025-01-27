@@ -14,6 +14,24 @@ const PaperList = ({ papers, selectedPaper, onSelectPaper }) => {
     return <p>没有找到结果</p>;
   }
 
+  // 显示作者
+  const renderAuthors = (authors) => {
+    if (!authors || authors.length === 0) return "Unknown";
+    // 如果 authors 是字符串数组，直接 join
+    if (typeof authors[0] === 'string') return authors.join(', ');
+    // 如果 authors 是对象数组，提取 name 属性
+    if (typeof authors[0] === 'object') {
+      return authors.map(author => author.name || 'Unknown').join(', ');
+    }
+    return "Unknown";
+  };
+
+  // 显示日期
+  const formatDate = (date) => {
+    if (!date) return "";
+    return new Date(date).toLocaleDateString();
+  };
+
   return (
     <List sx={{ 
       p: 2,                                    // 移除默认内边距
@@ -61,7 +79,7 @@ const PaperList = ({ papers, selectedPaper, onSelectPaper }) => {
                 color="text.secondary"
                 sx={{ fontSize: '0.875rem' }}  // 字体大小：14px
               >
-                作者: {paper.authors.join(', ')}
+                作者: {renderAuthors(paper.authors)}
               </Typography>
               {/* 年份和引用信息 */}
               <Box sx={{ 
@@ -72,7 +90,7 @@ const PaperList = ({ papers, selectedPaper, onSelectPaper }) => {
                 fontSize: '0.75rem',        // 字体大小：12px
                 color: 'text.secondary'     // 次要文本颜色
               }}>
-                <span>{paper.year}</span>
+                <span>{formatDate(paper.year)}</span>
                 <span>引用: {paper.citations}</span>
               </Box>
             </CardContent>

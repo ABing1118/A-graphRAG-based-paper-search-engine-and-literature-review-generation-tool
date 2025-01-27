@@ -3,7 +3,7 @@
 from fastapi import APIRouter, HTTPException
 import logging
 
-from app.services.fetcher import get_client
+from app.services.fetcher import get_elsevier_client
 
 router = APIRouter()
 logger = logging.getLogger(__name__)
@@ -11,7 +11,7 @@ logger = logging.getLogger(__name__)
 @router.get("/paper/{paper_id}/citations")
 async def get_paper_citations(paper_id: str):
     try:
-        async with await get_client() as client:
+        async with await get_elsevier_client() as client:
             response = await client.get(
                 f"/paper/{paper_id}/citations",
                 params={"limit": 100, "fields": "title,authors,year,citationCount"}

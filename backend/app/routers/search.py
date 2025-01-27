@@ -11,7 +11,7 @@ from config import (
     MAX_PARALLEL_REQUESTS
 )
 from app.services.fetcher import (
-    get_client,
+    get_elsevier_client,
     fetch_papers_from_multiple_sources,
     # 如果你还用到了 fetch_paper_details 等，可一并导入
 )
@@ -37,7 +37,7 @@ async def search_papers(
     try:
         logger.info(f"收到搜索请求，关键词: {query}")
 
-        async with await get_client() as client:
+        async with await get_elsevier_client() as client:
             # 用于收集所有论文
             all_papers = []
             batch_size = 100
@@ -227,7 +227,7 @@ async def search_papers(
                             """)
 
             # 5. 年份分布
-            years = [p.get('year') for p in qualified_papers if p.get('year')]
+            years = [int(p.get('year')) for p in qualified_papers if p.get('year') and p.get('year').isdigit()]
             if years:
                 current_year = datetime.now().year
                 logger.info(f"""
