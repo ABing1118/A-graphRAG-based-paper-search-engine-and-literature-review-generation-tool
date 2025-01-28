@@ -376,6 +376,9 @@ async def search_papers(
                 await save_search_results(query, all_papers, paper_networks)
                 logger.info(f"已将搜索结果保存到本地: {query}")
 
+                processed_papers.sort(key=lambda x: x.get("score", 0), reverse=True)
+
+                # 返回搜索结果
                 return {
                     "query": query,
                     "total_available": len(all_papers),
@@ -477,6 +480,18 @@ async def search_papers_offline(
                 
         # 3. 排序和截取
         qualified_papers.sort(key=lambda x: x["score"], reverse=True)
+        
+        # 添加日志，显示排序后的论文及其评分
+        logger.info("\n====== 论文排序和评分 ======")
+        for i, paper in enumerate(qualified_papers[:20]):  # 只显示前20篇，避免日志太长
+            logger.info(f"""
+            论文 {i+1}:
+            标题: {paper.get('title', '无标题')}
+            评分: {paper.get('score', 0):.2f}
+            年份: {paper.get('year', '未知')}
+            引用数: {paper.get('citationCount', 0)}
+            """)
+            
         processed_papers = qualified_papers[:top_k]
         
         # 4. 格式化输出数据

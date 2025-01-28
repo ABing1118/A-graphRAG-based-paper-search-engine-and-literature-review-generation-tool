@@ -18,44 +18,47 @@ def calculate_paper_score(paper: dict) -> float:
     Returns:
         float: 论文的综合评分
     """
-    current_year = datetime.now().year
-    score = 0
-
-    # 1. 年份权重 (最近5年权重最高)
-    year = paper.get("year")
-    if year and isinstance(year, (int, float)):
-        year_diff = current_year - int(year)
-        if year_diff <= 5:
-            score += 30
-        elif year_diff <= 10:
-            score += 20
+    try:
+        # 1. 基础分数 (30分)
+        base_score = 30
+        
+        # 2. 引用量权重 (最高40分) - 增加引用的权重
+        citations = paper.get("citationCount", 0)
+        if citations and isinstance(citations, (int, float)):
+            citation_score = np.log1p(float(citations)) * 15  # 从10增加到15
         else:
-            score += 10
-    
-    # 2. 引用量权重 (使用对数平滑)
-    citations = paper.get("citationCount", 0)
-    if citations and isinstance(citations, (int, float)):
-        score += np.log1p(float(citations)) * 10
-    
-    # 3. 期刊/会议权重
-    venue = paper.get("venue", "").lower() if paper.get("venue") else ""
-    top_venues = {
-        "nature": 50, "science": 50,    # 顶级期刊
-        "cell": 40,
-        "neural information processing systems": 35,  # 顶级会议
-        "icml": 35, "iclr": 35,
-        "ieee": 30, "acm": 30
-    }
-    for top_venue, weight in top_venues.items():
-        if venue and top_venue in venue:
-            score += weight
-            break
-
-    # 4. 摘要加分 (修改这部分)
-    abstract = paper.get("abstract", "")
-    if abstract and isinstance(abstract, str):  # 添加类型检查
-        abstract = abstract.strip()
-        if abstract.lower() not in ["no abstract", "暂无摘要"]:
-            score += 10  # 有摘要加10分
-
-    return score
+            citation_score = 0
+            
+        # 3. 年份权重 (最高20分)
+        current_year = datetime.now().year
+        year = paper.get("year")
+        if year and isinstance(year, (int, float)):
+            year_diff = current_year - int(year)
+            if year_diff <= 5:
+                year_score = 20
+            elif year_diff <= 10:
+                year_score = 15
+            else:
+                year_score = 10
+        else:
+            year_score = 0
+            
+        # 4. 期刊/会议权重 (最高10分) - 大幅降低期刊权重
+        venue_score = 0
+        venue = paper.get("venue", "").lower() if paper.get("venue") else ""
+        top_venues = {
+            "nature": 10, "science": 10,    # 从50降到10
+            "cell": 8,                      # 从40降到8
+            "neural information processing systems": 7,  # 从35降到7
+            "icml": 7, "iclr": 7,
+            "ieee": 6, "acm": 6             # 从30降到6
+        }
+        for top_venue, weight in top_venues.items():
+            if venue and top_venue in venue:
+                venue_score = weight
+                break
+                
+        return base_score + citation_score + year_score + venue_score
+        
+    except Exception as e:
+        raise ValueError(f"计算论文评分时出错: {str(e)}")
