@@ -1,11 +1,12 @@
 import React, { useState } from 'react';
-import { Box, Typography } from '@mui/material';
+import { Box, Typography, Tabs, Tab } from '@mui/material';
 import ParticleBackground from '../components/common/ParticleBackground';
 import PaperList from '../components/papers/PaperList';
 import PaperDetail from '../components/papers/PaperDetail';
 import Navbar from '../components/common/Navbar';
 import { useLocation, useNavigate } from 'react-router-dom';
 import axios from 'axios';
+import CitationNetwork from '../components/research/CitationNetwork';
 
 const SearchResults = () => {
   const location = useLocation();
@@ -18,6 +19,7 @@ const SearchResults = () => {
     minCitations: 0,
     topK: 60
   });
+  const [activeTab, setActiveTab] = useState('network');
 
   const handleSearch = async (query, searchFilters) => {
     try {
@@ -44,6 +46,10 @@ const SearchResults = () => {
     } catch (err) {
       console.error('搜索失败:', err);
     }
+  };
+
+  const handleTabChange = (event, newValue) => {
+    setActiveTab(newValue);
   };
 
   return (
@@ -88,14 +94,29 @@ const SearchResults = () => {
 
           {/* 中间引文网络区域 */}
           <Box sx={{ width: '50%', p: 2 }}>
-            <Box sx={{ 
-              height: '100%', 
-              display: 'flex', 
-              alignItems: 'center', 
-              justifyContent: 'center',
-              color: 'text.secondary'
-            }}>
-              引文网络展示区域
+            <Box sx={{ borderBottom: 1, borderColor: 'divider' }}>
+              <Tabs 
+                value={activeTab} 
+                onChange={handleTabChange}
+                textColor="primary"
+                indicatorColor="primary"
+              >
+                <Tab label="Citation Network" value="network" />
+                <Tab label="Literature Review" value="review" />
+              </Tabs>
+            </Box>
+            <Box sx={{ mt: 2, height: 'calc(100% - 48px)' }}>  {/* 48px 是 tabs 的高度 */}
+              {activeTab === 'network' && (
+                <CitationNetwork 
+                  query={searchQuery} 
+                  topK={_filters.topK} 
+                />
+              )}
+              {activeTab === 'review' && (
+                <Box sx={{ p: 2 }}>
+                  <Typography>Literature Review Component (Coming Soon)</Typography>
+                </Box>
+              )}
             </Box>
           </Box>
 
