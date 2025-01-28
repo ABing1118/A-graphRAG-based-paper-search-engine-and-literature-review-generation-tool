@@ -47,7 +47,7 @@ const CitationNetwork = ({ query, topK }) => {
                zoom.transform,
                d3.zoomIdentity
                  .translate(width / 2, height / 2)  // 先移动到中心
-                 .scale(0.12)  // 设置一个更合适的初始缩放值
+                 .scale(0.5)  // 设置一个更合适的初始缩放值
                  .translate(-width / 2, -height / 2)  // 再移回原位
            );
 
@@ -55,9 +55,11 @@ const CitationNetwork = ({ query, topK }) => {
         const simulation = d3.forceSimulation(data.nodes)
             .force("link", d3.forceLink(data.edges)
                 .id(d => d.id)
-                .distance(150))
-            .force("charge", d3.forceManyBody().strength(-500))
-            .force("center", d3.forceCenter(width / 2, height / 2));  // 确保力导向图的中心与视图中心对齐
+                .distance(250))  // 增加连线长度，从150改为250
+            .force("charge", d3.forceManyBody().strength(-100))  // 增加斥力，让节点分散得更开
+            .force("center", d3.forceCenter(width / 2, height / 2))
+            // 添加碰撞力，防止节点重叠
+            .force("collision", d3.forceCollide().radius(d => Math.sqrt(d.citations_count || 1) * 2 + 5));  // 从 4 改为 2，间距从 10 改为 5
 
         // 定义颜色比例尺
         const colorScale = d3.scaleSequential()
@@ -70,9 +72,9 @@ const CitationNetwork = ({ query, topK }) => {
             .data(data.edges)
             .enter()
             .append("line")
-            .attr("stroke", "#2a5a8c")  // 更深的蓝色
-            .attr("stroke-opacity", 0.6)
-            .attr("stroke-width", 2);
+            .attr("stroke", "#2a5a8c")  // 保持蓝色
+            .attr("stroke-opacity", 0.8)  // 增加不透明度，从0.6改为0.8
+            .attr("stroke-width", 3);  // 增加线宽，从2改为3
 
         // 绘制节点
         const nodes = container.append("g")
@@ -80,11 +82,11 @@ const CitationNetwork = ({ query, topK }) => {
             .data(data.nodes)
             .enter()
             .append("circle")
-            .attr("r", d => Math.sqrt(d.citations_count || 1) * 4)  // 增大节点
+            .attr("r", d => Math.sqrt(d.citations_count || 1) * 2)
             .attr("fill", d => colorScale(d.year))
             .attr("stroke", "#fff")
             .attr("stroke-width", 2)
-            .call(drag(simulation));
+            // .call(drag(simulation));
 
         // 添加节点标签
         const labels = container.append("g")
@@ -132,29 +134,32 @@ const CitationNetwork = ({ query, topK }) => {
     };
 
     // 拖拽功能
-    const drag = (simulation) => {
-        const dragstarted = (event) => {
-            if (!event.active) simulation.alphaTarget(0.3).restart();
-            event.subject.fx = event.subject.x;
-            event.subject.fy = event.subject.y;
-        };
+    // const drag = (simulation) => {
+    //     const dragstarted = (event) => {
+    //         event.sourceEvent.stopPropagation();  // 阻止事件冒泡，防止触发缩放
+    //         if (!event.active) simulation.alphaTarget(0.3).restart();
+    //         event.subject.fx = event.subject.x;
+    //         event.subject.fy = event.subject.y;
+    //     };
 
-        const dragged = (event) => {
-            event.subject.fx = event.x;
-            event.subject.fy = event.y;
-        };
+    //     const dragged = (event) => {
+    //         event.sourceEvent.stopPropagation();  // 阻止事件冒泡，防止触发缩放
+    //         event.subject.fx = event.x;
+    //         event.subject.fy = event.y;
+    //     };
 
-        const dragended = (event) => {
-            if (!event.active) simulation.alphaTarget(0);
-            event.subject.fx = null;
-            event.subject.fy = null;
-        };
+    //     const dragended = (event) => {
+    //         event.sourceEvent.stopPropagation();  // 阻止事件冒泡，防止触发缩放
+    //         if (!event.active) simulation.alphaTarget(0);
+    //         event.subject.fx = null;
+    //         event.subject.fy = null;
+    //     };
 
-        return d3.drag()
-            .on("start", dragstarted)
-            .on("drag", dragged)
-            .on("end", dragended);
-    };
+    //     return d3.drag()
+    //         .on("start", dragstarted)
+    //         .on("drag", dragged)
+    //         .on("end", dragended);
+    // };
 
     return (
         <div className="citation-network">
