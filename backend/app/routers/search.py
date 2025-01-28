@@ -16,7 +16,7 @@ from app.services.fetcher import (
     # 如果你还用到了 fetch_paper_details 等，可一并导入
 )
 from app.services.scorer import calculate_paper_score
-from app.routers.paper import get_paper_citations  # 添加这行导入
+from app.routers.paper import get_paper_citations, get_paper_references  # 添加 get_paper_references
 
 logger = logging.getLogger(__name__)
 router = APIRouter()
@@ -245,19 +245,33 @@ async def search_papers(
             logger.info("====== 获取引用网络 ======")
             for paper in processed_papers[:5]:
                 try:
-                    paper_id = paper.get('id')  # 改用 'id' 而不是 'paperId'
+                    paper_id = paper.get('id')
                     logger.info(f"论文: {paper.get('title')}")
-                    logger.info(f"尝试获取论文ID: {paper_id} 的引用信息")
+                    
+                    # 获取引用该论文的文章
+                    logger.info(f"尝试获取引用该论文的文章列表")
                     if paper_id:
                         citations = await get_paper_citations(paper_id)
                         if citations:
                             logger.info(f"""
-                            引用数量: {len(citations)}
-                            前5篇引用论文:
+                            被引用数量: {len(citations)}
+                            前5篇引用该论文的文章:
                             {', '.join([cite['citingPaper']['title'] for cite in citations[:5]])}
                             """)
+                    
+                    # 获取该论文引用的文章
+                    logger.info(f"尝试获取该论文的参考文献列表")
+                    if paper_id:
+                        references = await get_paper_references(paper_id)
+                        if references:
+                            logger.info(f"""
+                            参考文献数量: {len(references)}
+                            前5篇参考文献:
+                            {', '.join([ref['citedPaper']['title'] for ref in references[:5]])}
+                            """)
+                
                 except Exception as e:
-                    logger.error(f"获取论文 {paper.get('title')} 的引用信息失败: {str(e)}")
+                    logger.error(f"获取论文 {paper.get('title')} 的引用网络失败: {str(e)}")
                     continue
 
             return {
