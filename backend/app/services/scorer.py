@@ -2,7 +2,7 @@
 import numpy as np
 from datetime import datetime
 
-def calculate_paper_score(paper):
+def calculate_paper_score(paper: dict) -> float:
     """
     计算论文的重要性分数
     
@@ -51,9 +51,11 @@ def calculate_paper_score(paper):
             score += weight
             break
 
-    # 4. 摘要加分 (新增)
-    abstract = paper.get("abstract", "").strip()
-    if abstract and abstract.lower() not in ["no abstract", "暂无摘要"]:
-        score += 10  # 有摘要加10分
+    # 4. 摘要加分 (修改这部分)
+    abstract = paper.get("abstract", "")
+    if abstract and isinstance(abstract, str):  # 添加类型检查
+        abstract = abstract.strip()
+        if abstract.lower() not in ["no abstract", "暂无摘要"]:
+            score += 10  # 有摘要加10分
 
     return score

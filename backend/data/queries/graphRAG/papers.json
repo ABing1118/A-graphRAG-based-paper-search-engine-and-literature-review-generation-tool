@@ -1,0 +1,1012 @@
+[
+  {
+    "paperId": "12fb0a058ad69f85a2b59cf7a52a29cbb01d8a0b",
+    "url": "https://www.semanticscholar.org/paper/12fb0a058ad69f85a2b59cf7a52a29cbb01d8a0b",
+    "title": "Retrieval-Augmented Generation with Graphs (GraphRAG)",
+    "abstract": "Retrieval-augmented generation (RAG) is a powerful technique that enhances downstream task execution by retrieving additional information, such as knowledge, skills, and tools from external sources. Graph, by its intrinsic\"nodes connected by edges\"nature, encodes massive heterogeneous and relational information, making it a golden resource for RAG in tremendous real-world applications. As a result, we have recently witnessed increasing attention on equipping RAG with Graph, i.e., GraphRAG. However, unlike conventional RAG, where the retriever, generator, and external data sources can be uniformly designed in the neural-embedding space, the uniqueness of graph-structured data, such as diverse-formatted and domain-specific relational knowledge, poses unique and significant challenges when designing GraphRAG for different domains. Given the broad applicability, the associated design challenges, and the recent surge in GraphRAG, a systematic and up-to-date survey of its key concepts and techniques is urgently desired. Following this motivation, we present a comprehensive and up-to-date survey on GraphRAG. Our survey first proposes a holistic GraphRAG framework by defining its key components, including query processor, retriever, organizer, generator, and data source. Furthermore, recognizing that graphs in different domains exhibit distinct relational patterns and require dedicated designs, we review GraphRAG techniques uniquely tailored to each domain. Finally, we discuss research challenges and brainstorm directions to inspire cross-disciplinary opportunities. Our survey repository is publicly maintained at https://github.com/Graph-RAG/GraphRAG/.",
+    "venue": "",
+    "year": 2024,
+    "citationCount": 1,
+    "openAccessPdf": null,
+    "fieldsOfStudy": [
+      "Computer Science"
+    ],
+    "publicationTypes": [
+      "Review"
+    ],
+    "publicationDate": "2024-12-31",
+    "authors": [
+      {
+        "authorId": "2049039664",
+        "name": "Haoyu Han"
+      },
+      {
+        "authorId": "2328469713",
+        "name": "Yu Wang"
+      },
+      {
+        "authorId": "93719189",
+        "name": "Harry Shomer"
+      },
+      {
+        "authorId": "2338271219",
+        "name": "Kai Guo"
+      },
+      {
+        "authorId": null,
+        "name": "Jiayuan Ding"
+      },
+      {
+        "authorId": "2338562947",
+        "name": "Yongjia Lei"
+      },
+      {
+        "authorId": "3285377",
+        "name": "M. Halappanavar"
+      },
+      {
+        "authorId": "2238208116",
+        "name": "Ryan Rossi"
+      },
+      {
+        "authorId": "2293143373",
+        "name": "Subhabrata Mukherjee"
+      },
+      {
+        "authorId": "2301317582",
+        "name": "Xianfeng Tang"
+      },
+      {
+        "authorId": "2338887092",
+        "name": "Qianru He"
+      },
+      {
+        "authorId": "2293482433",
+        "name": "Zhigang Hua"
+      },
+      {
+        "authorId": "2338267824",
+        "name": "Bo Long"
+      },
+      {
+        "authorId": "2256340293",
+        "name": "Tong Zhao"
+      },
+      {
+        "authorId": "2253409421",
+        "name": "Neil Shah"
+      },
+      {
+        "authorId": "2284688977",
+        "name": "Amin Javari"
+      },
+      {
+        "authorId": "2338358907",
+        "name": "Yinglong Xia"
+      },
+      {
+        "authorId": "2330147642",
+        "name": "Jiliang Tang"
+      }
+    ],
+    "source": "semantic_scholar"
+  },
+  {
+    "paperId": "c8d45e2f7afa29de40a524da8d0466e85a970f27",
+    "url": "https://www.semanticscholar.org/paper/c8d45e2f7afa29de40a524da8d0466e85a970f27",
+    "title": "Enhancing Structured-Data Retrieval with GraphRAG: Soccer Data Case Study",
+    "abstract": "Extracting meaningful insights from large and complex datasets poses significant challenges, particularly in ensuring the accuracy and relevance of retrieved information. Traditional data retrieval methods such as sequential search and index-based retrieval often fail when handling intricate and interconnected data structures, resulting in incomplete or misleading outputs. To overcome these limitations, we introduce Structured-GraphRAG, a versatile framework designed to enhance information retrieval across structured datasets in natural language queries. Structured-GraphRAG utilizes multiple knowledge graphs, which represent data in a structured format and capture complex relationships between entities, enabling a more nuanced and comprehensive retrieval of information. This graph-based approach reduces the risk of errors in language model outputs by grounding responses in a structured format, thereby enhancing the reliability of results. We demonstrate the effectiveness of Structured-GraphRAG by comparing its performance with that of a recently published method using traditional retrieval-augmented generation. Our findings show that Structured-GraphRAG significantly improves query processing efficiency and reduces response times. While our case study focuses on soccer data, the framework's design is broadly applicable, offering a powerful tool for data analysis and enhancing language model applications across various structured domains.",
+    "venue": "",
+    "year": 2024,
+    "citationCount": 1,
+    "openAccessPdf": null,
+    "fieldsOfStudy": [
+      "Computer Science"
+    ],
+    "publicationTypes": null,
+    "publicationDate": "2024-09-26",
+    "authors": [
+      {
+        "authorId": "2322990718",
+        "name": "Zahra Sepasdar"
+      },
+      {
+        "authorId": "72173969",
+        "name": "Sushant Gautam"
+      },
+      {
+        "authorId": "2301155271",
+        "name": "Cise Midoglu"
+      },
+      {
+        "authorId": "2200478617",
+        "name": "M. Riegler"
+      },
+      {
+        "authorId": "153100518",
+        "name": "Paal Halvorsen"
+      }
+    ],
+    "source": "semantic_scholar"
+  },
+  {
+    "paperId": "a2a699a52603c8611083974584450c4b6f017de1",
+    "url": "https://www.semanticscholar.org/paper/a2a699a52603c8611083974584450c4b6f017de1",
+    "title": "Tokenvizz: GraphRAG-Inspired Tokenization Tool for Genomic Data Discovery and Visualization",
+    "abstract": "Summary One of the primary challenges in biomedical research is the interpretation of complex genomic relationships and the prediction of functional interactions across the genome. Tokenvizz is a novel tool for genomic analysis that enhances data discovery and visualization by combining GraphRAG-inspired tokenization with graph-based modeling. In Tokenvizz, genomic sequences are represented as graphs, where sequence k-mers (tokens) serve as nodes and attention scores as edge weights, enabling researchers to visually interpret complex, non-linear relationships within DNA sequences. Through a web-based visualization interface, researchers can interactively explore these genomic relationships and extract biologically meaningful insights about regulatory patterns and functional elements. Applied to promoter-enhancer interaction prediction tasks, Tokenvizz outperformed traditional sequential models while providing interpretable insights into genomic features, demonstrating the advantage of graph-based representations for biological discovery. Availability and Implementation Tokenvizz, along with its user guide, is freely accessible on GitHub at: https://github.com/ceragoguztuzun/tokenvizz. ACM Reference Format Çerağ Oğuztüzün, Zhenxiang Gao, and Rong Xu. 2024. Tokenvizz: GraphRAG Inspired Tokenization Tool for Genomic Data Discovery and Visualization. In Proceedings of (Bioinformatics). ACM, New York, NY, USA, 7 pages. https://doi.org/XXXXXXX.XXXXXXX",
+    "venue": "bioRxiv",
+    "year": 2024,
+    "citationCount": 0,
+    "openAccessPdf": {
+      "url": "https://www.biorxiv.org/content/biorxiv/early/2024/12/06/2024.12.03.626631.full.pdf",
+      "status": "GREEN"
+    },
+    "fieldsOfStudy": [
+      "Medicine",
+      "Biology"
+    ],
+    "publicationTypes": [
+      "JournalArticle"
+    ],
+    "publicationDate": "2024-12-06",
+    "authors": [
+      {
+        "authorId": "2122599221",
+        "name": "Çerağ Oğuztüzün"
+      },
+      {
+        "authorId": "2238539857",
+        "name": "Zhenxiang Gao"
+      },
+      {
+        "authorId": "2258303235",
+        "name": "Rong Xu"
+      }
+    ],
+    "source": "semantic_scholar"
+  },
+  {
+    "paperId": "9a32624140aeecf3bbf5639df42a2bab0d1f02d2",
+    "url": "https://www.semanticscholar.org/paper/9a32624140aeecf3bbf5639df42a2bab0d1f02d2",
+    "title": "Equipping Large Language Models with Memories: A GraphRAG Based Approach",
+    "abstract": "Large language models (LLMs) have demonstrated strong capabilities in natural language understanding and generation, but they lack mechanisms to effectively store and retrieve information from past interactions. This problem hinders their potential for building truly conversational applications. To address this problem, we propose an approach to integrating memory into LLMs using GraphRAG, which is a framework that leverages Knowledge Graph and Retrieval Augmented Generation techniques for retrieving historical interactions. By representing the key knowledge contained in the dialogue history as a knowledge graph, we can capture complex relationships between entities and concepts mentioned in previous turns. We also introduce a mechanism for effectively accessing relevant nodes with the current query, allowing for more focused and efficient recall of past interactions. We evaluate our approach on benchmark datasets for question answering, text summarization, and dialogue systems, demonstrating significant improvements in performance compared to baseline LLMs. Our findings highlight the potential of GraphRAG as a powerful tool for equipping LLMs with robust memory capabilities, paving the way for more sophisticated and context-aware AI applications",
+    "venue": "IEEE International Conference on Systems, Man and Cybernetics",
+    "year": 2024,
+    "citationCount": 0,
+    "openAccessPdf": null,
+    "fieldsOfStudy": null,
+    "publicationTypes": [
+      "Conference"
+    ],
+    "publicationDate": "2024-10-06",
+    "authors": [
+      {
+        "authorId": "2341450583",
+        "name": "Tie Li"
+      }
+    ],
+    "source": "semantic_scholar"
+  },
+  {
+    "paperId": "bbb6f7c714e80e524877f5cc832b69e0774f6c8d",
+    "url": "https://www.semanticscholar.org/paper/bbb6f7c714e80e524877f5cc832b69e0774f6c8d",
+    "title": "LEGO-GraphRAG: Modularizing Graph-based Retrieval-Augmented Generation for Design Space Exploration",
+    "abstract": "GraphRAG integrates (knowledge) graphs with large language models (LLMs) to improve reasoning accuracy and contextual relevance. Despite its promising applications and strong relevance to multiple research communities, such as databases and natural language processing, GraphRAG currently lacks modular workflow analysis, systematic solution frameworks, and insightful empirical studies. To bridge these gaps, we propose LEGO-GraphRAG, a modular framework that enables: 1) fine-grained decomposition of the GraphRAG workflow, 2) systematic classification of existing techniques and implemented GraphRAG instances, and 3) creation of new GraphRAG instances. Our framework facilitates comprehensive empirical studies of GraphRAG on large-scale real-world graphs and diverse query sets, revealing insights into balancing reasoning quality, runtime efficiency, and token or GPU cost, that are essential for building advanced GraphRAG systems.",
+    "venue": "arXiv.org",
+    "year": 2024,
+    "citationCount": 0,
+    "openAccessPdf": null,
+    "fieldsOfStudy": [
+      "Computer Science"
+    ],
+    "publicationTypes": [
+      "JournalArticle"
+    ],
+    "publicationDate": "2024-11-06",
+    "authors": [
+      {
+        "authorId": "2112823208",
+        "name": "Yukun Cao"
+      },
+      {
+        "authorId": "2319809105",
+        "name": "Zengyi Gao"
+      },
+      {
+        "authorId": "2330219498",
+        "name": "Zhiyang Li"
+      },
+      {
+        "authorId": "2279249222",
+        "name": "Xike Xie"
+      },
+      {
+        "authorId": "2288042256",
+        "name": "S. K. Zhou"
+      }
+    ],
+    "source": "semantic_scholar"
+  },
+  {
+    "paperId": "4c404a9d739c52abffa33b55a2fb0cef25e06cae",
+    "url": "https://www.semanticscholar.org/paper/4c404a9d739c52abffa33b55a2fb0cef25e06cae",
+    "title": "Myanmar Law Cases and Proceedings Retrieval with GraphRAG",
+    "abstract": "Legal document retrieval poses various challenges due to diverse linguistic and domain-specific complexities. The GraphRAG approach represents a significant advance in retrieving and summarizing archival case documents. It deals with the difficulties of accessing relevant legal information with inherent complexities. Further, it improves the efficiency of information retrieval by using graphical representations of legal texts. It enables lawyers to navigate the complex relationships between cases, statutes, and legal principles. The framework facilitates extracting relevant information and incorporates advanced natural language processing techniques for efficient summarization. It enables users to understand key legal concepts quickly. By fostering interdisciplinary collaboration and focusing on user-centered design, GraphRAG can significantly improve access to legal information, thereby meeting the growing needs of the legal community. This paper proposes a graph-rag-based approach for multilingual legal information retrieval (ML2IR), focusing on the Burmese language. Our graph-rag-based approach addresses the hallucination problem, crucial in legal information retrieval. Additionally, our work identifies important nodes and establishes contextual relationships, leading to higher accuracy and effective information retrieval.",
+    "venue": "BigData Congress [Services Society]",
+    "year": 2024,
+    "citationCount": 0,
+    "openAccessPdf": null,
+    "fieldsOfStudy": null,
+    "publicationTypes": [
+      "Conference"
+    ],
+    "publicationDate": "2024-12-15",
+    "authors": [
+      {
+        "authorId": "2332352981",
+        "name": "Shoon Lei Phyu"
+      },
+      {
+        "authorId": "2340516663",
+        "name": "Shuhayel Jaman"
+      },
+      {
+        "authorId": "2332355406",
+        "name": "Murataly Uchkempirov"
+      },
+      {
+        "authorId": "2332355781",
+        "name": "Parag Kulkarni"
+      }
+    ],
+    "source": "semantic_scholar"
+  },
+  {
+    "paperId": "02c3b97c28b0ef3720a574be1eab6e6ea930e32b",
+    "url": "https://www.semanticscholar.org/paper/02c3b97c28b0ef3720a574be1eab6e6ea930e32b",
+    "title": "Enhancing Startup Success Predictions in Venture Capital: A GraphRAG Augmented Multivariate Time Series Method",
+    "abstract": "In the Venture Capital (VC) industry, predicting the success of startups is challenging due to limited financial data and the need for subjective revenue forecasts. Previous methods based on time series analysis often fall short as they fail to incorporate crucial inter-company relationships such as competition and collaboration. To fill the gap, this paper aims to introduce a novel approach using GraphRAG augmented time series model. With GraphRAG, time series predictive methods are enhanced by integrating these vital relationships into the analysis framework, allowing for a more dynamic understanding of the startup ecosystem in venture capital. Our experimental results demonstrate that our model significantly outperforms previous models in startup success predictions.",
+    "venue": "arXiv.org",
+    "year": 2024,
+    "citationCount": 0,
+    "openAccessPdf": null,
+    "fieldsOfStudy": [
+      "Computer Science",
+      "Economics"
+    ],
+    "publicationTypes": [
+      "JournalArticle"
+    ],
+    "publicationDate": "2024-08-18",
+    "authors": [
+      {
+        "authorId": "2301532663",
+        "name": "Zitian Gao"
+      },
+      {
+        "authorId": "2316513973",
+        "name": "Yihao Xiao"
+      }
+    ],
+    "source": "semantic_scholar"
+  },
+  {
+    "paperId": "06802ed63fc6dfe85b18800918cc55a9526d2843",
+    "url": "https://www.semanticscholar.org/paper/06802ed63fc6dfe85b18800918cc55a9526d2843",
+    "title": "Soccer-GraphRAG: Applications of GraphRAG in Soccer",
+    "abstract": null,
+    "venue": "IRonGraphs",
+    "year": 2024,
+    "citationCount": 2,
+    "openAccessPdf": null,
+    "fieldsOfStudy": [
+      "Computer Science"
+    ],
+    "publicationTypes": [
+      "JournalArticle"
+    ],
+    "publicationDate": null,
+    "authors": [
+      {
+        "authorId": "2322990718",
+        "name": "Zahra Sepasdar"
+      },
+      {
+        "authorId": "72173969",
+        "name": "Sushant Gautam"
+      },
+      {
+        "authorId": "2301155271",
+        "name": "Cise Midoglu"
+      },
+      {
+        "authorId": "2274339086",
+        "name": "M. Riegler"
+      },
+      {
+        "authorId": "2284528233",
+        "name": "Pål Halvorsen"
+      }
+    ],
+    "source": "semantic_scholar"
+  },
+  {
+    "paperId": "7f38c7259605869589fce61640238f4734712de9",
+    "url": "https://www.semanticscholar.org/paper/7f38c7259605869589fce61640238f4734712de9",
+    "title": "Mixture-of-PageRanks: Replacing Long-Context with Real-Time, Sparse GraphRAG",
+    "abstract": "Recent advances have extended the context window of frontier LLMs dramatically, from a few thousand tokens up to millions, enabling entire books and codebases to fit into context. However, the compute costs of inferencing long-context LLMs are massive and often prohibitive in practice. RAG offers an efficient and effective alternative: retrieve and process only the subset of the context most important for the current task. Although promising, recent work applying RAG to long-context tasks has two core limitations: 1) there has been little focus on making the RAG pipeline compute efficient, and 2) such works only test on simple QA tasks, and their performance on more challenging tasks is unclear. To address this, we develop an algorithm based on PageRank, a graph-based retrieval algorithm, which we call mixture-of-PageRanks (MixPR). MixPR uses a mixture of PageRank-based graph-retrieval algorithms implemented using sparse matrices for efficent, cheap retrieval that can deal with a variety of complex tasks. Our MixPR retriever achieves state-of-the-art results across a wide range of long-context benchmark tasks, outperforming both existing RAG methods, specialized retrieval architectures, and long-context LLMs despite being far more compute efficient. Due to using sparse embeddings, our retriever is extremely compute efficient, capable of embedding and retrieving millions of tokens within a few seconds and runs entirely on CPU.",
+    "venue": "arXiv.org",
+    "year": 2024,
+    "citationCount": 0,
+    "openAccessPdf": null,
+    "fieldsOfStudy": [
+      "Computer Science"
+    ],
+    "publicationTypes": [
+      "JournalArticle"
+    ],
+    "publicationDate": "2024-12-08",
+    "authors": [
+      {
+        "authorId": "2304449197",
+        "name": "Nick Alonso"
+      },
+      {
+        "authorId": "150045277",
+        "name": "Beren Millidge"
+      }
+    ],
+    "source": "semantic_scholar"
+  },
+  {
+    "paperId": "26b569dbc4be41fefb885d4c0613ab5dcfbd74b9",
+    "url": "https://www.semanticscholar.org/paper/26b569dbc4be41fefb885d4c0613ab5dcfbd74b9",
+    "title": "Speech Recognition Method Based on GraphRAG",
+    "abstract": null,
+    "venue": "Journal of Engineering Science and Technology Review",
+    "year": 2024,
+    "citationCount": 0,
+    "openAccessPdf": null,
+    "fieldsOfStudy": null,
+    "publicationTypes": [
+      "JournalArticle"
+    ],
+    "publicationDate": "2024-12-01",
+    "authors": [
+      {
+        "authorId": "2339344946",
+        "name": "Wei Zhao"
+      },
+      {
+        "authorId": "2338980546",
+        "name": "Rongsheng Zhao"
+      }
+    ],
+    "source": "semantic_scholar"
+  },
+  {
+    "paperId": "8c45ba370a921328453dc09f2b642943bdb2dd72",
+    "url": "https://www.semanticscholar.org/paper/8c45ba370a921328453dc09f2b642943bdb2dd72",
+    "title": "GraphRAG under Fire",
+    "abstract": "GraphRAG advances retrieval-augmented generation (RAG) by structuring external knowledge as multi-scale knowledge graphs, enabling language models to integrate both broad context and granular details in their reasoning. While GraphRAG has demonstrated success across domains, its security implications remain largely unexplored. To bridge this gap, this work examines GraphRAG's vulnerability to poisoning attacks, uncovering an intriguing security paradox: compared to conventional RAG, GraphRAG's graph-based indexing and retrieval enhance resilience against simple poisoning attacks; meanwhile, the same features also create new attack surfaces. We present GRAGPoison, a novel attack that exploits shared relations in the knowledge graph to craft poisoning text capable of compromising multiple queries simultaneously. GRAGPoison employs three key strategies: i) relation injection to introduce false knowledge, ii) relation enhancement to amplify poisoning influence, and iii) narrative generation to embed malicious content within coherent text. Empirical evaluation across diverse datasets and models shows that GRAGPoison substantially outperforms existing attacks in terms of effectiveness (up to 98% success rate) and scalability (using less than 68% poisoning text). We also explore potential defensive measures and their limitations, identifying promising directions for future research.",
+    "venue": "",
+    "year": 2025,
+    "citationCount": 0,
+    "openAccessPdf": null,
+    "fieldsOfStudy": [
+      "Computer Science"
+    ],
+    "publicationTypes": null,
+    "publicationDate": "2025-01-23",
+    "authors": [
+      {
+        "authorId": null,
+        "name": "Jiacheng Liang"
+      },
+      {
+        "authorId": null,
+        "name": "Yuhui Wang"
+      },
+      {
+        "authorId": "2145413923",
+        "name": "Changjiang Li"
+      },
+      {
+        "authorId": null,
+        "name": "Rongyi Zhu"
+      },
+      {
+        "authorId": null,
+        "name": "Tanqiu Jiang"
+      },
+      {
+        "authorId": "2342277698",
+        "name": "Neil Gong"
+      },
+      {
+        "authorId": null,
+        "name": "Ting Wang"
+      }
+    ],
+    "source": "semantic_scholar"
+  },
+  {
+    "paperId": "cd70fe0f6183ec9032e1edcbd24e7e2aa898c04d",
+    "url": "https://www.semanticscholar.org/paper/cd70fe0f6183ec9032e1edcbd24e7e2aa898c04d",
+    "title": "Hybrid large language model approach for prompt and sensitive defect management: A comparative analysis of hybrid, non-hybrid, and GraphRAG approaches",
+    "abstract": null,
+    "venue": "Advanced Engineering Informatics",
+    "year": 2025,
+    "citationCount": 0,
+    "openAccessPdf": null,
+    "fieldsOfStudy": null,
+    "publicationTypes": [
+      "JournalArticle"
+    ],
+    "publicationDate": "2025-03-01",
+    "authors": [
+      {
+        "authorId": "123219074",
+        "name": "Kahyun Jeon"
+      },
+      {
+        "authorId": "2266272542",
+        "name": "Ghang Lee"
+      }
+    ],
+    "source": "semantic_scholar"
+  },
+  {
+    "paperId": "56c891c03138de11b6cac9fdd130d399438ee62d",
+    "url": "https://www.semanticscholar.org/paper/56c891c03138de11b6cac9fdd130d399438ee62d",
+    "title": "LEGO-GraphRAG: Modularizing Graph-based Retrieval-Augmented Generation for Design Space Exploration [Preliminary Version]",
+    "abstract": "GraphRAG addresses significant challenges in Retrieval-Augmented Generation (RAG) by leveraging graphs with embedded knowledge to enhance the reasoning capabilities of Large Language Models (LLMs). Despite its promising potential, the GraphRAG community currently lacks a unified framework for fine-grained decomposition of the graph-based knowledge retrieval process. Furthermore, there is no systematic categorization or evaluation of existing solutions within the retrieval process. In this paper, we present LEGO-GraphRAG , a modular framework that decomposes the retrieval process of GraphRAG into three interconnected modules: subgraph-extraction , path-filtering , and path-refinement . We systematically summarize and classify the algorithms and neural network (NN) models relevant to each module, providing a clearer understanding of the design space for GraphRAG instances. Additionally, we identify key design factors, such as Graph Coupling and Computational Cost , that influence the effectiveness of GraphRAG implementations. Through extensive empirical studies, we construct high-quality GraphRAG instances using a representative selection of solutions and analyze their impact on retrieval and reasoning performance. Our findings offer critical insights into optimizing GraphRAG instance design, ultimately contributing to the advancement of more accurate and contextually relevant LLM applications.",
+    "venue": "",
+    "year": null,
+    "citationCount": 0,
+    "openAccessPdf": null,
+    "fieldsOfStudy": null,
+    "publicationTypes": null,
+    "publicationDate": null,
+    "authors": [
+      {
+        "authorId": "2112823208",
+        "name": "Yukun Cao"
+      },
+      {
+        "authorId": "2319809105",
+        "name": "Zengyi Gao"
+      },
+      {
+        "authorId": "2330219498",
+        "name": "Zhiyang Li"
+      },
+      {
+        "authorId": "2340685559",
+        "name": "†. XikeXie"
+      },
+      {
+        "authorId": "2288042256",
+        "name": "S. K. Zhou"
+      },
+      {
+        "authorId": "2340686400",
+        "name": "S. Kevin"
+      },
+      {
+        "authorId": "2340685039",
+        "name": "LEGO-GraphRAG"
+      },
+      {
+        "authorId": "2341021214",
+        "name": "Kevin Zhou"
+      }
+    ],
+    "source": "semantic_scholar"
+  },
+  {
+    "paperId": "9ab45aa875b56335303398e84a59a3756cd9d530",
+    "url": "https://www.semanticscholar.org/paper/9ab45aa875b56335303398e84a59a3756cd9d530",
+    "title": "Graph Retrieval-Augmented Generation: A Survey",
+    "abstract": "Recently, Retrieval-Augmented Generation (RAG) has achieved remarkable success in addressing the challenges of Large Language Models (LLMs) without necessitating retraining. By referencing an external knowledge base, RAG refines LLM outputs, effectively mitigating issues such as ``hallucination'', lack of domain-specific knowledge, and outdated information. However, the complex structure of relationships among different entities in databases presents challenges for RAG systems. In response, GraphRAG leverages structural information across entities to enable more precise and comprehensive retrieval, capturing relational knowledge and facilitating more accurate, context-aware responses. Given the novelty and potential of GraphRAG, a systematic review of current technologies is imperative. This paper provides the first comprehensive overview of GraphRAG methodologies. We formalize the GraphRAG workflow, encompassing Graph-Based Indexing, Graph-Guided Retrieval, and Graph-Enhanced Generation. We then outline the core technologies and training methods at each stage. Additionally, we examine downstream tasks, application domains, evaluation methodologies, and industrial use cases of GraphRAG. Finally, we explore future research directions to inspire further inquiries and advance progress in the field. In order to track recent progress in this field, we set up a repository at \\url{https://github.com/pengboci/GraphRAG-Survey}.",
+    "venue": "arXiv.org",
+    "year": 2024,
+    "citationCount": 16,
+    "openAccessPdf": null,
+    "fieldsOfStudy": [
+      "Computer Science"
+    ],
+    "publicationTypes": [
+      "JournalArticle",
+      "Review"
+    ],
+    "publicationDate": "2024-08-15",
+    "authors": [
+      {
+        "authorId": "2314827534",
+        "name": "Boci Peng"
+      },
+      {
+        "authorId": "2257195454",
+        "name": "Yun Zhu"
+      },
+      {
+        "authorId": "2313693489",
+        "name": "Yongchao Liu"
+      },
+      {
+        "authorId": "2316431106",
+        "name": "Xiaohe Bo"
+      },
+      {
+        "authorId": "2313685962",
+        "name": "Haizhou Shi"
+      },
+      {
+        "authorId": "2313754922",
+        "name": "Chuntao Hong"
+      },
+      {
+        "authorId": "2316581992",
+        "name": "Yan Zhang"
+      },
+      {
+        "authorId": "2257997261",
+        "name": "Siliang Tang"
+      }
+    ],
+    "source": "semantic_scholar",
+    "score": 68.33213344056216
+  },
+  {
+    "paperId": "9af8bccf3e42996cbb198a6ceccafa2a084689f6",
+    "url": "https://www.semanticscholar.org/paper/9af8bccf3e42996cbb198a6ceccafa2a084689f6",
+    "title": "HybridRAG: Integrating Knowledge Graphs and Vector Retrieval Augmented Generation for Efficient Information Extraction",
+    "abstract": "Extraction and interpretation of intricate information from unstructured text data arising in financial applications, such as earnings call transcripts, present substantial challenges to large language models (LLMs) even using the current best practices to use Retrieval Augmented Generation (RAG) (referred to as VectorRAG techniques which utilize vector databases for information retrieval) due to challenges such as domain specific terminology and complex formats of the documents. We introduce a novel approach based on a combination, called HybridRAG, of the Knowledge Graphs (KGs) based RAG techniques (called GraphRAG) and VectorRAG techniques to enhance question-answer (Q&A) systems for information extraction from financial documents that is shown to be capable of generating accurate and contextually relevant answers. Using experiments on a set of financial earning call transcripts documents which come in the form of Q&A format, and hence provide a natural set of pairs of ground-truth Q&As, we show that HybridRAG which retrieves context from both vector database and KG outperforms both traditional VectorRAG and GraphRAG individually when evaluated at both the retrieval and generation stages in terms of retrieval accuracy and answer generation. The proposed technique has applications beyond the financial domain",
+    "venue": "International Conference on AI in Finance",
+    "year": 2024,
+    "citationCount": 12,
+    "openAccessPdf": null,
+    "fieldsOfStudy": [
+      "Computer Science",
+      "Economics",
+      "Mathematics"
+    ],
+    "publicationTypes": [
+      "JournalArticle"
+    ],
+    "publicationDate": "2024-08-09",
+    "authors": [
+      {
+        "authorId": "23570698",
+        "name": "Bhaskarjit Sarmah"
+      },
+      {
+        "authorId": "2315812262",
+        "name": "Benika Hall"
+      },
+      {
+        "authorId": "2315811806",
+        "name": "Rohan Rao"
+      },
+      {
+        "authorId": "2315808930",
+        "name": "Sunil Patel"
+      },
+      {
+        "authorId": "2258960763",
+        "name": "Stefano Pasquali"
+      },
+      {
+        "authorId": "2258962314",
+        "name": "Dhagash Mehta"
+      }
+    ],
+    "source": "semantic_scholar",
+    "score": 65.64949357461536
+  },
+  {
+    "paperId": "64fed9e0be009f064b72cdcb7d1fadeb28bea3b0",
+    "url": "https://www.semanticscholar.org/paper/64fed9e0be009f064b72cdcb7d1fadeb28bea3b0",
+    "title": "Medical Graph RAG: Towards Safe Medical Large Language Model via Graph Retrieval-Augmented Generation",
+    "abstract": "We introduce a novel graph-based Retrieval-Augmented Generation (RAG) framework specifically designed for the medical domain, called \\textbf{MedGraphRAG}, aimed at enhancing Large Language Model (LLM) capabilities for generating evidence-based medical responses, thereby improving safety and reliability when handling private medical data. Graph-based RAG (GraphRAG) leverages LLMs to organize RAG data into graphs, showing strong potential for gaining holistic insights from long-form documents. However, its standard implementation is overly complex for general use and lacks the ability to generate evidence-based responses, limiting its effectiveness in the medical field. To extend the capabilities of GraphRAG to the medical domain, we propose unique Triple Graph Construction and U-Retrieval techniques over it. In our graph construction, we create a triple-linked structure that connects user documents to credible medical sources and controlled vocabularies. In the retrieval process, we propose U-Retrieval which combines Top-down Precise Retrieval with Bottom-up Response Refinement to balance global context awareness with precise indexing. These effort enable both source information retrieval and comprehensive response generation. Our approach is validated on 9 medical Q\\&A benchmarks, 2 health fact-checking benchmarks, and one collected dataset testing long-form generation. The results show that MedGraphRAG consistently outperforms state-of-the-art models across all benchmarks, while also ensuring that responses include credible source documentation and definitions. Our code is released at: https://github.com/MedicineToken/Medical-Graph-RAG.",
+    "venue": "arXiv.org",
+    "year": 2024,
+    "citationCount": 6,
+    "openAccessPdf": null,
+    "fieldsOfStudy": [
+      "Computer Science"
+    ],
+    "publicationTypes": [
+      "JournalArticle"
+    ],
+    "publicationDate": "2024-08-08",
+    "authors": [
+      {
+        "authorId": "2290900099",
+        "name": "Junde Wu"
+      },
+      {
+        "authorId": "2275784890",
+        "name": "Jiayuan Zhu"
+      },
+      {
+        "authorId": "2316017828",
+        "name": "Yunli Qi"
+      }
+    ],
+    "source": "semantic_scholar"
+  },
+  {
+    "paperId": "908d45b0d2b88ba72ee501c368eb618d29d61ce0",
+    "url": "https://www.semanticscholar.org/paper/908d45b0d2b88ba72ee501c368eb618d29d61ce0",
+    "title": "A Survey of Graph Retrieval-Augmented Generation for Customized Large Language Models",
+    "abstract": "Large language models (LLMs) have demonstrated remarkable capabilities in a wide range of tasks, yet their application to specialized domains remains challenging due to the need for deep expertise. Retrieval-augmented generation (RAG) has emerged as a promising solution to customize LLMs for professional fields by seamlessly integrating external knowledge bases, enabling real-time access to domain-specific expertise during inference. Despite its potential, traditional RAG systems, based on flat text retrieval, face three critical challenges: (i) complex query understanding in professional contexts, (ii) difficulties in knowledge integration across distributed sources, and (iii) system efficiency bottlenecks at scale. This survey presents a systematic analysis of Graph-based Retrieval-Augmented Generation (GraphRAG), a new paradigm that revolutionizes domain-specific LLM applications. GraphRAG addresses traditional RAG limitations through three key innovations: (i) graph-structured knowledge representation that explicitly captures entity relationships and domain hierarchies, (ii) efficient graph-based retrieval techniques that enable context-preserving knowledge retrieval with multihop reasoning ability, and (iii) structure-aware knowledge integration algorithms that leverage retrieved knowledge for accurate and logical coherent generation of LLMs. In this survey, we systematically analyze the technical foundations of GraphRAG and examine current implementations across various professional domains, identifying key technical challenges and promising research directions. All the related resources of GraphRAG, including research papers, open-source data, and projects, are collected for the community in \\textcolor{blue}{\\url{https://github.com/DEEP-PolyU/Awesome-GraphRAG}}.",
+    "venue": "",
+    "year": 2025,
+    "citationCount": 0,
+    "openAccessPdf": null,
+    "fieldsOfStudy": [
+      "Computer Science"
+    ],
+    "publicationTypes": [
+      "Review"
+    ],
+    "publicationDate": "2025-01-21",
+    "authors": [
+      {
+        "authorId": "2172162773",
+        "name": "Qinggang Zhang"
+      },
+      {
+        "authorId": null,
+        "name": "Shengyuan Chen"
+      },
+      {
+        "authorId": "2155460174",
+        "name": "Yuan-Qi Bei"
+      },
+      {
+        "authorId": null,
+        "name": "Zheng Yuan"
+      },
+      {
+        "authorId": null,
+        "name": "Huachi Zhou"
+      },
+      {
+        "authorId": null,
+        "name": "Zijin Hong"
+      },
+      {
+        "authorId": "2171902940",
+        "name": "Junnan Dong"
+      },
+      {
+        "authorId": null,
+        "name": "Hao Chen"
+      },
+      {
+        "authorId": "2342359893",
+        "name": "Yi Chang"
+      },
+      {
+        "authorId": "2263873098",
+        "name": "Xiao Huang"
+      }
+    ],
+    "source": "semantic_scholar"
+  },
+  {
+    "paperId": "a94f97e52d35d0fa91eb42dd40bfd39a15522acf",
+    "url": "https://www.semanticscholar.org/paper/a94f97e52d35d0fa91eb42dd40bfd39a15522acf",
+    "title": "FastRAG: Retrieval Augmented Generation for Semi-structured Data",
+    "abstract": "Efficiently processing and interpreting network data is critical for the operation of increasingly complex networks. Recent advances in Large Language Models (LLM) and Retrieval-Augmented Generation (RAG) techniques have improved data processing in network management. However, existing RAG methods like VectorRAG and GraphRAG struggle with the complexity and implicit nature of semi-structured technical data, leading to inefficiencies in time, cost, and retrieval. This paper introduces FastRAG, a novel RAG approach designed for semi-structured data. FastRAG employs schema learning and script learning to extract and structure data without needing to submit entire data sources to an LLM. It integrates text search with knowledge graph (KG) querying to improve accuracy in retrieving context-rich information. Evaluation results demonstrate that FastRAG provides accurate question answering, while improving up to 90% in time and 85% in cost compared to GraphRAG.",
+    "venue": "arXiv.org",
+    "year": 2024,
+    "citationCount": 0,
+    "openAccessPdf": null,
+    "fieldsOfStudy": [
+      "Computer Science"
+    ],
+    "publicationTypes": [
+      "JournalArticle"
+    ],
+    "publicationDate": "2024-11-21",
+    "authors": [
+      {
+        "authorId": "71801639",
+        "name": "Amar Abane"
+      },
+      {
+        "authorId": "2294766060",
+        "name": "Anis Bekri"
+      },
+      {
+        "authorId": "2279743471",
+        "name": "Abdella Battou"
+      }
+    ],
+    "source": "semantic_scholar"
+  },
+  {
+    "paperId": "ec9feb7b0259e60befbb3ae1012c38bc898ce9dc",
+    "url": "https://www.semanticscholar.org/paper/ec9feb7b0259e60befbb3ae1012c38bc898ce9dc",
+    "title": "Generating Knowledge Graphs from Large Language Models: A Comparative Study of GPT-4, LLaMA 2, and BERT",
+    "abstract": "Knowledge Graphs (KGs) are essential for the functionality of GraphRAGs, a form of Retrieval-Augmented Generative Systems (RAGs) that excel in tasks requiring structured reasoning and semantic understanding. However, creating KGs for GraphRAGs remains a significant challenge due to accuracy and scalability limitations of traditional methods. This paper introduces a novel approach leveraging large language models (LLMs) like GPT-4, LLaMA 2 (13B), and BERT to generate KGs directly from unstructured data, bypassing traditional pipelines. Using metrics such as Precision, Recall, F1-Score, Graph Edit Distance, and Semantic Similarity, we evaluate the models' ability to generate high-quality KGs. Results demonstrate that GPT-4 achieves superior semantic fidelity and structural accuracy, LLaMA 2 excels in lightweight, domain-specific graphs, and BERT provides insights into challenges in entity-relationship modeling. This study underscores the potential of LLMs to streamline KG creation and enhance GraphRAG accessibility for real-world applications, while setting a foundation for future advancements.",
+    "venue": "arXiv.org",
+    "year": 2024,
+    "citationCount": 0,
+    "openAccessPdf": null,
+    "fieldsOfStudy": [
+      "Computer Science"
+    ],
+    "publicationTypes": [
+      "JournalArticle"
+    ],
+    "publicationDate": "2024-12-10",
+    "authors": [
+      {
+        "authorId": "2330184226",
+        "name": "Ahan Bhatt"
+      },
+      {
+        "authorId": "2330588162",
+        "name": "Nandan Vaghela"
+      },
+      {
+        "authorId": "2334569989",
+        "name": "Kush Dudhia"
+      }
+    ],
+    "source": "semantic_scholar"
+  },
+  {
+    "paperId": "f8ec9ccd19facdf822b9c25dd83ce90b22abae09",
+    "url": "https://www.semanticscholar.org/paper/f8ec9ccd19facdf822b9c25dd83ce90b22abae09",
+    "title": "Development of an Intelligent Coal Production and Operation Platform Based on a Real-Time Data Warehouse and AI Model",
+    "abstract": "Smart mining solutions currently suffer from inadequate big data support and insufficient AI applications. The main reason for these limitations is the absence of a comprehensive industrial internet cloud platform tailored for the coal industry, which restricts resource integration. This paper presents the development of an innovative platform designed to enhance safety, operational efficiency, and automation in fully mechanized coal mining in China. This platform integrates cloud edge computing, real-time data processing, and AI-driven analytics to improve decision-making and maintenance strategies. Several AI models have been developed for the proactive maintenance of comprehensive mining face equipment, including early warnings for periodic weighting and the detection of common faults such as those in the shearer, hydraulic support, and conveyor. The platform leverages large-scale knowledge graph models and Graph Retrieval-Augmented Generation (GraphRAG) technology to build structured knowledge graphs. This facilitates intelligent Q&A capabilities and precise fault diagnosis, thereby enhancing system responsiveness and improving the accuracy of fault resolution. The practical process of implementing such a platform primarily based on open-source components is summarized in this paper.",
+    "venue": "Energies",
+    "year": 2024,
+    "citationCount": 0,
+    "openAccessPdf": null,
+    "fieldsOfStudy": null,
+    "publicationTypes": [
+      "JournalArticle"
+    ],
+    "publicationDate": "2024-10-19",
+    "authors": [
+      {
+        "authorId": "2327143374",
+        "name": "Yongtao Wang"
+      },
+      {
+        "authorId": "2327136883",
+        "name": "Yinhui Feng"
+      },
+      {
+        "authorId": "2327138513",
+        "name": "Chengfeng Xi"
+      },
+      {
+        "authorId": "2327206507",
+        "name": "Bochao Wang"
+      },
+      {
+        "authorId": "2328002361",
+        "name": "Bo Tang"
+      },
+      {
+        "authorId": "2327136362",
+        "name": "Yanzhao Geng"
+      }
+    ],
+    "source": "semantic_scholar"
+  },
+  {
+    "paperId": "a68a06fd827d46a00881d09cc20bac1b0513e177",
+    "url": "https://www.semanticscholar.org/paper/a68a06fd827d46a00881d09cc20bac1b0513e177",
+    "title": "CypherBench: Towards Precise Retrieval over Full-scale Modern Knowledge Graphs in the LLM Era",
+    "abstract": "Retrieval from graph data is crucial for augmenting large language models (LLM) with both open-domain knowledge and private enterprise data, and it is also a key component in the recent GraphRAG system (edge et al., 2024). Despite decades of research on knowledge graphs and knowledge base question answering, leading LLM frameworks (e.g. Langchain and LlamaIndex) have only minimal support for retrieval from modern encyclopedic knowledge graphs like Wikidata. In this paper, we analyze the root cause and suggest that modern RDF knowledge graphs (e.g. Wikidata, Freebase) are less efficient for LLMs due to overly large schemas that far exceed the typical LLM context window, use of resource identifiers, overlapping relation types and lack of normalization. As a solution, we propose property graph views on top of the underlying RDF graph that can be efficiently queried by LLMs using Cypher. We instantiated this idea on Wikidata and introduced CypherBench, the first benchmark with 11 large-scale, multi-domain property graphs with 7.8 million entities and over 10,000 questions. To achieve this, we tackled several key challenges, including developing an RDF-to-property graph conversion engine, creating a systematic pipeline for text-to-Cypher task generation, and designing new evaluation metrics.",
+    "venue": "arXiv.org",
+    "year": 2024,
+    "citationCount": 0,
+    "openAccessPdf": null,
+    "fieldsOfStudy": [
+      "Computer Science"
+    ],
+    "publicationTypes": [
+      "JournalArticle"
+    ],
+    "publicationDate": "2024-12-24",
+    "authors": [
+      {
+        "authorId": "2304573633",
+        "name": "Yanlin Feng"
+      },
+      {
+        "authorId": "2337686550",
+        "name": "Simone Papicchio"
+      },
+      {
+        "authorId": "2337785013",
+        "name": "Sajjadur Rahman"
+      }
+    ],
+    "source": "semantic_scholar"
+  },
+  {
+    "paperId": "ffbc55ca90d9735a8ce7588d5c2872bab2dfc0da",
+    "url": "https://www.semanticscholar.org/paper/ffbc55ca90d9735a8ce7588d5c2872bab2dfc0da",
+    "title": "Can LLMs be Good Graph Judger for Knowledge Graph Construction?",
+    "abstract": "In real-world scenarios, most of the data obtained from information retrieval (IR) system is unstructured. Converting natural language sentences into structured Knowledge Graphs (KGs) remains a critical challenge. The quality of constructed KGs may also impact the performance of some KG-dependent domains like GraphRAG systems and recommendation systems. Recently, Large Language Models (LLMs) have demonstrated impressive capabilities in addressing a wide range of natural language processing tasks. However, there are still challenges when utilizing LLMs to address the task of generating structured KGs. And we have identified three limitations with respect to existing KG construction methods. (1)There is a large amount of information and excessive noise in real-world documents, which could result in extracting messy information. (2)Native LLMs struggle to effectively extract accuracy knowledge from some domain-specific documents. (3)Hallucinations phenomenon cannot be overlooked when utilizing LLMs directly as an unsupervised method for constructing KGs. In this paper, we propose GraphJudger, a knowledge graph construction framework to address the aforementioned challenges. We introduce three innovative modules in our method, which are entity-centric iterative text denoising, knowledge aware instruction tuning and graph judgement, respectively. We seek to utilize the capacity of LLMs to function as a graph judger, a capability superior to their role only as a predictor for KG construction problems. Experiments conducted on two general text-graph pair datasets and one domain-specific text-graph pair dataset show superior performances compared to baseline methods. The code of our proposed method is available at https://github.com/hhy-huang/GraphJudger.",
+    "venue": "arXiv.org",
+    "year": 2024,
+    "citationCount": 0,
+    "openAccessPdf": null,
+    "fieldsOfStudy": [
+      "Computer Science"
+    ],
+    "publicationTypes": [
+      "JournalArticle"
+    ],
+    "publicationDate": "2024-11-26",
+    "authors": [
+      {
+        "authorId": "2332517415",
+        "name": "Haoyu Huang"
+      },
+      {
+        "authorId": "2309659454",
+        "name": "Chong Chen"
+      },
+      {
+        "authorId": "2291040348",
+        "name": "Conghui He"
+      },
+      {
+        "authorId": "2325803763",
+        "name": "Yang Li"
+      },
+      {
+        "authorId": "2332512942",
+        "name": "Jiawei Jiang"
+      },
+      {
+        "authorId": "2332448482",
+        "name": "Wentao Zhang"
+      }
+    ],
+    "source": "semantic_scholar"
+  },
+  {
+    "paperId": "87e48656b365874e617357f235ba424ed07d3540",
+    "url": "https://www.semanticscholar.org/paper/87e48656b365874e617357f235ba424ed07d3540",
+    "title": "GRAFT: Graph Retrieval Augmented Fine Tuning for Multi-Hop Query Summarization",
+    "abstract": "Traditional retrieval-augmented generation (RAG) approaches struggle with multi-hop reasoning and global query-focused summarization tasks over large document corpora, which require summarizing broad themes and contexts and a holistic knowledge of documents. We propose GRAFT (Graph Retrieval Augmented Fine-Tuning), a novel approach that combines the strengths of the Retrieval Augmented Fine-Tuning (RAFT) methodology and the GraphRAG technique. GRAFT fine-tunes large language models (LLMs) on a simulated imperfect retrieval setting, training the model to identify relevant documents and ignore distractors in the provided context. The model is then coupled with graphRAG at inference. To investigate the effectiveness of the GRAFT methodology, we constructed a knowledge graph using 74 Wikipedia source documents and extracted communities within this graph. We then summarized these communities, leveraging local and global relationships between documents for retrieval, fine-tuned a Microsoft Phi-2 model using the RAFT approach on a subset of the HotPotQA dataset, and evaluated its performance on a custom set of multi-hop and global questions generated from Wikipedia articles published in 2024. Our experimental results demonstrate that GRAFT outperforms baseline models, including the Baseline RAG model, the RAFT model, and the Baseline GraphRAG model, across various evaluation metrics like BERT, BLEU, ROUGE-1, and Semantic Similarity. In particular, GRAFT achieves the highest scores on global questions, showcasing its effectiveness in query-focused summarization tasks that require understanding broad themes and contexts over large document corpora.",
+    "venue": "",
+    "year": null,
+    "citationCount": 0,
+    "openAccessPdf": null,
+    "fieldsOfStudy": null,
+    "publicationTypes": null,
+    "publicationDate": null,
+    "authors": [
+      {
+        "authorId": "2316300265",
+        "name": "Sonya Jin"
+      },
+      {
+        "authorId": "2316302480",
+        "name": "Sunny Yu"
+      },
+      {
+        "authorId": "2316224302",
+        "name": "Natalia Kokoromyti"
+      }
+    ],
+    "source": "semantic_scholar"
+  },
+  {
+    "paperId": "c1799bf28d1ae93e1631be5b59196ee1e568f538",
+    "url": "https://www.semanticscholar.org/paper/c1799bf28d1ae93e1631be5b59196ee1e568f538",
+    "title": "From Local to Global: A Graph RAG Approach to Query-Focused Summarization",
+    "abstract": "The use of retrieval-augmented generation (RAG) to retrieve relevant information from an external knowledge source enables large language models (LLMs) to answer questions over private and/or previously unseen document collections. However, RAG fails on global questions directed at an entire text corpus, such as\"What are the main themes in the dataset?\", since this is inherently a query-focused summarization (QFS) task, rather than an explicit retrieval task. Prior QFS methods, meanwhile, fail to scale to the quantities of text indexed by typical RAG systems. To combine the strengths of these contrasting methods, we propose a Graph RAG approach to question answering over private text corpora that scales with both the generality of user questions and the quantity of source text to be indexed. Our approach uses an LLM to build a graph-based text index in two stages: first to derive an entity knowledge graph from the source documents, then to pregenerate community summaries for all groups of closely-related entities. Given a question, each community summary is used to generate a partial response, before all partial responses are again summarized in a final response to the user. For a class of global sensemaking questions over datasets in the 1 million token range, we show that Graph RAG leads to substantial improvements over a na\\\"ive RAG baseline for both the comprehensiveness and diversity of generated answers. An open-source, Python-based implementation of both global and local Graph RAG approaches is forthcoming at https://aka.ms/graphrag.",
+    "venue": "arXiv.org",
+    "year": 2024,
+    "citationCount": 143,
+    "openAccessPdf": null,
+    "fieldsOfStudy": [
+      "Computer Science"
+    ],
+    "publicationTypes": [
+      "JournalArticle"
+    ],
+    "publicationDate": "2024-04-24",
+    "authors": [
+      {
+        "authorId": "2298275009",
+        "name": "Darren Edge"
+      },
+      {
+        "authorId": "2213073417",
+        "name": "Ha Trinh"
+      },
+      {
+        "authorId": "2298273973",
+        "name": "Newman Cheng"
+      },
+      {
+        "authorId": "2298275805",
+        "name": "Joshua Bradley"
+      },
+      {
+        "authorId": "2298274563",
+        "name": "Alex Chao"
+      },
+      {
+        "authorId": "2210994342",
+        "name": "Apurva Mody"
+      },
+      {
+        "authorId": "2298273810",
+        "name": "Steven Truitt"
+      },
+      {
+        "authorId": "2298278846",
+        "name": "Jonathan Larson"
+      }
+    ],
+    "source": "semantic_scholar",
+    "score": 89.69813299576
+  },
+  {
+    "paperId": "a36e733509fd9f35f698f23474e75364eece50e2",
+    "url": "https://www.semanticscholar.org/paper/a36e733509fd9f35f698f23474e75364eece50e2",
+    "title": "When Graph Meets Retrieval Augmented Generation for Wireless Networks: A Tutorial and Case Study",
+    "abstract": "The rapid development of next-generation networking technologies underscores their transformative role in revolutionizing modern communication systems, enabling faster, more reliable, and highly interconnected solutions. However, such development has also brought challenges to network optimizations. Thanks to the emergence of Large Language Models (LLMs) in recent years, tools including Retrieval Augmented Generation (RAG) have been developed and applied in various fields including networking, and have shown their effectiveness. Taking one step further, the integration of knowledge graphs into RAG frameworks further enhanced the performance of RAG in networking applications such as Intent-Driven Networks (IDNs) and spectrum knowledge maps by providing more contextually relevant responses through more accurate retrieval of related network information. This paper introduces the RAG framework that integrates knowledge graphs in its database and explores such framework's application in networking. We begin by exploring RAG's applications in networking and the limitations of conventional RAG and present the advantages that knowledge graphs' structured knowledge representation brings to the retrieval and generation processes. Next, we propose a detailed GraphRAG-based framework for networking, including a step-by-step tutorial on its construction. Our evaluation through a case study on channel gain prediction demonstrates GraphRAG's enhanced capability in generating accurate, contextually rich responses, surpassing traditional RAG models. Finally, we discuss key future directions for applying knowledge-graphs-empowered RAG frameworks in networking, including robust updates, mitigation of hallucination, and enhanced security measures for networking applications.",
+    "venue": "arXiv.org",
+    "year": 2024,
+    "citationCount": 0,
+    "openAccessPdf": null,
+    "fieldsOfStudy": [
+      "Computer Science"
+    ],
+    "publicationTypes": [
+      "JournalArticle",
+      "Review"
+    ],
+    "publicationDate": "2024-12-10",
+    "authors": [
+      {
+        "authorId": "2335456805",
+        "name": "Yang Xiong"
+      },
+      {
+        "authorId": "2266463634",
+        "name": "Ruichen Zhang"
+      },
+      {
+        "authorId": "2237948862",
+        "name": "Yinqiu Liu"
+      },
+      {
+        "authorId": "1713586",
+        "name": "D. Niyato"
+      },
+      {
+        "authorId": "2943819",
+        "name": "Zehui Xiong"
+      },
+      {
+        "authorId": "2334748710",
+        "name": "Ying-Chang Liang"
+      },
+      {
+        "authorId": "2237802924",
+        "name": "Shiwen Mao"
+      }
+    ],
+    "source": "semantic_scholar"
+  }
+]
