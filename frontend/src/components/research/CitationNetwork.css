@@ -14,12 +14,15 @@
 
 .tooltip {
     position: absolute;
-    visibility: hidden;
-    background: white;
-    padding: 10px;
-    border-radius: 4px;
-    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
-    max-width: 300px;
+    visibility: hidden;         /* 默认隐藏 */
+    background: rgba(255, 255, 255, 0.95); 
+    padding: 8px 10px;         /* 内边距稍加 */
+    border-radius: 6px;        /* 稍微圆角 */
+    border: 1px solid #ccc;    /* 边框 */
+    box-shadow: 0 2px 6px rgba(0,0,0,0.15); /* 适度阴影 */
     font-size: 12px;
-    pointer-events: none;
-} 
+    pointer-events: none;       /* 禁止鼠标事件 */
+    max-width: 300px;           /* 最大宽度，避免太大 */
+    color: #333;                /* 文字颜色 */
+    z-index: 999;               /* 确保浮在最上层 */
+}

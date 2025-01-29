@@ -21,6 +21,7 @@ const CitationNetwork = ({ query, topK }) => {
         fetchAndRenderNetwork();
     }, [query, topK]);
 
+    // ===== 这是修改后的 renderNetwork 函数 =====
     const renderNetwork = (data) => {
         const svg = d3.select(svgRef.current);
         
@@ -46,25 +47,48 @@ const CitationNetwork = ({ query, topK }) => {
            .call(
                zoom.transform,
                d3.zoomIdentity
-                 .translate(width / 2, height / 2)  // 先移动到中心
-                 .scale(0.5)  // 设置一个更合适的初始缩放值
-                 .translate(-width / 2, -height / 2)  // 再移回原位
+                 .translate(width / 2, height / 2) 
+                 .scale(0.5)  
+                 .translate(-width / 2, -height / 2)
            );
 
-        // 创建力导向图
+        // 创建力导向图(仅在这部分做布局的改动)
         const simulation = d3.forceSimulation(data.nodes)
+            // 1. 连接力 - 控制有连线节点之间的距离
             .force("link", d3.forceLink(data.edges)
                 .id(d => d.id)
-                .distance(250))  // 增加连线长度，从150改为250
-            .force("charge", d3.forceManyBody().strength(-100))  // 增加斥力，让节点分散得更开
+                .distance(200)  
+                .strength(0.4)
+            )
+            // 2. 电荷力 - 排斥/吸引
+            .force("charge", d3.forceManyBody()
+                .strength(-300)   // 负值表示排斥,可调大以让节点更分散
+                .distanceMax(500) // 排斥力作用范围上限
+            )
+            // 3. 中心力 - 将所有节点往中心拉
             .force("center", d3.forceCenter(width / 2, height / 2))
-            // 添加碰撞力，防止节点重叠
-            .force("collision", d3.forceCollide().radius(d => Math.sqrt(d.citations_count || 1) * 2 + 5));  // 从 4 改为 2，间距从 10 改为 5
+            // 4. 碰撞力 - 防止节点重叠
+            .force("collision", d3.forceCollide()
+                .radius(d => {
+                    const baseSize = 4;
+                    const citations = d.citations_count || 0;
+                    const nodeRadius = citations === 0 
+                        ? baseSize 
+                        : Math.min(baseSize + Math.sqrt(citations) * 1.2, 20);
+                    return nodeRadius + 15;  // 这里增加额外间距
+                })
+                .strength(10)  // 这个值越大，碰撞效果越强
+            )
+            // 5. alphaDecay - 减缓衰减,让布局多迭代一会更稳定
+            .alphaDecay(0.1);
 
-        // 定义颜色比例尺
+        // 定义颜色比例尺 (保持你的逻辑)
         const colorScale = d3.scaleSequential()
-            .domain([d3.min(data.nodes, d => d.year), d3.max(data.nodes, d => d.year)])
-            .interpolator(d3.interpolateViridis);  // 使用更好看的颜色方案
+            .domain([
+                d3.min(data.nodes, d => d.year), 
+                d3.max(data.nodes, d => d.year)
+            ])
+            .interpolator(d3.interpolateViridis);
 
         // 绘制连线
         const links = container.append("g")
@@ -72,9 +96,9 @@ const CitationNetwork = ({ query, topK }) => {
             .data(data.edges)
             .enter()
             .append("line")
-            .attr("stroke", "#2a5a8c")  // 保持蓝色
-            .attr("stroke-opacity", 0.8)  // 增加不透明度，从0.6改为0.8
-            .attr("stroke-width", 3);  // 增加线宽，从2改为3
+            .attr("stroke", "#2a5a8c")
+            .attr("stroke-opacity", 0.4) // 降低透明度,减少密集线的干扰
+            .attr("stroke-width", 2);
 
         // 绘制节点
         const nodes = container.append("g")
@@ -82,11 +106,16 @@ const CitationNetwork = ({ query, topK }) => {
             .data(data.nodes)
             .enter()
             .append("circle")
-            .attr("r", d => Math.sqrt(d.citations_count || 1) * 2)
+            .attr("r", d => {
+                const baseSize = 5;
+                const citations = d.citations_count || 0;
+                return citations === 0
+                    ? baseSize
+                    : Math.min(baseSize + Math.sqrt(citations), 30);
+            })
             .attr("fill", d => colorScale(d.year))
             .attr("stroke", "#fff")
-            .attr("stroke-width", 2)
-            // .call(drag(simulation));
+            .attr("stroke-width", 1);
 
         // 添加节点标签
         const labels = container.append("g")
@@ -94,16 +123,15 @@ const CitationNetwork = ({ query, topK }) => {
             .data(data.nodes)
             .enter()
             .append("text")
-            .text(d => d.title.substring(0, 30) + "...")  // 显示更多文字
-            .attr("font-size", "12px")  // 增大字号
-            .attr("dx", 15)
-            .attr("dy", 4)
+            .text(d => d.title.substring(0, 25) + "...")
+            .attr("font-size", "10px")
+            .attr("dx", 12)
+            .attr("dy", 3)
             .attr("fill", "#333")
             .style("pointer-events", "none");
 
-        // 修改节点的 hover 效果
+        // 节点 hover 显示 tooltip
         nodes.on("mouseover", function(event, d) {
-            // 只处理 tooltip，不改变节点大小
             const tooltip = d3.select(".tooltip");
             tooltip.style("visibility", "visible")
                 .html(`
@@ -111,11 +139,16 @@ const CitationNetwork = ({ query, topK }) => {
                     Year: ${d.year}<br/>
                     Citations: ${d.citations_count}
                 `);
+        }).on("mousemove", function(event) {
+            // 让 tooltip 跟随鼠标
+            d3.select(".tooltip")
+              .style("top", (event.pageY -120) + "px")
+              .style("left", (event.pageX -500) + "px");
         }).on("mouseout", function() {
             d3.select(".tooltip").style("visibility", "hidden");
         });
 
-        // 更新力导向图
+        // 更新力导向图位置
         simulation.on("tick", () => {
             links
                 .attr("x1", d => d.source.x)
@@ -132,34 +165,7 @@ const CitationNetwork = ({ query, topK }) => {
                 .attr("y", d => d.y);
         });
     };
-
-    // 拖拽功能
-    // const drag = (simulation) => {
-    //     const dragstarted = (event) => {
-    //         event.sourceEvent.stopPropagation();  // 阻止事件冒泡，防止触发缩放
-    //         if (!event.active) simulation.alphaTarget(0.3).restart();
-    //         event.subject.fx = event.subject.x;
-    //         event.subject.fy = event.subject.y;
-    //     };
-
-    //     const dragged = (event) => {
-    //         event.sourceEvent.stopPropagation();  // 阻止事件冒泡，防止触发缩放
-    //         event.subject.fx = event.x;
-    //         event.subject.fy = event.y;
-    //     };
-
-    //     const dragended = (event) => {
-    //         event.sourceEvent.stopPropagation();  // 阻止事件冒泡，防止触发缩放
-    //         if (!event.active) simulation.alphaTarget(0);
-    //         event.subject.fx = null;
-    //         event.subject.fy = null;
-    //     };
-
-    //     return d3.drag()
-    //         .on("start", dragstarted)
-    //         .on("drag", dragged)
-    //         .on("end", dragended);
-    // };
+    // ==========以上是修改后的呈现逻辑==========
 
     return (
         <div className="citation-network">
@@ -169,4 +175,4 @@ const CitationNetwork = ({ query, topK }) => {
     );
 };
 
-export default CitationNetwork; 
+export default CitationNetwork;

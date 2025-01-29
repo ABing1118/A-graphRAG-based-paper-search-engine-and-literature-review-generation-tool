@@ -58,7 +58,23 @@ def calculate_paper_score(paper: dict) -> float:
                 venue_score = weight
                 break
                 
-        return base_score + citation_score + year_score + venue_score
+        # 5. 添加摘要评分 (10分)
+        abstract_score = 0
+        abstract = paper.get("abstract", "")
+        if abstract and isinstance(abstract, str):
+            abstract = abstract.strip()
+            # 排除无效摘要
+            if abstract.lower() not in ["no abstract", "暂无摘要"]:
+                # 根据摘要长度和质量给分
+                words = len(abstract.split())
+                if words >= 100:  # 完整摘要
+                    abstract_score = 20
+                elif words >= 50:  # 较短摘要
+                    abstract_score = 15
+                else:  # 极短摘要
+                    abstract_score = 10
+                    
+        return base_score + citation_score + year_score + venue_score + abstract_score
         
     except Exception as e:
         raise ValueError(f"计算论文评分时出错: {str(e)}")

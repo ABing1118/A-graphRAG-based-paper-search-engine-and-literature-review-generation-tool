@@ -1,0 +1,847 @@
+{
+  "citations": [
+    {
+      "paperId": "80ff07ac8183d5e444083cbbaa938ad05db0775e",
+      "title": "LLM4Workflow: An LLM-based Automated Workflow Model Generation Tool",
+      "year": 2024,
+      "citationCount": 0,
+      "authors": [
+        {
+          "authorId": "2004845581",
+          "name": "Jia Xu"
+        },
+        {
+          "authorId": "2328803109",
+          "name": "Weilin Du"
+        },
+        {
+          "authorId": "2155415691",
+          "name": "Xiao Liu"
+        },
+        {
+          "authorId": "2145457884",
+          "name": "Xuejun Li"
+        }
+      ]
+    },
+    {
+      "paperId": "b32cd6609a57c9a33380b21b313a0b92f405149f",
+      "title": "MCCoder: Streamlining Motion Control with LLM-Assisted Code Generation and Rigorous Verification",
+      "year": 2024,
+      "citationCount": 0,
+      "authors": [
+        {
+          "authorId": "2326985326",
+          "name": "Yin Li"
+        },
+        {
+          "authorId": "2261094696",
+          "name": "Liangwei Wang"
+        },
+        {
+          "authorId": "2326988477",
+          "name": "Shiyuan Piao"
+        },
+        {
+          "authorId": "2327046946",
+          "name": "Boo-Ho Yang"
+        },
+        {
+          "authorId": "2300304834",
+          "name": "Ziyue Li"
+        },
+        {
+          "authorId": "2327930478",
+          "name": "Wei Zeng"
+        },
+        {
+          "authorId": "2173360",
+          "name": "F. Tsung"
+        }
+      ]
+    },
+    {
+      "paperId": "c624f2a53673375966e444160a02e7e6529f999c",
+      "title": "Agents4PLC: Automating Closed-loop PLC Code Generation and Verification in Industrial Control Systems using LLM-based Agents",
+      "year": 2024,
+      "citationCount": 1,
+      "authors": [
+        {
+          "authorId": "2327212344",
+          "name": "Zihan Liu"
+        },
+        {
+          "authorId": "2326838315",
+          "name": "Ruinan Zeng"
+        },
+        {
+          "authorId": "2282953999",
+          "name": "Dongxia Wang"
+        },
+        {
+          "authorId": "2326840016",
+          "name": "Gengyun Peng"
+        },
+        {
+          "authorId": "2243527956",
+          "name": "Jingyi Wang"
+        },
+        {
+          "authorId": "2326969662",
+          "name": "Qiang Liu"
+        },
+        {
+          "authorId": "2326854021",
+          "name": "Peiyu Liu"
+        },
+        {
+          "authorId": "2243395027",
+          "name": "Wenhai Wang"
+        }
+      ]
+    },
+    {
+      "paperId": "deaa96d0bc41b19ca389006539449ce16a5740b2",
+      "title": "Automating Software Product Line Adoption Based on Feature Models Using Large Language Models",
+      "year": 2024,
+      "citationCount": 0,
+      "authors": [
+        {
+          "authorId": "2257995400",
+          "name": "Johannes Stümpfle"
+        },
+        {
+          "authorId": "2257978487",
+          "name": "Sebastian Baum"
+        },
+        {
+          "authorId": "2174811166",
+          "name": "Daniel Dittler"
+        },
+        {
+          "authorId": "2509708",
+          "name": "N. Jazdi"
+        },
+        {
+          "authorId": "2273478",
+          "name": "M. Weyrich"
+        }
+      ]
+    },
+    {
+      "paperId": "19f8cce424c07241b32de6ffb329d6389c87b204",
+      "title": "Generative AI Co-Pilot for Rapid Prototyping of IEC 61499 Control Applications",
+      "year": 2024,
+      "citationCount": 0,
+      "authors": [
+        {
+          "authorId": "32017359",
+          "name": "Polina Ovsiannikova"
+        },
+        {
+          "authorId": "2304785797",
+          "name": "Tatiana Liakh"
+        },
+        {
+          "authorId": "1415141192",
+          "name": "Pranay Jhunjhunwala"
+        },
+        {
+          "authorId": "2006041918",
+          "name": "V. Vyatkin"
+        }
+      ]
+    },
+    {
+      "paperId": "0b34e125cd645058bc1a9515d663b42710819432",
+      "title": "Leveraging the Power of LLMs to Transform Robot Programs into Low-Code",
+      "year": 2024,
+      "citationCount": 0,
+      "authors": [
+        {
+          "authorId": "2257973908",
+          "name": "Bernhard Schenkenfelder"
+        },
+        {
+          "authorId": "2326128175",
+          "name": "Christian Salomon"
+        },
+        {
+          "authorId": "2326130045",
+          "name": "Martin Schwandtner"
+        },
+        {
+          "authorId": "2326128344",
+          "name": "Raphael Zefferer"
+        },
+        {
+          "authorId": "2326128224",
+          "name": "Michael Derfler"
+        },
+        {
+          "authorId": "2325532662",
+          "name": "Manuel Wimmer"
+        }
+      ]
+    },
+    {
+      "paperId": "581afc575d5e80759c6877e131247637e03b7614",
+      "title": "Generating PLC Code with Universal Large Language Models",
+      "year": 2024,
+      "citationCount": 0,
+      "authors": [
+        {
+          "authorId": "2326141299",
+          "name": "Kilian Tran"
+        },
+        {
+          "authorId": "2276033491",
+          "name": "Jingxi Zhang"
+        },
+        {
+          "authorId": "40894295",
+          "name": "Jérôme Pfeiffer"
+        },
+        {
+          "authorId": "2310048702",
+          "name": "Andreas Wortmann"
+        },
+        {
+          "authorId": "80442847",
+          "name": "Bianca Wiesmayr"
+        }
+      ]
+    },
+    {
+      "paperId": "55a17e13d32999f93d652f5bfe8109a05517d92f",
+      "title": "Automated Control Logic Test Case Generation using Large Language Models",
+      "year": 2024,
+      "citationCount": 1,
+      "authors": [
+        {
+          "authorId": "2566995",
+          "name": "Heiko Koziolek"
+        },
+        {
+          "authorId": "2142749704",
+          "name": "Virendra Ashiwal"
+        },
+        {
+          "authorId": "2299944010",
+          "name": "Soumyadip Bandyopadhyay"
+        },
+        {
+          "authorId": "2284887877",
+          "name": "Chandrika K R"
+        }
+      ]
+    },
+    {
+      "paperId": "945cd717199224808ed58eb64d4a5da9dae8b668",
+      "title": "LLM-based Control Code Generation using Image Recognition",
+      "year": 2023,
+      "citationCount": 10,
+      "authors": [
+        {
+          "authorId": "2566995",
+          "name": "Heiko Koziolek"
+        },
+        {
+          "authorId": "1909157",
+          "name": "A. Koziolek"
+        }
+      ]
+    }
+  ],
+  "references": [
+    {
+      "paperId": "945cd717199224808ed58eb64d4a5da9dae8b668",
+      "title": "LLM-based Control Code Generation using Image Recognition",
+      "year": 2023,
+      "citationCount": 10,
+      "authors": [
+        {
+          "authorId": "2566995",
+          "name": "Heiko Koziolek"
+        },
+        {
+          "authorId": "1909157",
+          "name": "A. Koziolek"
+        }
+      ]
+    },
+    {
+      "paperId": "e539218e2f6054ed002da6d6efc96d73221c22dc",
+      "title": "ClassEval: A Manually-Crafted Benchmark for Evaluating LLMs on Class-level Code Generation",
+      "year": 2023,
+      "citationCount": 98,
+      "authors": [
+        {
+          "authorId": "2133930029",
+          "name": "Xueying Du"
+        },
+        {
+          "authorId": "2007711208",
+          "name": "Mingwei Liu"
+        },
+        {
+          "authorId": "2148359505",
+          "name": "Kaixin Wang"
+        },
+        {
+          "authorId": "2113290454",
+          "name": "Hanlin Wang"
+        },
+        {
+          "authorId": "2226464443",
+          "name": "Junwei Liu"
+        },
+        {
+          "authorId": "2116664540",
+          "name": "Yixuan Chen"
+        },
+        {
+          "authorId": "3381704",
+          "name": "Jiayi Feng"
+        },
+        {
+          "authorId": "2976257",
+          "name": "Chaofeng Sha"
+        },
+        {
+          "authorId": "2115816603",
+          "name": "Xin Peng"
+        },
+        {
+          "authorId": "2539239",
+          "name": "Yiling Lou"
+        }
+      ]
+    },
+    {
+      "paperId": "1c1b83df13de4334e48a4c2039bc7ddfa374c486",
+      "title": "ChatGPT for PLC/DCS Control Logic Generation",
+      "year": 2023,
+      "citationCount": 18,
+      "authors": [
+        {
+          "authorId": "2566995",
+          "name": "Heiko Koziolek"
+        },
+        {
+          "authorId": "2154315802",
+          "name": "Sten Gruener"
+        },
+        {
+          "authorId": "2142749704",
+          "name": "Virendra Ashiwal"
+        }
+      ]
+    },
+    {
+      "paperId": "b45ec1cb2ba6b2d1ac24723fa836aee06a3db97a",
+      "title": "Is Your Code Generated by ChatGPT Really Correct? Rigorous Evaluation of Large Language Models for Code Generation",
+      "year": 2023,
+      "citationCount": 533,
+      "authors": [
+        {
+          "authorId": "2124960443",
+          "name": "Jiawei Liu"
+        },
+        {
+          "authorId": "145349987",
+          "name": "Chun Xia"
+        },
+        {
+          "authorId": "2215893835",
+          "name": "Yuyao Wang"
+        },
+        {
+          "authorId": "2145398332",
+          "name": "Lingming Zhang"
+        }
+      ]
+    },
+    {
+      "paperId": "15abedb29536d50afeeec739a25358255cbda3e8",
+      "title": "The Impact of AI on Developer Productivity: Evidence from GitHub Copilot",
+      "year": 2023,
+      "citationCount": 200,
+      "authors": [
+        {
+          "authorId": "67042377",
+          "name": "Sida Peng"
+        },
+        {
+          "authorId": "1734481",
+          "name": "Eirini Kalliamvakou"
+        },
+        {
+          "authorId": "2205544450",
+          "name": "Peter Cihon"
+        },
+        {
+          "authorId": "88741890",
+          "name": "Mert Demirer"
+        }
+      ]
+    },
+    {
+      "paperId": "d3de0bac5703825796c240bfab8dc3c8e0a90222",
+      "title": "Impact of Code Language Models on Automated Program Repair",
+      "year": 2023,
+      "citationCount": 160,
+      "authors": [
+        {
+          "authorId": "2057958465",
+          "name": "Nan Jiang"
+        },
+        {
+          "authorId": "2152352414",
+          "name": "Kevin Liu"
+        },
+        {
+          "authorId": "2492099",
+          "name": "Thibaud Lutellier"
+        },
+        {
+          "authorId": "2106349652",
+          "name": "Lin Tan"
+        }
+      ]
+    },
+    {
+      "paperId": "4054fc9e8776dc0324cfc215462d606eb75916c0",
+      "title": "Expectation vs. Experience: Evaluating the Usability of Code Generation Tools Powered by Large Language Models",
+      "year": 2022,
+      "citationCount": 397,
+      "authors": [
+        {
+          "authorId": "40961780",
+          "name": "Priyan Vaithilingam"
+        },
+        {
+          "authorId": "2146332594",
+          "name": "Tianyi Zhang"
+        },
+        {
+          "authorId": "143730651",
+          "name": "Elena L. Glassman"
+        }
+      ]
+    },
+    {
+      "paperId": "2b556fcf2ac634f03c1fb0ace5e602e829418e65",
+      "title": "ReACC: A Retrieval-Augmented Code Completion Framework",
+      "year": 2022,
+      "citationCount": 117,
+      "authors": [
+        {
+          "authorId": "2115338656",
+          "name": "Shuai Lu"
+        },
+        {
+          "authorId": "46429989",
+          "name": "Nan Duan"
+        },
+        {
+          "authorId": "5534572",
+          "name": "Hojae Han"
+        },
+        {
+          "authorId": "2278834796",
+          "name": "Daya Guo"
+        },
+        {
+          "authorId": "1716415",
+          "name": "Seung-won Hwang"
+        },
+        {
+          "authorId": "2061625488",
+          "name": "Alexey Svyatkovskiy"
+        }
+      ]
+    },
+    {
+      "paperId": "c56aced0f0c5cfebefadb530cb08d736c3ac5c05",
+      "title": "Retrieval Augmented Code Generation and Summarization",
+      "year": 2021,
+      "citationCount": 143,
+      "authors": [
+        {
+          "authorId": "3405393",
+          "name": "Md. Rizwan Parvez"
+        },
+        {
+          "authorId": "2125973767",
+          "name": "W. Ahmad"
+        },
+        {
+          "authorId": "47570053",
+          "name": "Saikat Chakraborty"
+        },
+        {
+          "authorId": "31631000",
+          "name": "Baishakhi Ray"
+        },
+        {
+          "authorId": "2782886",
+          "name": "Kai-Wei Chang"
+        }
+      ]
+    },
+    {
+      "paperId": "4a160efbe80c38cd5eb2f92c7c095b49b113397d",
+      "title": "In-IDE Code Generation from Natural Language: Promise and Challenges",
+      "year": 2021,
+      "citationCount": 121,
+      "authors": [
+        {
+          "authorId": "40027632",
+          "name": "Frank F. Xu"
+        },
+        {
+          "authorId": "2434621",
+          "name": "Bogdan Vasilescu"
+        },
+        {
+          "authorId": "1700325",
+          "name": "Graham Neubig"
+        }
+      ]
+    },
+    {
+      "paperId": "b6ef98b9fd89bb6c07fe6b9ee6b1809901370cb9",
+      "title": "A classification framework for automated control code generation in industrial automation",
+      "year": 2020,
+      "citationCount": 25,
+      "authors": [
+        {
+          "authorId": "2566995",
+          "name": "Heiko Koziolek"
+        },
+        {
+          "authorId": "38527876",
+          "name": "Andreas Burger"
+        },
+        {
+          "authorId": "1404241774",
+          "name": "Marie Platenius-Mohr"
+        },
+        {
+          "authorId": "2214997",
+          "name": "R. Jetley"
+        }
+      ]
+    },
+    {
+      "paperId": "1a4ccc1965ee66ecc92c45b94272325a90cd176e",
+      "title": "Rule-based Code Generation in Industrial Automation: Four Large-scale Case Studies applying the CAYENNE Method",
+      "year": 2020,
+      "citationCount": 13,
+      "authors": [
+        {
+          "authorId": "2566995",
+          "name": "Heiko Koziolek"
+        },
+        {
+          "authorId": "38527876",
+          "name": "Andreas Burger"
+        },
+        {
+          "authorId": "1404241774",
+          "name": "Marie Platenius-Mohr"
+        },
+        {
+          "authorId": "1779367",
+          "name": "Julius Rückert"
+        },
+        {
+          "authorId": "1731875",
+          "name": "Hadil Abukwaik"
+        },
+        {
+          "authorId": "2214997",
+          "name": "R. Jetley"
+        },
+        {
+          "authorId": "2287860476",
+          "name": "PP Abdulla"
+        }
+      ]
+    },
+    {
+      "paperId": "7c0b558bf433c5aaaf774cd5d3c767bfd3dbe123",
+      "title": "Retrieval-Augmented Generation for Code Summarization via Hybrid GNN",
+      "year": 2020,
+      "citationCount": 147,
+      "authors": [
+        {
+          "authorId": "13877308",
+          "name": "Shangqing Liu"
+        },
+        {
+          "authorId": "2144838266",
+          "name": "Yu Chen"
+        },
+        {
+          "authorId": "49419199",
+          "name": "Xiaofei Xie"
+        },
+        {
+          "authorId": "30163639",
+          "name": "J. Siow"
+        },
+        {
+          "authorId": "38057121",
+          "name": "Yang Liu"
+        }
+      ]
+    },
+    {
+      "paperId": "58ed1fbaabe027345f7bb3a6312d41c5aac63e22",
+      "title": "Retrieval-Augmented Generation for Knowledge-Intensive NLP Tasks",
+      "year": 2020,
+      "citationCount": 4213,
+      "authors": [
+        {
+          "authorId": "145222654",
+          "name": "Patrick Lewis"
+        },
+        {
+          "authorId": "3439053",
+          "name": "Ethan Perez"
+        },
+        {
+          "authorId": "1716179427",
+          "name": "Aleksandara Piktus"
+        },
+        {
+          "authorId": "40052301",
+          "name": "F. Petroni"
+        },
+        {
+          "authorId": "2067091563",
+          "name": "Vladimir Karpukhin"
+        },
+        {
+          "authorId": "39589154",
+          "name": "Naman Goyal"
+        },
+        {
+          "authorId": "103131985",
+          "name": "Heinrich Kuttler"
+        },
+        {
+          "authorId": "35084211",
+          "name": "M. Lewis"
+        },
+        {
+          "authorId": "144105277",
+          "name": "Wen-tau Yih"
+        },
+        {
+          "authorId": "2620211",
+          "name": "Tim Rocktäschel"
+        },
+        {
+          "authorId": "48662861",
+          "name": "Sebastian Riedel"
+        },
+        {
+          "authorId": "1743722",
+          "name": "Douwe Kiela"
+        }
+      ]
+    },
+    {
+      "paperId": "d03e157de9e9bff91ff108292052d36a87ea916d",
+      "title": "Digitalization of the IEC PAS 63131 Standard with AutomationML",
+      "year": 2018,
+      "citationCount": 7,
+      "authors": [
+        {
+          "authorId": "46239426",
+          "name": "R. Drath"
+        },
+        {
+          "authorId": "120291546",
+          "name": "I. Ingebrigtsen"
+        }
+      ]
+    },
+    {
+      "paperId": "561fcc7193f3543d1fd970b5a9d0a1d5273ee4ba",
+      "title": "OpenPLC: An open source alternative to automation",
+      "year": 2014,
+      "citationCount": 118,
+      "authors": [
+        {
+          "authorId": "2066412933",
+          "name": "T. Alves"
+        },
+        {
+          "authorId": "2589018",
+          "name": "M. Buratto"
+        },
+        {
+          "authorId": "2465003",
+          "name": "Flavio Mauricio de Souza"
+        },
+        {
+          "authorId": "2641303",
+          "name": "Thelma Virgínia Rodrigues"
+        }
+      ]
+    },
+    {
+      "paperId": "5002c1fbd78b1a126cf9652b37723cfe24423148",
+      "title": "Formal representation of GRAFCET to automatically generate control code",
+      "year": 2014,
+      "citationCount": 31,
+      "authors": [
+        {
+          "authorId": "2145096284",
+          "name": "F. Schumacher"
+        },
+        {
+          "authorId": "145649766",
+          "name": "A. Fay"
+        }
+      ]
+    },
+    {
+      "paperId": "ec748c28afe113de0971ef35c916e9f917983ff3",
+      "title": "Rule-based engineering using declarative graph database queries",
+      "year": 2014,
+      "citationCount": 11,
+      "authors": [
+        {
+          "authorId": "34873071",
+          "name": "Sten Grüner"
+        },
+        {
+          "authorId": "2052758353",
+          "name": "P. Weber"
+        },
+        {
+          "authorId": "2093379935",
+          "name": "U. Epple"
+        }
+      ]
+    },
+    {
+      "paperId": "2d97bc35c60822e1d53aa6d29336fd361319df5c",
+      "title": "Model-driven engineering of process control software – beyond device-centric abstractions",
+      "year": 2013,
+      "citationCount": 22,
+      "authors": [
+        {
+          "authorId": "2889526",
+          "name": "Tomaz Lukman"
+        },
+        {
+          "authorId": "2638076",
+          "name": "G. Godena"
+        },
+        {
+          "authorId": "143748820",
+          "name": "J. Gray"
+        },
+        {
+          "authorId": "1713163",
+          "name": "M. Heričko"
+        },
+        {
+          "authorId": "1684191",
+          "name": "S. Strmcnik"
+        }
+      ]
+    },
+    {
+      "paperId": "5b7efe30d8a996f5289fdb9919fa544b5b30b52a",
+      "title": "Automated code generation for programmable logic controllers based on knowledge acquisition from engineering artifacts: Concept and case study",
+      "year": 2012,
+      "citationCount": 26,
+      "authors": [
+        {
+          "authorId": "46938790",
+          "name": "M. Steinegger"
+        },
+        {
+          "authorId": "1788736",
+          "name": "Alois Zoitl"
+        }
+      ]
+    },
+    {
+      "paperId": "f70527a2fd3d043ed02012c926034ded3c5000c4",
+      "title": "Model-driven development of industrial process control applications",
+      "year": 2011,
+      "citationCount": 101,
+      "authors": [
+        {
+          "authorId": "2030386",
+          "name": "David Hästbacka"
+        },
+        {
+          "authorId": "2583734",
+          "name": "Timo Vepsäläinen"
+        },
+        {
+          "authorId": "2193702",
+          "name": "S. Kuikka"
+        }
+      ]
+    },
+    {
+      "paperId": "5f0b13990a57c95205c777c7c90ebd78def0f00c",
+      "title": "Collaborative Process Automation Systems",
+      "year": 2009,
+      "citationCount": 49,
+      "authors": [
+        {
+          "authorId": "2050761733",
+          "name": "M. Hollender"
+        }
+      ]
+    },
+    {
+      "paperId": "ed374a430b2be83bea4211e8cdb715349a92203e",
+      "title": "PLC-Statecharts: An Approach to Integrate UML-Statecharts in Open-Loop Control Engineering – Aspects on Behavioral Semantics and Model-Checking",
+      "year": 2011,
+      "citationCount": 49,
+      "authors": [
+        {
+          "authorId": "2723535",
+          "name": "D. Witsch"
+        },
+        {
+          "authorId": "1388355040",
+          "name": "B. Vogel‐Heuser"
+        }
+      ]
+    },
+    {
+      "paperId": null,
+      "title": "2022.Codegenerationusingmachinelearning:Asystematicreview",
+      "year": null,
+      "citationCount": null,
+      "authors": []
+    },
+    {
+      "paperId": null,
+      "title": "2023. LangChain: framework for developing applications powered by language models",
+      "year": null,
+      "citationCount": null,
+      "authors": []
+    },
+    {
+      "paperId": null,
+      "title": "2023. OSCAT - Open Source Community for Automation Technology",
+      "year": null,
+      "citationCount": null,
+      "authors": []
+    }
+  ]
+}

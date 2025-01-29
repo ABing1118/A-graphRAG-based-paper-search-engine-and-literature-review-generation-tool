@@ -1,0 +1,2074 @@
+{
+  "citations": [
+    {
+      "paperId": "68ce103320aa34a97b3e6e2984b10ec1ff3c680a",
+      "title": "Paradigm-Based Automatic HDL Code Generation Using LLMs",
+      "year": 2025,
+      "citationCount": 0,
+      "authors": [
+        {
+          "authorId": "2313524169",
+          "name": "Wenhao Sun"
+        },
+        {
+          "authorId": "2269058160",
+          "name": "Bing Li"
+        },
+        {
+          "authorId": "31602842",
+          "name": "Grace Li Zhang"
+        },
+        {
+          "authorId": null,
+          "name": "Xunzhao Yin"
+        },
+        {
+          "authorId": "2248805727",
+          "name": "Cheng Zhuo"
+        },
+        {
+          "authorId": "2071332998",
+          "name": "Ulf Schlichtmann"
+        }
+      ]
+    },
+    {
+      "paperId": "00706f773412ba6b6d9033b2427e755ac7b5e5a3",
+      "title": "UVLLM: An Automated Universal RTL Verification Framework using LLMs",
+      "year": 2024,
+      "citationCount": 0,
+      "authors": [
+        {
+          "authorId": "2301253377",
+          "name": "Yuchen Hu"
+        },
+        {
+          "authorId": "2332481323",
+          "name": "Junhao Ye"
+        },
+        {
+          "authorId": "2301426763",
+          "name": "Ke Xu"
+        },
+        {
+          "authorId": "2301168483",
+          "name": "Jialin Sun"
+        },
+        {
+          "authorId": "2333082738",
+          "name": "Shiyue Zhang"
+        },
+        {
+          "authorId": "2332090510",
+          "name": "Xinyao Jiao"
+        },
+        {
+          "authorId": "2332095119",
+          "name": "Dingrong Pan"
+        },
+        {
+          "authorId": "2313608089",
+          "name": "Jie Zhou"
+        },
+        {
+          "authorId": "2313866128",
+          "name": "Ning Wang"
+        },
+        {
+          "authorId": "2301151483",
+          "name": "Weiwei Shan"
+        },
+        {
+          "authorId": "2302369780",
+          "name": "Xinwei Fang"
+        },
+        {
+          "authorId": "2301384570",
+          "name": "Xi Wang"
+        },
+        {
+          "authorId": "2313478604",
+          "name": "Nan Guan"
+        },
+        {
+          "authorId": "2307552404",
+          "name": "Zhenling Jiang"
+        }
+      ]
+    },
+    {
+      "paperId": "5e9e9df949c2df828d1e8a106d31e99998211cd1",
+      "title": "MetRex: A Benchmark for Verilog Code Metric Reasoning Using LLMs",
+      "year": 2024,
+      "citationCount": 0,
+      "authors": [
+        {
+          "authorId": "2075194240",
+          "name": "Manar Abdelatty"
+        },
+        {
+          "authorId": "2157405891",
+          "name": "Jingxiao Ma"
+        },
+        {
+          "authorId": "2307161610",
+          "name": "Sherief Reda"
+        }
+      ]
+    },
+    {
+      "paperId": "33b44f73fe7a41410c1ba0d529a153c7f783f9e6",
+      "title": "The Graph's Apprentice: Teaching an LLM Low Level Knowledge for Circuit Quality Estimation",
+      "year": 2024,
+      "citationCount": 0,
+      "authors": [
+        {
+          "authorId": "2284218243",
+          "name": "Reza Moravej"
+        },
+        {
+          "authorId": "2329093117",
+          "name": "Saurabh Bodhe"
+        },
+        {
+          "authorId": "2302452881",
+          "name": "Zhanguang Zhang"
+        },
+        {
+          "authorId": "2302328451",
+          "name": "Didier Chételat"
+        },
+        {
+          "authorId": "2290919191",
+          "name": "Dimitrios Tsaras"
+        },
+        {
+          "authorId": "2260822531",
+          "name": "Yingxue Zhang"
+        },
+        {
+          "authorId": "2323371537",
+          "name": "Hui-Ling Zhen"
+        },
+        {
+          "authorId": "2307072418",
+          "name": "Jianye Hao"
+        },
+        {
+          "authorId": "2307891898",
+          "name": "Mingxuan Yuan"
+        }
+      ]
+    },
+    {
+      "paperId": "995ad0c0c9811ac3b3c5ab460764fe4b84328f9a",
+      "title": "FVEval: Understanding Language Model Capabilities in Formal Verification of Digital Hardware",
+      "year": 2024,
+      "citationCount": 0,
+      "authors": [
+        {
+          "authorId": "2304031193",
+          "name": "Minwoo Kang"
+        },
+        {
+          "authorId": "2264029479",
+          "name": "Mingjie Liu"
+        },
+        {
+          "authorId": "30960103",
+          "name": "Ghaith Bany Hamad"
+        },
+        {
+          "authorId": "2286631526",
+          "name": "Syed Suhaib"
+        },
+        {
+          "authorId": "2268825069",
+          "name": "Haoxing Ren"
+        }
+      ]
+    },
+    {
+      "paperId": "d9d7b3aaf4cf403439e587d30b66e9f61449c056",
+      "title": "CraftRTL: High-quality Synthetic Data Generation for Verilog Code Models with Correct-by-Construction Non-Textual Representations and Targeted Code Repair",
+      "year": 2024,
+      "citationCount": 1,
+      "authors": [
+        {
+          "authorId": "2264029479",
+          "name": "Mingjie Liu"
+        },
+        {
+          "authorId": "3328096",
+          "name": "Yun-Da Tsai"
+        },
+        {
+          "authorId": "2322144595",
+          "name": "Wenfei Zhou"
+        },
+        {
+          "authorId": "2268825069",
+          "name": "Haoxing Ren"
+        }
+      ]
+    },
+    {
+      "paperId": "020019e43068de482e650750d4b632e30f5ef48e",
+      "title": "PyHDL-Eval: An LLM Evaluation Framework for Hardware Design Using Python-Embedded DSLs",
+      "year": 2024,
+      "citationCount": 2,
+      "authors": [
+        {
+          "authorId": "2267044565",
+          "name": "Christopher Batten"
+        },
+        {
+          "authorId": "2264391720",
+          "name": "Nathaniel Pinckney"
+        },
+        {
+          "authorId": "2264029479",
+          "name": "Mingjie Liu"
+        },
+        {
+          "authorId": "2280063305",
+          "name": "Haoxing Ren"
+        },
+        {
+          "authorId": "2125244",
+          "name": "Brucek Khailany"
+        }
+      ]
+    },
+    {
+      "paperId": "4879d9461f89b2565dfb8216a8d596cce98c9b33",
+      "title": "RTLRewriter: Methodologies for Large Models aided RTL Code Optimization",
+      "year": 2024,
+      "citationCount": 2,
+      "authors": [
+        {
+          "authorId": "2244166898",
+          "name": "Xufeng Yao"
+        },
+        {
+          "authorId": "2321672370",
+          "name": "Yiwen Wang"
+        },
+        {
+          "authorId": "2155447824",
+          "name": "Xing Li"
+        },
+        {
+          "authorId": "2284692372",
+          "name": "Yingzhao Lian"
+        },
+        {
+          "authorId": "2269024703",
+          "name": "Ran Chen"
+        },
+        {
+          "authorId": "2238389220",
+          "name": "Lei Chen"
+        },
+        {
+          "authorId": "2241572771",
+          "name": "Mingxuan Yuan"
+        },
+        {
+          "authorId": "2321675855",
+          "name": "Hong Xu"
+        },
+        {
+          "authorId": "2283428383",
+          "name": "Bei Yu"
+        }
+      ]
+    },
+    {
+      "paperId": "f34511cdbe840cc073201f3932a021234ea3db72",
+      "title": "AIvril: AI-Driven RTL Generation With Verification In-The-Loop",
+      "year": 2024,
+      "citationCount": 0,
+      "authors": [
+        {
+          "authorId": "1389423662",
+          "name": "Mubashir ul Islam"
+        },
+        {
+          "authorId": "2321592198",
+          "name": "Humza Sami"
+        },
+        {
+          "authorId": "1742289",
+          "name": "P. Gaillardon"
+        },
+        {
+          "authorId": "2094429",
+          "name": "V. Tenace"
+        }
+      ]
+    },
+    {
+      "paperId": "0258e1662bfeadb6f279d70680cdcd3c4d82f6c5",
+      "title": "SPICED: Syntactical Bug and Trojan Pattern Identification in A/MS Circuits using LLM-Enhanced Detection",
+      "year": 2024,
+      "citationCount": 2,
+      "authors": [
+        {
+          "authorId": "2174392569",
+          "name": "Jayeeta Chaudhuri"
+        },
+        {
+          "authorId": "1468380420",
+          "name": "Dhruv Thapar"
+        },
+        {
+          "authorId": "40563979",
+          "name": "Arjun Chaudhuri"
+        },
+        {
+          "authorId": "3209726",
+          "name": "F. Firouzi"
+        },
+        {
+          "authorId": "2286286159",
+          "name": "Krishnendu Chakrabarty"
+        }
+      ]
+    },
+    {
+      "paperId": "e3146d273bf4c9047cdae91816fcc17da9f0998d",
+      "title": "Revisiting VerilogEval: Newer LLMs, In-Context Learning, and Specification-to-RTL Tasks",
+      "year": 2024,
+      "citationCount": 2,
+      "authors": [
+        {
+          "authorId": "2264391720",
+          "name": "Nathaniel Pinckney"
+        },
+        {
+          "authorId": "2271218099",
+          "name": "Christopher Batten"
+        },
+        {
+          "authorId": "2264029479",
+          "name": "Mingjie Liu"
+        },
+        {
+          "authorId": "2268825069",
+          "name": "Haoxing Ren"
+        },
+        {
+          "authorId": "2125244",
+          "name": "Brucek Khailany"
+        }
+      ]
+    },
+    {
+      "paperId": "577b98f827c8303531c790ad9b95ec34d742ae7b",
+      "title": "HLSPilot: LLM-based High-Level Synthesis",
+      "year": 2024,
+      "citationCount": 0,
+      "authors": [
+        {
+          "authorId": "2315980383",
+          "name": "Chenwei Xiong"
+        },
+        {
+          "authorId": "2311635341",
+          "name": "Cheng Liu"
+        },
+        {
+          "authorId": "2311981783",
+          "name": "Huawei Li"
+        },
+        {
+          "authorId": "2285942422",
+          "name": "Xiaowei Li"
+        }
+      ]
+    },
+    {
+      "paperId": "615c14a26b9b95be66dc57a13286d77ad0f9be06",
+      "title": "HDL-GPT: High-Quality HDL is All You Need",
+      "year": 2024,
+      "citationCount": 0,
+      "authors": [
+        {
+          "authorId": "2263844243",
+          "name": "Bhuvnesh Kumar"
+        },
+        {
+          "authorId": "2849311",
+          "name": "Saurav Nanda"
+        },
+        {
+          "authorId": "2866871",
+          "name": "G. Parthasarathy"
+        },
+        {
+          "authorId": "2313613696",
+          "name": "Pawan Patil"
+        },
+        {
+          "authorId": "2313478593",
+          "name": "Austin Tsai"
+        },
+        {
+          "authorId": "1726113447",
+          "name": "Parivesh Choudhary"
+        }
+      ]
+    },
+    {
+      "paperId": "5c538b02e876fd39f8a60907a792556f73fb74b0",
+      "title": "Customized Retrieval Augmented Generation and Benchmarking for EDA Tool Documentation QA",
+      "year": 2024,
+      "citationCount": 3,
+      "authors": [
+        {
+          "authorId": "2220363044",
+          "name": "Yuan Pu"
+        },
+        {
+          "authorId": "8822971",
+          "name": "Zhuolun He"
+        },
+        {
+          "authorId": "2312323764",
+          "name": "Tairu Qiu"
+        },
+        {
+          "authorId": "2275801674",
+          "name": "Haoyuan Wu"
+        },
+        {
+          "authorId": "2257320153",
+          "name": "Bei Yu"
+        }
+      ]
+    },
+    {
+      "paperId": "bf416f2210f2c6270aac7d42094e22d6e097f61a",
+      "title": "AutoVCoder: A Systematic Framework for Automated Verilog Code Generation using LLMs",
+      "year": 2024,
+      "citationCount": 0,
+      "authors": [
+        {
+          "authorId": "2279865491",
+          "name": "Mingzhe Gao"
+        },
+        {
+          "authorId": "2293562777",
+          "name": "Jieru Zhao"
+        },
+        {
+          "authorId": "2279904181",
+          "name": "Zhe Lin"
+        },
+        {
+          "authorId": "2261179928",
+          "name": "Wenchao Ding"
+        },
+        {
+          "authorId": "2260331102",
+          "name": "Xiaofeng Hou"
+        },
+        {
+          "authorId": "2269647435",
+          "name": "Yu Feng"
+        },
+        {
+          "authorId": "2257175537",
+          "name": "Chao Li"
+        },
+        {
+          "authorId": "2279517845",
+          "name": "Minyi Guo"
+        }
+      ]
+    },
+    {
+      "paperId": "008471ffba101849d6e02407fd112e366520195e",
+      "title": "HDLCopilot: Natural Language Exploration of Hardware Designs and Libraries",
+      "year": 2024,
+      "citationCount": 0,
+      "authors": [
+        {
+          "authorId": "2075194240",
+          "name": "Manar Abdelatty"
+        },
+        {
+          "authorId": "2311949991",
+          "name": "Jacob K Rosenstein"
+        },
+        {
+          "authorId": "2307161610",
+          "name": "Sherief Reda"
+        }
+      ]
+    },
+    {
+      "paperId": "ad1b472d616c4954f12ea783b3ecd197e10c4488",
+      "title": "Natural language is not enough: Benchmarking multi-modal generative AI for Verilog generation",
+      "year": 2024,
+      "citationCount": 0,
+      "authors": [
+        {
+          "authorId": "2218999828",
+          "name": "Kaiyan Chang"
+        },
+        {
+          "authorId": "2292054526",
+          "name": "Zhirong Chen"
+        },
+        {
+          "authorId": "2292087794",
+          "name": "Yunhao Zhou"
+        },
+        {
+          "authorId": "2292041534",
+          "name": "Wenlong Zhu"
+        },
+        {
+          "authorId": "2310715119",
+          "name": "Kun Wang"
+        },
+        {
+          "authorId": "1471651910",
+          "name": "Haobo Xu"
+        },
+        {
+          "authorId": "2241976316",
+          "name": "Cangyuan Li"
+        },
+        {
+          "authorId": "2292410342",
+          "name": "Mengdi Wang"
+        },
+        {
+          "authorId": "48814007",
+          "name": "Shengwen Liang"
+        },
+        {
+          "authorId": "2329964567",
+          "name": "Huawei Li"
+        },
+        {
+          "authorId": "2276854",
+          "name": "Yinhe Han"
+        },
+        {
+          "authorId": "2292122465",
+          "name": "Ying Wang"
+        }
+      ]
+    },
+    {
+      "paperId": "4359793ae51594fbf18b7a84fe491d57fe9d576c",
+      "title": "Code Less, Align More: Efficient LLM Fine-tuning for Code Generation with Data Pruning",
+      "year": 2024,
+      "citationCount": 3,
+      "authors": [
+        {
+          "authorId": "3328096",
+          "name": "Yun-Da Tsai"
+        },
+        {
+          "authorId": "2264029479",
+          "name": "Mingjie Liu"
+        },
+        {
+          "authorId": "2268825069",
+          "name": "Haoxing Ren"
+        }
+      ]
+    },
+    {
+      "paperId": "1fc06763199f217390291209691693cb611bcebe",
+      "title": "Enhance the Robustness of Text-Centric Multimodal Alignments",
+      "year": 2024,
+      "citationCount": 1,
+      "authors": [
+        {
+          "authorId": "2283934604",
+          "name": "Ting-Yu Yen"
+        },
+        {
+          "authorId": "3328096",
+          "name": "Yun-Da Tsai"
+        },
+        {
+          "authorId": "2121754",
+          "name": "Keng-Te Liao"
+        },
+        {
+          "authorId": "2237949904",
+          "name": "Shou-De Lin"
+        }
+      ]
+    },
+    {
+      "paperId": "ee5a66842f27ae0bd499dd7518500506697e2200",
+      "title": "Classification-Based Automatic HDL Code Generation Using LLMs",
+      "year": 2024,
+      "citationCount": 1,
+      "authors": [
+        {
+          "authorId": "2313524169",
+          "name": "Wenhao Sun"
+        },
+        {
+          "authorId": "2269058160",
+          "name": "Bing Li"
+        },
+        {
+          "authorId": "31602842",
+          "name": "Grace Li Zhang"
+        },
+        {
+          "authorId": "35875297",
+          "name": "Xunzhao Yin"
+        },
+        {
+          "authorId": "2248805727",
+          "name": "Cheng Zhuo"
+        },
+        {
+          "authorId": "2071332998",
+          "name": "Ulf Schlichtmann"
+        }
+      ]
+    },
+    {
+      "paperId": "25b42d049f5d7f4d917ae0f7b20912c9cde7f101",
+      "title": "An Iteratively-refined Dataset for High-Level Synthesis Functional Verification through LLM-Aided Bug Injection",
+      "year": 2024,
+      "citationCount": 0,
+      "authors": [
+        {
+          "authorId": "2306949840",
+          "name": "Lily Jiaxin Wan"
+        },
+        {
+          "authorId": "52143817",
+          "name": "Hanchen Ye"
+        },
+        {
+          "authorId": "2307034798",
+          "name": "Jinghua Wang"
+        },
+        {
+          "authorId": "2307012513",
+          "name": "Manvi Jha"
+        },
+        {
+          "authorId": "2265580701",
+          "name": "Deming Chen"
+        }
+      ]
+    },
+    {
+      "paperId": "dc10d108823630343484c5eecbb5c3011751282e",
+      "title": "LayoutCopilot: An LLM-powered Multi-agent Collaborative Framework for Interactive Analog Layout Design",
+      "year": 2024,
+      "citationCount": 2,
+      "authors": [
+        {
+          "authorId": "2308487124",
+          "name": "Bingyang Liu"
+        },
+        {
+          "authorId": "2176196770",
+          "name": "Haoyi Zhang"
+        },
+        {
+          "authorId": "2149395383",
+          "name": "Xiaohan Gao"
+        },
+        {
+          "authorId": "2308467316",
+          "name": "Zichen Kong"
+        },
+        {
+          "authorId": "2291129175",
+          "name": "Xiyuan Tang"
+        },
+        {
+          "authorId": "2242493510",
+          "name": "Yibo Lin"
+        },
+        {
+          "authorId": "2290968833",
+          "name": "Runsheng Wang"
+        },
+        {
+          "authorId": "2274941333",
+          "name": "Ru Huang"
+        }
+      ]
+    },
+    {
+      "paperId": "236eeca00166bbfc0226c446e54e2189a0b500ae",
+      "title": "New Solutions on LLM Acceleration, Optimization, and Application",
+      "year": 2024,
+      "citationCount": 8,
+      "authors": [
+        {
+          "authorId": "2298396575",
+          "name": "Yingbing Huang"
+        },
+        {
+          "authorId": "2306949840",
+          "name": "Lily Jiaxin Wan"
+        },
+        {
+          "authorId": "52143817",
+          "name": "Hanchen Ye"
+        },
+        {
+          "authorId": "2307012513",
+          "name": "Manvi Jha"
+        },
+        {
+          "authorId": "2307034798",
+          "name": "Jinghua Wang"
+        },
+        {
+          "authorId": "2118293093",
+          "name": "Yuhong Li"
+        },
+        {
+          "authorId": "144862004",
+          "name": "Xiaofan Zhang"
+        },
+        {
+          "authorId": "2265580701",
+          "name": "Deming Chen"
+        }
+      ]
+    },
+    {
+      "paperId": "bcfd6404ad1c913b915d1f7731d3bc69564d98e7",
+      "title": "AnalogCoder: Analog Circuit Design via Training-Free Code Generation",
+      "year": 2024,
+      "citationCount": 12,
+      "authors": [
+        {
+          "authorId": "2192588046",
+          "name": "Yao Lai"
+        },
+        {
+          "authorId": "2303386859",
+          "name": "Sungyoung Lee"
+        },
+        {
+          "authorId": "2155227970",
+          "name": "Guojin Chen"
+        },
+        {
+          "authorId": "2212398622",
+          "name": "Souradip Poddar"
+        },
+        {
+          "authorId": "2166455111",
+          "name": "Mengkang Hu"
+        },
+        {
+          "authorId": "2301155841",
+          "name": "David Z. Pan"
+        },
+        {
+          "authorId": "2301189373",
+          "name": "Ping Luo"
+        }
+      ]
+    },
+    {
+      "paperId": "f1cc998bea343f69d0d88b59bfca73e9d9007448",
+      "title": "LLMs and the Future of Chip Design: Unveiling Security Risks and Building Trust",
+      "year": 2024,
+      "citationCount": 4,
+      "authors": [
+        {
+          "authorId": "2215988074",
+          "name": "Zeng Wang"
+        },
+        {
+          "authorId": "35628050",
+          "name": "Lilas Alrahis"
+        },
+        {
+          "authorId": "2189847970",
+          "name": "Likhitha Mankali"
+        },
+        {
+          "authorId": "1978598",
+          "name": "J. Knechtel"
+        },
+        {
+          "authorId": "2253600910",
+          "name": "Ozgur Sinanoglu"
+        }
+      ]
+    },
+    {
+      "paperId": "f08d19adb7fadf8627376ccfd9935602f3843b7c",
+      "title": "EDA Corpus: A Large Language Model Dataset for Enhanced Interaction with OpenROAD",
+      "year": 2024,
+      "citationCount": 1,
+      "authors": [
+        {
+          "authorId": "2294924354",
+          "name": "Bing-Yue Wu"
+        },
+        {
+          "authorId": "2301154831",
+          "name": "Utsav Sharma"
+        },
+        {
+          "authorId": "2301155387",
+          "name": "Sai Rahul Dhanvi Kankipati"
+        },
+        {
+          "authorId": "2301266729",
+          "name": "Ajay Yadav"
+        },
+        {
+          "authorId": "2301153813",
+          "name": "Bintu Kappil George"
+        },
+        {
+          "authorId": "2301153407",
+          "name": "Sai Ritish Guntupalli"
+        },
+        {
+          "authorId": "2301153034",
+          "name": "Austin Rovinski"
+        },
+        {
+          "authorId": "108038866",
+          "name": "V. A. Chhabria"
+        }
+      ]
+    },
+    {
+      "paperId": "b6ab16c8eade03a39830493071d99fc48a736fac",
+      "title": "A Survey on the Memory Mechanism of Large Language Model based Agents",
+      "year": 2024,
+      "citationCount": 59,
+      "authors": [
+        {
+          "authorId": "2223760889",
+          "name": "Zeyu Zhang"
+        },
+        {
+          "authorId": "2226446789",
+          "name": "Xiaohe Bo"
+        },
+        {
+          "authorId": "2297986012",
+          "name": "Chen Ma"
+        },
+        {
+          "authorId": "2297891767",
+          "name": "Rui Li"
+        },
+        {
+          "authorId": "2258445639",
+          "name": "Xu Chen"
+        },
+        {
+          "authorId": "29969336",
+          "name": "Quanyu Dai"
+        },
+        {
+          "authorId": "2240695630",
+          "name": "Jieming Zhu"
+        },
+        {
+          "authorId": "2276747916",
+          "name": "Zhenhua Dong"
+        },
+        {
+          "authorId": "2287918455",
+          "name": "Ji-Rong Wen"
+        }
+      ]
+    },
+    {
+      "paperId": "6741acaef7f1ffe66c42144c6c0da4c3c6df3862",
+      "title": "Solvers, Engines, Tools and Flows: The Next Wave for AI/ML in Physical Design",
+      "year": 2024,
+      "citationCount": 4,
+      "authors": [
+        {
+          "authorId": "2286438021",
+          "name": "Andrew B. Kahng"
+        }
+      ]
+    },
+    {
+      "paperId": "6b1940cd909af3d43f80510b90deb9f9f0476e65",
+      "title": "Large Language Models for EDA: Future or Mirage?",
+      "year": 2024,
+      "citationCount": 3,
+      "authors": [
+        {
+          "authorId": "8822971",
+          "name": "Zhuolun He"
+        },
+        {
+          "authorId": "2140415064",
+          "name": "Bei Yu"
+        }
+      ]
+    },
+    {
+      "paperId": "ab15463babf98fffc6f683fe2026de0725b5e1a9",
+      "title": "Retrieval-Augmented Generation for AI-Generated Content: A Survey",
+      "year": 2024,
+      "citationCount": 120,
+      "authors": [
+        {
+          "authorId": "2268718776",
+          "name": "Penghao Zhao"
+        },
+        {
+          "authorId": "2288557803",
+          "name": "Hailin Zhang"
+        },
+        {
+          "authorId": "2289597580",
+          "name": "Qinhan Yu"
+        },
+        {
+          "authorId": "2288675277",
+          "name": "Zhengren Wang"
+        },
+        {
+          "authorId": "2288532368",
+          "name": "Yunteng Geng"
+        },
+        {
+          "authorId": "46182701",
+          "name": "Fangcheng Fu"
+        },
+        {
+          "authorId": "2249513224",
+          "name": "Ling Yang"
+        },
+        {
+          "authorId": "2277807793",
+          "name": "Wentao Zhang"
+        },
+        {
+          "authorId": "2277742543",
+          "name": "Bin Cui"
+        }
+      ]
+    },
+    {
+      "paperId": "bfeba7fc78b16da9c23c91d280e56f13e936e04d",
+      "title": "BetterV: Controlled Verilog Generation with Discriminative Guidance",
+      "year": 2024,
+      "citationCount": 26,
+      "authors": [
+        {
+          "authorId": "2130133597",
+          "name": "Zehua Pei"
+        },
+        {
+          "authorId": "2267558779",
+          "name": "Hui-Ling Zhen"
+        },
+        {
+          "authorId": "2075357674",
+          "name": "M. Yuan"
+        },
+        {
+          "authorId": "2282991476",
+          "name": "Yu Huang"
+        },
+        {
+          "authorId": "2283428383",
+          "name": "Bei Yu"
+        }
+      ]
+    },
+    {
+      "paperId": "fb3c8846d36eca4698cbcc2ad4b8ce0914578e7b",
+      "title": "AssertLLM: Generating and Evaluating Hardware Verification Assertions from Design Specifications via Multi-LLMs",
+      "year": 2024,
+      "citationCount": 4,
+      "authors": [
+        {
+          "authorId": "2267057082",
+          "name": "Wenji Fang"
+        },
+        {
+          "authorId": "2280998219",
+          "name": "Mengming Li"
+        },
+        {
+          "authorId": "2329166466",
+          "name": "Min Li"
+        },
+        {
+          "authorId": "2282310586",
+          "name": "Zhiyuan Yan"
+        },
+        {
+          "authorId": "2266759396",
+          "name": "Shang Liu"
+        },
+        {
+          "authorId": "2267023943",
+          "name": "Hongce Zhang"
+        },
+        {
+          "authorId": "2274191254",
+          "name": "Zhiyao Xie"
+        }
+      ]
+    },
+    {
+      "paperId": "beadfd41698c0382a5899077a8346c05ca6fe513",
+      "title": "LLM4EDA: Emerging Progress in Large Language Models for Electronic Design Automation",
+      "year": 2023,
+      "citationCount": 20,
+      "authors": [
+        {
+          "authorId": "2280334986",
+          "name": "Ruizhe Zhong"
+        },
+        {
+          "authorId": "151480427",
+          "name": "Xingbo Du"
+        },
+        {
+          "authorId": "51436778",
+          "name": "Shixiong Kai"
+        },
+        {
+          "authorId": "2281315386",
+          "name": "Zhentao Tang"
+        },
+        {
+          "authorId": "2280372123",
+          "name": "Siyuan Xu"
+        },
+        {
+          "authorId": "46465266",
+          "name": "Hui-Ling Zhen"
+        },
+        {
+          "authorId": "2238210852",
+          "name": "Jianye Hao"
+        },
+        {
+          "authorId": "2269061925",
+          "name": "Qiang Xu"
+        },
+        {
+          "authorId": "2075357674",
+          "name": "M. Yuan"
+        },
+        {
+          "authorId": "2269027548",
+          "name": "Junchi Yan"
+        }
+      ]
+    },
+    {
+      "paperId": "99e6c90c0ed18030164a731250d547b5e5735055",
+      "title": "LLM for SoC Security: A Paradigm Shift",
+      "year": 2023,
+      "citationCount": 23,
+      "authors": [
+        {
+          "authorId": "2256992493",
+          "name": "Dipayan Saha"
+        },
+        {
+          "authorId": "2114625129",
+          "name": "Shams Tarek"
+        },
+        {
+          "authorId": "2256991081",
+          "name": "Katayoon Yahyaei"
+        },
+        {
+          "authorId": "2231854143",
+          "name": "S. Saha"
+        },
+        {
+          "authorId": "2257235852",
+          "name": "Jingbo Zhou"
+        },
+        {
+          "authorId": "145954982",
+          "name": "M. Tehranipoor"
+        },
+        {
+          "authorId": "1997019",
+          "name": "Farimah Farahmandi"
+        }
+      ]
+    },
+    {
+      "paperId": "271abb481fff11002b92e295d56e88df70541595",
+      "title": "Combining Retrieval-Augmented Generation and Few-Shot Learning for Model Synthesis of Uncommon DSLs",
+      "year": 2024,
+      "citationCount": 4,
+      "authors": [
+        {
+          "authorId": "2190291951",
+          "name": "Nils Baumann"
+        },
+        {
+          "authorId": "2308447948",
+          "name": "Juan Sebastian Diaz"
+        },
+        {
+          "authorId": "144089484",
+          "name": "Judith Michael"
+        },
+        {
+          "authorId": "46642485",
+          "name": "Lukas Netz"
+        },
+        {
+          "authorId": "2248807437",
+          "name": "Haron Nqiri"
+        },
+        {
+          "authorId": "2308280052",
+          "name": "Jan Reimer"
+        },
+        {
+          "authorId": "2257229410",
+          "name": "Bernhard Rumpe"
+        }
+      ]
+    },
+    {
+      "paperId": "07027e8096fde250c77355c377ccc34d81c1d7ad",
+      "title": "OPL4GPT: An Application Space Exploration of Optimal Programming Language for Hardware Design by LLM",
+      "year": 2024,
+      "citationCount": 0,
+      "authors": [
+        {
+          "authorId": "68978353",
+          "name": "Kimia Tasnia"
+        },
+        {
+          "authorId": "2332920764",
+          "name": "Sazadur Rahman"
+        }
+      ]
+    }
+  ],
+  "references": [
+    {
+      "paperId": "985e4584d8dce5ce1c75860828c92d65cbd58590",
+      "title": "ChipNeMo: Domain-Adapted LLMs for Chip Design",
+      "year": 2023,
+      "citationCount": 98,
+      "authors": [
+        {
+          "authorId": "2264029479",
+          "name": "Mingjie Liu"
+        },
+        {
+          "authorId": "2131947631",
+          "name": "Teodor-Dumitru Ene"
+        },
+        {
+          "authorId": "2062359813",
+          "name": "Robert Kirby"
+        },
+        {
+          "authorId": "2263934207",
+          "name": "Chris Cheng"
+        },
+        {
+          "authorId": "2264391720",
+          "name": "Nathaniel Pinckney"
+        },
+        {
+          "authorId": "2291240060",
+          "name": "Rongjian Liang"
+        },
+        {
+          "authorId": "67038137",
+          "name": "Jonah Alben"
+        },
+        {
+          "authorId": "2060259990",
+          "name": "Himyanshu Anand"
+        },
+        {
+          "authorId": "2110879134",
+          "name": "Sanmitra Banerjee"
+        },
+        {
+          "authorId": "2597013",
+          "name": "I. Bayraktaroglu"
+        },
+        {
+          "authorId": "1688349",
+          "name": "Bonita Bhaskaran"
+        },
+        {
+          "authorId": "2264406909",
+          "name": "Bryan Catanzaro"
+        },
+        {
+          "authorId": "40563979",
+          "name": "Arjun Chaudhuri"
+        },
+        {
+          "authorId": "2263502675",
+          "name": "Sharon Clay"
+        },
+        {
+          "authorId": "1816924",
+          "name": "B. Dally"
+        },
+        {
+          "authorId": "2264377240",
+          "name": "Laura Dang"
+        },
+        {
+          "authorId": "2264094684",
+          "name": "Parikshit Deshpande"
+        },
+        {
+          "authorId": "2106688304",
+          "name": "Siddhanth Dhodhi"
+        },
+        {
+          "authorId": "52106057",
+          "name": "S. Halepete"
+        },
+        {
+          "authorId": "2263543928",
+          "name": "Eric Hill"
+        },
+        {
+          "authorId": "2265061039",
+          "name": "Jiashang Hu"
+        },
+        {
+          "authorId": "1773056",
+          "name": "Sumit Jain"
+        },
+        {
+          "authorId": "2125244",
+          "name": "Brucek Khailany"
+        },
+        {
+          "authorId": "2037064942",
+          "name": "K. Kunal"
+        },
+        {
+          "authorId": "2263820312",
+          "name": "Xiaowei Li"
+        },
+        {
+          "authorId": "2264135006",
+          "name": "Hao Liu"
+        },
+        {
+          "authorId": "3210618",
+          "name": "S. Oberman"
+        },
+        {
+          "authorId": "2263582274",
+          "name": "Sujeet Omar"
+        },
+        {
+          "authorId": "2147020578",
+          "name": "Sreedhar Pratty"
+        },
+        {
+          "authorId": "34042420",
+          "name": "Jonathan Raiman"
+        },
+        {
+          "authorId": "2263589606",
+          "name": "Ambar Sarkar"
+        },
+        {
+          "authorId": "2263677789",
+          "name": "Zhengjiang Shao"
+        },
+        {
+          "authorId": "2264014342",
+          "name": "Hanfei Sun"
+        },
+        {
+          "authorId": "2264406823",
+          "name": "Pratik P Suthar"
+        },
+        {
+          "authorId": "96233032",
+          "name": "Varun Tej"
+        },
+        {
+          "authorId": "2263625447",
+          "name": "Kaizhe Xu"
+        },
+        {
+          "authorId": "2242389593",
+          "name": "Haoxin Ren"
+        }
+      ]
+    },
+    {
+      "paperId": "cbd81507197e2d32b6f6c8ac99039f3a607ee8f1",
+      "title": "VerilogEval: Evaluating Large Language Models for Verilog Code Generation",
+      "year": 2023,
+      "citationCount": 93,
+      "authors": [
+        {
+          "authorId": "2264029479",
+          "name": "Mingjie Liu"
+        },
+        {
+          "authorId": "1787005",
+          "name": "N. Pinckney"
+        },
+        {
+          "authorId": "2125244",
+          "name": "Brucek Khailany"
+        },
+        {
+          "authorId": "40046703",
+          "name": "Haoxing Ren"
+        }
+      ]
+    },
+    {
+      "paperId": "0bfc804e31eecfd77f45e4ee7f4d629fffdcd628",
+      "title": "ToolLLM: Facilitating Large Language Models to Master 16000+ Real-world APIs",
+      "year": 2023,
+      "citationCount": 463,
+      "authors": [
+        {
+          "authorId": "50625437",
+          "name": "Yujia Qin"
+        },
+        {
+          "authorId": "2163374235",
+          "name": "Shi Liang"
+        },
+        {
+          "authorId": "2114059497",
+          "name": "Yining Ye"
+        },
+        {
+          "authorId": "2214586034",
+          "name": "Kunlun Zhu"
+        },
+        {
+          "authorId": "2214613855",
+          "name": "Lan Yan"
+        },
+        {
+          "authorId": "2191753738",
+          "name": "Ya-Ting Lu"
+        },
+        {
+          "authorId": "2149202150",
+          "name": "Yankai Lin"
+        },
+        {
+          "authorId": "2214579778",
+          "name": "Xin Cong"
+        },
+        {
+          "authorId": "47274259",
+          "name": "Xiangru Tang"
+        },
+        {
+          "authorId": "2226120351",
+          "name": "Bill Qian"
+        },
+        {
+          "authorId": "2226184989",
+          "name": "Sihan Zhao"
+        },
+        {
+          "authorId": "2214603370",
+          "name": "Runchu Tian"
+        },
+        {
+          "authorId": "3360722",
+          "name": "Ruobing Xie"
+        },
+        {
+          "authorId": "49640256",
+          "name": "Jie Zhou"
+        },
+        {
+          "authorId": "152573911",
+          "name": "M. Gerstein"
+        },
+        {
+          "authorId": "2144118403",
+          "name": "Dahai Li"
+        },
+        {
+          "authorId": "2141313179",
+          "name": "Zhiyuan Liu"
+        },
+        {
+          "authorId": "1753344",
+          "name": "Maosong Sun"
+        }
+      ]
+    },
+    {
+      "paperId": "b69882cb6c7367ea91224c27982277c5e643862e",
+      "title": "VeriGen: A Large Language Model for Verilog Code Generation",
+      "year": 2023,
+      "citationCount": 84,
+      "authors": [
+        {
+          "authorId": "2057985118",
+          "name": "Shailja Thakur"
+        },
+        {
+          "authorId": "2124891963",
+          "name": "Baleegh Ahmad"
+        },
+        {
+          "authorId": "3437933",
+          "name": "H. Pearce"
+        },
+        {
+          "authorId": "143645422",
+          "name": "Benjamin Tan"
+        },
+        {
+          "authorId": "1398683279",
+          "name": "Brendan Dolan-Gavitt"
+        },
+        {
+          "authorId": "1707355",
+          "name": "R. Karri"
+        },
+        {
+          "authorId": "1696125",
+          "name": "S. Garg"
+        }
+      ]
+    },
+    {
+      "paperId": "502bc7694dbe5dbf2bb7aaf576cd2bc13e6b95d8",
+      "title": "Chip-Chat: Challenges and Opportunities in Conversational Hardware Design",
+      "year": 2023,
+      "citationCount": 125,
+      "authors": [
+        {
+          "authorId": "2121510729",
+          "name": "Jason Blocklove"
+        },
+        {
+          "authorId": "1696125",
+          "name": "S. Garg"
+        },
+        {
+          "authorId": "1707355",
+          "name": "R. Karri"
+        },
+        {
+          "authorId": "3437933",
+          "name": "H. Pearce"
+        }
+      ]
+    },
+    {
+      "paperId": "9e3c493fb09dcd61bb05e8c5659f23327b7b6340",
+      "title": "Teaching Large Language Models to Self-Debug",
+      "year": 2023,
+      "citationCount": 508,
+      "authors": [
+        {
+          "authorId": "1425082935",
+          "name": "Xinyun Chen"
+        },
+        {
+          "authorId": "153698620",
+          "name": "Maxwell Lin"
+        },
+        {
+          "authorId": "3094520",
+          "name": "Nathanael Schärli"
+        },
+        {
+          "authorId": "65855107",
+          "name": "Denny Zhou"
+        }
+      ]
+    },
+    {
+      "paperId": "af5c7848417882012203ac21399977ebda695a2b",
+      "title": "RepoCoder: Repository-Level Code Completion Through Iterative Retrieval and Generation",
+      "year": 2023,
+      "citationCount": 155,
+      "authors": [
+        {
+          "authorId": "2158120018",
+          "name": "Fengji Zhang"
+        },
+        {
+          "authorId": "143876723",
+          "name": "B. Chen"
+        },
+        {
+          "authorId": "2211964951",
+          "name": "Yue Zhang"
+        },
+        {
+          "authorId": "2155352529",
+          "name": "Jin Liu"
+        },
+        {
+          "authorId": "2134434187",
+          "name": "Daoguang Zan"
+        },
+        {
+          "authorId": "145469202",
+          "name": "Yi Mao"
+        },
+        {
+          "authorId": "153249455",
+          "name": "Jian-Guang Lou"
+        },
+        {
+          "authorId": "2109136147",
+          "name": "Weizhu Chen"
+        }
+      ]
+    },
+    {
+      "paperId": "99832586d55f540f603637e458a292406a0ed75d",
+      "title": "ReAct: Synergizing Reasoning and Acting in Language Models",
+      "year": 2022,
+      "citationCount": 1801,
+      "authors": [
+        {
+          "authorId": "2093302161",
+          "name": "Shunyu Yao"
+        },
+        {
+          "authorId": "2144551262",
+          "name": "Jeffrey Zhao"
+        },
+        {
+          "authorId": "150978762",
+          "name": "Dian Yu"
+        },
+        {
+          "authorId": "2140321952",
+          "name": "Nan Du"
+        },
+        {
+          "authorId": "1697494",
+          "name": "Izhak Shafran"
+        },
+        {
+          "authorId": "144958935",
+          "name": "Karthik Narasimhan"
+        },
+        {
+          "authorId": "145144022",
+          "name": "Yuan Cao"
+        }
+      ]
+    },
+    {
+      "paperId": "2b556fcf2ac634f03c1fb0ace5e602e829418e65",
+      "title": "ReACC: A Retrieval-Augmented Code Completion Framework",
+      "year": 2022,
+      "citationCount": 117,
+      "authors": [
+        {
+          "authorId": "2115338656",
+          "name": "Shuai Lu"
+        },
+        {
+          "authorId": "46429989",
+          "name": "Nan Duan"
+        },
+        {
+          "authorId": "5534572",
+          "name": "Hojae Han"
+        },
+        {
+          "authorId": "2278834796",
+          "name": "Daya Guo"
+        },
+        {
+          "authorId": "1716415",
+          "name": "Seung-won Hwang"
+        },
+        {
+          "authorId": "2061625488",
+          "name": "Alexey Svyatkovskiy"
+        }
+      ]
+    },
+    {
+      "paperId": "3def68bd0f856886d34272840a7f81588f2bc082",
+      "title": "Survey of Hallucination in Natural Language Generation",
+      "year": 2022,
+      "citationCount": 1812,
+      "authors": [
+        {
+          "authorId": "3391272",
+          "name": "Ziwei Ji"
+        },
+        {
+          "authorId": "40221187",
+          "name": "Nayeon Lee"
+        },
+        {
+          "authorId": "1397300094",
+          "name": "Rita Frieske"
+        },
+        {
+          "authorId": "1660855299",
+          "name": "Tiezheng Yu"
+        },
+        {
+          "authorId": "49678544",
+          "name": "D. Su"
+        },
+        {
+          "authorId": "98271906",
+          "name": "Yan Xu"
+        },
+        {
+          "authorId": "38524906",
+          "name": "Etsuko Ishii"
+        },
+        {
+          "authorId": "23672613",
+          "name": "Yejin Bang"
+        },
+        {
+          "authorId": "94210578",
+          "name": "Delong Chen"
+        },
+        {
+          "authorId": "47653392",
+          "name": "Wenliang Dai"
+        },
+        {
+          "authorId": "2111680936",
+          "name": "Andrea Madotto"
+        },
+        {
+          "authorId": "40539650",
+          "name": "Pascale Fung"
+        }
+      ]
+    },
+    {
+      "paperId": "acbdbf49f9bc3f151b93d9ca9a06009f4f6eb269",
+      "title": "Evaluating Large Language Models Trained on Code",
+      "year": 2021,
+      "citationCount": 4111,
+      "authors": [
+        {
+          "authorId": "2108828435",
+          "name": "Mark Chen"
+        },
+        {
+          "authorId": "2065005836",
+          "name": "Jerry Tworek"
+        },
+        {
+          "authorId": "35450887",
+          "name": "Heewoo Jun"
+        },
+        {
+          "authorId": "153930486",
+          "name": "Qiming Yuan"
+        },
+        {
+          "authorId": "2117715024",
+          "name": "Henrique Pondé"
+        },
+        {
+          "authorId": "2053807409",
+          "name": "Jared Kaplan"
+        },
+        {
+          "authorId": "144632352",
+          "name": "Harrison Edwards"
+        },
+        {
+          "authorId": "51178856",
+          "name": "Yura Burda"
+        },
+        {
+          "authorId": "2117706920",
+          "name": "Nicholas Joseph"
+        },
+        {
+          "authorId": "2065151121",
+          "name": "Greg Brockman"
+        },
+        {
+          "authorId": "2064770039",
+          "name": "Alex Ray"
+        },
+        {
+          "authorId": "41158993",
+          "name": "Raul Puri"
+        },
+        {
+          "authorId": "2064404342",
+          "name": "Gretchen Krueger"
+        },
+        {
+          "authorId": "2136008481",
+          "name": "Michael Petrov"
+        },
+        {
+          "authorId": "2103414",
+          "name": "Heidy Khlaaf"
+        },
+        {
+          "authorId": "144864359",
+          "name": "Girish Sastry"
+        },
+        {
+          "authorId": "2051714782",
+          "name": "Pamela Mishkin"
+        },
+        {
+          "authorId": "1466431052",
+          "name": "Brooke Chan"
+        },
+        {
+          "authorId": "145565184",
+          "name": "Scott Gray"
+        },
+        {
+          "authorId": "39849748",
+          "name": "Nick Ryder"
+        },
+        {
+          "authorId": "2068123790",
+          "name": "Mikhail Pavlov"
+        },
+        {
+          "authorId": "146162186",
+          "name": "Alethea Power"
+        },
+        {
+          "authorId": "40527594",
+          "name": "Lukasz Kaiser"
+        },
+        {
+          "authorId": "2400764",
+          "name": "Mohammad Bavarian"
+        },
+        {
+          "authorId": "2059411355",
+          "name": "Clemens Winter"
+        },
+        {
+          "authorId": "2704719",
+          "name": "Philippe Tillet"
+        },
+        {
+          "authorId": "9927844",
+          "name": "F. Such"
+        },
+        {
+          "authorId": "80876468",
+          "name": "D. Cummings"
+        },
+        {
+          "authorId": "3407285",
+          "name": "Matthias Plappert"
+        },
+        {
+          "authorId": "2117714459",
+          "name": "Fotios Chantzis"
+        },
+        {
+          "authorId": "2057742918",
+          "name": "Elizabeth Barnes"
+        },
+        {
+          "authorId": "1404060687",
+          "name": "Ariel Herbert-Voss"
+        },
+        {
+          "authorId": "39121861",
+          "name": "William H. Guss"
+        },
+        {
+          "authorId": "38967461",
+          "name": "Alex Nichol"
+        },
+        {
+          "authorId": "2256699302",
+          "name": "Igor Babuschkin"
+        },
+        {
+          "authorId": "2054519183",
+          "name": "S. Balaji"
+        },
+        {
+          "authorId": "150298413",
+          "name": "Shantanu Jain"
+        },
+        {
+          "authorId": "153480842",
+          "name": "A. Carr"
+        },
+        {
+          "authorId": "2990741",
+          "name": "J. Leike"
+        },
+        {
+          "authorId": "3381809",
+          "name": "Joshua Achiam"
+        },
+        {
+          "authorId": "40055795",
+          "name": "Vedant Misra"
+        },
+        {
+          "authorId": "1404556973",
+          "name": "Evan Morikawa"
+        },
+        {
+          "authorId": "38909097",
+          "name": "Alec Radford"
+        },
+        {
+          "authorId": "3555117",
+          "name": "M. Knight"
+        },
+        {
+          "authorId": "35167962",
+          "name": "Miles Brundage"
+        },
+        {
+          "authorId": "2117715631",
+          "name": "Mira Murati"
+        },
+        {
+          "authorId": "2059169400",
+          "name": "Katie Mayer"
+        },
+        {
+          "authorId": "2930640",
+          "name": "P. Welinder"
+        },
+        {
+          "authorId": "39593364",
+          "name": "Bob McGrew"
+        },
+        {
+          "authorId": "2698777",
+          "name": "Dario Amodei"
+        },
+        {
+          "authorId": "52238703",
+          "name": "Sam McCandlish"
+        },
+        {
+          "authorId": "1701686",
+          "name": "I. Sutskever"
+        },
+        {
+          "authorId": "2563432",
+          "name": "Wojciech Zaremba"
+        }
+      ]
+    },
+    {
+      "paperId": "5bb4f4be3aad75da5a64a52b56e697ee6df71e39",
+      "title": "DAVE: Deriving Automatically Verilog from English",
+      "year": 2020,
+      "citationCount": 50,
+      "authors": [
+        {
+          "authorId": "3437933",
+          "name": "H. Pearce"
+        },
+        {
+          "authorId": "143645422",
+          "name": "Benjamin Tan"
+        },
+        {
+          "authorId": "1707355",
+          "name": "R. Karri"
+        }
+      ]
+    },
+    {
+      "paperId": "58ed1fbaabe027345f7bb3a6312d41c5aac63e22",
+      "title": "Retrieval-Augmented Generation for Knowledge-Intensive NLP Tasks",
+      "year": 2020,
+      "citationCount": 4213,
+      "authors": [
+        {
+          "authorId": "145222654",
+          "name": "Patrick Lewis"
+        },
+        {
+          "authorId": "3439053",
+          "name": "Ethan Perez"
+        },
+        {
+          "authorId": "1716179427",
+          "name": "Aleksandara Piktus"
+        },
+        {
+          "authorId": "40052301",
+          "name": "F. Petroni"
+        },
+        {
+          "authorId": "2067091563",
+          "name": "Vladimir Karpukhin"
+        },
+        {
+          "authorId": "39589154",
+          "name": "Naman Goyal"
+        },
+        {
+          "authorId": "103131985",
+          "name": "Heinrich Kuttler"
+        },
+        {
+          "authorId": "35084211",
+          "name": "M. Lewis"
+        },
+        {
+          "authorId": "144105277",
+          "name": "Wen-tau Yih"
+        },
+        {
+          "authorId": "2620211",
+          "name": "Tim Rocktäschel"
+        },
+        {
+          "authorId": "48662861",
+          "name": "Sebastian Riedel"
+        },
+        {
+          "authorId": "1743722",
+          "name": "Douwe Kiela"
+        }
+      ]
+    },
+    {
+      "paperId": "e9b1ba025413b86f2a01d11fb1cd571c1a0d7c16",
+      "title": "DBSCAN Revisited, Revisited",
+      "year": 2017,
+      "citationCount": 1213,
+      "authors": [
+        {
+          "authorId": "26011531",
+          "name": "Erich Schubert"
+        },
+        {
+          "authorId": "144815274",
+          "name": "J. Sander"
+        },
+        {
+          "authorId": "1766588",
+          "name": "M. Ester"
+        },
+        {
+          "authorId": "1688561",
+          "name": "H. Kriegel"
+        },
+        {
+          "authorId": "48670688",
+          "name": "Xiaowei Xu"
+        }
+      ]
+    },
+    {
+      "paperId": "249c6f01d10a919e1730f72c9bb59ac30623baa5",
+      "title": "Icarus verilog: open-source verilog more than a year later",
+      "year": 2002,
+      "citationCount": 43,
+      "authors": [
+        {
+          "authorId": "2108672204",
+          "name": "Stephen Williams"
+        },
+        {
+          "authorId": "144969413",
+          "name": "Michael Baxter"
+        }
+      ]
+    },
+    {
+      "paperId": null,
+      "title": "Introducing GitHub Copilot: your AI pair programmer",
+      "year": 2021,
+      "citationCount": null,
+      "authors": []
+    },
+    {
+      "paperId": null,
+      "title": "2023. RTLLM: An Open-Source Benchmark for Design RTL Generation with Large Language Model",
+      "year": null,
+      "citationCount": null,
+      "authors": []
+    },
+    {
+      "paperId": "db467107ad133e44085780da5296b840e2a32e9e",
+      "title": "Using of Jaccard Coefficient for Keywords Similarity",
+      "year": null,
+      "citationCount": 611,
+      "authors": [
+        {
+          "authorId": "3059097",
+          "name": "Suphakit Niwattanakul"
+        },
+        {
+          "authorId": "9487710",
+          "name": "Jatsada Singthongchai"
+        },
+        {
+          "authorId": "9512404",
+          "name": "Ekkachai Naenudorn"
+        },
+        {
+          "authorId": "1944190",
+          "name": "Supachanun Wanapu"
+        }
+      ]
+    },
+    {
+      "paperId": null,
+      "title": "2023. Chain-of-Thought Prompting Elicits Reasoning in Large Language Models",
+      "year": null,
+      "citationCount": null,
+      "authors": []
+    },
+    {
+      "paperId": null,
+      "title": "2023. SelfEvolve: A Code Evolution Framework via Large Language Models",
+      "year": null,
+      "citationCount": null,
+      "authors": []
+    }
+  ]
+}
