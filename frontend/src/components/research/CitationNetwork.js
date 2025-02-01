@@ -180,13 +180,17 @@ const CitationNetwork = ({
 
         // 修改节点的事件处理
         nodes
-            .on("click", async (event, d) => {
-                // 调用handleNodeClick
-                await handleNodeClick(event, d);
-                // 保留原有的onNodeClick回调
+            .on("click", (event, d) => {
+                // 左键点击只处理选中状态
                 if (onNodeClick) {
                     onNodeClick(d);
                 }
+            })
+            .on("contextmenu", async (event, d) => {
+                // 阻止默认的右键菜单
+                event.preventDefault();
+                // 右键点击显示子网
+                await handleNodeClick(event, d);
             })
             .on("mouseover", function(event, d) {
                 // 保持原有的 tooltip 功能
