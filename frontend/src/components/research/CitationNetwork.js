@@ -39,6 +39,14 @@ const CitationNetwork = ({
     const renderNetwork = (data) => {
         const svg = d3.select(svgRef.current);
         
+        // 添加引用量的比例尺
+        const citationScale = d3.scaleLinear()
+            .domain([
+                d3.min(data.nodes, d => d.citations_count || 0),  // 最小引用量
+                d3.max(data.nodes, d => d.citations_count || 0)   // 最大引用量
+            ])
+            .range([20, 50]);  // 节点半径范围：最小5px，最大25px
+
         // 清除现有内容
         svg.selectAll("*").remove();
 
@@ -124,11 +132,8 @@ const CitationNetwork = ({
             .enter()
             .append("circle")
             .attr("r", d => {
-                const baseSize = 5;
                 const citations = d.citations_count || 0;
-                return citations === 0
-                    ? baseSize
-                    : Math.min(baseSize + Math.sqrt(citations), 30);
+                return citations === 0 ? 5 : citationScale(citations);
             })
             .attr("fill", d => colorScale(d.year))
             .attr("stroke", d => d.id === selectedPaperId ? "#ff4444" : "#fff")  // 选中状态边框
