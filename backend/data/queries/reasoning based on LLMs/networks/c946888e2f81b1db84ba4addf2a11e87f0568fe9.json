@@ -1,0 +1,4934 @@
+{
+  "citations": [
+    {
+      "paperId": "92056d644aed7caa6c5367fe77774883246af793",
+      "title": "From Generation to Judgment: Opportunities and Challenges of LLM-as-a-judge",
+      "year": 2024,
+      "citationCount": 7,
+      "authors": [
+        {
+          "authorId": "2161635474",
+          "name": "Dawei Li"
+        },
+        {
+          "authorId": "2036355404",
+          "name": "Bohan Jiang"
+        },
+        {
+          "authorId": "2332445319",
+          "name": "Liangjie Huang"
+        },
+        {
+          "authorId": "2284862132",
+          "name": "Alimohammad Beigi"
+        },
+        {
+          "authorId": "2038670428",
+          "name": "Chengshuai Zhao"
+        },
+        {
+          "authorId": "2264369617",
+          "name": "Zhen Tan"
+        },
+        {
+          "authorId": "2144903149",
+          "name": "Amrita Bhattacharjee"
+        },
+        {
+          "authorId": "2332738929",
+          "name": "Yuxuan Jiang"
+        },
+        {
+          "authorId": "2163546329",
+          "name": "Canyu Chen"
+        },
+        {
+          "authorId": "2332497474",
+          "name": "Tianhao Wu"
+        },
+        {
+          "authorId": "2257235725",
+          "name": "Kai Shu"
+        },
+        {
+          "authorId": "2329855611",
+          "name": "Lu Cheng"
+        },
+        {
+          "authorId": "2287545693",
+          "name": "Huan Liu"
+        }
+      ]
+    },
+    {
+      "paperId": "2d212a70b7edee4f7df9cfc27bbf068e42e221e5",
+      "title": "Improving Next Tokens via Second-Last Predictions with Generate and Refine",
+      "year": 2024,
+      "citationCount": 0,
+      "authors": [
+        {
+          "authorId": "2332918961",
+          "name": "Johannes Schneider"
+        }
+      ]
+    },
+    {
+      "paperId": "996cfd7cf8a57ddf13dde04154211d0f92284af6",
+      "title": "Reverse Question Answering: Can an LLM Write a Question so Hard (or Bad) that it Can't Answer?",
+      "year": 2024,
+      "citationCount": 1,
+      "authors": [
+        {
+          "authorId": "2216486213",
+          "name": "Nishant Balepur"
+        },
+        {
+          "authorId": "2326990740",
+          "name": "Feng Gu"
+        },
+        {
+          "authorId": "3023068",
+          "name": "Abhilasha Ravichander"
+        },
+        {
+          "authorId": "2284701194",
+          "name": "Shi Feng"
+        },
+        {
+          "authorId": "2260114875",
+          "name": "Jordan L. Boyd-Graber"
+        },
+        {
+          "authorId": "2302559920",
+          "name": "Rachel Rudinger"
+        }
+      ]
+    },
+    {
+      "paperId": "b3b8e8dcd58d69204a222ca21df3f13b558d2f61",
+      "title": "COrAL: Order-Agnostic Language Modeling for Efficient Iterative Refinement",
+      "year": 2024,
+      "citationCount": 0,
+      "authors": [
+        {
+          "authorId": "2325017947",
+          "name": "Yuxi Xie"
+        },
+        {
+          "authorId": "2297786971",
+          "name": "Anirudh Goyal"
+        },
+        {
+          "authorId": "2325887390",
+          "name": "Xiaobao Wu"
+        },
+        {
+          "authorId": "2327972131",
+          "name": "Xunjian Yin"
+        },
+        {
+          "authorId": "2325914565",
+          "name": "Xiao Xu"
+        },
+        {
+          "authorId": "2273380846",
+          "name": "Min-Yen Kan"
+        },
+        {
+          "authorId": "2304300629",
+          "name": "Liangming Pan"
+        },
+        {
+          "authorId": "2303615873",
+          "name": "William Yang Wang"
+        }
+      ]
+    },
+    {
+      "paperId": "3eb25b4eb27808f9a6c619cdcd764140d691dea8",
+      "title": "From Exploration to Mastery: Enabling LLMs to Master Tools via Self-Driven Interactions",
+      "year": 2024,
+      "citationCount": 1,
+      "authors": [
+        {
+          "authorId": "2303401638",
+          "name": "Changle Qu"
+        },
+        {
+          "authorId": "2155892801",
+          "name": "Sunhao Dai"
+        },
+        {
+          "authorId": "2274221772",
+          "name": "Xiaochi Wei"
+        },
+        {
+          "authorId": "2274199835",
+          "name": "Hengyi Cai"
+        },
+        {
+          "authorId": "2237948548",
+          "name": "Shuaiqiang Wang"
+        },
+        {
+          "authorId": "2243455567",
+          "name": "Dawei Yin"
+        },
+        {
+          "authorId": "2304023172",
+          "name": "Jun Xu"
+        },
+        {
+          "authorId": "2113341834",
+          "name": "Jirong Wen"
+        }
+      ]
+    },
+    {
+      "paperId": "b8384139339e4487840fef42e73b4ead65f227d3",
+      "title": "LLM Self-Correction with DeCRIM: Decompose, Critique, and Refine for Enhanced Following of Instructions with Multiple Constraints",
+      "year": 2024,
+      "citationCount": 0,
+      "authors": [
+        {
+          "authorId": "2144849309",
+          "name": "Thomas Palmeira Ferraz"
+        },
+        {
+          "authorId": "2325097806",
+          "name": "Kartik Mehta"
+        },
+        {
+          "authorId": "2258671169",
+          "name": "Yu-Hsiang Lin"
+        },
+        {
+          "authorId": "144827671",
+          "name": "Haw-Shiuan Chang"
+        },
+        {
+          "authorId": "3114640",
+          "name": "Shereen Oraby"
+        },
+        {
+          "authorId": "2325537008",
+          "name": "Sijia Liu"
+        },
+        {
+          "authorId": "2325094260",
+          "name": "Vivek Subramanian"
+        },
+        {
+          "authorId": "2325050059",
+          "name": "Tagyoung Chung"
+        },
+        {
+          "authorId": "2300284478",
+          "name": "Mohit Bansal"
+        },
+        {
+          "authorId": "2300284348",
+          "name": "Nanyun Peng"
+        }
+      ]
+    },
+    {
+      "paperId": "5e3e9034e281702f3802eeb4142f20ed137f65b1",
+      "title": "Rationale-Aware Answer Verification by Pairwise Self-Evaluation",
+      "year": 2024,
+      "citationCount": 1,
+      "authors": [
+        {
+          "authorId": "2268758593",
+          "name": "Akira Kawabata"
+        },
+        {
+          "authorId": "2238216431",
+          "name": "Saku Sugawara"
+        }
+      ]
+    },
+    {
+      "paperId": "c2be68bb31fcfbb9bbcab951cebf8c9a1b096ece",
+      "title": "Consistent Autoformalization for Constructing Mathematical Libraries",
+      "year": 2024,
+      "citationCount": 0,
+      "authors": [
+        {
+          "authorId": "2109006173",
+          "name": "Lan Zhang"
+        },
+        {
+          "authorId": "2282137151",
+          "name": "Xin Quan"
+        },
+        {
+          "authorId": "2324783803",
+          "name": "Andre Freitas"
+        }
+      ]
+    },
+    {
+      "paperId": "a35076b46fc0e7d4dfa63b538ffa7489b106a738",
+      "title": "SELU: Self-Learning Embodied MLLMs in Unknown Environments",
+      "year": 2024,
+      "citationCount": 0,
+      "authors": [
+        {
+          "authorId": "2290141409",
+          "name": "Boyu Li"
+        },
+        {
+          "authorId": "2152632624",
+          "name": "Haobin Jiang"
+        },
+        {
+          "authorId": "1742314398",
+          "name": "Ziluo Ding"
+        },
+        {
+          "authorId": "2324951288",
+          "name": "Xinrun Xu"
+        },
+        {
+          "authorId": "2145539850",
+          "name": "Haoran Li"
+        },
+        {
+          "authorId": "2269029904",
+          "name": "Dongbin Zhao"
+        },
+        {
+          "authorId": "2278975285",
+          "name": "Zongqing Lu"
+        }
+      ]
+    },
+    {
+      "paperId": "a9c177daae7dea8778259cf3b05e292b792507db",
+      "title": "MQM-APE: Toward High-Quality Error Annotation Predictors with Automatic Post-Editing in LLM Translation Evaluators",
+      "year": 2024,
+      "citationCount": 1,
+      "authors": [
+        {
+          "authorId": "2117523622",
+          "name": "Qingyu Lu"
+        },
+        {
+          "authorId": "46573238",
+          "name": "Liang Ding"
+        },
+        {
+          "authorId": "2315458318",
+          "name": "Kanjian Zhang"
+        },
+        {
+          "authorId": "2296705205",
+          "name": "Jinxia Zhang"
+        },
+        {
+          "authorId": "2255502438",
+          "name": "D. Tao"
+        }
+      ]
+    },
+    {
+      "paperId": "75732edda18744c1027ed766ec9579d27a3a59a2",
+      "title": "Backtracking Improves Generation Safety",
+      "year": 2024,
+      "citationCount": 3,
+      "authors": [
+        {
+          "authorId": "2322453654",
+          "name": "Yiming Zhang"
+        },
+        {
+          "authorId": "31357678",
+          "name": "Jianfeng Chi"
+        },
+        {
+          "authorId": "2314075528",
+          "name": "Hailey Nguyen"
+        },
+        {
+          "authorId": "17097160",
+          "name": "K. Upasani"
+        },
+        {
+          "authorId": "2265492068",
+          "name": "Daniel M. Bikel"
+        },
+        {
+          "authorId": "2322443044",
+          "name": "Jason Weston"
+        },
+        {
+          "authorId": "2268821751",
+          "name": "Eric Michael Smith"
+        }
+      ]
+    },
+    {
+      "paperId": "b9fbc328dd40391321ddd80cc2bc911a80e574f7",
+      "title": "AI Should Challenge, Not Obey",
+      "year": 2024,
+      "citationCount": 6,
+      "authors": [
+        {
+          "authorId": "2242912880",
+          "name": "Advait Sarkar"
+        }
+      ]
+    },
+    {
+      "paperId": "06f9c856b9d1f4f6ffc76df16025c5e9728a31cc",
+      "title": "S3c-Math: Spontaneous Step-level Self-correction Makes Large Language Models Better Mathematical Reasoners",
+      "year": 2024,
+      "citationCount": 1,
+      "authors": [
+        {
+          "authorId": "2284984220",
+          "name": "Yuchen Yan"
+        },
+        {
+          "authorId": "2319385003",
+          "name": "Jin Jiang"
+        },
+        {
+          "authorId": "2316670312",
+          "name": "Yang Liu"
+        },
+        {
+          "authorId": "2319459835",
+          "name": "Yixin Cao"
+        },
+        {
+          "authorId": "2320138194",
+          "name": "Xin Xu"
+        },
+        {
+          "authorId": "2284132141",
+          "name": "Mengdi Zhang"
+        },
+        {
+          "authorId": "2317059694",
+          "name": "Xunliang Cai"
+        },
+        {
+          "authorId": "2319634493",
+          "name": "Jian Shao"
+        }
+      ]
+    },
+    {
+      "paperId": "dcd1fd44decc17259f15126d0439539fa712d7a0",
+      "title": "HySem: A context length optimized LLM pipeline for unstructured tabular extraction",
+      "year": 2024,
+      "citationCount": 0,
+      "authors": [
+        {
+          "authorId": "2316427836",
+          "name": "PP Narayanan"
+        },
+        {
+          "authorId": "1947408",
+          "name": "A. P. N. Iyer"
+        }
+      ]
+    },
+    {
+      "paperId": "eb429372837deca2f08a4a617f5af099750534e7",
+      "title": "DAC: Decomposed Automation Correction for Text-to-SQL",
+      "year": 2024,
+      "citationCount": 0,
+      "authors": [
+        {
+          "authorId": "2159084043",
+          "name": "Dingzirui Wang"
+        },
+        {
+          "authorId": "49093992",
+          "name": "Longxu Dou"
+        },
+        {
+          "authorId": "2284033114",
+          "name": "Xuanliang Zhang"
+        },
+        {
+          "authorId": "2283927956",
+          "name": "Qingfu Zhu"
+        },
+        {
+          "authorId": "2283920108",
+          "name": "Wanxiang Che"
+        }
+      ]
+    },
+    {
+      "paperId": "ccc884fb45d157506ffa8b50464be71dae730ede",
+      "title": "SqliGPT: Evaluating and Utilizing Large Language Models for Automated SQL Injection Black-Box Detection",
+      "year": 2024,
+      "citationCount": 0,
+      "authors": [
+        {
+          "authorId": "2232958249",
+          "name": "Zhiwen Gui"
+        },
+        {
+          "authorId": "152482017",
+          "name": "Enze Wang"
+        },
+        {
+          "authorId": "2315566039",
+          "name": "Binbin Deng"
+        },
+        {
+          "authorId": "2315565793",
+          "name": "Mingyuan Zhang"
+        },
+        {
+          "authorId": "2315573067",
+          "name": "Yitao Chen"
+        },
+        {
+          "authorId": "2315662506",
+          "name": "Shengfei Wei"
+        },
+        {
+          "authorId": "2113722106",
+          "name": "Wei Xie"
+        },
+        {
+          "authorId": "2118640332",
+          "name": "Baosheng Wang"
+        }
+      ]
+    },
+    {
+      "paperId": "b0230118746b2a8bed260a828e5731482aba019e",
+      "title": "AgentPeerTalk: Empowering Students through Agentic-AI-Driven Discernment of Bullying and Joking in Peer Interactions in Schools",
+      "year": 2024,
+      "citationCount": 2,
+      "authors": [
+        {
+          "authorId": "2315789379",
+          "name": "Aditya Paul"
+        },
+        {
+          "authorId": "2314880311",
+          "name": "Chi Lok Yu"
+        },
+        {
+          "authorId": "2314832010",
+          "name": "Eva Adelina Susanto"
+        },
+        {
+          "authorId": "2314829463",
+          "name": "Nicholas Wai Long Lau"
+        },
+        {
+          "authorId": "2314830463",
+          "name": "Gwenyth Isobel Meadows"
+        }
+      ]
+    },
+    {
+      "paperId": "3a588665fb59801fcbdce825ed7a4cf59984567f",
+      "title": "Internal Consistency and Self-Feedback in Large Language Models: A Survey",
+      "year": 2024,
+      "citationCount": 12,
+      "authors": [
+        {
+          "authorId": "2268495952",
+          "name": "Xun Liang"
+        },
+        {
+          "authorId": "2268434524",
+          "name": "Shichao Song"
+        },
+        {
+          "authorId": "2302370745",
+          "name": "Zifan Zheng"
+        },
+        {
+          "authorId": "2284861141",
+          "name": "Hanyu Wang"
+        },
+        {
+          "authorId": "2278590555",
+          "name": "Qingchen Yu"
+        },
+        {
+          "authorId": "2268429288",
+          "name": "Xunkai Li"
+        },
+        {
+          "authorId": "2312235766",
+          "name": "Rong-Hua Li"
+        },
+        {
+          "authorId": "2268399953",
+          "name": "Feiyu Xiong"
+        },
+        {
+          "authorId": "2268429641",
+          "name": "Zhiyu Li"
+        }
+      ]
+    },
+    {
+      "paperId": "95a019d605e85a15bcd102ae5f95338cea1f5046",
+      "title": "Speech-Copilot: Leveraging Large Language Models for Speech Processing Via Task Decomposition, Modularization, and Program Generation",
+      "year": 2024,
+      "citationCount": 4,
+      "authors": [
+        {
+          "authorId": "2243185910",
+          "name": "Chun-Yi Kuan"
+        },
+        {
+          "authorId": "2253813730",
+          "name": "Chih-Kai Yang"
+        },
+        {
+          "authorId": "2257155819",
+          "name": "Wei-Ping Huang"
+        },
+        {
+          "authorId": "2242945569",
+          "name": "Ke-Han Lu"
+        },
+        {
+          "authorId": "2279957914",
+          "name": "Hung-yi Lee"
+        }
+      ]
+    },
+    {
+      "paperId": "69c8421f110dd8133ac45c2d77652fc85aebd18e",
+      "title": "Learning to Refine with Fine-Grained Natural Language Feedback",
+      "year": 2024,
+      "citationCount": 3,
+      "authors": [
+        {
+          "authorId": "7341605",
+          "name": "Manya Wadhwa"
+        },
+        {
+          "authorId": "2309536381",
+          "name": "Xinyu Zhao"
+        },
+        {
+          "authorId": "2261337975",
+          "name": "Junyi Jessy Li"
+        },
+        {
+          "authorId": "1814094",
+          "name": "Greg Durrett"
+        }
+      ]
+    },
+    {
+      "paperId": "606e0c8288b6b8ed53243677ceb0a95f61d93c76",
+      "title": "MAGIC: Generating Self-Correction Guideline for In-Context Text-to-SQL",
+      "year": 2024,
+      "citationCount": 5,
+      "authors": [
+        {
+          "authorId": "77879474",
+          "name": "Arian Askari"
+        },
+        {
+          "authorId": "2307085175",
+          "name": "Christian Poelitz"
+        },
+        {
+          "authorId": "2307225471",
+          "name": "Xinye Tang"
+        }
+      ]
+    },
+    {
+      "paperId": "bfc4fc45ce6f0f71aa982873eca6ac038f1ce0c3",
+      "title": "Self-Reflection Outcome is Sensitive to Prompt Construction",
+      "year": 2024,
+      "citationCount": 0,
+      "authors": [
+        {
+          "authorId": "2174816842",
+          "name": "Fengyuan Liu"
+        },
+        {
+          "authorId": "40868702",
+          "name": "Nouar Aldahoul"
+        },
+        {
+          "authorId": "2307003749",
+          "name": "Gregory Eady"
+        },
+        {
+          "authorId": "2261388036",
+          "name": "Yasir Zaki"
+        },
+        {
+          "authorId": "2446400",
+          "name": "Bedoor K. AlShebli"
+        },
+        {
+          "authorId": "1775071",
+          "name": "Talal Rahwan"
+        }
+      ]
+    },
+    {
+      "paperId": "e7a41e457ceba6aa64f7ecb86e3cee97df1101ac",
+      "title": "Log Parsing with Self-Generated In-Context Learning and Self-Correction",
+      "year": 2024,
+      "citationCount": 0,
+      "authors": [
+        {
+          "authorId": "2268794712",
+          "name": "Yifan Wu"
+        },
+        {
+          "authorId": "2155808164",
+          "name": "Siyu Yu"
+        },
+        {
+          "authorId": "2172444921",
+          "name": "Ying Li"
+        }
+      ]
+    },
+    {
+      "paperId": "b2145d032360697b95631bfdb8bd694607fab2b5",
+      "title": "Are LLMs classical or nonmonotonic reasoners? Lessons from generics",
+      "year": 2024,
+      "citationCount": 0,
+      "authors": [
+        {
+          "authorId": "2262444923",
+          "name": "Alina Leidinger"
+        },
+        {
+          "authorId": "2238624162",
+          "name": "R. Rooij"
+        },
+        {
+          "authorId": "2262445370",
+          "name": "Ekaterina Shutova"
+        }
+      ]
+    },
+    {
+      "paperId": "32e086dd56041ddb63d9e9e210c29a7fdeabdb6d",
+      "title": "Alice in Wonderland: Simple Tasks Showing Complete Reasoning Breakdown in State-Of-the-Art Large Language Models",
+      "year": 2024,
+      "citationCount": 18,
+      "authors": [
+        {
+          "authorId": "2174178585",
+          "name": "Marianna Nezhurina"
+        },
+        {
+          "authorId": "2304554001",
+          "name": "Lucia Cipolina-Kun"
+        },
+        {
+          "authorId": "2304553123",
+          "name": "Mehdi Cherti"
+        },
+        {
+          "authorId": "2191688",
+          "name": "J. Jitsev"
+        }
+      ]
+    },
+    {
+      "paperId": "3fa1e1c67514b9eaf9ec8da562baef8974b4f3f9",
+      "title": "When Can LLMs Actually Correct Their Own Mistakes? A Critical Survey of Self-Correction of LLMs",
+      "year": 2024,
+      "citationCount": 20,
+      "authors": [
+        {
+          "authorId": "83757854",
+          "name": "Ryo Kamoi"
+        },
+        {
+          "authorId": "2145039557",
+          "name": "Yusen Zhang"
+        },
+        {
+          "authorId": "2266469940",
+          "name": "Nan Zhang"
+        },
+        {
+          "authorId": "2161986932",
+          "name": "Jiawei Han"
+        },
+        {
+          "authorId": "144142360",
+          "name": "Rui Zhang"
+        }
+      ]
+    },
+    {
+      "paperId": "dd3dd5e7e3a2718336039112a3f734347da5c1f4",
+      "title": "Achieving>97% on GSM8K: Deeply Understanding the Problems Makes LLMs Better Solvers for Math Word Problems",
+      "year": 2024,
+      "citationCount": 1,
+      "authors": [
+        {
+          "authorId": "2114810150",
+          "name": "Qihuang Zhong"
+        },
+        {
+          "authorId": "2297998382",
+          "name": "Kang Wang"
+        },
+        {
+          "authorId": "2291967415",
+          "name": "Ziyang Xu"
+        },
+        {
+          "authorId": "46701032",
+          "name": "Juhua Liu"
+        },
+        {
+          "authorId": "46573238",
+          "name": "Liang Ding"
+        },
+        {
+          "authorId": "2289611686",
+          "name": "Bo Du"
+        },
+        {
+          "authorId": "2255502438",
+          "name": "D. Tao"
+        }
+      ]
+    },
+    {
+      "paperId": "3ad3e240cabb3f3471770d25a7414a81175aa0db",
+      "title": "Explainable Generative AI (GenXAI): A Survey, Conceptualization, and Research Agenda",
+      "year": 2024,
+      "citationCount": 8,
+      "authors": [
+        {
+          "authorId": "2296752244",
+          "name": "Johannes Schneider"
+        }
+      ]
+    },
+    {
+      "paperId": "d5e9532d12a26124f019de5f1a1d6a9a6eab3d03",
+      "title": "Evaluating LLMs at Detecting Errors in LLM Responses",
+      "year": 2024,
+      "citationCount": 8,
+      "authors": [
+        {
+          "authorId": "83757854",
+          "name": "Ryo Kamoi"
+        },
+        {
+          "authorId": "1456156441",
+          "name": "Sarkar Snigdha Sarathi Das"
+        },
+        {
+          "authorId": "2118614649",
+          "name": "Renze Lou"
+        },
+        {
+          "authorId": "2295188259",
+          "name": "Jihyun Janice Ahn"
+        },
+        {
+          "authorId": "46316984",
+          "name": "Yilun Zhao"
+        },
+        {
+          "authorId": "2266470204",
+          "name": "Xiaoxin Lu"
+        },
+        {
+          "authorId": "2266469940",
+          "name": "Nan Zhang"
+        },
+        {
+          "authorId": "2145039557",
+          "name": "Yusen Zhang"
+        },
+        {
+          "authorId": "2261450671",
+          "name": "Ranran Haoran Zhang"
+        },
+        {
+          "authorId": "2294872107",
+          "name": "Sujeeth Reddy Vummanthala"
+        },
+        {
+          "authorId": "2294871756",
+          "name": "Salika Dave"
+        },
+        {
+          "authorId": "2294874707",
+          "name": "Shaobo Qin"
+        },
+        {
+          "authorId": "2266838179",
+          "name": "Arman Cohan"
+        },
+        {
+          "authorId": "2265583938",
+          "name": "Wenpeng Yin"
+        },
+        {
+          "authorId": "144142360",
+          "name": "Rui Zhang"
+        }
+      ]
+    },
+    {
+      "paperId": "094b6847434be00e41686529f45d895bd632f68a",
+      "title": "Can LLMs Learn from Previous Mistakes? Investigating LLMs' Errors to Boost for Reasoning",
+      "year": 2024,
+      "citationCount": 31,
+      "authors": [
+        {
+          "authorId": "2260336914",
+          "name": "Yongqi Tong"
+        },
+        {
+          "authorId": "2161635474",
+          "name": "Dawei Li"
+        },
+        {
+          "authorId": "2260628159",
+          "name": "Sizhe Wang"
+        },
+        {
+          "authorId": "2261894506",
+          "name": "Yujia Wang"
+        },
+        {
+          "authorId": "2294173293",
+          "name": "Fei Teng"
+        },
+        {
+          "authorId": "2257005005",
+          "name": "Jingbo Shang"
+        }
+      ]
+    },
+    {
+      "paperId": "d642e004b9e4acef660283e4f518aa9210ff341d",
+      "title": "Cost-Effective In-Context Learning for Entity Resolution: A Design Space Exploration",
+      "year": 2023,
+      "citationCount": 4,
+      "authors": [
+        {
+          "authorId": "2271233300",
+          "name": "Meihao Fan"
+        },
+        {
+          "authorId": "2271524127",
+          "name": "Xiaoyue Han"
+        },
+        {
+          "authorId": "1704755170",
+          "name": "Ju Fan"
+        },
+        {
+          "authorId": "1720852203",
+          "name": "Chengliang Chai"
+        },
+        {
+          "authorId": "2213989628",
+          "name": "Nan Tang"
+        },
+        {
+          "authorId": "2257315172",
+          "name": "Guoliang Li"
+        },
+        {
+          "authorId": "2200839859",
+          "name": "Xiaoyong Du"
+        }
+      ]
+    },
+    {
+      "paperId": "03f3801956fc4cc026860568670f9f65ed29b192",
+      "title": "Towards A Unified View of Answer Calibration for Multi-Step Reasoning",
+      "year": 2023,
+      "citationCount": 1,
+      "authors": [
+        {
+          "authorId": "152931849",
+          "name": "Shumin Deng"
+        },
+        {
+          "authorId": "2608639",
+          "name": "Ningyu Zhang"
+        },
+        {
+          "authorId": "2266753656",
+          "name": "Nay Oo"
+        },
+        {
+          "authorId": "2314827895",
+          "name": "Bryan Hooi"
+        }
+      ]
+    },
+    {
+      "paperId": "1a7bbeeddb9e845eabfb979099edfa58f98ae9e9",
+      "title": "LLM-as-a-tutor in EFL Writing Education: Focusing on Evaluation of Student-LLM Interaction",
+      "year": 2023,
+      "citationCount": 8,
+      "authors": [
+        {
+          "authorId": "2243340335",
+          "name": "Jieun Han"
+        },
+        {
+          "authorId": "47111345",
+          "name": "Haneul Yoo"
+        },
+        {
+          "authorId": "2137320052",
+          "name": "Junho Myung"
+        },
+        {
+          "authorId": "2257101394",
+          "name": "Minsun Kim"
+        },
+        {
+          "authorId": "1383490980",
+          "name": "Hyunseung Lim"
+        },
+        {
+          "authorId": "2257129500",
+          "name": "Yoonsu Kim"
+        },
+        {
+          "authorId": "2257327555",
+          "name": "Tak Yeon Lee"
+        },
+        {
+          "authorId": "2257278845",
+          "name": "Hwajung Hong"
+        },
+        {
+          "authorId": "2257123013",
+          "name": "Juho Kim"
+        },
+        {
+          "authorId": "2257109420",
+          "name": "So-Yeon Ahn"
+        },
+        {
+          "authorId": "2256987931",
+          "name": "Alice Oh"
+        }
+      ]
+    },
+    {
+      "paperId": "2df14dafc8486ff51575f8327159da1a021054b5",
+      "title": "Large Language Models for Data Annotation: A Survey",
+      "year": 2024,
+      "citationCount": 81,
+      "authors": [
+        {
+          "authorId": "2264369617",
+          "name": "Zhen Tan"
+        },
+        {
+          "authorId": "2161635474",
+          "name": "Dawei Li"
+        },
+        {
+          "authorId": "2284862132",
+          "name": "Alimohammad Beigi"
+        },
+        {
+          "authorId": "2117075272",
+          "name": "Song Wang"
+        },
+        {
+          "authorId": "2257208347",
+          "name": "Ruocheng Guo"
+        },
+        {
+          "authorId": "2144903149",
+          "name": "Amrita Bhattacharjee"
+        },
+        {
+          "authorId": "2036355404",
+          "name": "Bohan Jiang"
+        },
+        {
+          "authorId": "145084368",
+          "name": "Mansooreh Karami"
+        },
+        {
+          "authorId": "2261788139",
+          "name": "Jundong Li"
+        },
+        {
+          "authorId": "2140175677",
+          "name": "Lu Cheng"
+        },
+        {
+          "authorId": "2258336609",
+          "name": "Huan Liu"
+        }
+      ]
+    },
+    {
+      "paperId": "54797a3cb192304b2c2e3343b3f4d79dfde68b7e",
+      "title": "To Ask LLMs about English Grammaticality, Prompt Them in a Different Language",
+      "year": 2024,
+      "citationCount": 0,
+      "authors": [
+        {
+          "authorId": "41022207",
+          "name": "Shabnam Behzad"
+        },
+        {
+          "authorId": "2281945597",
+          "name": "Amir Zeldes"
+        },
+        {
+          "authorId": "2293393436",
+          "name": "Nathan Schneider"
+        }
+      ]
+    }
+  ],
+  "references": [
+    {
+      "paperId": "139f90515a3fb80ce74b4e38d556f969aca0a6cf",
+      "title": "Learning to break: Knowledge-enhanced reasoning in multi-agent debate system",
+      "year": 2023,
+      "citationCount": 5,
+      "authors": [
+        {
+          "authorId": "2256768984",
+          "name": "Haotian Wang"
+        },
+        {
+          "authorId": "2272838717",
+          "name": "Xiyuan Du"
+        },
+        {
+          "authorId": "2248673673",
+          "name": "Weijiang Yu"
+        },
+        {
+          "authorId": "1500384901",
+          "name": "Qianglong Chen"
+        },
+        {
+          "authorId": "2203792405",
+          "name": "Kun Zhu"
+        },
+        {
+          "authorId": "2273413234",
+          "name": "Zheng Chu"
+        },
+        {
+          "authorId": "2204370057",
+          "name": "Lian Yan"
+        },
+        {
+          "authorId": "2273571300",
+          "name": "Yi Guan"
+        }
+      ]
+    },
+    {
+      "paperId": "2cc5a2e8e5e739dbc22fce6eb0242bda3acd7998",
+      "title": "LLMs cannot find reasoning errors, but can correct them!",
+      "year": 2023,
+      "citationCount": 48,
+      "authors": [
+        {
+          "authorId": "2266751853",
+          "name": "Gladys Tyen"
+        },
+        {
+          "authorId": "2265752172",
+          "name": "Hassan Mansoor"
+        },
+        {
+          "authorId": "2267040878",
+          "name": "Peter Chen"
+        },
+        {
+          "authorId": "2266752024",
+          "name": "Tony Mak"
+        },
+        {
+          "authorId": "2237423389",
+          "name": "Victor Carbune"
+        }
+      ]
+    },
+    {
+      "paperId": "6233b5863f9a0e8bacce47ce21bc3e81c09497bd",
+      "title": "A Closer Look at the Self-Verification Abilities of Large Language Models in Logical Reasoning",
+      "year": 2023,
+      "citationCount": 14,
+      "authors": [
+        {
+          "authorId": "2151067405",
+          "name": "Ruixin Hong"
+        },
+        {
+          "authorId": "2254831297",
+          "name": "Hongming Zhang"
+        },
+        {
+          "authorId": "2266464882",
+          "name": "Xinyu Pang"
+        },
+        {
+          "authorId": "2261392681",
+          "name": "Dong Yu"
+        },
+        {
+          "authorId": "2164309584",
+          "name": "Changshui Zhang"
+        }
+      ]
+    },
+    {
+      "paperId": "161b3e82567b9a9c6911171fa55f05695bf93217",
+      "title": "GPT-4 Doesn't Know It's Wrong: An Analysis of Iterative Prompting for Reasoning Problems",
+      "year": 2023,
+      "citationCount": 71,
+      "authors": [
+        {
+          "authorId": "2260339788",
+          "name": "Kaya Stechly"
+        },
+        {
+          "authorId": "2188993062",
+          "name": "Matthew Marquez"
+        },
+        {
+          "authorId": "2047340230",
+          "name": "Subbarao Kambhampati"
+        }
+      ]
+    },
+    {
+      "paperId": "20eecb9ead20ffe49a66588a9662336eefb20a54",
+      "title": "MAF: Multi-Aspect Feedback for Improving Reasoning in Large Language Models",
+      "year": 2023,
+      "citationCount": 10,
+      "authors": [
+        {
+          "authorId": "51130642",
+          "name": "Deepak Nathani"
+        },
+        {
+          "authorId": "2260594983",
+          "name": "David Wang"
+        },
+        {
+          "authorId": "2256983134",
+          "name": "Liangming Pan"
+        },
+        {
+          "authorId": "2257130314",
+          "name": "W. Wang"
+        }
+      ]
+    },
+    {
+      "paperId": "e879f54b2b5760bbb6d010977ddcedfb62452b38",
+      "title": "Can Large Language Models Really Improve by Self-critiquing Their Own Plans?",
+      "year": 2023,
+      "citationCount": 66,
+      "authors": [
+        {
+          "authorId": "144982263",
+          "name": "Karthik Valmeekam"
+        },
+        {
+          "authorId": "2188993062",
+          "name": "Matthew Marquez"
+        },
+        {
+          "authorId": "2047340230",
+          "name": "Subbarao Kambhampati"
+        }
+      ]
+    },
+    {
+      "paperId": "6db6e6e71cc54435265643e19fcbdc7f3ba4c772",
+      "title": "Crystal: Introspective Reasoners Reinforced with Self-Feedback",
+      "year": 2023,
+      "citationCount": 19,
+      "authors": [
+        {
+          "authorId": "2144174497",
+          "name": "Jiacheng Liu"
+        },
+        {
+          "authorId": "10721120",
+          "name": "Ramakanth Pasunuru"
+        },
+        {
+          "authorId": "2548384",
+          "name": "Hannaneh Hajishirzi"
+        },
+        {
+          "authorId": "2253903625",
+          "name": "Yejin Choi"
+        },
+        {
+          "authorId": "1709797",
+          "name": "Asli Celikyilmaz"
+        }
+      ]
+    },
+    {
+      "paperId": "6d4bacb69923e1e94fb4de468b939ce6db32fb51",
+      "title": "Large Language Models Cannot Self-Correct Reasoning Yet",
+      "year": 2023,
+      "citationCount": 287,
+      "authors": [
+        {
+          "authorId": "1490651934",
+          "name": "Jie Huang"
+        },
+        {
+          "authorId": "2238263119",
+          "name": "Xinyun Chen"
+        },
+        {
+          "authorId": "1817207",
+          "name": "Swaroop Mishra"
+        },
+        {
+          "authorId": "2253804927",
+          "name": "Huaixiu Steven Zheng"
+        },
+        {
+          "authorId": "40625240",
+          "name": "Adams Wei Yu"
+        },
+        {
+          "authorId": "2293658042",
+          "name": "Xinying Song"
+        },
+        {
+          "authorId": "2256313467",
+          "name": "Denny Zhou"
+        }
+      ]
+    },
+    {
+      "paperId": "63549bf78e4b1e7e1cec505ce65e6e8f90474f41",
+      "title": "ReConcile: Round-Table Conference Improves Reasoning via Consensus among Diverse LLMs",
+      "year": 2023,
+      "citationCount": 68,
+      "authors": [
+        {
+          "authorId": "2244771469",
+          "name": "Justin Chih-Yao Chen"
+        },
+        {
+          "authorId": "35106509",
+          "name": "Swarnadeep Saha"
+        },
+        {
+          "authorId": "143977268",
+          "name": "Mohit Bansal"
+        }
+      ]
+    },
+    {
+      "paperId": "182c7b40ff7560a5545764814338f55a2098e441",
+      "title": "Reinforced Self-Training (ReST) for Language Modeling",
+      "year": 2023,
+      "citationCount": 217,
+      "authors": [
+        {
+          "authorId": "146372255",
+          "name": "Caglar Gulcehre"
+        },
+        {
+          "authorId": "40470211",
+          "name": "T. Paine"
+        },
+        {
+          "authorId": "2059763226",
+          "name": "S. Srinivasan"
+        },
+        {
+          "authorId": "3335570",
+          "name": "Ksenia Konyushkova"
+        },
+        {
+          "authorId": "101496339",
+          "name": "L. Weerts"
+        },
+        {
+          "authorId": null,
+          "name": "Abhishek Sharma"
+        },
+        {
+          "authorId": "9356387",
+          "name": "Aditya Siddhant"
+        },
+        {
+          "authorId": "2090143611",
+          "name": "Alexa Ahern"
+        },
+        {
+          "authorId": "5116578",
+          "name": "Miaosen Wang"
+        },
+        {
+          "authorId": "2053399490",
+          "name": "Chenjie Gu"
+        },
+        {
+          "authorId": "3153147",
+          "name": "Wolfgang Macherey"
+        },
+        {
+          "authorId": "1701800",
+          "name": "A. Doucet"
+        },
+        {
+          "authorId": "2345617",
+          "name": "Orhan Firat"
+        },
+        {
+          "authorId": "1737568",
+          "name": "Nando de Freitas"
+        }
+      ]
+    },
+    {
+      "paperId": "2cdd5c3dc42c0df40bc8839709869af3560d4bfe",
+      "title": "LLM Self Defense: By Self Examination, LLMs Know They Are Being Tricked",
+      "year": 2023,
+      "citationCount": 120,
+      "authors": [
+        {
+          "authorId": "153223021",
+          "name": "Alec Helbling"
+        },
+        {
+          "authorId": "2133413904",
+          "name": "Mansi Phute"
+        },
+        {
+          "authorId": "2070368863",
+          "name": "Matthew Hull"
+        },
+        {
+          "authorId": "1793506",
+          "name": "Duen Horng Chau"
+        }
+      ]
+    },
+    {
+      "paperId": "19443d48399d4fe89a4b0a96917c50c6fd9c5af1",
+      "title": "FLIRT: Feedback Loop In-context Red Teaming",
+      "year": 2023,
+      "citationCount": 47,
+      "authors": [
+        {
+          "authorId": "51997673",
+          "name": "Ninareh Mehrabi"
+        },
+        {
+          "authorId": "3436466",
+          "name": "Palash Goyal"
+        },
+        {
+          "authorId": "34866641",
+          "name": "Christophe Dupuy"
+        },
+        {
+          "authorId": "2192042848",
+          "name": "Qian Hu"
+        },
+        {
+          "authorId": "2134759582",
+          "name": "Shalini Ghosh"
+        },
+        {
+          "authorId": "1804104",
+          "name": "R. Zemel"
+        },
+        {
+          "authorId": "2782886",
+          "name": "Kai-Wei Chang"
+        },
+        {
+          "authorId": "143728483",
+          "name": "A. Galstyan"
+        },
+        {
+          "authorId": "2139538015",
+          "name": "Rahul Gupta"
+        }
+      ]
+    },
+    {
+      "paperId": "1e6102c981b9464c632ef0b00dbd11dfb0564e4e",
+      "title": "SelfCheck: Using LLMs to Zero-Shot Check Their Own Step-by-Step Reasoning",
+      "year": 2023,
+      "citationCount": 85,
+      "authors": [
+        {
+          "authorId": "1381583629",
+          "name": "Ning Miao"
+        },
+        {
+          "authorId": "1725303",
+          "name": "Y. Teh"
+        },
+        {
+          "authorId": "2358794",
+          "name": "Tom Rainforth"
+        }
+      ]
+    },
+    {
+      "paperId": "7a5b44ea10a51708e18786595c8d70b18950da11",
+      "title": "FacTool: Factuality Detection in Generative AI - A Tool Augmented Framework for Multi-Task and Multi-Domain Scenarios",
+      "year": 2023,
+      "citationCount": 151,
+      "authors": [
+        {
+          "authorId": "2047713083",
+          "name": "Ethan Chern"
+        },
+        {
+          "authorId": "2224851117",
+          "name": "Steffi Chern"
+        },
+        {
+          "authorId": "2108956946",
+          "name": "Shiqi Chen"
+        },
+        {
+          "authorId": "30300197",
+          "name": "Weizhe Yuan"
+        },
+        {
+          "authorId": "2224772135",
+          "name": "Kehua Feng"
+        },
+        {
+          "authorId": "2384711",
+          "name": "Chunting Zhou"
+        },
+        {
+          "authorId": "6215698",
+          "name": "Junxian He"
+        },
+        {
+          "authorId": "1700325",
+          "name": "Graham Neubig"
+        },
+        {
+          "authorId": "144118452",
+          "name": "Pengfei Liu"
+        }
+      ]
+    },
+    {
+      "paperId": "1827dd28ef866eaeb929ddf4bcfa492880aba4c7",
+      "title": "A Stitch in Time Saves Nine: Detecting and Mitigating Hallucinations of LLMs by Validating Low-Confidence Generation",
+      "year": 2023,
+      "citationCount": 119,
+      "authors": [
+        {
+          "authorId": "2067056655",
+          "name": "Neeraj Varshney"
+        },
+        {
+          "authorId": "2087264100",
+          "name": "Wenlin Yao"
+        },
+        {
+          "authorId": "2254831297",
+          "name": "Hongming Zhang"
+        },
+        {
+          "authorId": "2108276402",
+          "name": "Jianshu Chen"
+        },
+        {
+          "authorId": "2256336899",
+          "name": "Dong Yu"
+        }
+      ]
+    },
+    {
+      "paperId": "130d18d1d455336e1a5b06c85784894bb67d87ec",
+      "title": "PRD: Peer Rank and Discussion Improve Large Language Model based Evaluations",
+      "year": 2023,
+      "citationCount": 78,
+      "authors": [
+        {
+          "authorId": "2033082027",
+          "name": "Ruosen Li"
+        },
+        {
+          "authorId": "2221201914",
+          "name": "Teerth Patel"
+        },
+        {
+          "authorId": "13728923",
+          "name": "Xinya Du"
+        }
+      ]
+    },
+    {
+      "paperId": "f8e99be4f9a01761fab74bade2c3c18de9fc686b",
+      "title": "Reasoning or Reciting? Exploring the Capabilities and Limitations of Language Models Through Counterfactual Tasks",
+      "year": 2023,
+      "citationCount": 146,
+      "authors": [
+        {
+          "authorId": "47039405",
+          "name": "Zhaofeng Wu"
+        },
+        {
+          "authorId": "1742081895",
+          "name": "Linlu Qiu"
+        },
+        {
+          "authorId": "32739287",
+          "name": "Alexis Ross"
+        },
+        {
+          "authorId": "1992708068",
+          "name": "Ekin Akyürek"
+        },
+        {
+          "authorId": "8786274",
+          "name": "Boyuan Chen"
+        },
+        {
+          "authorId": "2118640406",
+          "name": "Bailin Wang"
+        },
+        {
+          "authorId": "8756748",
+          "name": "Najoung Kim"
+        },
+        {
+          "authorId": "2112400",
+          "name": "Jacob Andreas"
+        },
+        {
+          "authorId": "143827730",
+          "name": "Yoon Kim"
+        }
+      ]
+    },
+    {
+      "paperId": "d1fb9013ed41c67b18755f01f0b7c7c5ef0a047f",
+      "title": "System-Level Natural Language Feedback",
+      "year": 2023,
+      "citationCount": 5,
+      "authors": [
+        {
+          "authorId": "30300197",
+          "name": "Weizhe Yuan"
+        },
+        {
+          "authorId": "1979489",
+          "name": "Kyunghyun Cho"
+        },
+        {
+          "authorId": "145183709",
+          "name": "J. Weston"
+        }
+      ]
+    },
+    {
+      "paperId": "a6d3794c23626060781da0f1ff2bcdf7457b6c43",
+      "title": "DecodingTrust: A Comprehensive Assessment of Trustworthiness in GPT Models",
+      "year": 2023,
+      "citationCount": 329,
+      "authors": [
+        {
+          "authorId": "51454501",
+          "name": "Boxin Wang"
+        },
+        {
+          "authorId": "2108947078",
+          "name": "Weixin Chen"
+        },
+        {
+          "authorId": "146922081",
+          "name": "Hengzhi Pei"
+        },
+        {
+          "authorId": "150961077",
+          "name": "Chulin Xie"
+        },
+        {
+          "authorId": "2153110066",
+          "name": "Mintong Kang"
+        },
+        {
+          "authorId": "2146063748",
+          "name": "Chenhui Zhang"
+        },
+        {
+          "authorId": "2153079868",
+          "name": "Chejian Xu"
+        },
+        {
+          "authorId": "2155965725",
+          "name": "Zidi Xiong"
+        },
+        {
+          "authorId": "151183175",
+          "name": "Ritik Dutta"
+        },
+        {
+          "authorId": "1749176844",
+          "name": "Rylan Schaeffer"
+        },
+        {
+          "authorId": "2127191901",
+          "name": "Sang Truong"
+        },
+        {
+          "authorId": "2285788571",
+          "name": "Simran Arora"
+        },
+        {
+          "authorId": "16787428",
+          "name": "Mantas Mazeika"
+        },
+        {
+          "authorId": "3422872",
+          "name": "Dan Hendrycks"
+        },
+        {
+          "authorId": "2695029",
+          "name": "Zi-Han Lin"
+        },
+        {
+          "authorId": "98742322",
+          "name": "Yuk-Kit Cheng"
+        },
+        {
+          "authorId": "123593472",
+          "name": "Sanmi Koyejo"
+        },
+        {
+          "authorId": "143711382",
+          "name": "D. Song"
+        },
+        {
+          "authorId": "2165245120",
+          "name": "Bo Li"
+        }
+      ]
+    },
+    {
+      "paperId": "fe50667e1bea4c6f63909b90986231240818c1d6",
+      "title": "ChatGPT vs Human-authored Text: Insights into Controllable Text Summarization and Sentence Style Transfer",
+      "year": 2023,
+      "citationCount": 55,
+      "authors": [
+        {
+          "authorId": "2167123387",
+          "name": "Dongqi Liu"
+        },
+        {
+          "authorId": "2869436",
+          "name": "Vera Demberg"
+        }
+      ]
+    },
+    {
+      "paperId": "bf4810017b54e50354cccffd8966121c7166cb17",
+      "title": "Iterative Translation Refinement with Large Language Models",
+      "year": 2023,
+      "citationCount": 16,
+      "authors": [
+        {
+          "authorId": "143616669",
+          "name": "Pinzhen Chen"
+        },
+        {
+          "authorId": "2268575667",
+          "name": "Zhicheng Guo"
+        },
+        {
+          "authorId": "2259100",
+          "name": "B. Haddow"
+        },
+        {
+          "authorId": "1702066",
+          "name": "Kenneth Heafield"
+        }
+      ]
+    },
+    {
+      "paperId": "eb36681fc4c5dfce4f3e05540fc92b007de278ca",
+      "title": "SelfEvolve: A Code Evolution Framework via Large Language Models",
+      "year": 2023,
+      "citationCount": 27,
+      "authors": [
+        {
+          "authorId": "2119327053",
+          "name": "Shuyang Jiang"
+        },
+        {
+          "authorId": "2198466349",
+          "name": "Yuhao Wang"
+        },
+        {
+          "authorId": "2153609392",
+          "name": "Yu Wang"
+        }
+      ]
+    },
+    {
+      "paperId": "e2e52461194bc81351da7caa978ac42e9e9549cc",
+      "title": "Fine-Grained Human Feedback Gives Better Rewards for Language Model Training",
+      "year": 2023,
+      "citationCount": 241,
+      "authors": [
+        {
+          "authorId": "7806955",
+          "name": "Zeqiu Wu"
+        },
+        {
+          "authorId": "2112209725",
+          "name": "Yushi Hu"
+        },
+        {
+          "authorId": "3040379",
+          "name": "Weijia Shi"
+        },
+        {
+          "authorId": "46217681",
+          "name": "Nouha Dziri"
+        },
+        {
+          "authorId": "32849969",
+          "name": "Alane Suhr"
+        },
+        {
+          "authorId": "19179135",
+          "name": "Prithviraj Ammanabrolu"
+        },
+        {
+          "authorId": "144365875",
+          "name": "Noah A. Smith"
+        },
+        {
+          "authorId": "144339506",
+          "name": "Mari Ostendorf"
+        },
+        {
+          "authorId": "2548384",
+          "name": "Hannaneh Hajishirzi"
+        }
+      ]
+    },
+    {
+      "paperId": "be8db99310602d66bba64bcf41a572c45816fbfc",
+      "title": "Let's Verify Step by Step",
+      "year": 2023,
+      "citationCount": 477,
+      "authors": [
+        {
+          "authorId": "2219360905",
+          "name": "Hunter Lightman"
+        },
+        {
+          "authorId": "13622184",
+          "name": "Vineet Kosaraju"
+        },
+        {
+          "authorId": "51178856",
+          "name": "Yura Burda"
+        },
+        {
+          "authorId": "144632352",
+          "name": "Harrison Edwards"
+        },
+        {
+          "authorId": "40566201",
+          "name": "Bowen Baker"
+        },
+        {
+          "authorId": "2110664120",
+          "name": "Teddy Lee"
+        },
+        {
+          "authorId": "2990741",
+          "name": "J. Leike"
+        },
+        {
+          "authorId": "47971768",
+          "name": "John Schulman"
+        },
+        {
+          "authorId": "1701686",
+          "name": "I. Sutskever"
+        },
+        {
+          "authorId": "6062736",
+          "name": "K. Cobbe"
+        }
+      ]
+    },
+    {
+      "paperId": "ad934a9344f68fcc0b9aa704102aa48c39c5b591",
+      "title": "Generating with Confidence: Uncertainty Quantification for Black-box Large Language Models",
+      "year": 2023,
+      "citationCount": 88,
+      "authors": [
+        {
+          "authorId": "2046763041",
+          "name": "Zhen Lin"
+        },
+        {
+          "authorId": "145927896",
+          "name": "Shubhendu Trivedi"
+        },
+        {
+          "authorId": "1738536",
+          "name": "Jimeng Sun"
+        }
+      ]
+    },
+    {
+      "paperId": "34e1a8a75bf6f35084ac6d714a136f39d02c649e",
+      "title": "Self-Verification Improves Few-Shot Clinical Information Extraction",
+      "year": 2023,
+      "citationCount": 46,
+      "authors": [
+        {
+          "authorId": "1395101702",
+          "name": "Zelalem Gero"
+        },
+        {
+          "authorId": "145229121",
+          "name": "Chandan Singh"
+        },
+        {
+          "authorId": "47413820",
+          "name": "Hao Cheng"
+        },
+        {
+          "authorId": "40466858",
+          "name": "Tristan Naumann"
+        },
+        {
+          "authorId": "1947267",
+          "name": "Michel Galley"
+        },
+        {
+          "authorId": "48441311",
+          "name": "Jianfeng Gao"
+        },
+        {
+          "authorId": "1759772",
+          "name": "Hoifung Poon"
+        }
+      ]
+    },
+    {
+      "paperId": "cc57a02307b77585f69779cca2937dedc69006d6",
+      "title": "Detecting Edit Failures In Large Language Models: An Improved Specificity Benchmark",
+      "year": 2023,
+      "citationCount": 49,
+      "authors": [
+        {
+          "authorId": "1388392024",
+          "name": "J. Hoelscher-Obermaier"
+        },
+        {
+          "authorId": "2218886081",
+          "name": "Julia Persson"
+        },
+        {
+          "authorId": "2005663935",
+          "name": "Esben Kran"
+        },
+        {
+          "authorId": "2621022",
+          "name": "Ioannis Konstas"
+        },
+        {
+          "authorId": "2143198655",
+          "name": "Fazl Barez"
+        }
+      ]
+    },
+    {
+      "paperId": "85b5068d3e1364b44ec9f46b0930b521b4089df6",
+      "title": "Self-Checker: Plug-and-Play Modules for Fact-Checking with Large Language Models",
+      "year": 2023,
+      "citationCount": 19,
+      "authors": [
+        {
+          "authorId": "2173713283",
+          "name": "Miaoran Li"
+        },
+        {
+          "authorId": "1780690",
+          "name": "Baolin Peng"
+        },
+        {
+          "authorId": "2142028984",
+          "name": "Zhu Zhang"
+        }
+      ]
+    },
+    {
+      "paperId": "2bb4fe9bc10dbf1ea70135e52452f9f63bb10671",
+      "title": "ALGO: Synthesizing Algorithmic Programs with Generated Oracle Verifiers",
+      "year": 2023,
+      "citationCount": 29,
+      "authors": [
+        {
+          "authorId": "2119058805",
+          "name": "Kexun Zhang"
+        },
+        {
+          "authorId": "49371126",
+          "name": "Danqing Wang"
+        },
+        {
+          "authorId": "2106416170",
+          "name": "Jingtao Xia"
+        },
+        {
+          "authorId": "1682479",
+          "name": "William Yang Wang"
+        },
+        {
+          "authorId": "143900005",
+          "name": "Lei Li"
+        }
+      ]
+    },
+    {
+      "paperId": "f542c184eec4c3252d678118a7f32cf327b6f23a",
+      "title": "A New Era in Software Security: Towards Self-Healing Software via Large Language Models and Formal Verification",
+      "year": 2023,
+      "citationCount": 39,
+      "authors": [
+        {
+          "authorId": "2218867854",
+          "name": "Yiannis Charalambous"
+        },
+        {
+          "authorId": "2283303502",
+          "name": "Norbert Tihanyi"
+        },
+        {
+          "authorId": "2113688343",
+          "name": "Ridhi Jain"
+        },
+        {
+          "authorId": "2116605723",
+          "name": "Youcheng Sun"
+        },
+        {
+          "authorId": "2864573",
+          "name": "M. Ferrag"
+        },
+        {
+          "authorId": "144040212",
+          "name": "L. Cordeiro"
+        }
+      ]
+    },
+    {
+      "paperId": "5dbffedcabe3fa43060ebbe2b1789500edfd871f",
+      "title": "Reasoning with Language Model is Planning with World Model",
+      "year": 2023,
+      "citationCount": 354,
+      "authors": [
+        {
+          "authorId": "2128965713",
+          "name": "Shibo Hao"
+        },
+        {
+          "authorId": "2112578816",
+          "name": "Yi Gu"
+        },
+        {
+          "authorId": "2110816708",
+          "name": "Haodi Ma"
+        },
+        {
+          "authorId": "2218162745",
+          "name": "Joshua Jiahua Hong"
+        },
+        {
+          "authorId": "47197370",
+          "name": "Zhen Wang"
+        },
+        {
+          "authorId": "2111220343",
+          "name": "D. Wang"
+        },
+        {
+          "authorId": "2749311",
+          "name": "Zhiting Hu"
+        }
+      ]
+    },
+    {
+      "paperId": "0476eaae29c0337c1498637ad99931e4d9d1c5df",
+      "title": "Leveraging GPT-4 for Automatic Translation Post-Editing",
+      "year": 2023,
+      "citationCount": 52,
+      "authors": [
+        {
+          "authorId": "24025563",
+          "name": "Vikas Raunak"
+        },
+        {
+          "authorId": "143816740",
+          "name": "Amr Sharaf"
+        },
+        {
+          "authorId": "2218489849",
+          "name": "H. Awadallah"
+        },
+        {
+          "authorId": "145280401",
+          "name": "Arul Menezes"
+        }
+      ]
+    },
+    {
+      "paperId": "4780d0a027c5c5a8e01d7cf697f6296880ffc945",
+      "title": "Improving Factuality and Reasoning in Language Models through Multiagent Debate",
+      "year": 2023,
+      "citationCount": 429,
+      "authors": [
+        {
+          "authorId": "15394275",
+          "name": "Yilun Du"
+        },
+        {
+          "authorId": "145015904",
+          "name": "Shuang Li"
+        },
+        {
+          "authorId": "143805211",
+          "name": "A. Torralba"
+        },
+        {
+          "authorId": "1763295",
+          "name": "J. Tenenbaum"
+        },
+        {
+          "authorId": "2316241372",
+          "name": "Igor Mordatch"
+        }
+      ]
+    },
+    {
+      "paperId": "c226a4acb42912054d498bcf771023b0ba2da001",
+      "title": "Language Model Self-improvement by Reinforcement Learning Contemplation",
+      "year": 2023,
+      "citationCount": 29,
+      "authors": [
+        {
+          "authorId": "1432234123",
+          "name": "Jing-Cheng Pang"
+        },
+        {
+          "authorId": "2296265453",
+          "name": "Pengyuan Wang"
+        },
+        {
+          "authorId": "2158260214",
+          "name": "Kaiyuan Li"
+        },
+        {
+          "authorId": "2108968873",
+          "name": "Xiong-Hui Chen"
+        },
+        {
+          "authorId": "2292419273",
+          "name": "Jiacheng Xu"
+        },
+        {
+          "authorId": "2079174",
+          "name": "Zongzhang Zhang"
+        },
+        {
+          "authorId": "2152850415",
+          "name": "Yang Yu"
+        }
+      ]
+    },
+    {
+      "paperId": "bd5deadc58ee45b5e004378ba1d54a96bc947b4a",
+      "title": "FActScore: Fine-grained Atomic Evaluation of Factual Precision in Long Form Text Generation",
+      "year": 2023,
+      "citationCount": 457,
+      "authors": [
+        {
+          "authorId": "48872685",
+          "name": "Sewon Min"
+        },
+        {
+          "authorId": "26161085",
+          "name": "Kalpesh Krishna"
+        },
+        {
+          "authorId": "2156533327",
+          "name": "Xinxi Lyu"
+        },
+        {
+          "authorId": "35084211",
+          "name": "M. Lewis"
+        },
+        {
+          "authorId": "2072801764",
+          "name": "Wen-tau Yih"
+        },
+        {
+          "authorId": "2572525",
+          "name": "Pang Wei Koh"
+        },
+        {
+          "authorId": "2136562",
+          "name": "Mohit Iyyer"
+        },
+        {
+          "authorId": "1982950",
+          "name": "Luke Zettlemoyer"
+        },
+        {
+          "authorId": "2548384",
+          "name": "Hannaneh Hajishirzi"
+        }
+      ]
+    },
+    {
+      "paperId": "4115a24474ef5f184f5cbae3f43aca4d3bb07bea",
+      "title": "Improving Language Models via Plug-and-Play Retrieval Feedback",
+      "year": 2023,
+      "citationCount": 60,
+      "authors": [
+        {
+          "authorId": "38767143",
+          "name": "W. Yu"
+        },
+        {
+          "authorId": "72871419",
+          "name": "Zhihan Zhang"
+        },
+        {
+          "authorId": "151474408",
+          "name": "Zhenwen Liang"
+        },
+        {
+          "authorId": "2152153656",
+          "name": "Meng Jiang"
+        },
+        {
+          "authorId": "48229640",
+          "name": "Ashish Sabharwal"
+        }
+      ]
+    },
+    {
+      "paperId": "4f480bae3196dbbc27ab383bce33478ea963f9b3",
+      "title": "LLM-Eval: Unified Multi-Dimensional Automatic Evaluation for Open-Domain Conversations with Large Language Models",
+      "year": 2023,
+      "citationCount": 74,
+      "authors": [
+        {
+          "authorId": "1557269413",
+          "name": "Yen-Ting Lin"
+        },
+        {
+          "authorId": "1725643",
+          "name": "Yun-Nung (Vivian) Chen"
+        }
+      ]
+    },
+    {
+      "paperId": "6825ba09383bc758f9a2feaebabe35a6cd4adc4c",
+      "title": "How Language Model Hallucinations Can Snowball",
+      "year": 2023,
+      "citationCount": 203,
+      "authors": [
+        {
+          "authorId": "2116096584",
+          "name": "Muru Zhang"
+        },
+        {
+          "authorId": "40170001",
+          "name": "Ofir Press"
+        },
+        {
+          "authorId": "143696607",
+          "name": "William Merrill"
+        },
+        {
+          "authorId": "94500147",
+          "name": "Alisa Liu"
+        },
+        {
+          "authorId": "144365875",
+          "name": "Noah A. Smith"
+        }
+      ]
+    },
+    {
+      "paperId": "ed0ed87161a2beab9e1bed3e783d7487a5f1062a",
+      "title": "LM vs LM: Detecting Factual Errors via Cross Examination",
+      "year": 2023,
+      "citationCount": 94,
+      "authors": [
+        {
+          "authorId": "2203359700",
+          "name": "Roi Cohen"
+        },
+        {
+          "authorId": "2218123025",
+          "name": "May Hamri"
+        },
+        {
+          "authorId": "22245981",
+          "name": "Mor Geva"
+        },
+        {
+          "authorId": "1786843",
+          "name": "A. Globerson"
+        }
+      ]
+    },
+    {
+      "paperId": "cb6cc7d28d06a0d7c0d3f0d7ee551bbc86dbc3aa",
+      "title": "AlpacaFarm: A Simulation Framework for Methods that Learn from Human Feedback",
+      "year": 2023,
+      "citationCount": 441,
+      "authors": [
+        {
+          "authorId": "47367640",
+          "name": "Yann Dubois"
+        },
+        {
+          "authorId": "2145429039",
+          "name": "Xuechen Li"
+        },
+        {
+          "authorId": "46199305",
+          "name": "Rohan Taori"
+        },
+        {
+          "authorId": "2146332594",
+          "name": "Tianyi Zhang"
+        },
+        {
+          "authorId": "2708454",
+          "name": "Ishaan Gulrajani"
+        },
+        {
+          "authorId": "2503659",
+          "name": "Jimmy Ba"
+        },
+        {
+          "authorId": "1730156",
+          "name": "Carlos Guestrin"
+        },
+        {
+          "authorId": "145419642",
+          "name": "Percy Liang"
+        },
+        {
+          "authorId": "2117567142",
+          "name": "Tatsunori Hashimoto"
+        }
+      ]
+    },
+    {
+      "paperId": "f5c73d9e6641b018b633690102121f5605d34fb0",
+      "title": "Editing Large Language Models: Problems, Methods, and Opportunities",
+      "year": 2023,
+      "citationCount": 225,
+      "authors": [
+        {
+          "authorId": "4841460",
+          "name": "Yunzhi Yao"
+        },
+        {
+          "authorId": "144282672",
+          "name": "Peng Wang"
+        },
+        {
+          "authorId": "2064522174",
+          "name": "Bo Tian"
+        },
+        {
+          "authorId": "46378881",
+          "name": "Siyuan Cheng"
+        },
+        {
+          "authorId": "9956037",
+          "name": "Zhoubo Li"
+        },
+        {
+          "authorId": "152931849",
+          "name": "Shumin Deng"
+        },
+        {
+          "authorId": "2144200945",
+          "name": "Huajun Chen"
+        },
+        {
+          "authorId": "2608639",
+          "name": "Ningyu Zhang"
+        }
+      ]
+    },
+    {
+      "paperId": "627964b3dc7211f81902afeaa79d9357b7b2440c",
+      "title": "Continually Improving Extractive QA via Human Feedback",
+      "year": 2023,
+      "citationCount": 10,
+      "authors": [
+        {
+          "authorId": "2084530453",
+          "name": "Ge Gao"
+        },
+        {
+          "authorId": "2108262500",
+          "name": "Hung-Ting Chen"
+        },
+        {
+          "authorId": "3167681",
+          "name": "Yoav Artzi"
+        },
+        {
+          "authorId": "2890423",
+          "name": "Eunsol Choi"
+        }
+      ]
+    },
+    {
+      "paperId": "9e9e4df2996bac794c4f04cb887df3e553bae4fd",
+      "title": "Logic-LM: Empowering Large Language Models with Symbolic Solvers for Faithful Logical Reasoning",
+      "year": 2023,
+      "citationCount": 178,
+      "authors": [
+        {
+          "authorId": "3470231",
+          "name": "Liangming Pan"
+        },
+        {
+          "authorId": "2044198106",
+          "name": "Alon Albalak"
+        },
+        {
+          "authorId": "2115553132",
+          "name": "Xinyi Wang"
+        },
+        {
+          "authorId": "1682479",
+          "name": "William Yang Wang"
+        }
+      ]
+    },
+    {
+      "paperId": "bcdaf6c98ddbd6809cf6241aa77200d7394db163",
+      "title": "CRITIC: Large Language Models Can Self-Correct with Tool-Interactive Critiquing",
+      "year": 2023,
+      "citationCount": 275,
+      "authors": [
+        {
+          "authorId": "1797090",
+          "name": "Zhibin Gou"
+        },
+        {
+          "authorId": "144485528",
+          "name": "Zhihong Shao"
+        },
+        {
+          "authorId": "2171182",
+          "name": "Yeyun Gong"
+        },
+        {
+          "authorId": "1752875",
+          "name": "Yelong Shen"
+        },
+        {
+          "authorId": "3001727",
+          "name": "Yujiu Yang"
+        },
+        {
+          "authorId": "46429989",
+          "name": "Nan Duan"
+        },
+        {
+          "authorId": "2109136147",
+          "name": "Weizhu Chen"
+        }
+      ]
+    },
+    {
+      "paperId": "e0384ba36555232c587d4a80d527895a095a9001",
+      "title": "HaluEval: A Large-Scale Hallucination Evaluation Benchmark for Large Language Models",
+      "year": 2023,
+      "citationCount": 177,
+      "authors": [
+        {
+          "authorId": "2018027",
+          "name": "Junyi Li"
+        },
+        {
+          "authorId": "2149479237",
+          "name": "Xiaoxue Cheng"
+        },
+        {
+          "authorId": "2542603",
+          "name": "Wayne Xin Zhao"
+        },
+        {
+          "authorId": "50204644",
+          "name": "J. Nie"
+        },
+        {
+          "authorId": "153693432",
+          "name": "Ji-rong Wen"
+        }
+      ]
+    },
+    {
+      "paperId": "b353ae47fffdbd63fcb1b8940a8d6043505fa322",
+      "title": "Daily automated feedback enhances self-regulated learning: a longitudinal randomized field experiment",
+      "year": 2023,
+      "citationCount": 13,
+      "authors": [
+        {
+          "authorId": "3454153",
+          "name": "Henrik Bellhäuser"
+        },
+        {
+          "authorId": "114268999",
+          "name": "Charlotte Dignath"
+        },
+        {
+          "authorId": "122485991",
+          "name": "M. Theobald"
+        }
+      ]
+    },
+    {
+      "paperId": "2e6b6de08f459e2165b11ed8d2103916966b0fcf",
+      "title": "Improving Language Model Negotiation with Self-Play and In-Context Learning from AI Feedback",
+      "year": 2023,
+      "citationCount": 143,
+      "authors": [
+        {
+          "authorId": "46956602",
+          "name": "Yao Fu"
+        },
+        {
+          "authorId": "2293471",
+          "name": "Hao-Chun Peng"
+        },
+        {
+          "authorId": "2236429",
+          "name": "Tushar Khot"
+        },
+        {
+          "authorId": "1747893",
+          "name": "Mirella Lapata"
+        }
+      ]
+    },
+    {
+      "paperId": "2f3822eb380b5e753a6d579f31dfc3ec4c4a0820",
+      "title": "Tree of Thoughts: Deliberate Problem Solving with Large Language Models",
+      "year": 2023,
+      "citationCount": 1258,
+      "authors": [
+        {
+          "authorId": "2093302161",
+          "name": "Shunyu Yao"
+        },
+        {
+          "authorId": "150978762",
+          "name": "Dian Yu"
+        },
+        {
+          "authorId": "2144551262",
+          "name": "Jeffrey Zhao"
+        },
+        {
+          "authorId": "1697494",
+          "name": "Izhak Shafran"
+        },
+        {
+          "authorId": "1799860",
+          "name": "T. Griffiths"
+        },
+        {
+          "authorId": "145144022",
+          "name": "Yuan Cao"
+        },
+        {
+          "authorId": "144958935",
+          "name": "Karthik Narasimhan"
+        }
+      ]
+    },
+    {
+      "paperId": "ebf35cef5c249d90b40043fffa41f8802c27f132",
+      "title": "RL4F: Generating Natural Language Feedback with Reinforcement Learning for Repairing Model Outputs",
+      "year": 2023,
+      "citationCount": 66,
+      "authors": [
+        {
+          "authorId": "1754469865",
+          "name": "Afra Feyza Akyürek"
+        },
+        {
+          "authorId": "1992708068",
+          "name": "Ekin Akyürek"
+        },
+        {
+          "authorId": "21626987",
+          "name": "Aman Madaan"
+        },
+        {
+          "authorId": "51043791",
+          "name": "A. Kalyan"
+        },
+        {
+          "authorId": "48323507",
+          "name": "Peter Clark"
+        },
+        {
+          "authorId": "2129412",
+          "name": "Derry Tanti Wijaya"
+        },
+        {
+          "authorId": "1721168",
+          "name": "Niket Tandon"
+        }
+      ]
+    },
+    {
+      "paperId": "9fa3e92dd042555483b30b7f70bc4ecb1bdf7bc7",
+      "title": "Learning to Simulate Natural Language Feedback for Interactive Semantic Parsing",
+      "year": 2023,
+      "citationCount": 15,
+      "authors": [
+        {
+          "authorId": "2152208710",
+          "name": "Hao Yan"
+        },
+        {
+          "authorId": "1390997787",
+          "name": "Saurabh Srivastava"
+        },
+        {
+          "authorId": "2142959461",
+          "name": "Yintao Tai"
+        },
+        {
+          "authorId": "8729431",
+          "name": "Sida I. Wang"
+        },
+        {
+          "authorId": "2072801764",
+          "name": "Wen-tau Yih"
+        },
+        {
+          "authorId": "3366595",
+          "name": "Ziyu Yao"
+        }
+      ]
+    },
+    {
+      "paperId": "2f0028060a3a3187d3cbecc3b423dbcf8c8387c3",
+      "title": "Self-Edit: Fault-Aware Code Editor for Code Generation",
+      "year": 2023,
+      "citationCount": 79,
+      "authors": [
+        {
+          "authorId": "2033148496",
+          "name": "Kechi Zhang"
+        },
+        {
+          "authorId": "2118393672",
+          "name": "Zhuo Li"
+        },
+        {
+          "authorId": "2208883878",
+          "name": "Jia Li"
+        },
+        {
+          "authorId": "2154591375",
+          "name": "Ge Li"
+        },
+        {
+          "authorId": "2152843753",
+          "name": "Zhi Jin"
+        }
+      ]
+    },
+    {
+      "paperId": "56da914761e445a24481629cfc116336a0aec978",
+      "title": "Can LMs Learn New Entities from Descriptions? Challenges in Propagating Injected Knowledge",
+      "year": 2023,
+      "citationCount": 67,
+      "authors": [
+        {
+          "authorId": "115412405",
+          "name": "Yasumasa Onoe"
+        },
+        {
+          "authorId": "2129403254",
+          "name": "Michael J.Q. Zhang"
+        },
+        {
+          "authorId": "2204461780",
+          "name": "Shankar Padmanabhan"
+        },
+        {
+          "authorId": "1814094",
+          "name": "Greg Durrett"
+        },
+        {
+          "authorId": "2890423",
+          "name": "Eunsol Choi"
+        }
+      ]
+    },
+    {
+      "paperId": "74b05bba46db21e589a2cc0f916f81069b0368ef",
+      "title": "Bridging the Gap: A Survey on Integrating (Human) Feedback for Natural Language Generation",
+      "year": 2023,
+      "citationCount": 50,
+      "authors": [
+        {
+          "authorId": "2058640028",
+          "name": "Patrick Fernandes"
+        },
+        {
+          "authorId": "21626987",
+          "name": "Aman Madaan"
+        },
+        {
+          "authorId": "1381444447",
+          "name": "Emmy Liu"
+        },
+        {
+          "authorId": "1748971692",
+          "name": "António Farinhas"
+        },
+        {
+          "authorId": "144869806",
+          "name": "Pedro Henrique Martins"
+        },
+        {
+          "authorId": "2138301112",
+          "name": "Amanda Bertsch"
+        },
+        {
+          "authorId": "34876539",
+          "name": "José G. C. de Souza"
+        },
+        {
+          "authorId": "2149163534",
+          "name": "Shuyan Zhou"
+        },
+        {
+          "authorId": "35232494",
+          "name": "Tongshuang Sherry Wu"
+        },
+        {
+          "authorId": "1700325",
+          "name": "Graham Neubig"
+        },
+        {
+          "authorId": "1400227478",
+          "name": "André F. T. Martins"
+        }
+      ]
+    },
+    {
+      "paperId": "0bda625b8326f9125a97c7f749736610ea77d216",
+      "title": "Large Linguistic Models: Analyzing theoretical linguistic abilities of LLMs",
+      "year": 2023,
+      "citationCount": 24,
+      "authors": [
+        {
+          "authorId": "27640206",
+          "name": "G. Beguš"
+        },
+        {
+          "authorId": "2819495",
+          "name": "M. Dąbkowski"
+        },
+        {
+          "authorId": "2066466102",
+          "name": "Ryan Rhodes"
+        }
+      ]
+    },
+    {
+      "paperId": "9e3c493fb09dcd61bb05e8c5659f23327b7b6340",
+      "title": "Teaching Large Language Models to Self-Debug",
+      "year": 2023,
+      "citationCount": 509,
+      "authors": [
+        {
+          "authorId": "1425082935",
+          "name": "Xinyun Chen"
+        },
+        {
+          "authorId": "153698620",
+          "name": "Maxwell Lin"
+        },
+        {
+          "authorId": "3094520",
+          "name": "Nathanael Schärli"
+        },
+        {
+          "authorId": "65855107",
+          "name": "Denny Zhou"
+        }
+      ]
+    },
+    {
+      "paperId": "c715914c388fa64dd8686cd8755e5adfebbf2388",
+      "title": "REFINER: Reasoning Feedback on Intermediate Representations",
+      "year": 2023,
+      "citationCount": 134,
+      "authors": [
+        {
+          "authorId": "2261760962",
+          "name": "Debjit Paul"
+        },
+        {
+          "authorId": "2190955045",
+          "name": "Mete Ismayilzada"
+        },
+        {
+          "authorId": "35512303",
+          "name": "Maxime Peyrard"
+        },
+        {
+          "authorId": "2097711585",
+          "name": "Beatriz Borges"
+        },
+        {
+          "authorId": "2691021",
+          "name": "Antoine Bosselut"
+        },
+        {
+          "authorId": "145387102",
+          "name": "Robert West"
+        },
+        {
+          "authorId": "1735128",
+          "name": "B. Faltings"
+        }
+      ]
+    },
+    {
+      "paperId": "3aaf6a2cbad5850ad81ab5c163599cb3d523436f",
+      "title": "Self-Refine: Iterative Refinement with Self-Feedback",
+      "year": 2023,
+      "citationCount": 1058,
+      "authors": [
+        {
+          "authorId": "21626987",
+          "name": "Aman Madaan"
+        },
+        {
+          "authorId": "1721168",
+          "name": "Niket Tandon"
+        },
+        {
+          "authorId": "1491232062",
+          "name": "Prakhar Gupta"
+        },
+        {
+          "authorId": "1474550731",
+          "name": "Skyler Hallinan"
+        },
+        {
+          "authorId": "49715441",
+          "name": "Luyu Gao"
+        },
+        {
+          "authorId": "35823986",
+          "name": "Sarah Wiegreffe"
+        },
+        {
+          "authorId": "47051926",
+          "name": "Uri Alon"
+        },
+        {
+          "authorId": "46217681",
+          "name": "Nouha Dziri"
+        },
+        {
+          "authorId": "9358910",
+          "name": "Shrimai Prabhumoye"
+        },
+        {
+          "authorId": "46286308",
+          "name": "Yiming Yang"
+        },
+        {
+          "authorId": "2129663",
+          "name": "S. Welleck"
+        },
+        {
+          "authorId": "3165738",
+          "name": "Bodhisattwa Prasad Majumder"
+        },
+        {
+          "authorId": "2152953535",
+          "name": "Shashank Gupta"
+        },
+        {
+          "authorId": "2112229",
+          "name": "A. Yazdanbakhsh"
+        },
+        {
+          "authorId": "48323507",
+          "name": "Peter Clark"
+        }
+      ]
+    },
+    {
+      "paperId": "9a75e23639bfcc3a51da57a3b682a984d1d8ac0b",
+      "title": "Language Models can Solve Computer Tasks",
+      "year": 2023,
+      "citationCount": 271,
+      "authors": [
+        {
+          "authorId": "2176466425",
+          "name": "Geunwoo Kim"
+        },
+        {
+          "authorId": "144902513",
+          "name": "P. Baldi"
+        },
+        {
+          "authorId": "143953836",
+          "name": "S. McAleer"
+        }
+      ]
+    },
+    {
+      "paperId": "c11810fa8887b678facea62da4607c4898360308",
+      "title": "Training Language Models with Language Feedback at Scale",
+      "year": 2023,
+      "citationCount": 90,
+      "authors": [
+        {
+          "authorId": "2070850274",
+          "name": "J'er'emy Scheurer"
+        },
+        {
+          "authorId": "1602998334",
+          "name": "Jon Ander Campos"
+        },
+        {
+          "authorId": "30023177",
+          "name": "Tomasz Korbak"
+        },
+        {
+          "authorId": "2163950075",
+          "name": "Jun Shern Chan"
+        },
+        {
+          "authorId": "13336152",
+          "name": "Angelica Chen"
+        },
+        {
+          "authorId": "1979489",
+          "name": "Kyunghyun Cho"
+        },
+        {
+          "authorId": "3439053",
+          "name": "Ethan Perez"
+        }
+      ]
+    },
+    {
+      "paperId": "28dafb94a87daa71ad3edf9f04f3c8c32753398b",
+      "title": "Improving Code Generation by Training with Natural Language Feedback",
+      "year": 2023,
+      "citationCount": 62,
+      "authors": [
+        {
+          "authorId": "13336152",
+          "name": "Angelica Chen"
+        }
+      ]
+    },
+    {
+      "paperId": "0671fd553dd670a4e820553a974bc48040ba0819",
+      "title": "Reflexion: language agents with verbal reinforcement learning",
+      "year": 2023,
+      "citationCount": 773,
+      "authors": [
+        {
+          "authorId": "2212367248",
+          "name": "Noah Shinn"
+        },
+        {
+          "authorId": "2197063831",
+          "name": "Federico Cassano"
+        },
+        {
+          "authorId": "2212367414",
+          "name": "Beck Labash"
+        },
+        {
+          "authorId": "2162047785",
+          "name": "A. Gopinath"
+        },
+        {
+          "authorId": "144958935",
+          "name": "Karthik Narasimhan"
+        },
+        {
+          "authorId": "47188964",
+          "name": "Shunyu Yao"
+        }
+      ]
+    },
+    {
+      "paperId": "7c1707db9aafd209aa93db3251e7ebd593d55876",
+      "title": "SelfCheckGPT: Zero-Resource Black-Box Hallucination Detection for Generative Large Language Models",
+      "year": 2023,
+      "citationCount": 309,
+      "authors": [
+        {
+          "authorId": "89355510",
+          "name": "Potsawee Manakul"
+        },
+        {
+          "authorId": "2190750613",
+          "name": "Adian Liusie"
+        },
+        {
+          "authorId": "1740397",
+          "name": "M. Gales"
+        }
+      ]
+    },
+    {
+      "paperId": "9f8ac6ee3760ab202e492c733362e5bfc6763934",
+      "title": "Baldur: Whole-Proof Generation and Repair with Large Language Models",
+      "year": 2023,
+      "citationCount": 68,
+      "authors": [
+        {
+          "authorId": "104884254",
+          "name": "E. First"
+        },
+        {
+          "authorId": "1800714",
+          "name": "M. Rabe"
+        },
+        {
+          "authorId": "35064164",
+          "name": "T. Ringer"
+        },
+        {
+          "authorId": "2932798",
+          "name": "Yuriy Brun"
+        }
+      ]
+    },
+    {
+      "paperId": "e5c72b92c48d68594b290c84a8904da7c8335554",
+      "title": "Check Your Facts and Try Again: Improving Large Language Models with External Knowledge and Automated Feedback",
+      "year": 2023,
+      "citationCount": 323,
+      "authors": [
+        {
+          "authorId": "1780690",
+          "name": "Baolin Peng"
+        },
+        {
+          "authorId": "1947267",
+          "name": "Michel Galley"
+        },
+        {
+          "authorId": "50462546",
+          "name": "Pengcheng He"
+        },
+        {
+          "authorId": "47413820",
+          "name": "Hao Cheng"
+        },
+        {
+          "authorId": "2167703904",
+          "name": "Yujia Xie"
+        },
+        {
+          "authorId": null,
+          "name": "Yu Hu"
+        },
+        {
+          "authorId": "2110991956",
+          "name": "Qiuyuan Huang"
+        },
+        {
+          "authorId": "145417002",
+          "name": "Lars Lidén"
+        },
+        {
+          "authorId": "2167255986",
+          "name": "Zhou Yu"
+        },
+        {
+          "authorId": "2109136147",
+          "name": "Weizhu Chen"
+        },
+        {
+          "authorId": "48441311",
+          "name": "Jianfeng Gao"
+        }
+      ]
+    },
+    {
+      "paperId": "59fe7cb560651281cfc5db6b8940da0e3ba9dea6",
+      "title": "LEVER: Learning to Verify Language-to-Code Generation with Execution",
+      "year": 2023,
+      "citationCount": 172,
+      "authors": [
+        {
+          "authorId": "33981736",
+          "name": "Ansong Ni"
+        },
+        {
+          "authorId": "1900163",
+          "name": "Srini Iyer"
+        },
+        {
+          "authorId": "9215251",
+          "name": "Dragomir R. Radev"
+        },
+        {
+          "authorId": "1389924486",
+          "name": "Ves Stoyanov"
+        },
+        {
+          "authorId": "2072801764",
+          "name": "Wen-tau Yih"
+        },
+        {
+          "authorId": "8729431",
+          "name": "Sida I. Wang"
+        },
+        {
+          "authorId": "143724481",
+          "name": "Xi Victoria Lin"
+        }
+      ]
+    },
+    {
+      "paperId": "e8e035f9768a4d4e7fe9a2e167cd93d170407b1b",
+      "title": "Aligning Language Models with Preferences through f-divergence Minimization",
+      "year": 2023,
+      "citationCount": 55,
+      "authors": [
+        {
+          "authorId": "2148631790",
+          "name": "Dongyoung Go"
+        },
+        {
+          "authorId": "30023177",
+          "name": "Tomasz Korbak"
+        },
+        {
+          "authorId": "2067996",
+          "name": "Germán Kruszewski"
+        },
+        {
+          "authorId": "120419790",
+          "name": "Jos Rozen"
+        },
+        {
+          "authorId": "2126415383",
+          "name": "Nahyeon Ryu"
+        },
+        {
+          "authorId": "2954698",
+          "name": "Marc Dymetman"
+        }
+      ]
+    },
+    {
+      "paperId": "6fbf4e4c7872efdc03f7003d2d89b15ad8c4c552",
+      "title": "The Capacity for Moral Self-Correction in Large Language Models",
+      "year": 2023,
+      "citationCount": 140,
+      "authors": [
+        {
+          "authorId": "2081806483",
+          "name": "Deep Ganguli"
+        },
+        {
+          "authorId": "119609682",
+          "name": "Amanda Askell"
+        },
+        {
+          "authorId": "2833768",
+          "name": "Nicholas Schiefer"
+        },
+        {
+          "authorId": "145636331",
+          "name": "Thomas Liao"
+        },
+        {
+          "authorId": "2161242438",
+          "name": "Kamil.e Lukovsiut.e"
+        },
+        {
+          "authorId": "2111073313",
+          "name": "Anna Chen"
+        },
+        {
+          "authorId": "46684455",
+          "name": "Anna Goldie"
+        },
+        {
+          "authorId": "1861312",
+          "name": "Azalia Mirhoseini"
+        },
+        {
+          "authorId": "2061321863",
+          "name": "Catherine Olsson"
+        },
+        {
+          "authorId": "39182747",
+          "name": "Danny Hernandez"
+        },
+        {
+          "authorId": "1943097969",
+          "name": "Dawn Drain"
+        },
+        {
+          "authorId": "2108506462",
+          "name": "Dustin Li"
+        },
+        {
+          "authorId": "2175781319",
+          "name": "Eli Tran-Johnson"
+        },
+        {
+          "authorId": "3439053",
+          "name": "Ethan Perez"
+        },
+        {
+          "authorId": "1583434563",
+          "name": "John Kernion"
+        },
+        {
+          "authorId": "2067765208",
+          "name": "Jamie Kerr"
+        },
+        {
+          "authorId": "2190111475",
+          "name": "J. Mueller"
+        },
+        {
+          "authorId": "6904213",
+          "name": "J. Landau"
+        },
+        {
+          "authorId": "1978097132",
+          "name": "Kamal Ndousse"
+        },
+        {
+          "authorId": "2196759978",
+          "name": "Karina Nguyen"
+        },
+        {
+          "authorId": "2154608229",
+          "name": "Liane Lovitt"
+        },
+        {
+          "authorId": "2054578129",
+          "name": "M. Sellitto"
+        },
+        {
+          "authorId": "2866708",
+          "name": "Nelson Elhage"
+        },
+        {
+          "authorId": "2190107517",
+          "name": "Noem'i Mercado"
+        },
+        {
+          "authorId": "2142833890",
+          "name": "Nova Dassarma"
+        },
+        {
+          "authorId": "3112577",
+          "name": "R. Lasenby"
+        },
+        {
+          "authorId": "48810415",
+          "name": "Robin Larson"
+        },
+        {
+          "authorId": "1380664820",
+          "name": "Sam Ringer"
+        },
+        {
+          "authorId": "2158813858",
+          "name": "Sandipan Kundu"
+        },
+        {
+          "authorId": "148070327",
+          "name": "Saurav Kadavath"
+        },
+        {
+          "authorId": "2154610174",
+          "name": "Scott Johnston"
+        },
+        {
+          "authorId": "49604482",
+          "name": "Shauna Kravec"
+        },
+        {
+          "authorId": "2154609053",
+          "name": "S. E. Showk"
+        },
+        {
+          "authorId": "46239941",
+          "name": "Tamera Lanham"
+        },
+        {
+          "authorId": "1419532638",
+          "name": "Timothy Telleen-Lawton"
+        },
+        {
+          "authorId": "103143311",
+          "name": "T. Henighan"
+        },
+        {
+          "authorId": "2162194147",
+          "name": "Tristan Hume"
+        },
+        {
+          "authorId": "1486307451",
+          "name": "Yuntao Bai"
+        },
+        {
+          "authorId": "1573482302",
+          "name": "Zac Hatfield-Dodds"
+        },
+        {
+          "authorId": "2056658938",
+          "name": "Benjamin Mann"
+        },
+        {
+          "authorId": "2698777",
+          "name": "Dario Amodei"
+        },
+        {
+          "authorId": "2117706920",
+          "name": "Nicholas Joseph"
+        },
+        {
+          "authorId": "52238703",
+          "name": "Sam McCandlish"
+        },
+        {
+          "authorId": "31035595",
+          "name": "Tom B. Brown"
+        },
+        {
+          "authorId": "37232298",
+          "name": "C. Olah"
+        },
+        {
+          "authorId": "2115193883",
+          "name": "Jack Clark"
+        },
+        {
+          "authorId": "1799822",
+          "name": "Sam Bowman"
+        },
+        {
+          "authorId": "2053807409",
+          "name": "Jared Kaplan"
+        }
+      ]
+    },
+    {
+      "paperId": "a3a241e9397fe29b37f96cb5e8f4b8bebed3d3da",
+      "title": "STREET: A Multi-Task Structured Reasoning and Explanation Benchmark",
+      "year": 2023,
+      "citationCount": 19,
+      "authors": [
+        {
+          "authorId": "145455110",
+          "name": "D. Ribeiro"
+        },
+        {
+          "authorId": "2165680667",
+          "name": "Shen Wang"
+        },
+        {
+          "authorId": "47646605",
+          "name": "Xiaofei Ma"
+        },
+        {
+          "authorId": "2117693772",
+          "name": "He Zhu"
+        },
+        {
+          "authorId": "2125037507",
+          "name": "Rui Dong"
+        },
+        {
+          "authorId": "37583154",
+          "name": "Deguang Kong"
+        },
+        {
+          "authorId": "2205657918",
+          "name": "Juliette Burger"
+        },
+        {
+          "authorId": "2205712214",
+          "name": "Anjelica Ramos"
+        },
+        {
+          "authorId": "1682479",
+          "name": "William Yang Wang"
+        },
+        {
+          "authorId": "3109481",
+          "name": "Zhiheng Huang"
+        },
+        {
+          "authorId": "50877490",
+          "name": "G. Karypis"
+        },
+        {
+          "authorId": "144028698",
+          "name": "Bing Xiang"
+        },
+        {
+          "authorId": "144590225",
+          "name": "D. Roth"
+        }
+      ]
+    },
+    {
+      "paperId": "873a581320d928249609d3c07229d5af182a379c",
+      "title": "Is ChatGPT a General-Purpose Natural Language Processing Task Solver?",
+      "year": 2023,
+      "citationCount": 603,
+      "authors": [
+        {
+          "authorId": "2084609980",
+          "name": "Chengwei Qin"
+        },
+        {
+          "authorId": "2085709",
+          "name": "Aston Zhang"
+        },
+        {
+          "authorId": "3322871",
+          "name": "Zhuosheng Zhang"
+        },
+        {
+          "authorId": "47739850",
+          "name": "Jiaao Chen"
+        },
+        {
+          "authorId": "19168196",
+          "name": "Michihiro Yasunaga"
+        },
+        {
+          "authorId": "2143919864",
+          "name": "Diyi Yang"
+        }
+      ]
+    },
+    {
+      "paperId": "cb3125e4f63f3d058a2a39270ecb585e86c3d1ff",
+      "title": "Chain of Hindsight Aligns Language Models with Feedback",
+      "year": 2023,
+      "citationCount": 110,
+      "authors": [
+        {
+          "authorId": "2143855835",
+          "name": "Hao Liu"
+        },
+        {
+          "authorId": "47218071",
+          "name": "Carmelo Sferrazza"
+        },
+        {
+          "authorId": "1689992",
+          "name": "P. Abbeel"
+        }
+      ]
+    },
+    {
+      "paperId": "9348656b761f7b76fb65cfe6fac55386b04a3a8a",
+      "title": "A Comprehensive Survey of Continual Learning: Theory, Method and Application",
+      "year": 2023,
+      "citationCount": 411,
+      "authors": [
+        {
+          "authorId": "1390770350",
+          "name": "Liyuan Wang"
+        },
+        {
+          "authorId": "37409910",
+          "name": "Xingxing Zhang"
+        },
+        {
+          "authorId": "2093561216",
+          "name": "Hang Su"
+        },
+        {
+          "authorId": "145254043",
+          "name": "Jun Zhu"
+        }
+      ]
+    },
+    {
+      "paperId": "b115c1e1e9e51f8ad7d47b745bc04e29a654b84d",
+      "title": "Faithful Chain-of-Thought Reasoning",
+      "year": 2023,
+      "citationCount": 172,
+      "authors": [
+        {
+          "authorId": "1904906987",
+          "name": "Qing Lyu"
+        },
+        {
+          "authorId": "151207988",
+          "name": "Shreya Havaldar"
+        },
+        {
+          "authorId": "2161714960",
+          "name": "Adam Stein"
+        },
+        {
+          "authorId": "72436283",
+          "name": "Li Zhang"
+        },
+        {
+          "authorId": "48810734",
+          "name": "D. Rao"
+        },
+        {
+          "authorId": "2053678328",
+          "name": "Eric Wong"
+        },
+        {
+          "authorId": "2817917",
+          "name": "Marianna Apidianaki"
+        },
+        {
+          "authorId": "1763608",
+          "name": "Chris Callison-Burch"
+        }
+      ]
+    },
+    {
+      "paperId": "528bfc811a3b4213566134afe2c880f867be5065",
+      "title": "Red teaming ChatGPT via Jailbreaking: Bias, Robustness, Reliability and Toxicity",
+      "year": 2023,
+      "citationCount": 86,
+      "authors": [
+        {
+          "authorId": "2080123731",
+          "name": "Terry Yue Zhuo"
+        },
+        {
+          "authorId": "2108733121",
+          "name": "Yujin Huang"
+        },
+        {
+          "authorId": "46729152",
+          "name": "Chunyang Chen"
+        },
+        {
+          "authorId": "3138980",
+          "name": "Zhenchang Xing"
+        }
+      ]
+    },
+    {
+      "paperId": "cb29cf52f0f7d2e4324c68690a55b22890f2212d",
+      "title": "How Close is ChatGPT to Human Experts? Comparison Corpus, Evaluation, and Detection",
+      "year": 2023,
+      "citationCount": 506,
+      "authors": [
+        {
+          "authorId": "2034015747",
+          "name": "Biyang Guo"
+        },
+        {
+          "authorId": "2149173726",
+          "name": "Xin Zhang"
+        },
+        {
+          "authorId": "2108416148",
+          "name": "Ziyuan Wang"
+        },
+        {
+          "authorId": "2152154941",
+          "name": "Minqi Jiang"
+        },
+        {
+          "authorId": "2147399904",
+          "name": "Jinran Nie"
+        },
+        {
+          "authorId": "2193663564",
+          "name": "Yuxuan Ding"
+        },
+        {
+          "authorId": "2170160137",
+          "name": "Jianwei Yue"
+        },
+        {
+          "authorId": "2107934757",
+          "name": "Yupeng Wu"
+        }
+      ]
+    },
+    {
+      "paperId": "490d8006851b1562cfd9ec1f057471f2868289d1",
+      "title": "Rethinking with Retrieval: Faithful Large Language Model Inference",
+      "year": 2022,
+      "citationCount": 139,
+      "authors": [
+        {
+          "authorId": "7146703",
+          "name": "Hangfeng He"
+        },
+        {
+          "authorId": "2111112132",
+          "name": "Hongming Zhang"
+        },
+        {
+          "authorId": "144590225",
+          "name": "D. Roth"
+        }
+      ]
+    },
+    {
+      "paperId": "7715ba5e75f5256e1061c7473afe61bb0dbb9065",
+      "title": "Large Language Models are Better Reasoners with Self-Verification",
+      "year": 2022,
+      "citationCount": 135,
+      "authors": [
+        {
+          "authorId": "2142839441",
+          "name": "Yixuan Weng"
+        },
+        {
+          "authorId": "2187504043",
+          "name": "Minjun Zhu"
+        },
+        {
+          "authorId": "2066079622",
+          "name": "Fei Xia"
+        },
+        {
+          "authorId": "2156072001",
+          "name": "Bin Li"
+        },
+        {
+          "authorId": "1954845",
+          "name": "Shizhu He"
+        },
+        {
+          "authorId": "2200096",
+          "name": "Kang Liu"
+        },
+        {
+          "authorId": "11447228",
+          "name": "Jun Zhao"
+        }
+      ]
+    },
+    {
+      "paperId": "b1b8c3e47f44158d22fb70bb453d2494ed013b70",
+      "title": "On Second Thought, Let’s Not Think Step by Step! Bias and Toxicity in Zero-Shot Reasoning",
+      "year": 2022,
+      "citationCount": 151,
+      "authors": [
+        {
+          "authorId": "1380218838",
+          "name": "Omar Shaikh"
+        },
+        {
+          "authorId": "2118083343",
+          "name": "Hongxin Zhang"
+        },
+        {
+          "authorId": "46552910",
+          "name": "William B. Held"
+        },
+        {
+          "authorId": "2057372634",
+          "name": "Michael Bernstein"
+        },
+        {
+          "authorId": "2143919864",
+          "name": "Diyi Yang"
+        }
+      ]
+    },
+    {
+      "paperId": "3936fd3c6187f606c6e4e2e20b196dbc41cc4654",
+      "title": "Constitutional AI: Harmlessness from AI Feedback",
+      "year": 2022,
+      "citationCount": 1202,
+      "authors": [
+        {
+          "authorId": "1486307451",
+          "name": "Yuntao Bai"
+        },
+        {
+          "authorId": "148070327",
+          "name": "Saurav Kadavath"
+        },
+        {
+          "authorId": "2158813858",
+          "name": "Sandipan Kundu"
+        },
+        {
+          "authorId": "119609682",
+          "name": "Amanda Askell"
+        },
+        {
+          "authorId": "1583434563",
+          "name": "John Kernion"
+        },
+        {
+          "authorId": "2149890773",
+          "name": "Andy Jones"
+        },
+        {
+          "authorId": "2111074159",
+          "name": "A. Chen"
+        },
+        {
+          "authorId": "46684455",
+          "name": "Anna Goldie"
+        },
+        {
+          "authorId": "1861312",
+          "name": "Azalia Mirhoseini"
+        },
+        {
+          "authorId": "2190108315",
+          "name": "C. McKinnon"
+        },
+        {
+          "authorId": "2183729976",
+          "name": "Carol Chen"
+        },
+        {
+          "authorId": "2061321863",
+          "name": "Catherine Olsson"
+        },
+        {
+          "authorId": "37232298",
+          "name": "C. Olah"
+        },
+        {
+          "authorId": "39182747",
+          "name": "Danny Hernandez"
+        },
+        {
+          "authorId": "1943097969",
+          "name": "Dawn Drain"
+        },
+        {
+          "authorId": "2081806483",
+          "name": "Deep Ganguli"
+        },
+        {
+          "authorId": "2108506462",
+          "name": "Dustin Li"
+        },
+        {
+          "authorId": "2175781319",
+          "name": "Eli Tran-Johnson"
+        },
+        {
+          "authorId": "47635264",
+          "name": "E. Perez"
+        },
+        {
+          "authorId": "2067765208",
+          "name": "Jamie Kerr"
+        },
+        {
+          "authorId": "2190111475",
+          "name": "J. Mueller"
+        },
+        {
+          "authorId": "70988670",
+          "name": "Jeff Ladish"
+        },
+        {
+          "authorId": "2068044809",
+          "name": "J. Landau"
+        },
+        {
+          "authorId": "1978097132",
+          "name": "Kamal Ndousse"
+        },
+        {
+          "authorId": "2105347564",
+          "name": "Kamilė Lukošiūtė"
+        },
+        {
+          "authorId": "2154608229",
+          "name": "Liane Lovitt"
+        },
+        {
+          "authorId": "2054578129",
+          "name": "M. Sellitto"
+        },
+        {
+          "authorId": "2866708",
+          "name": "Nelson Elhage"
+        },
+        {
+          "authorId": "2833768",
+          "name": "Nicholas Schiefer"
+        },
+        {
+          "authorId": "2190107517",
+          "name": "Noem'i Mercado"
+        },
+        {
+          "authorId": "2142833890",
+          "name": "Nova Dassarma"
+        },
+        {
+          "authorId": "3112577",
+          "name": "R. Lasenby"
+        },
+        {
+          "authorId": "48810415",
+          "name": "Robin Larson"
+        },
+        {
+          "authorId": "1380664820",
+          "name": "Sam Ringer"
+        },
+        {
+          "authorId": "2154610174",
+          "name": "Scott Johnston"
+        },
+        {
+          "authorId": "49604482",
+          "name": "Shauna Kravec"
+        },
+        {
+          "authorId": "2154609053",
+          "name": "S. E. Showk"
+        },
+        {
+          "authorId": "30176974",
+          "name": "Stanislav Fort"
+        },
+        {
+          "authorId": "46239941",
+          "name": "Tamera Lanham"
+        },
+        {
+          "authorId": "1419532638",
+          "name": "Timothy Telleen-Lawton"
+        },
+        {
+          "authorId": "2154608209",
+          "name": "Tom Conerly"
+        },
+        {
+          "authorId": "103143311",
+          "name": "T. Henighan"
+        },
+        {
+          "authorId": "2162194147",
+          "name": "Tristan Hume"
+        },
+        {
+          "authorId": "1799822",
+          "name": "Sam Bowman"
+        },
+        {
+          "authorId": "1573482302",
+          "name": "Zac Hatfield-Dodds"
+        },
+        {
+          "authorId": "2056658938",
+          "name": "Benjamin Mann"
+        },
+        {
+          "authorId": "2698777",
+          "name": "Dario Amodei"
+        },
+        {
+          "authorId": "2117706920",
+          "name": "Nicholas Joseph"
+        },
+        {
+          "authorId": "52238703",
+          "name": "Sam McCandlish"
+        },
+        {
+          "authorId": "31035595",
+          "name": "Tom B. Brown"
+        },
+        {
+          "authorId": "2053807409",
+          "name": "Jared Kaplan"
+        }
+      ]
+    },
+    {
+      "paperId": "391246ce9c59d61c94cca3f8bef56c95542a4708",
+      "title": "ROSCOE: A Suite of Metrics for Scoring Step-by-Step Reasoning",
+      "year": 2022,
+      "citationCount": 115,
+      "authors": [
+        {
+          "authorId": "100664938",
+          "name": "O. Yu. Golovneva"
+        },
+        {
+          "authorId": "2108267192",
+          "name": "Moya Chen"
+        },
+        {
+          "authorId": "1753626755",
+          "name": "Spencer Poff"
+        },
+        {
+          "authorId": "2197061658",
+          "name": "Martin Corredor"
+        },
+        {
+          "authorId": "1982950",
+          "name": "Luke Zettlemoyer"
+        },
+        {
+          "authorId": "1399159921",
+          "name": "Maryam Fazel-Zarandi"
+        },
+        {
+          "authorId": "1709797",
+          "name": "Asli Celikyilmaz"
+        }
+      ]
+    },
+    {
+      "paperId": "6d7b8a478801bd9d21df82d5f33ae6eced90da5e",
+      "title": "Solving math word problems with process- and outcome-based feedback",
+      "year": 2022,
+      "citationCount": 185,
+      "authors": [
+        {
+          "authorId": "9960452",
+          "name": "Jonathan Uesato"
+        },
+        {
+          "authorId": "1684887",
+          "name": "Nate Kushman"
+        },
+        {
+          "authorId": "2117776492",
+          "name": "Ramana Kumar"
+        },
+        {
+          "authorId": "2059836321",
+          "name": "Francis Song"
+        },
+        {
+          "authorId": "1500370330",
+          "name": "Noah Siegel"
+        },
+        {
+          "authorId": "49680673",
+          "name": "L. Wang"
+        },
+        {
+          "authorId": "3433026",
+          "name": "Antonia Creswell"
+        },
+        {
+          "authorId": "2060655766",
+          "name": "G. Irving"
+        },
+        {
+          "authorId": "39051054",
+          "name": "I. Higgins"
+        }
+      ]
+    },
+    {
+      "paperId": "824233870f9f0a4e3e7425020442d9c0cd24b0ba",
+      "title": "Developing Self-Awareness: Learning Processes for Self- and Interpersonal Growth",
+      "year": 2022,
+      "citationCount": 53,
+      "authors": [
+        {
+          "authorId": "39908950",
+          "name": "M. London"
+        },
+        {
+          "authorId": "39588794",
+          "name": "V. Sessa"
+        },
+        {
+          "authorId": "2191607477",
+          "name": "Loren A. Shelley"
+        }
+      ]
+    },
+    {
+      "paperId": "61ddf932488405ab1c7b275460d2b3c5dfa274a0",
+      "title": "Fixing Model Bugs with Natural Language Patches",
+      "year": 2022,
+      "citationCount": 38,
+      "authors": [
+        {
+          "authorId": "37824171",
+          "name": "Shikhar Murty"
+        },
+        {
+          "authorId": "144783904",
+          "name": "Christopher D. Manning"
+        },
+        {
+          "authorId": "23451726",
+          "name": "Scott M. Lundberg"
+        },
+        {
+          "authorId": "78846919",
+          "name": "Marco Tulio Ribeiro"
+        }
+      ]
+    },
+    {
+      "paperId": "538288d24bdad73d831dfed44b706958287ed318",
+      "title": "Generating Sequences by Learning to Self-Correct",
+      "year": 2022,
+      "citationCount": 170,
+      "authors": [
+        {
+          "authorId": "2129663",
+          "name": "S. Welleck"
+        },
+        {
+          "authorId": "50085131",
+          "name": "Ximing Lu"
+        },
+        {
+          "authorId": "119659229",
+          "name": "Peter West"
+        },
+        {
+          "authorId": "9252833",
+          "name": "Faeze Brahman"
+        },
+        {
+          "authorId": "3456570",
+          "name": "T. Shen"
+        },
+        {
+          "authorId": "1783281",
+          "name": "Daniel Khashabi"
+        },
+        {
+          "authorId": "1699545",
+          "name": "Yejin Choi"
+        }
+      ]
+    },
+    {
+      "paperId": "d33504263ff0b263a1562075711264228d83b181",
+      "title": "Solving Math Word Problems via Cooperative Reasoning induced Language Models",
+      "year": 2022,
+      "citationCount": 58,
+      "authors": [
+        {
+          "authorId": "2116314158",
+          "name": "Xinyu Zhu"
+        },
+        {
+          "authorId": "2143183255",
+          "name": "Junjie Wang"
+        },
+        {
+          "authorId": "2143837908",
+          "name": "Lin Zhang"
+        },
+        {
+          "authorId": "2108080174",
+          "name": "Yuxiang Zhang"
+        },
+        {
+          "authorId": "94166197",
+          "name": "Ruyi Gan"
+        },
+        {
+          "authorId": "2144129760",
+          "name": "Jiaxing Zhang"
+        },
+        {
+          "authorId": "3001727",
+          "name": "Yujiu Yang"
+        }
+      ]
+    },
+    {
+      "paperId": "d400a649f0f0a3de22b89a268f48aff2dcb06a09",
+      "title": "Entailer: Answering Questions with Faithful and Truthful Chains of Reasoning",
+      "year": 2022,
+      "citationCount": 47,
+      "authors": [
+        {
+          "authorId": "3385516",
+          "name": "Oyvind Tafjord"
+        },
+        {
+          "authorId": "40135250",
+          "name": "Bhavana Dalvi"
+        },
+        {
+          "authorId": "48323507",
+          "name": "Peter Clark"
+        }
+      ]
+    },
+    {
+      "paperId": "3fa70115248377c3d1517c9f978791a296fbc1dd",
+      "title": "Large Language Models Can Self-Improve",
+      "year": 2022,
+      "citationCount": 461,
+      "authors": [
+        {
+          "authorId": "3488341",
+          "name": "Jiaxin Huang"
+        },
+        {
+          "authorId": "2046135",
+          "name": "S. Gu"
+        },
+        {
+          "authorId": "2153400663",
+          "name": "Le Hou"
+        },
+        {
+          "authorId": "9287688",
+          "name": "Yuexin Wu"
+        },
+        {
+          "authorId": "1524732527",
+          "name": "Xuezhi Wang"
+        },
+        {
+          "authorId": "40244451",
+          "name": "Hongkun Yu"
+        },
+        {
+          "authorId": "2111759643",
+          "name": "Jiawei Han"
+        }
+      ]
+    },
+    {
+      "paperId": "2b6291eb76e2ff885238e94704bb795046d7d530",
+      "title": "SafeText: A Benchmark for Exploring Physical Safety in Language Models",
+      "year": 2022,
+      "citationCount": 36,
+      "authors": [
+        {
+          "authorId": "49285370",
+          "name": "Sharon Levy"
+        },
+        {
+          "authorId": "46208659",
+          "name": "Emily Allaway"
+        },
+        {
+          "authorId": "2065894334",
+          "name": "Melanie Subbiah"
+        },
+        {
+          "authorId": "1912259",
+          "name": "Lydia B. Chilton"
+        },
+        {
+          "authorId": "2767140",
+          "name": "D. Patton"
+        },
+        {
+          "authorId": "145590324",
+          "name": "K. McKeown"
+        },
+        {
+          "authorId": "1682479",
+          "name": "William Yang Wang"
+        }
+      ]
+    },
+    {
+      "paperId": "663a41c866d49ce052801fbc88947d39764cad29",
+      "title": "Challenging BIG-Bench Tasks and Whether Chain-of-Thought Can Solve Them",
+      "year": 2022,
+      "citationCount": 791,
+      "authors": [
+        {
+          "authorId": "51903517",
+          "name": "Mirac Suzgun"
+        },
+        {
+          "authorId": "1471909492",
+          "name": "Nathan Scales"
+        },
+        {
+          "authorId": "1821614764",
+          "name": "Nathanael Scharli"
+        },
+        {
+          "authorId": "3159346",
+          "name": "Sebastian Gehrmann"
+        },
+        {
+          "authorId": "144447820",
+          "name": "Yi Tay"
+        },
+        {
+          "authorId": "3351938",
+          "name": "Hyung Won Chung"
+        },
+        {
+          "authorId": "2841893",
+          "name": "Aakanksha Chowdhery"
+        },
+        {
+          "authorId": "2827616",
+          "name": "Quoc V. Le"
+        },
+        {
+          "authorId": "2226805",
+          "name": "Ed H. Chi"
+        },
+        {
+          "authorId": "65855107",
+          "name": "Denny Zhou"
+        },
+        {
+          "authorId": "119640649",
+          "name": "Jason Wei"
+        }
+      ]
+    },
+    {
+      "paperId": "66242baf48b0f6b828e7547ac39ffaa5e1b2cb3e",
+      "title": "RARR: Researching and Revising What Language Models Say, Using Language Models",
+      "year": 2022,
+      "citationCount": 230,
+      "authors": [
+        {
+          "authorId": "49715441",
+          "name": "Luyu Gao"
+        },
+        {
+          "authorId": "2475437",
+          "name": "Zhuyun Dai"
+        },
+        {
+          "authorId": "2616463",
+          "name": "Panupong Pasupat"
+        },
+        {
+          "authorId": "52151521",
+          "name": "Anthony Chen"
+        },
+        {
+          "authorId": "2719924",
+          "name": "Arun Tejasvi Chaganty"
+        },
+        {
+          "authorId": "2051969653",
+          "name": "Yicheng Fan"
+        },
+        {
+          "authorId": "2664737",
+          "name": "Vincent Zhao"
+        },
+        {
+          "authorId": "1914797",
+          "name": "N. Lao"
+        },
+        {
+          "authorId": "8386466",
+          "name": "Hongrae Lee"
+        },
+        {
+          "authorId": "50270386",
+          "name": "Da-Cheng Juan"
+        },
+        {
+          "authorId": "2091768",
+          "name": "Kelvin Guu"
+        }
+      ]
+    },
+    {
+      "paperId": "cdecefa737544971b72c5b5ef60f9eb9772fa051",
+      "title": "Re3: Generating Longer Stories With Recursive Reprompting and Revision",
+      "year": 2022,
+      "citationCount": 165,
+      "authors": [
+        {
+          "authorId": "1410652795",
+          "name": "Kevin Yang"
+        },
+        {
+          "authorId": "3157053",
+          "name": "Nanyun Peng"
+        },
+        {
+          "authorId": "1932187449",
+          "name": "Yuandong Tian"
+        },
+        {
+          "authorId": "38666915",
+          "name": "D. Klein"
+        }
+      ]
+    },
+    {
+      "paperId": "74eae12620bd1c1393e268bddcb6f129a5025166",
+      "title": "Improving alignment of dialogue agents via targeted human judgements",
+      "year": 2022,
+      "citationCount": 453,
+      "authors": [
+        {
+          "authorId": "2105840001",
+          "name": "Amelia Glaese"
+        },
+        {
+          "authorId": "147687624",
+          "name": "Nat McAleese"
+        },
+        {
+          "authorId": "2186405125",
+          "name": "Maja Trkebacz"
+        },
+        {
+          "authorId": "9958912",
+          "name": "John Aslanides"
+        },
+        {
+          "authorId": "9559485",
+          "name": "Vlad Firoiu"
+        },
+        {
+          "authorId": "2311157472",
+          "name": "T. Ewalds"
+        },
+        {
+          "authorId": "94483529",
+          "name": "Maribeth Rauh"
+        },
+        {
+          "authorId": "51932191",
+          "name": "Laura Weidinger"
+        },
+        {
+          "authorId": "2159545857",
+          "name": "Martin Chadwick"
+        },
+        {
+          "authorId": "2151245633",
+          "name": "Phoebe Thacker"
+        },
+        {
+          "authorId": "2151248210",
+          "name": "Lucy Campbell-Gillingham"
+        },
+        {
+          "authorId": "9960452",
+          "name": "Jonathan Uesato"
+        },
+        {
+          "authorId": "2421691",
+          "name": "Po-Sen Huang"
+        },
+        {
+          "authorId": "89066101",
+          "name": "Ramona Comanescu"
+        },
+        {
+          "authorId": "47829900",
+          "name": "Fan Yang"
+        },
+        {
+          "authorId": "13070498",
+          "name": "A. See"
+        },
+        {
+          "authorId": "3491117",
+          "name": "Sumanth Dathathri"
+        },
+        {
+          "authorId": "2123241980",
+          "name": "Rory Greig"
+        },
+        {
+          "authorId": "2182971260",
+          "name": "Charlie Chen"
+        },
+        {
+          "authorId": "40514522",
+          "name": "Doug Fritz"
+        },
+        {
+          "authorId": "2186405649",
+          "name": "Jaume Sanchez Elias"
+        },
+        {
+          "authorId": "2150245910",
+          "name": "Richard Green"
+        },
+        {
+          "authorId": "2061746801",
+          "name": "Sovna Mokr'a"
+        },
+        {
+          "authorId": "2186403526",
+          "name": "Nicholas Fernando"
+        },
+        {
+          "authorId": "100927803",
+          "name": "Boxi Wu"
+        },
+        {
+          "authorId": "2186405248",
+          "name": "Rachel Foley"
+        },
+        {
+          "authorId": "116494324",
+          "name": "Susannah Young"
+        },
+        {
+          "authorId": "116589025",
+          "name": "Iason Gabriel"
+        },
+        {
+          "authorId": "103087275",
+          "name": "William S. Isaac"
+        },
+        {
+          "authorId": "1386957852",
+          "name": "John F. J. Mellor"
+        },
+        {
+          "authorId": "48987704",
+          "name": "D. Hassabis"
+        },
+        {
+          "authorId": "2645384",
+          "name": "K. Kavukcuoglu"
+        },
+        {
+          "authorId": "2234342",
+          "name": "Lisa Anne Hendricks"
+        },
+        {
+          "authorId": "2060655766",
+          "name": "G. Irving"
+        }
+      ]
+    },
+    {
+      "paperId": "f0a0e8b6e84207f50db4d24cc4016e40601214ef",
+      "title": "Faithful Reasoning Using Large Language Models",
+      "year": 2022,
+      "citationCount": 109,
+      "authors": [
+        {
+          "authorId": "3433026",
+          "name": "Antonia Creswell"
+        },
+        {
+          "authorId": "1757629",
+          "name": "M. Shanahan"
+        }
+      ]
+    },
+    {
+      "paperId": "a938ff4539b09a785a66669844f1a35f76169218",
+      "title": "PEER: A Collaborative Language Model",
+      "year": 2022,
+      "citationCount": 84,
+      "authors": [
+        {
+          "authorId": "32246932",
+          "name": "Timo Schick"
+        },
+        {
+          "authorId": "2173509991",
+          "name": "Jane Dwivedi-Yu"
+        },
+        {
+          "authorId": "2669515",
+          "name": "Zhengbao Jiang"
+        },
+        {
+          "authorId": "40052301",
+          "name": "F. Petroni"
+        },
+        {
+          "authorId": "145222654",
+          "name": "Patrick Lewis"
+        },
+        {
+          "authorId": "1410231361",
+          "name": "Gautier Izacard"
+        },
+        {
+          "authorId": "2182516125",
+          "name": "Qingfei You"
+        },
+        {
+          "authorId": "31434304",
+          "name": "Christoforos Nalmpantis"
+        },
+        {
+          "authorId": "3024698",
+          "name": "Edouard Grave"
+        },
+        {
+          "authorId": "48662861",
+          "name": "Sebastian Riedel"
+        }
+      ]
+    },
+    {
+      "paperId": "876eb375cb7b365475040046df669c039ad54202",
+      "title": "CodeT: Code Generation with Generated Tests",
+      "year": 2022,
+      "citationCount": 265,
+      "authors": [
+        {
+          "authorId": null,
+          "name": "Bei Chen"
+        },
+        {
+          "authorId": "2158120018",
+          "name": "Fengji Zhang"
+        },
+        {
+          "authorId": "1997993126",
+          "name": "A. Nguyen"
+        },
+        {
+          "authorId": "2134434187",
+          "name": "Daoguang Zan"
+        },
+        {
+          "authorId": "2284174",
+          "name": "Zeqi Lin"
+        },
+        {
+          "authorId": "153249455",
+          "name": "Jian-Guang Lou"
+        },
+        {
+          "authorId": "2109136147",
+          "name": "Weizhu Chen"
+        }
+      ]
+    },
+    {
+      "paperId": "290732e9fb08a29af8892a7c1f73c9d2a1b9d7db",
+      "title": "Language models show human-like content effects on reasoning",
+      "year": 2022,
+      "citationCount": 165,
+      "authors": [
+        {
+          "authorId": "46745316",
+          "name": "Ishita Dasgupta"
+        },
+        {
+          "authorId": "32322945",
+          "name": "Andrew Kyle Lampinen"
+        },
+        {
+          "authorId": "50328436",
+          "name": "Stephanie C. Y. Chan"
+        },
+        {
+          "authorId": "3433026",
+          "name": "Antonia Creswell"
+        },
+        {
+          "authorId": "2106164",
+          "name": "D. Kumaran"
+        },
+        {
+          "authorId": "1701656",
+          "name": "James L. McClelland"
+        },
+        {
+          "authorId": "145783676",
+          "name": "Felix Hill"
+        }
+      ]
+    },
+    {
+      "paperId": "142ebbf4760145f591166bde2564ac70c001e927",
+      "title": "Language Models (Mostly) Know What They Know",
+      "year": 2022,
+      "citationCount": 577,
+      "authors": [
+        {
+          "authorId": "148070327",
+          "name": "Saurav Kadavath"
+        },
+        {
+          "authorId": "2154608209",
+          "name": "Tom Conerly"
+        },
+        {
+          "authorId": "119609682",
+          "name": "Amanda Askell"
+        },
+        {
+          "authorId": "103143311",
+          "name": "T. Henighan"
+        },
+        {
+          "authorId": "1943097969",
+          "name": "Dawn Drain"
+        },
+        {
+          "authorId": "3439053",
+          "name": "Ethan Perez"
+        },
+        {
+          "authorId": "2833768",
+          "name": "Nicholas Schiefer"
+        },
+        {
+          "authorId": "2068552",
+          "name": "Z. Dodds"
+        },
+        {
+          "authorId": "2142833890",
+          "name": "Nova Dassarma"
+        },
+        {
+          "authorId": "2175781319",
+          "name": "Eli Tran-Johnson"
+        },
+        {
+          "authorId": "2154610174",
+          "name": "Scott Johnston"
+        },
+        {
+          "authorId": "1403602266",
+          "name": "S. El-Showk"
+        },
+        {
+          "authorId": "2149890773",
+          "name": "Andy Jones"
+        },
+        {
+          "authorId": "2866708",
+          "name": "Nelson Elhage"
+        },
+        {
+          "authorId": "2162194147",
+          "name": "Tristan Hume"
+        },
+        {
+          "authorId": "2111073313",
+          "name": "Anna Chen"
+        },
+        {
+          "authorId": "1486307451",
+          "name": "Yuntao Bai"
+        },
+        {
+          "authorId": "1799822",
+          "name": "Sam Bowman"
+        },
+        {
+          "authorId": "30176974",
+          "name": "Stanislav Fort"
+        },
+        {
+          "authorId": "2081806483",
+          "name": "Deep Ganguli"
+        },
+        {
+          "authorId": "39182747",
+          "name": "Danny Hernandez"
+        },
+        {
+          "authorId": "1666368339",
+          "name": "Josh Jacobson"
+        },
+        {
+          "authorId": "1583434563",
+          "name": "John Kernion"
+        },
+        {
+          "authorId": "49604482",
+          "name": "Shauna Kravec"
+        },
+        {
+          "authorId": "2154608229",
+          "name": "Liane Lovitt"
+        },
+        {
+          "authorId": "1978097132",
+          "name": "Kamal Ndousse"
+        },
+        {
+          "authorId": "2061321863",
+          "name": "Catherine Olsson"
+        },
+        {
+          "authorId": "1380664820",
+          "name": "Sam Ringer"
+        },
+        {
+          "authorId": "2698777",
+          "name": "Dario Amodei"
+        },
+        {
+          "authorId": "31035595",
+          "name": "Tom B. Brown"
+        },
+        {
+          "authorId": "2115193883",
+          "name": "Jack Clark"
+        },
+        {
+          "authorId": "2117706920",
+          "name": "Nicholas Joseph"
+        },
+        {
+          "authorId": "2056658938",
+          "name": "Benjamin Mann"
+        },
+        {
+          "authorId": "52238703",
+          "name": "Sam McCandlish"
+        },
+        {
+          "authorId": "37232298",
+          "name": "C. Olah"
+        },
+        {
+          "authorId": "2053807409",
+          "name": "Jared Kaplan"
+        }
+      ]
+    },
+    {
+      "paperId": "0adb7ab0ec2e92315877aa75560c5dc68dd914eb",
+      "title": "Repairing Neural Networks by Leaving the Right Past Behind",
+      "year": 2022,
+      "citationCount": 31,
+      "authors": [
+        {
+          "authorId": "3480712",
+          "name": "Ryutaro Tanno"
+        },
+        {
+          "authorId": "144188281",
+          "name": "M. Pradier"
+        },
+        {
+          "authorId": "2064953709",
+          "name": "A. Nori"
+        },
+        {
+          "authorId": "2672661",
+          "name": "Yingzhen Li"
+        }
+      ]
+    },
+    {
+      "paperId": "6d994b4f5a46cd14e8f09f1e9e49120546b15e31",
+      "title": "CodeRL: Mastering Code Generation through Pretrained Models and Deep Reinforcement Learning",
+      "year": 2022,
+      "citationCount": 203,
+      "authors": [
+        {
+          "authorId": "2064728738",
+          "name": "Hung Le"
+        },
+        {
+          "authorId": "49416727",
+          "name": "Yue Wang"
+        },
+        {
+          "authorId": "144049726",
+          "name": "Akhilesh Deepak Gotmare"
+        },
+        {
+          "authorId": "1702137",
+          "name": "S. Savarese"
+        },
+        {
+          "authorId": "1741126",
+          "name": "S. Hoi"
+        }
+      ]
+    },
+    {
+      "paperId": "dac3a172b504f4e33c029655e9befb3386e5f63a",
+      "title": "Emergent Abilities of Large Language Models",
+      "year": 2022,
+      "citationCount": 2023,
+      "authors": [
+        {
+          "authorId": "119640649",
+          "name": "Jason Wei"
+        },
+        {
+          "authorId": "144447820",
+          "name": "Yi Tay"
+        },
+        {
+          "authorId": "150272855",
+          "name": "Rishi Bommasani"
+        },
+        {
+          "authorId": "2402716",
+          "name": "Colin Raffel"
+        },
+        {
+          "authorId": "2368067",
+          "name": "Barret Zoph"
+        },
+        {
+          "authorId": "148016269",
+          "name": "Sebastian Borgeaud"
+        },
+        {
+          "authorId": "1755465",
+          "name": "Dani Yogatama"
+        },
+        {
+          "authorId": "40377863",
+          "name": "Maarten Bosma"
+        },
+        {
+          "authorId": "65855107",
+          "name": "Denny Zhou"
+        },
+        {
+          "authorId": "1680617",
+          "name": "Donald Metzler"
+        },
+        {
+          "authorId": "2226805",
+          "name": "Ed H. Chi"
+        },
+        {
+          "authorId": "2117567142",
+          "name": "Tatsunori Hashimoto"
+        },
+        {
+          "authorId": "1689108",
+          "name": "O. Vinyals"
+        },
+        {
+          "authorId": "2075292388",
+          "name": "P. Liang"
+        },
+        {
+          "authorId": "48448318",
+          "name": "J. Dean"
+        },
+        {
+          "authorId": "26958176",
+          "name": "W. Fedus"
+        }
+      ]
+    },
+    {
+      "paperId": "29acc890e521f7a6415666ab9eb3432c49b4587a",
+      "title": "Self-critiquing models for assisting human evaluators",
+      "year": 2022,
+      "citationCount": 241,
+      "authors": [
+        {
+          "authorId": "2058848938",
+          "name": "W. Saunders"
+        },
+        {
+          "authorId": null,
+          "name": "Catherine Yeh"
+        },
+        {
+          "authorId": "49387725",
+          "name": "Jeff Wu"
+        },
+        {
+          "authorId": "87299088",
+          "name": "Steven Bills"
+        },
+        {
+          "authorId": "2228518120",
+          "name": "Ouyang Long"
+        },
+        {
+          "authorId": "2170081200",
+          "name": "Jonathan Ward"
+        },
+        {
+          "authorId": "2990741",
+          "name": "J. Leike"
+        }
+      ]
+    }
+  ]
+}

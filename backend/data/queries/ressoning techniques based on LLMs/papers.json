@@ -1,0 +1,88 @@
+[
+  {
+    "paperId": "97dc1b2b7910c7a946fead4fe6b53240b398301a",
+    "url": "https://www.semanticscholar.org/paper/97dc1b2b7910c7a946fead4fe6b53240b398301a",
+    "title": "Binary Classifier Optimization for Large Language Model Alignment",
+    "abstract": "Aligning Large Language Models (LLMs) to human preferences through preference optimization has been crucial but labor-intensive, necessitating for each prompt a comparison of both a chosen and a rejected text completion by evaluators. Recently, Kahneman-Tversky Optimization (KTO) has demonstrated that LLMs can be aligned using merely binary\"thumbs-up\"or\"thumbs-down\"signals on each prompt-completion pair. In this paper, we present theoretical foundations to explain the successful alignment achieved through these binary signals. Our analysis uncovers a new perspective: optimizing a binary classifier, whose logit is a reward, implicitly induces minimizing the Direct Preference Optimization (DPO) loss. In the process of this discovery, we identified two techniques for effective alignment: reward shift and underlying distribution matching. Consequently, we propose a new algorithm, \\textit{Binary Classifier Optimization}, that integrates the techniques. We validate our methodology in two settings: first, on a paired preference dataset, where our method performs on par with DPO and KTO; and second, on binary signal datasets simulating real-world conditions with divergent underlying distributions between thumbs-up and thumbs-down data. Our model consistently demonstrates effective and robust alignment across two base LLMs and three different binary signal datasets, showcasing the strength of our approach to learning from binary feedback.",
+    "venue": "arXiv.org",
+    "year": 2024,
+    "citationCount": 8,
+    "openAccessPdf": null,
+    "fieldsOfStudy": [
+      "Computer Science"
+    ],
+    "publicationTypes": [
+      "JournalArticle"
+    ],
+    "publicationDate": "2024-04-06",
+    "authors": [
+      {
+        "authorId": "2295686371",
+        "name": "Seungjae Jung"
+      },
+      {
+        "authorId": "2146513388",
+        "name": "Gunsoo Han"
+      },
+      {
+        "authorId": "1491244118",
+        "name": "D. W. Nam"
+      },
+      {
+        "authorId": "2266750059",
+        "name": "Kyoung-Woon On"
+      }
+    ],
+    "source": "semantic_scholar",
+    "score": 102.95836866004329
+  },
+  {
+    "paperId": "c63f92f5598f72e214291e54cacda43eaf26c04c",
+    "url": "https://www.semanticscholar.org/paper/c63f92f5598f72e214291e54cacda43eaf26c04c",
+    "title": "Nuances are the Key: Unlocking ChatGPT to Find Failure-Inducing Tests with Differential Prompting",
+    "abstract": "Automated detection of software failures is an important but challenging software engineering task. It involves finding in a vast search space the failure-inducing test cases that contain an input triggering the software fault and an oracle asserting the incorrect execution. We are motivated to study how far this outstanding challenge can be solved by recent advances in large language models (LLMs) such as ChatGPT. However, our study reveals that ChatGPT has a relatively low success rate (28.8%) in finding correct failure-inducing test cases for buggy programs. A possible conjecture is that finding failure-inducing test cases requires analyzing the subtle differences (nuances) between the tokens of a program's correct version and those for its buggy version. When these two versions have similar sets of tokens and attentions, ChatGPT is weak in distinguishing their differences. We find that ChatGPT can successfully generate failure-inducing test cases when it is guided to focus on the nuances. Our solution is inspired by an interesting observation that ChatGPT could infer the intended functionality of buggy code if it is similar to the correct version. Driven by the inspiration, we develop a novel technique, called Differential Prompting, to effectively find failure-inducing test cases with the help of the compilable code synthesized by the inferred intention. Prompts are constructed based on the nuances between the given version and the synthesized code. We evaluate Differential Prompting on Quixbugs (a popular benchmark of buggy programs) and recent programs published at Codeforces (a popular programming contest portal, which is also an official benchmark of ChatGPT). We compare Differential Prompting with two baselines constructed using conventional ChatGPT prompting and Pynguin (the state-of-the-art unit test generation tool for Python programs). Our evaluation results show that for programs of Quixbugs, Differential Prompting can achieve a success rate of 75.0% in finding failure-inducing test cases, outperforming the best baseline by 2.6X. For programs of Codeforces, Differential Prompting's success rate is 66.7%, outperforming the best baseline by 4.0X.",
+    "venue": "International Conference on Automated Software Engineering",
+    "year": 2023,
+    "citationCount": 31,
+    "openAccessPdf": {
+      "url": "https://arxiv.org/pdf/2304.11686",
+      "status": "GREEN"
+    },
+    "fieldsOfStudy": [
+      "Computer Science"
+    ],
+    "publicationTypes": [
+      "JournalArticle",
+      "Conference"
+    ],
+    "publicationDate": "2023-04-23",
+    "authors": [
+      {
+        "authorId": "51129571",
+        "name": "T. Li"
+      },
+      {
+        "authorId": "14921484",
+        "name": "Wen-yi Zong"
+      },
+      {
+        "authorId": "2143436737",
+        "name": "Yibo Wang"
+      },
+      {
+        "authorId": "2069990130",
+        "name": "Haoye Tian"
+      },
+      {
+        "authorId": "49416173",
+        "name": "Y. Wang"
+      },
+      {
+        "authorId": "143608708",
+        "name": "S. Cheung"
+      }
+    ],
+    "source": "semantic_scholar",
+    "score": 121.9860385419959
+  }
+]

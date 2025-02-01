@@ -1,0 +1,937 @@
+{
+  "citations": [
+    {
+      "paperId": "0b46397fbba7ce1c40b1dfdc11ec75ec64e59dfa",
+      "title": "Iterative Tree Analysis for Medical Critics",
+      "year": 2025,
+      "citationCount": 0,
+      "authors": [
+        {
+          "authorId": "2341459898",
+          "name": "Zenan Huang"
+        },
+        {
+          "authorId": "2341471580",
+          "name": "Mingwei Li"
+        },
+        {
+          "authorId": "2341787950",
+          "name": "Zheng Zhou"
+        },
+        {
+          "authorId": "2341468565",
+          "name": "Youxin Jiang"
+        }
+      ]
+    },
+    {
+      "paperId": "2fe6bdf13d748d02cf2cf087c6d51a3d283f49f0",
+      "title": "The FACTS Grounding Leaderboard: Benchmarking LLMs' Ability to Ground Responses to Long-Form Input",
+      "year": 2025,
+      "citationCount": 0,
+      "authors": [
+        {
+          "authorId": "41016275",
+          "name": "Alon Jacovi"
+        },
+        {
+          "authorId": "2336876301",
+          "name": "Andrew Wang"
+        },
+        {
+          "authorId": "2336818591",
+          "name": "Chris Alberti"
+        },
+        {
+          "authorId": "2218112465",
+          "name": "Connie Tao"
+        },
+        {
+          "authorId": "2336819290",
+          "name": "Jon Lipovetz"
+        },
+        {
+          "authorId": "2275180557",
+          "name": "Kate Olszewska"
+        },
+        {
+          "authorId": "2336820230",
+          "name": "Lukas Haas"
+        },
+        {
+          "authorId": "2336829596",
+          "name": "Michelle Liu"
+        },
+        {
+          "authorId": "2336820056",
+          "name": "Nate Keating"
+        },
+        {
+          "authorId": "2728564",
+          "name": "Adam Bloniarz"
+        },
+        {
+          "authorId": "2275186597",
+          "name": "Carl Saroufim"
+        },
+        {
+          "authorId": "2336816667",
+          "name": "Corey Fry"
+        },
+        {
+          "authorId": "2771709",
+          "name": "Doron Kukliansky"
+        },
+        {
+          "authorId": "2336816537",
+          "name": "Gaurav ♠"
+        },
+        {
+          "authorId": "2336789275",
+          "name": "Singh Tomar"
+        },
+        {
+          "authorId": "2336819438",
+          "name": "James Swirhun"
+        },
+        {
+          "authorId": "2275169067",
+          "name": "Jinwei Xing"
+        },
+        {
+          "authorId": "2336829198",
+          "name": "Lily Wang"
+        },
+        {
+          "authorId": "2275187445",
+          "name": "Madhu Gurumurthy"
+        },
+        {
+          "authorId": "2336819607",
+          "name": "Michael Aaron"
+        },
+        {
+          "authorId": "2311700543",
+          "name": "Moran Ambar"
+        },
+        {
+          "authorId": "2203789378",
+          "name": "Rachana Fellinger"
+        },
+        {
+          "authorId": "2337079313",
+          "name": "Rui Wang"
+        },
+        {
+          "authorId": "2336277273",
+          "name": "Zizhao Zhang"
+        },
+        {
+          "authorId": "35540270",
+          "name": "S. Goldshtein"
+        },
+        {
+          "authorId": "2337237054",
+          "name": "Dipanjan Das"
+        },
+        {
+          "authorId": "2082718010",
+          "name": "Equal Contribution"
+        },
+        {
+          "authorId": "2135683701",
+          "name": "Google Deepmind"
+        },
+        {
+          "authorId": "2272567229",
+          "name": "G. Research"
+        },
+        {
+          "authorId": "2336819309",
+          "name": "Google Cloud"
+        },
+        {
+          "authorId": "2336819497",
+          "name": "♣. Kaggle"
+        }
+      ]
+    },
+    {
+      "paperId": "2b3bb447db34499cbf18cfc67f368e79c69ea538",
+      "title": "Chinese SafetyQA: A Safety Short-form Factuality Benchmark for Large Language Models",
+      "year": 2024,
+      "citationCount": 0,
+      "authors": [
+        {
+          "authorId": "2331379670",
+          "name": "Yingshui Tan"
+        },
+        {
+          "authorId": "2302806377",
+          "name": "Bo Zheng"
+        },
+        {
+          "authorId": "2339663658",
+          "name": "Baihui Zheng"
+        },
+        {
+          "authorId": "2336737713",
+          "name": "Kerui Cao"
+        },
+        {
+          "authorId": "2336730848",
+          "name": "Huiyun Jing"
+        },
+        {
+          "authorId": "2336950242",
+          "name": "Jincheng Wei"
+        },
+        {
+          "authorId": "2284731877",
+          "name": "Jiaheng Liu"
+        },
+        {
+          "authorId": "2285046736",
+          "name": "Yancheng He"
+        },
+        {
+          "authorId": "2279560018",
+          "name": "Wenbo Su"
+        },
+        {
+          "authorId": "2336834006",
+          "name": "Xiangyong Zhu"
+        },
+        {
+          "authorId": "2302806377",
+          "name": "Bo Zheng"
+        },
+        {
+          "authorId": "2336957653",
+          "name": "Kaifu Zhang"
+        }
+      ]
+    },
+    {
+      "paperId": "e57c7eb215a87ca8fbb5284f3e3189c6bbc524da",
+      "title": "Knowledge Graphs, Large Language Models, and Hallucinations: An NLP Perspective",
+      "year": 2024,
+      "citationCount": 0,
+      "authors": [
+        {
+          "authorId": "2295737693",
+          "name": "Ernests Lavrinovics"
+        },
+        {
+          "authorId": "51119656",
+          "name": "Russa Biswas"
+        },
+        {
+          "authorId": "2261086724",
+          "name": "Johannes Bjerva"
+        },
+        {
+          "authorId": "2331612336",
+          "name": "Katja Hose"
+        }
+      ]
+    },
+    {
+      "paperId": "3f99d8e6dada94f5bcfc650be3aab7a24e39bab3",
+      "title": "Measuring short-form factuality in large language models",
+      "year": 2024,
+      "citationCount": 5,
+      "authors": [
+        {
+          "authorId": "2329627448",
+          "name": "Jason Wei"
+        },
+        {
+          "authorId": "2329555526",
+          "name": "Nguyen Karina"
+        },
+        {
+          "authorId": "2275839391",
+          "name": "Hyung Won Chung"
+        },
+        {
+          "authorId": "2329871381",
+          "name": "Yunxin Joy Jiao"
+        },
+        {
+          "authorId": "2328088969",
+          "name": "Spencer Papay"
+        },
+        {
+          "authorId": "2105840001",
+          "name": "Amelia Glaese"
+        },
+        {
+          "authorId": "2297873691",
+          "name": "John Schulman"
+        },
+        {
+          "authorId": "26958176",
+          "name": "W. Fedus"
+        }
+      ]
+    },
+    {
+      "paperId": "1c7ef42897ad2dced83ab1d58d8fbd4539f87ddc",
+      "title": "Coarse-to-Fine Highlighting: Reducing Knowledge Hallucination in Large Language Models",
+      "year": 2024,
+      "citationCount": 0,
+      "authors": [
+        {
+          "authorId": "2243381644",
+          "name": "Qitan Lv"
+        },
+        {
+          "authorId": "2238243162",
+          "name": "Jie Wang"
+        },
+        {
+          "authorId": "2216099839",
+          "name": "Hanzhu Chen"
+        },
+        {
+          "authorId": "2319268432",
+          "name": "Bin Li"
+        },
+        {
+          "authorId": "2238393082",
+          "name": "Yongdong Zhang"
+        },
+        {
+          "authorId": "2257430155",
+          "name": "Feng Wu"
+        }
+      ]
+    },
+    {
+      "paperId": "7b3e689d9e6e18038b4b0a47ad8cc862e6022498",
+      "title": "Collu-Bench: A Benchmark for Predicting Language Model Hallucinations in Code",
+      "year": 2024,
+      "citationCount": 0,
+      "authors": [
+        {
+          "authorId": "2325937118",
+          "name": "Nan Jiang"
+        },
+        {
+          "authorId": "2321555748",
+          "name": "Qi Li"
+        },
+        {
+          "authorId": "2269041733",
+          "name": "Lin Tan"
+        },
+        {
+          "authorId": "2146334412",
+          "name": "Tian-yu Zhang"
+        }
+      ]
+    },
+    {
+      "paperId": "0a25eff9bab919f8d8883454296986a7c87aa124",
+      "title": "PersoBench: Benchmarking Personalized Response Generation in Large Language Models",
+      "year": 2024,
+      "citationCount": 0,
+      "authors": [
+        {
+          "authorId": "2142762262",
+          "name": "Saleh Afzoon"
+        },
+        {
+          "authorId": "2310337293",
+          "name": "Usman Naseem"
+        },
+        {
+          "authorId": "2324586651",
+          "name": "Amin Beheshti"
+        },
+        {
+          "authorId": "2324583879",
+          "name": "Zahra Jamali"
+        }
+      ]
+    },
+    {
+      "paperId": "a77d28e13ff34f34b8d1114e603bff074ee2b056",
+      "title": "Concise Thoughts: Impact of Output Length on LLM Reasoning and Cost",
+      "year": 2024,
+      "citationCount": 4,
+      "authors": [
+        {
+          "authorId": "2148658061",
+          "name": "Sania Nayab"
+        },
+        {
+          "authorId": "2047404065",
+          "name": "Giulio Rossolini"
+        },
+        {
+          "authorId": "2279097747",
+          "name": "Giorgio Buttazzo"
+        },
+        {
+          "authorId": "2249843",
+          "name": "Nicolamaria Manes"
+        },
+        {
+          "authorId": "20787530",
+          "name": "F. Giacomelli"
+        }
+      ]
+    },
+    {
+      "paperId": "b0230118746b2a8bed260a828e5731482aba019e",
+      "title": "AgentPeerTalk: Empowering Students through Agentic-AI-Driven Discernment of Bullying and Joking in Peer Interactions in Schools",
+      "year": 2024,
+      "citationCount": 2,
+      "authors": [
+        {
+          "authorId": "2315789379",
+          "name": "Aditya Paul"
+        },
+        {
+          "authorId": "2314880311",
+          "name": "Chi Lok Yu"
+        },
+        {
+          "authorId": "2314832010",
+          "name": "Eva Adelina Susanto"
+        },
+        {
+          "authorId": "2314829463",
+          "name": "Nicholas Wai Long Lau"
+        },
+        {
+          "authorId": "2314830463",
+          "name": "Gwenyth Isobel Meadows"
+        }
+      ]
+    },
+    {
+      "paperId": "6c94d59a5f8ab934b9259967d59101c32072f9c2",
+      "title": "WildHallucinations: Evaluating Long-form Factuality in LLMs with Real-World Entity Queries",
+      "year": 2024,
+      "citationCount": 3,
+      "authors": [
+        {
+          "authorId": "2266434757",
+          "name": "Wenting Zhao"
+        },
+        {
+          "authorId": "2312760350",
+          "name": "Tanya Goyal"
+        },
+        {
+          "authorId": "2277244466",
+          "name": "Yu Ying Chiu"
+        },
+        {
+          "authorId": "2112504145",
+          "name": "Liwei Jiang"
+        },
+        {
+          "authorId": "2263557371",
+          "name": "Benjamin Newman"
+        },
+        {
+          "authorId": "3023068",
+          "name": "Abhilasha Ravichander"
+        },
+        {
+          "authorId": "2302810573",
+          "name": "K. Chandu"
+        },
+        {
+          "authorId": "2069676542",
+          "name": "R. L. Bras"
+        },
+        {
+          "authorId": "2064285348",
+          "name": "Claire Cardie"
+        },
+        {
+          "authorId": "2268298457",
+          "name": "Yuntian Deng"
+        },
+        {
+          "authorId": "2285939518",
+          "name": "Yejin Choi"
+        }
+      ]
+    },
+    {
+      "paperId": "433c972258937c7cb68fb5ae110def741d2a0dbc",
+      "title": "Composable Interventions for Language Models",
+      "year": 2024,
+      "citationCount": 2,
+      "authors": [
+        {
+          "authorId": "68978244",
+          "name": "Arinbjörn Kolbeinsson"
+        },
+        {
+          "authorId": "2212970046",
+          "name": "Kyle O'Brien"
+        },
+        {
+          "authorId": "2310637497",
+          "name": "Tianjin Huang"
+        },
+        {
+          "authorId": "2269765109",
+          "name": "Shanghua Gao"
+        },
+        {
+          "authorId": "2310512874",
+          "name": "Shiwei Liu"
+        },
+        {
+          "authorId": "2290185444",
+          "name": "Jonathan Richard Schwarz"
+        },
+        {
+          "authorId": "2187496179",
+          "name": "Anurag Vaidya"
+        },
+        {
+          "authorId": "2310436669",
+          "name": "Faisal Mahmood"
+        },
+        {
+          "authorId": "2095762",
+          "name": "M. Zitnik"
+        },
+        {
+          "authorId": "2295593785",
+          "name": "Tianlong Chen"
+        },
+        {
+          "authorId": "32452740",
+          "name": "Thomas Hartvigsen"
+        }
+      ]
+    },
+    {
+      "paperId": "dd4753d9a88d075c50c7ce876340681b537de874",
+      "title": "NutriBench: A Dataset for Evaluating Large Language Models on Nutrition Estimation from Meal Descriptions",
+      "year": 2024,
+      "citationCount": 0,
+      "authors": [
+        {
+          "authorId": "2273550076",
+          "name": "Andong Hua"
+        },
+        {
+          "authorId": "151110494",
+          "name": "Mehak Preet Dhaliwal"
+        },
+        {
+          "authorId": "2311874373",
+          "name": "Ryan Burke"
+        },
+        {
+          "authorId": "2311872879",
+          "name": "Yao Qin"
+        }
+      ]
+    },
+    {
+      "paperId": "45a92d8483c80ccfc0ae497ce308d882a11a368e",
+      "title": "WikiContradict: A Benchmark for Evaluating LLMs on Real-World Knowledge Conflicts from Wikipedia",
+      "year": 2024,
+      "citationCount": 4,
+      "authors": [
+        {
+          "authorId": "2307897753",
+          "name": "Yufang Hou"
+        },
+        {
+          "authorId": "2307463172",
+          "name": "Alessandra Pascale"
+        },
+        {
+          "authorId": "2307467605",
+          "name": "Javier Carnerero-Cano"
+        },
+        {
+          "authorId": "3235883",
+          "name": "T. Tchrakian"
+        },
+        {
+          "authorId": "2808565",
+          "name": "Radu Marinescu"
+        },
+        {
+          "authorId": "2307465399",
+          "name": "Elizabeth Daly"
+        },
+        {
+          "authorId": "8350409",
+          "name": "Inkit Padhi"
+        },
+        {
+          "authorId": "1706272",
+          "name": "P. Sattigeri"
+        }
+      ]
+    },
+    {
+      "paperId": "03c90140680c6af76bda0e4ece552381944d5cbf",
+      "title": "DefAn: Definitive Answer Dataset for LLMs Hallucination Evaluation",
+      "year": 2024,
+      "citationCount": 2,
+      "authors": [
+        {
+          "authorId": "2307037424",
+          "name": "A. B. M. A. Rahman"
+        },
+        {
+          "authorId": "2297845544",
+          "name": "Saeed Anwar"
+        },
+        {
+          "authorId": "2223436301",
+          "name": "Muhammad Usman"
+        },
+        {
+          "authorId": "2290752695",
+          "name": "Ajmal Mian"
+        }
+      ]
+    },
+    {
+      "paperId": "3c030e889661048040d864450754b3f4a38ebd2b",
+      "title": "A Probabilistic Framework for LLM Hallucination Detection via Belief Tree Propagation",
+      "year": 2024,
+      "citationCount": 4,
+      "authors": [
+        {
+          "authorId": "1955614986",
+          "name": "Bairu Hou"
+        },
+        {
+          "authorId": "2266840596",
+          "name": "Yang Zhang"
+        },
+        {
+          "authorId": "2266751533",
+          "name": "Jacob Andreas"
+        },
+        {
+          "authorId": "2191955409",
+          "name": "Shiyu Chang"
+        }
+      ]
+    },
+    {
+      "paperId": "866234cef500959cc85f948e00b770255b482246",
+      "title": "Evaluating the Factuality of Large Language Models using Large-Scale Knowledge Graphs",
+      "year": 2024,
+      "citationCount": 3,
+      "authors": [
+        {
+          "authorId": "2109052548",
+          "name": "Xiaoze Liu"
+        },
+        {
+          "authorId": "2257429592",
+          "name": "Feijie Wu"
+        },
+        {
+          "authorId": "2481225",
+          "name": "Tianyang Xu"
+        },
+        {
+          "authorId": "2330438034",
+          "name": "Zhuo Chen"
+        },
+        {
+          "authorId": "2261895451",
+          "name": "Yichi Zhang"
+        },
+        {
+          "authorId": "2294510615",
+          "name": "Xiaoqian Wang"
+        },
+        {
+          "authorId": "2294562027",
+          "name": "Jing Gao"
+        }
+      ]
+    },
+    {
+      "paperId": "b877f5076c617a948081e12e08809e6c6b84b468",
+      "title": "ERBench: An Entity-Relationship based Automatically Verifiable Hallucination Benchmark for Large Language Models",
+      "year": 2024,
+      "citationCount": 0,
+      "authors": [
+        {
+          "authorId": "2290637464",
+          "name": "Jio Oh"
+        },
+        {
+          "authorId": "2290632729",
+          "name": "Soyeon Kim"
+        },
+        {
+          "authorId": "2220895539",
+          "name": "Junseok Seo"
+        },
+        {
+          "authorId": "2273553706",
+          "name": "Jindong Wang"
+        },
+        {
+          "authorId": "2266367743",
+          "name": "Ruochen Xu"
+        },
+        {
+          "authorId": "2249681654",
+          "name": "Xing Xie"
+        },
+        {
+          "authorId": "3288247",
+          "name": "Steven Euijong Whang"
+        }
+      ]
+    },
+    {
+      "paperId": "ed8f46f493abce9498851e647d900a4628f6ff7f",
+      "title": "In-Context Sharpness as Alerts: An Inner Representation Perspective for Hallucination Mitigation",
+      "year": 2024,
+      "citationCount": 13,
+      "authors": [
+        {
+          "authorId": "2108956946",
+          "name": "Shiqi Chen"
+        },
+        {
+          "authorId": "2290013651",
+          "name": "Miao Xiong"
+        },
+        {
+          "authorId": "2217264323",
+          "name": "Junteng Liu"
+        },
+        {
+          "authorId": "2290119311",
+          "name": "Zhengxuan Wu"
+        },
+        {
+          "authorId": "2289995720",
+          "name": "Teng Xiao"
+        },
+        {
+          "authorId": "2255016668",
+          "name": "Siyang Gao"
+        },
+        {
+          "authorId": "2264312133",
+          "name": "Junxian He"
+        }
+      ]
+    },
+    {
+      "paperId": "5a7ae6c94bc59d7ee3fadb0f27788e2ac828ef88",
+      "title": "Factuality of Large Language Models: A Survey",
+      "year": 2024,
+      "citationCount": 8,
+      "authors": [
+        {
+          "authorId": "2241417701",
+          "name": "Yuxia Wang"
+        },
+        {
+          "authorId": "2242189619",
+          "name": "Minghan Wang"
+        },
+        {
+          "authorId": "2282539097",
+          "name": "Muhammad Arslan Manzoor"
+        },
+        {
+          "authorId": "2284540712",
+          "name": "Fei Liu"
+        },
+        {
+          "authorId": "2282539112",
+          "name": "Georgi N. Georgiev"
+        },
+        {
+          "authorId": "2211732585",
+          "name": "Rocktim Jyoti Das"
+        },
+        {
+          "authorId": "2026545715",
+          "name": "Preslav Nakov"
+        }
+      ]
+    },
+    {
+      "paperId": "de817951a32e94ca8115a9cd57aa441984d2d945",
+      "title": "Benchmarking LLMs via Uncertainty Quantification",
+      "year": 2024,
+      "citationCount": 31,
+      "authors": [
+        {
+          "authorId": "2279733078",
+          "name": "Fanghua Ye"
+        },
+        {
+          "authorId": "2261364816",
+          "name": "Mingming Yang"
+        },
+        {
+          "authorId": "2266902867",
+          "name": "Jianhui Pang"
+        },
+        {
+          "authorId": "1800190",
+          "name": "Longyue Wang"
+        },
+        {
+          "authorId": "2266923623",
+          "name": "Derek F. Wong"
+        },
+        {
+          "authorId": "2258709909",
+          "name": "Emine Yilmaz"
+        },
+        {
+          "authorId": "2239383048",
+          "name": "Shuming Shi"
+        },
+        {
+          "authorId": "2256685351",
+          "name": "Zhaopeng Tu"
+        }
+      ]
+    },
+    {
+      "paperId": "aa88c5e7374815ad8bc96c82da3775a1417160da",
+      "title": "KGQuiz: Evaluating the Generalization of Encoded Knowledge in Large Language Models",
+      "year": 2023,
+      "citationCount": 2,
+      "authors": [
+        {
+          "authorId": "2170130468",
+          "name": "Yuyang Bai"
+        },
+        {
+          "authorId": "2114887261",
+          "name": "Shangbin Feng"
+        },
+        {
+          "authorId": "143820870",
+          "name": "Vidhisha Balachandran"
+        },
+        {
+          "authorId": "2093186816",
+          "name": "Zhaoxuan Tan"
+        },
+        {
+          "authorId": "2258717872",
+          "name": "Shiqi Lou"
+        },
+        {
+          "authorId": "2249540815",
+          "name": "Tianxing He"
+        },
+        {
+          "authorId": "2249583325",
+          "name": "Yulia Tsvetkov"
+        }
+      ]
+    },
+    {
+      "paperId": "e6f74f2746a9e8bc90701f2afcf3c47e5e98b2dd",
+      "title": "KCTS: Knowledge-Constrained Tree Search Decoding with Token-Level Hallucination Detection",
+      "year": 2023,
+      "citationCount": 24,
+      "authors": [
+        {
+          "authorId": "2127128777",
+          "name": "Sehyun Choi"
+        },
+        {
+          "authorId": "2044202073",
+          "name": "Tianqing Fang"
+        },
+        {
+          "authorId": "2187830802",
+          "name": "Zhaowei Wang"
+        },
+        {
+          "authorId": "2241325169",
+          "name": "Yangqiu Song"
+        }
+      ]
+    },
+    {
+      "paperId": "bbc7a421b3dedefa55d10f9b3c9eec57fac1bd71",
+      "title": "NutriBench: A Dataset for Evaluating Large Language Models in Carbohydrate Estimation from Meal Descriptions",
+      "year": 2024,
+      "citationCount": 0,
+      "authors": [
+        {
+          "authorId": "2273550076",
+          "name": "Andong Hua"
+        },
+        {
+          "authorId": "151110494",
+          "name": "Mehak Preet Dhaliwal"
+        },
+        {
+          "authorId": "2311874373",
+          "name": "Ryan Burke"
+        },
+        {
+          "authorId": "2311872879",
+          "name": "Yao Qin"
+        }
+      ]
+    },
+    {
+      "paperId": "2fb593ca4b6d2631832d6424e238c32db3db5434",
+      "title": "Factuality of Large Language Models in the Year 2024",
+      "year": 2024,
+      "citationCount": 3,
+      "authors": [
+        {
+          "authorId": "2241417701",
+          "name": "Yuxia Wang"
+        },
+        {
+          "authorId": "2242189619",
+          "name": "Minghan Wang"
+        },
+        {
+          "authorId": "2282539097",
+          "name": "Muhammad Arslan Manzoor"
+        },
+        {
+          "authorId": "2284540712",
+          "name": "Fei Liu"
+        },
+        {
+          "authorId": "2282539112",
+          "name": "Georgi N. Georgiev"
+        },
+        {
+          "authorId": "2211732585",
+          "name": "Rocktim Jyoti Das"
+        },
+        {
+          "authorId": "2026545715",
+          "name": "Preslav Nakov"
+        }
+      ]
+    }
+  ],
+  "references": []
+}

@@ -88,7 +88,20 @@ const CitationNetwork = ({ query, topK }) => {
                 d3.min(data.nodes, d => d.year), 
                 d3.max(data.nodes, d => d.year)
             ])
-            .interpolator(d3.interpolateViridis);
+            // 将 interpolateViridis 改为蓝色系的渐变
+            // 可以选择以下几种蓝色渐变方案：
+            
+            // 方案1: 使用 interpolateBlues - 从浅蓝到深蓝
+            .interpolator(d3.interpolateBlues)
+            
+            // 方案2: 自定义蓝色渐变范围
+            // .interpolator(d3.interpolate("#E3F2FD", "#1565C0"))
+            
+            // 方案3: 使用 interpolatePuBu - 从浅蓝紫到深蓝
+            // .interpolator(d3.interpolatePuBu)
+            
+            // 方案4: 使用 cool 色调 - 从青色到蓝色
+            // .interpolator(d3.interpolateCool)
 
         // 绘制连线
         const links = container.append("g")

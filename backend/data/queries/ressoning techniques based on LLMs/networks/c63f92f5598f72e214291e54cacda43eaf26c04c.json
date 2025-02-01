@@ -1,0 +1,3438 @@
+{
+  "citations": [
+    {
+      "paperId": "153a17ff54d013192476351da7bb3c5a86068dfc",
+      "title": "Practitioners' Discussions on Building LLM-based Applications for Production",
+      "year": 2024,
+      "citationCount": 0,
+      "authors": [
+        {
+          "authorId": "2124421990",
+          "name": "Alina Mailach"
+        },
+        {
+          "authorId": "2325894821",
+          "name": "Sebastian Simon"
+        },
+        {
+          "authorId": "49493689",
+          "name": "Johannes Dorn"
+        },
+        {
+          "authorId": "2288554401",
+          "name": "Norbert Siegmund"
+        }
+      ]
+    },
+    {
+      "paperId": "20d6af075746dd8e4ee7ab7bad2c506081582eb1",
+      "title": "Interaction2Code: How Far Are We From Automatic Interactive Webpage Generation?",
+      "year": 2024,
+      "citationCount": 0,
+      "authors": [
+        {
+          "authorId": "2330405590",
+          "name": "Jingyu Xiao"
+        },
+        {
+          "authorId": "2277575723",
+          "name": "Yuxuan Wan"
+        },
+        {
+          "authorId": "2036553451",
+          "name": "Yintong Huo"
+        },
+        {
+          "authorId": "2306989916",
+          "name": "Zhiyao Xu"
+        },
+        {
+          "authorId": "2255646437",
+          "name": "Michael R. Lyu"
+        }
+      ]
+    },
+    {
+      "paperId": "80ff07ac8183d5e444083cbbaa938ad05db0775e",
+      "title": "LLM4Workflow: An LLM-based Automated Workflow Model Generation Tool",
+      "year": 2024,
+      "citationCount": 0,
+      "authors": [
+        {
+          "authorId": "2004845581",
+          "name": "Jia Xu"
+        },
+        {
+          "authorId": "2328803109",
+          "name": "Weilin Du"
+        },
+        {
+          "authorId": "2155415691",
+          "name": "Xiao Liu"
+        },
+        {
+          "authorId": "2145457884",
+          "name": "Xuejun Li"
+        }
+      ]
+    },
+    {
+      "paperId": "3de7445972ad077cb5cd513bad4cb65ccff2d8cc",
+      "title": "DiffSpec: Differential Testing with LLMs using Natural Language Specifications and Code Artifacts",
+      "year": 2024,
+      "citationCount": 0,
+      "authors": [
+        {
+          "authorId": "2253470894",
+          "name": "Nikitha Rao"
+        },
+        {
+          "authorId": "2324782921",
+          "name": "Elizabeth Gilbert"
+        },
+        {
+          "authorId": "2546537",
+          "name": "T. Ramananandro"
+        },
+        {
+          "authorId": "2258712735",
+          "name": "Nikhil Swamy"
+        },
+        {
+          "authorId": "2957803",
+          "name": "Claire Le Goues"
+        },
+        {
+          "authorId": "2253466024",
+          "name": "Sarah Fakhoury"
+        }
+      ]
+    },
+    {
+      "paperId": "377ad366d1fa0c5abbd6500efb5ac20c2b1181f7",
+      "title": "Large Language Models for Equivalent Mutant Detection: How Far Are We?",
+      "year": 2024,
+      "citationCount": 3,
+      "authors": [
+        {
+          "authorId": "2249527087",
+          "name": "Zhao Tian"
+        },
+        {
+          "authorId": "2314832975",
+          "name": "Honglin Shu"
+        },
+        {
+          "authorId": "2315096340",
+          "name": "Dong Wang"
+        },
+        {
+          "authorId": "2314850430",
+          "name": "Xuejie Cao"
+        },
+        {
+          "authorId": "2314832312",
+          "name": "Yasutaka Kamei"
+        },
+        {
+          "authorId": "2257200319",
+          "name": "Junjie Chen"
+        }
+      ]
+    },
+    {
+      "paperId": "ebd84decb3a9d26a2c92c0256572607d64d0f5a7",
+      "title": "Fix the Tests: Augmenting LLMs to Repair Test Cases with Static Collector and Neural Reranker",
+      "year": 2024,
+      "citationCount": 0,
+      "authors": [
+        {
+          "authorId": "2301013537",
+          "name": "Jun Liu"
+        },
+        {
+          "authorId": "2219213508",
+          "name": "Jiwei Yan"
+        },
+        {
+          "authorId": "2257565239",
+          "name": "Yu Xie"
+        },
+        {
+          "authorId": "2278266935",
+          "name": "Jun Yan"
+        },
+        {
+          "authorId": "2310263296",
+          "name": "Jian Zhang"
+        }
+      ]
+    },
+    {
+      "paperId": "12a403535b772a216bb3f08a64f1ed0162503110",
+      "title": "Automatically Generating UI Code from Screenshot: A Divide-and-Conquer-Based Approach",
+      "year": 2024,
+      "citationCount": 6,
+      "authors": [
+        {
+          "authorId": "2277575723",
+          "name": "Yuxuan Wan"
+        },
+        {
+          "authorId": "2308345305",
+          "name": "Chaozheng Wang"
+        },
+        {
+          "authorId": "2308115309",
+          "name": "Yi Dong"
+        },
+        {
+          "authorId": "2144328160",
+          "name": "Wenxuan Wang"
+        },
+        {
+          "authorId": "2260459975",
+          "name": "Shuqing Li"
+        },
+        {
+          "authorId": "2036553451",
+          "name": "Yintong Huo"
+        },
+        {
+          "authorId": "2255646437",
+          "name": "Michael R. Lyu"
+        }
+      ]
+    },
+    {
+      "paperId": "04014eb4eb633be610edce0e125f307e8af097de",
+      "title": "On the Use of ChatGPT for Code Review: Do Developers Like Reviews By ChatGPT?",
+      "year": 2024,
+      "citationCount": 1,
+      "authors": [
+        {
+          "authorId": "2306789863",
+          "name": "Miku Watanabe"
+        },
+        {
+          "authorId": "40293906",
+          "name": "Yutaro Kashiwa"
+        },
+        {
+          "authorId": "2274119728",
+          "name": "Bin Lin"
+        },
+        {
+          "authorId": "1978134",
+          "name": "Toshiki Hirao"
+        },
+        {
+          "authorId": "2306522919",
+          "name": "Ken'Ichi Yamaguchi"
+        },
+        {
+          "authorId": "2273975187",
+          "name": "Hajimu Iida"
+        }
+      ]
+    },
+    {
+      "paperId": "7d80c4d1ed282ba2eebb2262e17a7dcd636615ab",
+      "title": "An Empirical Study on How Large Language Models Impact Software Testing Learning",
+      "year": 2024,
+      "citationCount": 2,
+      "authors": [
+        {
+          "authorId": "2306676020",
+          "name": "Simone Mezzaro"
+        },
+        {
+          "authorId": "2280933106",
+          "name": "Alessio Gambi"
+        },
+        {
+          "authorId": "2239110311",
+          "name": "Gordon Fraser"
+        }
+      ]
+    },
+    {
+      "paperId": "81f16a255718a9750e450c1d3738647b3bafa9e1",
+      "title": "SWT-Bench: Testing and Validating Real-World Bug-Fixes with Code Agents",
+      "year": 2024,
+      "citationCount": 2,
+      "authors": [
+        {
+          "authorId": "2292036596",
+          "name": "Niels Mündler"
+        },
+        {
+          "authorId": "2116235329",
+          "name": "Mark Niklas Müller"
+        },
+        {
+          "authorId": "8516542",
+          "name": "Jingxuan He"
+        },
+        {
+          "authorId": "1736447",
+          "name": "Martin T. Vechev"
+        }
+      ]
+    },
+    {
+      "paperId": "8a018b1a61ae3e31fce0665cdb54765a8b601930",
+      "title": "Mokav: Execution-driven Differential Testing with LLMs",
+      "year": 2024,
+      "citationCount": 1,
+      "authors": [
+        {
+          "authorId": "2340418",
+          "name": "K. Etemadi"
+        },
+        {
+          "authorId": "2306958183",
+          "name": "Bardia Mohammadi"
+        },
+        {
+          "authorId": "2307436866",
+          "name": "Zhendong Su"
+        },
+        {
+          "authorId": "2257895916",
+          "name": "Martin Monperrus"
+        }
+      ]
+    },
+    {
+      "paperId": "7e222859010460033aa2f5ee08cdc5a47a8aeeff",
+      "title": "An Exploratory Study on Using Large Language Models for Mutation Testing",
+      "year": 2024,
+      "citationCount": 1,
+      "authors": [
+        {
+          "authorId": "2307097746",
+          "name": "Bo Wang"
+        },
+        {
+          "authorId": "2307301396",
+          "name": "Mingda Chen"
+        },
+        {
+          "authorId": "2306870434",
+          "name": "Youfang Lin"
+        },
+        {
+          "authorId": "2306782261",
+          "name": "Mike Papadakis"
+        },
+        {
+          "authorId": "2307554089",
+          "name": "Jie Zhang"
+        }
+      ]
+    },
+    {
+      "paperId": "4d6d97dae4bb22bd2617fe5776963038c6f5d718",
+      "title": "CASIT: Collective Intelligent Agent System for Internet of Things",
+      "year": 2024,
+      "citationCount": 5,
+      "authors": [
+        {
+          "authorId": "2287016940",
+          "name": "Ningze Zhong"
+        },
+        {
+          "authorId": "2287877462",
+          "name": "Yi Wang"
+        },
+        {
+          "authorId": "2287188062",
+          "name": "Rui Xiong"
+        },
+        {
+          "authorId": "2287915725",
+          "name": "Yingyue Zheng"
+        },
+        {
+          "authorId": "2288114139",
+          "name": "Yang Li"
+        },
+        {
+          "authorId": "143762665",
+          "name": "Mingjun Ouyang"
+        },
+        {
+          "authorId": "2065251448",
+          "name": "D. Shen"
+        },
+        {
+          "authorId": "2117792715",
+          "name": "Xiangwei Zhu"
+        }
+      ]
+    },
+    {
+      "paperId": "db6ca4fe83e22a1a3a95761e62fe072460ee6d1c",
+      "title": "Large Language Models for Cyber Security: A Systematic Literature Review",
+      "year": 2024,
+      "citationCount": 16,
+      "authors": [
+        {
+          "authorId": "2300487835",
+          "name": "Hanxiang Xu"
+        },
+        {
+          "authorId": "2265946266",
+          "name": "Shenao Wang"
+        },
+        {
+          "authorId": "2177447932",
+          "name": "Ningke Li"
+        },
+        {
+          "authorId": "2265727621",
+          "name": "Kailong Wang"
+        },
+        {
+          "authorId": "2268172135",
+          "name": "Yanjie Zhao"
+        },
+        {
+          "authorId": "2300368154",
+          "name": "Kai Chen"
+        },
+        {
+          "authorId": "2300996607",
+          "name": "Ting Yu"
+        },
+        {
+          "authorId": "2277257260",
+          "name": "Yang Liu"
+        },
+        {
+          "authorId": "2297724844",
+          "name": "Haoyu Wang"
+        }
+      ]
+    },
+    {
+      "paperId": "a9e7ccd2ddb7a8a51785eed88a8ec42acf866573",
+      "title": "When Fuzzing Meets LLMs: Challenges and Opportunities",
+      "year": 2024,
+      "citationCount": 2,
+      "authors": [
+        {
+          "authorId": "2284216025",
+          "name": "Yu Jiang"
+        },
+        {
+          "authorId": "2118673419",
+          "name": "Jie Liang"
+        },
+        {
+          "authorId": "51225370",
+          "name": "Fuchen Ma"
+        },
+        {
+          "authorId": "16098741",
+          "name": "Yuanliang Chen"
+        },
+        {
+          "authorId": "83359050",
+          "name": "Chijin Zhou"
+        },
+        {
+          "authorId": "152687304",
+          "name": "Yuheng Shen"
+        },
+        {
+          "authorId": "2146253995",
+          "name": "Zhiyong Wu"
+        },
+        {
+          "authorId": "2225015087",
+          "name": "Jingzhou Fu"
+        },
+        {
+          "authorId": "2433617",
+          "name": "Mingzhe Wang"
+        },
+        {
+          "authorId": "2298565274",
+          "name": "Shanshan Li"
+        },
+        {
+          "authorId": "2145931413",
+          "name": "Quan Zhang"
+        }
+      ]
+    },
+    {
+      "paperId": "f8fc00a90d808cafc0cf054243ebf7521b5849c5",
+      "title": "LLM-Powered Test Case Generation for Detecting Tricky Bugs",
+      "year": 2024,
+      "citationCount": 15,
+      "authors": [
+        {
+          "authorId": "2279437904",
+          "name": "Kaibo Liu"
+        },
+        {
+          "authorId": "2297059271",
+          "name": "Yiyang Liu"
+        },
+        {
+          "authorId": "2267391486",
+          "name": "Zhenpeng Chen"
+        },
+        {
+          "authorId": "2293042568",
+          "name": "Jie M. Zhang"
+        },
+        {
+          "authorId": "2152494777",
+          "name": "Yudong Han"
+        },
+        {
+          "authorId": "2297416948",
+          "name": "Yun Ma"
+        },
+        {
+          "authorId": "2296952459",
+          "name": "Ge Li"
+        },
+        {
+          "authorId": "2291485395",
+          "name": "Gang Huang"
+        }
+      ]
+    },
+    {
+      "paperId": "ad20247560219735e6bf05916b5e83565f869c9e",
+      "title": "TrickyBugs: A Dataset of Corner-case Bugs in Plausible Programs",
+      "year": 2024,
+      "citationCount": 2,
+      "authors": [
+        {
+          "authorId": "2279437904",
+          "name": "Kaibo Liu"
+        },
+        {
+          "authorId": "2152494777",
+          "name": "Yudong Han"
+        },
+        {
+          "authorId": "2297059271",
+          "name": "Yiyang Liu"
+        },
+        {
+          "authorId": "2267391486",
+          "name": "Zhenpeng Chen"
+        },
+        {
+          "authorId": "2293042568",
+          "name": "Jie M. Zhang"
+        },
+        {
+          "authorId": "2275465565",
+          "name": "Federica Sarro"
+        },
+        {
+          "authorId": "2291485395",
+          "name": "Gang Huang"
+        },
+        {
+          "authorId": "2297416948",
+          "name": "Yun Ma"
+        }
+      ]
+    },
+    {
+      "paperId": "9cafcb0d7085dc5f7dd62ddddb0cfd71860b230f",
+      "title": "Tasks People Prompt: A Taxonomy of LLM Downstream Tasks in Software Verification and Falsification Approaches",
+      "year": 2024,
+      "citationCount": 1,
+      "authors": [
+        {
+          "authorId": "145797959",
+          "name": "V. Braberman"
+        },
+        {
+          "authorId": "2296717800",
+          "name": "Flavia Bonomo-Braberman"
+        },
+        {
+          "authorId": "2218867854",
+          "name": "Yiannis Charalambous"
+        },
+        {
+          "authorId": "1966519",
+          "name": "J. Colonna"
+        },
+        {
+          "authorId": "2238207195",
+          "name": "Lucas C. Cordeiro"
+        },
+        {
+          "authorId": "2296716888",
+          "name": "Rosiane de Freitas"
+        }
+      ]
+    },
+    {
+      "paperId": "46c295a02616143e5c05924df5f94b9261a3e7ea",
+      "title": "Concerned with Data Contamination? Assessing Countermeasures in Code Language Model",
+      "year": 2024,
+      "citationCount": 12,
+      "authors": [
+        {
+          "authorId": "51170803",
+          "name": "Jialun Cao"
+        },
+        {
+          "authorId": "2124775952",
+          "name": "Wuqi Zhang"
+        },
+        {
+          "authorId": "143608708",
+          "name": "S. Cheung"
+        }
+      ]
+    },
+    {
+      "paperId": "58822c5fdcf114460e7ab858302570bc08b74012",
+      "title": "Exploring the Impact of the Output Format on the Evaluation of Large Language Models for Code Translation",
+      "year": 2024,
+      "citationCount": 7,
+      "authors": [
+        {
+          "authorId": "2214580634",
+          "name": "Marcos Macedo"
+        },
+        {
+          "authorId": "2293897216",
+          "name": "Yuan Tian"
+        },
+        {
+          "authorId": "3261420",
+          "name": "F. Côgo"
+        },
+        {
+          "authorId": "2293392210",
+          "name": "Bram Adams"
+        }
+      ]
+    },
+    {
+      "paperId": "269b8cb3284038937a757c440b7edb43a656eb87",
+      "title": "Prejudice and Volatility: A Statistical Framework for Measuring Social Discrimination in Large Language Models",
+      "year": 2024,
+      "citationCount": 1,
+      "authors": [
+        {
+          "authorId": "2144403167",
+          "name": "Yiran Liu"
+        },
+        {
+          "authorId": "2277527247",
+          "name": "Ke Yang"
+        },
+        {
+          "authorId": "2286747770",
+          "name": "Zehan Qi"
+        },
+        {
+          "authorId": "2286681071",
+          "name": "Xiao Liu"
+        },
+        {
+          "authorId": "2286429405",
+          "name": "Yang Yu"
+        },
+        {
+          "authorId": "2286296902",
+          "name": "Chengxiang Zhai Equal contributions"
+        },
+        {
+          "authorId": "102392556",
+          "name": "Tsinghua University"
+        },
+        {
+          "authorId": "103072545",
+          "name": "U. I. Urbana-Champaign"
+        }
+      ]
+    },
+    {
+      "paperId": "4e9afe80298b6631201a484b6c7992fabdd37328",
+      "title": "ZS4C: Zero-Shot Synthesis of Compilable Code for Incomplete Code Snippets using LLMs",
+      "year": 2024,
+      "citationCount": 0,
+      "authors": [
+        {
+          "authorId": "2154618037",
+          "name": "Azmain Kabir"
+        },
+        {
+          "authorId": "2275181339",
+          "name": "Shaowei Wang"
+        },
+        {
+          "authorId": "2152949514",
+          "name": "Yuan Tian"
+        },
+        {
+          "authorId": "2261457094",
+          "name": "Tse-Hsun Chen"
+        },
+        {
+          "authorId": "2281034880",
+          "name": "Muhammad Asaduzzaman"
+        },
+        {
+          "authorId": "2281042341",
+          "name": "Wenbin Zhang"
+        }
+      ]
+    },
+    {
+      "paperId": "400a245d4cf301ac0fe2c125082230ba69c3c798",
+      "title": "LPR: Large Language Models-Aided Program Reduction",
+      "year": 2023,
+      "citationCount": 4,
+      "authors": [
+        {
+          "authorId": "2213627470",
+          "name": "Mengxiao Zhang"
+        },
+        {
+          "authorId": "2268796736",
+          "name": "Yongqiang Tian"
+        },
+        {
+          "authorId": "3183776",
+          "name": "Zhenyang Xu"
+        },
+        {
+          "authorId": "2163378746",
+          "name": "Yiwen Dong"
+        },
+        {
+          "authorId": "2275533143",
+          "name": "Shin Hwei Tan"
+        },
+        {
+          "authorId": "34751114",
+          "name": "Chengnian Sun"
+        }
+      ]
+    },
+    {
+      "paperId": "d950c1abe2b838f29a001992c90d997dd54c3c06",
+      "title": "Guiding ChatGPT to Fix Web UI Tests via Explanation-Consistency Checking",
+      "year": 2023,
+      "citationCount": 0,
+      "authors": [
+        {
+          "authorId": "2273521786",
+          "name": "Zhuolin Xu"
+        },
+        {
+          "authorId": "2273561260",
+          "name": "Qiushi Li"
+        },
+        {
+          "authorId": "2273752110",
+          "name": "Shin Hwei Tan"
+        }
+      ]
+    },
+    {
+      "paperId": "59e0e0c1aa06d51430792eb5d8308911a1b0110f",
+      "title": "Prompt Engineering or Fine Tuning: An Empirical Assessment of Large Language Models in Automated Software Engineering Tasks",
+      "year": 2023,
+      "citationCount": 26,
+      "authors": [
+        {
+          "authorId": "2257390976",
+          "name": "Jiho Shin"
+        },
+        {
+          "authorId": "2258775333",
+          "name": "Clark Tang"
+        },
+        {
+          "authorId": "2258712314",
+          "name": "Tahmineh Mohati"
+        },
+        {
+          "authorId": "9461040",
+          "name": "Maleknaz Nayebi"
+        },
+        {
+          "authorId": "2257362205",
+          "name": "Song Wang"
+        },
+        {
+          "authorId": "2257354796",
+          "name": "Hadi Hemmati"
+        }
+      ]
+    },
+    {
+      "paperId": "f43b8a87a96f8abc2467b90538b643a6061416e9",
+      "title": "Software Testing With Large Language Models: Survey, Landscape, and Vision",
+      "year": 2023,
+      "citationCount": 165,
+      "authors": [
+        {
+          "authorId": "2109763128",
+          "name": "Junjie Wang"
+        },
+        {
+          "authorId": "2115708808",
+          "name": "Yuchao Huang"
+        },
+        {
+          "authorId": "46729152",
+          "name": "Chunyang Chen"
+        },
+        {
+          "authorId": "2116746462",
+          "name": "Zhe Liu"
+        },
+        {
+          "authorId": "2117074753",
+          "name": "Song Wang"
+        },
+        {
+          "authorId": "2145464944",
+          "name": "Qing Wang"
+        }
+      ]
+    },
+    {
+      "paperId": "a89682897459e25d539f685606cffffe37023f79",
+      "title": "FLAG: Finding Line Anomalies (in code) with Generative AI",
+      "year": 2023,
+      "citationCount": 11,
+      "authors": [
+        {
+          "authorId": "2124891963",
+          "name": "Baleegh Ahmad"
+        },
+        {
+          "authorId": "143645422",
+          "name": "Benjamin Tan"
+        },
+        {
+          "authorId": "1707355",
+          "name": "R. Karri"
+        },
+        {
+          "authorId": "3437933",
+          "name": "H. Pearce"
+        }
+      ]
+    },
+    {
+      "paperId": "4c552ad10efda5283f7b681f7dd2e532445259fc",
+      "title": "No More Manual Tests? Evaluating and Improving ChatGPT for Unit Test Generation",
+      "year": 2023,
+      "citationCount": 97,
+      "authors": [
+        {
+          "authorId": "2176159206",
+          "name": "Zhiqiang Yuan"
+        },
+        {
+          "authorId": "2539239",
+          "name": "Yiling Lou"
+        },
+        {
+          "authorId": "2007711208",
+          "name": "Mingwei Liu"
+        },
+        {
+          "authorId": "2216553856",
+          "name": "Shiji Ding"
+        },
+        {
+          "authorId": "2148359505",
+          "name": "Kaixin Wang"
+        },
+        {
+          "authorId": "2116664540",
+          "name": "Yixuan Chen"
+        },
+        {
+          "authorId": "2216694669",
+          "name": "Xin Peng"
+        }
+      ]
+    },
+    {
+      "paperId": "9e7b12f8912ec83b78615923651dbe42448cb319",
+      "title": "Using Large Language Models to Generate JUnit Tests: An Empirical Study",
+      "year": 2023,
+      "citationCount": 30,
+      "authors": [
+        {
+          "authorId": "2091784637",
+          "name": "Mohammed Latif Siddiq"
+        },
+        {
+          "authorId": "30299173",
+          "name": "Joanna C. S. Santos"
+        },
+        {
+          "authorId": "2215825932",
+          "name": "Ridwanul Hasan Tanvir"
+        },
+        {
+          "authorId": "2181159898",
+          "name": "Noshin Ulfat"
+        },
+        {
+          "authorId": "2215825515",
+          "name": "Fahmid Al Rifat"
+        },
+        {
+          "authorId": "2215824394",
+          "name": "Vinicius Carvalho Lopes"
+        }
+      ]
+    },
+    {
+      "paperId": "a3354978931197275f62403227ea2a20d9d7937f",
+      "title": "ZS4C: Zero-Shot Synthesis of Compilable Code for Incomplete Code Snippets using ChatGPT",
+      "year": 2024,
+      "citationCount": 1,
+      "authors": [
+        {
+          "authorId": "2154618037",
+          "name": "Azmain Kabir"
+        },
+        {
+          "authorId": "2275181339",
+          "name": "Shaowei Wang"
+        },
+        {
+          "authorId": "2152949514",
+          "name": "Yuan Tian"
+        },
+        {
+          "authorId": "2261457094",
+          "name": "Tse-Hsun Chen"
+        },
+        {
+          "authorId": "2281034880",
+          "name": "Muhammad Asaduzzaman"
+        },
+        {
+          "authorId": "2281042341",
+          "name": "Wenbin Zhang"
+        }
+      ]
+    },
+    {
+      "paperId": "232b49cb6a2deb2dc0fdb2b0344ac13e02a9a169",
+      "title": "An Exploratory Study on Using Large Language Models for Mutation Testing",
+      "year": 2024,
+      "citationCount": 0,
+      "authors": [
+        {
+          "authorId": "2307097746",
+          "name": "Bo Wang"
+        },
+        {
+          "authorId": "2307301396",
+          "name": "Mingda Chen"
+        },
+        {
+          "authorId": "2306870434",
+          "name": "Youfang Lin"
+        },
+        {
+          "authorId": "2306782261",
+          "name": "Mike Papadakis"
+        },
+        {
+          "authorId": "2307554089",
+          "name": "Jie Zhang"
+        }
+      ]
+    }
+  ],
+  "references": [
+    {
+      "paperId": "a84e9114991b6040b08ea3d61d48f74fab3e81f6",
+      "title": "Rare Path Guided Fuzzing",
+      "year": 2023,
+      "citationCount": 4,
+      "authors": [
+        {
+          "authorId": "2964408",
+          "name": "Seemanta Saha"
+        },
+        {
+          "authorId": "68972932",
+          "name": "Laboni Sarker"
+        },
+        {
+          "authorId": "2223241047",
+          "name": "Md Shafiuzzaman"
+        },
+        {
+          "authorId": "2123635120",
+          "name": "Chaofan Shou"
+        },
+        {
+          "authorId": "2172325615",
+          "name": "Albert Li"
+        },
+        {
+          "authorId": "2223231033",
+          "name": "Ganesh Sankaran"
+        },
+        {
+          "authorId": "1706329",
+          "name": "T. Bultan"
+        }
+      ]
+    },
+    {
+      "paperId": "b45ec1cb2ba6b2d1ac24723fa836aee06a3db97a",
+      "title": "Is Your Code Generated by ChatGPT Really Correct? Rigorous Evaluation of Large Language Models for Code Generation",
+      "year": 2023,
+      "citationCount": 537,
+      "authors": [
+        {
+          "authorId": "2124960443",
+          "name": "Jiawei Liu"
+        },
+        {
+          "authorId": "145349987",
+          "name": "Chun Xia"
+        },
+        {
+          "authorId": "2215893835",
+          "name": "Yuyao Wang"
+        },
+        {
+          "authorId": "2145398332",
+          "name": "Lingming Zhang"
+        }
+      ]
+    },
+    {
+      "paperId": "bb58f2f63888456a3e04a56a18996ab8dacdb257",
+      "title": "Is ChatGPT the Ultimate Programming Assistant - How far is it?",
+      "year": 2023,
+      "citationCount": 156,
+      "authors": [
+        {
+          "authorId": "2069990130",
+          "name": "Haoye Tian"
+        },
+        {
+          "authorId": "93766142",
+          "name": "Weiqi Lu"
+        },
+        {
+          "authorId": "51129571",
+          "name": "T. Li"
+        },
+        {
+          "authorId": "2109925415",
+          "name": "Xunzhu Tang"
+        },
+        {
+          "authorId": "143608708",
+          "name": "S. Cheung"
+        },
+        {
+          "authorId": "2445617",
+          "name": "Jacques Klein"
+        },
+        {
+          "authorId": "2199740497",
+          "name": "Tegawend'e F. Bissyand'e"
+        }
+      ]
+    },
+    {
+      "paperId": "470754e17de89081f63dde4719922fe9b63251d5",
+      "title": "Large Language Models are Edge-Case Fuzzers: Testing Deep Learning Libraries via FuzzGPT",
+      "year": 2023,
+      "citationCount": 61,
+      "authors": [
+        {
+          "authorId": "2156356240",
+          "name": "Yinlin Deng"
+        },
+        {
+          "authorId": "145349987",
+          "name": "Chun Xia"
+        },
+        {
+          "authorId": "2154173465",
+          "name": "Chenyuan Yang"
+        },
+        {
+          "authorId": "2145401799",
+          "name": "Shizhuo Zhang"
+        },
+        {
+          "authorId": "2131855241",
+          "name": "Shujing Yang"
+        },
+        {
+          "authorId": "2145398332",
+          "name": "Lingming Zhang"
+        }
+      ]
+    },
+    {
+      "paperId": "bb607525252a3d0088b8f88804ed727bd3505b99",
+      "title": "Automated Program Repair via Conversation: Fixing 162 out of 337 Bugs for $0.42 Each using ChatGPT",
+      "year": 2023,
+      "citationCount": 142,
+      "authors": [
+        {
+          "authorId": "145349987",
+          "name": "Chun Xia"
+        },
+        {
+          "authorId": "2145398332",
+          "name": "Lingming Zhang"
+        }
+      ]
+    },
+    {
+      "paperId": "163b4d6a79a5b19af88b8585456363340d9efd04",
+      "title": "GPT-4 Technical Report",
+      "year": 2023,
+      "citationCount": 9624,
+      "authors": [
+        {
+          "authorId": "2275249853",
+          "name": "OpenAI Josh Achiam"
+        },
+        {
+          "authorId": "2275250875",
+          "name": "Steven Adler"
+        },
+        {
+          "authorId": "144517868",
+          "name": "Sandhini Agarwal"
+        },
+        {
+          "authorId": "2274773568",
+          "name": "Lama Ahmad"
+        },
+        {
+          "authorId": "2258629",
+          "name": "Ilge Akkaya"
+        },
+        {
+          "authorId": "2275244794",
+          "name": "Florencia Leoni Aleman"
+        },
+        {
+          "authorId": "2275252021",
+          "name": "Diogo Almeida"
+        },
+        {
+          "authorId": "2275252424",
+          "name": "Janko Altenschmidt"
+        },
+        {
+          "authorId": "2275245579",
+          "name": "Sam Altman"
+        },
+        {
+          "authorId": "2275246437",
+          "name": "Shyamal Anadkat"
+        },
+        {
+          "authorId": "2275139370",
+          "name": "Red Avila"
+        },
+        {
+          "authorId": "2256699302",
+          "name": "Igor Babuschkin"
+        },
+        {
+          "authorId": "2054519183",
+          "name": "S. Balaji"
+        },
+        {
+          "authorId": "2275251659",
+          "name": "Valerie Balcom"
+        },
+        {
+          "authorId": "47626612",
+          "name": "Paul Baltescu"
+        },
+        {
+          "authorId": "2275198557",
+          "name": "Haim-ing Bao"
+        },
+        {
+          "authorId": "2275251620",
+          "name": "Mo Bavarian"
+        },
+        {
+          "authorId": "2275245092",
+          "name": "J. Belgum"
+        },
+        {
+          "authorId": "4689792",
+          "name": "Irwan Bello"
+        },
+        {
+          "authorId": "2275245414",
+          "name": "Jake Berdine"
+        },
+        {
+          "authorId": "2275245581",
+          "name": "Gabriel Bernadett-Shapiro"
+        },
+        {
+          "authorId": "133740015",
+          "name": "Christopher Berner"
+        },
+        {
+          "authorId": "2275251674",
+          "name": "Lenny Bogdonoff"
+        },
+        {
+          "authorId": "2275246071",
+          "name": "Oleg Boiko"
+        },
+        {
+          "authorId": "2275248137",
+          "name": "Made-laine Boyd"
+        },
+        {
+          "authorId": "2275245419",
+          "name": "Anna-Luisa Brakman"
+        },
+        {
+          "authorId": "2065151121",
+          "name": "Greg Brockman"
+        },
+        {
+          "authorId": "2275219628",
+          "name": "Tim Brooks"
+        },
+        {
+          "authorId": "35167962",
+          "name": "Miles Brundage"
+        },
+        {
+          "authorId": "2146257251",
+          "name": "Kevin Button"
+        },
+        {
+          "authorId": "2275157286",
+          "name": "Trevor Cai"
+        },
+        {
+          "authorId": "2274782053",
+          "name": "Rosie Campbell"
+        },
+        {
+          "authorId": "2275245404",
+          "name": "Andrew Cann"
+        },
+        {
+          "authorId": "2275246368",
+          "name": "Brittany Carey"
+        },
+        {
+          "authorId": "2275120298",
+          "name": "Chelsea Carlson"
+        },
+        {
+          "authorId": "144114446",
+          "name": "Rory Carmichael"
+        },
+        {
+          "authorId": "1466431052",
+          "name": "Brooke Chan"
+        },
+        {
+          "authorId": "2275545855",
+          "name": "Che Chang"
+        },
+        {
+          "authorId": "2057091285",
+          "name": "Fotis Chantzis"
+        },
+        {
+          "authorId": "2253841704",
+          "name": "Derek Chen"
+        },
+        {
+          "authorId": "2275188918",
+          "name": "Sully Chen"
+        },
+        {
+          "authorId": "2275179180",
+          "name": "Ruby Chen"
+        },
+        {
+          "authorId": "2275289833",
+          "name": "Jason Chen"
+        },
+        {
+          "authorId": "2108828435",
+          "name": "Mark Chen"
+        },
+        {
+          "authorId": "1490681878",
+          "name": "B. Chess"
+        },
+        {
+          "authorId": "2275251158",
+          "name": "Chester Cho"
+        },
+        {
+          "authorId": "2276186593",
+          "name": "Casey Chu"
+        },
+        {
+          "authorId": "2275839391",
+          "name": "Hyung Won Chung"
+        },
+        {
+          "authorId": "2275231534",
+          "name": "Dave Cummings"
+        },
+        {
+          "authorId": "49645091",
+          "name": "Jeremiah Currier"
+        },
+        {
+          "authorId": "2276187456",
+          "name": "Yunxing Dai"
+        },
+        {
+          "authorId": "2275251205",
+          "name": "C. Decareaux"
+        },
+        {
+          "authorId": "2275244920",
+          "name": "Thomas Degry"
+        },
+        {
+          "authorId": "2275247090",
+          "name": "Noah Deutsch"
+        },
+        {
+          "authorId": "2275251200",
+          "name": "Damien Deville"
+        },
+        {
+          "authorId": "2275244298",
+          "name": "Arka Dhar"
+        },
+        {
+          "authorId": "35363891",
+          "name": "David Dohan"
+        },
+        {
+          "authorId": "2275252295",
+          "name": "Steve Dowling"
+        },
+        {
+          "authorId": "2275245491",
+          "name": "Sheila Dunning"
+        },
+        {
+          "authorId": "66821245",
+          "name": "Adrien Ecoffet"
+        },
+        {
+          "authorId": "2275245457",
+          "name": "Atty Eleti"
+        },
+        {
+          "authorId": "2146257131",
+          "name": "Tyna Eloundou"
+        },
+        {
+          "authorId": "2065430571",
+          "name": "David Farhi"
+        },
+        {
+          "authorId": "2096916416",
+          "name": "L. Fedus"
+        },
+        {
+          "authorId": "2275249996",
+          "name": "Niko Felix"
+        },
+        {
+          "authorId": "2275245820",
+          "name": "Sim'on Posada Fishman"
+        },
+        {
+          "authorId": "2275244914",
+          "name": "Juston Forte"
+        },
+        {
+          "authorId": "2275251173",
+          "name": "Is-abella Fulford"
+        },
+        {
+          "authorId": "2027599537",
+          "name": "Leo Gao"
+        },
+        {
+          "authorId": "2275200811",
+          "name": "Elie Georges"
+        },
+        {
+          "authorId": "2275254804",
+          "name": "C. Gibson"
+        },
+        {
+          "authorId": "2275144649",
+          "name": "Vik Goel"
+        },
+        {
+          "authorId": "2325028819",
+          "name": "Tarun Gogineni"
+        },
+        {
+          "authorId": "2261041177",
+          "name": "Gabriel Goh"
+        },
+        {
+          "authorId": "2158366935",
+          "name": "Raphael Gontijo-Lopes"
+        },
+        {
+          "authorId": "2265066144",
+          "name": "Jonathan Gordon"
+        },
+        {
+          "authorId": "2275250003",
+          "name": "Morgan Grafstein"
+        },
+        {
+          "authorId": "145565184",
+          "name": "Scott Gray"
+        },
+        {
+          "authorId": "2275247307",
+          "name": "Ryan Greene"
+        },
+        {
+          "authorId": "2275137274",
+          "name": "Joshua Gross"
+        },
+        {
+          "authorId": "2253699903",
+          "name": "S. Gu"
+        },
+        {
+          "authorId": "2276101257",
+          "name": "Yufei Guo"
+        },
+        {
+          "authorId": "2004021329",
+          "name": "Chris Hallacy"
+        },
+        {
+          "authorId": "2275540338",
+          "name": "Jesse Han"
+        },
+        {
+          "authorId": "2275295848",
+          "name": "Jeff Harris"
+        },
+        {
+          "authorId": "2275226809",
+          "name": "Yuchen He"
+        },
+        {
+          "authorId": "2275245527",
+          "name": "Mike Heaton"
+        },
+        {
+          "authorId": "2151087994",
+          "name": "Jo-hannes Heidecke"
+        },
+        {
+          "authorId": "2242286342",
+          "name": "Chris Hesse"
+        },
+        {
+          "authorId": "2226452668",
+          "name": "Alan Hickey"
+        },
+        {
+          "authorId": "2275246148",
+          "name": "Wade Hickey"
+        },
+        {
+          "authorId": "2275245339",
+          "name": "Peter Hoeschele"
+        },
+        {
+          "authorId": "103681415",
+          "name": "Brandon Houghton"
+        },
+        {
+          "authorId": "2275214107",
+          "name": "Kenny Hsu"
+        },
+        {
+          "authorId": "2275210604",
+          "name": "Shengli Hu"
+        },
+        {
+          "authorId": "2275777049",
+          "name": "Xin Hu"
+        },
+        {
+          "authorId": "39378983",
+          "name": "Joost Huizinga"
+        },
+        {
+          "authorId": "2276187117",
+          "name": "Shantanu Jain"
+        },
+        {
+          "authorId": "2171110177",
+          "name": "Shawn Jain"
+        },
+        {
+          "authorId": "2151094350",
+          "name": "Joanne Jang"
+        },
+        {
+          "authorId": "2253471334",
+          "name": "Angela Jiang"
+        },
+        {
+          "authorId": "2275172062",
+          "name": "Roger Jiang"
+        },
+        {
+          "authorId": "2275752035",
+          "name": "Haozhun Jin"
+        },
+        {
+          "authorId": "2275203081",
+          "name": "Denny Jin"
+        },
+        {
+          "authorId": "2275250083",
+          "name": "Shino Jomoto"
+        },
+        {
+          "authorId": "2275247096",
+          "name": "B. Jonn"
+        },
+        {
+          "authorId": "35450887",
+          "name": "Heewoo Jun"
+        },
+        {
+          "authorId": "2403754",
+          "name": "Tomer Kaftan"
+        },
+        {
+          "authorId": "2275230678",
+          "name": "Lukasz Kaiser"
+        },
+        {
+          "authorId": "2275169038",
+          "name": "Ali Kamali"
+        },
+        {
+          "authorId": "3151440",
+          "name": "I. Kanitscheider"
+        },
+        {
+          "authorId": "2844898",
+          "name": "N. Keskar"
+        },
+        {
+          "authorId": "2152264064",
+          "name": "Tabarak Khan"
+        },
+        {
+          "authorId": "2275246102",
+          "name": "Logan Kilpatrick"
+        },
+        {
+          "authorId": "2260346092",
+          "name": "Jong Wook Kim"
+        },
+        {
+          "authorId": "2149054292",
+          "name": "Christina Kim"
+        },
+        {
+          "authorId": "2275296777",
+          "name": "Yongjik Kim"
+        },
+        {
+          "authorId": "2275112980",
+          "name": "Hendrik Kirchner"
+        },
+        {
+          "authorId": "51131802",
+          "name": "J. Kiros"
+        },
+        {
+          "authorId": "2146257375",
+          "name": "Matthew Knight"
+        },
+        {
+          "authorId": "1485556711",
+          "name": "Daniel Kokotajlo"
+        },
+        {
+          "authorId": "2275246094",
+          "name": "Lukasz Kondraciuk"
+        },
+        {
+          "authorId": "1666171360",
+          "name": "A. Kondrich"
+        },
+        {
+          "authorId": "2275252322",
+          "name": "Aris Konstantinidis"
+        },
+        {
+          "authorId": "2275245594",
+          "name": "Kyle Kosic"
+        },
+        {
+          "authorId": "2064404342",
+          "name": "Gretchen Krueger"
+        },
+        {
+          "authorId": "2275229877",
+          "name": "Vishal Kuo"
+        },
+        {
+          "authorId": "2275247085",
+          "name": "Michael Lampe"
+        },
+        {
+          "authorId": "2275246287",
+          "name": "Ikai Lan"
+        },
+        {
+          "authorId": "2274915115",
+          "name": "Teddy Lee"
+        },
+        {
+          "authorId": "2990741",
+          "name": "J. Leike"
+        },
+        {
+          "authorId": "52152632",
+          "name": "Jade Leung"
+        },
+        {
+          "authorId": "2275256930",
+          "name": "Daniel Levy"
+        },
+        {
+          "authorId": "2275285124",
+          "name": "C. Li"
+        },
+        {
+          "authorId": "2275176375",
+          "name": "Rachel Lim"
+        },
+        {
+          "authorId": "2275759230",
+          "name": "Molly Lin"
+        },
+        {
+          "authorId": "2253840098",
+          "name": "Stephanie Lin"
+        },
+        {
+          "authorId": "1380985420",
+          "name": "Ma-teusz Litwin"
+        },
+        {
+          "authorId": "2275248327",
+          "name": "Theresa Lopez"
+        },
+        {
+          "authorId": "2257272397",
+          "name": "Ryan Lowe"
+        },
+        {
+          "authorId": "2275245628",
+          "name": "Patricia Lue"
+        },
+        {
+          "authorId": "119341078",
+          "name": "A. Makanju"
+        },
+        {
+          "authorId": "2275245649",
+          "name": "Kim Malfacini"
+        },
+        {
+          "authorId": "46430291",
+          "name": "Sam Manning"
+        },
+        {
+          "authorId": "14113256",
+          "name": "Todor Markov"
+        },
+        {
+          "authorId": "2275245336",
+          "name": "Yaniv Markovski"
+        },
+        {
+          "authorId": "2114362965",
+          "name": "Bianca Martin"
+        },
+        {
+          "authorId": "2275231822",
+          "name": "Katie Mayer"
+        },
+        {
+          "authorId": "2275247045",
+          "name": "Andrew Mayne"
+        },
+        {
+          "authorId": "39593364",
+          "name": "Bob McGrew"
+        },
+        {
+          "authorId": "2047820455",
+          "name": "S. McKinney"
+        },
+        {
+          "authorId": "3028785",
+          "name": "C. McLeavey"
+        },
+        {
+          "authorId": "2274772421",
+          "name": "Paul McMillan"
+        },
+        {
+          "authorId": "2275234856",
+          "name": "Jake McNeil"
+        },
+        {
+          "authorId": "2275210659",
+          "name": "David Medina"
+        },
+        {
+          "authorId": "2275132306",
+          "name": "Aalok Mehta"
+        },
+        {
+          "authorId": "10698483",
+          "name": "Jacob Menick"
+        },
+        {
+          "authorId": "2275246330",
+          "name": "Luke Metz"
+        },
+        {
+          "authorId": "2275252694",
+          "name": "Andrey Mishchenko"
+        },
+        {
+          "authorId": "2051714782",
+          "name": "Pamela Mishkin"
+        },
+        {
+          "authorId": "2275245453",
+          "name": "Vinnie Monaco"
+        },
+        {
+          "authorId": "1404556973",
+          "name": "Evan Morikawa"
+        },
+        {
+          "authorId": "3407880",
+          "name": "Daniel P. Mossing"
+        },
+        {
+          "authorId": "2275154456",
+          "name": "Tong Mu"
+        },
+        {
+          "authorId": "2117715631",
+          "name": "Mira Murati"
+        },
+        {
+          "authorId": "147746767",
+          "name": "O. Murk"
+        },
+        {
+          "authorId": "2275246116",
+          "name": "David M'ely"
+        },
+        {
+          "authorId": "3422774",
+          "name": "Ashvin Nair"
+        },
+        {
+          "authorId": "7406311",
+          "name": "Reiichiro Nakano"
+        },
+        {
+          "authorId": "2057426488",
+          "name": "Rajeev Nayak"
+        },
+        {
+          "authorId": "2072676",
+          "name": "Arvind Neelakantan"
+        },
+        {
+          "authorId": "2273886618",
+          "name": "Richard Ngo"
+        },
+        {
+          "authorId": "2275115983",
+          "name": "Hyeonwoo Noh"
+        },
+        {
+          "authorId": "2228518120",
+          "name": "Ouyang Long"
+        },
+        {
+          "authorId": "1435765036",
+          "name": "Cullen O'Keefe"
+        },
+        {
+          "authorId": "2713380",
+          "name": "J. Pachocki"
+        },
+        {
+          "authorId": "34800652",
+          "name": "Alex Paino"
+        },
+        {
+          "authorId": "2275244652",
+          "name": "Joe Palermo"
+        },
+        {
+          "authorId": "2275246178",
+          "name": "Ashley Pantuliano"
+        },
+        {
+          "authorId": "50213542",
+          "name": "Giambattista Parascandolo"
+        },
+        {
+          "authorId": "2275245818",
+          "name": "Joel Parish"
+        },
+        {
+          "authorId": "2275245435",
+          "name": "Emy Parparita"
+        },
+        {
+          "authorId": "2274774915",
+          "name": "Alexandre Passos"
+        },
+        {
+          "authorId": "2068123790",
+          "name": "Mikhail Pavlov"
+        },
+        {
+          "authorId": "2275125663",
+          "name": "Andrew Peng"
+        },
+        {
+          "authorId": "2275245529",
+          "name": "Adam Perelman"
+        },
+        {
+          "authorId": "2275250075",
+          "name": "Filipe de Avila Belbute Peres"
+        },
+        {
+          "authorId": "2136008481",
+          "name": "Michael Petrov"
+        },
+        {
+          "authorId": "1463773776",
+          "name": "Henrique Pondé de Oliveira Pinto"
+        },
+        {
+          "authorId": "2275246346",
+          "name": "Michael Pokorny"
+        },
+        {
+          "authorId": "2275246814",
+          "name": "Michelle Pokrass"
+        },
+        {
+          "authorId": "144401061",
+          "name": "Vitchyr H. Pong"
+        },
+        {
+          "authorId": "2275150061",
+          "name": "Tolly Powell"
+        },
+        {
+          "authorId": "146162186",
+          "name": "Alethea Power"
+        },
+        {
+          "authorId": "2151088845",
+          "name": "Boris Power"
+        },
+        {
+          "authorId": "2275243930",
+          "name": "Elizabeth Proehl"
+        },
+        {
+          "authorId": "2285654208",
+          "name": "Raul Puri"
+        },
+        {
+          "authorId": "38909097",
+          "name": "Alec Radford"
+        },
+        {
+          "authorId": "2275178294",
+          "name": "Jack W. Rae"
+        },
+        {
+          "authorId": "2261024614",
+          "name": "Aditya Ramesh"
+        },
+        {
+          "authorId": "2275225165",
+          "name": "Cameron Raymond"
+        },
+        {
+          "authorId": "2275252438",
+          "name": "Francis Real"
+        },
+        {
+          "authorId": "2275252095",
+          "name": "Kendra Rimbach"
+        },
+        {
+          "authorId": "2275207240",
+          "name": "Carl Ross"
+        },
+        {
+          "authorId": "11150265",
+          "name": "Bob Rotsted"
+        },
+        {
+          "authorId": "2275250007",
+          "name": "Henri Roussez"
+        },
+        {
+          "authorId": "2260406867",
+          "name": "Nick Ryder"
+        },
+        {
+          "authorId": "47204843",
+          "name": "M. Saltarelli"
+        },
+        {
+          "authorId": "2275246803",
+          "name": "Ted Sanders"
+        },
+        {
+          "authorId": "2852106",
+          "name": "Shibani Santurkar"
+        },
+        {
+          "authorId": "144864359",
+          "name": "Girish Sastry"
+        },
+        {
+          "authorId": "2275265666",
+          "name": "Heather Schmidt"
+        },
+        {
+          "authorId": "2252874293",
+          "name": "David Schnurr"
+        },
+        {
+          "authorId": "47971768",
+          "name": "John Schulman"
+        },
+        {
+          "authorId": "2196579",
+          "name": "Daniel Selsam"
+        },
+        {
+          "authorId": "2275244711",
+          "name": "Kyla Sheppard"
+        },
+        {
+          "authorId": "102475503",
+          "name": "Toki Sherbakov"
+        },
+        {
+          "authorId": "2275246834",
+          "name": "Jessica Shieh"
+        },
+        {
+          "authorId": "118335789",
+          "name": "Sarah Shoker"
+        },
+        {
+          "authorId": "67311962",
+          "name": "Pranav Shyam"
+        },
+        {
+          "authorId": "2700360",
+          "name": "Szymon Sidor"
+        },
+        {
+          "authorId": "2064673055",
+          "name": "Eric Sigler"
+        },
+        {
+          "authorId": "2151735251",
+          "name": "Maddie Simens"
+        },
+        {
+          "authorId": "2275252299",
+          "name": "Jordan Sitkin"
+        },
+        {
+          "authorId": "2117680841",
+          "name": "Katarina Slama"
+        },
+        {
+          "authorId": "103422608",
+          "name": "Ian Sohl"
+        },
+        {
+          "authorId": "2901424",
+          "name": "Benjamin Sokolowsky"
+        },
+        {
+          "authorId": "2307592658",
+          "name": "Yang Song"
+        },
+        {
+          "authorId": "2275245668",
+          "name": "Natalie Staudacher"
+        },
+        {
+          "authorId": "9927844",
+          "name": "F. Such"
+        },
+        {
+          "authorId": "2275252251",
+          "name": "Natalie Summers"
+        },
+        {
+          "authorId": "1701686",
+          "name": "I. Sutskever"
+        },
+        {
+          "authorId": "2275750817",
+          "name": "Jie Tang"
+        },
+        {
+          "authorId": "145950540",
+          "name": "N. Tezak"
+        },
+        {
+          "authorId": "2151289331",
+          "name": "Madeleine Thompson"
+        },
+        {
+          "authorId": "2275252092",
+          "name": "Phil Tillet"
+        },
+        {
+          "authorId": "2267339677",
+          "name": "Amin Tootoonchian"
+        },
+        {
+          "authorId": "2275249879",
+          "name": "Elizabeth Tseng"
+        },
+        {
+          "authorId": "2275249709",
+          "name": "Preston Tuggle"
+        },
+        {
+          "authorId": "2275244171",
+          "name": "Nick Turley"
+        },
+        {
+          "authorId": "2065005836",
+          "name": "Jerry Tworek"
+        },
+        {
+          "authorId": "2275203310",
+          "name": "Juan Felipe Cer'on Uribe"
+        },
+        {
+          "authorId": "2275244586",
+          "name": "Andrea Vallone"
+        },
+        {
+          "authorId": "2275245661",
+          "name": "Arun Vijayvergiya"
+        },
+        {
+          "authorId": "153387869",
+          "name": "Chelsea Voss"
+        },
+        {
+          "authorId": "2275245962",
+          "name": "Carroll L. Wainwright"
+        },
+        {
+          "authorId": "2275528432",
+          "name": "Justin Jay Wang"
+        },
+        {
+          "authorId": "2275540420",
+          "name": "Alvin Wang"
+        },
+        {
+          "authorId": "2275189326",
+          "name": "Ben Wang"
+        },
+        {
+          "authorId": "2170081200",
+          "name": "Jonathan Ward"
+        },
+        {
+          "authorId": "2253952872",
+          "name": "Jason Wei"
+        },
+        {
+          "authorId": "2275244218",
+          "name": "CJ Weinmann"
+        },
+        {
+          "authorId": "2275245663",
+          "name": "Akila Welihinda"
+        },
+        {
+          "authorId": "2930640",
+          "name": "P. Welinder"
+        },
+        {
+          "authorId": "2275139180",
+          "name": "Jiayi Weng"
+        },
+        {
+          "authorId": "2065741038",
+          "name": "Lilian Weng"
+        },
+        {
+          "authorId": "2275252154",
+          "name": "Matt Wiethoff"
+        },
+        {
+          "authorId": "2275249733",
+          "name": "Dave Willner"
+        },
+        {
+          "authorId": "2059411355",
+          "name": "Clemens Winter"
+        },
+        {
+          "authorId": "2275244177",
+          "name": "Samuel Wolrich"
+        },
+        {
+          "authorId": "2275225207",
+          "name": "Hannah Wong"
+        },
+        {
+          "authorId": "2275245771",
+          "name": "Lauren Workman"
+        },
+        {
+          "authorId": "2275299848",
+          "name": "Sherwin Wu"
+        },
+        {
+          "authorId": "2274911253",
+          "name": "Jeff Wu"
+        },
+        {
+          "authorId": "2307456650",
+          "name": "Michael Wu"
+        },
+        {
+          "authorId": "2275190169",
+          "name": "Kai Xiao"
+        },
+        {
+          "authorId": "2275452480",
+          "name": "Tao Xu"
+        },
+        {
+          "authorId": "2275310096",
+          "name": "Sarah Yoo"
+        },
+        {
+          "authorId": "2275593618",
+          "name": "Kevin Yu"
+        },
+        {
+          "authorId": "2275194186",
+          "name": "Qim-ing Yuan"
+        },
+        {
+          "authorId": "2563432",
+          "name": "Wojciech Zaremba"
+        },
+        {
+          "authorId": "49629836",
+          "name": "Rowan Zellers"
+        },
+        {
+          "authorId": "2262080679",
+          "name": "Chong Zhang"
+        },
+        {
+          "authorId": "2275288889",
+          "name": "Marvin Zhang"
+        },
+        {
+          "authorId": "2275545682",
+          "name": "Shengjia Zhao"
+        },
+        {
+          "authorId": "2275257857",
+          "name": "Tianhao Zheng"
+        },
+        {
+          "authorId": "2275201537",
+          "name": "Juntang Zhuang"
+        },
+        {
+          "authorId": "2275245715",
+          "name": "William Zhuk"
+        },
+        {
+          "authorId": "2368067",
+          "name": "Barret Zoph"
+        }
+      ]
+    },
+    {
+      "paperId": "c1014f86c8d801c93b37eed58311da5f9c9da2e4",
+      "title": "ChatGPT and Software Testing Education: Promises & Perils",
+      "year": 2023,
+      "citationCount": 148,
+      "authors": [
+        {
+          "authorId": "2204651610",
+          "name": "Sajed Jalil"
+        },
+        {
+          "authorId": "1491244699",
+          "name": "Suzzana Rafi"
+        },
+        {
+          "authorId": "1683595",
+          "name": "Thomas D. Latoza"
+        },
+        {
+          "authorId": "1381376597",
+          "name": "Kevin Moran"
+        },
+        {
+          "authorId": "2204647461",
+          "name": "Wing Lam"
+        }
+      ]
+    },
+    {
+      "paperId": "a23e0cf74f10b6a3061ab71497fe2c8c476fecd1",
+      "title": "Conversational Automated Program Repair",
+      "year": 2023,
+      "citationCount": 67,
+      "authors": [
+        {
+          "authorId": "145349987",
+          "name": "Chun Xia"
+        },
+        {
+          "authorId": "2145398332",
+          "name": "Lingming Zhang"
+        }
+      ]
+    },
+    {
+      "paperId": "9f530ebf624bf58e91b2a1f20b0799a45ca48f9a",
+      "title": "An Analysis of the Automatic Bug Fixing Performance of ChatGPT",
+      "year": 2023,
+      "citationCount": 265,
+      "authors": [
+        {
+          "authorId": "51040229",
+          "name": "Dominik Sobania"
+        },
+        {
+          "authorId": "2107692276",
+          "name": "Martin Briesch"
+        },
+        {
+          "authorId": "2202175551",
+          "name": "Carol Hanna"
+        },
+        {
+          "authorId": "1923360",
+          "name": "J. Petke"
+        }
+      ]
+    },
+    {
+      "paperId": "4edabeff4030cfeafe3a6a0c8e5fbf3365b001ae",
+      "title": "Perfect is the enemy of test oracle",
+      "year": 2022,
+      "citationCount": 18,
+      "authors": [
+        {
+          "authorId": "1577729975",
+          "name": "Ali Reza Ibrahimzada"
+        },
+        {
+          "authorId": "2190287944",
+          "name": "Yigit Varli"
+        },
+        {
+          "authorId": "2190288140",
+          "name": "Dilara Tekinoglu"
+        },
+        {
+          "authorId": "11034998",
+          "name": "Reyhaneh Jabbarvand"
+        }
+      ]
+    },
+    {
+      "paperId": "d0ae185582880a15ad7686cad22ed064e4e5c97d",
+      "title": "Improving Fault Localization Using Model-domain Synthesized Failing Test Generation",
+      "year": 2022,
+      "citationCount": 7,
+      "authors": [
+        {
+          "authorId": "2109107996",
+          "name": "Zhuo Zhang"
+        },
+        {
+          "authorId": "145553801",
+          "name": "Yan Lei"
+        },
+        {
+          "authorId": "8191582",
+          "name": "Xiaoguang Mao"
+        },
+        {
+          "authorId": "2114008701",
+          "name": "Meng Yan"
+        },
+        {
+          "authorId": "2077454764",
+          "name": "Xin Xia"
+        }
+      ]
+    },
+    {
+      "paperId": "3a3bd807cab46fbb6de3b22fa72b3d214cc60aa9",
+      "title": "On the use of mutation analysis for evaluating student test suite quality",
+      "year": 2022,
+      "citationCount": 5,
+      "authors": [
+        {
+          "authorId": "2519154",
+          "name": "J. Perretta"
+        },
+        {
+          "authorId": "1705563",
+          "name": "A. Deorio"
+        },
+        {
+          "authorId": "2100712",
+          "name": "Arjun Guha"
+        },
+        {
+          "authorId": "144023217",
+          "name": "Jonathan Bell"
+        }
+      ]
+    },
+    {
+      "paperId": "53661ff6fdbfb8557c5b19895fad151792c62da7",
+      "title": "Few-shot training LLMs for project-specific code-summarization",
+      "year": 2022,
+      "citationCount": 177,
+      "authors": [
+        {
+          "authorId": "3432275",
+          "name": "Toufique Ahmed"
+        },
+        {
+          "authorId": "114875459",
+          "name": "Prem Devanbu"
+        }
+      ]
+    },
+    {
+      "paperId": "4054fc9e8776dc0324cfc215462d606eb75916c0",
+      "title": "Expectation vs. Experience: Evaluating the Usability of Code Generation Tools Powered by Large Language Models",
+      "year": 2022,
+      "citationCount": 398,
+      "authors": [
+        {
+          "authorId": "40961780",
+          "name": "Priyan Vaithilingam"
+        },
+        {
+          "authorId": "2146332594",
+          "name": "Tianyi Zhang"
+        },
+        {
+          "authorId": "143730651",
+          "name": "Elena L. Glassman"
+        }
+      ]
+    },
+    {
+      "paperId": "eadcf2f484b2d326f4d32ba4a897b009e4de1784",
+      "title": "Pynguin: Automated Unit Test Generation for Python",
+      "year": 2022,
+      "citationCount": 53,
+      "authors": [
+        {
+          "authorId": "1486439695",
+          "name": "Stephan Lukasczyk"
+        },
+        {
+          "authorId": "145507591",
+          "name": "G. Fraser"
+        }
+      ]
+    },
+    {
+      "paperId": "aa52b10a37d1c806e90d2330c88e4eb9181bc54b",
+      "title": "Fast Multi-Resolution Transformer Fine-tuning for Extreme Multi-label Text Classification",
+      "year": 2021,
+      "citationCount": 91,
+      "authors": [
+        {
+          "authorId": "2138799241",
+          "name": "Jiong Zhang"
+        },
+        {
+          "authorId": "1702500",
+          "name": "Wei-Cheng Chang"
+        },
+        {
+          "authorId": "46185316",
+          "name": "Hsiang-Fu Yu"
+        },
+        {
+          "authorId": "1783667",
+          "name": "I. Dhillon"
+        }
+      ]
+    },
+    {
+      "paperId": "6162b14349877749b280baa9060daaf7f7faeede",
+      "title": "Semantic bug seeding: a learning-based approach for creating realistic bugs",
+      "year": 2021,
+      "citationCount": 63,
+      "authors": [
+        {
+          "authorId": "1954023",
+          "name": "Jibesh Patra"
+        },
+        {
+          "authorId": "1884064",
+          "name": "Michael Pradel"
+        }
+      ]
+    },
+    {
+      "paperId": "6649dbc499d9bc1d226461c45c2e633d88331333",
+      "title": "To what extent do DNN-based image classification models make unreliable inferences?",
+      "year": 2021,
+      "citationCount": 24,
+      "authors": [
+        {
+          "authorId": "1976722537",
+          "name": "Yongqiang Tian"
+        },
+        {
+          "authorId": "2118869261",
+          "name": "Shiqing Ma"
+        },
+        {
+          "authorId": "38784613",
+          "name": "Ming Wen"
+        },
+        {
+          "authorId": "39584070",
+          "name": "Yepang Liu"
+        },
+        {
+          "authorId": "143608708",
+          "name": "S. Cheung"
+        },
+        {
+          "authorId": "1771551",
+          "name": "X. Zhang"
+        }
+      ]
+    },
+    {
+      "paperId": "db1165c918f7bc178655bbfe07cab371f5454a4b",
+      "title": "Human-in-the-Loop Fault Localisation Using Efficient Test Prioritisation of Generated Tests",
+      "year": 2021,
+      "citationCount": 4,
+      "authors": [
+        {
+          "authorId": "144712289",
+          "name": "Gabin An"
+        },
+        {
+          "authorId": "143828721",
+          "name": "S. Yoo"
+        }
+      ]
+    },
+    {
+      "paperId": "a0cd055650dc69d671b52b7f979d3f1bbfacda4b",
+      "title": "LightXML: Transformer with Dynamic Negative Sampling for High-Performance Extreme Multi-label Text Classification",
+      "year": 2021,
+      "citationCount": 128,
+      "authors": [
+        {
+          "authorId": "2114746649",
+          "name": "Ting Jiang"
+        },
+        {
+          "authorId": "1792722",
+          "name": "Deqing Wang"
+        },
+        {
+          "authorId": "1845784191",
+          "name": "Leilei Sun"
+        },
+        {
+          "authorId": "2156109301",
+          "name": "Huayi Yang"
+        },
+        {
+          "authorId": "2152619690",
+          "name": "Zhengyang Zhao"
+        },
+        {
+          "authorId": "1799525",
+          "name": "Fuzhen Zhuang"
+        }
+      ]
+    },
+    {
+      "paperId": "97e2286c2b1efa4318d740d2842ae9c241a01fe0",
+      "title": "An Elo-like System for Massive Multiplayer Competitions",
+      "year": 2021,
+      "citationCount": 3,
+      "authors": [
+        {
+          "authorId": "2044195049",
+          "name": "Aram Ebtekar"
+        },
+        {
+          "authorId": "152814561",
+          "name": "Paul Liu"
+        }
+      ]
+    },
+    {
+      "paperId": "5ecc99f0ca4a3fc88f9ef49f1aff7478327817cc",
+      "title": "SemMT: A Semantic-Based Testing Approach for Machine Translation Systems",
+      "year": 2020,
+      "citationCount": 30,
+      "authors": [
+        {
+          "authorId": "51170803",
+          "name": "Jialun Cao"
+        },
+        {
+          "authorId": "2030984767",
+          "name": "Meiziniu Li"
+        },
+        {
+          "authorId": "47001735",
+          "name": "Yeting Li"
+        },
+        {
+          "authorId": "38784613",
+          "name": "Ming Wen"
+        },
+        {
+          "authorId": "143608708",
+          "name": "S. Cheung"
+        },
+        {
+          "authorId": "2118441152",
+          "name": "Haiming Chen"
+        }
+      ]
+    },
+    {
+      "paperId": "df0c1c146d6ea0694d955dfddc6f7bc4e1ba987a",
+      "title": "BugsInPy: a database of existing bugs in Python programs to enable controlled testing and debugging studies",
+      "year": 2020,
+      "citationCount": 83,
+      "authors": [
+        {
+          "authorId": "2008294024",
+          "name": "Ratnadira Widyasari"
+        },
+        {
+          "authorId": "104176089",
+          "name": "Sheng Qin Sim"
+        },
+        {
+          "authorId": "2007922123",
+          "name": "Camellia Lok"
+        },
+        {
+          "authorId": "1505237850",
+          "name": "Haodi Qi"
+        },
+        {
+          "authorId": "115735169",
+          "name": "J. Phan"
+        },
+        {
+          "authorId": "2008285055",
+          "name": "Qijin Tay"
+        },
+        {
+          "authorId": "2007721798",
+          "name": "Constance Tan"
+        },
+        {
+          "authorId": "2008295858",
+          "name": "Fiona Wee"
+        },
+        {
+          "authorId": "2007771334",
+          "name": "Jodie Ethelda Tan"
+        },
+        {
+          "authorId": "2008291958",
+          "name": "Yuheng Yieh"
+        },
+        {
+          "authorId": "2062806707",
+          "name": "Brian K. P. Goh"
+        },
+        {
+          "authorId": "2121315",
+          "name": "Ferdian Thung"
+        },
+        {
+          "authorId": "48654378",
+          "name": "Hong Jin Kang"
+        },
+        {
+          "authorId": "9719656",
+          "name": "Thong Hoang"
+        },
+        {
+          "authorId": "143960553",
+          "name": "D. Lo"
+        },
+        {
+          "authorId": "2809806",
+          "name": "Eng Lieh Ouh"
+        }
+      ]
+    },
+    {
+      "paperId": "4578871d2b271e4b5473c9cb81d431d6bf58c607",
+      "title": "Metamorphic Testing: A New Approach for Generating Next Test Cases",
+      "year": 2020,
+      "citationCount": 490,
+      "authors": [
+        {
+          "authorId": "144587401",
+          "name": "T. Chen"
+        },
+        {
+          "authorId": "143608708",
+          "name": "S. Cheung"
+        },
+        {
+          "authorId": "145964453",
+          "name": "S. Yiu"
+        }
+      ]
+    },
+    {
+      "paperId": "92c26566bebe513ab2c59132aab68f6f4e77c791",
+      "title": "DeepFuzzer: Accelerated Deep Greybox Fuzzing",
+      "year": 2019,
+      "citationCount": 39,
+      "authors": [
+        {
+          "authorId": "2118673419",
+          "name": "Jie Liang"
+        },
+        {
+          "authorId": "152771714",
+          "name": "Yu Jiang"
+        },
+        {
+          "authorId": "2433617",
+          "name": "Mingzhe Wang"
+        },
+        {
+          "authorId": "2858184",
+          "name": "Xun Jiao"
+        },
+        {
+          "authorId": "16098741",
+          "name": "Yuanliang Chen"
+        },
+        {
+          "authorId": "29907659",
+          "name": "Houbing Song"
+        },
+        {
+          "authorId": "116022805",
+          "name": "K. Choo"
+        }
+      ]
+    },
+    {
+      "paperId": "325aecaa34bcf6e5f0e6683e526dc9946a6c1f4f",
+      "title": "Re-Factoring Based Program Repair Applied to Programming Assignments",
+      "year": 2019,
+      "citationCount": 87,
+      "authors": [
+        {
+          "authorId": "2113666979",
+          "name": "Yang Hu"
+        },
+        {
+          "authorId": "32269697",
+          "name": "Umair Z. Ahmed"
+        },
+        {
+          "authorId": "2679031",
+          "name": "Sergey Mechtaev"
+        },
+        {
+          "authorId": "2566029",
+          "name": "B. Leong"
+        },
+        {
+          "authorId": "1789700",
+          "name": "Abhik Roychoudhury"
+        }
+      ]
+    },
+    {
+      "paperId": "5744f56d3253bd7c4341d36de40a93fceaa266b3",
+      "title": "Semantics-aware BERT for Language Understanding",
+      "year": 2019,
+      "citationCount": 349,
+      "authors": [
+        {
+          "authorId": "3322871",
+          "name": "Zhuosheng Zhang"
+        },
+        {
+          "authorId": "2145022662",
+          "name": "Yuwei Wu"
+        },
+        {
+          "authorId": "36225434",
+          "name": "Zhao Hai"
+        },
+        {
+          "authorId": "30658665",
+          "name": "Z. Li"
+        },
+        {
+          "authorId": "66686199",
+          "name": "Shuailiang Zhang"
+        },
+        {
+          "authorId": "2144243659",
+          "name": "Xi Zhou"
+        },
+        {
+          "authorId": "2118828391",
+          "name": "Xiang Zhou"
+        }
+      ]
+    },
+    {
+      "paperId": "97b3b0487f9a3b60be84e8d7438fb4698c5d474e",
+      "title": "A benchmark-based evaluation of search-based crash reproduction",
+      "year": 2019,
+      "citationCount": 29,
+      "authors": [
+        {
+          "authorId": "1853891",
+          "name": "Mozhan Soltani"
+        },
+        {
+          "authorId": "51213676",
+          "name": "P. Derakhshanfar"
+        },
+        {
+          "authorId": "2212443",
+          "name": "Xavier Devroey"
+        },
+        {
+          "authorId": "10734708",
+          "name": "A. van Deursen"
+        }
+      ]
+    },
+    {
+      "paperId": "c626d5e3d73ef772b4d5934e7d4cc85b6cb22ed6",
+      "title": "Taming Pretrained Transformers for Extreme Multi-label Text Classification",
+      "year": 2019,
+      "citationCount": 228,
+      "authors": [
+        {
+          "authorId": "1702500",
+          "name": "Wei-Cheng Chang"
+        },
+        {
+          "authorId": "46185316",
+          "name": "Hsiang-Fu Yu"
+        },
+        {
+          "authorId": "144474630",
+          "name": "Kai Zhong"
+        },
+        {
+          "authorId": "46286308",
+          "name": "Yiming Yang"
+        },
+        {
+          "authorId": "1783667",
+          "name": "I. Dhillon"
+        }
+      ]
+    },
+    {
+      "paperId": "0176f0a03b1495700221059959e3c01e6c9386d9",
+      "title": "AVATAR : Fixing Semantic Bugs with Fix Patterns of Static Analysis Violations",
+      "year": 2018,
+      "citationCount": 158,
+      "authors": [
+        {
+          "authorId": "145407228",
+          "name": "Kui Liu"
+        },
+        {
+          "authorId": "31491515",
+          "name": "Anil Koyuncu"
+        },
+        {
+          "authorId": "144213448",
+          "name": "Dongsun Kim"
+        },
+        {
+          "authorId": "3023999",
+          "name": "Tégawendé F. Bissyandé"
+        }
+      ]
+    },
+    {
+      "paperId": "fcc555601887ac9f6466dde8ac8b6f2a19deff4c",
+      "title": "The Art, Science, and Engineering of Fuzzing: A Survey",
+      "year": 2018,
+      "citationCount": 403,
+      "authors": [
+        {
+          "authorId": "40807937",
+          "name": "Valentin J. M. Manès"
+        },
+        {
+          "authorId": "143935376",
+          "name": "HyungSeok Han"
+        },
+        {
+          "authorId": "145729376",
+          "name": "Choongwoo Han"
+        },
+        {
+          "authorId": "3695676",
+          "name": "S. Cha"
+        },
+        {
+          "authorId": "2489809",
+          "name": "Manuel Egele"
+        },
+        {
+          "authorId": "32804915",
+          "name": "Edward J. Schwartz"
+        },
+        {
+          "authorId": "50546246",
+          "name": "Maverick Woo"
+        }
+      ]
+    },
+    {
+      "paperId": "f40ef8361e8346829a1c2c2e63fd606a1969b677",
+      "title": "Single-objective Versus Multi-objectivized Optimization for Evolutionary Crash Reproduction",
+      "year": 2018,
+      "citationCount": 19,
+      "authors": [
+        {
+          "authorId": "1853891",
+          "name": "Mozhan Soltani"
+        },
+        {
+          "authorId": "51213676",
+          "name": "P. Derakhshanfar"
+        },
+        {
+          "authorId": "3013302",
+          "name": "Annibale Panichella"
+        },
+        {
+          "authorId": "2212443",
+          "name": "Xavier Devroey"
+        },
+        {
+          "authorId": "1702285",
+          "name": "A. Zaidman"
+        },
+        {
+          "authorId": "1737202",
+          "name": "A. Deursen"
+        }
+      ]
+    },
+    {
+      "paperId": "4f7953767d00c67c2672a973ee3fdae00feb63bf",
+      "title": "Neuro-Symbolic Program Corrector for Introductory Programming Assignments",
+      "year": 2018,
+      "citationCount": 86,
+      "authors": [
+        {
+          "authorId": "3361508",
+          "name": "Sahil Bhatia"
+        },
+        {
+          "authorId": "143967473",
+          "name": "Pushmeet Kohli"
+        },
+        {
+          "authorId": "50631599",
+          "name": "Rishabh Singh"
+        }
+      ]
+    },
+    {
+      "paperId": "7f1d443ab526240e2647e77e042434fc98249302",
+      "title": "QuixBugs: a multi-lingual program repair benchmark set based on the quixey challenge",
+      "year": 2017,
+      "citationCount": 217,
+      "authors": [
+        {
+          "authorId": "2116444056",
+          "name": "Derrick Lin"
+        },
+        {
+          "authorId": "39465522",
+          "name": "James Koppel"
+        },
+        {
+          "authorId": null,
+          "name": "Angela Chen"
+        },
+        {
+          "authorId": "1389870240",
+          "name": "Armando Solar-Lezama"
+        }
+      ]
+    },
+    {
+      "paperId": "6e5f3c4507aeb175da8712cff43cb8b2e60b5a12",
+      "title": "A feasibility study of using automated program repair for introductory programming assignments",
+      "year": 2017,
+      "citationCount": 111,
+      "authors": [
+        {
+          "authorId": "34276932",
+          "name": "Jooyong Yi"
+        },
+        {
+          "authorId": "32269697",
+          "name": "Umair Z. Ahmed"
+        },
+        {
+          "authorId": "1782446",
+          "name": "Amey Karkare"
+        },
+        {
+          "authorId": "1747226",
+          "name": "Shin Hwei Tan"
+        },
+        {
+          "authorId": "1789700",
+          "name": "Abhik Roychoudhury"
+        }
+      ]
+    },
+    {
+      "paperId": "1a6065f26e0b3407c0063ed76b847f9c3895275c",
+      "title": "A Survey of Symbolic Execution Techniques",
+      "year": 2016,
+      "citationCount": 619,
+      "authors": [
+        {
+          "authorId": "1696934",
+          "name": "R. Baldoni"
+        },
+        {
+          "authorId": "3063234",
+          "name": "Emilio Coppa"
+        },
+        {
+          "authorId": "1388664109",
+          "name": "Daniele Cono D'Elia"
+        },
+        {
+          "authorId": "1739303",
+          "name": "C. Demetrescu"
+        },
+        {
+          "authorId": "1680706",
+          "name": "Irene Finocchi"
+        }
+      ]
+    },
+    {
+      "paperId": "59aae60c09f779c8581a5f23711e6b0310198424",
+      "title": "A Survey on Metamorphic Testing",
+      "year": 2016,
+      "citationCount": 414,
+      "authors": [
+        {
+          "authorId": "145135083",
+          "name": "Sergio Segura"
+        },
+        {
+          "authorId": "145507591",
+          "name": "G. Fraser"
+        },
+        {
+          "authorId": "2109841892",
+          "name": "A. B. Sánchez"
+        },
+        {
+          "authorId": "38103741",
+          "name": "Antonio Ruiz-Cortés"
+        }
+      ]
+    },
+    {
+      "paperId": "42587c6ee573aec4954c87ff06eda27b45aa633b",
+      "title": "Coverage-directed differential testing of JVM implementations",
+      "year": 2016,
+      "citationCount": 163,
+      "authors": [
+        {
+          "authorId": "101612282",
+          "name": "Yuting Chen"
+        },
+        {
+          "authorId": "144121517",
+          "name": "Ting Su"
+        },
+        {
+          "authorId": "34751114",
+          "name": "Chengnian Sun"
+        },
+        {
+          "authorId": "38319925",
+          "name": "Z. Su"
+        },
+        {
+          "authorId": "145777691",
+          "name": "Jianjun Zhao"
+        }
+      ]
+    },
+    {
+      "paperId": "e3d93c39d9cef46de063514f2d982aebc8bf6967",
+      "title": "Does Automated Unit Test Generation Really Help Software Testers? A Controlled Empirical Study",
+      "year": 2015,
+      "citationCount": 93,
+      "authors": [
+        {
+          "authorId": "145507591",
+          "name": "G. Fraser"
+        },
+        {
+          "authorId": "2667519",
+          "name": "Matthew Staats"
+        },
+        {
+          "authorId": "3033824",
+          "name": "Phil McMinn"
+        },
+        {
+          "authorId": "1803468",
+          "name": "Andrea Arcuri"
+        },
+        {
+          "authorId": "2059481314",
+          "name": "F. Padberg"
+        }
+      ]
+    },
+    {
+      "paperId": "4f76a3584bb09718fbc7d141b0e87ea4bc9f646e",
+      "title": "Bug characteristics in open source software",
+      "year": 2013,
+      "citationCount": 221,
+      "authors": [
+        {
+          "authorId": "144938015",
+          "name": "Lin Tan"
+        },
+        {
+          "authorId": "2108119351",
+          "name": "Chen Liu"
+        },
+        {
+          "authorId": "2002604",
+          "name": "Zhenmin Li"
+        },
+        {
+          "authorId": "1526973500",
+          "name": "Xuanhui Wang"
+        },
+        {
+          "authorId": "145850061",
+          "name": "Yuanyuan Zhou"
+        },
+        {
+          "authorId": "1736467",
+          "name": "ChengXiang Zhai"
+        }
+      ]
+    },
+    {
+      "paperId": "824d60d14d2fc3bbea1ed76adebc4291fc41c1de",
+      "title": "BugRedux: Reproducing field failures for in-house debugging",
+      "year": 2012,
+      "citationCount": 215,
+      "authors": [
+        {
+          "authorId": "2112343304",
+          "name": "Wei Jin"
+        },
+        {
+          "authorId": "8172306",
+          "name": "A. Orso"
+        }
+      ]
+    },
+    {
+      "paperId": "216b98bb3d9221d5f5d261864975612e4d0faaa6",
+      "title": "EvoSuite: automatic test suite generation for object-oriented software",
+      "year": 2011,
+      "citationCount": 1012,
+      "authors": [
+        {
+          "authorId": "145507591",
+          "name": "G. Fraser"
+        },
+        {
+          "authorId": "1803468",
+          "name": "Andrea Arcuri"
+        }
+      ]
+    },
+    {
+      "paperId": "59fb4e9bd0e83ccb5d380cb3a1451d8844fc7681",
+      "title": "Automatically finding patches using genetic programming",
+      "year": 2009,
+      "citationCount": 680,
+      "authors": [
+        {
+          "authorId": "47211092",
+          "name": "Westley Weimer"
+        },
+        {
+          "authorId": "1810147",
+          "name": "Thanhvu Nguyen"
+        },
+        {
+          "authorId": "2957803",
+          "name": "Claire Le Goues"
+        },
+        {
+          "authorId": "30123380",
+          "name": "S. Forrest"
+        }
+      ]
+    },
+    {
+      "paperId": "f0ec054721d2fd9839155b1ac8ba9d6fb19f0710",
+      "title": "Differential testing: a new approach to change detection",
+      "year": 2007,
+      "citationCount": 84,
+      "authors": [
+        {
+          "authorId": "2115604345",
+          "name": "R. Evans"
+        },
+        {
+          "authorId": "35133622",
+          "name": "A. Savoia"
+        }
+      ]
+    },
+    {
+      "paperId": "42a7fcf118e133c64f298d9b234e45009a3800cb",
+      "title": "Qualitative Inquiry and Research Design: Choosing Among Five Approaches",
+      "year": 2006,
+      "citationCount": 8198,
+      "authors": [
+        {
+          "authorId": "3729740",
+          "name": "J. Creswell"
+        }
+      ]
+    },
+    {
+      "paperId": "2fefd8f78d2ab3dcf1150216325ae6cb851982b5",
+      "title": "A study of the difficulties of novice programmers",
+      "year": 2005,
+      "citationCount": 988,
+      "authors": [
+        {
+          "authorId": "1958168",
+          "name": "E. Lahtinen"
+        },
+        {
+          "authorId": "1402111391",
+          "name": "Kirsti Ala-Mutka"
+        },
+        {
+          "authorId": "2694394",
+          "name": "Hannu-Matti Järvinen"
+        }
+      ]
+    },
+    {
+      "paperId": "8d912092389975547556f060b61f524be5e63891",
+      "title": "Lowering the barriers to programming: A taxonomy of programming environments and languages for novice programmers",
+      "year": 2005,
+      "citationCount": 962,
+      "authors": [
+        {
+          "authorId": "1697179",
+          "name": "Caitlin L. Kelleher"
+        },
+        {
+          "authorId": "1717974",
+          "name": "R. Pausch"
+        }
+      ]
+    },
+    {
+      "paperId": "7e7343a5608fff1c68c5259db0c77b9193f1546d",
+      "title": "The measurement of observer agreement for categorical data.",
+      "year": 1977,
+      "citationCount": 70663,
+      "authors": [
+        {
+          "authorId": "145312626",
+          "name": "J. Landis"
+        },
+        {
+          "authorId": "31839425",
+          "name": "G. Koch"
+        }
+      ]
+    },
+    {
+      "paperId": "9c00fd1e5c058c29608f7b1b71d0ebcf50a4ecf7",
+      "title": "Prompting Is All Your Need: Automated Android Bug Replay with Large Language Models",
+      "year": 2023,
+      "citationCount": 25,
+      "authors": [
+        {
+          "authorId": "1406333777",
+          "name": "Sidong Feng"
+        },
+        {
+          "authorId": "46729152",
+          "name": "Chunyang Chen"
+        }
+      ]
+    },
+    {
+      "paperId": "80b8d03f910bb252cb251f7f74ceaaf8f4c4aabe",
+      "title": "Adaptive Test Generation Using a Large Language Model",
+      "year": 2023,
+      "citationCount": 55,
+      "authors": [
+        {
+          "authorId": "2257193192",
+          "name": "Max Schäfer"
+        },
+        {
+          "authorId": "2317114000",
+          "name": "Sarah Nadi"
+        },
+        {
+          "authorId": "46235560",
+          "name": "A. Eghbali"
+        },
+        {
+          "authorId": "2257181137",
+          "name": "Frank Tip"
+        }
+      ]
+    },
+    {
+      "paperId": "f031ba42cf82f106200bb03fbb91dd5671a59b9c",
+      "title": "Practical Program Repair in the Era of Large Pre-trained Language Models",
+      "year": 2022,
+      "citationCount": 53,
+      "authors": [
+        {
+          "authorId": "145349987",
+          "name": "Chun Xia"
+        },
+        {
+          "authorId": null,
+          "name": "Yuxiang Wei"
+        },
+        {
+          "authorId": "2145398332",
+          "name": "Lingming Zhang"
+        }
+      ]
+    },
+    {
+      "paperId": "5ff9032d0f7f246d01ae7b2c231ab03469a7344a",
+      "title": "Can OpenAI Codex and Other Large Language Models Help Us Fix Security Bugs?",
+      "year": 2021,
+      "citationCount": 50,
+      "authors": [
+        {
+          "authorId": "3437933",
+          "name": "H. Pearce"
+        },
+        {
+          "authorId": "143645422",
+          "name": "Benjamin Tan"
+        },
+        {
+          "authorId": "2124891963",
+          "name": "Baleegh Ahmad"
+        },
+        {
+          "authorId": "1707355",
+          "name": "R. Karri"
+        },
+        {
+          "authorId": "1398683279",
+          "name": "Brendan Dolan-Gavitt"
+        }
+      ]
+    },
+    {
+      "paperId": "6762f59605945c251aeb926eb4275a230d5cdb33",
+      "title": "AVATAR: Fixing Semantic Bugs with Fix Patterns of Static Analysis Violations",
+      "year": 2019,
+      "citationCount": 42,
+      "authors": [
+        {
+          "authorId": "145407228",
+          "name": "Kui Liu"
+        },
+        {
+          "authorId": "31491515",
+          "name": "Anil Koyuncu"
+        },
+        {
+          "authorId": "144213448",
+          "name": "Dongsun Kim"
+        },
+        {
+          "authorId": "3023999",
+          "name": "Tégawendé F. Bissyandé"
+        }
+      ]
+    },
+    {
+      "paperId": "fc881e8d0432ea8e4dd5fda4979243cac5e4b9e3",
+      "title": "Differential Testing for Software",
+      "year": 1998,
+      "citationCount": 545,
+      "authors": [
+        {
+          "authorId": "2630944",
+          "name": "W. M. McKeeman"
+        }
+      ]
+    },
+    {
+      "paperId": null,
+      "title": "“Codeforces,”",
+      "year": null,
+      "citationCount": null,
+      "authors": []
+    },
+    {
+      "paperId": null,
+      "title": "“How to interpret contest ratings,”",
+      "year": null,
+      "citationCount": null,
+      "authors": []
+    },
+    {
+      "paperId": null,
+      "title": "“Chatgpt: Optimizing language models for dialogue,”",
+      "year": null,
+      "citationCount": null,
+      "authors": []
+    },
+    {
+      "paperId": null,
+      "title": "applicable license agreement with IEEE. Restrictions apply",
+      "year": null,
+      "citationCount": null,
+      "authors": []
+    }
+  ]
+}

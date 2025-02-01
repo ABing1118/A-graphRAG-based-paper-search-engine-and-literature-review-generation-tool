@@ -1,0 +1,4011 @@
+{
+  "citations": [
+    {
+      "paperId": "da41c202651d0e5f073e5af39653eb3d1fc9bcbe",
+      "title": "Tackling the Dynamicity in a Production LLM Serving System with SOTA Optimizations via Hybrid Prefill/Decode/Verify Scheduling on Efficient Meta-kernels",
+      "year": 2024,
+      "citationCount": 0,
+      "authors": [
+        {
+          "authorId": "2337210535",
+          "name": "Mingcong Song"
+        },
+        {
+          "authorId": "2290454164",
+          "name": "Xinru Tang"
+        },
+        {
+          "authorId": "2336952676",
+          "name": "Fengfan Hou"
+        },
+        {
+          "authorId": "2337081150",
+          "name": "Jing Li"
+        },
+        {
+          "authorId": "2337537590",
+          "name": "Wei Wei"
+        },
+        {
+          "authorId": "2337039338",
+          "name": "Yipeng Ma"
+        },
+        {
+          "authorId": "2336953442",
+          "name": "Runqiu Xiao"
+        },
+        {
+          "authorId": "2336952016",
+          "name": "Hongjie Si"
+        },
+        {
+          "authorId": "2337567053",
+          "name": "Dingcheng Jiang"
+        },
+        {
+          "authorId": "2217538276",
+          "name": "Shouyi Yin"
+        },
+        {
+          "authorId": "2337488819",
+          "name": "Yang Hu"
+        },
+        {
+          "authorId": "2336952857",
+          "name": "Guoping Long"
+        }
+      ]
+    },
+    {
+      "paperId": "d406b606c7d0c4d8ab26d351296b7e840c7440f0",
+      "title": "Parallelized Autoregressive Visual Generation",
+      "year": 2024,
+      "citationCount": 0,
+      "authors": [
+        {
+          "authorId": "2324213330",
+          "name": "Yuqing Wang"
+        },
+        {
+          "authorId": "2337853588",
+          "name": "Shuhuai Ren"
+        },
+        {
+          "authorId": "2266462787",
+          "name": "Zhijie Lin"
+        },
+        {
+          "authorId": "2297887026",
+          "name": "Yujin Han"
+        },
+        {
+          "authorId": "2336245957",
+          "name": "Haoyuan Guo"
+        },
+        {
+          "authorId": "2336334736",
+          "name": "Zhenheng Yang"
+        },
+        {
+          "authorId": "2297772501",
+          "name": "Difan Zou"
+        },
+        {
+          "authorId": "2256994948",
+          "name": "Jiashi Feng"
+        },
+        {
+          "authorId": "2324060196",
+          "name": "Xihui Liu"
+        }
+      ]
+    },
+    {
+      "paperId": "62c35559859ad9bd0a14891a2901f4f47d50ccaf",
+      "title": "Falcon: Faster and Parallel Inference of Large Language Models through Enhanced Semi-Autoregressive Drafting and Custom-Designed Decoding Tree",
+      "year": 2024,
+      "citationCount": 0,
+      "authors": [
+        {
+          "authorId": "2335696123",
+          "name": "Xiangxiang Gao"
+        },
+        {
+          "authorId": "2336241330",
+          "name": "Weisheng Xie"
+        },
+        {
+          "authorId": "2336523002",
+          "name": "Yiwei Xiang"
+        },
+        {
+          "authorId": "2335666624",
+          "name": "Feng Ji"
+        }
+      ]
+    },
+    {
+      "paperId": "f75d73f96f724bd0ec477c8d0836b6eaf3ffd93d",
+      "title": "PLD+: Accelerating LLM inference by leveraging Language Model Artifacts",
+      "year": 2024,
+      "citationCount": 0,
+      "authors": [
+        {
+          "authorId": "2267725867",
+          "name": "Shwetha Somasundaram"
+        },
+        {
+          "authorId": "2292592840",
+          "name": "Anirudh Phukan"
+        },
+        {
+          "authorId": "46961776",
+          "name": "Apoorv Saxena"
+        }
+      ]
+    },
+    {
+      "paperId": "565582bcf30a55ceafa453e94da26d528eb1fc20",
+      "title": "VLsI: Verbalized Layers-to-Interactions from Large to Small Vision Language Models",
+      "year": 2024,
+      "citationCount": 0,
+      "authors": [
+        {
+          "authorId": "2152440079",
+          "name": "Byung-Kwan Lee"
+        },
+        {
+          "authorId": "2307471477",
+          "name": "Ryo Hachiuma"
+        },
+        {
+          "authorId": "2333378657",
+          "name": "Yu-Chiang Frank Wang"
+        },
+        {
+          "authorId": "2073193069",
+          "name": "Yonghyun Ro"
+        },
+        {
+          "authorId": "2333795724",
+          "name": "Yueh-Hua Wu"
+        }
+      ]
+    },
+    {
+      "paperId": "3230ed476488a459d27efc22e8cc5eb4d0298c4f",
+      "title": "Speculative Decoding with CTC-based Draft Model for LLM Inference Acceleration",
+      "year": 2024,
+      "citationCount": 0,
+      "authors": [
+        {
+          "authorId": "2334321188",
+          "name": "Zhuofan Wen"
+        },
+        {
+          "authorId": "2211433994",
+          "name": "Shangtong Gui"
+        },
+        {
+          "authorId": "2333415601",
+          "name": "Yang Feng"
+        }
+      ]
+    },
+    {
+      "paperId": "a411079fd5331f0eb2a1278c1a2cc6d2ec77cb07",
+      "title": "Closer Look at Efficient Inference Methods: A Survey of Speculative Decoding",
+      "year": 2024,
+      "citationCount": 0,
+      "authors": [
+        {
+          "authorId": "2331510272",
+          "name": "Hyun Ryu"
+        },
+        {
+          "authorId": "2331577022",
+          "name": "Eric Kim"
+        }
+      ]
+    },
+    {
+      "paperId": "5899b6d60bfa3f35d7306a194f6879b8438fdd14",
+      "title": "SAM Decoding: Speculative Decoding via Suffix Automaton",
+      "year": 2024,
+      "citationCount": 0,
+      "authors": [
+        {
+          "authorId": "2236902930",
+          "name": "Yuxuan Hu"
+        },
+        {
+          "authorId": "2328620437",
+          "name": "Ke Wang"
+        },
+        {
+          "authorId": "2108046717",
+          "name": "Xiaokang Zhang"
+        },
+        {
+          "authorId": "2333313644",
+          "name": "Fanjin Zhang"
+        },
+        {
+          "authorId": "2287979930",
+          "name": "Cuiping Li"
+        },
+        {
+          "authorId": "2273086226",
+          "name": "Hong Chen"
+        },
+        {
+          "authorId": "2155700347",
+          "name": "Jing Zhang"
+        }
+      ]
+    },
+    {
+      "paperId": "e7be26cedfbbcb68bff4d44bc9c66b74ace8205b",
+      "title": "SpecHub: Provable Acceleration to Multi-Draft Speculative Decoding",
+      "year": 2024,
+      "citationCount": 0,
+      "authors": [
+        {
+          "authorId": "2330234330",
+          "name": "Ryan Sun"
+        },
+        {
+          "authorId": "2309119920",
+          "name": "Tianyi Zhou"
+        },
+        {
+          "authorId": "2257123882",
+          "name": "Xun Chen"
+        },
+        {
+          "authorId": "2326320910",
+          "name": "Lichao Sun"
+        }
+      ]
+    },
+    {
+      "paperId": "a58cf38e7d57da6fda25422ecd1005c26613b566",
+      "title": "The N-Grammys: Accelerating Autoregressive Inference with Learning-Free Batched Speculation",
+      "year": 2024,
+      "citationCount": 0,
+      "authors": [
+        {
+          "authorId": "2329368718",
+          "name": "Lawrence Stewart"
+        },
+        {
+          "authorId": "2262443898",
+          "name": "Matthew Trager"
+        },
+        {
+          "authorId": "1913939",
+          "name": "Sujan Kumar Gonugondla"
+        },
+        {
+          "authorId": "2075295257",
+          "name": "S. Soatto"
+        }
+      ]
+    },
+    {
+      "paperId": "9bc8b9432ee37405b83a3c0d17ff2c58b5f20a86",
+      "title": "Accelerated AI Inference via Dynamic Execution Methods",
+      "year": 2024,
+      "citationCount": 0,
+      "authors": [
+        {
+          "authorId": "2265754363",
+          "name": "Haim Barad"
+        },
+        {
+          "authorId": "108064006",
+          "name": "Jascha Achterberg"
+        },
+        {
+          "authorId": "2329102855",
+          "name": "Tien Pei Chou"
+        },
+        {
+          "authorId": "2314887036",
+          "name": "Jean Yu"
+        }
+      ]
+    },
+    {
+      "paperId": "6f0548d04b6029f048dd048c3311eefa0f238fa2",
+      "title": "Meta-Learning for Speeding Up Large Model Inference in Decentralized Environments",
+      "year": 2024,
+      "citationCount": 0,
+      "authors": [
+        {
+          "authorId": "2328109014",
+          "name": "Yuzhe Yang"
+        },
+        {
+          "authorId": "2328114486",
+          "name": "Yipeng Du"
+        },
+        {
+          "authorId": "2313633863",
+          "name": "Ahmad Farhan"
+        },
+        {
+          "authorId": "2313632915",
+          "name": "Claudio Angione"
+        },
+        {
+          "authorId": "2313697707",
+          "name": "Yue Zhao"
+        },
+        {
+          "authorId": "2313697874",
+          "name": "Harry Yang"
+        },
+        {
+          "authorId": "2313630102",
+          "name": "Fielding Johnston"
+        },
+        {
+          "authorId": "2313633865",
+          "name": "James Buban"
+        },
+        {
+          "authorId": "2313632120",
+          "name": "Patrick Colangelo"
+        }
+      ]
+    },
+    {
+      "paperId": "0d19cb8a04601929be86ab7d64f21ced130557ff",
+      "title": "Inevitable Trade-off between Watermark Strength and Speculative Sampling Efficiency for Language Models",
+      "year": 2024,
+      "citationCount": 0,
+      "authors": [
+        {
+          "authorId": "2048028814",
+          "name": "Zhengmian Hu"
+        },
+        {
+          "authorId": "2254900739",
+          "name": "Heng Huang"
+        }
+      ]
+    },
+    {
+      "paperId": "69d995c14c46eeda5c3761b5cb4e094816052926",
+      "title": "AMUSD: Asynchronous Multi-Device Speculative Decoding for LLM Acceleration",
+      "year": 2024,
+      "citationCount": 0,
+      "authors": [
+        {
+          "authorId": "2327214016",
+          "name": "Bradley McDanel"
+        }
+      ]
+    },
+    {
+      "paperId": "f85fc0043ae7cc0fb5247e2c734e34acd00f7c9b",
+      "title": "GenEOL: Harnessing the Generative Power of LLMs for Training-Free Sentence Embeddings",
+      "year": 2024,
+      "citationCount": 1,
+      "authors": [
+        {
+          "authorId": "2283771339",
+          "name": "Raghuveer Thirukovalluru"
+        },
+        {
+          "authorId": "2060730422",
+          "name": "Bhuwan Dhingra"
+        }
+      ]
+    },
+    {
+      "paperId": "366f31f00df26f704a58005a1fab5d561dd8861b",
+      "title": "Cerberus: Efficient Inference with Adaptive Parallel Decoding and Sequential Knowledge Enhancement",
+      "year": 2024,
+      "citationCount": 0,
+      "authors": [
+        {
+          "authorId": "2326329020",
+          "name": "Yuxuan Liu"
+        },
+        {
+          "authorId": "2326448311",
+          "name": "Wenyuan Li"
+        },
+        {
+          "authorId": "2327295430",
+          "name": "Laizhong Cui"
+        },
+        {
+          "authorId": "2326409338",
+          "name": "Hailiang Yang"
+        }
+      ]
+    },
+    {
+      "paperId": "139aea58a13e615a7e466fe0c74273804372b746",
+      "title": "QSpec: Speculative Decoding with Complementary Quantization Schemes",
+      "year": 2024,
+      "citationCount": 0,
+      "authors": [
+        {
+          "authorId": "2267202462",
+          "name": "Juntao Zhao"
+        },
+        {
+          "authorId": "2326244071",
+          "name": "Wenhao Lu"
+        },
+        {
+          "authorId": "2217918143",
+          "name": "Sheng Wang"
+        },
+        {
+          "authorId": "2289639902",
+          "name": "Lingpeng Kong"
+        },
+        {
+          "authorId": "2284032895",
+          "name": "Chuan Wu"
+        }
+      ]
+    },
+    {
+      "paperId": "ef2ebc205bf8d7c4cea73ff8774689f65d426e71",
+      "title": "Temperature-Centric Investigation of Speculative Decoding with Knowledge Distillation",
+      "year": 2024,
+      "citationCount": 1,
+      "authors": [
+        {
+          "authorId": "2260339714",
+          "name": "Siru Ouyang"
+        },
+        {
+          "authorId": "2287785375",
+          "name": "Shuohang Wang"
+        },
+        {
+          "authorId": "2800541",
+          "name": "Minhao Jiang"
+        },
+        {
+          "authorId": "2316709408",
+          "name": "Ming Zhong"
+        },
+        {
+          "authorId": "2325114587",
+          "name": "Dong Yu"
+        },
+        {
+          "authorId": "2259869648",
+          "name": "Jiawei Han"
+        },
+        {
+          "authorId": "2324671790",
+          "name": "Yelong Shen"
+        }
+      ]
+    },
+    {
+      "paperId": "96f9ed594ab9848591d71d5d7bb7d2b15f95aca4",
+      "title": "Root Defence Strategies: Ensuring Safety of LLM at the Decoding Level",
+      "year": 2024,
+      "citationCount": 0,
+      "authors": [
+        {
+          "authorId": "2280808405",
+          "name": "Xinyi Zeng"
+        },
+        {
+          "authorId": "2325021106",
+          "name": "Yuying Shang"
+        },
+        {
+          "authorId": "2324991466",
+          "name": "Yutao Zhu"
+        },
+        {
+          "authorId": "2325091068",
+          "name": "Jiawei Chen"
+        },
+        {
+          "authorId": "2325238065",
+          "name": "Yu Tian"
+        }
+      ]
+    },
+    {
+      "paperId": "2d06b3601b4841a464929558d1d25b0db385f91f",
+      "title": "ParallelSpec: Parallel Drafter for Efficient Speculative Decoding",
+      "year": 2024,
+      "citationCount": 1,
+      "authors": [
+        {
+          "authorId": "2287647077",
+          "name": "Zi-Qiang Xiao"
+        },
+        {
+          "authorId": "2254831297",
+          "name": "Hongming Zhang"
+        },
+        {
+          "authorId": "2325002094",
+          "name": "Tao Ge"
+        },
+        {
+          "authorId": "2323779521",
+          "name": "Siru Ouyang"
+        },
+        {
+          "authorId": "2325005707",
+          "name": "Vicente Ordonez"
+        },
+        {
+          "authorId": "2325114587",
+          "name": "Dong Yu"
+        }
+      ]
+    },
+    {
+      "paperId": "79172e64a8b7abb8523b0fcf44802b9e1142aede",
+      "title": "Efficient Inference for Large Language Model-based Generative Recommendation",
+      "year": 2024,
+      "citationCount": 0,
+      "authors": [
+        {
+          "authorId": "2192203811",
+          "name": "Xinyu Lin"
+        },
+        {
+          "authorId": "2324959545",
+          "name": "Chaoqun Yang"
+        },
+        {
+          "authorId": "2117833732",
+          "name": "Wenjie Wang"
+        },
+        {
+          "authorId": "2257099189",
+          "name": "Yongqi Li"
+        },
+        {
+          "authorId": "2324793557",
+          "name": "Cunxiao Du"
+        },
+        {
+          "authorId": "2280911299",
+          "name": "Fuli Feng"
+        },
+        {
+          "authorId": "2241348826",
+          "name": "See-Kiong Ng"
+        },
+        {
+          "authorId": "2279753672",
+          "name": "Tat-Seng Chua"
+        }
+      ]
+    },
+    {
+      "paperId": "47e1206e92dab07cd1b933349633d8911ac16cf1",
+      "title": "Large Language Model Inference Acceleration: A Comprehensive Hardware Perspective",
+      "year": 2024,
+      "citationCount": 3,
+      "authors": [
+        {
+          "authorId": "2268546324",
+          "name": "Jinhao Li"
+        },
+        {
+          "authorId": "2264991200",
+          "name": "Jiaming Xu"
+        },
+        {
+          "authorId": "2268727886",
+          "name": "Shan Huang"
+        },
+        {
+          "authorId": "2324935283",
+          "name": "Yonghua Chen"
+        },
+        {
+          "authorId": "2325072098",
+          "name": "Wen Li"
+        },
+        {
+          "authorId": "2264141921",
+          "name": "Jun Liu"
+        },
+        {
+          "authorId": "2309167144",
+          "name": "Yaoxiu Lian"
+        },
+        {
+          "authorId": "2325193950",
+          "name": "Jiayi Pan"
+        },
+        {
+          "authorId": "2322361427",
+          "name": "Li Ding"
+        },
+        {
+          "authorId": "2324898254",
+          "name": "Hao Zhou"
+        },
+        {
+          "authorId": "2241604835",
+          "name": "Yu Wang"
+        },
+        {
+          "authorId": "2277327801",
+          "name": "Guohao Dai"
+        }
+      ]
+    },
+    {
+      "paperId": "b41ae48f3389d7aa1f7ef39b823ea587b3232c50",
+      "title": "LANTERN: Accelerating Visual Autoregressive Models with Relaxed Speculative Decoding",
+      "year": 2024,
+      "citationCount": 3,
+      "authors": [
+        {
+          "authorId": "2284765585",
+          "name": "Doohyuk Jang"
+        },
+        {
+          "authorId": "2324683876",
+          "name": "Sihwan Park"
+        },
+        {
+          "authorId": "2004057395",
+          "name": "J. Yang"
+        },
+        {
+          "authorId": "117078549",
+          "name": "Yeonsung Jung"
+        },
+        {
+          "authorId": "80332204",
+          "name": "Jihun Yun"
+        },
+        {
+          "authorId": "2324487615",
+          "name": "Souvik Kundu"
+        },
+        {
+          "authorId": "2324641049",
+          "name": "Sung-Yub Kim"
+        },
+        {
+          "authorId": "2284765685",
+          "name": "Eunho Yang"
+        }
+      ]
+    },
+    {
+      "paperId": "56ff54c5fe085b68bf533fd1322fcf1431af18c8",
+      "title": "Mixture of Attentions For Speculative Decoding",
+      "year": 2024,
+      "citationCount": 0,
+      "authors": [
+        {
+          "authorId": "2261085243",
+          "name": "Matthieu Zimmer"
+        },
+        {
+          "authorId": "22168669",
+          "name": "Milan Gritta"
+        },
+        {
+          "authorId": "2346538",
+          "name": "Gerasimos Lampouras"
+        },
+        {
+          "authorId": "1398842047",
+          "name": "Haitham Bou-Ammar"
+        },
+        {
+          "authorId": "2276409857",
+          "name": "Jun Wang"
+        }
+      ]
+    },
+    {
+      "paperId": "5370aa35ab6fc216284402435af6fc7940ec9677",
+      "title": "Accelerating Auto-regressive Text-to-Image Generation with Training-free Speculative Jacobi Decoding",
+      "year": 2024,
+      "citationCount": 3,
+      "authors": [
+        {
+          "authorId": "2269736084",
+          "name": "Yao Teng"
+        },
+        {
+          "authorId": "2285182555",
+          "name": "Han Shi"
+        },
+        {
+          "authorId": "2335514594",
+          "name": "Xian Liu"
+        },
+        {
+          "authorId": "6636914",
+          "name": "Xuefei Ning"
+        },
+        {
+          "authorId": "144290348",
+          "name": "Guohao Dai"
+        },
+        {
+          "authorId": "2283814845",
+          "name": "Yu Wang"
+        },
+        {
+          "authorId": "2302853377",
+          "name": "Zhenguo Li"
+        },
+        {
+          "authorId": "2269789129",
+          "name": "Xihui Liu"
+        }
+      ]
+    },
+    {
+      "paperId": "d7fed7523ec2eb5aaeda51e5608b21e8ffc31549",
+      "title": "Approximately Aligned Decoding",
+      "year": 2024,
+      "citationCount": 0,
+      "authors": [
+        {
+          "authorId": "2287921227",
+          "name": "Daniel Melcer"
+        },
+        {
+          "authorId": "1913939",
+          "name": "Sujan Kumar Gonugondla"
+        },
+        {
+          "authorId": "15206897",
+          "name": "Pramuditha Perera"
+        },
+        {
+          "authorId": "2287922898",
+          "name": "Haifeng Qian"
+        },
+        {
+          "authorId": "2323783450",
+          "name": "Wen-Hao Chiang"
+        },
+        {
+          "authorId": "2323812007",
+          "name": "Yanjun Wang"
+        },
+        {
+          "authorId": "2258956994",
+          "name": "Nihal Jain"
+        },
+        {
+          "authorId": "1802463",
+          "name": "P. Garg"
+        },
+        {
+          "authorId": "2282270342",
+          "name": "Xiaofei Ma"
+        },
+        {
+          "authorId": "1713801",
+          "name": "Anoop Deoras"
+        }
+      ]
+    },
+    {
+      "paperId": "5a16ec8d214b8b7156222c84c6272292d0840f8d",
+      "title": "Improving Multi-candidate Speculative Decoding",
+      "year": 2024,
+      "citationCount": 0,
+      "authors": [
+        {
+          "authorId": "2321487721",
+          "name": "Xiaofan Lu"
+        },
+        {
+          "authorId": "2321514394",
+          "name": "Yixiao Zeng"
+        },
+        {
+          "authorId": "2321490868",
+          "name": "Feiyang Ma"
+        },
+        {
+          "authorId": "2321654839",
+          "name": "Zixu Yu"
+        },
+        {
+          "authorId": "2257052512",
+          "name": "Marco Levorato"
+        }
+      ]
+    },
+    {
+      "paperId": "88a8d366eaf6a63829ad1f4ca1a9ce161427ef83",
+      "title": "Dynamic Depth Decoding: Faster Speculative Decoding for LLMs",
+      "year": 2024,
+      "citationCount": 0,
+      "authors": [
+        {
+          "authorId": "2243015832",
+          "name": "Oscar Brown"
+        },
+        {
+          "authorId": "2243913447",
+          "name": "Zhengjie Wang"
+        },
+        {
+          "authorId": "2242913697",
+          "name": "Andrea Do"
+        },
+        {
+          "authorId": "2243229156",
+          "name": "Nikhil Mathew"
+        },
+        {
+          "authorId": "2243375310",
+          "name": "Cheng Yu"
+        }
+      ]
+    },
+    {
+      "paperId": "81039ad704a0c23059677d0bbf097b9bc90326ba",
+      "title": "Learning Harmonized Representations for Speculative Sampling",
+      "year": 2024,
+      "citationCount": 1,
+      "authors": [
+        {
+          "authorId": "2317135334",
+          "name": "Lefan Zhang"
+        },
+        {
+          "authorId": "2317140399",
+          "name": "Xiaodan Wang"
+        },
+        {
+          "authorId": "2292485947",
+          "name": "Yanhua Huang"
+        },
+        {
+          "authorId": "2292215243",
+          "name": "Ruiwen Xu"
+        }
+      ]
+    },
+    {
+      "paperId": "348717b6a112b2b5ab8f994f27d2b553b0a065d4",
+      "title": "Turning Trash into Treasure: Accelerating Inference of Large Language Models with Token Recycling",
+      "year": 2024,
+      "citationCount": 1,
+      "authors": [
+        {
+          "authorId": "2284814458",
+          "name": "Xianzhen Luo"
+        },
+        {
+          "authorId": "2108734952",
+          "name": "Yixuan Wang"
+        },
+        {
+          "authorId": "2283927956",
+          "name": "Qingfu Zhu"
+        },
+        {
+          "authorId": "2284640021",
+          "name": "Zhiming Zhang"
+        },
+        {
+          "authorId": "4874730",
+          "name": "Xuanyu Zhang"
+        },
+        {
+          "authorId": "2284640184",
+          "name": "Qing Yang"
+        },
+        {
+          "authorId": "2284642281",
+          "name": "Dongliang Xu"
+        },
+        {
+          "authorId": "2283920108",
+          "name": "Wanxiang Che"
+        }
+      ]
+    },
+    {
+      "paperId": "1fb76e69ee4180204f9480853abc8c7bc5d4ddcf",
+      "title": "Context-Aware Assistant Selection for Improved Inference Acceleration with Large Language Models",
+      "year": 2024,
+      "citationCount": 1,
+      "authors": [
+        {
+          "authorId": "2223971135",
+          "name": "Jerry Huang"
+        },
+        {
+          "authorId": "32899078",
+          "name": "Prasanna Parthasarathi"
+        },
+        {
+          "authorId": "2066076226",
+          "name": "Mehdi Rezagholizadeh"
+        },
+        {
+          "authorId": "123607932",
+          "name": "Sarath Chandar"
+        }
+      ]
+    },
+    {
+      "paperId": "5576dc1f0d2be4e7d88c3c54abf19ddad1b9ef93",
+      "title": "KOALA: Enhancing Speculative Decoding for LLM via Multi-Layer Draft Heads with Adversarial Learning",
+      "year": 2024,
+      "citationCount": 0,
+      "authors": [
+        {
+          "authorId": "2316299843",
+          "name": "Kaiqi Zhang"
+        },
+        {
+          "authorId": "2297166274",
+          "name": "Jing Zhao"
+        },
+        {
+          "authorId": "2297475223",
+          "name": "Rui Chen"
+        }
+      ]
+    },
+    {
+      "paperId": "941c29bd7a655418b2c825ef079a1987cce9946b",
+      "title": "A Decoding Acceleration Framework for Industrial Deployable LLM-based Recommender Systems",
+      "year": 2024,
+      "citationCount": 2,
+      "authors": [
+        {
+          "authorId": "2056826850",
+          "name": "Yunjia Xi"
+        },
+        {
+          "authorId": "2283141638",
+          "name": "Hangyu Wang"
+        },
+        {
+          "authorId": "2258709565",
+          "name": "Bo Chen"
+        },
+        {
+          "authorId": "2144908858",
+          "name": "Jianghao Lin"
+        },
+        {
+          "authorId": "2238203237",
+          "name": "Menghui Zhu"
+        },
+        {
+          "authorId": "2130051800",
+          "name": "Weiwen Liu"
+        },
+        {
+          "authorId": "2257180930",
+          "name": "Ruiming Tang"
+        },
+        {
+          "authorId": "2240768092",
+          "name": "Weinan Zhang"
+        },
+        {
+          "authorId": "2237958078",
+          "name": "Yong Yu"
+        }
+      ]
+    },
+    {
+      "paperId": "8306564b6194e4d8c2cbd61b33207dabd5040684",
+      "title": "Towards Secure and Private AI: A Framework for Decentralized Inference",
+      "year": 2024,
+      "citationCount": 0,
+      "authors": [
+        {
+          "authorId": "2313694384",
+          "name": "Hongyang Zhang"
+        },
+        {
+          "authorId": "2313697707",
+          "name": "Yue Zhao"
+        },
+        {
+          "authorId": "2313632915",
+          "name": "Claudio Angione"
+        },
+        {
+          "authorId": "2313697874",
+          "name": "Harry Yang"
+        },
+        {
+          "authorId": "2313633865",
+          "name": "James Buban"
+        },
+        {
+          "authorId": "2313633863",
+          "name": "Ahmad Farhan"
+        },
+        {
+          "authorId": "2313630102",
+          "name": "Fielding Johnston"
+        },
+        {
+          "authorId": "2313632120",
+          "name": "Patrick Colangelo"
+        }
+      ]
+    },
+    {
+      "paperId": "e6f31a9a2798dcfaac8caac298854b7455bfa0f5",
+      "title": "Identifying Smart Contract Security Issues in Code Snippets from Stack Overflow",
+      "year": 2024,
+      "citationCount": 2,
+      "authors": [
+        {
+          "authorId": "2254800142",
+          "name": "Jiachi Chen"
+        },
+        {
+          "authorId": "2239163419",
+          "name": "Chong Chen"
+        },
+        {
+          "authorId": "2312093254",
+          "name": "Jiang Hu"
+        },
+        {
+          "authorId": "2268411991",
+          "name": "John Grundy"
+        },
+        {
+          "authorId": "2239164852",
+          "name": "Yanlin Wang"
+        },
+        {
+          "authorId": "2239103211",
+          "name": "Ting Chen"
+        },
+        {
+          "authorId": "2267902535",
+          "name": "Zibin Zheng"
+        }
+      ]
+    },
+    {
+      "paperId": "03a015adaa28e2b2c83bf4c7cc9d0a930ab12218",
+      "title": "Let the Code LLM Edit Itself When You Edit the Code",
+      "year": 2024,
+      "citationCount": 0,
+      "authors": [
+        {
+          "authorId": "2266802709",
+          "name": "Zhenyu He"
+        },
+        {
+          "authorId": "2324106120",
+          "name": "Jun Zhang"
+        },
+        {
+          "authorId": "2108801920",
+          "name": "Shengjie Luo"
+        },
+        {
+          "authorId": "2283486084",
+          "name": "Jingjing Xu"
+        },
+        {
+          "authorId": "2157136438",
+          "name": "Z. Zhang"
+        },
+        {
+          "authorId": "2266036459",
+          "name": "Di He"
+        }
+      ]
+    },
+    {
+      "paperId": "f2347083a18dbdc47f403d427cc66564668276ff",
+      "title": "S2D: Sorted Speculative Decoding For More Efficient Deployment of Nested Large Language Models",
+      "year": 2024,
+      "citationCount": 0,
+      "authors": [
+        {
+          "authorId": "2121286307",
+          "name": "Parsa Kavehzadeh"
+        },
+        {
+          "authorId": "2192284724",
+          "name": "Mohammadreza Pourreza"
+        },
+        {
+          "authorId": "9200111",
+          "name": "Mojtaba Valipour"
+        },
+        {
+          "authorId": "2309448747",
+          "name": "Tinashu Zhu"
+        },
+        {
+          "authorId": "2309250011",
+          "name": "Haoli Bai"
+        },
+        {
+          "authorId": "2237425782",
+          "name": "Ali Ghodsi"
+        },
+        {
+          "authorId": "2237517964",
+          "name": "Boxing Chen"
+        },
+        {
+          "authorId": "2066076226",
+          "name": "Mehdi Rezagholizadeh"
+        }
+      ]
+    },
+    {
+      "paperId": "853a593768d0128b7104017e296028b9ae87ec27",
+      "title": "Adaptive Draft-Verification for Efficient Large Language Model Decoding",
+      "year": 2024,
+      "citationCount": 0,
+      "authors": [
+        {
+          "authorId": "2289859165",
+          "name": "Xukun Liu"
+        },
+        {
+          "authorId": "2282534918",
+          "name": "Bowen Lei"
+        },
+        {
+          "authorId": "2294313542",
+          "name": "Ruqi Zhang"
+        },
+        {
+          "authorId": "2116459424",
+          "name": "Dongkuan Xu"
+        }
+      ]
+    },
+    {
+      "paperId": "540209de237977a2fb16d3a2c4021618e8ea8b47",
+      "title": "SEED: Accelerating Reasoning Tree Construction via Scheduled Speculative Decoding",
+      "year": 2024,
+      "citationCount": 0,
+      "authors": [
+        {
+          "authorId": "2272270014",
+          "name": "Zhenglin Wang"
+        },
+        {
+          "authorId": "2240542238",
+          "name": "Jialong Wu"
+        },
+        {
+          "authorId": "2274117635",
+          "name": "Yilong Lai"
+        },
+        {
+          "authorId": "2223175638",
+          "name": "Congzhi Zhang"
+        },
+        {
+          "authorId": "2273570867",
+          "name": "Deyu Zhou"
+        }
+      ]
+    },
+    {
+      "paperId": "ab16bf2223fcb8c749a52ee3cc0496dc5bb0b4ec",
+      "title": "OPT-Tree: Speculative Decoding with Adaptive Draft Tree Structure",
+      "year": 2024,
+      "citationCount": 2,
+      "authors": [
+        {
+          "authorId": "2273917218",
+          "name": "Jikai Wang"
+        },
+        {
+          "authorId": "2273575936",
+          "name": "Yi Su"
+        },
+        {
+          "authorId": "2257093356",
+          "name": "Juntao Li"
+        },
+        {
+          "authorId": "2308100527",
+          "name": "Qinrong Xia"
+        },
+        {
+          "authorId": "2308244397",
+          "name": "Zi Ye"
+        },
+        {
+          "authorId": "2243338087",
+          "name": "Xinyu Duan"
+        },
+        {
+          "authorId": "2243403387",
+          "name": "Zhefeng Wang"
+        },
+        {
+          "authorId": "2306158069",
+          "name": "Min Zhang"
+        }
+      ]
+    },
+    {
+      "paperId": "a03cb5e9806e532966a13e4fab7cef9c8d81dec5",
+      "title": "Make Some Noise: Unlocking Language Model Parallel Inference Capability through Noisy Training",
+      "year": 2024,
+      "citationCount": 1,
+      "authors": [
+        {
+          "authorId": "2108734952",
+          "name": "Yixuan Wang"
+        },
+        {
+          "authorId": "2284814458",
+          "name": "Xianzhen Luo"
+        },
+        {
+          "authorId": "2106895004",
+          "name": "Fuxuan Wei"
+        },
+        {
+          "authorId": "2293570326",
+          "name": "Yijun Liu"
+        },
+        {
+          "authorId": "2283927956",
+          "name": "Qingfu Zhu"
+        },
+        {
+          "authorId": "4874730",
+          "name": "Xuanyu Zhang"
+        },
+        {
+          "authorId": "2284640184",
+          "name": "Qing Yang"
+        },
+        {
+          "authorId": "2284642281",
+          "name": "Dongliang Xu"
+        },
+        {
+          "authorId": "2283920108",
+          "name": "Wanxiang Che"
+        }
+      ]
+    },
+    {
+      "paperId": "43fff8982ae0db83ebc001d9f36ff2787cb1d8a5",
+      "title": "Towards Fast Multilingual LLM Inference: Speculative Decoding and Specialized Drafters",
+      "year": 2024,
+      "citationCount": 0,
+      "authors": [
+        {
+          "authorId": "2308036882",
+          "name": "Euiin Yi"
+        },
+        {
+          "authorId": "1840081210",
+          "name": "Taehyeon Kim"
+        },
+        {
+          "authorId": "2308036488",
+          "name": "Hongseok Jeung"
+        },
+        {
+          "authorId": "2258714847",
+          "name": "Du-Seong Chang"
+        },
+        {
+          "authorId": "2269051253",
+          "name": "SeYoung Yun"
+        }
+      ]
+    },
+    {
+      "paperId": "cab58a0263d454604896dce6b8fbf4df1dd99ff0",
+      "title": "EAGLE-2: Faster Inference of Language Models with Dynamic Draft Trees",
+      "year": 2024,
+      "citationCount": 21,
+      "authors": [
+        {
+          "authorId": "2192674200",
+          "name": "Yuhui Li"
+        },
+        {
+          "authorId": "2239197291",
+          "name": "Fangyun Wei"
+        },
+        {
+          "authorId": "2256776221",
+          "name": "Chao Zhang"
+        },
+        {
+          "authorId": "2281685288",
+          "name": "Hongyang Zhang"
+        }
+      ]
+    },
+    {
+      "paperId": "b37240bb0be13ff6a5179cae4324dca74aba018f",
+      "title": "Optimizing Speculative Decoding for Serving Large Language Models Using Goodput",
+      "year": 2024,
+      "citationCount": 8,
+      "authors": [
+        {
+          "authorId": "2238885972",
+          "name": "Xiaoxuan Liu"
+        },
+        {
+          "authorId": "2307465377",
+          "name": "Cade Daniel"
+        },
+        {
+          "authorId": "2308078075",
+          "name": "Langxiang Hu"
+        },
+        {
+          "authorId": "2239096468",
+          "name": "Woosuk Kwon"
+        },
+        {
+          "authorId": "2141335450",
+          "name": "Zhuohan Li"
+        },
+        {
+          "authorId": "145272357",
+          "name": "Xiangxi Mo"
+        },
+        {
+          "authorId": "2238575471",
+          "name": "Alvin Cheung"
+        },
+        {
+          "authorId": "2260296481",
+          "name": "Zhijie Deng"
+        },
+        {
+          "authorId": "2055174324",
+          "name": "Ion Stoica"
+        },
+        {
+          "authorId": "2257340589",
+          "name": "Hao Zhang"
+        }
+      ]
+    },
+    {
+      "paperId": "bc89f6c805a7cf7fb65740eee90f28cc385ead28",
+      "title": "Amphista: Bi-directional Multi-head Decoding for Accelerating LLM Inference",
+      "year": 2024,
+      "citationCount": 2,
+      "authors": [
+        {
+          "authorId": "2307589652",
+          "name": "Zeping Li"
+        },
+        {
+          "authorId": "2307642796",
+          "name": "Xinlong Yang"
+        },
+        {
+          "authorId": "2297065920",
+          "name": "Ziheng Gao"
+        },
+        {
+          "authorId": "2279399536",
+          "name": "Ji Liu"
+        },
+        {
+          "authorId": "2301331844",
+          "name": "Guanchen Li"
+        },
+        {
+          "authorId": "2307486748",
+          "name": "Zhuang Liu"
+        },
+        {
+          "authorId": "2297014912",
+          "name": "Dong Li"
+        },
+        {
+          "authorId": "2279337913",
+          "name": "Jinzhang Peng"
+        },
+        {
+          "authorId": "2279539118",
+          "name": "Lu Tian"
+        },
+        {
+          "authorId": "2271751612",
+          "name": "E. Barsoum"
+        }
+      ]
+    },
+    {
+      "paperId": "0afae4fd689b99b76b46daee66f1be9c743518b6",
+      "title": "PowerInfer-2: Fast Large Language Model Inference on a Smartphone",
+      "year": 2024,
+      "citationCount": 21,
+      "authors": [
+        {
+          "authorId": "2305617795",
+          "name": "Zhenliang Xue"
+        },
+        {
+          "authorId": "2275214886",
+          "name": "Yixin Song"
+        },
+        {
+          "authorId": "2282962002",
+          "name": "Zeyu Mi"
+        },
+        {
+          "authorId": "2223238291",
+          "name": "Le Chen"
+        },
+        {
+          "authorId": "1708437",
+          "name": "Yubin Xia"
+        },
+        {
+          "authorId": "2275653146",
+          "name": "Haibo Chen"
+        }
+      ]
+    },
+    {
+      "paperId": "0ac39ef1352641533b01f07c42da0dcb8cdc81a9",
+      "title": "Block Transformer: Global-to-Local Language Modeling for Fast Inference",
+      "year": 2024,
+      "citationCount": 3,
+      "authors": [
+        {
+          "authorId": "2047104015",
+          "name": "Namgyu Ho"
+        },
+        {
+          "authorId": "2104224550",
+          "name": "Sangmin Bae"
+        },
+        {
+          "authorId": "1840081210",
+          "name": "Taehyeon Kim"
+        },
+        {
+          "authorId": "2304748875",
+          "name": "Hyunjik Jo"
+        },
+        {
+          "authorId": "2181032855",
+          "name": "Yireun Kim"
+        },
+        {
+          "authorId": "32303439",
+          "name": "Tal Schuster"
+        },
+        {
+          "authorId": "2064150446",
+          "name": "Adam Fisch"
+        },
+        {
+          "authorId": "2263749072",
+          "name": "James Thorne"
+        },
+        {
+          "authorId": "2269051253",
+          "name": "SeYoung Yun"
+        }
+      ]
+    },
+    {
+      "paperId": "0496315e85fbc7cb5c46afc049981d0c50c962cb",
+      "title": "S3D: A Simple and Cost-Effective Self-Speculative Decoding Scheme for Low-Memory GPUs",
+      "year": 2024,
+      "citationCount": 2,
+      "authors": [
+        {
+          "authorId": "2303849935",
+          "name": "Wei Zhong"
+        },
+        {
+          "authorId": "2303844108",
+          "name": "Manasa Bharadwaj"
+        }
+      ]
+    },
+    {
+      "paperId": "050d66cab131c8e10c230df9469d897622ccf7d2",
+      "title": "SpecDec++: Boosting Speculative Decoding via Adaptive Candidate Lengths",
+      "year": 2024,
+      "citationCount": 8,
+      "authors": [
+        {
+          "authorId": "2242535459",
+          "name": "Kaixuan Huang"
+        },
+        {
+          "authorId": "2303892844",
+          "name": "Xudong Guo"
+        },
+        {
+          "authorId": "2257417692",
+          "name": "Mengdi Wang"
+        }
+      ]
+    },
+    {
+      "paperId": "a541d6399f3e2703e1faf6c10bcec3ff22d6bb8c",
+      "title": "Faster Cascades via Speculative Decoding",
+      "year": 2024,
+      "citationCount": 0,
+      "authors": [
+        {
+          "authorId": "2163722153",
+          "name": "Harikrishna Narasimhan"
+        },
+        {
+          "authorId": "2141405",
+          "name": "Wittawat Jitkrittum"
+        },
+        {
+          "authorId": "2241094",
+          "name": "A. Rawat"
+        },
+        {
+          "authorId": "2303840365",
+          "name": "Seungyeon Kim"
+        },
+        {
+          "authorId": "2297127615",
+          "name": "Neha Gupta"
+        },
+        {
+          "authorId": "2844480",
+          "name": "A. Menon"
+        },
+        {
+          "authorId": "2254172047",
+          "name": "Sanjiv Kumar"
+        }
+      ]
+    },
+    {
+      "paperId": "58700f3740105e3422eb030305372b6d8bc44986",
+      "title": "Hardware-Aware Parallel Prompt Decoding for Memory-Efficient Acceleration of LLM Inference",
+      "year": 2024,
+      "citationCount": 4,
+      "authors": [
+        {
+          "authorId": "2242179319",
+          "name": "Hao Chen"
+        },
+        {
+          "authorId": "2303652170",
+          "name": "Wayne Luk"
+        },
+        {
+          "authorId": "2301711440",
+          "name": "Ka-Fai Cedric Yiu"
+        },
+        {
+          "authorId": "2152153064",
+          "name": "Rui Li"
+        },
+        {
+          "authorId": "2303652428",
+          "name": "Konstantin Mishchenko"
+        },
+        {
+          "authorId": "2115955596",
+          "name": "Stylianos I. Venieris"
+        },
+        {
+          "authorId": "10001427",
+          "name": "Hongxiang Fan"
+        }
+      ]
+    },
+    {
+      "paperId": "bbcc2ca90b7f852cb2abade5067bc8d0e9351f05",
+      "title": "Integer Scale: A Free Lunch for Faster Fine-grained Quantization of LLMs",
+      "year": 2024,
+      "citationCount": 0,
+      "authors": [
+        {
+          "authorId": "2108421003",
+          "name": "Qingyuan Li"
+        },
+        {
+          "authorId": "2266963673",
+          "name": "Ran Meng"
+        },
+        {
+          "authorId": "2184461062",
+          "name": "Yiduo Li"
+        },
+        {
+          "authorId": "2302808540",
+          "name": "Bo Zhang"
+        },
+        {
+          "authorId": "2267032392",
+          "name": "Yifan Lu"
+        },
+        {
+          "authorId": "2235992666",
+          "name": "Yerui Sun"
+        },
+        {
+          "authorId": "2302815736",
+          "name": "Lin Ma"
+        },
+        {
+          "authorId": "2236015688",
+          "name": "Yuchen Xie"
+        }
+      ]
+    },
+    {
+      "paperId": "9566a9de67d5eb50c8944d5c5886d5e357a401f1",
+      "title": "Distributed Speculative Inference of Large Language Models",
+      "year": 2024,
+      "citationCount": 1,
+      "authors": [
+        {
+          "authorId": "2151790441",
+          "name": "Nadav Timor"
+        },
+        {
+          "authorId": "2254315373",
+          "name": "J. Mamou"
+        },
+        {
+          "authorId": "51151949",
+          "name": "Daniel Korat"
+        },
+        {
+          "authorId": "2077591838",
+          "name": "Moshe Berchansky"
+        },
+        {
+          "authorId": "2018909",
+          "name": "Oren Pereg"
+        },
+        {
+          "authorId": "2134755",
+          "name": "Moshe Wasserblat"
+        },
+        {
+          "authorId": "9923405",
+          "name": "Tomer Galanti"
+        },
+        {
+          "authorId": "1808768",
+          "name": "Michal Gordon"
+        },
+        {
+          "authorId": "2302803517",
+          "name": "David Harel"
+        }
+      ]
+    },
+    {
+      "paperId": "9111fc83b652c871c8e223b29009de9698b8f9b2",
+      "title": "Atomic Self-Consistency for Better Long Form Generations",
+      "year": 2024,
+      "citationCount": 3,
+      "authors": [
+        {
+          "authorId": "2283771339",
+          "name": "Raghuveer Thirukovalluru"
+        },
+        {
+          "authorId": "2302813097",
+          "name": "Yukun Huang"
+        },
+        {
+          "authorId": "2060730422",
+          "name": "Bhuwan Dhingra"
+        }
+      ]
+    },
+    {
+      "paperId": "2a16a4bb634301c40821e0c1d1987bb7b9e4e9a8",
+      "title": "EMS-SD: Efficient Multi-sample Speculative Decoding for Accelerating Large Language Models",
+      "year": 2024,
+      "citationCount": 0,
+      "authors": [
+        {
+          "authorId": "2282528142",
+          "name": "Yunsheng Ni"
+        },
+        {
+          "authorId": "153904071",
+          "name": "Chuanjian Liu"
+        },
+        {
+          "authorId": "103603255",
+          "name": "Yehui Tang"
+        },
+        {
+          "authorId": "2277423285",
+          "name": "Kai Han"
+        },
+        {
+          "authorId": "2299212602",
+          "name": "Yunhe Wang"
+        }
+      ]
+    },
+    {
+      "paperId": "f1aea9fe99826b63d8c546cd2be724e8724332cb",
+      "title": "Dynamic Speculation Lookahead Accelerates Speculative Decoding of Large Language Models",
+      "year": 2024,
+      "citationCount": 1,
+      "authors": [
+        {
+          "authorId": "2254315373",
+          "name": "J. Mamou"
+        },
+        {
+          "authorId": "2018909",
+          "name": "Oren Pereg"
+        },
+        {
+          "authorId": "51151949",
+          "name": "Daniel Korat"
+        },
+        {
+          "authorId": "2077591838",
+          "name": "Moshe Berchansky"
+        },
+        {
+          "authorId": "2151790441",
+          "name": "Nadav Timor"
+        },
+        {
+          "authorId": "2134755",
+          "name": "Moshe Wasserblat"
+        },
+        {
+          "authorId": "2300177208",
+          "name": "Roy Schwartz"
+        }
+      ]
+    },
+    {
+      "paperId": "f55b32c913c74f40bca8bf815c7764192a15c51e",
+      "title": "Accelerating Production LLMs with Combined Token/Embedding Speculators",
+      "year": 2024,
+      "citationCount": 1,
+      "authors": [
+        {
+          "authorId": "2282540347",
+          "name": "Davis Wertheimer"
+        },
+        {
+          "authorId": "2298967043",
+          "name": "Joshua Rosenkranz"
+        },
+        {
+          "authorId": "2298967139",
+          "name": "Thomas Parnell"
+        },
+        {
+          "authorId": "40005837",
+          "name": "Sahil Suneja"
+        },
+        {
+          "authorId": "2298967606",
+          "name": "Pavithra Ranganathan"
+        },
+        {
+          "authorId": "143642366",
+          "name": "R. Ganti"
+        },
+        {
+          "authorId": "1718467",
+          "name": "M. Srivatsa"
+        }
+      ]
+    },
+    {
+      "paperId": "d50c7d1287d93539f5c4cc312ae9cfaaaf570fe6",
+      "title": "Kangaroo: Lossless Self-Speculative Decoding via Double Early Exiting",
+      "year": 2024,
+      "citationCount": 15,
+      "authors": [
+        {
+          "authorId": "2277241447",
+          "name": "Fangcheng Liu"
+        },
+        {
+          "authorId": "103603255",
+          "name": "Yehui Tang"
+        },
+        {
+          "authorId": "2297039812",
+          "name": "Zhenhua Liu"
+        },
+        {
+          "authorId": "2282528142",
+          "name": "Yunsheng Ni"
+        },
+        {
+          "authorId": "2277423285",
+          "name": "Kai Han"
+        },
+        {
+          "authorId": "2299212602",
+          "name": "Yunhe Wang"
+        }
+      ]
+    },
+    {
+      "paperId": "c17d6af40861a705a8e5e60aaf54762f43b787d8",
+      "title": "BASS: Batched Attention-optimized Speculative Sampling",
+      "year": 2024,
+      "citationCount": 5,
+      "authors": [
+        {
+          "authorId": "2287922898",
+          "name": "Haifeng Qian"
+        },
+        {
+          "authorId": "1913939",
+          "name": "Sujan Kumar Gonugondla"
+        },
+        {
+          "authorId": "2298274846",
+          "name": "Sungsoo Ha"
+        },
+        {
+          "authorId": "2282138397",
+          "name": "Mingyue Shang"
+        },
+        {
+          "authorId": "40892818",
+          "name": "Sanjay Krishna Gouda"
+        },
+        {
+          "authorId": "2285060176",
+          "name": "Ramesh Nallapati"
+        },
+        {
+          "authorId": "2072419570",
+          "name": "Sudipta Sengupta"
+        },
+        {
+          "authorId": "2282270342",
+          "name": "Xiaofei Ma"
+        },
+        {
+          "authorId": "1713801",
+          "name": "Anoop Deoras"
+        }
+      ]
+    },
+    {
+      "paperId": "d0deaec3e1f74701ac43600d9e64c5c969be7391",
+      "title": "TriForce: Lossless Acceleration of Long Sequence Generation with Hierarchical Speculative Decoding",
+      "year": 2024,
+      "citationCount": 26,
+      "authors": [
+        {
+          "authorId": "2297403194",
+          "name": "Hanshi Sun"
+        },
+        {
+          "authorId": "2280390208",
+          "name": "Zhuoming Chen"
+        },
+        {
+          "authorId": "2284120415",
+          "name": "Xinyu Yang"
+        },
+        {
+          "authorId": "2249538771",
+          "name": "Yuandong Tian"
+        },
+        {
+          "authorId": "2249538643",
+          "name": "Beidi Chen"
+        }
+      ]
+    },
+    {
+      "paperId": "1f43c1f42dd5505f27c0b36c99e6e6fa01f87ad5",
+      "title": "Transformer-Lite: High-efficiency Deployment of Large Language Models on Mobile Phone GPUs",
+      "year": 2024,
+      "citationCount": 4,
+      "authors": [
+        {
+          "authorId": "2294329847",
+          "name": "Luchang Li"
+        },
+        {
+          "authorId": "2294176487",
+          "name": "Sheng Qian"
+        },
+        {
+          "authorId": "2294317681",
+          "name": "Jie Lu"
+        },
+        {
+          "authorId": "2294316787",
+          "name": "Lunxi Yuan"
+        },
+        {
+          "authorId": "2294212687",
+          "name": "Rui Wang"
+        },
+        {
+          "authorId": "2294177555",
+          "name": "Qin Xie"
+        }
+      ]
+    },
+    {
+      "paperId": "23cdb8e26af70fa4907d19e839268d66091560a8",
+      "title": "SDSAT: Accelerating LLM Inference through Speculative Decoding with Semantic Adaptive Tokens",
+      "year": 2024,
+      "citationCount": 0,
+      "authors": [
+        {
+          "authorId": "2293749366",
+          "name": "Chengbo Liu"
+        },
+        {
+          "authorId": "2293775279",
+          "name": "Yong Zhu"
+        }
+      ]
+    },
+    {
+      "paperId": "a8dcaddc541b3f54a513eb1a4d3310d26fd9a761",
+      "title": "Recurrent Drafter for Fast Speculative Decoding in Large Language Models",
+      "year": 2024,
+      "citationCount": 11,
+      "authors": [
+        {
+          "authorId": "2291744374",
+          "name": "Aonan Zhang"
+        },
+        {
+          "authorId": "2291207089",
+          "name": "Chong Wang"
+        },
+        {
+          "authorId": "2292304140",
+          "name": "Yi Wang"
+        },
+        {
+          "authorId": "2291982541",
+          "name": "Xuanyu Zhang"
+        },
+        {
+          "authorId": "2292348309",
+          "name": "Yunfei Cheng"
+        }
+      ]
+    },
+    {
+      "paperId": "363064388aeef51f916131e87916a48054435cb5",
+      "title": "Rethinking Generative Large Language Model Evaluation for Semantic Comprehension",
+      "year": 2024,
+      "citationCount": 5,
+      "authors": [
+        {
+          "authorId": "2239197291",
+          "name": "Fangyun Wei"
+        },
+        {
+          "authorId": "2333485561",
+          "name": "Xi Chen"
+        },
+        {
+          "authorId": "2222818247",
+          "name": "Linzi Luo"
+        }
+      ]
+    },
+    {
+      "paperId": "dbf829c977c121c3704d070d7800d29fe5914756",
+      "title": "LLM Inference Unveiled: Survey and Roofline Model Insights",
+      "year": 2024,
+      "citationCount": 48,
+      "authors": [
+        {
+          "authorId": "2256166978",
+          "name": "Zhihang Yuan"
+        },
+        {
+          "authorId": "2125633957",
+          "name": "Yuzhang Shang"
+        },
+        {
+          "authorId": "2288027007",
+          "name": "Yang Zhou"
+        },
+        {
+          "authorId": "2257809664",
+          "name": "Zhen Dong"
+        },
+        {
+          "authorId": "2049473825",
+          "name": "Chenhao Xue"
+        },
+        {
+          "authorId": "27055880",
+          "name": "Bingzhe Wu"
+        },
+        {
+          "authorId": "6966340",
+          "name": "Zhikai Li"
+        },
+        {
+          "authorId": "2257035774",
+          "name": "Qingyi Gu"
+        },
+        {
+          "authorId": "2287936021",
+          "name": "Yong Jae Lee"
+        },
+        {
+          "authorId": "2273583245",
+          "name": "Yan Yan"
+        },
+        {
+          "authorId": "2267425628",
+          "name": "Beidi Chen"
+        },
+        {
+          "authorId": "2273404942",
+          "name": "Guangyu Sun"
+        },
+        {
+          "authorId": "2242659602",
+          "name": "Kurt Keutzer"
+        }
+      ]
+    },
+    {
+      "paperId": "4623901ec1f8311b32e27bd627b2bce56161c6bb",
+      "title": "Ouroboros: Generating Longer Drafts Phrase by Phrase for Faster Speculative Decoding",
+      "year": 2024,
+      "citationCount": 4,
+      "authors": [
+        {
+          "authorId": "2150606888",
+          "name": "Weilin Zhao"
+        },
+        {
+          "authorId": "2214586078",
+          "name": "Yuxiang Huang"
+        },
+        {
+          "authorId": "48506411",
+          "name": "Xu Han"
+        },
+        {
+          "authorId": "2110725401",
+          "name": "Wang Xu"
+        },
+        {
+          "authorId": "51131083",
+          "name": "Chaojun Xiao"
+        },
+        {
+          "authorId": "2254576790",
+          "name": "Xinrong Zhang"
+        },
+        {
+          "authorId": "2295846809",
+          "name": "Yewei Fang"
+        },
+        {
+          "authorId": "2295817905",
+          "name": "Kaihuo Zhang"
+        },
+        {
+          "authorId": "2301534001",
+          "name": "Zhiyuan Liu"
+        },
+        {
+          "authorId": "2273551430",
+          "name": "Maosong Sun"
+        }
+      ]
+    },
+    {
+      "paperId": "758c2dc290c037a6f211ec503beee70abe2d1197",
+      "title": "DriveVLM: The Convergence of Autonomous Driving and Large Vision-Language Models",
+      "year": 2024,
+      "citationCount": 62,
+      "authors": [
+        {
+          "authorId": "2149326880",
+          "name": "Xiaoyu Tian"
+        },
+        {
+          "authorId": "2144097517",
+          "name": "Junru Gu"
+        },
+        {
+          "authorId": "2284946811",
+          "name": "Bailin Li"
+        },
+        {
+          "authorId": "2284726857",
+          "name": "Yicheng Liu"
+        },
+        {
+          "authorId": "2118956725",
+          "name": "Chenxu Hu"
+        },
+        {
+          "authorId": "2277695384",
+          "name": "Yang Wang"
+        },
+        {
+          "authorId": "2277448471",
+          "name": "Kun Zhan"
+        },
+        {
+          "authorId": "2277497559",
+          "name": "Peng Jia"
+        },
+        {
+          "authorId": "2277446558",
+          "name": "Xianpeng Lang"
+        },
+        {
+          "authorId": "2284724822",
+          "name": "Hang Zhao"
+        }
+      ]
+    },
+    {
+      "paperId": "f1a9e0830bc36c048fa4659beaa62609869895b5",
+      "title": "Break the Sequential Dependency of LLM Inference Using Lookahead Decoding",
+      "year": 2024,
+      "citationCount": 88,
+      "authors": [
+        {
+          "authorId": "2282896192",
+          "name": "Yichao Fu"
+        },
+        {
+          "authorId": "2740804",
+          "name": "Peter D. Bailis"
+        },
+        {
+          "authorId": "2055174324",
+          "name": "Ion Stoica"
+        },
+        {
+          "authorId": "2257340589",
+          "name": "Hao Zhang"
+        }
+      ]
+    },
+    {
+      "paperId": "0cee098244c9978032702862a43a09f468f691a4",
+      "title": "Unlocking Efficiency in Large Language Model Inference: A Comprehensive Survey of Speculative Decoding",
+      "year": 2024,
+      "citationCount": 67,
+      "authors": [
+        {
+          "authorId": "2093662286",
+          "name": "Heming Xia"
+        },
+        {
+          "authorId": "2257389788",
+          "name": "Zhe Yang"
+        },
+        {
+          "authorId": "2047143813",
+          "name": "Qingxiu Dong"
+        },
+        {
+          "authorId": "2263478880",
+          "name": "Peiyi Wang"
+        },
+        {
+          "authorId": "2257099189",
+          "name": "Yongqi Li"
+        },
+        {
+          "authorId": "2279540460",
+          "name": "Tao Ge"
+        },
+        {
+          "authorId": "2261522028",
+          "name": "Tianyu Liu"
+        },
+        {
+          "authorId": "2284641622",
+          "name": "Wenjie Li"
+        },
+        {
+          "authorId": "3335836",
+          "name": "Zhifang Sui"
+        }
+      ]
+    },
+    {
+      "paperId": "10f79c02b2da57542c04e18907d6bbca29dda97c",
+      "title": "Harmonized Speculative Sampling",
+      "year": 2024,
+      "citationCount": 0,
+      "authors": [
+        {
+          "authorId": "2317135334",
+          "name": "Lefan Zhang"
+        },
+        {
+          "authorId": "2317140399",
+          "name": "Xiaodan Wang"
+        },
+        {
+          "authorId": "2292485947",
+          "name": "Yanhua Huang"
+        },
+        {
+          "authorId": "2292215243",
+          "name": "Ruiwen Xu"
+        }
+      ]
+    }
+  ],
+  "references": [
+    {
+      "paperId": "f1a9e0830bc36c048fa4659beaa62609869895b5",
+      "title": "Break the Sequential Dependency of LLM Inference Using Lookahead Decoding",
+      "year": 2024,
+      "citationCount": 88,
+      "authors": [
+        {
+          "authorId": "2282896192",
+          "name": "Yichao Fu"
+        },
+        {
+          "authorId": "2740804",
+          "name": "Peter D. Bailis"
+        },
+        {
+          "authorId": "2055174324",
+          "name": "Ion Stoica"
+        },
+        {
+          "authorId": "2257340589",
+          "name": "Hao Zhang"
+        }
+      ]
+    },
+    {
+      "paperId": "411114f989a3d1083d90afd265103132fee94ebe",
+      "title": "Mixtral of Experts",
+      "year": 2024,
+      "citationCount": 739,
+      "authors": [
+        {
+          "authorId": "2278435713",
+          "name": "Albert Q. Jiang"
+        },
+        {
+          "authorId": "2256994781",
+          "name": "Alexandre Sablayrolles"
+        },
+        {
+          "authorId": "2278435471",
+          "name": "Antoine Roux"
+        },
+        {
+          "authorId": "1697879",
+          "name": "A. Mensch"
+        },
+        {
+          "authorId": "2278434888",
+          "name": "Blanche Savary"
+        },
+        {
+          "authorId": "2256994975",
+          "name": "Chris Bamford"
+        },
+        {
+          "authorId": "2328602",
+          "name": "Devendra Singh Chaplot"
+        },
+        {
+          "authorId": "40550616",
+          "name": "Diego de Las Casas"
+        },
+        {
+          "authorId": "2168785331",
+          "name": "Emma Bou Hanna"
+        },
+        {
+          "authorId": "2256995640",
+          "name": "Florian Bressand"
+        },
+        {
+          "authorId": "2256993163",
+          "name": "Gianna Lengyel"
+        },
+        {
+          "authorId": "2278434464",
+          "name": "Guillaume Bour"
+        },
+        {
+          "authorId": "1830914",
+          "name": "Guillaume Lample"
+        },
+        {
+          "authorId": "2256995632",
+          "name": "L'elio Renard Lavaud"
+        },
+        {
+          "authorId": "2113836860",
+          "name": "Lucile Saulnier"
+        },
+        {
+          "authorId": "114952298",
+          "name": "M. Lachaux"
+        },
+        {
+          "authorId": "2256994779",
+          "name": "Pierre Stock"
+        },
+        {
+          "authorId": "2278428931",
+          "name": "Sandeep Subramanian"
+        },
+        {
+          "authorId": "2278460092",
+          "name": "Sophia Yang"
+        },
+        {
+          "authorId": "2184103686",
+          "name": "Szymon Antoniak"
+        },
+        {
+          "authorId": "1379806208",
+          "name": "Teven Le Scao"
+        },
+        {
+          "authorId": "81588783",
+          "name": "Théophile Gervet"
+        },
+        {
+          "authorId": "46183616",
+          "name": "Thibaut Lavril"
+        },
+        {
+          "authorId": "2278590503",
+          "name": "Thomas Wang"
+        },
+        {
+          "authorId": "47733973",
+          "name": "Timothée Lacroix"
+        },
+        {
+          "authorId": "2256992826",
+          "name": "William El Sayed"
+        }
+      ]
+    },
+    {
+      "paperId": "560c6f24c335c2dd27be0cfa50dbdbb50a9e4bfd",
+      "title": "TinyLlama: An Open-Source Small Language Model",
+      "year": 2024,
+      "citationCount": 259,
+      "authors": [
+        {
+          "authorId": "2278006002",
+          "name": "Peiyuan Zhang"
+        },
+        {
+          "authorId": "2061248094",
+          "name": "Guangtao Zeng"
+        },
+        {
+          "authorId": "2186734781",
+          "name": "Tianduo Wang"
+        },
+        {
+          "authorId": "2277742683",
+          "name": "Wei Lu"
+        }
+      ]
+    },
+    {
+      "paperId": "e30666ed82670463aa47686e744f0c6f2a0e083d",
+      "title": "Cascade Speculative Drafting for Even Faster LLM Inference",
+      "year": 2023,
+      "citationCount": 35,
+      "authors": [
+        {
+          "authorId": "2275559637",
+          "name": "Ziyi Chen"
+        },
+        {
+          "authorId": "2275293369",
+          "name": "Xiaocong Yang"
+        },
+        {
+          "authorId": "2275202812",
+          "name": "Jiacheng Lin"
+        },
+        {
+          "authorId": "2275288810",
+          "name": "Chenkai Sun"
+        },
+        {
+          "authorId": "1490651934",
+          "name": "Jie Huang"
+        },
+        {
+          "authorId": "2260292765",
+          "name": "Kevin Chen-Chuan Chang"
+        }
+      ]
+    },
+    {
+      "paperId": "7bbc7595196a0606a07506c4fb1473e5e87f6082",
+      "title": "Mamba: Linear-Time Sequence Modeling with Selective State Spaces",
+      "year": 2023,
+      "citationCount": 1502,
+      "authors": [
+        {
+          "authorId": "2269161650",
+          "name": "Albert Gu"
+        },
+        {
+          "authorId": "2269146652",
+          "name": "Tri Dao"
+        }
+      ]
+    },
+    {
+      "paperId": "532c2c7a247d9e97d20abec1b2f4612984fdab93",
+      "title": "REST: Retrieval-Based Speculative Decoding",
+      "year": 2023,
+      "citationCount": 48,
+      "authors": [
+        {
+          "authorId": "2266802709",
+          "name": "Zhenyu He"
+        },
+        {
+          "authorId": "2266469533",
+          "name": "Zexuan Zhong"
+        },
+        {
+          "authorId": "123970124",
+          "name": "Tianle Cai"
+        },
+        {
+          "authorId": "2266491429",
+          "name": "Jason D. Lee"
+        },
+        {
+          "authorId": "2266469594",
+          "name": "Di He"
+        }
+      ]
+    },
+    {
+      "paperId": "ea1f648988c632a6dbab6d8b88432456aa021cfb",
+      "title": "SpecTr: Fast Speculative Decoding via Optimal Transport",
+      "year": 2023,
+      "citationCount": 50,
+      "authors": [
+        {
+          "authorId": "2262754362",
+          "name": "Ziteng Sun"
+        },
+        {
+          "authorId": "9486035",
+          "name": "A. Suresh"
+        },
+        {
+          "authorId": "2151856517",
+          "name": "Jae Hun Ro"
+        },
+        {
+          "authorId": "2258964830",
+          "name": "Ahmad Beirami"
+        },
+        {
+          "authorId": "2262456198",
+          "name": "Himanshu Jain"
+        },
+        {
+          "authorId": "2308424305",
+          "name": "Felix X. Yu"
+        }
+      ]
+    },
+    {
+      "paperId": "f206d34afed6a5705757f96ea97c7bfb9e1a83cd",
+      "title": "SPEED: Speculative Pipelined Execution for Efficient Decoding",
+      "year": 2023,
+      "citationCount": 27,
+      "authors": [
+        {
+          "authorId": "2029486869",
+          "name": "Coleman Hooper"
+        },
+        {
+          "authorId": "2109586102",
+          "name": "Sehoon Kim"
+        },
+        {
+          "authorId": "2259959157",
+          "name": "Hiva Mohammadzadeh"
+        },
+        {
+          "authorId": "2062998049",
+          "name": "Hasan Genç"
+        },
+        {
+          "authorId": "1732330",
+          "name": "K. Keutzer"
+        },
+        {
+          "authorId": "10419477",
+          "name": "A. Gholami"
+        },
+        {
+          "authorId": "40259322",
+          "name": "Y. Shao"
+        }
+      ]
+    },
+    {
+      "paperId": "56767c18bb5aaa2b6377624168bed1b6dcc4b94d",
+      "title": "DistillSpec: Improving Speculative Decoding via Knowledge Distillation",
+      "year": 2023,
+      "citationCount": 64,
+      "authors": [
+        {
+          "authorId": "2189664830",
+          "name": "Yongchao Zhou"
+        },
+        {
+          "authorId": "41049476",
+          "name": "Kaifeng Lyu"
+        },
+        {
+          "authorId": "2241094",
+          "name": "A. Rawat"
+        },
+        {
+          "authorId": "2844480",
+          "name": "A. Menon"
+        },
+        {
+          "authorId": "2435268",
+          "name": "Afshin Rostamizadeh"
+        },
+        {
+          "authorId": "2254172047",
+          "name": "Sanjiv Kumar"
+        },
+        {
+          "authorId": "119147756",
+          "name": "Jean-François Kagy"
+        },
+        {
+          "authorId": "2253488622",
+          "name": "Rishabh Agarwal"
+        }
+      ]
+    },
+    {
+      "paperId": "ba5261e729c181e28a98dee2c08d7cf5fc7127a2",
+      "title": "Online Speculative Decoding",
+      "year": 2023,
+      "citationCount": 37,
+      "authors": [
+        {
+          "authorId": "2238885972",
+          "name": "Xiaoxuan Liu"
+        },
+        {
+          "authorId": "2258334187",
+          "name": "Lanxiang Hu"
+        },
+        {
+          "authorId": "2740804",
+          "name": "Peter D. Bailis"
+        },
+        {
+          "authorId": "2055174324",
+          "name": "Ion Stoica"
+        },
+        {
+          "authorId": "2260296481",
+          "name": "Zhijie Deng"
+        },
+        {
+          "authorId": "2238575471",
+          "name": "Alvin Cheung"
+        },
+        {
+          "authorId": "2257340589",
+          "name": "Hao Zhang"
+        }
+      ]
+    },
+    {
+      "paperId": "1606ca3e8d4cc409df635e494dc34d678152480a",
+      "title": "NEFTune: Noisy Embeddings Improve Instruction Finetuning",
+      "year": 2023,
+      "citationCount": 60,
+      "authors": [
+        {
+          "authorId": "2204647912",
+          "name": "Neel Jain"
+        },
+        {
+          "authorId": "143923090",
+          "name": "Ping-yeh Chiang"
+        },
+        {
+          "authorId": "123191916",
+          "name": "Yuxin Wen"
+        },
+        {
+          "authorId": "2237425585",
+          "name": "John Kirchenbauer"
+        },
+        {
+          "authorId": "37286392",
+          "name": "Hong-Min Chu"
+        },
+        {
+          "authorId": "2003112028",
+          "name": "Gowthami Somepalli"
+        },
+        {
+          "authorId": "41053241",
+          "name": "Brian Bartoldson"
+        },
+        {
+          "authorId": "1749353",
+          "name": "B. Kailkhura"
+        },
+        {
+          "authorId": "102604362",
+          "name": "Avi Schwarzschild"
+        },
+        {
+          "authorId": "2056290221",
+          "name": "Aniruddha Saha"
+        },
+        {
+          "authorId": "121592562",
+          "name": "Micah Goldblum"
+        },
+        {
+          "authorId": "8284185",
+          "name": "Jonas Geiping"
+        },
+        {
+          "authorId": "2237426712",
+          "name": "Tom Goldstein"
+        }
+      ]
+    },
+    {
+      "paperId": "43e624ddeed82df944a6cae0dedec3372438e243",
+      "title": "Accelerating LLM Inference with Staged Speculative Decoding",
+      "year": 2023,
+      "citationCount": 82,
+      "authors": [
+        {
+          "authorId": "2683016",
+          "name": "Benjamin Spector"
+        },
+        {
+          "authorId": "82614785",
+          "name": "Christal Re"
+        }
+      ]
+    },
+    {
+      "paperId": "104b0bb1da562d53cbda87aec79ef6a2827d191a",
+      "title": "Llama 2: Open Foundation and Fine-Tuned Chat Models",
+      "year": 2023,
+      "citationCount": 9015,
+      "authors": [
+        {
+          "authorId": "2113243762",
+          "name": "Hugo Touvron"
+        },
+        {
+          "authorId": "143792623",
+          "name": "Louis Martin"
+        },
+        {
+          "authorId": "2059203763",
+          "name": "Kevin R. Stone"
+        },
+        {
+          "authorId": "2214809450",
+          "name": "Peter Albert"
+        },
+        {
+          "authorId": "2634674",
+          "name": "Amjad Almahairi"
+        },
+        {
+          "authorId": "2223764353",
+          "name": "Yasmine Babaei"
+        },
+        {
+          "authorId": "2223756247",
+          "name": "Nikolay Bashlykov"
+        },
+        {
+          "authorId": "47505161",
+          "name": "Soumya Batra"
+        },
+        {
+          "authorId": "51229603",
+          "name": "Prajjwal Bhargava"
+        },
+        {
+          "authorId": "2116473",
+          "name": "Shruti Bhosale"
+        },
+        {
+          "authorId": "2023469",
+          "name": "D. Bikel"
+        },
+        {
+          "authorId": "2040305955",
+          "name": "Lukas Blecher"
+        },
+        {
+          "authorId": "66286536",
+          "name": "Cristian Cantón Ferrer"
+        },
+        {
+          "authorId": "2108267192",
+          "name": "Moya Chen"
+        },
+        {
+          "authorId": "7153363",
+          "name": "Guillem Cucurull"
+        },
+        {
+          "authorId": "71039937",
+          "name": "David Esiobu"
+        },
+        {
+          "authorId": "2166312768",
+          "name": "Jude Fernandes"
+        },
+        {
+          "authorId": "2223974989",
+          "name": "Jeremy Fu"
+        },
+        {
+          "authorId": "2223742000",
+          "name": "Wenyin Fu"
+        },
+        {
+          "authorId": "2223748737",
+          "name": "Brian Fuller"
+        },
+        {
+          "authorId": "2107063269",
+          "name": "Cynthia Gao"
+        },
+        {
+          "authorId": "28554843",
+          "name": "Vedanuj Goswami"
+        },
+        {
+          "authorId": "39589154",
+          "name": "Naman Goyal"
+        },
+        {
+          "authorId": "4305645",
+          "name": "A. Hartshorn"
+        },
+        {
+          "authorId": "2195458",
+          "name": "Saghar Hosseini"
+        },
+        {
+          "authorId": "2132302721",
+          "name": "Rui Hou"
+        },
+        {
+          "authorId": "2065277797",
+          "name": "Hakan Inan"
+        },
+        {
+          "authorId": "2059886128",
+          "name": "Marcin Kardas"
+        },
+        {
+          "authorId": "2190957318",
+          "name": "Viktor Kerkez"
+        },
+        {
+          "authorId": "2072010",
+          "name": "Madian Khabsa"
+        },
+        {
+          "authorId": "2207049",
+          "name": "Isabel M. Kloumann"
+        },
+        {
+          "authorId": "2135297476",
+          "name": "A. Korenev"
+        },
+        {
+          "authorId": "2146367061",
+          "name": "Punit Singh Koura"
+        },
+        {
+          "authorId": "114952298",
+          "name": "M. Lachaux"
+        },
+        {
+          "authorId": "46183616",
+          "name": "Thibaut Lavril"
+        },
+        {
+          "authorId": "2223749565",
+          "name": "Jenya Lee"
+        },
+        {
+          "authorId": "2145259939",
+          "name": "Diana Liskovich"
+        },
+        {
+          "authorId": "1768032",
+          "name": "Yinghai Lu"
+        },
+        {
+          "authorId": "3375249",
+          "name": "Yuning Mao"
+        },
+        {
+          "authorId": "1490887583",
+          "name": "Xavier Martinet"
+        },
+        {
+          "authorId": "39980906",
+          "name": "Todor Mihaylov"
+        },
+        {
+          "authorId": "3047561",
+          "name": "Pushkar Mishra"
+        },
+        {
+          "authorId": "2322981055",
+          "name": "Igor Molybog"
+        },
+        {
+          "authorId": "40383658",
+          "name": "Yixin Nie"
+        },
+        {
+          "authorId": "38579672",
+          "name": "Andrew Poulton"
+        },
+        {
+          "authorId": "39906022",
+          "name": "Jeremy Reizenstein"
+        },
+        {
+          "authorId": "150282885",
+          "name": "Rashi Rungta"
+        },
+        {
+          "authorId": "1859294",
+          "name": "Kalyan Saladi"
+        },
+        {
+          "authorId": "14279694",
+          "name": "Alan Schelten"
+        },
+        {
+          "authorId": "2214818043",
+          "name": "Ruan Silva"
+        },
+        {
+          "authorId": "51324296",
+          "name": "Eric Michael Smith"
+        },
+        {
+          "authorId": "2066074360",
+          "name": "R. Subramanian"
+        },
+        {
+          "authorId": "2112782199",
+          "name": "Xia Tan"
+        },
+        {
+          "authorId": "71292072",
+          "name": "Binh Tang"
+        },
+        {
+          "authorId": "2110697298",
+          "name": "Ross Taylor"
+        },
+        {
+          "authorId": "2110032535",
+          "name": "Adina Williams"
+        },
+        {
+          "authorId": "2223770369",
+          "name": "Jian Xiang Kuan"
+        },
+        {
+          "authorId": "2214843767",
+          "name": "Puxin Xu"
+        },
+        {
+          "authorId": "14701107",
+          "name": "Zhengxu Yan"
+        },
+        {
+          "authorId": "121929334",
+          "name": "Iliyan Zarov"
+        },
+        {
+          "authorId": "2108473229",
+          "name": "Yuchen Zhang"
+        },
+        {
+          "authorId": "144270981",
+          "name": "Angela Fan"
+        },
+        {
+          "authorId": "2165660870",
+          "name": "M. Kambadur"
+        },
+        {
+          "authorId": "46617804",
+          "name": "Sharan Narang"
+        },
+        {
+          "authorId": "2166043087",
+          "name": "Aurélien Rodriguez"
+        },
+        {
+          "authorId": "1962768",
+          "name": "Robert Stojnic"
+        },
+        {
+          "authorId": "2068070",
+          "name": "Sergey Edunov"
+        },
+        {
+          "authorId": "2073456043",
+          "name": "Thomas Scialom"
+        }
+      ]
+    },
+    {
+      "paperId": "d988eb48e8b4e471f5df9d081bfc32db0781e6bf",
+      "title": "Predictive Pipelined Decoding: A Compute-Latency Trade-off for Exact LLM Decoding",
+      "year": 2023,
+      "citationCount": 24,
+      "authors": [
+        {
+          "authorId": "2175646046",
+          "name": "Seongjun Yang"
+        },
+        {
+          "authorId": "9624687",
+          "name": "Gibbeum Lee"
+        },
+        {
+          "authorId": "3443302",
+          "name": "Jaewoong Cho"
+        },
+        {
+          "authorId": "1740595",
+          "name": "Dimitris Papailiopoulos"
+        },
+        {
+          "authorId": "2115495251",
+          "name": "Kangwook Lee"
+        }
+      ]
+    },
+    {
+      "paperId": "a0a79dad89857a96f8f71b14238e5237cbfc4787",
+      "title": "Judging LLM-as-a-judge with MT-Bench and Chatbot Arena",
+      "year": 2023,
+      "citationCount": 2775,
+      "authors": [
+        {
+          "authorId": "2149970173",
+          "name": "Lianmin Zheng"
+        },
+        {
+          "authorId": "2537924",
+          "name": "Wei-Lin Chiang"
+        },
+        {
+          "authorId": "2209360681",
+          "name": "Ying Sheng"
+        },
+        {
+          "authorId": "92721493",
+          "name": "Siyuan Zhuang"
+        },
+        {
+          "authorId": "1390573666",
+          "name": "Zhanghao Wu"
+        },
+        {
+          "authorId": "2152482391",
+          "name": "Yonghao Zhuang"
+        },
+        {
+          "authorId": "143872641",
+          "name": "Zi Lin"
+        },
+        {
+          "authorId": "2141335450",
+          "name": "Zhuohan Li"
+        },
+        {
+          "authorId": "2117961435",
+          "name": "Dacheng Li"
+        },
+        {
+          "authorId": "143977260",
+          "name": "E. Xing"
+        },
+        {
+          "authorId": "145140331",
+          "name": "Haotong Zhang"
+        },
+        {
+          "authorId": "49988044",
+          "name": "Joseph E. Gonzalez"
+        },
+        {
+          "authorId": "2055174324",
+          "name": "Ion Stoica"
+        }
+      ]
+    },
+    {
+      "paperId": "3556722b4703a21abafd2f9388743202943f4503",
+      "title": "Accelerating Transformer Inference for Translation via Parallel Decoding",
+      "year": 2023,
+      "citationCount": 58,
+      "authors": [
+        {
+          "authorId": "2065039862",
+          "name": "Andrea Santilli"
+        },
+        {
+          "authorId": "2185499848",
+          "name": "Silvio Severino"
+        },
+        {
+          "authorId": "1944433444",
+          "name": "Emilian Postolache"
+        },
+        {
+          "authorId": "2140400495",
+          "name": "Valentino Maiorca"
+        },
+        {
+          "authorId": "16987772",
+          "name": "Michele Mancusi"
+        },
+        {
+          "authorId": "2053857470",
+          "name": "R. Marin"
+        },
+        {
+          "authorId": "1796150",
+          "name": "E. Rodolà"
+        }
+      ]
+    },
+    {
+      "paperId": "eb3415db1b322b1f7bf95f8697aed701b0d40f88",
+      "title": "Inference with Reference: Lossless Acceleration of Large Language Models",
+      "year": 2023,
+      "citationCount": 45,
+      "authors": [
+        {
+          "authorId": "144610884",
+          "name": "Nan Yang"
+        },
+        {
+          "authorId": "50251691",
+          "name": "Tao Ge"
+        },
+        {
+          "authorId": "145769448",
+          "name": "Liang Wang"
+        },
+        {
+          "authorId": "24128606",
+          "name": "Binxing Jiao"
+        },
+        {
+          "authorId": "2086994543",
+          "name": "Daxin Jiang"
+        },
+        {
+          "authorId": "7866194",
+          "name": "Linjun Yang"
+        },
+        {
+          "authorId": "32431940",
+          "name": "Rangan Majumder"
+        },
+        {
+          "authorId": "49807919",
+          "name": "Furu Wei"
+        }
+      ]
+    },
+    {
+      "paperId": "b7d12aec8a0152ec4921dfa43ab525a63b334385",
+      "title": "Speculative Decoding with Big Little Decoder",
+      "year": 2023,
+      "citationCount": 64,
+      "authors": [
+        {
+          "authorId": "2109586102",
+          "name": "Sehoon Kim"
+        },
+        {
+          "authorId": "11379939",
+          "name": "K. Mangalam"
+        },
+        {
+          "authorId": "2237424458",
+          "name": "Suhong Moon"
+        },
+        {
+          "authorId": "153652147",
+          "name": "J. Malik"
+        },
+        {
+          "authorId": "1717098",
+          "name": "Michael W. Mahoney"
+        },
+        {
+          "authorId": "10419477",
+          "name": "A. Gholami"
+        },
+        {
+          "authorId": "1732330",
+          "name": "K. Keutzer"
+        }
+      ]
+    },
+    {
+      "paperId": "a1f8082505c7e90b0a033e1b9da0a97d67aad66c",
+      "title": "Accelerating Large Language Model Decoding with Speculative Sampling",
+      "year": 2023,
+      "citationCount": 279,
+      "authors": [
+        {
+          "authorId": "2182971260",
+          "name": "Charlie Chen"
+        },
+        {
+          "authorId": "148016269",
+          "name": "Sebastian Borgeaud"
+        },
+        {
+          "authorId": "2060655766",
+          "name": "G. Irving"
+        },
+        {
+          "authorId": "143783339",
+          "name": "Jean-Baptiste Lespiau"
+        },
+        {
+          "authorId": "2175946",
+          "name": "L. Sifre"
+        },
+        {
+          "authorId": "47921134",
+          "name": "J. Jumper"
+        }
+      ]
+    },
+    {
+      "paperId": "d8e9f8c8a37cb4cd26b92ad0d942d641cd512644",
+      "title": "Fast Inference from Transformers via Speculative Decoding",
+      "year": 2022,
+      "citationCount": 437,
+      "authors": [
+        {
+          "authorId": "2188067081",
+          "name": "Yaniv Leviathan"
+        },
+        {
+          "authorId": "21605105",
+          "name": "Matan Kalman"
+        },
+        {
+          "authorId": "1745572",
+          "name": "Yossi Matias"
+        }
+      ]
+    },
+    {
+      "paperId": "218c5c69f3cf0c158e9b6af239a2cc62a688c6de",
+      "title": "Speculative Decoding: Exploiting Speculative Execution for Accelerating Seq2seq Generation",
+      "year": 2022,
+      "citationCount": 50,
+      "authors": [
+        {
+          "authorId": "2093662286",
+          "name": "Heming Xia"
+        },
+        {
+          "authorId": "50251691",
+          "name": "Tao Ge"
+        },
+        {
+          "authorId": "144202874",
+          "name": "Peiyi Wang"
+        },
+        {
+          "authorId": "2263708536",
+          "name": "Si-Qing Chen"
+        },
+        {
+          "authorId": "2249539478",
+          "name": "Furu Wei"
+        },
+        {
+          "authorId": "3335836",
+          "name": "Zhifang Sui"
+        }
+      ]
+    },
+    {
+      "paperId": "6da9a81b75e7ad02867860753d1aa276673a3a77",
+      "title": "The Optimal BERT Surgeon: Scalable and Accurate Second-Order Pruning for Large Language Models",
+      "year": 2022,
+      "citationCount": 103,
+      "authors": [
+        {
+          "authorId": "40992614",
+          "name": "Eldar Kurtic"
+        },
+        {
+          "authorId": "144081089",
+          "name": "Daniel Fernando Campos"
+        },
+        {
+          "authorId": "2116225784",
+          "name": "Tuan Nguyen"
+        },
+        {
+          "authorId": "1502248377",
+          "name": "Elias Frantar"
+        },
+        {
+          "authorId": "2070446213",
+          "name": "Mark Kurtz"
+        },
+        {
+          "authorId": "50374969",
+          "name": "Ben Fineran"
+        },
+        {
+          "authorId": "116028424",
+          "name": "M. Goin"
+        },
+        {
+          "authorId": "3311387",
+          "name": "Dan Alistarh"
+        }
+      ]
+    },
+    {
+      "paperId": "d6045d2ccc9c09ca1671348de86d07da6bc28eea",
+      "title": "Training Verifiers to Solve Math Word Problems",
+      "year": 2021,
+      "citationCount": 2802,
+      "authors": [
+        {
+          "authorId": "6062736",
+          "name": "K. Cobbe"
+        },
+        {
+          "authorId": "13622184",
+          "name": "Vineet Kosaraju"
+        },
+        {
+          "authorId": "2400764",
+          "name": "Mohammad Bavarian"
+        },
+        {
+          "authorId": "2108828435",
+          "name": "Mark Chen"
+        },
+        {
+          "authorId": "35450887",
+          "name": "Heewoo Jun"
+        },
+        {
+          "authorId": "40527594",
+          "name": "Lukasz Kaiser"
+        },
+        {
+          "authorId": "3407285",
+          "name": "Matthias Plappert"
+        },
+        {
+          "authorId": "2065005836",
+          "name": "Jerry Tworek"
+        },
+        {
+          "authorId": "2052366271",
+          "name": "Jacob Hilton"
+        },
+        {
+          "authorId": "7406311",
+          "name": "Reiichiro Nakano"
+        },
+        {
+          "authorId": "144239765",
+          "name": "Christopher Hesse"
+        },
+        {
+          "authorId": "47971768",
+          "name": "John Schulman"
+        }
+      ]
+    },
+    {
+      "paperId": "acbdbf49f9bc3f151b93d9ca9a06009f4f6eb269",
+      "title": "Evaluating Large Language Models Trained on Code",
+      "year": 2021,
+      "citationCount": 4127,
+      "authors": [
+        {
+          "authorId": "2108828435",
+          "name": "Mark Chen"
+        },
+        {
+          "authorId": "2065005836",
+          "name": "Jerry Tworek"
+        },
+        {
+          "authorId": "35450887",
+          "name": "Heewoo Jun"
+        },
+        {
+          "authorId": "153930486",
+          "name": "Qiming Yuan"
+        },
+        {
+          "authorId": "2117715024",
+          "name": "Henrique Pondé"
+        },
+        {
+          "authorId": "2053807409",
+          "name": "Jared Kaplan"
+        },
+        {
+          "authorId": "144632352",
+          "name": "Harrison Edwards"
+        },
+        {
+          "authorId": "51178856",
+          "name": "Yura Burda"
+        },
+        {
+          "authorId": "2117706920",
+          "name": "Nicholas Joseph"
+        },
+        {
+          "authorId": "2065151121",
+          "name": "Greg Brockman"
+        },
+        {
+          "authorId": "2064770039",
+          "name": "Alex Ray"
+        },
+        {
+          "authorId": "41158993",
+          "name": "Raul Puri"
+        },
+        {
+          "authorId": "2064404342",
+          "name": "Gretchen Krueger"
+        },
+        {
+          "authorId": "2136008481",
+          "name": "Michael Petrov"
+        },
+        {
+          "authorId": "2103414",
+          "name": "Heidy Khlaaf"
+        },
+        {
+          "authorId": "144864359",
+          "name": "Girish Sastry"
+        },
+        {
+          "authorId": "2051714782",
+          "name": "Pamela Mishkin"
+        },
+        {
+          "authorId": "1466431052",
+          "name": "Brooke Chan"
+        },
+        {
+          "authorId": "145565184",
+          "name": "Scott Gray"
+        },
+        {
+          "authorId": "39849748",
+          "name": "Nick Ryder"
+        },
+        {
+          "authorId": "2068123790",
+          "name": "Mikhail Pavlov"
+        },
+        {
+          "authorId": "146162186",
+          "name": "Alethea Power"
+        },
+        {
+          "authorId": "40527594",
+          "name": "Lukasz Kaiser"
+        },
+        {
+          "authorId": "2400764",
+          "name": "Mohammad Bavarian"
+        },
+        {
+          "authorId": "2059411355",
+          "name": "Clemens Winter"
+        },
+        {
+          "authorId": "2704719",
+          "name": "Philippe Tillet"
+        },
+        {
+          "authorId": "9927844",
+          "name": "F. Such"
+        },
+        {
+          "authorId": "80876468",
+          "name": "D. Cummings"
+        },
+        {
+          "authorId": "3407285",
+          "name": "Matthias Plappert"
+        },
+        {
+          "authorId": "2117714459",
+          "name": "Fotios Chantzis"
+        },
+        {
+          "authorId": "2057742918",
+          "name": "Elizabeth Barnes"
+        },
+        {
+          "authorId": "1404060687",
+          "name": "Ariel Herbert-Voss"
+        },
+        {
+          "authorId": "39121861",
+          "name": "William H. Guss"
+        },
+        {
+          "authorId": "38967461",
+          "name": "Alex Nichol"
+        },
+        {
+          "authorId": "2256699302",
+          "name": "Igor Babuschkin"
+        },
+        {
+          "authorId": "2054519183",
+          "name": "S. Balaji"
+        },
+        {
+          "authorId": "150298413",
+          "name": "Shantanu Jain"
+        },
+        {
+          "authorId": "153480842",
+          "name": "A. Carr"
+        },
+        {
+          "authorId": "2990741",
+          "name": "J. Leike"
+        },
+        {
+          "authorId": "3381809",
+          "name": "Joshua Achiam"
+        },
+        {
+          "authorId": "40055795",
+          "name": "Vedant Misra"
+        },
+        {
+          "authorId": "1404556973",
+          "name": "Evan Morikawa"
+        },
+        {
+          "authorId": "38909097",
+          "name": "Alec Radford"
+        },
+        {
+          "authorId": "3555117",
+          "name": "M. Knight"
+        },
+        {
+          "authorId": "35167962",
+          "name": "Miles Brundage"
+        },
+        {
+          "authorId": "2117715631",
+          "name": "Mira Murati"
+        },
+        {
+          "authorId": "2059169400",
+          "name": "Katie Mayer"
+        },
+        {
+          "authorId": "2930640",
+          "name": "P. Welinder"
+        },
+        {
+          "authorId": "39593364",
+          "name": "Bob McGrew"
+        },
+        {
+          "authorId": "2698777",
+          "name": "Dario Amodei"
+        },
+        {
+          "authorId": "52238703",
+          "name": "Sam McCandlish"
+        },
+        {
+          "authorId": "1701686",
+          "name": "I. Sutskever"
+        },
+        {
+          "authorId": "2563432",
+          "name": "Wojciech Zaremba"
+        }
+      ]
+    },
+    {
+      "paperId": "3efd4b048dd7544333092332bccc3f0aea79f5c7",
+      "title": "Instantaneous Grammatical Error Correction with Shallow Aggressive Decoding",
+      "year": 2021,
+      "citationCount": 56,
+      "authors": [
+        {
+          "authorId": "144783277",
+          "name": "Xin Sun"
+        },
+        {
+          "authorId": "50251691",
+          "name": "Tao Ge"
+        },
+        {
+          "authorId": "49807919",
+          "name": "Furu Wei"
+        },
+        {
+          "authorId": "1781885",
+          "name": "Houfeng Wang"
+        }
+      ]
+    },
+    {
+      "paperId": "7b8f3f65a98340d6e5ab94bd9a4ccb8f75704fd8",
+      "title": "I-BERT: Integer-only BERT Quantization",
+      "year": 2021,
+      "citationCount": 309,
+      "authors": [
+        {
+          "authorId": "2109586102",
+          "name": "Sehoon Kim"
+        },
+        {
+          "authorId": "10419477",
+          "name": "A. Gholami"
+        },
+        {
+          "authorId": "9088433",
+          "name": "Z. Yao"
+        },
+        {
+          "authorId": "1717098",
+          "name": "Michael W. Mahoney"
+        },
+        {
+          "authorId": "1732330",
+          "name": "K. Keutzer"
+        }
+      ]
+    },
+    {
+      "paperId": "66f0f35fc78bdf2af9de46093d49a428970cde2e",
+      "title": "Movement Pruning: Adaptive Sparsity by Fine-Tuning",
+      "year": 2020,
+      "citationCount": 431,
+      "authors": [
+        {
+          "authorId": "51918868",
+          "name": "Victor Sanh"
+        },
+        {
+          "authorId": "50335211",
+          "name": "Thomas Wolf"
+        },
+        {
+          "authorId": "2531268",
+          "name": "Alexander M. Rush"
+        }
+      ]
+    },
+    {
+      "paperId": "1b0c8b26affd13e10ace5770e85478d60dcc368e",
+      "title": "GOBO: Quantizing Attention-Based NLP Models for Low Latency and Energy Efficient Inference",
+      "year": 2020,
+      "citationCount": 150,
+      "authors": [
+        {
+          "authorId": "1584892511",
+          "name": "Ali Hadi Zadeh"
+        },
+        {
+          "authorId": "150023334",
+          "name": "A. Moshovos"
+        }
+      ]
+    },
+    {
+      "paperId": "8af925f4edf45131b5b6fed8aa655089d58692fa",
+      "title": "Lite Transformer with Long-Short Range Attention",
+      "year": 2020,
+      "citationCount": 287,
+      "authors": [
+        {
+          "authorId": "1390573666",
+          "name": "Zhanghao Wu"
+        },
+        {
+          "authorId": "47781592",
+          "name": "Zhijian Liu"
+        },
+        {
+          "authorId": "2110385919",
+          "name": "Ji Lin"
+        },
+        {
+          "authorId": "49417466",
+          "name": "Yujun Lin"
+        },
+        {
+          "authorId": "143840275",
+          "name": "Song Han"
+        }
+      ]
+    },
+    {
+      "paperId": "dc52b09089704ebd6f471177474bc29741c50023",
+      "title": "Fast Transformer Decoding: One Write-Head is All You Need",
+      "year": 2019,
+      "citationCount": 347,
+      "authors": [
+        {
+          "authorId": "1846258",
+          "name": "Noam M. Shazeer"
+        }
+      ]
+    },
+    {
+      "paperId": "ce106590145e89ea4b621c99665862967ccf5dac",
+      "title": "Q8BERT: Quantized 8Bit BERT",
+      "year": 2019,
+      "citationCount": 482,
+      "authors": [
+        {
+          "authorId": "1387202086",
+          "name": "Ofir Zafrir"
+        },
+        {
+          "authorId": "3150063",
+          "name": "Guy Boudoukh"
+        },
+        {
+          "authorId": "2477428",
+          "name": "Peter Izsak"
+        },
+        {
+          "authorId": "2134755",
+          "name": "Moshe Wasserblat"
+        }
+      ]
+    },
+    {
+      "paperId": "745e4b36a1759177871288cae51fbae0b873b5e5",
+      "title": "Q-BERT: Hessian Based Ultra Low Precision Quantization of BERT",
+      "year": 2019,
+      "citationCount": 540,
+      "authors": [
+        {
+          "authorId": "2191455",
+          "name": "Sheng Shen"
+        },
+        {
+          "authorId": "143879884",
+          "name": "Zhen Dong"
+        },
+        {
+          "authorId": "119870944",
+          "name": "Jiayu Ye"
+        },
+        {
+          "authorId": "2115503326",
+          "name": "Linjian Ma"
+        },
+        {
+          "authorId": "9088433",
+          "name": "Z. Yao"
+        },
+        {
+          "authorId": "10419477",
+          "name": "A. Gholami"
+        },
+        {
+          "authorId": "143884206",
+          "name": "Michael W. Mahoney"
+        },
+        {
+          "authorId": "1732330",
+          "name": "K. Keutzer"
+        }
+      ]
+    },
+    {
+      "paperId": "07a64686ce8e43ac475a8d820a8a9f1d87989583",
+      "title": "Analyzing Multi-Head Self-Attention: Specialized Heads Do the Heavy Lifting, the Rest Can Be Pruned",
+      "year": 2019,
+      "citationCount": 1007,
+      "authors": [
+        {
+          "authorId": "46235299",
+          "name": "Elena Voita"
+        },
+        {
+          "authorId": "144251066",
+          "name": "David Talbot"
+        },
+        {
+          "authorId": "2157158",
+          "name": "F. Moiseev"
+        },
+        {
+          "authorId": "2082372",
+          "name": "Rico Sennrich"
+        },
+        {
+          "authorId": "144889265",
+          "name": "Ivan Titov"
+        }
+      ]
+    },
+    {
+      "paperId": "26384278cf5d575fc32cb92c303fb648fa0d5217",
+      "title": "The State of Sparsity in Deep Neural Networks",
+      "year": 2019,
+      "citationCount": 706,
+      "authors": [
+        {
+          "authorId": "2066558041",
+          "name": "Trevor Gale"
+        },
+        {
+          "authorId": "152585800",
+          "name": "Erich Elsen"
+        },
+        {
+          "authorId": "50237813",
+          "name": "Sara Hooker"
+        }
+      ]
+    },
+    {
+      "paperId": "5e04881e91bff952d102d967c4ffb498ec30d4af",
+      "title": "Blockwise Parallel Decoding for Deep Autoregressive Models",
+      "year": 2018,
+      "citationCount": 175,
+      "authors": [
+        {
+          "authorId": "144872294",
+          "name": "Mitchell Stern"
+        },
+        {
+          "authorId": "1846258",
+          "name": "Noam M. Shazeer"
+        },
+        {
+          "authorId": "39328010",
+          "name": "Jakob Uszkoreit"
+        }
+      ]
+    },
+    {
+      "paperId": "d2e4147eecae6f914e9e1e9aece8fdd2eaed809f",
+      "title": "Quantized Neural Networks: Training Neural Networks with Low Precision Weights and Activations",
+      "year": 2016,
+      "citationCount": 1786,
+      "authors": [
+        {
+          "authorId": "2477463",
+          "name": "Itay Hubara"
+        },
+        {
+          "authorId": "2388466",
+          "name": "Matthieu Courbariaux"
+        },
+        {
+          "authorId": "1912398",
+          "name": "Daniel Soudry"
+        },
+        {
+          "authorId": "1387872181",
+          "name": "Ran El-Yaniv"
+        },
+        {
+          "authorId": "1751762",
+          "name": "Yoshua Bengio"
+        }
+      ]
+    },
+    {
+      "paperId": "0c908739fbff75f03469d13d4a1a07de3414ee19",
+      "title": "Distilling the Knowledge in a Neural Network",
+      "year": 2015,
+      "citationCount": 18055,
+      "authors": [
+        {
+          "authorId": "1695689",
+          "name": "Geoffrey E. Hinton"
+        },
+        {
+          "authorId": "1689108",
+          "name": "O. Vinyals"
+        },
+        {
+          "authorId": "49959210",
+          "name": "J. Dean"
+        }
+      ]
+    },
+    {
+      "paperId": "843a1567b056c8a1d0deddc8b699e1725194f85c",
+      "title": "Latency lags bandwith",
+      "year": 2004,
+      "citationCount": 267,
+      "authors": [
+        {
+          "authorId": "1701130",
+          "name": "D. Patterson"
+        }
+      ]
+    },
+    {
+      "paperId": "d1a6b3a5efde3783b53f822dc8dd00aaac934b95",
+      "title": "SpecInfer: Accelerating Generative LLM Serving with Speculative Inference and Token Tree Verification",
+      "year": 2023,
+      "citationCount": 96,
+      "authors": [
+        {
+          "authorId": "1720763480",
+          "name": "Xupeng Miao"
+        },
+        {
+          "authorId": "2638632",
+          "name": "G. Oliaro"
+        },
+        {
+          "authorId": "2185953295",
+          "name": "Zhihao Zhang"
+        },
+        {
+          "authorId": "2217941981",
+          "name": "Xinhao Cheng"
+        },
+        {
+          "authorId": "2188983263",
+          "name": "Zeyu Wang"
+        },
+        {
+          "authorId": "2217487123",
+          "name": "Rae Ying Yee Wong"
+        },
+        {
+          "authorId": "2111498904",
+          "name": "Zhuoming Chen"
+        },
+        {
+          "authorId": "1389546686",
+          "name": "Daiyaan Arfeen"
+        },
+        {
+          "authorId": "2217683047",
+          "name": "Reyna Abhyankar"
+        },
+        {
+          "authorId": null,
+          "name": "Zhihao Jia"
+        }
+      ]
+    },
+    {
+      "paperId": null,
+      "title": "Medusa: Simple framework for accelerating LLM generation with multiple decoding heads",
+      "year": null,
+      "citationCount": null,
+      "authors": []
+    },
+    {
+      "paperId": null,
+      "title": "Vicuna: An open-source chatbot impressing gpt-4 with 90%* chatgpt quality",
+      "year": null,
+      "citationCount": null,
+      "authors": []
+    },
+    {
+      "paperId": null,
+      "title": "Stanford alpaca: An instruction-following llama model",
+      "year": null,
+      "citationCount": null,
+      "authors": []
+    }
+  ]
+}

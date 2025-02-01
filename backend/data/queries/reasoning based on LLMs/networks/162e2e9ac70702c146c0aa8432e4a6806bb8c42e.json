@@ -1,0 +1,968 @@
+{
+  "citations": [
+    {
+      "paperId": "05dd0f4c356f014317a3bea8227e2003738325a3",
+      "title": "Dspy-based Neural-Symbolic Pipeline to Enhance Spatial Reasoning in LLMs",
+      "year": 2024,
+      "citationCount": 0,
+      "authors": [
+        {
+          "authorId": "2155889534",
+          "name": "Rong Wang"
+        },
+        {
+          "authorId": "2293664568",
+          "name": "Kun Sun"
+        },
+        {
+          "authorId": "2332541481",
+          "name": "Jonas Kuhn"
+        }
+      ]
+    },
+    {
+      "paperId": "1c9e838b51da0845756a5d0554233d2cc62c82a0",
+      "title": "Blending Grounding and Compilation for Efficient ASP Solving",
+      "year": 2024,
+      "citationCount": 0,
+      "authors": [
+        {
+          "authorId": "1970630",
+          "name": "Carmine Dodaro"
+        },
+        {
+          "authorId": "2259981999",
+          "name": "Giuseppe Mazzotta"
+        },
+        {
+          "authorId": "2259950505",
+          "name": "Francesco Ricca"
+        }
+      ]
+    },
+    {
+      "paperId": "e5ec787dabc2905411c89b292d0135bbb3065d81",
+      "title": "Sparkle: Mastering Basic Spatial Capabilities in Vision Language Models Elicits Generalization to Composite Spatial Reasoning",
+      "year": 2024,
+      "citationCount": 1,
+      "authors": [
+        {
+          "authorId": "2243088943",
+          "name": "Yihong Tang"
+        },
+        {
+          "authorId": "2283843071",
+          "name": "Ao Qu"
+        },
+        {
+          "authorId": "2283906483",
+          "name": "Zhaokai Wang"
+        },
+        {
+          "authorId": "1580217088",
+          "name": "Dingyi Zhuang"
+        },
+        {
+          "authorId": "47039405",
+          "name": "Zhaofeng Wu"
+        },
+        {
+          "authorId": "2283927401",
+          "name": "Wei Ma"
+        },
+        {
+          "authorId": "47673244",
+          "name": "Shenhao Wang"
+        },
+        {
+          "authorId": "97527544",
+          "name": "Yunhan Zheng"
+        },
+        {
+          "authorId": "2254256219",
+          "name": "Zhan Zhao"
+        },
+        {
+          "authorId": "2283883570",
+          "name": "Jinhua Zhao"
+        }
+      ]
+    },
+    {
+      "paperId": "3a774d1485b542790c69910caeba0c3883e5ca3c",
+      "title": "BlendRL: A Framework for Merging Symbolic and Neural Policy Learning",
+      "year": 2024,
+      "citationCount": 2,
+      "authors": [
+        {
+          "authorId": "81459490",
+          "name": "Hikaru Shindo"
+        },
+        {
+          "authorId": "2051175030",
+          "name": "Quentin Delfosse"
+        },
+        {
+          "authorId": "39552485",
+          "name": "D. Dhami"
+        },
+        {
+          "authorId": "2113406566",
+          "name": "K. Kersting"
+        }
+      ]
+    },
+    {
+      "paperId": "564970e409a15ef0a4699dd70902078c8b32bb4e",
+      "title": "DiaGBT: An Explainable and Evolvable Robot Control Framework using Dialogue Generative Behavior Trees",
+      "year": 2024,
+      "citationCount": 0,
+      "authors": [
+        {
+          "authorId": "2337657640",
+          "name": "Jinde Liang"
+        },
+        {
+          "authorId": "2267871185",
+          "name": "Yuan Chang"
+        },
+        {
+          "authorId": "2337440299",
+          "name": "Qian Wang"
+        },
+        {
+          "authorId": "2163305789",
+          "name": "Yanzhen Wang"
+        },
+        {
+          "authorId": "2314426247",
+          "name": "Xiaodong Yi"
+        }
+      ]
+    },
+    {
+      "paperId": "f94d498fdd5b841622e3e4d733f6d8e92ac3a69c",
+      "title": "Enhancing Logical Reasoning in Large Language Models through Graph-based Synthetic Data",
+      "year": 2024,
+      "citationCount": 1,
+      "authors": [
+        {
+          "authorId": "2297828274",
+          "name": "Jiaming Zhou"
+        },
+        {
+          "authorId": "2321867953",
+          "name": "Abbas Ghaddar"
+        },
+        {
+          "authorId": "2321875142",
+          "name": "Ge Zhang"
+        },
+        {
+          "authorId": "1892081076",
+          "name": "Liheng Ma"
+        },
+        {
+          "authorId": "2288403553",
+          "name": "Yaochen Hu"
+        },
+        {
+          "authorId": "38939190",
+          "name": "Soumyasundar Pal"
+        },
+        {
+          "authorId": "2287938359",
+          "name": "Mark Coates"
+        },
+        {
+          "authorId": "2321911323",
+          "name": "Bin Wang"
+        },
+        {
+          "authorId": "2275529643",
+          "name": "Yingxue Zhang"
+        },
+        {
+          "authorId": "2307072418",
+          "name": "Jianye Hao"
+        }
+      ]
+    },
+    {
+      "paperId": "8a1a858547aaaa07148104153ae9c03384d762b9",
+      "title": "Autoformalization of Game Descriptions using Large Language Models",
+      "year": 2024,
+      "citationCount": 1,
+      "authors": [
+        {
+          "authorId": "2317977350",
+          "name": "Agnieszka Mensfelt"
+        },
+        {
+          "authorId": "1802398",
+          "name": "Kostas Stathis"
+        },
+        {
+          "authorId": "2317962045",
+          "name": "Vince Trencsenyi"
+        }
+      ]
+    },
+    {
+      "paperId": "58a0daa57955a0096af94b59150f421428c54bb9",
+      "title": "Unlocking Robotic Autonomy: A Survey on the Applications of Foundation Models",
+      "year": 2024,
+      "citationCount": 1,
+      "authors": [
+        {
+          "authorId": "2274851880",
+          "name": "Dae-Sung Jang"
+        },
+        {
+          "authorId": "49767164",
+          "name": "Doo-Hyun Cho"
+        },
+        {
+          "authorId": "92095606",
+          "name": "Woo-Cheol Lee"
+        },
+        {
+          "authorId": "2210393954",
+          "name": "Seung-Keol Ryu"
+        },
+        {
+          "authorId": "2314645855",
+          "name": "Byeongmin Jeong"
+        },
+        {
+          "authorId": "2314627882",
+          "name": "Minji Hong"
+        },
+        {
+          "authorId": "2314744383",
+          "name": "Minjo Jung"
+        },
+        {
+          "authorId": "2314610848",
+          "name": "Minchae Kim"
+        },
+        {
+          "authorId": "2314679569",
+          "name": "Minjoon Lee"
+        },
+        {
+          "authorId": "2314677394",
+          "name": "SeungJae Lee"
+        },
+        {
+          "authorId": "2191513311",
+          "name": "Han-Lim Choi"
+        }
+      ]
+    },
+    {
+      "paperId": "8022b042ca494a74e4bd36b9527a6c1f2439cd5d",
+      "title": "Prompt2DeModel: Declarative Neuro-Symbolic Modeling with Natural Language",
+      "year": 2024,
+      "citationCount": 0,
+      "authors": [
+        {
+          "authorId": "117133855",
+          "name": "Hossein Rajaby Faghihi"
+        },
+        {
+          "authorId": "2124879956",
+          "name": "Aliakbar Nafar"
+        },
+        {
+          "authorId": "2287480432",
+          "name": "Andrzej Uszok"
+        },
+        {
+          "authorId": "2313729485",
+          "name": "Hamid Karimian"
+        },
+        {
+          "authorId": "2190934",
+          "name": "Parisa Kordjamshidi"
+        }
+      ]
+    },
+    {
+      "paperId": "f6f7b3687c60ddc4097b42bd7adf8cc143a38e2a",
+      "title": "LLASP: Fine-tuning Large Language Models for Answer Set Programming",
+      "year": 2024,
+      "citationCount": 0,
+      "authors": [
+        {
+          "authorId": "2218469963",
+          "name": "Erica Coppolillo"
+        },
+        {
+          "authorId": "1748306",
+          "name": "Francesco Calimeri"
+        },
+        {
+          "authorId": "2313479443",
+          "name": "Giuseppe Manco"
+        },
+        {
+          "authorId": "9950515",
+          "name": "S. Perri"
+        },
+        {
+          "authorId": "2272369466",
+          "name": "Francesco Ricca"
+        }
+      ]
+    },
+    {
+      "paperId": "79e7994ca6119897a705bcb34ef4cb0bf13e0763",
+      "title": "Effective Large Language Model Debugging with Best-first Tree Search",
+      "year": 2024,
+      "citationCount": 0,
+      "authors": [
+        {
+          "authorId": "2307023840",
+          "name": "Jialin Song"
+        },
+        {
+          "authorId": "34042420",
+          "name": "Jonathan Raiman"
+        },
+        {
+          "authorId": "27439851",
+          "name": "B. Catanzaro"
+        }
+      ]
+    },
+    {
+      "paperId": "23cd60c214d2f76c6f80a35d077cea337433b084",
+      "title": "A Training Data Recipe to Accelerate A* Search with Language Models",
+      "year": 2024,
+      "citationCount": 0,
+      "authors": [
+        {
+          "authorId": "2311398997",
+          "name": "Devaansh Gupta"
+        },
+        {
+          "authorId": "2311528282",
+          "name": "Boyang Li"
+        }
+      ]
+    },
+    {
+      "paperId": "1f4c5f26f903ab47a00f83c0c3e4071d269637fc",
+      "title": "Planetarium: A Rigorous Benchmark for Translating Text to Structured Planning Languages",
+      "year": 2024,
+      "citationCount": 4,
+      "authors": [
+        {
+          "authorId": "2299334276",
+          "name": "Max Zuo"
+        },
+        {
+          "authorId": "2309478271",
+          "name": "Francisco Piedrahita Velez"
+        },
+        {
+          "authorId": "2308072716",
+          "name": "Xiaochen Li"
+        },
+        {
+          "authorId": "2249168560",
+          "name": "M. L. Littman"
+        },
+        {
+          "authorId": "2253446572",
+          "name": "Stephen H. Bach"
+        }
+      ]
+    },
+    {
+      "paperId": "3e620c9b16582d6a4f1508298f4160c4fe07afee",
+      "title": "ChatLogic: Integrating Logic Programming with Large Language Models for Multi-Step Reasoning",
+      "year": 2024,
+      "citationCount": 0,
+      "authors": [
+        {
+          "authorId": "2307195429",
+          "name": "Zhongsheng Wang"
+        },
+        {
+          "authorId": "2258791755",
+          "name": "Jiamou Liu"
+        },
+        {
+          "authorId": "1491516930",
+          "name": "Qiming Bao"
+        },
+        {
+          "authorId": "2306802815",
+          "name": "Hongfei Rong"
+        },
+        {
+          "authorId": "2306829065",
+          "name": "Jingfeng Zhang"
+        }
+      ]
+    },
+    {
+      "paperId": "3bdcaeb736f65659385ffc06e4d3f04f35da74e0",
+      "title": "Neuro-symbolic Training for Reasoning over Spatial Language",
+      "year": 2024,
+      "citationCount": 2,
+      "authors": [
+        {
+          "authorId": "2209196396",
+          "name": "Tanawan Premsri"
+        },
+        {
+          "authorId": "2237785349",
+          "name": "Parisa Kordjamshidi"
+        }
+      ]
+    },
+    {
+      "paperId": "76bd6b8c67c3ed5673b310bbd0ec0afaaec3fdfe",
+      "title": "SpaRC and SpaRP: Spatial Reasoning Characterization and Path Generation for Understanding Spatial Reasoning Capability of Large Language Models",
+      "year": 2024,
+      "citationCount": 0,
+      "authors": [
+        {
+          "authorId": "74410867",
+          "name": "Md Imbesat Hassan Rizvi"
+        },
+        {
+          "authorId": "2279988869",
+          "name": "Xiaodan Zhu"
+        },
+        {
+          "authorId": "2260340390",
+          "name": "Iryna Gurevych"
+        }
+      ]
+    },
+    {
+      "paperId": "7530ff872ad718828fe44fe4610d50a5c48e7063",
+      "title": "TopViewRS: Vision-Language Models as Top-View Spatial Reasoners",
+      "year": 2024,
+      "citationCount": 6,
+      "authors": [
+        {
+          "authorId": "2155795167",
+          "name": "Chengzu Li"
+        },
+        {
+          "authorId": "2294313959",
+          "name": "Caiqi Zhang"
+        },
+        {
+          "authorId": "2111825271",
+          "name": "Han Zhou"
+        },
+        {
+          "authorId": "2304551831",
+          "name": "Nigel Collier"
+        },
+        {
+          "authorId": "2260336540",
+          "name": "Anna Korhonen"
+        },
+        {
+          "authorId": "2267339029",
+          "name": "Ivan Vuli'c"
+        }
+      ]
+    },
+    {
+      "paperId": "cb0ba3aeb69fa39b4e5e94924845811881350ea0",
+      "title": "ACCORD: Closing the Commonsense Measurability Gap",
+      "year": 2024,
+      "citationCount": 0,
+      "authors": [
+        {
+          "authorId": "2304746106",
+          "name": "Franccois Roewer-Despr'es"
+        },
+        {
+          "authorId": "2007675684",
+          "name": "Jinyue Feng"
+        },
+        {
+          "authorId": "8129672",
+          "name": "Zining Zhu"
+        },
+        {
+          "authorId": "2258233516",
+          "name": "Frank Rudzicz"
+        }
+      ]
+    },
+    {
+      "paperId": "dd09949ebea95453861a33414faa47121157dd51",
+      "title": "A Human-Like Reasoning Framework for Multi-Phases Planning Task with Large Language Models",
+      "year": 2024,
+      "citationCount": 2,
+      "authors": [
+        {
+          "authorId": "2304273530",
+          "name": "Chengxing Xie"
+        },
+        {
+          "authorId": "2303477669",
+          "name": "Difan Zou"
+        }
+      ]
+    },
+    {
+      "paperId": "5795319850a8a4bf469dbfe432d56e3a02b2b5b0",
+      "title": "Planning with Multi-Constraints via Collaborative Language Agents",
+      "year": 2024,
+      "citationCount": 1,
+      "authors": [
+        {
+          "authorId": "2284302963",
+          "name": "Cong Zhang"
+        },
+        {
+          "authorId": "2151790894",
+          "name": "Derrick-Goh-Xin Deik"
+        },
+        {
+          "authorId": "2284449061",
+          "name": "Dexun Li"
+        },
+        {
+          "authorId": "2298263602",
+          "name": "Hao Zhang"
+        },
+        {
+          "authorId": "2297898895",
+          "name": "Yong Liu"
+        }
+      ]
+    },
+    {
+      "paperId": "70f77bc45e16d72df82aeeff27ad6468b099f566",
+      "title": "LLM+Reasoning+Planning for supporting incomplete user queries in presence of APIs",
+      "year": 2024,
+      "citationCount": 0,
+      "authors": [
+        {
+          "authorId": "2283763967",
+          "name": "Sudhir Agarwal"
+        },
+        {
+          "authorId": "2163106377",
+          "name": "A. Sreepathy"
+        },
+        {
+          "authorId": "2302401116",
+          "name": "David H. Alonso"
+        },
+        {
+          "authorId": "2213358377",
+          "name": "Prarit Lamba"
+        }
+      ]
+    },
+    {
+      "paperId": "ea104918ddcb97d0c433dcdfdbd21411855874f8",
+      "title": "Mind's Eye of LLMs: Visualization-of-Thought Elicits Spatial Reasoning in Large Language Models",
+      "year": 2024,
+      "citationCount": 4,
+      "authors": [
+        {
+          "authorId": "51198241",
+          "name": "Wenshan Wu"
+        },
+        {
+          "authorId": "2273419590",
+          "name": "Shaoguang Mao"
+        },
+        {
+          "authorId": "2282502075",
+          "name": "Yadong Zhang"
+        },
+        {
+          "authorId": "2258547658",
+          "name": "Yan Xia"
+        },
+        {
+          "authorId": "145307652",
+          "name": "Li Dong"
+        },
+        {
+          "authorId": "2114843952",
+          "name": "Lei Cui"
+        },
+        {
+          "authorId": "2249539478",
+          "name": "Furu Wei"
+        }
+      ]
+    },
+    {
+      "paperId": "f99be0e454b545ecb50a51e71adf579011e8f1fe",
+      "title": "Towards Automatic Composition of ASP Programs from Natural Language Specifications",
+      "year": 2024,
+      "citationCount": 2,
+      "authors": [
+        {
+          "authorId": "2122949640",
+          "name": "Manuel Borroto"
+        },
+        {
+          "authorId": "2290180895",
+          "name": "Irfan Kareem"
+        },
+        {
+          "authorId": "2158734026",
+          "name": "Francesco Ricca"
+        }
+      ]
+    },
+    {
+      "paperId": "593908583968815003049398de77585a99038fb7",
+      "title": "DeiSAM: Segment Anything with Deictic Prompting",
+      "year": 2024,
+      "citationCount": 1,
+      "authors": [
+        {
+          "authorId": "81459490",
+          "name": "Hikaru Shindo"
+        },
+        {
+          "authorId": "2166299958",
+          "name": "Manuel Brack"
+        },
+        {
+          "authorId": "9139852",
+          "name": "Gopika Sudhakaran"
+        },
+        {
+          "authorId": "39552485",
+          "name": "D. Dhami"
+        },
+        {
+          "authorId": "40896023",
+          "name": "P. Schramowski"
+        },
+        {
+          "authorId": "2113406566",
+          "name": "K. Kersting"
+        }
+      ]
+    },
+    {
+      "paperId": "24013e3f47ac786bb2a09c52adc649f6e45c7024",
+      "title": "TIC: Translate-Infer-Compile for Accurate \"Text to Plan\" Using LLMs and Logical Representations",
+      "year": 2024,
+      "citationCount": 1,
+      "authors": [
+        {
+          "authorId": "2283763967",
+          "name": "Sudhir Agarwal"
+        },
+        {
+          "authorId": "2163106377",
+          "name": "A. Sreepathy"
+        }
+      ]
+    },
+    {
+      "paperId": "7e281e8ab380affd3c5724feae038274df378511",
+      "title": "Understanding the planning of LLM agents: A survey",
+      "year": 2024,
+      "citationCount": 63,
+      "authors": [
+        {
+          "authorId": "2236672137",
+          "name": "Xu Huang"
+        },
+        {
+          "authorId": "2281903918",
+          "name": "Weiwen Liu"
+        },
+        {
+          "authorId": "2223761014",
+          "name": "Xiaolong Chen"
+        },
+        {
+          "authorId": "2223459253",
+          "name": "Xingmei Wang"
+        },
+        {
+          "authorId": "2256768674",
+          "name": "Hao Wang"
+        },
+        {
+          "authorId": "1862782",
+          "name": "Defu Lian"
+        },
+        {
+          "authorId": "2282544603",
+          "name": "Yasheng Wang"
+        },
+        {
+          "authorId": "2240536007",
+          "name": "Ruiming Tang"
+        },
+        {
+          "authorId": "2113754294",
+          "name": "Enhong Chen"
+        }
+      ]
+    },
+    {
+      "paperId": "8679575a82d9a2ba5970a96fcc5ac461aecbc90e",
+      "title": "Graph-enhanced Large Language Models in Asynchronous Plan Reasoning",
+      "year": 2024,
+      "citationCount": 11,
+      "authors": [
+        {
+          "authorId": "2279899894",
+          "name": "Fangru Lin"
+        },
+        {
+          "authorId": "1582740100",
+          "name": "Emanuele La Malfa"
+        },
+        {
+          "authorId": "1667898858",
+          "name": "Valentin Hofmann"
+        },
+        {
+          "authorId": "2282533037",
+          "name": "Elle Michelle Yang"
+        },
+        {
+          "authorId": "2248060862",
+          "name": "Anthony G. Cohn"
+        },
+        {
+          "authorId": "1970864",
+          "name": "J. Pierrehumbert"
+        }
+      ]
+    },
+    {
+      "paperId": "da68013fd293594ad21eb1c3d838d06e691a556b",
+      "title": "The Role of Foundation Models in Neuro-Symbolic Learning and Reasoning",
+      "year": 2024,
+      "citationCount": 3,
+      "authors": [
+        {
+          "authorId": "51117322",
+          "name": "Daniel Cunnington"
+        },
+        {
+          "authorId": "46264950",
+          "name": "Mark Law"
+        },
+        {
+          "authorId": "2282540777",
+          "name": "Jorge Lobo"
+        },
+        {
+          "authorId": "2260341693",
+          "name": "Alessandra Russo"
+        }
+      ]
+    },
+    {
+      "paperId": "790c556e38aa20c3b093cee7d240c43fdd4ee7d9",
+      "title": "Agile Logical Semantics for Natural Languages",
+      "year": 2024,
+      "citationCount": 4,
+      "authors": [
+        {
+          "authorId": "2277975671",
+          "name": "Vincenzo Manca"
+        }
+      ]
+    },
+    {
+      "paperId": "547c2cc8d45c22eaba7c7eb34d4e11a7d95a9cff",
+      "title": "Advancing Spatial Reasoning in Large Language Models: An In-Depth Evaluation and Enhancement Using the StepGame Benchmark",
+      "year": 2024,
+      "citationCount": 11,
+      "authors": [
+        {
+          "authorId": "2271843437",
+          "name": "Fangjun Li"
+        },
+        {
+          "authorId": "2270267298",
+          "name": "David C. Hogg"
+        },
+        {
+          "authorId": "2274009260",
+          "name": "Anthony G. Cohn"
+        }
+      ]
+    },
+    {
+      "paperId": "24ec095f35bc76e2557a63baf5bcc6dd735aabce",
+      "title": "On the Prospects of Incorporating Large Language Models (LLMs) in Automated Planning and Scheduling (APS)",
+      "year": 2024,
+      "citationCount": 22,
+      "authors": [
+        {
+          "authorId": "50847178",
+          "name": "Vishal Pallagani"
+        },
+        {
+          "authorId": "2274931404",
+          "name": "Kaushik Roy"
+        },
+        {
+          "authorId": "2166874727",
+          "name": "Bharath Muppasani"
+        },
+        {
+          "authorId": "50499750",
+          "name": "F. Fabiano"
+        },
+        {
+          "authorId": "2127872252",
+          "name": "Andrea Loreggia"
+        },
+        {
+          "authorId": "3377711",
+          "name": "K. Murugesan"
+        },
+        {
+          "authorId": "50784532",
+          "name": "Biplav Srivastava"
+        },
+        {
+          "authorId": "2052876387",
+          "name": "F. Rossi"
+        },
+        {
+          "authorId": "2522639",
+          "name": "L. Horesh"
+        },
+        {
+          "authorId": "2274935974",
+          "name": "Amit P. Sheth"
+        }
+      ]
+    },
+    {
+      "paperId": "a6c57acfbcec39af366d33db18cff1cb8803b27a",
+      "title": "Dynamic Planning with a LLM",
+      "year": 2023,
+      "citationCount": 26,
+      "authors": [
+        {
+          "authorId": "67175437",
+          "name": "Gautier Dagan"
+        },
+        {
+          "authorId": "1393020635",
+          "name": "Frank Keller"
+        },
+        {
+          "authorId": "1876168",
+          "name": "A. Lascarides"
+        }
+      ]
+    },
+    {
+      "paperId": "e3ad89dfed46df4bbaa8fb5a4837cc2a07c9eaab",
+      "title": "Teaching Probabilistic Logical Reasoning to Transformers",
+      "year": 2023,
+      "citationCount": 2,
+      "authors": [
+        {
+          "authorId": "2124879956",
+          "name": "Aliakbar Nafar"
+        },
+        {
+          "authorId": "1712010",
+          "name": "K. Venable"
+        },
+        {
+          "authorId": "2190934",
+          "name": "Parisa Kordjamshidi"
+        }
+      ]
+    },
+    {
+      "paperId": "df2c9aaf6eedd8f387536109a1e8677290b9e3ca",
+      "title": "TIC: Translate-Infer-Compile for accurate 'text to plan' using LLMs and logical intermediate representations",
+      "year": 2024,
+      "citationCount": 1,
+      "authors": [
+        {
+          "authorId": "2283763967",
+          "name": "Sudhir Agarwal"
+        },
+        {
+          "authorId": "2163106377",
+          "name": "A. Sreepathy"
+        }
+      ]
+    },
+    {
+      "paperId": "6ac5c8844e67b6be32d6b42718daf3c7d04d261d",
+      "title": "A Coachable Parser of Natural Language Advice",
+      "year": 2024,
+      "citationCount": 0,
+      "authors": [
+        {
+          "authorId": "121568241",
+          "name": "Christodoulos Ioannou"
+        },
+        {
+          "authorId": "2292187191",
+          "name": "Loizos Michael"
+        }
+      ]
+    },
+    {
+      "paperId": "3821e75d3b4ac3d971078fb14a8f59a2cd32e6a2",
+      "title": "Neuro-symbolic Tuning for Multi-hop Reasoning over Spatial Language",
+      "year": 2024,
+      "citationCount": 0,
+      "authors": [
+        {
+          "authorId": "2209196396",
+          "name": "Tanawan Premsri"
+        },
+        {
+          "authorId": "2237785349",
+          "name": "Parisa Kordjamshidi"
+        }
+      ]
+    },
+    {
+      "paperId": "61b2a7ae93a6a9fcd5e8c35a01e34c200c819e66",
+      "title": "Tuning Language Models with Spatial Logic for Complex Reasoning",
+      "year": null,
+      "citationCount": 0,
+      "authors": [
+        {
+          "authorId": "2209196396",
+          "name": "Tanawan Premsri"
+        },
+        {
+          "authorId": "2237785349",
+          "name": "Parisa Kordjamshidi"
+        }
+      ]
+    },
+    {
+      "paperId": "71946f0222ddcafbb5ecde33ffaaca7c6510b27a",
+      "title": "MemReasoner: A Memory-augmented LLM Architecture for Multi-hop Reasoning",
+      "year": null,
+      "citationCount": 1,
+      "authors": []
+    }
+  ],
+  "references": []
+}

@@ -1,0 +1,785 @@
+{
+  "citations": [
+    {
+      "paperId": "75665bdbd0162478c2e92c107ca2b0bdbac7b8e5",
+      "title": "Serving Long-Context LLMs at the Mobile Edge: Test-Time Reinforcement Learning-based Model Caching and Inference Offloading",
+      "year": 2025,
+      "citationCount": 0,
+      "authors": [
+        {
+          "authorId": "1454018677",
+          "name": "Minrui Xu"
+        },
+        {
+          "authorId": "1713586",
+          "name": "D. Niyato"
+        },
+        {
+          "authorId": "2338002455",
+          "name": "Christopher G. Brinton"
+        }
+      ]
+    },
+    {
+      "paperId": "ee859ea232328e45c7ce0332e2c8ab489ba1a2cf",
+      "title": "Reasoning-Aware Query-Focused Summarization over Multi-Table Data",
+      "year": 2024,
+      "citationCount": 0,
+      "authors": [
+        {
+          "authorId": "2309751087",
+          "name": "Xiaochuan Lin"
+        },
+        {
+          "authorId": "2309532977",
+          "name": "Xiangyong Chen"
+        }
+      ]
+    },
+    {
+      "paperId": "cb58c87ee82bf7483fa3faca25d17a1005578e44",
+      "title": "Large Models Enabled Ubiquitous Wireless Sensing",
+      "year": 2024,
+      "citationCount": 0,
+      "authors": [
+        {
+          "authorId": "2332688191",
+          "name": "Shun Hu"
+        }
+      ]
+    },
+    {
+      "paperId": "2b5aab7f676c80fa41f9e5323776132f3de5dbc8",
+      "title": "Screening Automation for Systematic Reviews: A 5-Tier Prompting Approach Meeting Cochrane’s Sensitivity Requirement",
+      "year": 2024,
+      "citationCount": 0,
+      "authors": [
+        {
+          "authorId": "2298868678",
+          "name": "Elias Sandner"
+        },
+        {
+          "authorId": null,
+          "name": "Bing Hu"
+        },
+        {
+          "authorId": "2342702632",
+          "name": "Alice Simiceanu"
+        },
+        {
+          "authorId": "2342701605",
+          "name": "Luca Fontana"
+        },
+        {
+          "authorId": "2298869850",
+          "name": "Igor Jakovljevic"
+        },
+        {
+          "authorId": "2342702783",
+          "name": "Andre Henriques"
+        },
+        {
+          "authorId": "2211640236",
+          "name": "A. Wagner"
+        },
+        {
+          "authorId": "2297194248",
+          "name": "Christian Gütl"
+        }
+      ]
+    },
+    {
+      "paperId": "33177181c599e06535ca6714801af0da66585eb2",
+      "title": "WDMoE: Wireless Distributed Mixture of Experts for Large Language Models",
+      "year": 2024,
+      "citationCount": 0,
+      "authors": [
+        {
+          "authorId": "2300093743",
+          "name": "Nan Xue"
+        },
+        {
+          "authorId": "2218341779",
+          "name": "Yaping Sun"
+        },
+        {
+          "authorId": "2241452077",
+          "name": "Zhiyong Chen"
+        },
+        {
+          "authorId": "2241372181",
+          "name": "Meixia Tao"
+        },
+        {
+          "authorId": "2300137359",
+          "name": "Xiaodong Xu"
+        },
+        {
+          "authorId": "2217411196",
+          "name": "Liang Qian"
+        },
+        {
+          "authorId": "2324081084",
+          "name": "Shuguang Cui"
+        },
+        {
+          "authorId": "2288169170",
+          "name": "Wenjun Zhang"
+        },
+        {
+          "authorId": "2300249794",
+          "name": "Ping Zhang"
+        }
+      ]
+    },
+    {
+      "paperId": "4506cfefbcb96fe69ed478ae2b99c9b939c4adb4",
+      "title": "TeleOracle: Fine-Tuned Retrieval-Augmented Generation with Long-Context Support for Network",
+      "year": 2024,
+      "citationCount": 0,
+      "authors": [
+        {
+          "authorId": "2203790348",
+          "name": "Nouf Alabbasi"
+        },
+        {
+          "authorId": "2303472475",
+          "name": "Omar Erak"
+        },
+        {
+          "authorId": "3175333",
+          "name": "Omar Alhussein"
+        },
+        {
+          "authorId": "2316560411",
+          "name": "Ismail Lotfi"
+        },
+        {
+          "authorId": "2304951320",
+          "name": "Sami Muhaidat"
+        },
+        {
+          "authorId": "2065834880",
+          "name": "M. Debbah"
+        }
+      ]
+    },
+    {
+      "paperId": "5e1732b1226ec214f65e4b96eb5d94e4de7c9e4b",
+      "title": "LLM-based Continuous Intrusion Detection Framework for Next-Gen Networks",
+      "year": 2024,
+      "citationCount": 0,
+      "authors": [
+        {
+          "authorId": "2323512566",
+          "name": "Frederic Adjewa"
+        },
+        {
+          "authorId": "2282915",
+          "name": "M. Esseghir"
+        },
+        {
+          "authorId": "1797318",
+          "name": "Leïla Merghem"
+        }
+      ]
+    },
+    {
+      "paperId": "42c05ce4147844ffe66ede596f1461cdde45f565",
+      "title": "Ripple: Accelerating LLM Inference on Smartphones with Correlation-Aware Neuron Management",
+      "year": 2024,
+      "citationCount": 0,
+      "authors": [
+        {
+          "authorId": "2298728238",
+          "name": "Tuowei Wang"
+        },
+        {
+          "authorId": "2327866008",
+          "name": "Ruwen Fan"
+        },
+        {
+          "authorId": "2328012902",
+          "name": "Minxing Huang"
+        },
+        {
+          "authorId": "2328256168",
+          "name": "Zixu Hao"
+        },
+        {
+          "authorId": "2327910782",
+          "name": "Kun Li"
+        },
+        {
+          "authorId": "2327865370",
+          "name": "Ting Cao"
+        },
+        {
+          "authorId": "2327930391",
+          "name": "Youyou Lu"
+        },
+        {
+          "authorId": "2257135626",
+          "name": "Yaoxue Zhang"
+        },
+        {
+          "authorId": "2242758573",
+          "name": "Ju Ren"
+        }
+      ]
+    },
+    {
+      "paperId": "66a56ebfb3f9b4770794a6b7ee92c43c27325bf6",
+      "title": "Chinese Text Open Domain Tag Generation Method via Large Language Model",
+      "year": 2024,
+      "citationCount": 0,
+      "authors": [
+        {
+          "authorId": "1978348101",
+          "name": "Chunhui He"
+        },
+        {
+          "authorId": "2287066074",
+          "name": "Bin Ge"
+        },
+        {
+          "authorId": "2284403596",
+          "name": "Chong Zhang"
+        }
+      ]
+    },
+    {
+      "paperId": "013fefa7c76d4f07cd5b40bb12553cb17be9e98c",
+      "title": "LLM-TS Integrator: Integrating LLM for Enhanced Time Series Modeling",
+      "year": 2024,
+      "citationCount": 0,
+      "authors": [
+        {
+          "authorId": "2327169844",
+          "name": "Can Chen"
+        },
+        {
+          "authorId": "2327724008",
+          "name": "Gabriel Oliveira"
+        },
+        {
+          "authorId": "7511214",
+          "name": "H. S. Noghabi"
+        },
+        {
+          "authorId": "2327045578",
+          "name": "Tristan Sylvain"
+        }
+      ]
+    },
+    {
+      "paperId": "3bf578a7ea03264f7362cb24bf40885211f3e898",
+      "title": "Task Offloading with Large Language Models in Mobile Edge Computing",
+      "year": 2024,
+      "citationCount": 0,
+      "authors": [
+        {
+          "authorId": "2281019359",
+          "name": "Youngjin Song"
+        },
+        {
+          "authorId": "2340381438",
+          "name": "Wookjin Lee"
+        },
+        {
+          "authorId": "2280651444",
+          "name": "Sang Hyun Lee"
+        }
+      ]
+    },
+    {
+      "paperId": "c3f0600830c75d363c89b916ef1f2a222e9b1483",
+      "title": "Telco-DPR: A Hybrid Dataset for Evaluating Retrieval Models of 3GPP Technical Specifications",
+      "year": 2024,
+      "citationCount": 0,
+      "authors": [
+        {
+          "authorId": "1578253722",
+          "name": "Thaina Saraiva"
+        },
+        {
+          "authorId": "1399856637",
+          "name": "M. Sousa"
+        },
+        {
+          "authorId": "2238062459",
+          "name": "Pedro Vieira"
+        },
+        {
+          "authorId": "2328250656",
+          "name": "Ant'onio Rodrigues"
+        }
+      ]
+    },
+    {
+      "paperId": "4614a8f413d6d3a1303c9f6a090481a377ec11b0",
+      "title": "A Study on Large Language Models in Multi Modal Learning",
+      "year": 2024,
+      "citationCount": 0,
+      "authors": [
+        {
+          "authorId": "2235730619",
+          "name": "Vinay Palakonda"
+        },
+        {
+          "authorId": "2333849679",
+          "name": "Adharapurapu V S M Ashok Kumar"
+        },
+        {
+          "authorId": "2333642912",
+          "name": "Duggirala Akshay Wesly"
+        },
+        {
+          "authorId": "2333639220",
+          "name": "Satti Hemanth Krishna Reddy"
+        },
+        {
+          "authorId": "2333641468",
+          "name": "T. S. Sri"
+        }
+      ]
+    },
+    {
+      "paperId": "11577227615efe2adee0a08196ef275a58b4a316",
+      "title": "A Review on Edge Large Language Models: Design, Execution, and Applications",
+      "year": 2024,
+      "citationCount": 0,
+      "authors": [
+        {
+          "authorId": "2326271980",
+          "name": "Yue Zheng"
+        },
+        {
+          "authorId": "2115868988",
+          "name": "Yuhao Chen"
+        },
+        {
+          "authorId": "2326118383",
+          "name": "Bin Qian"
+        },
+        {
+          "authorId": "2324311927",
+          "name": "Xiufang Shi"
+        },
+        {
+          "authorId": "2294175636",
+          "name": "Yuanchao Shu"
+        },
+        {
+          "authorId": "2326126174",
+          "name": "Jiming Chen"
+        }
+      ]
+    },
+    {
+      "paperId": "89684e3500b4b93bb3b4b380deee75892e1cf426",
+      "title": "Generative Semantic Communication via Textual Prompts: Latency Performance Tradeoffs",
+      "year": 2024,
+      "citationCount": 1,
+      "authors": [
+        {
+          "authorId": "2088896528",
+          "name": "Mengmeng Ren"
+        },
+        {
+          "authorId": "2258983485",
+          "name": "Li Qiao"
+        },
+        {
+          "authorId": "2321409586",
+          "name": "Long Yang"
+        },
+        {
+          "authorId": "2293693238",
+          "name": "Zhen Gao"
+        },
+        {
+          "authorId": "2321493908",
+          "name": "Jian Chen"
+        },
+        {
+          "authorId": "3202702",
+          "name": "Mahdi Boloursaz Mashhadi"
+        },
+        {
+          "authorId": "2293392561",
+          "name": "Pei Xiao"
+        },
+        {
+          "authorId": "2249156232",
+          "name": "Rahim Tafazolli"
+        },
+        {
+          "authorId": "2279548875",
+          "name": "Mehdi Bennis"
+        }
+      ]
+    },
+    {
+      "paperId": "1dc382f81ea304b185f54bb723e707911e9d5857",
+      "title": "An overview of domain-specific foundation model: key technologies, applications and challenges",
+      "year": 2024,
+      "citationCount": 2,
+      "authors": [
+        {
+          "authorId": "2321484859",
+          "name": "Haolong Chen"
+        },
+        {
+          "authorId": "2308402664",
+          "name": "Hanzhi Chen"
+        },
+        {
+          "authorId": "2276001508",
+          "name": "Zijian Zhao"
+        },
+        {
+          "authorId": "2321665692",
+          "name": "Kaifeng Han"
+        },
+        {
+          "authorId": "2279763083",
+          "name": "Guangxu Zhu"
+        },
+        {
+          "authorId": "2320189443",
+          "name": "Yichen Zhao"
+        },
+        {
+          "authorId": "2320191048",
+          "name": "Ying Du"
+        },
+        {
+          "authorId": "2320160104",
+          "name": "Wei Xu"
+        },
+        {
+          "authorId": "2195395160",
+          "name": "Qingjiang Shi"
+        }
+      ]
+    },
+    {
+      "paperId": "ef0e48398da9b119fdcabdaa39c9c06285744a74",
+      "title": "Self-Refined Generative Foundation Models for Wireless Traffic Prediction",
+      "year": 2024,
+      "citationCount": 2,
+      "authors": [
+        {
+          "authorId": "11577774",
+          "name": "Chengming Hu"
+        },
+        {
+          "authorId": "2302316320",
+          "name": "Hao Zhou"
+        },
+        {
+          "authorId": "2302271437",
+          "name": "Di Wu"
+        },
+        {
+          "authorId": "2276755492",
+          "name": "Xi Chen"
+        },
+        {
+          "authorId": "2276572925",
+          "name": "Jun Yan"
+        },
+        {
+          "authorId": "2303713550",
+          "name": "Xue Liu"
+        }
+      ]
+    },
+    {
+      "paperId": "d4bb8944808beb47683e84282626ac3c20a1fbe5",
+      "title": "Generative AI as a Service in 6G Edge-Cloud: Generation Task Offloading by In-context Learning",
+      "year": 2024,
+      "citationCount": 2,
+      "authors": [
+        {
+          "authorId": "2302316320",
+          "name": "Hao Zhou"
+        },
+        {
+          "authorId": "11577774",
+          "name": "Chengming Hu"
+        },
+        {
+          "authorId": "2212193383",
+          "name": "Dun Yuan"
+        },
+        {
+          "authorId": "2283264350",
+          "name": "Ye Yuan"
+        },
+        {
+          "authorId": "2302271437",
+          "name": "Di Wu"
+        },
+        {
+          "authorId": "2303713550",
+          "name": "Xue Liu"
+        },
+        {
+          "authorId": "2315640755",
+          "name": "Zhu Han"
+        },
+        {
+          "authorId": "2288317098",
+          "name": "Charlie Zhang"
+        }
+      ]
+    },
+    {
+      "paperId": "85b507dd510081b36f22eb59ac4364f7c5eb04e6",
+      "title": "Large Language Model (LLM)-enabled In-context Learning for Wireless Network Optimization: A Case Study of Power Control",
+      "year": 2024,
+      "citationCount": 2,
+      "authors": [
+        {
+          "authorId": "2302316320",
+          "name": "Hao Zhou"
+        },
+        {
+          "authorId": "11577774",
+          "name": "Chengming Hu"
+        },
+        {
+          "authorId": "2212193383",
+          "name": "Dun Yuan"
+        },
+        {
+          "authorId": "2283264350",
+          "name": "Ye Yuan"
+        },
+        {
+          "authorId": "2302271437",
+          "name": "Di Wu"
+        },
+        {
+          "authorId": "2303713550",
+          "name": "Xue Liu"
+        },
+        {
+          "authorId": "2288317098",
+          "name": "Charlie Zhang"
+        }
+      ]
+    },
+    {
+      "paperId": "58549ff432aa1c176eec8a2c81e75af676cb4b10",
+      "title": "Evaluation of RAG Metrics for Question Answering in the Telecom Domain",
+      "year": 2024,
+      "citationCount": 6,
+      "authors": [
+        {
+          "authorId": "2284351918",
+          "name": "Sujoy Roychowdhury"
+        },
+        {
+          "authorId": "3336244",
+          "name": "Sumit Soman"
+        },
+        {
+          "authorId": "145229246",
+          "name": "H. G. Ranjani"
+        },
+        {
+          "authorId": "2307071525",
+          "name": "Neeraj Gunda"
+        },
+        {
+          "authorId": "2307072193",
+          "name": "Vansh Chhabra"
+        },
+        {
+          "authorId": "2307071756",
+          "name": "Sai Krishna Bala"
+        }
+      ]
+    },
+    {
+      "paperId": "27700c45a0a38d72a4e12b48853b16f94ef77107",
+      "title": "ORAN-Bench-13K: An Open Source Benchmark for Assessing LLMs in Open Radio Access Networks",
+      "year": 2024,
+      "citationCount": 2,
+      "authors": [
+        {
+          "authorId": "2139927372",
+          "name": "Pranshav Gajjar"
+        },
+        {
+          "authorId": "2310441213",
+          "name": "Vijay K. Shah"
+        }
+      ]
+    },
+    {
+      "paperId": "3266981f8129e839d04c0a6524f1e81a2fea54d6",
+      "title": "LLM4CP: Adapting Large Language Models for Channel Prediction",
+      "year": 2024,
+      "citationCount": 4,
+      "authors": [
+        {
+          "authorId": "2292892852",
+          "name": "Boxun Liu"
+        },
+        {
+          "authorId": "2307463871",
+          "name": "Xuanyu Liu"
+        },
+        {
+          "authorId": "7356083",
+          "name": "Shijian Gao"
+        },
+        {
+          "authorId": "2255391655",
+          "name": "Xiang Cheng"
+        },
+        {
+          "authorId": "2173323485",
+          "name": "Liuqing Yang"
+        }
+      ]
+    },
+    {
+      "paperId": "d2a1de78a1ff69ff9d07e4634aa3a765e2d6eeda",
+      "title": "Large Language Models for UAVs: Current State and Pathways to the Future",
+      "year": 2024,
+      "citationCount": 6,
+      "authors": [
+        {
+          "authorId": "35569938",
+          "name": "Shumaila Javaid"
+        },
+        {
+          "authorId": "40363775",
+          "name": "Hamza Fahim"
+        },
+        {
+          "authorId": "2300043232",
+          "name": "Bin He"
+        },
+        {
+          "authorId": "2299941685",
+          "name": "Nasir Saeed"
+        }
+      ]
+    },
+    {
+      "paperId": "b80fe8a916e32a745573afbbaf1741a5c33020f2",
+      "title": "NetLLM: Adapting Large Language Models for Networking",
+      "year": 2024,
+      "citationCount": 12,
+      "authors": [
+        {
+          "authorId": "2232839096",
+          "name": "Duo Wu"
+        },
+        {
+          "authorId": "2282900077",
+          "name": "Xianda Wang"
+        },
+        {
+          "authorId": "2282543308",
+          "name": "Yaqi Qiao"
+        },
+        {
+          "authorId": "2282565866",
+          "name": "Zhi Wang"
+        },
+        {
+          "authorId": "2282544341",
+          "name": "Junchen Jiang"
+        },
+        {
+          "authorId": "2282586723",
+          "name": "Shuguang Cui"
+        },
+        {
+          "authorId": "2283096903",
+          "name": "Fangxin Wang"
+        }
+      ]
+    },
+    {
+      "paperId": "3dc0e3f0aeab04a5ef37c569736900b3a7e9d20b",
+      "title": "A Survey on XAI for 5G and Beyond Security: Technical Aspects, Challenges and Research Directions",
+      "year": 2022,
+      "citationCount": 12,
+      "authors": [
+        {
+          "authorId": "2046785867",
+          "name": "Thulitha Senevirathna"
+        },
+        {
+          "authorId": "3138834",
+          "name": "Vinh Hoa La"
+        },
+        {
+          "authorId": "34810365",
+          "name": "Samuel Marchal"
+        },
+        {
+          "authorId": "7553450",
+          "name": "Bartlomiej Siniarski"
+        },
+        {
+          "authorId": "145332300",
+          "name": "Madhusanka Liyanage"
+        },
+        {
+          "authorId": "2151226335",
+          "name": "Shen Wang"
+        }
+      ]
+    },
+    {
+      "paperId": "471e270a6e1943c9bf1472dfdd4c9df7671344e6",
+      "title": "Large Language Models (LLMs) for Wireless Networks: An Overview from the Prompt Engineering Perspective",
+      "year": 2024,
+      "citationCount": 0,
+      "authors": [
+        {
+          "authorId": "2302316320",
+          "name": "Hao Zhou"
+        },
+        {
+          "authorId": "11577774",
+          "name": "Chengming Hu"
+        },
+        {
+          "authorId": "2212193383",
+          "name": "Dun Yuan"
+        },
+        {
+          "authorId": "2283264350",
+          "name": "Ye Yuan"
+        },
+        {
+          "authorId": "2302271437",
+          "name": "Di Wu"
+        },
+        {
+          "authorId": "2276755492",
+          "name": "Xi Chen"
+        },
+        {
+          "authorId": "2308332923",
+          "name": "Hina Tabassum"
+        },
+        {
+          "authorId": "2303713550",
+          "name": "Xue Liu"
+        }
+      ]
+    }
+  ],
+  "references": []
+}
