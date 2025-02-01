@@ -3,25 +3,39 @@ import * as d3 from 'd3';
 import { fetchCitationNetwork } from '../../api/papers';
 import './CitationNetwork.css';
 
-const CitationNetwork = ({ query, topK }) => {
+const CitationNetwork = ({ 
+    query, 
+    topK, 
+    onNodeClick,  // 新增：处理节点点击
+    onNodeHover,  // 新增：处理节点悬停
+    selectedPaperId,  // 新增：当前选中的论文ID
+    hoveredPaperId   // 新增：当前悬停的论文ID
+}) => {
     const svgRef = useRef(null);
+    const nodesRef = useRef(null);  // 添加一个ref来存储nodes选择器
 
+    // 移动到组件级别的更新函数
+    const updateNodesState = () => {
+        if (nodesRef.current) {
+            nodesRef.current
+                .attr("stroke", d => {
+                    if (d.id === selectedPaperId) return "#ff4444";
+                    if (d.id === hoveredPaperId) return "#4444ff";
+                    return "#fff";
+                })
+                .attr("stroke-width", d => {
+                    if (d.id === selectedPaperId) return 3;
+                    if (d.id === hoveredPaperId) return 2;
+                    return 1;
+                });
+        }
+    };
+
+    // 监听属性变化的useEffect移到组件级别
     useEffect(() => {
-        const fetchAndRenderNetwork = async () => {
-            try {
-                const data = await fetchCitationNetwork(query, topK);
-                if (data) {
-                    renderNetwork(data);
-                }
-            } catch (error) {
-                console.error('Failed to fetch citation network:', error);
-            }
-        };
+        updateNodesState();
+    }, [selectedPaperId, hoveredPaperId]);
 
-        fetchAndRenderNetwork();
-    }, [query, topK]);
-
-    // ===== 这是修改后的 renderNetwork 函数 =====
     const renderNetwork = (data) => {
         const svg = d3.select(svgRef.current);
         
@@ -88,20 +102,10 @@ const CitationNetwork = ({ query, topK }) => {
                 d3.min(data.nodes, d => d.year), 
                 d3.max(data.nodes, d => d.year)
             ])
-            // 将 interpolateViridis 改为蓝色系的渐变
-            // 可以选择以下几种蓝色渐变方案：
-            
-            // 方案1: 使用 interpolateBlues - 从浅蓝到深蓝
-            .interpolator(d3.interpolateBlues)
-            
-            // 方案2: 自定义蓝色渐变范围
-            // .interpolator(d3.interpolate("#E3F2FD", "#1565C0"))
-            
-            // 方案3: 使用 interpolatePuBu - 从浅蓝紫到深蓝
-            // .interpolator(d3.interpolatePuBu)
-            
-            // 方案4: 使用 cool 色调 - 从青色到蓝色
-            // .interpolator(d3.interpolateCool)
+            // 使用自定义的蓝色范围，确保最浅的颜色也足够可见
+            // .interpolator(d3.interpolate("#4A90E2", "#E3F2FD"))  // 从深蓝到浅蓝
+            // 或者使用这个更深的范围
+            .interpolator(d3.interpolate("#1565C0", "#90CAF9"))  // 从更深的蓝到中等的蓝
 
         // 绘制连线
         const links = container.append("g")
@@ -127,8 +131,15 @@ const CitationNetwork = ({ query, topK }) => {
                     : Math.min(baseSize + Math.sqrt(citations), 30);
             })
             .attr("fill", d => colorScale(d.year))
-            .attr("stroke", "#fff")
-            .attr("stroke-width", 1);
+            .attr("stroke", d => d.id === selectedPaperId ? "#ff4444" : "#fff")  // 选中状态边框
+            .attr("stroke-width", d => d.id === selectedPaperId ? 3 : 1)         // 选中状态边框宽度
+            .style("cursor", "pointer");  // 添加鼠标手型
+
+        // 保存nodes引用
+        nodesRef.current = nodes;
+
+        // 初始更新节点状态
+        updateNodesState();
 
         // 添加节点标签
         const labels = container.append("g")
@@ -143,23 +154,45 @@ const CitationNetwork = ({ query, topK }) => {
             .attr("fill", "#333")
             .style("pointer-events", "none");
 
-        // 节点 hover 显示 tooltip
-        nodes.on("mouseover", function(event, d) {
-            const tooltip = d3.select(".tooltip");
-            tooltip.style("visibility", "visible")
-                .html(`
-                    <strong>${d.title}</strong><br/>
-                    Year: ${d.year}<br/>
-                    Citations: ${d.citations_count}
-                `);
-        }).on("mousemove", function(event) {
-            // 让 tooltip 跟随鼠标
-            d3.select(".tooltip")
-              .style("top", (event.pageY -120) + "px")
-              .style("left", (event.pageX -500) + "px");
-        }).on("mouseout", function() {
-            d3.select(".tooltip").style("visibility", "hidden");
-        });
+        // 修改节点的事件处理
+        nodes
+            .on("click", (event, d) => {
+                // 添加调试日志
+                console.log('Clicked node:', d);
+                if (onNodeClick) {
+                    onNodeClick(d);
+                }
+            })
+            .on("mouseover", function(event, d) {
+                // 保持原有的 tooltip 功能
+                const tooltip = d3.select(".tooltip");
+                tooltip.style("visibility", "visible")
+                    .html(`
+                        <strong>${d.title}</strong><br/>
+                        Year: ${d.year}<br/>
+                        Citations: ${d.citations_count}
+                    `);
+                
+                // 调用父组件传入的悬停回调
+                if (onNodeHover) {
+                    onNodeHover(d);
+                }
+            })
+            .on("mousemove", function(event) {
+                // 保持原有的 tooltip 移动功能
+                d3.select(".tooltip")
+                    .style("top", (event.pageY - 120) + "px")
+                    .style("left", (event.pageX - 500) + "px");
+            })
+            .on("mouseout", function() {
+                // 隐藏 tooltip
+                d3.select(".tooltip").style("visibility", "hidden");
+                
+                // 清除悬停状态
+                if (onNodeHover) {
+                    onNodeHover(null);
+                }
+            });
 
         // 更新力导向图位置
         simulation.on("tick", () => {
@@ -178,7 +211,21 @@ const CitationNetwork = ({ query, topK }) => {
                 .attr("y", d => d.y);
         });
     };
-    // ==========以上是修改后的呈现逻辑==========
+
+    useEffect(() => {
+        const fetchAndRenderNetwork = async () => {
+            try {
+                const data = await fetchCitationNetwork(query, topK);
+                if (data) {
+                    renderNetwork(data);
+                }
+            } catch (error) {
+                console.error('Failed to fetch citation network:', error);
+            }
+        };
+
+        fetchAndRenderNetwork();
+    }, [query, topK]);
 
     return (
         <div className="citation-network">

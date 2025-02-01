@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, useRef } from 'react';
 import { Box, Typography, Tabs, Tab } from '@mui/material';
 import ParticleBackground from '../components/common/ParticleBackground';
 import PaperList from '../components/papers/PaperList';
@@ -20,6 +20,9 @@ const SearchResults = () => {
     topK: 60
   });
   const [activeTab, setActiveTab] = useState('network');
+  const [selectedPaperId, setSelectedPaperId] = useState(null);
+  const [hoveredPaperId, setHoveredPaperId] = useState(null);
+  const paperListRef = useRef(null);
 
   const handleSearch = async (query, searchFilters) => {
     try {
@@ -50,6 +53,35 @@ const SearchResults = () => {
 
   const handleTabChange = (event, newValue) => {
     setActiveTab(newValue);
+  };
+
+  const handlePaperSelect = (paper) => {
+    setSelectedPaper(paper);
+    setSelectedPaperId(paper.id);
+  };
+
+  const handleNodeClick = (node) => {
+    console.log('Node data:', node);
+    setSelectedPaperId(node.id);
+    
+    const selectedPaper = searchResults.find(p => p.id === node.id);
+    console.log('Found paper:', selectedPaper);
+    console.log('All papers:', searchResults);
+    
+    if (selectedPaper) {
+        setSelectedPaper(selectedPaper);
+        
+        const paperElement = document.querySelector(`[data-paper-id="${node.id}"]`);
+        if (paperElement) {
+            paperElement.scrollIntoView({ behavior: 'smooth', block: 'center' });
+        }
+    } else {
+        console.warn('Paper not found in search results:', node.id);
+    }
+  };
+
+  const handleNodeHover = (node) => {
+    setHoveredPaperId(node ? node.id : null);
   };
 
   return (
@@ -87,8 +119,11 @@ const SearchResults = () => {
             
             <PaperList 
               papers={searchResults} 
-              selectedPaper={selectedPaper}
-              onSelectPaper={setSelectedPaper}
+              selectedPaperId={selectedPaperId}
+              hoveredPaperId={hoveredPaperId}
+              onPaperSelect={handlePaperSelect}
+              onPaperHover={setHoveredPaperId}
+              ref={paperListRef}
             />
           </Box>
 
@@ -109,7 +144,11 @@ const SearchResults = () => {
               {activeTab === 'network' && (
                 <CitationNetwork 
                   query={searchQuery} 
-                  topK={_filters.topK} 
+                  topK={_filters.topK}
+                  onNodeClick={handleNodeClick}
+                  onNodeHover={handleNodeHover}
+                  selectedPaperId={selectedPaperId}
+                  hoveredPaperId={hoveredPaperId}
                 />
               )}
               {activeTab === 'review' && (

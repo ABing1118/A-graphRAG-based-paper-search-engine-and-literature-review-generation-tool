@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { forwardRef } from 'react';
 import {
   List,
   ListItem,
@@ -8,26 +8,31 @@ import {
   Box,
 } from '@mui/material';
 
-const PaperList = ({ papers, selectedPaper, onSelectPaper }) => {
+const PaperList = forwardRef(({ 
+    papers, 
+    selectedPaperId,
+    hoveredPaperId,
+    onPaperSelect,
+    onPaperHover
+}, ref) => {
   // 处理空数据情况
   if (!papers.length) {
     return <p>没有找到结果</p>;
   }
 
   return (
-    <List sx={{ 
-      p: 2,                                    // 移除默认内边距
-    }}>
+    <List ref={ref} sx={{ p: 2 }}>
       {papers.map((paper) => (
-        <ListItem key={paper.id} sx={{ 
-          px: 0,   // 水平内边距为0
-          py: 1    // 垂直内边距为1个单位（8px）
-        }}>
+        <ListItem key={paper.id} sx={{ px: 0, py: 1 }}>
           <Card 
-            sx={{ 
-              width: '100%',     // 卡片宽度100%
+            data-paper-id={paper.id}  // 添加data属性用于滚动定位
+            onClick={() => onPaperSelect(paper)}
+            onMouseEnter={() => onPaperHover(paper.id)}
+            onMouseLeave={() => onPaperHover(null)}
+            sx={{
+              width: '100%',
               // 背景色：选中时为淡蓝色(8%透明度)，未选中时为40%透明度的白色
-              background: paper.id === selectedPaper?.id 
+              background: paper.id === selectedPaperId 
                 ? 'rgba(25, 118, 210, 0.08)'
                 : 'rgba(255, 255, 255, 0.2)',  // 降低单个卡片的透明度
               backdropFilter: 'blur(2px)',      // 减小模糊效果让背景粒子更清晰
@@ -38,7 +43,6 @@ const PaperList = ({ papers, selectedPaper, onSelectPaper }) => {
                 transition: 'all 0.3s ease-in-out'       // 0.3秒过渡动画
               }
             }}
-            onClick={() => onSelectPaper(paper)}
           >
             <CardContent>
               {/* 论文标题 */}
@@ -48,7 +52,7 @@ const PaperList = ({ papers, selectedPaper, onSelectPaper }) => {
                 gutterBottom
                 sx={{ 
                   // 字体粗细：选中时加粗
-                  fontWeight: paper.id === selectedPaper?.id ? 'bold' : 'medium',
+                  fontWeight: paper.id === selectedPaperId ? 'bold' : 'medium',
                   lineHeight: 1.2,  // 行高：1.2倍
                   mb: 1            // 下边距：1个单位（8px）
                 }}
@@ -81,6 +85,8 @@ const PaperList = ({ papers, selectedPaper, onSelectPaper }) => {
       ))}
     </List>
   );
-};
+});
+
+PaperList.displayName = 'PaperList';
 
 export default PaperList; 
