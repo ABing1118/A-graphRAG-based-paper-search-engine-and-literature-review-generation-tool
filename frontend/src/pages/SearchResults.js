@@ -61,12 +61,9 @@ const SearchResults = () => {
   };
 
   const handleNodeClick = (node) => {
-    console.log('Node data:', node);
     setSelectedPaperId(node.id);
     
     const selectedPaper = searchResults.find(p => p.id === node.id);
-    console.log('Found paper:', selectedPaper);
-    console.log('All papers:', searchResults);
     
     if (selectedPaper) {
         setSelectedPaper(selectedPaper);

@@ -1,7 +1,8 @@
-import React, { useEffect, useRef } from 'react';
+import React, { useEffect, useRef, useState } from 'react';
 import * as d3 from 'd3';
-import { fetchCitationNetwork } from '../../api/papers';
+import { fetchCitationNetwork, fetchPaperSubNetwork } from '../../api/papers';
 import './CitationNetwork.css';
+import SubNetwork from './SubNetwork';
 
 const CitationNetwork = ({ 
     query, 
@@ -13,6 +14,9 @@ const CitationNetwork = ({
 }) => {
     const svgRef = useRef(null);
     const nodesRef = useRef(null);  // 添加一个ref来存储nodes选择器
+    const [subNetworkData, setSubNetworkData] = useState(null);
+    const [loading, setLoading] = useState(false);  // 添加loading状态
+    const abortControllerRef = useRef(null);  // 添加 AbortController 引用
 
     // 移动到组件级别的更新函数
     const updateNodesState = () => {
@@ -56,6 +60,19 @@ const CitationNetwork = ({
 
         // 创建一个容器来包含所有元素
         const container = svg.append("g");
+
+        // 修改箭头定义，让箭头指向圆心
+        container.append("defs").append("marker")
+            .attr("id", "arrowhead")
+            .attr("viewBox", "0 -5 10 10")
+            .attr("refX", 10)  // 改为0，让箭头指向圆心
+            .attr("refY", 0)
+            .attr("markerWidth", 8)
+            .attr("markerHeight", 8)
+            .attr("orient", "auto")
+            .append("path")
+            .attr("d", "M0,-5L10,0L0,5")
+            .attr("fill", "#999");
 
         // 创建缩放行为
         const zoom = d3.zoom()
@@ -115,15 +132,17 @@ const CitationNetwork = ({
             // 或者使用这个更深的范围
             .interpolator(d3.interpolate("#1565C0", "#90CAF9"))  // 从更深的蓝到中等的蓝
 
-        // 绘制连线
+        // 修改连线绘制，使用path而不是line来实现曲线效果
         const links = container.append("g")
-            .selectAll("line")
+            .selectAll("path")
             .data(data.edges)
             .enter()
-            .append("line")
-            .attr("stroke", "#2a5a8c")
-            .attr("stroke-opacity", 0.4) // 降低透明度,减少密集线的干扰
-            .attr("stroke-width", 2);
+            .append("path")
+            .attr("stroke", "#999")
+            .attr("stroke-opacity", 0.6)
+            .attr("stroke-width", 1)
+            .attr("fill", "none")
+            .attr("marker-end", "url(#arrowhead)");
 
         // 绘制节点
         const nodes = container.append("g")
@@ -161,9 +180,10 @@ const CitationNetwork = ({
 
         // 修改节点的事件处理
         nodes
-            .on("click", (event, d) => {
-                // 添加调试日志
-                console.log('Clicked node:', d);
+            .on("click", async (event, d) => {
+                // 调用handleNodeClick
+                await handleNodeClick(event, d);
+                // 保留原有的onNodeClick回调
                 if (onNodeClick) {
                     onNodeClick(d);
                 }
@@ -199,13 +219,29 @@ const CitationNetwork = ({
                 }
             });
 
-        // 更新力导向图位置
+        // 修改tick函数，使用曲线路径
         simulation.on("tick", () => {
-            links
-                .attr("x1", d => d.source.x)
-                .attr("y1", d => d.source.y)
-                .attr("x2", d => d.target.x)
-                .attr("y2", d => d.target.y);
+            links.attr("d", d => {
+                const sourceRadius = d.source.citations_count ? 
+                    citationScale(d.source.citations_count) : 5;
+                const targetRadius = d.target.citations_count ? 
+                    citationScale(d.target.citations_count) : 5;
+                    
+                // 计算方向向量
+                const dx = d.target.x - d.source.x;
+                const dy = d.target.y - d.source.y;
+                const dr = Math.sqrt(dx * dx + dy * dy);
+                
+                // 计算起点和终点（考虑节点半径）
+                if (dr === 0) return "M0,0L0,0";
+                
+                const sourceX = d.source.x + (dx * sourceRadius) / dr;
+                const sourceY = d.source.y + (dy * sourceRadius) / dr;
+                const targetX = d.target.x - (dx * targetRadius) / dr;
+                const targetY = d.target.y - (dy * targetRadius) / dr;
+                
+                return `M${sourceX},${sourceY}L${targetX},${targetY}`;
+            });
 
             nodes
                 .attr("cx", d => d.x)
@@ -232,10 +268,79 @@ const CitationNetwork = ({
         fetchAndRenderNetwork();
     }, [query, topK]);
 
+    // 修改节点点击处理函数
+    const handleNodeClick = async (event, d) => {
+        try {
+            // 创建新的 AbortController
+            abortControllerRef.current = new AbortController();
+            
+            setLoading(true);
+            setSubNetworkData({
+                nodes: [{
+                    id: d.id,
+                    title: d.title || "Loading...",
+                    type: "center"
+                }],
+                edges: []
+            });
+            
+            const data = await fetchPaperSubNetwork(d.id, abortControllerRef.current.signal);
+            setSubNetworkData(data);
+        } catch (error) {
+            // 如果是取消请求，就不显示错误
+            if (error.message === 'Request canceled') {
+                console.log('Request was canceled');
+                // 清除加载状态和数据
+                setSubNetworkData(null);
+            } else {
+                console.error('Failed to fetch sub-network:', error);
+                // 可以选择显示错误状态
+                setSubNetworkData({
+                    nodes: [{
+                        id: d.id,
+                        title: "Error loading network",
+                        type: "center"
+                    }],
+                    edges: []
+                });
+            }
+        } finally {
+            setLoading(false);
+        }
+    };
+
+    const handleClose = () => {
+        // 中断请求
+        if (abortControllerRef.current) {
+            console.log('Aborting request...');
+            abortControllerRef.current.abort();
+            abortControllerRef.current = null;
+        }
+        setSubNetworkData(null);
+        setLoading(false);
+    };
+
+    // 在组件卸载时也要清理
+    useEffect(() => {
+        return () => {
+            if (abortControllerRef.current) {
+                abortControllerRef.current.abort();
+                abortControllerRef.current = null;
+            }
+        };
+    }, []);
+
     return (
         <div className="citation-network">
             <svg ref={svgRef} width="100%" height="100%"></svg>
             <div className="tooltip"></div>
+            {(subNetworkData || loading) && (
+                <SubNetwork 
+                    data={subNetworkData}
+                    loading={loading}
+                    onClose={handleClose}  // 使用新的关闭处理函数
+                />
+            )}
         </div>
     );
 };
