@@ -186,11 +186,12 @@ const CitationNetwork = ({
                     onNodeClick(d);
                 }
             })
-            .on("contextmenu", async (event, d) => {
+            .on("contextmenu", (event, d) => {
                 // 阻止默认的右键菜单
                 event.preventDefault();
-                // 右键点击显示子网
-                await handleNodeClick(event, d);
+                // 在新标签页打开子网络
+                const url = `/subnetwork?paperId=${d.id}&title=${encodeURIComponent(d.title)}`;
+                window.open(url, '_blank');
             })
             .on("mouseover", function(event, d) {
                 // 保持原有的 tooltip 功能

@@ -1,0 +1,830 @@
+{
+  "citations": [
+    {
+      "paperId": "612e51a39a7a6e4d30a770f15bec7dbe636baa64",
+      "title": "Enhancing Communication and Data Transmission Security in RAG Using Large Language Models",
+      "year": 2024,
+      "citationCount": 0,
+      "authors": [
+        {
+          "authorId": "2327560554",
+          "name": "Venkata Gummadi"
+        },
+        {
+          "authorId": "116919272",
+          "name": "Pamula Udayaraju"
+        },
+        {
+          "authorId": "2333639027",
+          "name": "Venkata Rahul Sarabu"
+        },
+        {
+          "authorId": "2327566981",
+          "name": "Chaitanya Ravulu"
+        },
+        {
+          "authorId": "2333624787",
+          "name": "Dhanunjay Reddy Seelam"
+        },
+        {
+          "authorId": "2333629251",
+          "name": "S. Venkataramana"
+        }
+      ]
+    }
+  ],
+  "references": [
+    {
+      "paperId": "c6cee000159c440b18e8ed3184e8d82b56aa738c",
+      "title": "Intentional Biases in LLM Responses",
+      "year": 2023,
+      "citationCount": 3,
+      "authors": [
+        {
+          "authorId": "2266465117",
+          "name": "Nicklaus Badyal"
+        },
+        {
+          "authorId": "48227556",
+          "name": "Derek Jacoby"
+        },
+        {
+          "authorId": "2265382947",
+          "name": "Yvonne Coady"
+        }
+      ]
+    },
+    {
+      "paperId": "104b0bb1da562d53cbda87aec79ef6a2827d191a",
+      "title": "Llama 2: Open Foundation and Fine-Tuned Chat Models",
+      "year": 2023,
+      "citationCount": 9062,
+      "authors": [
+        {
+          "authorId": "2113243762",
+          "name": "Hugo Touvron"
+        },
+        {
+          "authorId": "143792623",
+          "name": "Louis Martin"
+        },
+        {
+          "authorId": "2059203763",
+          "name": "Kevin R. Stone"
+        },
+        {
+          "authorId": "2214809450",
+          "name": "Peter Albert"
+        },
+        {
+          "authorId": "2634674",
+          "name": "Amjad Almahairi"
+        },
+        {
+          "authorId": "2223764353",
+          "name": "Yasmine Babaei"
+        },
+        {
+          "authorId": "2223756247",
+          "name": "Nikolay Bashlykov"
+        },
+        {
+          "authorId": "47505161",
+          "name": "Soumya Batra"
+        },
+        {
+          "authorId": "51229603",
+          "name": "Prajjwal Bhargava"
+        },
+        {
+          "authorId": "2116473",
+          "name": "Shruti Bhosale"
+        },
+        {
+          "authorId": "2023469",
+          "name": "D. Bikel"
+        },
+        {
+          "authorId": "2040305955",
+          "name": "Lukas Blecher"
+        },
+        {
+          "authorId": "66286536",
+          "name": "Cristian Cantón Ferrer"
+        },
+        {
+          "authorId": "2108267192",
+          "name": "Moya Chen"
+        },
+        {
+          "authorId": "7153363",
+          "name": "Guillem Cucurull"
+        },
+        {
+          "authorId": "71039937",
+          "name": "David Esiobu"
+        },
+        {
+          "authorId": "2166312768",
+          "name": "Jude Fernandes"
+        },
+        {
+          "authorId": "2223974989",
+          "name": "Jeremy Fu"
+        },
+        {
+          "authorId": "2223742000",
+          "name": "Wenyin Fu"
+        },
+        {
+          "authorId": "2223748737",
+          "name": "Brian Fuller"
+        },
+        {
+          "authorId": "2107063269",
+          "name": "Cynthia Gao"
+        },
+        {
+          "authorId": "28554843",
+          "name": "Vedanuj Goswami"
+        },
+        {
+          "authorId": "39589154",
+          "name": "Naman Goyal"
+        },
+        {
+          "authorId": "4305645",
+          "name": "A. Hartshorn"
+        },
+        {
+          "authorId": "2195458",
+          "name": "Saghar Hosseini"
+        },
+        {
+          "authorId": "2132302721",
+          "name": "Rui Hou"
+        },
+        {
+          "authorId": "2065277797",
+          "name": "Hakan Inan"
+        },
+        {
+          "authorId": "2059886128",
+          "name": "Marcin Kardas"
+        },
+        {
+          "authorId": "2190957318",
+          "name": "Viktor Kerkez"
+        },
+        {
+          "authorId": "2072010",
+          "name": "Madian Khabsa"
+        },
+        {
+          "authorId": "2207049",
+          "name": "Isabel M. Kloumann"
+        },
+        {
+          "authorId": "2135297476",
+          "name": "A. Korenev"
+        },
+        {
+          "authorId": "2146367061",
+          "name": "Punit Singh Koura"
+        },
+        {
+          "authorId": "114952298",
+          "name": "M. Lachaux"
+        },
+        {
+          "authorId": "46183616",
+          "name": "Thibaut Lavril"
+        },
+        {
+          "authorId": "2223749565",
+          "name": "Jenya Lee"
+        },
+        {
+          "authorId": "2145259939",
+          "name": "Diana Liskovich"
+        },
+        {
+          "authorId": "1768032",
+          "name": "Yinghai Lu"
+        },
+        {
+          "authorId": "3375249",
+          "name": "Yuning Mao"
+        },
+        {
+          "authorId": "1490887583",
+          "name": "Xavier Martinet"
+        },
+        {
+          "authorId": "39980906",
+          "name": "Todor Mihaylov"
+        },
+        {
+          "authorId": "3047561",
+          "name": "Pushkar Mishra"
+        },
+        {
+          "authorId": "2322981055",
+          "name": "Igor Molybog"
+        },
+        {
+          "authorId": "40383658",
+          "name": "Yixin Nie"
+        },
+        {
+          "authorId": "38579672",
+          "name": "Andrew Poulton"
+        },
+        {
+          "authorId": "39906022",
+          "name": "Jeremy Reizenstein"
+        },
+        {
+          "authorId": "150282885",
+          "name": "Rashi Rungta"
+        },
+        {
+          "authorId": "1859294",
+          "name": "Kalyan Saladi"
+        },
+        {
+          "authorId": "14279694",
+          "name": "Alan Schelten"
+        },
+        {
+          "authorId": "2214818043",
+          "name": "Ruan Silva"
+        },
+        {
+          "authorId": "51324296",
+          "name": "Eric Michael Smith"
+        },
+        {
+          "authorId": "2066074360",
+          "name": "R. Subramanian"
+        },
+        {
+          "authorId": "2112782199",
+          "name": "Xia Tan"
+        },
+        {
+          "authorId": "71292072",
+          "name": "Binh Tang"
+        },
+        {
+          "authorId": "2110697298",
+          "name": "Ross Taylor"
+        },
+        {
+          "authorId": "2110032535",
+          "name": "Adina Williams"
+        },
+        {
+          "authorId": "2223770369",
+          "name": "Jian Xiang Kuan"
+        },
+        {
+          "authorId": "2214843767",
+          "name": "Puxin Xu"
+        },
+        {
+          "authorId": "14701107",
+          "name": "Zhengxu Yan"
+        },
+        {
+          "authorId": "121929334",
+          "name": "Iliyan Zarov"
+        },
+        {
+          "authorId": "2108473229",
+          "name": "Yuchen Zhang"
+        },
+        {
+          "authorId": "144270981",
+          "name": "Angela Fan"
+        },
+        {
+          "authorId": "2165660870",
+          "name": "M. Kambadur"
+        },
+        {
+          "authorId": "46617804",
+          "name": "Sharan Narang"
+        },
+        {
+          "authorId": "2166043087",
+          "name": "Aurélien Rodriguez"
+        },
+        {
+          "authorId": "1962768",
+          "name": "Robert Stojnic"
+        },
+        {
+          "authorId": "2068070",
+          "name": "Sergey Edunov"
+        },
+        {
+          "authorId": "2073456043",
+          "name": "Thomas Scialom"
+        }
+      ]
+    },
+    {
+      "paperId": "888728745dbb769e29ed475d4f7661eebe1a71cf",
+      "title": "A Survey on Evaluation of Large Language Models",
+      "year": 2023,
+      "citationCount": 1046,
+      "authors": [
+        {
+          "authorId": "2140050490",
+          "name": "Yu-Chu Chang"
+        },
+        {
+          "authorId": "2206577797",
+          "name": "Xu Wang"
+        },
+        {
+          "authorId": "1519290245",
+          "name": "Jindong Wang"
+        },
+        {
+          "authorId": "2157349111",
+          "name": "Yuanyi Wu"
+        },
+        {
+          "authorId": "2543684",
+          "name": "Kaijie Zhu"
+        },
+        {
+          "authorId": "2051536212",
+          "name": "Hao Chen"
+        },
+        {
+          "authorId": "2145500840",
+          "name": "Linyi Yang"
+        },
+        {
+          "authorId": "3393196",
+          "name": "Xiaoyuan Yi"
+        },
+        {
+          "authorId": "35504092",
+          "name": "Cunxiang Wang"
+        },
+        {
+          "authorId": "2108024279",
+          "name": "Yidong Wang"
+        },
+        {
+          "authorId": "2147205193",
+          "name": "Weirong Ye"
+        },
+        {
+          "authorId": "2211964951",
+          "name": "Yue Zhang"
+        },
+        {
+          "authorId": "2131636065",
+          "name": "Yi Chang"
+        },
+        {
+          "authorId": "2191036692",
+          "name": "Philip S. Yu"
+        },
+        {
+          "authorId": "2158406244",
+          "name": "Qian Yang"
+        },
+        {
+          "authorId": "1576441343",
+          "name": "Xingxu Xie"
+        }
+      ]
+    },
+    {
+      "paperId": "beca17564ef9a03d42ce9db4e303689fba3ffcc1",
+      "title": "Towards Autonomous Testing Agents via Conversational Large Language Models",
+      "year": 2023,
+      "citationCount": 19,
+      "authors": [
+        {
+          "authorId": "145278906",
+          "name": "R. Feldt"
+        },
+        {
+          "authorId": "2115515341",
+          "name": "Sungmin Kang"
+        },
+        {
+          "authorId": "2118110297",
+          "name": "Juyeon Yoon"
+        },
+        {
+          "authorId": "2147408161",
+          "name": "Shin Yoo"
+        }
+      ]
+    },
+    {
+      "paperId": "44d74b0d77b4056ddd4c6611a76711c8bab2e0a7",
+      "title": "Dehallucinating Large Language Models Using Formal Methods Guided Iterative Prompting",
+      "year": 2023,
+      "citationCount": 39,
+      "authors": [
+        {
+          "authorId": "37747652",
+          "name": "Susmit Jha"
+        },
+        {
+          "authorId": "144245085",
+          "name": "Sumit Kumar Jha"
+        },
+        {
+          "authorId": "145895495",
+          "name": "P. Lincoln"
+        },
+        {
+          "authorId": "49900686",
+          "name": "Nathaniel D. Bastian"
+        },
+        {
+          "authorId": "145720050",
+          "name": "Alvaro Velasquez"
+        },
+        {
+          "authorId": "1731195",
+          "name": "S. Neema"
+        }
+      ]
+    },
+    {
+      "paperId": "7e61d20d6a1d0d5c1c639a9e6a057029a7853972",
+      "title": "A Comprehensive Approach for Applying Threat Modeling to Internet of Things Systems",
+      "year": 2022,
+      "citationCount": 2,
+      "authors": [
+        {
+          "authorId": "2220750428",
+          "name": "Lucas Peixoto da Silva"
+        },
+        {
+          "authorId": "2220462690",
+          "name": "Bernardo S. Nascimento"
+        },
+        {
+          "authorId": "2220460922",
+          "name": "Rafael A. Mello P. Dias"
+        },
+        {
+          "authorId": "133843995",
+          "name": "D. S. Mendonça"
+        }
+      ]
+    },
+    {
+      "paperId": "62d17b6f6ad77fd71ef9954c7784700d5e316f1f",
+      "title": "What Does it Mean for a Language Model to Preserve Privacy?",
+      "year": 2022,
+      "citationCount": 205,
+      "authors": [
+        {
+          "authorId": "2105643848",
+          "name": "Hannah Brown"
+        },
+        {
+          "authorId": "3844009",
+          "name": "Katherine Lee"
+        },
+        {
+          "authorId": "52195885",
+          "name": "FatemehSadat Mireshghallah"
+        },
+        {
+          "authorId": "2520493",
+          "name": "R. Shokri"
+        },
+        {
+          "authorId": "2444919",
+          "name": "Florian Tramèr"
+        }
+      ]
+    },
+    {
+      "paperId": "ef13771c1831f1146d489ba6c65e7f0c87c7bd9c",
+      "title": "Threat modeling: from infancy to maturity",
+      "year": 2020,
+      "citationCount": 12,
+      "authors": [
+        {
+          "authorId": "2770872",
+          "name": "Koen Yskout"
+        },
+        {
+          "authorId": "47416832",
+          "name": "Thomas Heyman"
+        },
+        {
+          "authorId": "2211794",
+          "name": "Dimitri Van Landuyt"
+        },
+        {
+          "authorId": "3045650",
+          "name": "Laurens Sion"
+        },
+        {
+          "authorId": "3190241",
+          "name": "Kim Wuyts"
+        },
+        {
+          "authorId": "1752104",
+          "name": "W. Joosen"
+        }
+      ]
+    },
+    {
+      "paperId": "58ed1fbaabe027345f7bb3a6312d41c5aac63e22",
+      "title": "Retrieval-Augmented Generation for Knowledge-Intensive NLP Tasks",
+      "year": 2020,
+      "citationCount": 4275,
+      "authors": [
+        {
+          "authorId": "145222654",
+          "name": "Patrick Lewis"
+        },
+        {
+          "authorId": "3439053",
+          "name": "Ethan Perez"
+        },
+        {
+          "authorId": "1716179427",
+          "name": "Aleksandara Piktus"
+        },
+        {
+          "authorId": "40052301",
+          "name": "F. Petroni"
+        },
+        {
+          "authorId": "2067091563",
+          "name": "Vladimir Karpukhin"
+        },
+        {
+          "authorId": "39589154",
+          "name": "Naman Goyal"
+        },
+        {
+          "authorId": "103131985",
+          "name": "Heinrich Kuttler"
+        },
+        {
+          "authorId": "35084211",
+          "name": "M. Lewis"
+        },
+        {
+          "authorId": "144105277",
+          "name": "Wen-tau Yih"
+        },
+        {
+          "authorId": "2620211",
+          "name": "Tim Rocktäschel"
+        },
+        {
+          "authorId": "48662861",
+          "name": "Sebastian Riedel"
+        },
+        {
+          "authorId": "1743722",
+          "name": "Douwe Kiela"
+        }
+      ]
+    },
+    {
+      "paperId": "e6c561d02500b2596a230b341a8eb8b921ca5bf2",
+      "title": "Scaling Laws for Neural Language Models",
+      "year": 2020,
+      "citationCount": 3651,
+      "authors": [
+        {
+          "authorId": "152724169",
+          "name": "J. Kaplan"
+        },
+        {
+          "authorId": "52238703",
+          "name": "Sam McCandlish"
+        },
+        {
+          "authorId": "103143311",
+          "name": "T. Henighan"
+        },
+        {
+          "authorId": "31035595",
+          "name": "Tom B. Brown"
+        },
+        {
+          "authorId": "1490681878",
+          "name": "B. Chess"
+        },
+        {
+          "authorId": "48422824",
+          "name": "R. Child"
+        },
+        {
+          "authorId": "145565184",
+          "name": "Scott Gray"
+        },
+        {
+          "authorId": "38909097",
+          "name": "Alec Radford"
+        },
+        {
+          "authorId": "49387725",
+          "name": "Jeff Wu"
+        },
+        {
+          "authorId": "2698777",
+          "name": "Dario Amodei"
+        }
+      ]
+    },
+    {
+      "paperId": "2507df7a6a94eb46cbd7203f9632d6a759fe68c9",
+      "title": "Threat Modeling and Security Issues for the Internet of Things",
+      "year": 2019,
+      "citationCount": 17,
+      "authors": [
+        {
+          "authorId": "49785866",
+          "name": "A. Seeam"
+        },
+        {
+          "authorId": "1389963338",
+          "name": "Ochanya S. Ogbeh"
+        },
+        {
+          "authorId": "1389963256",
+          "name": "Shivanand Guness"
+        },
+        {
+          "authorId": "2778050",
+          "name": "X. Bellekens"
+        }
+      ]
+    },
+    {
+      "paperId": "e43b0e4d61ce4f40f79821555aca9e057ec15c41",
+      "title": "Threat Modeling",
+      "year": 2018,
+      "citationCount": 258,
+      "authors": [
+        {
+          "authorId": "2237184994",
+          "name": "James Helfrich"
+        }
+      ]
+    },
+    {
+      "paperId": "60836b6e7b1bcdd85981660d7a12086698310a6f",
+      "title": "Challenges and Experiences with Applying Microsoft Threat Modeling in Agile Development Projects",
+      "year": 2018,
+      "citationCount": 33,
+      "authors": [
+        {
+          "authorId": "3174392",
+          "name": "D. Cruzes"
+        },
+        {
+          "authorId": "1709274",
+          "name": "M. Jaatun"
+        },
+        {
+          "authorId": "1714155",
+          "name": "K. Bernsmed"
+        },
+        {
+          "authorId": "9258438",
+          "name": "Inger Anne Tøndel"
+        }
+      ]
+    },
+    {
+      "paperId": "3fb406ddcb5d122a3737a157c502de411d00bd4e",
+      "title": "Developer-Driven Threat Modeling: Lessons Learned in the Trenches",
+      "year": 2011,
+      "citationCount": 84,
+      "authors": [
+        {
+          "authorId": "47540957",
+          "name": "D. Dhillon"
+        }
+      ]
+    },
+    {
+      "paperId": "c6012f0d80b2b983787c43873762686d64af5c2f",
+      "title": "Demystifying the threat modeling process",
+      "year": 2005,
+      "citationCount": 121,
+      "authors": [
+        {
+          "authorId": "2105908635",
+          "name": "Peter Torr"
+        }
+      ]
+    },
+    {
+      "paperId": null,
+      "title": "You Need To Start Using JSONL In Your Golang Projects!",
+      "year": 2023,
+      "citationCount": null,
+      "authors": []
+    },
+    {
+      "paperId": null,
+      "title": "What is retrieval-augmented generation?",
+      "year": 2021,
+      "citationCount": null,
+      "authors": []
+    },
+    {
+      "paperId": "a4b086eac9f174a93923ef5e2332225b517e1fd3",
+      "title": "Анализ уязвимостей вычислительных систем на основе алгебраических структур и потоков данных National Vulnerability Database",
+      "year": 2013,
+      "citationCount": 812,
+      "authors": [
+        {
+          "authorId": "95827626",
+          "name": "Воробьев Антон Александрович"
+        }
+      ]
+    },
+    {
+      "paperId": "b7a75f0c2a0e4963017b7c820509ea14af58b52b",
+      "title": "Threat Modeling: Diving into the Deep End",
+      "year": 2008,
+      "citationCount": 49,
+      "authors": [
+        {
+          "authorId": "2011745",
+          "name": "Jeffrey A. Ingalsbe"
+        },
+        {
+          "authorId": "2479657",
+          "name": "Louis Kunimatsu"
+        },
+        {
+          "authorId": "1996109",
+          "name": "Tim Baeten"
+        },
+        {
+          "authorId": "1680541",
+          "name": "N. Mead"
+        }
+      ]
+    },
+    {
+      "paperId": null,
+      "title": "Intel Trust Domain Extensions",
+      "year": null,
+      "citationCount": null,
+      "authors": []
+    },
+    {
+      "paperId": null,
+      "title": "Cybersecurity & infrastructure security agency",
+      "year": null,
+      "citationCount": null,
+      "authors": []
+    },
+    {
+      "paperId": null,
+      "title": "Microsoft threat modeling tool overview",
+      "year": null,
+      "citationCount": null,
+      "authors": []
+    },
+    {
+      "paperId": null,
+      "title": "KeyBERT",
+      "year": null,
+      "citationCount": null,
+      "authors": []
+    },
+    {
+      "paperId": null,
+      "title": "Natural language toolkit",
+      "year": null,
+      "citationCount": null,
+      "authors": []
+    },
+    {
+      "paperId": null,
+      "title": "Recursively split by character langchain",
+      "year": null,
+      "citationCount": null,
+      "authors": []
+    }
+  ]
+}

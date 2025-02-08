@@ -2,36 +2,31 @@ import React, { useEffect, useRef } from 'react';
 import * as d3 from 'd3';
 import CloseIcon from '@mui/icons-material/Close';  // 需要安装 @mui/icons-material
 
-const SubNetwork = ({ data, loading, onClose }) => {
+// 在组件顶部定义颜色常量
+const NODE_COLORS = {
+    center: "#ff4444",          // 中心论文：红色
+    citation: "#4169E1",        // 第一层：引用本文的论文（皇家蓝）
+    reference: "#1E90FF",       // 第一层：被本文引用的论文（道奇蓝）
+    citation_to_citation: "#FFD700",    // 第二层：引用"引用本文的论文"的论文（金色）
+    citation_to_reference: "#FFA500",   // 第二层：引用"被本文引用的论文"的论文（橙色）
+    reference_to_citation: "#DAA520",   // 第二层：被"引用本文的论文"引用的论文（金菊色）
+    reference_to_reference: "#F4A460"   // 第二层：被"被本文引用的论文"引用的论文（沙褐色）
+};
+
+const SubNetwork = ({ data, loading, onClose, fullPage = false }) => {
     const subSvgRef = useRef(null);
     
     useEffect(() => {
-        if (!data) return;
+        // 确保数据完整且不在加载状态
+        if (!data || !data.nodes || !data.edges || loading) return;
         
         const svg = d3.select(subSvgRef.current);
         svg.selectAll("*").remove();
         
-        if (loading) {
-            // 显示加载动画
-            const width = 850;
-            const height = 600;
-            
-            svg.append("text")
-                .attr("x", width / 2)
-                .attr("y", height / 2)
-                .attr("text-anchor", "middle")
-                .attr("dominant-baseline", "middle")
-                .text("Loading citation network...")
-                .attr("fill", "#666")
-                .attr("font-size", "20px");
-                
-            return;
-        }
+        const width = svg.node().getBoundingClientRect().width;
+        const height = svg.node().getBoundingClientRect().height;
         
-        const width = 850;
-        const height = 600;
-        
-        // 创建一个容器来包含所有元素
+        // 使用实际尺寸而不是固定值
         const container = svg.append("g");
 
         // 创建缩放行为
@@ -47,7 +42,7 @@ const SubNetwork = ({ data, loading, onClose }) => {
                zoom.transform,
                d3.zoomIdentity
                  .translate(width / 2, height / 2)
-                 .scale(0.8)
+                 .scale(1.2)
                  .translate(-width / 2, -height / 2)
            );
 
@@ -117,14 +112,7 @@ const SubNetwork = ({ data, loading, onClose }) => {
                 const citations = d.citations_count || 0;
                 return citations === 0 ? 5 : citationScale(citations);
             })
-            .attr("fill", d => {
-                switch(d.type) {
-                    case "center": return "#ff4444";
-                    case "citation": return "#4444ff";
-                    case "reference": return "#44ff44";
-                    default: return "#999";
-                }
-            })
+            .attr("fill", d => NODE_COLORS[d.type] || "#999")
             .style("cursor", "pointer");
 
         // 添加节点标签
@@ -134,7 +122,8 @@ const SubNetwork = ({ data, loading, onClose }) => {
             .enter()
             .append("text")
             .text(d => d.title)
-            .attr("font-size", "10px")
+            .attr("font-size", d => d.type === "center" ? "12px" : "10px")
+            .attr("font-weight", d => d.type === "center" ? "bold" : "normal")
             .attr("dx", d => {
                 const r = d.type === "center" ? 12 : 8;
                 return r;
@@ -158,11 +147,37 @@ const SubNetwork = ({ data, loading, onClose }) => {
         // 添加节点交互
         nodes
             .on("mouseover", (event, d) => {
+                let typeDescription;
+                switch(d.type) {
+                    case "center":
+                        typeDescription = "中心论文";
+                        break;
+                    case "citation":
+                        typeDescription = "引用本文的论文";
+                        break;
+                    case "reference":
+                        typeDescription = "被本文引用的论文";
+                        break;
+                    case "citation_to_citation":
+                        typeDescription = "引用引用本文论文的论文";
+                        break;
+                    case "citation_to_reference":
+                        typeDescription = "引用被本文引用论文的论文";
+                        break;
+                    case "reference_to_citation":
+                        typeDescription = "被引用本文论文引用的论文";
+                        break;
+                    case "reference_to_reference":
+                        typeDescription = "被被本文引用论文引用的论文";
+                        break;
+                    default:
+                        typeDescription = "未知类型";
+                }
+                
                 tooltip.style("visibility", "visible")
                     .html(`
                         <strong>${d.title}</strong><br/>
-                        类型: ${d.type === "center" ? "中心论文" : 
-                               d.type === "citation" ? "引用本文" : "被本文引用"}<br/>
+                        类型: ${typeDescription}<br/>
                         ${d.type !== "center" ? `引用量: ${d.citations_count || 0}<br/>
                         年份: ${d.year || '未知'}` : ''}
                     `);
@@ -215,52 +230,23 @@ const SubNetwork = ({ data, loading, onClose }) => {
         };
     }, [data, loading]);
     
+    // 只在数据准备就绪时才渲染 SVG
+    if (!data || !data.nodes || !data.edges || loading) {
+        return null;  // 返回 null 而不是渲染空的 SVG
+    }
+    
     return (
-        <div className="modal-overlay" 
-             style={{
-                 position: 'fixed',
-                 top: 0,
-                 left: 0,
-                 right: 0,
-                 bottom: 0,
-                 backgroundColor: 'rgba(0, 0, 0, 0.5)',  // 半透明黑色背景
-                 display: 'flex',
-                 justifyContent: 'center',
-                 alignItems: 'center',
-                 zIndex: 1000
-             }}>
-            <div className="modal-content"
-                 style={{
-                     position: 'relative',
-                     background: 'white',
-                     padding: '20px',
-                     borderRadius: '8px',
-                     boxShadow: '0 4px 6px rgba(0, 0, 0, 0.1)',
-                     width: '900px',  // 固定宽度
-                     height: '650px'   // 固定高度
-                 }}>
-                <button
-                    onClick={onClose}
-                    style={{
-                        position: 'absolute',
-                        right: '10px',
-                        top: '10px',
-                        background: 'none',
-                        border: 'none',
-                        cursor: 'pointer',
-                        padding: '5px',
-                        display: 'flex',
-                        alignItems: 'center',
-                        justifyContent: 'center'
-                    }}>
-                    <CloseIcon />
-                </button>
-                <h3 style={{ marginTop: 0, marginBottom: '15px' }}>
-                    {loading ? "Loading Citation Network..." : "Citation Network"}
-                </h3>
-                <svg ref={subSvgRef} width="850" height="600"></svg>
-            </div>
-        </div>
+        <svg 
+            ref={subSvgRef} 
+            width="100%" 
+            height="100%"
+            style={{ 
+                position: 'absolute',
+                top: '50%',
+                left: '50%',
+                transform: 'translate(-50%, -50%)'
+            }}
+        />
     );
 };
 

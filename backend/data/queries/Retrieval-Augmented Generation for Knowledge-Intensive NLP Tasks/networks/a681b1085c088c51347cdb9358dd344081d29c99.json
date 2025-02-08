@@ -1,0 +1,885 @@
+{
+  "citations": [],
+  "references": [
+    {
+      "paperId": "9af8bccf3e42996cbb198a6ceccafa2a084689f6",
+      "title": "HybridRAG: Integrating Knowledge Graphs and Vector Retrieval Augmented Generation for Efficient Information Extraction",
+      "year": 2024,
+      "citationCount": 13,
+      "authors": [
+        {
+          "authorId": "23570698",
+          "name": "Bhaskarjit Sarmah"
+        },
+        {
+          "authorId": "2315812262",
+          "name": "Benika Hall"
+        },
+        {
+          "authorId": "2315811806",
+          "name": "Rohan Rao"
+        },
+        {
+          "authorId": "2315808930",
+          "name": "Sunil Patel"
+        },
+        {
+          "authorId": "2258960763",
+          "name": "Stefano Pasquali"
+        },
+        {
+          "authorId": "2258962314",
+          "name": "Dhagash Mehta"
+        }
+      ]
+    },
+    {
+      "paperId": "9ec9ec38f7057b123f297f9a66d544974194f5d0",
+      "title": "Efficient Knowledge Infusion via KG-LLM Alignment",
+      "year": 2024,
+      "citationCount": 6,
+      "authors": [
+        {
+          "authorId": "2305310515",
+          "name": "Zhouyu Jiang"
+        },
+        {
+          "authorId": "2305264611",
+          "name": "Ling Zhong"
+        },
+        {
+          "authorId": "2273904059",
+          "name": "Mengshu Sun"
+        },
+        {
+          "authorId": "2305157852",
+          "name": "Jun Xu"
+        },
+        {
+          "authorId": "2257157842",
+          "name": "Rui Sun"
+        },
+        {
+          "authorId": "2256984989",
+          "name": "Hui Cai"
+        },
+        {
+          "authorId": "2307566446",
+          "name": "Shuhan Luo"
+        },
+        {
+          "authorId": "2290024603",
+          "name": "Zhiqiang Zhang"
+        }
+      ]
+    },
+    {
+      "paperId": "c1799bf28d1ae93e1631be5b59196ee1e568f538",
+      "title": "From Local to Global: A Graph RAG Approach to Query-Focused Summarization",
+      "year": 2024,
+      "citationCount": 155,
+      "authors": [
+        {
+          "authorId": "2298275009",
+          "name": "Darren Edge"
+        },
+        {
+          "authorId": "2213073417",
+          "name": "Ha Trinh"
+        },
+        {
+          "authorId": "2298273973",
+          "name": "Newman Cheng"
+        },
+        {
+          "authorId": "2298275805",
+          "name": "Joshua Bradley"
+        },
+        {
+          "authorId": "2298274563",
+          "name": "Alex Chao"
+        },
+        {
+          "authorId": "2210994342",
+          "name": "Apurva Mody"
+        },
+        {
+          "authorId": "2298273810",
+          "name": "Steven Truitt"
+        },
+        {
+          "authorId": "2298278846",
+          "name": "Jonathan Larson"
+        }
+      ]
+    },
+    {
+      "paperId": "ab15463babf98fffc6f683fe2026de0725b5e1a9",
+      "title": "Retrieval-Augmented Generation for AI-Generated Content: A Survey",
+      "year": 2024,
+      "citationCount": 123,
+      "authors": [
+        {
+          "authorId": "2268718776",
+          "name": "Penghao Zhao"
+        },
+        {
+          "authorId": "2288557803",
+          "name": "Hailin Zhang"
+        },
+        {
+          "authorId": "2289597580",
+          "name": "Qinhan Yu"
+        },
+        {
+          "authorId": "2288675277",
+          "name": "Zhengren Wang"
+        },
+        {
+          "authorId": "2288532368",
+          "name": "Yunteng Geng"
+        },
+        {
+          "authorId": "46182701",
+          "name": "Fangcheng Fu"
+        },
+        {
+          "authorId": "2249513224",
+          "name": "Ling Yang"
+        },
+        {
+          "authorId": "2277807793",
+          "name": "Wentao Zhang"
+        },
+        {
+          "authorId": "2277742543",
+          "name": "Bin Cui"
+        }
+      ]
+    },
+    {
+      "paperId": "8c6c83d546577afe92778659c5403ddfe1dbc02a",
+      "title": "Joint Multi-Facts Reasoning Network for Complex Temporal Question Answering Over Knowledge Graph",
+      "year": 2024,
+      "citationCount": 12,
+      "authors": [
+        {
+          "authorId": "2277780307",
+          "name": "Rikui Huang"
+        },
+        {
+          "authorId": "2262583470",
+          "name": "Wei Wei"
+        },
+        {
+          "authorId": "2262446609",
+          "name": "Xiaoye Qu"
+        },
+        {
+          "authorId": "2276509431",
+          "name": "Wenfeng Xie"
+        },
+        {
+          "authorId": "2089102",
+          "name": "Xian-ling Mao"
+        },
+        {
+          "authorId": "2182623368",
+          "name": "Dangyang Chen"
+        }
+      ]
+    },
+    {
+      "paperId": "46f9f7b8f88f72e12cbdb21e3311f995eb6e65c5",
+      "title": "Retrieval-Augmented Generation for Large Language Models: A Survey",
+      "year": 2023,
+      "citationCount": 933,
+      "authors": [
+        {
+          "authorId": "2280046531",
+          "name": "Yunfan Gao"
+        },
+        {
+          "authorId": "2275320371",
+          "name": "Yun Xiong"
+        },
+        {
+          "authorId": "2275341478",
+          "name": "Xinyu Gao"
+        },
+        {
+          "authorId": "2275191447",
+          "name": "Kangxiang Jia"
+        },
+        {
+          "authorId": "2275530552",
+          "name": "Jinliu Pan"
+        },
+        {
+          "authorId": "2275171009",
+          "name": "Yuxi Bi"
+        },
+        {
+          "authorId": "2276187454",
+          "name": "Yi Dai"
+        },
+        {
+          "authorId": "2275540959",
+          "name": "Jiawei Sun"
+        },
+        {
+          "authorId": "2258800561",
+          "name": "Qianyu Guo"
+        },
+        {
+          "authorId": "2291409458",
+          "name": "Meng Wang"
+        },
+        {
+          "authorId": "2256769434",
+          "name": "Haofen Wang"
+        }
+      ]
+    },
+    {
+      "paperId": "a4b94716e3691357b19ed05f0f178f6accc05a76",
+      "title": "QALD-10 – The 10th challenge on question answering over linked data",
+      "year": 2023,
+      "citationCount": 18,
+      "authors": [
+        {
+          "authorId": "2269298565",
+          "name": "Ricardo Usbeck"
+        },
+        {
+          "authorId": "2160701193",
+          "name": "Xiongliang Yan"
+        },
+        {
+          "authorId": "145757722",
+          "name": "A. Perevalov"
+        },
+        {
+          "authorId": "1697318",
+          "name": "Longquan Jiang"
+        },
+        {
+          "authorId": "2269249456",
+          "name": "Julius Schulz"
+        },
+        {
+          "authorId": "2180786421",
+          "name": "Angelie Kraft"
+        },
+        {
+          "authorId": "2269309801",
+          "name": "Cedric Möller"
+        },
+        {
+          "authorId": "2269423146",
+          "name": "Junbo Huang"
+        },
+        {
+          "authorId": "2269308924",
+          "name": "Jan Reineke"
+        },
+        {
+          "authorId": "7327160",
+          "name": "Axel-Cyrille Ngonga Ngomo"
+        },
+        {
+          "authorId": "2269324943",
+          "name": "Muhammad Saleem"
+        },
+        {
+          "authorId": "2268768331",
+          "name": "Andreas Both"
+        }
+      ]
+    },
+    {
+      "paperId": "6489640b1d30a8a3e7cb906bb6557f1ccd0d799d",
+      "title": "Chain-of-Note: Enhancing Robustness in Retrieval-Augmented Language Models",
+      "year": 2023,
+      "citationCount": 80,
+      "authors": [
+        {
+          "authorId": "38767143",
+          "name": "W. Yu"
+        },
+        {
+          "authorId": "2254831297",
+          "name": "Hongming Zhang"
+        },
+        {
+          "authorId": "2243367575",
+          "name": "Xiaoman Pan"
+        },
+        {
+          "authorId": "22244290",
+          "name": "Kaixin Ma"
+        },
+        {
+          "authorId": "2261392960",
+          "name": "Hongwei Wang"
+        },
+        {
+          "authorId": "2261392681",
+          "name": "Dong Yu"
+        }
+      ]
+    },
+    {
+      "paperId": "7848d4b4e6ba0897a85cebb6467e94eb0b60d583",
+      "title": "Learning to Filter Context for Retrieval-Augmented Generation",
+      "year": 2023,
+      "citationCount": 44,
+      "authors": [
+        {
+          "authorId": "1390877035",
+          "name": "Zhiruo Wang"
+        },
+        {
+          "authorId": "2266466286",
+          "name": "Jun Araki"
+        },
+        {
+          "authorId": "2669515",
+          "name": "Zhengbao Jiang"
+        },
+        {
+          "authorId": "3405393",
+          "name": "Md. Rizwan Parvez"
+        },
+        {
+          "authorId": "1700325",
+          "name": "Graham Neubig"
+        }
+      ]
+    },
+    {
+      "paperId": "ddbd8fe782ac98e9c64dd98710687a962195dd9b",
+      "title": "Self-RAG: Learning to Retrieve, Generate, and Critique through Self-Reflection",
+      "year": 2023,
+      "citationCount": 423,
+      "authors": [
+        {
+          "authorId": "35584853",
+          "name": "Akari Asai"
+        },
+        {
+          "authorId": "7806955",
+          "name": "Zeqiu Wu"
+        },
+        {
+          "authorId": "1705260",
+          "name": "Yizhong Wang"
+        },
+        {
+          "authorId": "2707234",
+          "name": "Avirup Sil"
+        },
+        {
+          "authorId": "2548384",
+          "name": "Hannaneh Hajishirzi"
+        }
+      ]
+    },
+    {
+      "paperId": "28e2ecb4183ebc0eec504b12dddc677f8aef8745",
+      "title": "Benchmarking Large Language Models in Retrieval-Augmented Generation",
+      "year": 2023,
+      "citationCount": 178,
+      "authors": [
+        {
+          "authorId": "2115448879",
+          "name": "Jiawei Chen"
+        },
+        {
+          "authorId": "2116455765",
+          "name": "Hongyu Lin"
+        },
+        {
+          "authorId": "2118233348",
+          "name": "Xianpei Han"
+        },
+        {
+          "authorId": "2110832778",
+          "name": "Le Sun"
+        }
+      ]
+    },
+    {
+      "paperId": "c7184f9a914dbfbad59faa5aeaf9ba7019dfcf74",
+      "title": "Think-on-Graph: Deep and Responsible Reasoning of Large Language Model on Knowledge Graph",
+      "year": 2023,
+      "citationCount": 40,
+      "authors": [
+        {
+          "authorId": "2202454665",
+          "name": "Jiashuo Sun"
+        },
+        {
+          "authorId": "2250617116",
+          "name": "Chengjin Xu"
+        },
+        {
+          "authorId": "2253747495",
+          "name": "Lumingyuan Tang"
+        },
+        {
+          "authorId": "2211588034",
+          "name": "Sai Wang"
+        },
+        {
+          "authorId": "2249759096",
+          "name": "Chen Lin"
+        },
+        {
+          "authorId": "2254121688",
+          "name": "Yeyun Gong"
+        },
+        {
+          "authorId": "2249757348",
+          "name": "Lionel M. Ni"
+        },
+        {
+          "authorId": "93596028",
+          "name": "H. Shum"
+        },
+        {
+          "authorId": "2188226506",
+          "name": "Jian Guo"
+        }
+      ]
+    },
+    {
+      "paperId": "a1675f47125aa409525c5f759b5e6bcc1c8831aa",
+      "title": "Enhancing Retrieval-Augmented Large Language Models with Iterative Retrieval-Generation Synergy",
+      "year": 2023,
+      "citationCount": 145,
+      "authors": [
+        {
+          "authorId": "144485528",
+          "name": "Zhihong Shao"
+        },
+        {
+          "authorId": "2171182",
+          "name": "Yeyun Gong"
+        },
+        {
+          "authorId": "1752875",
+          "name": "Yelong Shen"
+        },
+        {
+          "authorId": "1730108",
+          "name": "Minlie Huang"
+        },
+        {
+          "authorId": "46429989",
+          "name": "Nan Duan"
+        },
+        {
+          "authorId": "2109136147",
+          "name": "Weizhu Chen"
+        }
+      ]
+    },
+    {
+      "paperId": "e468ed6b824e60f45ba9a20b034e4090c6630751",
+      "title": "Chain-of-Knowledge: Grounding Large Language Models via Dynamic Knowledge Adapting over Heterogeneous Sources",
+      "year": 2023,
+      "citationCount": 68,
+      "authors": [
+        {
+          "authorId": "2155447436",
+          "name": "Xingxuan Li"
+        },
+        {
+          "authorId": "2091437375",
+          "name": "Ruochen Zhao"
+        },
+        {
+          "authorId": "2066312627",
+          "name": "Yew Ken Chia"
+        },
+        {
+          "authorId": "2064493724",
+          "name": "Bosheng Ding"
+        },
+        {
+          "authorId": "2708940",
+          "name": "Shafiq R. Joty"
+        },
+        {
+          "authorId": "1746416",
+          "name": "Soujanya Poria"
+        },
+        {
+          "authorId": "1996394",
+          "name": "Lidong Bing"
+        }
+      ]
+    },
+    {
+      "paperId": "f208ea909fa7f54fea82def9a92fd81dfc758c39",
+      "title": "Interleaving Retrieval with Chain-of-Thought Reasoning for Knowledge-Intensive Multi-Step Questions",
+      "year": 2022,
+      "citationCount": 287,
+      "authors": [
+        {
+          "authorId": "6365809",
+          "name": "H. Trivedi"
+        },
+        {
+          "authorId": "35217367",
+          "name": "Niranjan Balasubramanian"
+        },
+        {
+          "authorId": "2236429",
+          "name": "Tushar Khot"
+        },
+        {
+          "authorId": "48229640",
+          "name": "Ashish Sabharwal"
+        }
+      ]
+    },
+    {
+      "paperId": "9ffefdf1fcd780cb71450b0a7a29247c66aa87be",
+      "title": "The Unreliability of Explanations in Few-shot Prompting for Textual Reasoning",
+      "year": 2022,
+      "citationCount": 148,
+      "authors": [
+        {
+          "authorId": "50183897",
+          "name": "Xi Ye"
+        },
+        {
+          "authorId": "1814094",
+          "name": "Greg Durrett"
+        }
+      ]
+    },
+    {
+      "paperId": "5f19ae1135a9500940978104ec15a5b8751bc7d2",
+      "title": "Self-Consistency Improves Chain of Thought Reasoning in Language Models",
+      "year": 2022,
+      "citationCount": 2536,
+      "authors": [
+        {
+          "authorId": "1524732527",
+          "name": "Xuezhi Wang"
+        },
+        {
+          "authorId": "119640649",
+          "name": "Jason Wei"
+        },
+        {
+          "authorId": "50319359",
+          "name": "D. Schuurmans"
+        },
+        {
+          "authorId": "1998340269",
+          "name": "Quoc Le"
+        },
+        {
+          "authorId": "2226805",
+          "name": "Ed H. Chi"
+        },
+        {
+          "authorId": "65855107",
+          "name": "Denny Zhou"
+        }
+      ]
+    },
+    {
+      "paperId": "1b6e810ce0afd0dd093f789d2b2742d047e316d5",
+      "title": "Chain of Thought Prompting Elicits Reasoning in Large Language Models",
+      "year": 2022,
+      "citationCount": 6603,
+      "authors": [
+        {
+          "authorId": "119640649",
+          "name": "Jason Wei"
+        },
+        {
+          "authorId": "1524732527",
+          "name": "Xuezhi Wang"
+        },
+        {
+          "authorId": "1714772",
+          "name": "Dale Schuurmans"
+        },
+        {
+          "authorId": "40377863",
+          "name": "Maarten Bosma"
+        },
+        {
+          "authorId": "2226805",
+          "name": "Ed H. Chi"
+        },
+        {
+          "authorId": "144956443",
+          "name": "F. Xia"
+        },
+        {
+          "authorId": "1998340269",
+          "name": "Quoc Le"
+        },
+        {
+          "authorId": "65855107",
+          "name": "Denny Zhou"
+        }
+      ]
+    },
+    {
+      "paperId": "0c4b2ae22f08425563a69527a3433516fc9737a1",
+      "title": "CREAK: A Dataset for Commonsense Reasoning over Entity Knowledge",
+      "year": 2021,
+      "citationCount": 77,
+      "authors": [
+        {
+          "authorId": "115412405",
+          "name": "Yasumasa Onoe"
+        },
+        {
+          "authorId": "2129403254",
+          "name": "Michael J.Q. Zhang"
+        },
+        {
+          "authorId": "2890423",
+          "name": "Eunsol Choi"
+        },
+        {
+          "authorId": "1814094",
+          "name": "Greg Durrett"
+        }
+      ]
+    },
+    {
+      "paperId": "83d2f3b57aa07c499c3a19d22fe4f4ef655e9030",
+      "title": "Reasoning Step-by-Step: Temporal Sentence Localization in Videos via Deep Rectification-Modulation Network",
+      "year": 2020,
+      "citationCount": 33,
+      "authors": [
+        {
+          "authorId": "98579574",
+          "name": "Daizong Liu"
+        },
+        {
+          "authorId": "51912474",
+          "name": "Xiaoye Qu"
+        },
+        {
+          "authorId": "40240283",
+          "name": "Jianfeng Dong"
+        },
+        {
+          "authorId": "2109890021",
+          "name": "Pan Zhou"
+        }
+      ]
+    },
+    {
+      "paperId": "0b09448f7543453cc066416f547292dc1e4471f6",
+      "title": "KILT: a Benchmark for Knowledge Intensive Language Tasks",
+      "year": 2020,
+      "citationCount": 519,
+      "authors": [
+        {
+          "authorId": "40052301",
+          "name": "F. Petroni"
+        },
+        {
+          "authorId": "120174856",
+          "name": "Aleksandra Piktus"
+        },
+        {
+          "authorId": "144270981",
+          "name": "Angela Fan"
+        },
+        {
+          "authorId": "145222654",
+          "name": "Patrick Lewis"
+        },
+        {
+          "authorId": "69910001",
+          "name": "Majid Yazdani"
+        },
+        {
+          "authorId": "41019080",
+          "name": "Nicola De Cao"
+        },
+        {
+          "authorId": "2053211210",
+          "name": "James Thorne"
+        },
+        {
+          "authorId": "2262249",
+          "name": "Yacine Jernite"
+        },
+        {
+          "authorId": "1798301",
+          "name": "Vassilis Plachouras"
+        },
+        {
+          "authorId": "1389854357",
+          "name": "Tim Rocktaschel"
+        },
+        {
+          "authorId": "48662861",
+          "name": "Sebastian Riedel"
+        }
+      ]
+    },
+    {
+      "paperId": "1c75fcc86946b36297598a9abe192d97a19a917e",
+      "title": "SPARQA: Skeleton-based Semantic Parsing for Complex Questions over Knowledge Bases",
+      "year": 2020,
+      "citationCount": 103,
+      "authors": [
+        {
+          "authorId": "2108535039",
+          "name": "Yawei Sun"
+        },
+        {
+          "authorId": "2145417622",
+          "name": "Lingling Zhang"
+        },
+        {
+          "authorId": "144592996",
+          "name": "Gong Cheng"
+        },
+        {
+          "authorId": "1887019",
+          "name": "Yuzhong Qu"
+        }
+      ]
+    },
+    {
+      "paperId": "bfeb827d06c1a3583b5cc6d25241203a81f6af09",
+      "title": "Knowledge Enhanced Contextual Word Representations",
+      "year": 2019,
+      "citationCount": 640,
+      "authors": [
+        {
+          "authorId": "39139825",
+          "name": "Matthew E. Peters"
+        },
+        {
+          "authorId": "50043859",
+          "name": "Mark Neumann"
+        },
+        {
+          "authorId": "1387915630",
+          "name": "IV RobertL.Logan"
+        },
+        {
+          "authorId": "4671928",
+          "name": "Roy Schwartz"
+        },
+        {
+          "authorId": "24887082",
+          "name": "Vidur Joshi"
+        },
+        {
+          "authorId": "34650964",
+          "name": "Sameer Singh"
+        },
+        {
+          "authorId": "144365875",
+          "name": "Noah A. Smith"
+        }
+      ]
+    },
+    {
+      "paperId": "22655979df781d222eaf812b0d325fa9adf11594",
+      "title": "HotpotQA: A Dataset for Diverse, Explainable Multi-hop Question Answering",
+      "year": 2018,
+      "citationCount": 2112,
+      "authors": [
+        {
+          "authorId": "2109512754",
+          "name": "Zhilin Yang"
+        },
+        {
+          "authorId": "50531624",
+          "name": "Peng Qi"
+        },
+        {
+          "authorId": "35097114",
+          "name": "Saizheng Zhang"
+        },
+        {
+          "authorId": "1751762",
+          "name": "Yoshua Bengio"
+        },
+        {
+          "authorId": "50056360",
+          "name": "William W. Cohen"
+        },
+        {
+          "authorId": "145124475",
+          "name": "R. Salakhutdinov"
+        },
+        {
+          "authorId": "144783904",
+          "name": "Christopher D. Manning"
+        }
+      ]
+    },
+    {
+      "paperId": "b1d24e8e08435b7c52335485a0d635abf9bc604c",
+      "title": "FEVER: a Large-scale Dataset for Fact Extraction and VERification",
+      "year": 2018,
+      "citationCount": 1455,
+      "authors": [
+        {
+          "authorId": "144603330",
+          "name": "James Thorne"
+        },
+        {
+          "authorId": "2064056928",
+          "name": "Andreas Vlachos"
+        },
+        {
+          "authorId": "2718039",
+          "name": "Christos Christodoulopoulos"
+        },
+        {
+          "authorId": "2008596",
+          "name": "Arpit Mittal"
+        }
+      ]
+    },
+    {
+      "paperId": "c7fcaa13db8c89ff1f39b5687ba47f8beee107c4",
+      "title": "The Value of Semantic Parse Labeling for Knowledge Base Question Answering",
+      "year": 2016,
+      "citationCount": 452,
+      "authors": [
+        {
+          "authorId": "144105277",
+          "name": "Wen-tau Yih"
+        },
+        {
+          "authorId": "144422314",
+          "name": "Matthew Richardson"
+        },
+        {
+          "authorId": "50004012",
+          "name": "Christopher Meek"
+        },
+        {
+          "authorId": "1744179",
+          "name": "Ming-Wei Chang"
+        },
+        {
+          "authorId": "38972741",
+          "name": "Jina Suh"
+        }
+      ]
+    }
+  ]
+}

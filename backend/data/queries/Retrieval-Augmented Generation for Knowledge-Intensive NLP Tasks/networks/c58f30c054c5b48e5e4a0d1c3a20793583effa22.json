@@ -1,0 +1,1231 @@
+{
+  "citations": [
+    {
+      "paperId": "90e88e834f216d915995017f6ba358653715ec77",
+      "title": "T2I-FactualBench: Benchmarking the Factuality of Text-to-Image Models with Knowledge-Intensive Concepts",
+      "year": 2024,
+      "citationCount": 0,
+      "authors": [
+        {
+          "authorId": "2297821529",
+          "name": "Ziwei Huang"
+        },
+        {
+          "authorId": "2266409364",
+          "name": "Wanggui He"
+        },
+        {
+          "authorId": "2333896221",
+          "name": "Quanyu Long"
+        },
+        {
+          "authorId": "2333970606",
+          "name": "Yandi Wang"
+        },
+        {
+          "authorId": "2292569045",
+          "name": "Haoyuan Li"
+        },
+        {
+          "authorId": "2266420226",
+          "name": "Zhelun Yu"
+        },
+        {
+          "authorId": "2273645084",
+          "name": "Fangxun Shu"
+        },
+        {
+          "authorId": "2333602586",
+          "name": "Long Chan"
+        },
+        {
+          "authorId": "2266552062",
+          "name": "Hao Jiang"
+        },
+        {
+          "authorId": "2284863473",
+          "name": "Leilei Gan"
+        },
+        {
+          "authorId": "2297953245",
+          "name": "Fei Wu"
+        }
+      ]
+    }
+  ],
+  "references": [
+    {
+      "paperId": "46cf3a67c3ed22870450e3b24d87a260b7f20d76",
+      "title": "Addressing Image Hallucination in Text-to-Image Generation through Factual Image Retrieval",
+      "year": 2024,
+      "citationCount": 2,
+      "authors": [
+        {
+          "authorId": "2311461397",
+          "name": "Youngsun Lim"
+        },
+        {
+          "authorId": "2309005848",
+          "name": "Hyunjung Shim"
+        }
+      ]
+    },
+    {
+      "paperId": "d1bf59da2793583e4caafc0e5fd200df1da43509",
+      "title": "Revisiting Text-to-Image Evaluation with Gecko: On Metrics, Prompts, and Human Ratings",
+      "year": 2024,
+      "citationCount": 8,
+      "authors": [
+        {
+          "authorId": "2298271658",
+          "name": "Olivia Wiles"
+        },
+        {
+          "authorId": "2298397847",
+          "name": "Chuhan Zhang"
+        },
+        {
+          "authorId": "2298274437",
+          "name": "Isabela Albuquerque"
+        },
+        {
+          "authorId": "2298271679",
+          "name": "Ivana Kaji'c"
+        },
+        {
+          "authorId": "2268798066",
+          "name": "Su Wang"
+        },
+        {
+          "authorId": "83574123",
+          "name": "Emanuele Bugliarello"
+        },
+        {
+          "authorId": "115412405",
+          "name": "Yasumasa Onoe"
+        },
+        {
+          "authorId": "2298276008",
+          "name": "Chris Knutsen"
+        },
+        {
+          "authorId": "3125805",
+          "name": "Cyrus Rashtchian"
+        },
+        {
+          "authorId": "2262217017",
+          "name": "Jordi Pont-Tuset"
+        },
+        {
+          "authorId": "2298271650",
+          "name": "Aida Nematzadeh"
+        }
+      ]
+    },
+    {
+      "paperId": "449eb627a55bda10cf6c899f5fc941828f34e5a5",
+      "title": "Instruct-Imagen: Image Generation with Multi-modal Instruction",
+      "year": 2024,
+      "citationCount": 26,
+      "authors": [
+        {
+          "authorId": "2804000",
+          "name": "Hexiang Hu"
+        },
+        {
+          "authorId": "2274099669",
+          "name": "Kelvin C.K. Chan"
+        },
+        {
+          "authorId": "2269866136",
+          "name": "Yu-Chuan Su"
+        },
+        {
+          "authorId": "2253811183",
+          "name": "Wenhu Chen"
+        },
+        {
+          "authorId": "2271358134",
+          "name": "Yandong Li"
+        },
+        {
+          "authorId": "2256996545",
+          "name": "Kihyuk Sohn"
+        },
+        {
+          "authorId": "2267168526",
+          "name": "Yang Zhao"
+        },
+        {
+          "authorId": "2277741300",
+          "name": "Xue Ben"
+        },
+        {
+          "authorId": "2257000670",
+          "name": "Boqing Gong"
+        },
+        {
+          "authorId": "2277742196",
+          "name": "William Cohen"
+        },
+        {
+          "authorId": "2277809314",
+          "name": "Ming-Wei Chang"
+        },
+        {
+          "authorId": "2269764175",
+          "name": "Xuhui Jia"
+        }
+      ]
+    },
+    {
+      "paperId": "5a0f5d1e90c1f509a79432a400e02916d5a8dff0",
+      "title": "NewMove: Customizing Text-to-Video Models with Novel Motions",
+      "year": 2023,
+      "citationCount": 14,
+      "authors": [
+        {
+          "authorId": "7654960",
+          "name": "Joanna Materzynska"
+        },
+        {
+          "authorId": "2265755786",
+          "name": "Josef Sivic"
+        },
+        {
+          "authorId": "2268760396",
+          "name": "Eli Shechtman"
+        },
+        {
+          "authorId": "2238210505",
+          "name": "Antonio Torralba"
+        },
+        {
+          "authorId": "2268806125",
+          "name": "Richard Zhang"
+        },
+        {
+          "authorId": "2269989846",
+          "name": "Bryan Russell"
+        }
+      ]
+    },
+    {
+      "paperId": "5220687c42520855db240b67415a20e09c137004",
+      "title": "Mismatch Quest: Visual and Textual Feedback for Image-Text Misalignment",
+      "year": 2023,
+      "citationCount": 7,
+      "authors": [
+        {
+          "authorId": "2158660812",
+          "name": "Brian Gordon"
+        },
+        {
+          "authorId": "1938499056",
+          "name": "Yonatan Bitton"
+        },
+        {
+          "authorId": "2210264888",
+          "name": "Yonatan Shafir"
+        },
+        {
+          "authorId": "2271225517",
+          "name": "Roopal Garg"
+        },
+        {
+          "authorId": "2272078661",
+          "name": "Xi Chen"
+        },
+        {
+          "authorId": "70018371",
+          "name": "D. Lischinski"
+        },
+        {
+          "authorId": "2257215972",
+          "name": "D. Cohen-Or"
+        },
+        {
+          "authorId": "1711977",
+          "name": "Idan Szpektor"
+        }
+      ]
+    },
+    {
+      "paperId": "299a77bf4050c9686d35b905b96d8902734845c5",
+      "title": "Holistic Evaluation of Text-To-Image Models",
+      "year": 2023,
+      "citationCount": 104,
+      "authors": [
+        {
+          "authorId": "2110585783",
+          "name": "Tony Lee"
+        },
+        {
+          "authorId": "19168196",
+          "name": "Michihiro Yasunaga"
+        },
+        {
+          "authorId": "83262128",
+          "name": "Chenlin Meng"
+        },
+        {
+          "authorId": "2054708905",
+          "name": "Yifan Mai"
+        },
+        {
+          "authorId": "2197475360",
+          "name": "Joon Sung Park"
+        },
+        {
+          "authorId": "2337947178",
+          "name": "Agrim Gupta"
+        },
+        {
+          "authorId": "2261420360",
+          "name": "Yunzhi Zhang"
+        },
+        {
+          "authorId": "2251007290",
+          "name": "Deepak Narayanan"
+        },
+        {
+          "authorId": "2186054469",
+          "name": "H. Teufel"
+        },
+        {
+          "authorId": "1438952071",
+          "name": "Marco Bellagente"
+        },
+        {
+          "authorId": "2153110145",
+          "name": "Minguk Kang"
+        },
+        {
+          "authorId": "2071929129",
+          "name": "Taesung Park"
+        },
+        {
+          "authorId": "1702139",
+          "name": "J. Leskovec"
+        },
+        {
+          "authorId": "2250994799",
+          "name": "Jun-Yan Zhu"
+        },
+        {
+          "authorId": "2253964624",
+          "name": "Fei-Fei Li"
+        },
+        {
+          "authorId": "3045089",
+          "name": "Jiajun Wu"
+        },
+        {
+          "authorId": "2490652",
+          "name": "Stefano Ermon"
+        },
+        {
+          "authorId": "2249641250",
+          "name": "Percy Liang"
+        }
+      ]
+    },
+    {
+      "paperId": "c3b1174989748777173f25406627727073608c05",
+      "title": "Davidsonian Scene Graph: Improving Reliability in Fine-grained Evaluation for Text-to-Image Generation",
+      "year": 2023,
+      "citationCount": 51,
+      "authors": [
+        {
+          "authorId": "2706729",
+          "name": "Jaemin Cho"
+        },
+        {
+          "authorId": "2112209725",
+          "name": "Yushi Hu"
+        },
+        {
+          "authorId": "2271225517",
+          "name": "Roopal Garg"
+        },
+        {
+          "authorId": "2262217758",
+          "name": "Peter Anderson"
+        },
+        {
+          "authorId": "2262217505",
+          "name": "Ranjay Krishna"
+        },
+        {
+          "authorId": "2262216926",
+          "name": "Jason Baldridge"
+        },
+        {
+          "authorId": "2253762115",
+          "name": "Mohit Bansal"
+        },
+        {
+          "authorId": "2262217017",
+          "name": "Jordi Pont-Tuset"
+        },
+        {
+          "authorId": "2116431124",
+          "name": "Su Wang"
+        }
+      ]
+    },
+    {
+      "paperId": "837cd453e6186ea806492479b904348fea3b43b0",
+      "title": "ImagenHub: Standardizing the evaluation of conditional image generation models",
+      "year": 2023,
+      "citationCount": 31,
+      "authors": [
+        {
+          "authorId": "2218153604",
+          "name": "Max W.F. Ku"
+        },
+        {
+          "authorId": "2157466550",
+          "name": "Tianle Li"
+        },
+        {
+          "authorId": "145086492",
+          "name": "Kai Zhang"
+        },
+        {
+          "authorId": "2257339858",
+          "name": "Yujie Lu"
+        },
+        {
+          "authorId": "2078360",
+          "name": "Xingyu Fu"
+        },
+        {
+          "authorId": "2316325999",
+          "name": "Wenwen Zhuang"
+        },
+        {
+          "authorId": "2253811180",
+          "name": "Wenhu Chen"
+        }
+      ]
+    },
+    {
+      "paperId": "a72975eb88eb31f193e9587e7415cb04e7bcdbee",
+      "title": "Generating Benchmarks for Factuality Evaluation of Language Models",
+      "year": 2023,
+      "citationCount": 68,
+      "authors": [
+        {
+          "authorId": "51918041",
+          "name": "Dor Muhlgay"
+        },
+        {
+          "authorId": "73775461",
+          "name": "Ori Ram"
+        },
+        {
+          "authorId": "2158996542",
+          "name": "Inbal Magar"
+        },
+        {
+          "authorId": "152754428",
+          "name": "Yoav Levine"
+        },
+        {
+          "authorId": "2148471161",
+          "name": "Nir Ratner"
+        },
+        {
+          "authorId": "2083259",
+          "name": "Yonatan Belinkov"
+        },
+        {
+          "authorId": "2769805",
+          "name": "Omri Abend"
+        },
+        {
+          "authorId": "2066411743",
+          "name": "Kevin Leyton-Brown"
+        },
+        {
+          "authorId": "3140335",
+          "name": "A. Shashua"
+        },
+        {
+          "authorId": "1701353",
+          "name": "Y. Shoham"
+        }
+      ]
+    },
+    {
+      "paperId": "43dcf4e7f672b58981b885435ce083e6b069bfae",
+      "title": "T2I-CompBench: A Comprehensive Benchmark for Open-world Compositional Text-to-image Generation",
+      "year": 2023,
+      "citationCount": 145,
+      "authors": [
+        {
+          "authorId": "2112769396",
+          "name": "Kaiyi Huang"
+        },
+        {
+          "authorId": "2113849008",
+          "name": "Kaiyue Sun"
+        },
+        {
+          "authorId": "41020000",
+          "name": "Enze Xie"
+        },
+        {
+          "authorId": "7718952",
+          "name": "Zhenguo Li"
+        },
+        {
+          "authorId": "46522599",
+          "name": "Xihui Liu"
+        }
+      ]
+    },
+    {
+      "paperId": "b1ef91c5541f88297c7551e1adf15fcee7987197",
+      "title": "What You See is What You Read? Improving Text-Image Alignment Evaluation",
+      "year": 2023,
+      "citationCount": 58,
+      "authors": [
+        {
+          "authorId": "2065978700",
+          "name": "Michal Yarom"
+        },
+        {
+          "authorId": "1938499056",
+          "name": "Yonatan Bitton"
+        },
+        {
+          "authorId": "2059199",
+          "name": "Soravit Changpinyo"
+        },
+        {
+          "authorId": "2335771",
+          "name": "Roee Aharoni"
+        },
+        {
+          "authorId": "47426264",
+          "name": "Jonathan Herzig"
+        },
+        {
+          "authorId": "49618488",
+          "name": "Oran Lang"
+        },
+        {
+          "authorId": "69840482",
+          "name": "E. Ofek"
+        },
+        {
+          "authorId": "1711977",
+          "name": "Idan Szpektor"
+        }
+      ]
+    },
+    {
+      "paperId": "663d743272e9ab04f54d9105a3c3a3f6e22dd1dd",
+      "title": "FactKB: Generalizable Factuality Evaluation using Language Models Enhanced with Factual Knowledge",
+      "year": 2023,
+      "citationCount": 47,
+      "authors": [
+        {
+          "authorId": "2114887261",
+          "name": "Shangbin Feng"
+        },
+        {
+          "authorId": "143820870",
+          "name": "Vidhisha Balachandran"
+        },
+        {
+          "authorId": "2170130468",
+          "name": "Yuyang Bai"
+        },
+        {
+          "authorId": "2073587169",
+          "name": "Yulia Tsvetkov"
+        }
+      ]
+    },
+    {
+      "paperId": "5a9cb1b3dc4655218b3deeaf4a2417a9a8cd0891",
+      "title": "DINOv2: Learning Robust Visual Features without Supervision",
+      "year": 2023,
+      "citationCount": 2035,
+      "authors": [
+        {
+          "authorId": "2093491",
+          "name": "M. Oquab"
+        },
+        {
+          "authorId": "2214523349",
+          "name": "Timothée Darcet"
+        },
+        {
+          "authorId": "1752699898",
+          "name": "Théo Moutakanni"
+        },
+        {
+          "authorId": "2047928985",
+          "name": "Huy Q. Vo"
+        },
+        {
+          "authorId": "23994377",
+          "name": "Marc Szafraniec"
+        },
+        {
+          "authorId": "2182694",
+          "name": "Vasil Khalidov"
+        },
+        {
+          "authorId": "2147013351",
+          "name": "Pierre Fernandez"
+        },
+        {
+          "authorId": "40864100",
+          "name": "Daniel Haziza"
+        },
+        {
+          "authorId": "1403239967",
+          "name": "Francisco Massa"
+        },
+        {
+          "authorId": "1388811741",
+          "name": "Alaaeldin El-Nouby"
+        },
+        {
+          "authorId": "38698856",
+          "name": "Mahmoud Assran"
+        },
+        {
+          "authorId": "2482072",
+          "name": "Nicolas Ballas"
+        },
+        {
+          "authorId": "2247475926",
+          "name": "Wojciech Galuba"
+        },
+        {
+          "authorId": "1410913697",
+          "name": "Russ Howes"
+        },
+        {
+          "authorId": "2319973",
+          "name": "Po-Yao (Bernie) Huang"
+        },
+        {
+          "authorId": "2530311",
+          "name": "Shang-Wen Li"
+        },
+        {
+          "authorId": "1806773",
+          "name": "Ishan Misra"
+        },
+        {
+          "authorId": "2066127975",
+          "name": "Michael G. Rabbat"
+        },
+        {
+          "authorId": "144582538",
+          "name": "Vasu Sharma"
+        },
+        {
+          "authorId": "2282478",
+          "name": "Gabriel Synnaeve"
+        },
+        {
+          "authorId": "2187601405",
+          "name": "Huijiao Xu"
+        },
+        {
+          "authorId": "1681054",
+          "name": "H. Jégou"
+        },
+        {
+          "authorId": "2599292",
+          "name": "J. Mairal"
+        },
+        {
+          "authorId": "1744868",
+          "name": "Patrick Labatut"
+        },
+        {
+          "authorId": "2319608",
+          "name": "Armand Joulin"
+        },
+        {
+          "authorId": "2329288",
+          "name": "Piotr Bojanowski"
+        }
+      ]
+    },
+    {
+      "paperId": "4d94dcc6c9c261c8edcd0f3c5a1318a98a45b79d",
+      "title": "HRS-Bench: Holistic, Reliable and Scalable Benchmark for Text-to-Image Models",
+      "year": 2023,
+      "citationCount": 61,
+      "authors": [
+        {
+          "authorId": "2184841876",
+          "name": "Eslam Mohamed Bakr"
+        },
+        {
+          "authorId": "4280647",
+          "name": "Pengzhan Sun"
+        },
+        {
+          "authorId": "2151708219",
+          "name": "Xiaoqian Shen"
+        },
+        {
+          "authorId": "2152135478",
+          "name": "Faizan Farooq Khan"
+        },
+        {
+          "authorId": "2156057522",
+          "name": "Li Erran Li"
+        },
+        {
+          "authorId": "1712479",
+          "name": "Mohamed Elhoseiny"
+        }
+      ]
+    },
+    {
+      "paperId": "1f02ba1c6fae779ec3d003340e72eaf82351cfb9",
+      "title": "TIFA: Accurate and Interpretable Text-to-Image Faithfulness Evaluation with Question Answering",
+      "year": 2023,
+      "citationCount": 163,
+      "authors": [
+        {
+          "authorId": "2112209725",
+          "name": "Yushi Hu"
+        },
+        {
+          "authorId": "67215934",
+          "name": "Benlin Liu"
+        },
+        {
+          "authorId": "11348687",
+          "name": "Jungo Kasai"
+        },
+        {
+          "authorId": "1705260",
+          "name": "Yizhong Wang"
+        },
+        {
+          "authorId": "144339506",
+          "name": "Mari Ostendorf"
+        },
+        {
+          "authorId": "145237361",
+          "name": "Ranjay Krishna"
+        },
+        {
+          "authorId": "144365875",
+          "name": "Noah A. Smith"
+        }
+      ]
+    },
+    {
+      "paperId": "2bac138a23380ee1af43dae2dae38f918cb710ae",
+      "title": "Open-domain Visual Entity Recognition: Towards Recognizing Millions of Wikipedia Entities",
+      "year": 2023,
+      "citationCount": 38,
+      "authors": [
+        {
+          "authorId": "2804000",
+          "name": "Hexiang Hu"
+        },
+        {
+          "authorId": "116300663",
+          "name": "Yi Luan"
+        },
+        {
+          "authorId": "2144353312",
+          "name": "Yang Chen"
+        },
+        {
+          "authorId": "3030219",
+          "name": "Urvashi Khandelwal"
+        },
+        {
+          "authorId": "2052143361",
+          "name": "Mandar Joshi"
+        },
+        {
+          "authorId": "2110237268",
+          "name": "Kenton Lee"
+        },
+        {
+          "authorId": "3259253",
+          "name": "Kristina Toutanova"
+        },
+        {
+          "authorId": "2142348146",
+          "name": "Ming-Wei Chang"
+        }
+      ]
+    },
+    {
+      "paperId": "4bf77d64b860ed0cd84a63aecd92a3cb295b88ee",
+      "title": "Benchmarking Spatial Relationships in Text-to-Image Generation",
+      "year": 2022,
+      "citationCount": 58,
+      "authors": [
+        {
+          "authorId": "120838645",
+          "name": "Tejas Gokhale"
+        },
+        {
+          "authorId": "2247662718",
+          "name": "Hamid Palangi"
+        },
+        {
+          "authorId": "2571049",
+          "name": "Besmira Nushi"
+        },
+        {
+          "authorId": "143729959",
+          "name": "Vibhav Vineet"
+        },
+        {
+          "authorId": "145479841",
+          "name": "E. Horvitz"
+        },
+        {
+          "authorId": "1783184",
+          "name": "Ece Kamar"
+        },
+        {
+          "authorId": "2064619864",
+          "name": "Chitta Baral"
+        },
+        {
+          "authorId": "1784500",
+          "name": "Yezhou Yang"
+        }
+      ]
+    },
+    {
+      "paperId": "144eca44e250cc462f6fc3a172abb865978f66f5",
+      "title": "Multi-Concept Customization of Text-to-Image Diffusion",
+      "year": 2022,
+      "citationCount": 655,
+      "authors": [
+        {
+          "authorId": "46373847",
+          "name": "Nupur Kumari"
+        },
+        {
+          "authorId": "2119454239",
+          "name": "Bin Zhang"
+        },
+        {
+          "authorId": "2109976035",
+          "name": "Richard Zhang"
+        },
+        {
+          "authorId": "2177801",
+          "name": "Eli Shechtman"
+        },
+        {
+          "authorId": "1922024303",
+          "name": "Jun-Yan Zhu"
+        }
+      ]
+    },
+    {
+      "paperId": "ec1ac8df419a241c3cc6bfd209a38b494af792ee",
+      "title": "Re-Imagen: Retrieval-Augmented Text-to-Image Generator",
+      "year": 2022,
+      "citationCount": 135,
+      "authors": [
+        {
+          "authorId": "2928777",
+          "name": "Wenhu Chen"
+        },
+        {
+          "authorId": "2804000",
+          "name": "Hexiang Hu"
+        },
+        {
+          "authorId": "2139922989",
+          "name": "Chitwan Saharia"
+        },
+        {
+          "authorId": "50056360",
+          "name": "William W. Cohen"
+        }
+      ]
+    },
+    {
+      "paperId": "5b19bf6c3f4b25cac96362c98b930cf4b37f6744",
+      "title": "DreamBooth: Fine Tuning Text-to-Image Diffusion Models for Subject-Driven Generation",
+      "year": 2022,
+      "citationCount": 2182,
+      "authors": [
+        {
+          "authorId": "31601235",
+          "name": "Nataniel Ruiz"
+        },
+        {
+          "authorId": "2167749913",
+          "name": "Yuanzhen Li"
+        },
+        {
+          "authorId": "2131639924",
+          "name": "Varun Jampani"
+        },
+        {
+          "authorId": "1782328",
+          "name": "Y. Pritch"
+        },
+        {
+          "authorId": "144544291",
+          "name": "Michael Rubinstein"
+        },
+        {
+          "authorId": "3451442",
+          "name": "Kfir Aberman"
+        }
+      ]
+    },
+    {
+      "paperId": "9695824d7a01fad57ba9c01d7d76a519d78d65e7",
+      "title": "Photorealistic Text-to-Image Diffusion Models with Deep Language Understanding",
+      "year": 2022,
+      "citationCount": 4970,
+      "authors": [
+        {
+          "authorId": "51497543",
+          "name": "Chitwan Saharia"
+        },
+        {
+          "authorId": "144333684",
+          "name": "William Chan"
+        },
+        {
+          "authorId": "2054003577",
+          "name": "Saurabh Saxena"
+        },
+        {
+          "authorId": "2111917831",
+          "name": "Lala Li"
+        },
+        {
+          "authorId": "21040156",
+          "name": "Jay Whang"
+        },
+        {
+          "authorId": "40081727",
+          "name": "Emily L. Denton"
+        },
+        {
+          "authorId": "81419386",
+          "name": "Seyed Kamyar Seyed Ghasemipour"
+        },
+        {
+          "authorId": "143990191",
+          "name": "Burcu Karagol Ayan"
+        },
+        {
+          "authorId": "1982213",
+          "name": "S. S. Mahdavi"
+        },
+        {
+          "authorId": "143826364",
+          "name": "Raphael Gontijo Lopes"
+        },
+        {
+          "authorId": "2887364",
+          "name": "Tim Salimans"
+        },
+        {
+          "authorId": "2126278",
+          "name": "Jonathan Ho"
+        },
+        {
+          "authorId": "1793739",
+          "name": "David J. Fleet"
+        },
+        {
+          "authorId": "144739074",
+          "name": "Mohammad Norouzi"
+        }
+      ]
+    },
+    {
+      "paperId": "c57293882b2561e1ba03017902df9fc2f289dea2",
+      "title": "Hierarchical Text-Conditional Image Generation with CLIP Latents",
+      "year": 2022,
+      "citationCount": 5809,
+      "authors": [
+        {
+          "authorId": "1992922591",
+          "name": "A. Ramesh"
+        },
+        {
+          "authorId": "6515819",
+          "name": "Prafulla Dhariwal"
+        },
+        {
+          "authorId": "38967461",
+          "name": "Alex Nichol"
+        },
+        {
+          "authorId": "30414789",
+          "name": "Casey Chu"
+        },
+        {
+          "authorId": "2108828435",
+          "name": "Mark Chen"
+        }
+      ]
+    },
+    {
+      "paperId": "c10075b3746a9f3dd5811970e93c8ca3ad39b39d",
+      "title": "High-Resolution Image Synthesis with Latent Diffusion Models",
+      "year": 2021,
+      "citationCount": 11971,
+      "authors": [
+        {
+          "authorId": "1660819540",
+          "name": "Robin Rombach"
+        },
+        {
+          "authorId": "119843260",
+          "name": "A. Blattmann"
+        },
+        {
+          "authorId": "2053482699",
+          "name": "Dominik Lorenz"
+        },
+        {
+          "authorId": "35175531",
+          "name": "Patrick Esser"
+        },
+        {
+          "authorId": "1796707",
+          "name": "B. Ommer"
+        }
+      ]
+    },
+    {
+      "paperId": "38b0567e83386ddc294d6c81b541deacbd8e3c2a",
+      "title": "CLIPScore: A Reference-free Evaluation Metric for Image Captioning",
+      "year": 2021,
+      "citationCount": 1131,
+      "authors": [
+        {
+          "authorId": "2689239",
+          "name": "Jack Hessel"
+        },
+        {
+          "authorId": "14487640",
+          "name": "Ari Holtzman"
+        },
+        {
+          "authorId": "39191185",
+          "name": "Maxwell Forbes"
+        },
+        {
+          "authorId": "39227408",
+          "name": "Ronan Le Bras"
+        },
+        {
+          "authorId": "1699545",
+          "name": "Yejin Choi"
+        }
+      ]
+    },
+    {
+      "paperId": "6f870f7f02a8c59c3e23f407f3ef00dd1dcf8fc4",
+      "title": "Learning Transferable Visual Models From Natural Language Supervision",
+      "year": 2021,
+      "citationCount": 22608,
+      "authors": [
+        {
+          "authorId": "38909097",
+          "name": "Alec Radford"
+        },
+        {
+          "authorId": "2110935237",
+          "name": "Jong Wook Kim"
+        },
+        {
+          "authorId": "2004021329",
+          "name": "Chris Hallacy"
+        },
+        {
+          "authorId": "1992922591",
+          "name": "A. Ramesh"
+        },
+        {
+          "authorId": "40087786",
+          "name": "Gabriel Goh"
+        },
+        {
+          "authorId": "144517868",
+          "name": "Sandhini Agarwal"
+        },
+        {
+          "authorId": "144864359",
+          "name": "Girish Sastry"
+        },
+        {
+          "authorId": "119609682",
+          "name": "Amanda Askell"
+        },
+        {
+          "authorId": "2051714782",
+          "name": "Pamela Mishkin"
+        },
+        {
+          "authorId": "2115193883",
+          "name": "Jack Clark"
+        },
+        {
+          "authorId": "2064404342",
+          "name": "Gretchen Krueger"
+        },
+        {
+          "authorId": "1701686",
+          "name": "I. Sutskever"
+        }
+      ]
+    },
+    {
+      "paperId": "2cd605106b88c85d7d8b865b1ef0f8c8293debf1",
+      "title": "Zero-Shot Text-to-Image Generation",
+      "year": 2021,
+      "citationCount": 4247,
+      "authors": [
+        {
+          "authorId": "1992922591",
+          "name": "A. Ramesh"
+        },
+        {
+          "authorId": "2068123790",
+          "name": "Mikhail Pavlov"
+        },
+        {
+          "authorId": "40087786",
+          "name": "Gabriel Goh"
+        },
+        {
+          "authorId": "145565184",
+          "name": "Scott Gray"
+        },
+        {
+          "authorId": "153387869",
+          "name": "Chelsea Voss"
+        },
+        {
+          "authorId": "38909097",
+          "name": "Alec Radford"
+        },
+        {
+          "authorId": "2108828435",
+          "name": "Mark Chen"
+        },
+        {
+          "authorId": "1701686",
+          "name": "I. Sutskever"
+        }
+      ]
+    },
+    {
+      "paperId": "231af7dc01a166cac3b5b01ca05778238f796e41",
+      "title": "GANs Trained by a Two Time-Scale Update Rule Converge to a Local Nash Equilibrium",
+      "year": 2017,
+      "citationCount": 11873,
+      "authors": [
+        {
+          "authorId": "2445103",
+          "name": "M. Heusel"
+        },
+        {
+          "authorId": "19219270",
+          "name": "Hubert Ramsauer"
+        },
+        {
+          "authorId": "2465270",
+          "name": "Thomas Unterthiner"
+        },
+        {
+          "authorId": "37082831",
+          "name": "Bernhard Nessler"
+        },
+        {
+          "authorId": "3308557",
+          "name": "Sepp Hochreiter"
+        }
+      ]
+    },
+    {
+      "paperId": "71b7178df5d2b112d07e45038cb5637208659ff7",
+      "title": "Microsoft COCO: Common Objects in Context",
+      "year": 2014,
+      "citationCount": 40250,
+      "authors": [
+        {
+          "authorId": "33493200",
+          "name": "Tsung-Yi Lin"
+        },
+        {
+          "authorId": "145854440",
+          "name": "M. Maire"
+        },
+        {
+          "authorId": "50172592",
+          "name": "Serge J. Belongie"
+        },
+        {
+          "authorId": "48966748",
+          "name": "James Hays"
+        },
+        {
+          "authorId": "1690922",
+          "name": "P. Perona"
+        },
+        {
+          "authorId": "1770537",
+          "name": "Deva Ramanan"
+        },
+        {
+          "authorId": "3127283",
+          "name": "Piotr Dollár"
+        },
+        {
+          "authorId": "1699161",
+          "name": "C. L. Zitnick"
+        }
+      ]
+    },
+    {
+      "paperId": null,
+      "title": "Imagen 3 Team",
+      "year": null,
+      "citationCount": null,
+      "authors": []
+    },
+    {
+      "paperId": null,
+      "title": "are missing, inaccurate, or misrepresented",
+      "year": null,
+      "citationCount": null,
+      "authors": []
+    },
+    {
+      "paperId": null,
+      "title": "Black Forest Labs",
+      "year": null,
+      "citationCount": null,
+      "authors": []
+    }
+  ]
+}

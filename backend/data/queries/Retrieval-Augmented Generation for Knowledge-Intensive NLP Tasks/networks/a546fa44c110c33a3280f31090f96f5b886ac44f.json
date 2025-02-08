@@ -1,0 +1,822 @@
+{
+  "citations": [
+    {
+      "paperId": "9ef5f1c54f254589541ae63c33408ea1d3ad899a",
+      "title": "Graph-constrained Reasoning: Faithful Reasoning on Knowledge Graphs with Large Language Models",
+      "year": 2024,
+      "citationCount": 1,
+      "authors": [
+        {
+          "authorId": "2238130759",
+          "name": "Linhao Luo"
+        },
+        {
+          "authorId": "2314850812",
+          "name": "Zicheng Zhao"
+        },
+        {
+          "authorId": "2305431199",
+          "name": "Chen Gong"
+        },
+        {
+          "authorId": "2561045",
+          "name": "Gholamreza Haffari"
+        },
+        {
+          "authorId": "2265933101",
+          "name": "Shirui Pan"
+        }
+      ]
+    }
+  ],
+  "references": [
+    {
+      "paperId": "a2ce14f0ed94c6f7268865357549908759686c49",
+      "title": "CyberQ: Generating Questions and Answers for Cybersecurity Education Using Knowledge Graph-Augmented LLMs",
+      "year": 2024,
+      "citationCount": 8,
+      "authors": [
+        {
+          "authorId": "145363324",
+          "name": "Garima Agrawal"
+        },
+        {
+          "authorId": "2293474162",
+          "name": "Kuntal Pal"
+        },
+        {
+          "authorId": "2293575939",
+          "name": "Yuli Deng"
+        },
+        {
+          "authorId": "2146398603",
+          "name": "Huanmin Liu"
+        },
+        {
+          "authorId": "2130459343",
+          "name": "Yingying Chen"
+        }
+      ]
+    },
+    {
+      "paperId": "e5e8c6ac537e0f5b5db14170bc232d6f9e641bbc",
+      "title": "Adaptive-RAG: Learning to Adapt Retrieval-Augmented Large Language Models through Question Complexity",
+      "year": 2024,
+      "citationCount": 77,
+      "authors": [
+        {
+          "authorId": "8599185",
+          "name": "Soyeong Jeong"
+        },
+        {
+          "authorId": "90765684",
+          "name": "Jinheon Baek"
+        },
+        {
+          "authorId": "2158892171",
+          "name": "Sukmin Cho"
+        },
+        {
+          "authorId": "2260611009",
+          "name": "Sung Ju Hwang"
+        },
+        {
+          "authorId": "2109285560",
+          "name": "Jong C. Park"
+        }
+      ]
+    },
+    {
+      "paperId": "91e011a952de940e5aea485fed5e49140924a8ca",
+      "title": "FIT-RAG: Black-Box RAG with Factual Information and Token Reduction",
+      "year": 2024,
+      "citationCount": 5,
+      "authors": [
+        {
+          "authorId": "2293238106",
+          "name": "Yuren Mao"
+        },
+        {
+          "authorId": "2223421628",
+          "name": "Xuemei Dong"
+        },
+        {
+          "authorId": "2292411692",
+          "name": "Wenyi Xu"
+        },
+        {
+          "authorId": "2292513358",
+          "name": "Yunjun Gao"
+        },
+        {
+          "authorId": "2292401852",
+          "name": "Bin Wei"
+        },
+        {
+          "authorId": "2292448869",
+          "name": "Ying Zhang"
+        }
+      ]
+    },
+    {
+      "paperId": "fdefb6a9b51c742d71740d25a76973116a2e0893",
+      "title": "RAFT: Adapting Language Model to Domain Specific RAG",
+      "year": 2024,
+      "citationCount": 117,
+      "authors": [
+        {
+          "authorId": "1993655237",
+          "name": "Tianjun Zhang"
+        },
+        {
+          "authorId": "2257979820",
+          "name": "Shishir G. Patil"
+        },
+        {
+          "authorId": "1646458461",
+          "name": "Naman Jain"
+        },
+        {
+          "authorId": "2191455",
+          "name": "Sheng Shen"
+        },
+        {
+          "authorId": "143834867",
+          "name": "M. Zaharia"
+        },
+        {
+          "authorId": "2055174324",
+          "name": "Ion Stoica"
+        },
+        {
+          "authorId": "2254681613",
+          "name": "Joseph E. Gonzalez"
+        }
+      ]
+    },
+    {
+      "paperId": "fa6618681476b6bec51b4233ab83658f1f9a6db7",
+      "title": "Enhancing LLM Factual Accuracy with RAG to Counter Hallucinations: A Case Study on Domain-Specific Queries in Private Knowledge-Bases",
+      "year": 2024,
+      "citationCount": 28,
+      "authors": [
+        {
+          "authorId": "2291983504",
+          "name": "Jiarui Li"
+        },
+        {
+          "authorId": "2291993398",
+          "name": "Ye Yuan"
+        },
+        {
+          "authorId": "2291997675",
+          "name": "Zehua Zhang"
+        }
+      ]
+    },
+    {
+      "paperId": "8b264b811dd14dc0ed0d396e82c4f159c671cda5",
+      "title": "Graph-Based Retriever Captures the Long Tail of Biomedical Knowledge",
+      "year": 2024,
+      "citationCount": 11,
+      "authors": [
+        {
+          "authorId": "2284691128",
+          "name": "Julien Delile"
+        },
+        {
+          "authorId": "1782727",
+          "name": "Srayanta Mukherjee"
+        },
+        {
+          "authorId": "97479431",
+          "name": "Anton Van Pamel"
+        },
+        {
+          "authorId": "2284689952",
+          "name": "Leonid Zhukov"
+        }
+      ]
+    },
+    {
+      "paperId": "c38d00896176b435085f2ff7257214670d340a8f",
+      "title": "LB-KBQA:Large-language-model and BERT based Knowledge-Based Question and Answering System",
+      "year": 2024,
+      "citationCount": 2,
+      "authors": [
+        {
+          "authorId": "2283434365",
+          "name": "Yan Zhao"
+        },
+        {
+          "authorId": "2283484231",
+          "name": "Zhongyun Li"
+        },
+        {
+          "authorId": "2221236613",
+          "name": "Yushan Pan"
+        },
+        {
+          "authorId": "2283436628",
+          "name": "Jiaxing Wang"
+        },
+        {
+          "authorId": "2221269856",
+          "name": "Yihong Wang"
+        }
+      ]
+    },
+    {
+      "paperId": "64852dd925065dab03322d8ca90c836a0725a547",
+      "title": "HyKGE: A Hypothesis Knowledge Graph Enhanced Framework for Accurate and Reliable Medical LLMs Responses",
+      "year": 2023,
+      "citationCount": 12,
+      "authors": [
+        {
+          "authorId": "2181297535",
+          "name": "Xinke Jiang"
+        },
+        {
+          "authorId": "2276704515",
+          "name": "Ruizhe Zhang"
+        },
+        {
+          "authorId": "2215472732",
+          "name": "Yongxin Xu"
+        },
+        {
+          "authorId": "2276425552",
+          "name": "Rihong Qiu"
+        },
+        {
+          "authorId": "2276489740",
+          "name": "Yue Fang"
+        },
+        {
+          "authorId": "2215476252",
+          "name": "Zhiyuan Wang"
+        },
+        {
+          "authorId": "2276510531",
+          "name": "Jinyi Tang"
+        },
+        {
+          "authorId": "2256163148",
+          "name": "Hongxin Ding"
+        },
+        {
+          "authorId": "2276425819",
+          "name": "Xu Chu"
+        },
+        {
+          "authorId": "2145804723",
+          "name": "Junfeng Zhao"
+        },
+        {
+          "authorId": "2253831765",
+          "name": "Yasha Wang"
+        }
+      ]
+    },
+    {
+      "paperId": "46f9f7b8f88f72e12cbdb21e3311f995eb6e65c5",
+      "title": "Retrieval-Augmented Generation for Large Language Models: A Survey",
+      "year": 2023,
+      "citationCount": 933,
+      "authors": [
+        {
+          "authorId": "2280046531",
+          "name": "Yunfan Gao"
+        },
+        {
+          "authorId": "2275320371",
+          "name": "Yun Xiong"
+        },
+        {
+          "authorId": "2275341478",
+          "name": "Xinyu Gao"
+        },
+        {
+          "authorId": "2275191447",
+          "name": "Kangxiang Jia"
+        },
+        {
+          "authorId": "2275530552",
+          "name": "Jinliu Pan"
+        },
+        {
+          "authorId": "2275171009",
+          "name": "Yuxi Bi"
+        },
+        {
+          "authorId": "2276187454",
+          "name": "Yi Dai"
+        },
+        {
+          "authorId": "2275540959",
+          "name": "Jiawei Sun"
+        },
+        {
+          "authorId": "2258800561",
+          "name": "Qianyu Guo"
+        },
+        {
+          "authorId": "2291409458",
+          "name": "Meng Wang"
+        },
+        {
+          "authorId": "2256769434",
+          "name": "Haofen Wang"
+        }
+      ]
+    },
+    {
+      "paperId": "ec67d5f0e236f23c6b48b926f9e25db52194dd71",
+      "title": "Can Knowledge Graphs Reduce Hallucinations in LLMs? : A Survey",
+      "year": 2023,
+      "citationCount": 55,
+      "authors": [
+        {
+          "authorId": "145363324",
+          "name": "Garima Agrawal"
+        },
+        {
+          "authorId": "40899329",
+          "name": "Tharindu Kumarage"
+        },
+        {
+          "authorId": "2266468495",
+          "name": "Zeyad Alghami"
+        },
+        {
+          "authorId": "2146398603",
+          "name": "Huanmin Liu"
+        }
+      ]
+    },
+    {
+      "paperId": "ddbd8fe782ac98e9c64dd98710687a962195dd9b",
+      "title": "Self-RAG: Learning to Retrieve, Generate, and Critique through Self-Reflection",
+      "year": 2023,
+      "citationCount": 423,
+      "authors": [
+        {
+          "authorId": "35584853",
+          "name": "Akari Asai"
+        },
+        {
+          "authorId": "7806955",
+          "name": "Zeqiu Wu"
+        },
+        {
+          "authorId": "1705260",
+          "name": "Yizhong Wang"
+        },
+        {
+          "authorId": "2707234",
+          "name": "Avirup Sil"
+        },
+        {
+          "authorId": "2548384",
+          "name": "Hannaneh Hajishirzi"
+        }
+      ]
+    },
+    {
+      "paperId": "b47e96762351b2dbf7e863ece4640df6194bcc0c",
+      "title": "Reasoning on Graphs: Faithful and Interpretable Large Language Model Reasoning",
+      "year": 2023,
+      "citationCount": 132,
+      "authors": [
+        {
+          "authorId": "2238130759",
+          "name": "Linhao Luo"
+        },
+        {
+          "authorId": "2256011160",
+          "name": "Yuan-Fang Li"
+        },
+        {
+          "authorId": "2561045",
+          "name": "Gholamreza Haffari"
+        },
+        {
+          "authorId": "2254047333",
+          "name": "Shirui Pan"
+        }
+      ]
+    },
+    {
+      "paperId": "785c0d4efd3aaa946f8bdcd12b38a147cc36b794",
+      "title": "Retrieve-Rewrite-Answer: A KG-to-Text Enhanced LLMs Framework for Knowledge Graph Question Answering",
+      "year": 2023,
+      "citationCount": 46,
+      "authors": [
+        {
+          "authorId": "50118263",
+          "name": "Yike Wu"
+        },
+        {
+          "authorId": "2154445064",
+          "name": "Nan Hu"
+        },
+        {
+          "authorId": "2065970582",
+          "name": "Sheng Bi"
+        },
+        {
+          "authorId": "1730054",
+          "name": "G. Qi"
+        },
+        {
+          "authorId": "143702207",
+          "name": "J. Ren"
+        },
+        {
+          "authorId": "143817316",
+          "name": "Anhuan Xie"
+        },
+        {
+          "authorId": "2243575849",
+          "name": "Wei Song"
+        }
+      ]
+    },
+    {
+      "paperId": "7b9ce347f9e5df4fb9546d59bb524a1a3c0578a1",
+      "title": "Auction-Based Learning for Question Answering over Knowledge Graphs",
+      "year": 2023,
+      "citationCount": 2,
+      "authors": [
+        {
+          "authorId": "145363324",
+          "name": "Garima Agrawal"
+        },
+        {
+          "authorId": "1786249",
+          "name": "D. Bertsekas"
+        },
+        {
+          "authorId": "2155337763",
+          "name": "Huan Liu"
+        }
+      ]
+    },
+    {
+      "paperId": "e0f27336698c84709bd60b6b7f4ce588cbae66bf",
+      "title": "StructGPT: A General Framework for Large Language Model to Reason over Structured Data",
+      "year": 2023,
+      "citationCount": 204,
+      "authors": [
+        {
+          "authorId": "2118240359",
+          "name": "Jinhao Jiang"
+        },
+        {
+          "authorId": "1423651904",
+          "name": "Kun Zhou"
+        },
+        {
+          "authorId": "2198280871",
+          "name": "Zican Dong"
+        },
+        {
+          "authorId": "1657563745",
+          "name": "Keming Ye"
+        },
+        {
+          "authorId": "2542603",
+          "name": "Wayne Xin Zhao"
+        },
+        {
+          "authorId": "153693432",
+          "name": "Ji-rong Wen"
+        }
+      ]
+    },
+    {
+      "paperId": "bfad52fc64ca0169644b6e7e0ea9a46470d51709",
+      "title": "Can ChatGPT Replace Traditional KBQA Models? An In-Depth Analysis of the Question Answering Performance of the GPT LLM Family",
+      "year": 2023,
+      "citationCount": 79,
+      "authors": [
+        {
+          "authorId": "2110746972",
+          "name": "Yiming Tan"
+        },
+        {
+          "authorId": "2211478907",
+          "name": "Dehai Min"
+        },
+        {
+          "authorId": "47002721",
+          "name": "Y. Li"
+        },
+        {
+          "authorId": "2211591472",
+          "name": "Wenbo Li"
+        },
+        {
+          "authorId": "2154445064",
+          "name": "Nan Hu"
+        },
+        {
+          "authorId": "2109245569",
+          "name": "Yongrui Chen"
+        },
+        {
+          "authorId": "1730054",
+          "name": "G. Qi"
+        }
+      ]
+    },
+    {
+      "paperId": "9a02e1fa83bc23ceaaf0ba7dee864ff8ddf18d38",
+      "title": "Building Knowledge Graphs from Unstructured Texts: Applications and Impact Analyses in Cybersecurity Education",
+      "year": 2022,
+      "citationCount": 34,
+      "authors": [
+        {
+          "authorId": "145363324",
+          "name": "Garima Agrawal"
+        },
+        {
+          "authorId": "2310475",
+          "name": "Yuli Deng"
+        },
+        {
+          "authorId": "2109216641",
+          "name": "Jongchan Park"
+        },
+        {
+          "authorId": "2146398603",
+          "name": "Huanmin Liu"
+        },
+        {
+          "authorId": "2130459343",
+          "name": "Yingying Chen"
+        }
+      ]
+    },
+    {
+      "paperId": "6fcdad7b8d6b60b23bc51859e736c29f913b249a",
+      "title": "Improving the Domain Adaptation of Retrieval Augmented Generation (RAG) Models for Open Domain Question Answering",
+      "year": 2022,
+      "citationCount": 92,
+      "authors": [
+        {
+          "authorId": "51516859",
+          "name": "Shamane Siriwardhana"
+        },
+        {
+          "authorId": "52001535",
+          "name": "Rivindu Weerasekera"
+        },
+        {
+          "authorId": "2114425044",
+          "name": "Elliott Wen"
+        },
+        {
+          "authorId": "1992921690",
+          "name": "Tharindu Kaluarachchi"
+        },
+        {
+          "authorId": "1814487",
+          "name": "R. Rana"
+        },
+        {
+          "authorId": "1486464114",
+          "name": "Suranga Nanayakkara"
+        }
+      ]
+    },
+    {
+      "paperId": "3def68bd0f856886d34272840a7f81588f2bc082",
+      "title": "Survey of Hallucination in Natural Language Generation",
+      "year": 2022,
+      "citationCount": 1845,
+      "authors": [
+        {
+          "authorId": "3391272",
+          "name": "Ziwei Ji"
+        },
+        {
+          "authorId": "40221187",
+          "name": "Nayeon Lee"
+        },
+        {
+          "authorId": "1397300094",
+          "name": "Rita Frieske"
+        },
+        {
+          "authorId": "1660855299",
+          "name": "Tiezheng Yu"
+        },
+        {
+          "authorId": "49678544",
+          "name": "D. Su"
+        },
+        {
+          "authorId": "98271906",
+          "name": "Yan Xu"
+        },
+        {
+          "authorId": "38524906",
+          "name": "Etsuko Ishii"
+        },
+        {
+          "authorId": "23672613",
+          "name": "Yejin Bang"
+        },
+        {
+          "authorId": "94210578",
+          "name": "Delong Chen"
+        },
+        {
+          "authorId": "47653392",
+          "name": "Wenliang Dai"
+        },
+        {
+          "authorId": "2111680936",
+          "name": "Andrea Madotto"
+        },
+        {
+          "authorId": "40539650",
+          "name": "Pascale Fung"
+        }
+      ]
+    },
+    {
+      "paperId": "b2e0f559cc6e1398830f6feafa846a26ab4c234e",
+      "title": "Domain-specific Knowledge Graphs: A survey",
+      "year": 2020,
+      "citationCount": 258,
+      "authors": [
+        {
+          "authorId": "2280625604",
+          "name": "Bilal Abu-Salih"
+        }
+      ]
+    },
+    {
+      "paperId": "95280565aa3d120c6d7e8d87ea3423f16977f19a",
+      "title": "Variational Reasoning for Question Answering with Knowledge Graph",
+      "year": 2017,
+      "citationCount": 443,
+      "authors": [
+        {
+          "authorId": "2108307075",
+          "name": "Yuyu Zhang"
+        },
+        {
+          "authorId": "2791430",
+          "name": "H. Dai"
+        },
+        {
+          "authorId": "1714932",
+          "name": "Zornitsa Kozareva"
+        },
+        {
+          "authorId": "46234526",
+          "name": "Alex Smola"
+        },
+        {
+          "authorId": "1779453",
+          "name": "Le Song"
+        }
+      ]
+    },
+    {
+      "paperId": "c7fcaa13db8c89ff1f39b5687ba47f8beee107c4",
+      "title": "The Value of Semantic Parse Labeling for Knowledge Base Question Answering",
+      "year": 2016,
+      "citationCount": 452,
+      "authors": [
+        {
+          "authorId": "144105277",
+          "name": "Wen-tau Yih"
+        },
+        {
+          "authorId": "144422314",
+          "name": "Matthew Richardson"
+        },
+        {
+          "authorId": "50004012",
+          "name": "Christopher Meek"
+        },
+        {
+          "authorId": "1744179",
+          "name": "Ming-Wei Chang"
+        },
+        {
+          "authorId": "38972741",
+          "name": "Jina Suh"
+        }
+      ]
+    },
+    {
+      "paperId": "1976c9eeccc7115d18a04f1e7fb5145db6b96002",
+      "title": "Freebase: a collaboratively created graph database for structuring human knowledge",
+      "year": 2008,
+      "citationCount": 5249,
+      "authors": [
+        {
+          "authorId": "1742448",
+          "name": "K. Bollacker"
+        },
+        {
+          "authorId": "2065123479",
+          "name": "Colin Evans"
+        },
+        {
+          "authorId": "2990264",
+          "name": "Praveen K. Paritosh"
+        },
+        {
+          "authorId": "1399112633",
+          "name": "Tim Sturge"
+        },
+        {
+          "authorId": "2110748390",
+          "name": "Jamie Taylor"
+        }
+      ]
+    },
+    {
+      "paperId": "678cfca72b7de72b005f71207bc8a522ea9ac62c",
+      "title": "Knowledge-Augmented Language Model Prompting for Zero-Shot Knowledge Graph Question Answering",
+      "year": 2023,
+      "citationCount": 83,
+      "authors": [
+        {
+          "authorId": "90765684",
+          "name": "Jinheon Baek"
+        },
+        {
+          "authorId": "8129718",
+          "name": "Alham Fikri Aji"
+        },
+        {
+          "authorId": "1741702",
+          "name": "Amir Saffari"
+        }
+      ]
+    },
+    {
+      "paperId": "e5493b4193dca3cedc721c092cc20e00daf385f7",
+      "title": "AISecKG: Knowledge Graph Dataset for Cybersecurity Education",
+      "year": 2023,
+      "citationCount": 4,
+      "authors": [
+        {
+          "authorId": "145363324",
+          "name": "Garima Agrawal"
+        },
+        {
+          "authorId": "50494955",
+          "name": "Kuntal Kumar Pal"
+        },
+        {
+          "authorId": "2310475",
+          "name": "Yuli Deng"
+        },
+        {
+          "authorId": "2146398603",
+          "name": "Huanmin Liu"
+        },
+        {
+          "authorId": "2064619864",
+          "name": "Chitta Baral"
+        }
+      ]
+    },
+    {
+      "paperId": null,
+      "title": "Construction and application of an ontology-based domain-specific knowledge graph for petroleum exploration and development",
+      "year": 2023,
+      "citationCount": null,
+      "authors": []
+    },
+    {
+      "paperId": null,
+      "title": "“A survey on rag meets llms: Towards retrieval-augmented large language models,”",
+      "year": null,
+      "citationCount": null,
+      "authors": []
+    },
+    {
+      "paperId": null,
+      "title": "2022. Building Knowledge Graphs",
+      "year": null,
+      "citationCount": null,
+      "authors": []
+    },
+    {
+      "paperId": null,
+      "title": "We conduct a comprehensive error analysis of KG-based RAG methods used in question-answering tasks, identifying eight critical types of failure points",
+      "year": null,
+      "citationCount": null,
+      "authors": []
+    }
+  ]
+}

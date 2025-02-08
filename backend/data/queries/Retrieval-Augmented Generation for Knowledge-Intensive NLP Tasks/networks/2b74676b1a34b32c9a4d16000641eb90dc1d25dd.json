@@ -1,0 +1,1520 @@
+{
+  "citations": [
+    {
+      "paperId": "796453db982b6b47cb0a1823290befae73bf7d37",
+      "title": "Graph and Sequential Neural Networks in Session-based Recommendation: A Survey",
+      "year": 2024,
+      "citationCount": 0,
+      "authors": [
+        {
+          "authorId": "2256518078",
+          "name": "Zihao Li"
+        },
+        {
+          "authorId": "2155848261",
+          "name": "Chao Yang"
+        },
+        {
+          "authorId": "2109281086",
+          "name": "Yakun Chen"
+        },
+        {
+          "authorId": "2238149841",
+          "name": "Xianzhi Wang"
+        },
+        {
+          "authorId": "2288342351",
+          "name": "Hongxu Chen"
+        },
+        {
+          "authorId": "2266812740",
+          "name": "Guandong Xu"
+        },
+        {
+          "authorId": "2266878635",
+          "name": "Lina Yao"
+        },
+        {
+          "authorId": "2259487271",
+          "name": "Quan Z. Sheng"
+        }
+      ]
+    }
+  ],
+  "references": [
+    {
+      "paperId": "6a55be7343ec8d6e5104d482e2223c1644a811e5",
+      "title": "LLM In-Context Recall is Prompt Dependent",
+      "year": 2024,
+      "citationCount": 8,
+      "authors": [
+        {
+          "authorId": "2296718151",
+          "name": "Daniel Machlab"
+        },
+        {
+          "authorId": "2296716528",
+          "name": "Rick Battle"
+        }
+      ]
+    },
+    {
+      "paperId": "8eafec7014d08043517834b5a2ed26384f188873",
+      "title": "The Reversal Curse: LLMs trained on \"A is B\" fail to learn \"B is A\"",
+      "year": 2023,
+      "citationCount": 188,
+      "authors": [
+        {
+          "authorId": "2237798380",
+          "name": "Lukas Berglund"
+        },
+        {
+          "authorId": "2237797264",
+          "name": "Meg Tong"
+        },
+        {
+          "authorId": "2237795846",
+          "name": "Max Kaufmann"
+        },
+        {
+          "authorId": "2237797134",
+          "name": "Mikita Balesni"
+        },
+        {
+          "authorId": "68974453",
+          "name": "Asa Cooper Stickland"
+        },
+        {
+          "authorId": "2237795801",
+          "name": "Tomasz Korbak"
+        },
+        {
+          "authorId": "47107786",
+          "name": "Owain Evans"
+        }
+      ]
+    },
+    {
+      "paperId": "838cd69a0b6c9c244a6eebb0f4742c0625132de6",
+      "title": "An Empirical Study of Catastrophic Forgetting in Large Language Models During Continual Fine-tuning",
+      "year": 2023,
+      "citationCount": 211,
+      "authors": [
+        {
+          "authorId": "2181146702",
+          "name": "Yun Luo"
+        },
+        {
+          "authorId": "2149231975",
+          "name": "Zhen Yang"
+        },
+        {
+          "authorId": "33427918",
+          "name": "Fandong Meng"
+        },
+        {
+          "authorId": "2110450452",
+          "name": "Yafu Li"
+        },
+        {
+          "authorId": "48128428",
+          "name": "Jie Zhou"
+        },
+        {
+          "authorId": "2167740183",
+          "name": "Yue Zhang"
+        }
+      ]
+    },
+    {
+      "paperId": "ae22f7c57916562e2729a1a7f34298e4220b77a7",
+      "title": "Learning to Retrieve In-Context Examples for Large Language Models",
+      "year": 2023,
+      "citationCount": 30,
+      "authors": [
+        {
+          "authorId": "145769448",
+          "name": "Liang Wang"
+        },
+        {
+          "authorId": "144610884",
+          "name": "Nan Yang"
+        },
+        {
+          "authorId": "49807919",
+          "name": "Furu Wei"
+        }
+      ]
+    },
+    {
+      "paperId": "70c3d5ab03a54281be91709b19e3f50a2e4be0e3",
+      "title": "Transformers as Statisticians: Provable In-Context Learning with In-Context Algorithm Selection",
+      "year": 2023,
+      "citationCount": 143,
+      "authors": [
+        {
+          "authorId": "8681368",
+          "name": "Yu Bai"
+        },
+        {
+          "authorId": "103244045",
+          "name": "Fan Chen"
+        },
+        {
+          "authorId": "46507194",
+          "name": "Haiquan Wang"
+        },
+        {
+          "authorId": "2054594326",
+          "name": "Caiming Xiong"
+        },
+        {
+          "authorId": "2068869988",
+          "name": "Song Mei"
+        }
+      ]
+    },
+    {
+      "paperId": "0d1c76d45afa012ded7ab741194baf142117c495",
+      "title": "Direct Preference Optimization: Your Language Model is Secretly a Reward Model",
+      "year": 2023,
+      "citationCount": 2260,
+      "authors": [
+        {
+          "authorId": "102801230",
+          "name": "Rafael Rafailov"
+        },
+        {
+          "authorId": "50465276",
+          "name": "Archit Sharma"
+        },
+        {
+          "authorId": "49688913",
+          "name": "E. Mitchell"
+        },
+        {
+          "authorId": "2490652",
+          "name": "Stefano Ermon"
+        },
+        {
+          "authorId": "144783904",
+          "name": "Christopher D. Manning"
+        },
+        {
+          "authorId": "46881670",
+          "name": "Chelsea Finn"
+        }
+      ]
+    },
+    {
+      "paperId": "6a2d96d2a7adde6349f15c1e680b67d114e7b67c",
+      "title": "Unified Demonstration Retriever for In-Context Learning",
+      "year": 2023,
+      "citationCount": 99,
+      "authors": [
+        {
+          "authorId": "50080067",
+          "name": "Xiaonan Li"
+        },
+        {
+          "authorId": "2055634356",
+          "name": "Kai Lv"
+        },
+        {
+          "authorId": "146948229",
+          "name": "Hang Yan"
+        },
+        {
+          "authorId": "2159085506",
+          "name": "Tianya Lin"
+        },
+        {
+          "authorId": "2152348673",
+          "name": "Wei Zhu"
+        },
+        {
+          "authorId": "2072724069",
+          "name": "Yuan Ni"
+        },
+        {
+          "authorId": "2052157466",
+          "name": "G. Xie"
+        },
+        {
+          "authorId": "2145748428",
+          "name": "Xiaoling Wang"
+        },
+        {
+          "authorId": "2188058565",
+          "name": "Xipeng Qiu"
+        }
+      ]
+    },
+    {
+      "paperId": "48abfc41a0abf023d2037ebb2f274835e0d322d0",
+      "title": "Compositional Exemplars for In-context Learning",
+      "year": 2023,
+      "citationCount": 88,
+      "authors": [
+        {
+          "authorId": "65846898",
+          "name": "Jiacheng Ye"
+        },
+        {
+          "authorId": "150358371",
+          "name": "Zhiyong Wu"
+        },
+        {
+          "authorId": "2093485",
+          "name": "Jiangtao Feng"
+        },
+        {
+          "authorId": "2117900202",
+          "name": "Tao Yu"
+        },
+        {
+          "authorId": "47648549",
+          "name": "Lingpeng Kong"
+        }
+      ]
+    },
+    {
+      "paperId": "465471bb5bf1a945549d6291c2d23367966b4957",
+      "title": "In-Context Retrieval-Augmented Language Models",
+      "year": 2023,
+      "citationCount": 414,
+      "authors": [
+        {
+          "authorId": "73775461",
+          "name": "Ori Ram"
+        },
+        {
+          "authorId": "152754428",
+          "name": "Yoav Levine"
+        },
+        {
+          "authorId": "1491822146",
+          "name": "Itay Dalmedigos"
+        },
+        {
+          "authorId": "51918041",
+          "name": "Dor Muhlgay"
+        },
+        {
+          "authorId": "3140335",
+          "name": "A. Shashua"
+        },
+        {
+          "authorId": "2066411743",
+          "name": "Kevin Leyton-Brown"
+        },
+        {
+          "authorId": "1701353",
+          "name": "Y. Shoham"
+        }
+      ]
+    },
+    {
+      "paperId": "34ff1da13770908ef0bf389365cdde743d3c9db1",
+      "title": "Diverse Demonstrations Improve In-context Compositional Generalization",
+      "year": 2022,
+      "citationCount": 100,
+      "authors": [
+        {
+          "authorId": "1422883272",
+          "name": "Itay Levy"
+        },
+        {
+          "authorId": "50757607",
+          "name": "Ben Bogin"
+        },
+        {
+          "authorId": "1750652",
+          "name": "Jonathan Berant"
+        }
+      ]
+    },
+    {
+      "paperId": "d03a9b2a0e090cc9fd2ba0a457ecea35372f1018",
+      "title": "Demystifying Prompts in Language Models via Perplexity Estimation",
+      "year": 2022,
+      "citationCount": 168,
+      "authors": [
+        {
+          "authorId": "1821892",
+          "name": "Hila Gonen"
+        },
+        {
+          "authorId": "1900163",
+          "name": "Srini Iyer"
+        },
+        {
+          "authorId": "3443287",
+          "name": "Terra Blevins"
+        },
+        {
+          "authorId": "144365875",
+          "name": "Noah A. Smith"
+        },
+        {
+          "authorId": "1982950",
+          "name": "Luke Zettlemoyer"
+        }
+      ]
+    },
+    {
+      "paperId": "5a3c1afe73d8bcc8288d17cb17be2baec8a98464",
+      "title": "Text Embeddings by Weakly-Supervised Contrastive Pre-training",
+      "year": 2022,
+      "citationCount": 405,
+      "authors": [
+        {
+          "authorId": "145769448",
+          "name": "Liang Wang"
+        },
+        {
+          "authorId": "144610884",
+          "name": "Nan Yang"
+        },
+        {
+          "authorId": "2116768132",
+          "name": "Xiaolong Huang"
+        },
+        {
+          "authorId": "24128606",
+          "name": "Binxing Jiao"
+        },
+        {
+          "authorId": "7866194",
+          "name": "Linjun Yang"
+        },
+        {
+          "authorId": "2086994543",
+          "name": "Daxin Jiang"
+        },
+        {
+          "authorId": "32431940",
+          "name": "Rangan Majumder"
+        },
+        {
+          "authorId": "49807919",
+          "name": "Furu Wei"
+        }
+      ]
+    },
+    {
+      "paperId": "515cf674fcdced5a7d5bb156dd5fcc1f5290e79b",
+      "title": "In-context Examples Selection for Machine Translation",
+      "year": 2022,
+      "citationCount": 165,
+      "authors": [
+        {
+          "authorId": "5112699",
+          "name": "Sweta Agrawal"
+        },
+        {
+          "authorId": "2384711",
+          "name": "Chunting Zhou"
+        },
+        {
+          "authorId": "35084211",
+          "name": "M. Lewis"
+        },
+        {
+          "authorId": "1982950",
+          "name": "Luke Zettlemoyer"
+        },
+        {
+          "authorId": "2320509",
+          "name": "Marjan Ghazvininejad"
+        }
+      ]
+    },
+    {
+      "paperId": "097dc73d5d422b3c09286e72d16b2561ae5fb395",
+      "title": "Complementary Explanations for Effective In-Context Learning",
+      "year": 2022,
+      "citationCount": 75,
+      "authors": [
+        {
+          "authorId": "50183897",
+          "name": "Xi Ye"
+        },
+        {
+          "authorId": "1900163",
+          "name": "Srini Iyer"
+        },
+        {
+          "authorId": "1709797",
+          "name": "Asli Celikyilmaz"
+        },
+        {
+          "authorId": "1389924486",
+          "name": "Ves Stoyanov"
+        },
+        {
+          "authorId": "1814094",
+          "name": "Greg Durrett"
+        },
+        {
+          "authorId": "10721120",
+          "name": "Ramakanth Pasunuru"
+        }
+      ]
+    },
+    {
+      "paperId": "b2542a738b75ee9b7ce1a13d8b78f9095d212412",
+      "title": "Generate rather than Retrieve: Large Language Models are Strong Context Generators",
+      "year": 2022,
+      "citationCount": 285,
+      "authors": [
+        {
+          "authorId": "38767143",
+          "name": "W. Yu"
+        },
+        {
+          "authorId": "3310951",
+          "name": "Dan Iter"
+        },
+        {
+          "authorId": "2992833",
+          "name": "Shuohang Wang"
+        },
+        {
+          "authorId": "2110197273",
+          "name": "Yichong Xu"
+        },
+        {
+          "authorId": "67171225",
+          "name": "Mingxuan Ju"
+        },
+        {
+          "authorId": "3313909",
+          "name": "Soumya Sanyal"
+        },
+        {
+          "authorId": "8652308",
+          "name": "Chenguang Zhu"
+        },
+        {
+          "authorId": "48262024",
+          "name": "Michael Zeng"
+        },
+        {
+          "authorId": "2152153656",
+          "name": "Meng Jiang"
+        }
+      ]
+    },
+    {
+      "paperId": "86d0d3855f94105e25d81cab9f3d269c6062a9c4",
+      "title": "Selective Annotation Makes Language Models Better Few-Shot Learners",
+      "year": 2022,
+      "citationCount": 216,
+      "authors": [
+        {
+          "authorId": "2152173042",
+          "name": "Hongjin Su"
+        },
+        {
+          "authorId": "11348687",
+          "name": "Jungo Kasai"
+        },
+        {
+          "authorId": "114621402",
+          "name": "Chen Henry Wu"
+        },
+        {
+          "authorId": "3040379",
+          "name": "Weijia Shi"
+        },
+        {
+          "authorId": "1785372925",
+          "name": "Tianlu Wang"
+        },
+        {
+          "authorId": "2184142568",
+          "name": "Jiayi Xin"
+        },
+        {
+          "authorId": "15176410",
+          "name": "Rui Zhang"
+        },
+        {
+          "authorId": "144339506",
+          "name": "Mari Ostendorf"
+        },
+        {
+          "authorId": "1982950",
+          "name": "Luke Zettlemoyer"
+        },
+        {
+          "authorId": "144365875",
+          "name": "Noah A. Smith"
+        },
+        {
+          "authorId": "48881008",
+          "name": "Tao Yu"
+        }
+      ]
+    },
+    {
+      "paperId": "e7ad08848d5d7c5c47673ffe0da06af443643bda",
+      "title": "Large Language Models are Zero-Shot Reasoners",
+      "year": 2022,
+      "citationCount": 3354,
+      "authors": [
+        {
+          "authorId": "2081836120",
+          "name": "Takeshi Kojima"
+        },
+        {
+          "authorId": "2046135",
+          "name": "S. Gu"
+        },
+        {
+          "authorId": "1557386977",
+          "name": "Machel Reid"
+        },
+        {
+          "authorId": "2153732825",
+          "name": "Yutaka Matsuo"
+        },
+        {
+          "authorId": "1715282",
+          "name": "Yusuke Iwasawa"
+        }
+      ]
+    },
+    {
+      "paperId": "7cdaa08890895e1ad92afb5fad429690ad7b1dac",
+      "title": "Few-Shot Parameter-Efficient Fine-Tuning is Better and Cheaper than In-Context Learning",
+      "year": 2022,
+      "citationCount": 740,
+      "authors": [
+        {
+          "authorId": "48447436",
+          "name": "Haokun Liu"
+        },
+        {
+          "authorId": "1390031652",
+          "name": "Derek Tam"
+        },
+        {
+          "authorId": "1582888954",
+          "name": "Mohammed Muqeeth"
+        },
+        {
+          "authorId": "117354463",
+          "name": "Jay Mohta"
+        },
+        {
+          "authorId": "2110510944",
+          "name": "Tenghao Huang"
+        },
+        {
+          "authorId": "143977268",
+          "name": "Mohit Bansal"
+        },
+        {
+          "authorId": "2402716",
+          "name": "Colin Raffel"
+        }
+      ]
+    },
+    {
+      "paperId": "f9838a3be5c94bb2674a0e224de349b50e18f3c4",
+      "title": "Learning To Retrieve Prompts for In-Context Learning",
+      "year": 2021,
+      "citationCount": 603,
+      "authors": [
+        {
+          "authorId": "2001128224",
+          "name": "Ohad Rubin"
+        },
+        {
+          "authorId": "47426264",
+          "name": "Jonathan Herzig"
+        },
+        {
+          "authorId": "1750652",
+          "name": "Jonathan Berant"
+        }
+      ]
+    },
+    {
+      "paperId": "77d956cdab4508d569ae5741549b78e715fd0749",
+      "title": "TruthfulQA: Measuring How Models Mimic Human Falsehoods",
+      "year": 2021,
+      "citationCount": 1401,
+      "authors": [
+        {
+          "authorId": "48639938",
+          "name": "Stephanie C. Lin"
+        },
+        {
+          "authorId": "2052366271",
+          "name": "Jacob Hilton"
+        },
+        {
+          "authorId": "47107786",
+          "name": "Owain Evans"
+        }
+      ]
+    },
+    {
+      "paperId": "ac5c11cfa59f76e0108d90b038bf892d1383a3de",
+      "title": "DGCN: Diversified Recommendation with Graph Convolutional Networks",
+      "year": 2021,
+      "citationCount": 98,
+      "authors": [
+        {
+          "authorId": "118961885",
+          "name": "Y. Zheng"
+        },
+        {
+          "authorId": "49281242",
+          "name": "Chen Gao"
+        },
+        {
+          "authorId": "2146033194",
+          "name": "Liang Chen"
+        },
+        {
+          "authorId": "49953590",
+          "name": "Depeng Jin"
+        },
+        {
+          "authorId": "39948674",
+          "name": "Yong Li"
+        }
+      ]
+    },
+    {
+      "paperId": "59641c10ed7431a3cf841f308367dc2dc0281b74",
+      "title": "What Makes Good In-Context Examples for GPT-3?",
+      "year": 2021,
+      "citationCount": 1190,
+      "authors": [
+        {
+          "authorId": "8807538",
+          "name": "Jiachang Liu"
+        },
+        {
+          "authorId": "19178763",
+          "name": "Dinghan Shen"
+        },
+        {
+          "authorId": "48378494",
+          "name": "Yizhe Zhang"
+        },
+        {
+          "authorId": "66648221",
+          "name": "Bill Dolan"
+        },
+        {
+          "authorId": "145006560",
+          "name": "L. Carin"
+        },
+        {
+          "authorId": "2109136147",
+          "name": "Weizhu Chen"
+        }
+      ]
+    },
+    {
+      "paperId": "90abbc2cf38462b954ae1b772fac9532e2ccd8b0",
+      "title": "Language Models are Few-Shot Learners",
+      "year": 2020,
+      "citationCount": 35106,
+      "authors": [
+        {
+          "authorId": "31035595",
+          "name": "Tom B. Brown"
+        },
+        {
+          "authorId": "2056658938",
+          "name": "Benjamin Mann"
+        },
+        {
+          "authorId": "39849748",
+          "name": "Nick Ryder"
+        },
+        {
+          "authorId": "2065894334",
+          "name": "Melanie Subbiah"
+        },
+        {
+          "authorId": "152724169",
+          "name": "J. Kaplan"
+        },
+        {
+          "authorId": "6515819",
+          "name": "Prafulla Dhariwal"
+        },
+        {
+          "authorId": "2072676",
+          "name": "Arvind Neelakantan"
+        },
+        {
+          "authorId": "67311962",
+          "name": "Pranav Shyam"
+        },
+        {
+          "authorId": "144864359",
+          "name": "Girish Sastry"
+        },
+        {
+          "authorId": "119609682",
+          "name": "Amanda Askell"
+        },
+        {
+          "authorId": "144517868",
+          "name": "Sandhini Agarwal"
+        },
+        {
+          "authorId": "1404060687",
+          "name": "Ariel Herbert-Voss"
+        },
+        {
+          "authorId": "2064404342",
+          "name": "Gretchen Krueger"
+        },
+        {
+          "authorId": "103143311",
+          "name": "T. Henighan"
+        },
+        {
+          "authorId": "48422824",
+          "name": "R. Child"
+        },
+        {
+          "authorId": "1992922591",
+          "name": "A. Ramesh"
+        },
+        {
+          "authorId": "2052152920",
+          "name": "Daniel M. Ziegler"
+        },
+        {
+          "authorId": "49387725",
+          "name": "Jeff Wu"
+        },
+        {
+          "authorId": "2059411355",
+          "name": "Clemens Winter"
+        },
+        {
+          "authorId": "144239765",
+          "name": "Christopher Hesse"
+        },
+        {
+          "authorId": "2108828435",
+          "name": "Mark Chen"
+        },
+        {
+          "authorId": "2064673055",
+          "name": "Eric Sigler"
+        },
+        {
+          "authorId": "1380985420",
+          "name": "Ma-teusz Litwin"
+        },
+        {
+          "authorId": "145565184",
+          "name": "Scott Gray"
+        },
+        {
+          "authorId": "1490681878",
+          "name": "B. Chess"
+        },
+        {
+          "authorId": "2115193883",
+          "name": "Jack Clark"
+        },
+        {
+          "authorId": "133740015",
+          "name": "Christopher Berner"
+        },
+        {
+          "authorId": "52238703",
+          "name": "Sam McCandlish"
+        },
+        {
+          "authorId": "38909097",
+          "name": "Alec Radford"
+        },
+        {
+          "authorId": "1701686",
+          "name": "I. Sutskever"
+        },
+        {
+          "authorId": "2698777",
+          "name": "Dario Amodei"
+        }
+      ]
+    },
+    {
+      "paperId": "60b8ad6177230ad5402af409a6edb5af441baeb4",
+      "title": "ColBERT: Efficient and Effective Passage Search via Contextualized Late Interaction over BERT",
+      "year": 2020,
+      "citationCount": 1166,
+      "authors": [
+        {
+          "authorId": "144112155",
+          "name": "O. Khattab"
+        },
+        {
+          "authorId": "143834867",
+          "name": "M. Zaharia"
+        }
+      ]
+    },
+    {
+      "paperId": "43f2ad297941db230c089ba353efc3f281ab678c",
+      "title": "5分で分かる!? 有名論文ナナメ読み：Jacob Devlin et al. : BERT : Pre-training of Deep Bidirectional Transformers for Language Understanding",
+      "year": 2020,
+      "citationCount": 10361,
+      "authors": [
+        {
+          "authorId": "136309159",
+          "name": "知秀 柴田"
+        }
+      ]
+    },
+    {
+      "paperId": "d4d1f7b9362db7fa4c06faa0e04f89d6eb2ed405",
+      "title": "Learning for search result diversification",
+      "year": 2014,
+      "citationCount": 93,
+      "authors": [
+        {
+          "authorId": "3026493",
+          "name": "Yadong Zhu"
+        },
+        {
+          "authorId": "37510256",
+          "name": "Yanyan Lan"
+        },
+        {
+          "authorId": "1777025",
+          "name": "J. Guo"
+        },
+        {
+          "authorId": "1717004",
+          "name": "Xueqi Cheng"
+        },
+        {
+          "authorId": "2944201",
+          "name": "Shuzi Niu"
+        }
+      ]
+    },
+    {
+      "paperId": "25f7e0dc912d8d66dbbd2d0757b518b50db96237",
+      "title": "Novelty and diversity enhancement and evaluation in recommender systems and information retrieval",
+      "year": 2014,
+      "citationCount": 62,
+      "authors": [
+        {
+          "authorId": "145599671",
+          "name": "S. Vargas"
+        }
+      ]
+    },
+    {
+      "paperId": "530bf1f7fa1478a3730fdcef0273abdfd7d05669",
+      "title": "Efficient Indexing for Diverse Query Results",
+      "year": 2013,
+      "citationCount": 8,
+      "authors": [
+        {
+          "authorId": "2882389",
+          "name": "Luochen Li"
+        },
+        {
+          "authorId": "39712651",
+          "name": "C. Chan"
+        }
+      ]
+    },
+    {
+      "paperId": "343ef23644cd0f2adc0f9bafdd2bd6c13820bc64",
+      "title": "Parallel Gaussian Process Optimization with Upper Confidence Bound and Pure Exploration",
+      "year": 2013,
+      "citationCount": 210,
+      "authors": [
+        {
+          "authorId": "3055651",
+          "name": "E. Contal"
+        },
+        {
+          "authorId": "2081356",
+          "name": "David Buffoni"
+        },
+        {
+          "authorId": "2364487",
+          "name": "Alexandre Robicquet"
+        },
+        {
+          "authorId": "1715204",
+          "name": "N. Vayatis"
+        }
+      ]
+    },
+    {
+      "paperId": "2a802bd3c0d63ee1e43f1e31633e90b399c1a789",
+      "title": "Parallelizing Exploration-Exploitation Tradeoffs with Gaussian Process Bandit Optimization",
+      "year": 2012,
+      "citationCount": 463,
+      "authors": [
+        {
+          "authorId": "2125972",
+          "name": "Thomas Desautels"
+        },
+        {
+          "authorId": "145343838",
+          "name": "Andreas Krause"
+        },
+        {
+          "authorId": "144751617",
+          "name": "J. Burdick"
+        }
+      ]
+    },
+    {
+      "paperId": "9fdb13b1da665e3041d725a8d5ef62b78861c0ea",
+      "title": "Rank and relevance in novelty and diversity metrics for recommender systems",
+      "year": 2011,
+      "citationCount": 671,
+      "authors": [
+        {
+          "authorId": "145599671",
+          "name": "S. Vargas"
+        },
+        {
+          "authorId": "2912921",
+          "name": "P. Castells"
+        }
+      ]
+    },
+    {
+      "paperId": "373e6076c0d8b3cd192ce9e4cd5196f147593b01",
+      "title": "On query result diversification",
+      "year": 2011,
+      "citationCount": 172,
+      "authors": [
+        {
+          "authorId": "145549427",
+          "name": "Marcos R. Vieira"
+        },
+        {
+          "authorId": "1852790",
+          "name": "H. Razente"
+        },
+        {
+          "authorId": "2635026",
+          "name": "M. Barioni"
+        },
+        {
+          "authorId": "1836901",
+          "name": "Marios Hadjieleftheriou"
+        },
+        {
+          "authorId": "145860176",
+          "name": "D. Srivastava"
+        },
+        {
+          "authorId": "104501789",
+          "name": "C. Traina"
+        },
+        {
+          "authorId": "1761528",
+          "name": "V. Tsotras"
+        }
+      ]
+    },
+    {
+      "paperId": "2b8307abcc48adfeea85f2185ce01c0f813dcd51",
+      "title": "A comparative analysis of cascade measures for novelty and diversity",
+      "year": 2011,
+      "citationCount": 138,
+      "authors": [
+        {
+          "authorId": "1751287",
+          "name": "C. Clarke"
+        },
+        {
+          "authorId": "1703980",
+          "name": "Nick Craswell"
+        },
+        {
+          "authorId": "144526707",
+          "name": "I. Soboroff"
+        },
+        {
+          "authorId": "1715458",
+          "name": "Azin Ashkan"
+        }
+      ]
+    },
+    {
+      "paperId": "08c34883743406f05a10c54c802373997c706ce7",
+      "title": "Quality-biased ranking of web documents",
+      "year": 2011,
+      "citationCount": 145,
+      "authors": [
+        {
+          "authorId": "1815447",
+          "name": "Michael Bendersky"
+        },
+        {
+          "authorId": "144456145",
+          "name": "W. Bruce Croft"
+        },
+        {
+          "authorId": "1891854",
+          "name": "Y. Diao"
+        }
+      ]
+    },
+    {
+      "paperId": "38612e346fdf3158c32c16058f7e8820a8f0325e",
+      "title": "Efficient and effective spam filtering and re-ranking for large web datasets",
+      "year": 2010,
+      "citationCount": 346,
+      "authors": [
+        {
+          "authorId": "3114123",
+          "name": "G. Cormack"
+        },
+        {
+          "authorId": "1689089",
+          "name": "Mark D. Smucker"
+        },
+        {
+          "authorId": "1751287",
+          "name": "C. Clarke"
+        }
+      ]
+    },
+    {
+      "paperId": "7e3cf6492128f915112ca01dcb77c766129e65cb",
+      "title": "Expected reciprocal rank for graded relevance",
+      "year": 2009,
+      "citationCount": 879,
+      "authors": [
+        {
+          "authorId": "1730609",
+          "name": "O. Chapelle"
+        },
+        {
+          "authorId": "1398919793",
+          "name": "D. Metlzer"
+        },
+        {
+          "authorId": "2108037077",
+          "name": "Ya Zhang"
+        },
+        {
+          "authorId": "3176173",
+          "name": "P. Grinspan"
+        }
+      ]
+    },
+    {
+      "paperId": "05cd68f719406d2f5966187b70924713675e951f",
+      "title": "Overview of the TREC 2009 Web Track",
+      "year": 2009,
+      "citationCount": 406,
+      "authors": [
+        {
+          "authorId": "1751287",
+          "name": "C. Clarke"
+        },
+        {
+          "authorId": "1703980",
+          "name": "Nick Craswell"
+        },
+        {
+          "authorId": "144526707",
+          "name": "I. Soboroff"
+        }
+      ]
+    },
+    {
+      "paperId": "d01fa604474e538c5847de0a2acffd5452f92319",
+      "title": "An Effectiveness Measure for Ambiguous and Underspecified Queries",
+      "year": 2009,
+      "citationCount": 144,
+      "authors": [
+        {
+          "authorId": "1751287",
+          "name": "C. Clarke"
+        },
+        {
+          "authorId": "2690669",
+          "name": "M. Kolla"
+        },
+        {
+          "authorId": "1712417",
+          "name": "Olga Vechtomova"
+        }
+      ]
+    },
+    {
+      "paperId": "10486f0102297696f51da9f8f7c4ded4c0c49fb3",
+      "title": "An axiomatic approach for result diversification",
+      "year": 2009,
+      "citationCount": 454,
+      "authors": [
+        {
+          "authorId": "144979147",
+          "name": "Sreenivas Gollapudi"
+        },
+        {
+          "authorId": "2109669217",
+          "name": "Aneesh Sharma"
+        }
+      ]
+    },
+    {
+      "paperId": "10205ce087b9190ac18ade8be02a660d92a6ea52",
+      "title": "Diversifying search results",
+      "year": 2009,
+      "citationCount": 1122,
+      "authors": [
+        {
+          "authorId": "144947410",
+          "name": "R. Agrawal"
+        },
+        {
+          "authorId": "144979147",
+          "name": "Sreenivas Gollapudi"
+        },
+        {
+          "authorId": "12723379",
+          "name": "A. Halverson"
+        },
+        {
+          "authorId": "1745593",
+          "name": "Samuel Ieong"
+        }
+      ]
+    },
+    {
+      "paperId": "15004aadabd967ac722a28a9c3bb39cf5bc32605",
+      "title": "Novelty and diversity in information retrieval evaluation",
+      "year": 2008,
+      "citationCount": 1011,
+      "authors": [
+        {
+          "authorId": "1751287",
+          "name": "C. Clarke"
+        },
+        {
+          "authorId": "2690669",
+          "name": "M. Kolla"
+        },
+        {
+          "authorId": "3114123",
+          "name": "G. Cormack"
+        },
+        {
+          "authorId": "1712417",
+          "name": "Olga Vechtomova"
+        },
+        {
+          "authorId": "1715458",
+          "name": "Azin Ashkan"
+        },
+        {
+          "authorId": "2178188",
+          "name": "Stefan Büttcher"
+        },
+        {
+          "authorId": "48509200",
+          "name": "Ian MacKinnon"
+        }
+      ]
+    },
+    {
+      "paperId": "a22ac183c8b37824e32cae970db170b861a13438",
+      "title": "Learning diverse rankings with multi-armed bandits",
+      "year": 2008,
+      "citationCount": 539,
+      "authors": [
+        {
+          "authorId": "1803571",
+          "name": "Filip Radlinski"
+        },
+        {
+          "authorId": "2633757",
+          "name": "Robert D. Kleinberg"
+        },
+        {
+          "authorId": "1680188",
+          "name": "T. Joachims"
+        }
+      ]
+    },
+    {
+      "paperId": "5396e9858d70f09bf42f251621b5f2816a9cb660",
+      "title": "Cover trees for nearest neighbor",
+      "year": 2006,
+      "citationCount": 905,
+      "authors": [
+        {
+          "authorId": "2624289",
+          "name": "A. Beygelzimer"
+        },
+        {
+          "authorId": "144695232",
+          "name": "S. Kakade"
+        },
+        {
+          "authorId": "144162125",
+          "name": "J. Langford"
+        }
+      ]
+    },
+    {
+      "paperId": "df3999e457a95d79846b55c2b92b211b39290b19",
+      "title": "Detecting spam web pages through content analysis",
+      "year": 2006,
+      "citationCount": 727,
+      "authors": [
+        {
+          "authorId": "2397437",
+          "name": "A. Ntoulas"
+        },
+        {
+          "authorId": "1763978",
+          "name": "Marc Najork"
+        },
+        {
+          "authorId": "2083378",
+          "name": "M. Manasse"
+        },
+        {
+          "authorId": "1780761",
+          "name": "D. Fetterly"
+        }
+      ]
+    },
+    {
+      "paperId": "64edd2c5c41e856695e1dcb950c0512c3a87edec",
+      "title": "Improving recommendation lists through topic diversification",
+      "year": 2005,
+      "citationCount": 1965,
+      "authors": [
+        {
+          "authorId": "3247247",
+          "name": "Cai-Nicolas Ziegler"
+        },
+        {
+          "authorId": "3039934",
+          "name": "S. McNee"
+        },
+        {
+          "authorId": "2478310",
+          "name": "J. Konstan"
+        },
+        {
+          "authorId": "1809410",
+          "name": "G. Lausen"
+        }
+      ]
+    },
+    {
+      "paperId": "cd0702deabaa8b7ccfba077f89dcc24e48ae1d47",
+      "title": "Beyond independent relevance: methods and evaluation metrics for subtopic retrieval",
+      "year": 2003,
+      "citationCount": 546,
+      "authors": [
+        {
+          "authorId": "1736467",
+          "name": "ChengXiang Zhai"
+        },
+        {
+          "authorId": "50056360",
+          "name": "William W. Cohen"
+        },
+        {
+          "authorId": "1739581",
+          "name": "J. Lafferty"
+        }
+      ]
+    },
+    {
+      "paperId": "10d6778bc45aebcd58d336b4062b935861d2fe8a",
+      "title": "The Anatomy of a Large-Scale Hypertextual Web Search Engine",
+      "year": 1998,
+      "citationCount": 16761,
+      "authors": [
+        {
+          "authorId": "1786259",
+          "name": "Sergey Brin"
+        },
+        {
+          "authorId": "48479130",
+          "name": "Lawrence Page"
+        }
+      ]
+    },
+    {
+      "paperId": "8aa98fbfb6f1e979dead13ce24075503fe47658e",
+      "title": "A Survey for In-context Learning",
+      "year": 2023,
+      "citationCount": 342,
+      "authors": [
+        {
+          "authorId": "2047143813",
+          "name": "Qingxiu Dong"
+        },
+        {
+          "authorId": "49192881",
+          "name": "Lei Li"
+        },
+        {
+          "authorId": "10780897",
+          "name": "Damai Dai"
+        },
+        {
+          "authorId": "2113919886",
+          "name": "Ce Zheng"
+        },
+        {
+          "authorId": "2267004431",
+          "name": "Zhiyong Wu"
+        },
+        {
+          "authorId": "7267809",
+          "name": "Baobao Chang"
+        },
+        {
+          "authorId": "2116530295",
+          "name": "Xu Sun"
+        },
+        {
+          "authorId": "2257464374",
+          "name": "Jingjing Xu"
+        },
+        {
+          "authorId": "143900005",
+          "name": "Lei Li"
+        },
+        {
+          "authorId": "3335836",
+          "name": "Zhifang Sui"
+        }
+      ]
+    },
+    {
+      "paperId": "df2b0e26d0599ce3e70df8a9da02e51594e0e992",
+      "title": "BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding",
+      "year": 2019,
+      "citationCount": 86804,
+      "authors": [
+        {
+          "authorId": "39172707",
+          "name": "Jacob Devlin"
+        },
+        {
+          "authorId": "1744179",
+          "name": "Ming-Wei Chang"
+        },
+        {
+          "authorId": "2544107",
+          "name": "Kenton Lee"
+        },
+        {
+          "authorId": "3259253",
+          "name": "Kristina Toutanova"
+        }
+      ]
+    },
+    {
+      "paperId": "0c0a778e6fdf7e36b1750c533dcc916f86608607",
+      "title": "A Survey on Context Learning",
+      "year": 2017,
+      "citationCount": 670,
+      "authors": [
+        {
+          "authorId": "3101979",
+          "name": "Guangxu Xun"
+        },
+        {
+          "authorId": "2112826483",
+          "name": "Xiaowei Jia"
+        },
+        {
+          "authorId": "2741738",
+          "name": "Vishrawas Gopalakrishnan"
+        },
+        {
+          "authorId": "92994851",
+          "name": "Aidong Zhang"
+        }
+      ]
+    },
+    {
+      "paperId": "0541579506575301ba7457d5a7f16b45e08a300c",
+      "title": "The use of MMR, diversity-based reranking for reordering documents and producing summaries",
+      "year": 1998,
+      "citationCount": 1119,
+      "authors": [
+        {
+          "authorId": "2060917627",
+          "name": "Jaime Carbonell"
+        },
+        {
+          "authorId": "1403730511",
+          "name": "Jade Goldstein-Stewart"
+        }
+      ]
+    },
+    {
+      "paperId": "fa8ffa9f8d8367b987845ae88f2adcac2689f110",
+      "title": "Okapi at TREC-3",
+      "year": 1994,
+      "citationCount": 2395,
+      "authors": [
+        {
+          "authorId": "144430625",
+          "name": "S. Robertson"
+        },
+        {
+          "authorId": "48872185",
+          "name": "S. Walker"
+        },
+        {
+          "authorId": "2288355081",
+          "name": "S. Jones"
+        },
+        {
+          "authorId": "1398053996",
+          "name": "Micheline Hancock-Beaulieu"
+        },
+        {
+          "authorId": "2328476",
+          "name": "M. Gatford"
+        }
+      ]
+    },
+    {
+      "paperId": null,
+      "title": "IR-RAG at SIGIR24, July 28, 2024, Washington, DC",
+      "year": null,
+      "citationCount": null,
+      "authors": []
+    },
+    {
+      "paperId": null,
+      "title": "Low-rank adaptation of large language models",
+      "year": null,
+      "citationCount": null,
+      "authors": []
+    }
+  ]
+}

@@ -1,0 +1,2713 @@
+{
+  "citations": [
+    {
+      "paperId": "89c096a49ee213464a384b200100ce218550b1d3",
+      "title": "Beyond the Screen: The Impact of Generative Artificial Intelligence (AI) on Patient Learning and the Patient-Physician Relationship",
+      "year": 2025,
+      "citationCount": 0,
+      "authors": [
+        {
+          "authorId": "2015289644",
+          "name": "Daryl O. Traylor"
+        },
+        {
+          "authorId": "2338605953",
+          "name": "Keith V Kern"
+        },
+        {
+          "authorId": "2307308785",
+          "name": "Eboni E Anderson"
+        },
+        {
+          "authorId": "2319232743",
+          "name": "Robert Henderson"
+        }
+      ]
+    },
+    {
+      "paperId": "124b40ec883eb59e89be76e5da5489dbed89275c",
+      "title": "RARE: Retrieval-Augmented Reasoning Enhancement for Large Language Models",
+      "year": 2024,
+      "citationCount": 2,
+      "authors": [
+        {
+          "authorId": "2263121822",
+          "name": "Hieu Tran"
+        },
+        {
+          "authorId": "1576489304",
+          "name": "Zonghai Yao"
+        },
+        {
+          "authorId": "2261394407",
+          "name": "Junda Wang"
+        },
+        {
+          "authorId": "2333589853",
+          "name": "Yifan Zhang"
+        },
+        {
+          "authorId": "2261462978",
+          "name": "Zhichao Yang"
+        },
+        {
+          "authorId": "2261455807",
+          "name": "Hong Yu"
+        }
+      ]
+    },
+    {
+      "paperId": "d5544571fa37a6eaac972153cec57df591c38a04",
+      "title": "MCQG-SRefine: Multiple Choice Question Generation and Evaluation with Iterative Self-Critique, Correction, and Comparison Feedback",
+      "year": 2024,
+      "citationCount": 0,
+      "authors": [
+        {
+          "authorId": "1576489304",
+          "name": "Zonghai Yao"
+        },
+        {
+          "authorId": "2326302479",
+          "name": "Aditya Parashar"
+        },
+        {
+          "authorId": "2261556443",
+          "name": "Huixue Zhou"
+        },
+        {
+          "authorId": "2323786086",
+          "name": "Won Seok Jang"
+        },
+        {
+          "authorId": "2263773255",
+          "name": "Feiyun Ouyang"
+        },
+        {
+          "authorId": "2261462978",
+          "name": "Zhichao Yang"
+        },
+        {
+          "authorId": "2261455807",
+          "name": "Hong Yu"
+        }
+      ]
+    },
+    {
+      "paperId": "b8678f74d659610e8774aff81a5d13f975d7cade",
+      "title": "ReadCtrl: Personalizing text generation with readability-controlled instruction learning",
+      "year": 2024,
+      "citationCount": 2,
+      "authors": [
+        {
+          "authorId": "2263121822",
+          "name": "Hieu Tran"
+        },
+        {
+          "authorId": "1576489304",
+          "name": "Zonghai Yao"
+        },
+        {
+          "authorId": "2232824313",
+          "name": "Lingxi Li"
+        },
+        {
+          "authorId": "2261455807",
+          "name": "Hong Yu"
+        }
+      ]
+    },
+    {
+      "paperId": "2d5a22d55c409762de36cab680e686a2c91b73a2",
+      "title": "EHR Interaction Between Patients and AI: NoteAid EHR Interaction",
+      "year": 2023,
+      "citationCount": 2,
+      "authors": [
+        {
+          "authorId": "2277238665",
+          "name": "Xiaocheng Zhang"
+        },
+        {
+          "authorId": "1576489304",
+          "name": "Zonghai Yao"
+        },
+        {
+          "authorId": "2261455807",
+          "name": "Hong Yu"
+        }
+      ]
+    }
+  ],
+  "references": [
+    {
+      "paperId": "b8678f74d659610e8774aff81a5d13f975d7cade",
+      "title": "ReadCtrl: Personalizing text generation with readability-controlled instruction learning",
+      "year": 2024,
+      "citationCount": 2,
+      "authors": [
+        {
+          "authorId": "2263121822",
+          "name": "Hieu Tran"
+        },
+        {
+          "authorId": "1576489304",
+          "name": "Zonghai Yao"
+        },
+        {
+          "authorId": "2232824313",
+          "name": "Lingxi Li"
+        },
+        {
+          "authorId": "2261455807",
+          "name": "Hong Yu"
+        }
+      ]
+    },
+    {
+      "paperId": "0c57cb87fcfb345ddc13bab3f20e9c203bac52e9",
+      "title": "JMLR: Joint Medical LLM and Retrieval Training for Enhancing Reasoning and Professional Question Answering Capability",
+      "year": 2024,
+      "citationCount": 22,
+      "authors": [
+        {
+          "authorId": "2261394407",
+          "name": "Junda Wang"
+        },
+        {
+          "authorId": "2261462978",
+          "name": "Zhichao Yang"
+        },
+        {
+          "authorId": "1576489304",
+          "name": "Zonghai Yao"
+        },
+        {
+          "authorId": "2261455807",
+          "name": "Hong Yu"
+        }
+      ]
+    },
+    {
+      "paperId": "b798cf6af813638fab09a8af6ad0f3df6c241485",
+      "title": "Benchmarking Retrieval-Augmented Generation for Medicine",
+      "year": 2024,
+      "citationCount": 96,
+      "authors": [
+        {
+          "authorId": "2048053804",
+          "name": "Guangzhi Xiong"
+        },
+        {
+          "authorId": "2261406713",
+          "name": "Qiao Jin"
+        },
+        {
+          "authorId": "2237094367",
+          "name": "Zhiyong Lu"
+        },
+        {
+          "authorId": "2265729351",
+          "name": "Aidong Zhang"
+        }
+      ]
+    },
+    {
+      "paperId": "2d5a22d55c409762de36cab680e686a2c91b73a2",
+      "title": "EHR Interaction Between Patients and AI: NoteAid EHR Interaction",
+      "year": 2023,
+      "citationCount": 2,
+      "authors": [
+        {
+          "authorId": "2277238665",
+          "name": "Xiaocheng Zhang"
+        },
+        {
+          "authorId": "1576489304",
+          "name": "Zonghai Yao"
+        },
+        {
+          "authorId": "2261455807",
+          "name": "Hong Yu"
+        }
+      ]
+    },
+    {
+      "paperId": "a12fea37d0ad1cfbe3aeb67b7edd631ab46579fd",
+      "title": "EHRTutor: Enhancing Patient Understanding of Discharge Instructions",
+      "year": 2023,
+      "citationCount": 4,
+      "authors": [
+        {
+          "authorId": "2263500068",
+          "name": "Zihao Zhang"
+        },
+        {
+          "authorId": "1576489304",
+          "name": "Zonghai Yao"
+        },
+        {
+          "authorId": "2261556443",
+          "name": "Huixue Zhou"
+        },
+        {
+          "authorId": "2263773255",
+          "name": "Feiyun Ouyang"
+        },
+        {
+          "authorId": "2261455807",
+          "name": "Hong Yu"
+        }
+      ]
+    },
+    {
+      "paperId": "73eab203ccebd5d74cffb04240aa4a8a6f10e482",
+      "title": "Synthetic Imitation Edit Feedback for Factual Alignment in Clinical Summarization",
+      "year": 2023,
+      "citationCount": 7,
+      "authors": [
+        {
+          "authorId": "1381942456",
+          "name": "Prakamya Mishra"
+        },
+        {
+          "authorId": "1576489304",
+          "name": "Zonghai Yao"
+        },
+        {
+          "authorId": "2264365263",
+          "name": "Shuwei Chen"
+        },
+        {
+          "authorId": "2261745076",
+          "name": "BSc Beining Wang"
+        },
+        {
+          "authorId": "2264019279",
+          "name": "Rohan Mittal"
+        },
+        {
+          "authorId": "2261455807",
+          "name": "Hong Yu"
+        }
+      ]
+    },
+    {
+      "paperId": "6ba549097ef898a7548c48c0b718b323eec5dbc3",
+      "title": "Performance of Multimodal GPT-4V on USMLE with Image: Potential for Imaging Diagnostic Support with Explanations",
+      "year": 2023,
+      "citationCount": 33,
+      "authors": [
+        {
+          "authorId": "2261745452",
+          "name": "MSc Zhichao Yang"
+        },
+        {
+          "authorId": "1576489304",
+          "name": "Zonghai Yao"
+        },
+        {
+          "authorId": "2261745143",
+          "name": "BSc Mahbuba Tasmin"
+        },
+        {
+          "authorId": "2261746471",
+          "name": "BSc Parth Vashisht"
+        },
+        {
+          "authorId": "2261746469",
+          "name": "Won"
+        },
+        {
+          "authorId": "2261745082",
+          "name": "RN MSc Seok Jang"
+        },
+        {
+          "authorId": "2261745076",
+          "name": "BSc Beining Wang"
+        },
+        {
+          "authorId": "2261745458",
+          "name": "MD Dan Berlowitz"
+        },
+        {
+          "authorId": "2261745099",
+          "name": "PhD Hong Yu"
+        }
+      ]
+    },
+    {
+      "paperId": "ddbd8fe782ac98e9c64dd98710687a962195dd9b",
+      "title": "Self-RAG: Learning to Retrieve, Generate, and Critique through Self-Reflection",
+      "year": 2023,
+      "citationCount": 423,
+      "authors": [
+        {
+          "authorId": "35584853",
+          "name": "Akari Asai"
+        },
+        {
+          "authorId": "7806955",
+          "name": "Zeqiu Wu"
+        },
+        {
+          "authorId": "1705260",
+          "name": "Yizhong Wang"
+        },
+        {
+          "authorId": "2707234",
+          "name": "Avirup Sil"
+        },
+        {
+          "authorId": "2548384",
+          "name": "Hannaneh Hajishirzi"
+        }
+      ]
+    },
+    {
+      "paperId": "2e783a3fe650c8eeff81cc867fa9921729422c1d",
+      "title": "PaniniQA: Enhancing Patient Education Through Interactive Question Answering",
+      "year": 2023,
+      "citationCount": 14,
+      "authors": [
+        {
+          "authorId": "153770645",
+          "name": "Pengshan Cai"
+        },
+        {
+          "authorId": "1576489304",
+          "name": "Zonghai Yao"
+        },
+        {
+          "authorId": "39853709",
+          "name": "Fei Liu"
+        },
+        {
+          "authorId": "2156149847",
+          "name": "Dakuo Wang"
+        },
+        {
+          "authorId": "2232755947",
+          "name": "Meghan Reilly"
+        },
+        {
+          "authorId": "2184546868",
+          "name": "Huixue Zhou"
+        },
+        {
+          "authorId": "2232824313",
+          "name": "Lingxi Li"
+        },
+        {
+          "authorId": null,
+          "name": "Yi Cao"
+        },
+        {
+          "authorId": "38605539",
+          "name": "Alok Kapoor"
+        },
+        {
+          "authorId": "2546532",
+          "name": "Adarsha S. Bajracharya"
+        },
+        {
+          "authorId": "5450953",
+          "name": "D. Berlowitz"
+        },
+        {
+          "authorId": "4590999",
+          "name": "Hongfeng Yu"
+        }
+      ]
+    },
+    {
+      "paperId": "104b0bb1da562d53cbda87aec79ef6a2827d191a",
+      "title": "Llama 2: Open Foundation and Fine-Tuned Chat Models",
+      "year": 2023,
+      "citationCount": 9062,
+      "authors": [
+        {
+          "authorId": "2113243762",
+          "name": "Hugo Touvron"
+        },
+        {
+          "authorId": "143792623",
+          "name": "Louis Martin"
+        },
+        {
+          "authorId": "2059203763",
+          "name": "Kevin R. Stone"
+        },
+        {
+          "authorId": "2214809450",
+          "name": "Peter Albert"
+        },
+        {
+          "authorId": "2634674",
+          "name": "Amjad Almahairi"
+        },
+        {
+          "authorId": "2223764353",
+          "name": "Yasmine Babaei"
+        },
+        {
+          "authorId": "2223756247",
+          "name": "Nikolay Bashlykov"
+        },
+        {
+          "authorId": "47505161",
+          "name": "Soumya Batra"
+        },
+        {
+          "authorId": "51229603",
+          "name": "Prajjwal Bhargava"
+        },
+        {
+          "authorId": "2116473",
+          "name": "Shruti Bhosale"
+        },
+        {
+          "authorId": "2023469",
+          "name": "D. Bikel"
+        },
+        {
+          "authorId": "2040305955",
+          "name": "Lukas Blecher"
+        },
+        {
+          "authorId": "66286536",
+          "name": "Cristian Cantón Ferrer"
+        },
+        {
+          "authorId": "2108267192",
+          "name": "Moya Chen"
+        },
+        {
+          "authorId": "7153363",
+          "name": "Guillem Cucurull"
+        },
+        {
+          "authorId": "71039937",
+          "name": "David Esiobu"
+        },
+        {
+          "authorId": "2166312768",
+          "name": "Jude Fernandes"
+        },
+        {
+          "authorId": "2223974989",
+          "name": "Jeremy Fu"
+        },
+        {
+          "authorId": "2223742000",
+          "name": "Wenyin Fu"
+        },
+        {
+          "authorId": "2223748737",
+          "name": "Brian Fuller"
+        },
+        {
+          "authorId": "2107063269",
+          "name": "Cynthia Gao"
+        },
+        {
+          "authorId": "28554843",
+          "name": "Vedanuj Goswami"
+        },
+        {
+          "authorId": "39589154",
+          "name": "Naman Goyal"
+        },
+        {
+          "authorId": "4305645",
+          "name": "A. Hartshorn"
+        },
+        {
+          "authorId": "2195458",
+          "name": "Saghar Hosseini"
+        },
+        {
+          "authorId": "2132302721",
+          "name": "Rui Hou"
+        },
+        {
+          "authorId": "2065277797",
+          "name": "Hakan Inan"
+        },
+        {
+          "authorId": "2059886128",
+          "name": "Marcin Kardas"
+        },
+        {
+          "authorId": "2190957318",
+          "name": "Viktor Kerkez"
+        },
+        {
+          "authorId": "2072010",
+          "name": "Madian Khabsa"
+        },
+        {
+          "authorId": "2207049",
+          "name": "Isabel M. Kloumann"
+        },
+        {
+          "authorId": "2135297476",
+          "name": "A. Korenev"
+        },
+        {
+          "authorId": "2146367061",
+          "name": "Punit Singh Koura"
+        },
+        {
+          "authorId": "114952298",
+          "name": "M. Lachaux"
+        },
+        {
+          "authorId": "46183616",
+          "name": "Thibaut Lavril"
+        },
+        {
+          "authorId": "2223749565",
+          "name": "Jenya Lee"
+        },
+        {
+          "authorId": "2145259939",
+          "name": "Diana Liskovich"
+        },
+        {
+          "authorId": "1768032",
+          "name": "Yinghai Lu"
+        },
+        {
+          "authorId": "3375249",
+          "name": "Yuning Mao"
+        },
+        {
+          "authorId": "1490887583",
+          "name": "Xavier Martinet"
+        },
+        {
+          "authorId": "39980906",
+          "name": "Todor Mihaylov"
+        },
+        {
+          "authorId": "3047561",
+          "name": "Pushkar Mishra"
+        },
+        {
+          "authorId": "2322981055",
+          "name": "Igor Molybog"
+        },
+        {
+          "authorId": "40383658",
+          "name": "Yixin Nie"
+        },
+        {
+          "authorId": "38579672",
+          "name": "Andrew Poulton"
+        },
+        {
+          "authorId": "39906022",
+          "name": "Jeremy Reizenstein"
+        },
+        {
+          "authorId": "150282885",
+          "name": "Rashi Rungta"
+        },
+        {
+          "authorId": "1859294",
+          "name": "Kalyan Saladi"
+        },
+        {
+          "authorId": "14279694",
+          "name": "Alan Schelten"
+        },
+        {
+          "authorId": "2214818043",
+          "name": "Ruan Silva"
+        },
+        {
+          "authorId": "51324296",
+          "name": "Eric Michael Smith"
+        },
+        {
+          "authorId": "2066074360",
+          "name": "R. Subramanian"
+        },
+        {
+          "authorId": "2112782199",
+          "name": "Xia Tan"
+        },
+        {
+          "authorId": "71292072",
+          "name": "Binh Tang"
+        },
+        {
+          "authorId": "2110697298",
+          "name": "Ross Taylor"
+        },
+        {
+          "authorId": "2110032535",
+          "name": "Adina Williams"
+        },
+        {
+          "authorId": "2223770369",
+          "name": "Jian Xiang Kuan"
+        },
+        {
+          "authorId": "2214843767",
+          "name": "Puxin Xu"
+        },
+        {
+          "authorId": "14701107",
+          "name": "Zhengxu Yan"
+        },
+        {
+          "authorId": "121929334",
+          "name": "Iliyan Zarov"
+        },
+        {
+          "authorId": "2108473229",
+          "name": "Yuchen Zhang"
+        },
+        {
+          "authorId": "144270981",
+          "name": "Angela Fan"
+        },
+        {
+          "authorId": "2165660870",
+          "name": "M. Kambadur"
+        },
+        {
+          "authorId": "46617804",
+          "name": "Sharan Narang"
+        },
+        {
+          "authorId": "2166043087",
+          "name": "Aurélien Rodriguez"
+        },
+        {
+          "authorId": "1962768",
+          "name": "Robert Stojnic"
+        },
+        {
+          "authorId": "2068070",
+          "name": "Sergey Edunov"
+        },
+        {
+          "authorId": "2073456043",
+          "name": "Thomas Scialom"
+        }
+      ]
+    },
+    {
+      "paperId": "36b15e8c222b8e85458a464911b852f3e4beeabc",
+      "title": "Automatic Glossary of Clinical Terminology: a Large-Scale Dictionary of Biomedical Definitions Generated from Ontological Knowledge",
+      "year": 2023,
+      "citationCount": 4,
+      "authors": [
+        {
+          "authorId": "2188652700",
+          "name": "François Remy"
+        },
+        {
+          "authorId": "1388296896",
+          "name": "Thomas Demeester"
+        }
+      ]
+    },
+    {
+      "paperId": "12c6be503e4e5b7c9cb1810152d4364f26628a8d",
+      "title": "Data-centric Artificial Intelligence: A Survey",
+      "year": 2023,
+      "citationCount": 150,
+      "authors": [
+        {
+          "authorId": "1759658",
+          "name": "D. Zha"
+        },
+        {
+          "authorId": "2122929218",
+          "name": "Zaid Pervaiz Bhat"
+        },
+        {
+          "authorId": "51238382",
+          "name": "Kwei-Herng Lai"
+        },
+        {
+          "authorId": "47829900",
+          "name": "Fan Yang"
+        },
+        {
+          "authorId": "47653902",
+          "name": "Zhimeng Jiang"
+        },
+        {
+          "authorId": "2181946372",
+          "name": "Shaochen Zhong"
+        },
+        {
+          "authorId": "2109724398",
+          "name": "Xia Hu"
+        }
+      ]
+    },
+    {
+      "paperId": "6aa4f2d7d1a2191aa5857b85f40f3a85ba6be61b",
+      "title": "A Meta-Evaluation of Faithfulness Metrics for Long-Form Hospital-Course Summarization",
+      "year": 2023,
+      "citationCount": 21,
+      "authors": [
+        {
+          "authorId": "49496422",
+          "name": "Griffin Adams"
+        },
+        {
+          "authorId": "40344579",
+          "name": "J. Zucker"
+        },
+        {
+          "authorId": "2763493",
+          "name": "Noémie Elhadad"
+        }
+      ]
+    },
+    {
+      "paperId": "d4f2a4e7dbf74c36bc47692126fa1db75da9abb3",
+      "title": "NapSS: Paragraph-level Medical Text Simplification via Narrative Prompting and Sentence-matching Summarization",
+      "year": 2023,
+      "citationCount": 19,
+      "authors": [
+        {
+          "authorId": "8861257",
+          "name": "Junru Lu"
+        },
+        {
+          "authorId": "92861741",
+          "name": "Jiazheng Li"
+        },
+        {
+          "authorId": "1912476",
+          "name": "Byron C. Wallace"
+        },
+        {
+          "authorId": "1390509967",
+          "name": "Yulan He"
+        },
+        {
+          "authorId": "46922295",
+          "name": "Gabriele Pergola"
+        }
+      ]
+    },
+    {
+      "paperId": "76ce67aa2def20d73265da8f066489f3d4f3f558",
+      "title": "Artificial intelligence and health literacy—proceed with caution",
+      "year": 2023,
+      "citationCount": 11,
+      "authors": [
+        {
+          "authorId": "2247784807",
+          "name": "Don Nutbeam"
+        }
+      ]
+    },
+    {
+      "paperId": "ff859b26e94b0545365d6cc759dff632e788e2ae",
+      "title": "Context Variance Evaluation of Pretrained Language Models for Prompt-based Biomedical Knowledge Probing",
+      "year": 2022,
+      "citationCount": 16,
+      "authors": [
+        {
+          "authorId": "1576489304",
+          "name": "Zonghai Yao"
+        },
+        {
+          "authorId": null,
+          "name": "Yi Cao"
+        },
+        {
+          "authorId": "48598711",
+          "name": "Zhichao Yang"
+        },
+        {
+          "authorId": "145174375",
+          "name": "Hong Yu"
+        }
+      ]
+    },
+    {
+      "paperId": "c84d67e7d297a6c79da178a18d49613bb4179d70",
+      "title": "Retrieval augmentation of large language models for lay language generation",
+      "year": 2022,
+      "citationCount": 28,
+      "authors": [
+        {
+          "authorId": "2124928819",
+          "name": "Yue Guo"
+        },
+        {
+          "authorId": "144369161",
+          "name": "Wei Qiu"
+        },
+        {
+          "authorId": "3168950",
+          "name": "Gondy Leroy"
+        },
+        {
+          "authorId": "2151487092",
+          "name": "Sheng Wang"
+        },
+        {
+          "authorId": "2696466",
+          "name": "T. Cohen"
+        }
+      ]
+    },
+    {
+      "paperId": "93d829fd65d77d2ba5fa141fac85564f451707b2",
+      "title": "A dataset for plain language adaptation of biomedical abstracts",
+      "year": 2022,
+      "citationCount": 10,
+      "authors": [
+        {
+          "authorId": "122543533",
+          "name": "Kush Attal"
+        },
+        {
+          "authorId": "3144024",
+          "name": "Brian D. Ondov"
+        },
+        {
+          "authorId": "1398175407",
+          "name": "Dina Demner-Fushman"
+        }
+      ]
+    },
+    {
+      "paperId": "73bf67f9ac4a28c5618f8df32cb64d810f57a9b9",
+      "title": "Making Science Simple: Corpora for the Lay Summarisation of Scientific Literature",
+      "year": 2022,
+      "citationCount": 64,
+      "authors": [
+        {
+          "authorId": "2188058199",
+          "name": "Tomas Goldsack"
+        },
+        {
+          "authorId": null,
+          "name": "Zhihao Zhang"
+        },
+        {
+          "authorId": "2268783",
+          "name": "Chenghua Lin"
+        },
+        {
+          "authorId": "2797847",
+          "name": "Carolina Scarton"
+        }
+      ]
+    },
+    {
+      "paperId": "947e45ac181e95e79369b4ba8fd7fe2c97921588",
+      "title": "Secure Multiparty Computation for Synthetic Data Generation from Distributed Data",
+      "year": 2022,
+      "citationCount": 6,
+      "authors": [
+        {
+          "authorId": "2800318",
+          "name": "Mayana Pereira"
+        },
+        {
+          "authorId": "2047996928",
+          "name": "Sikha Pentyala"
+        },
+        {
+          "authorId": "2707168",
+          "name": "A. Nascimento"
+        },
+        {
+          "authorId": "3265695",
+          "name": "R. T. D. Sousa"
+        },
+        {
+          "authorId": "33330805",
+          "name": "Martine De Cock"
+        }
+      ]
+    },
+    {
+      "paperId": "38e995753f222ba7d198d6d54033058de84a77f1",
+      "title": "MedJEx: A Medical Jargon Extraction Model with Wiki’s Hyperlink Span and Contextualized Masked Language Model Score",
+      "year": 2022,
+      "citationCount": 17,
+      "authors": [
+        {
+          "authorId": "12693064",
+          "name": "Sunjae Kwon"
+        },
+        {
+          "authorId": "1576489304",
+          "name": "Zonghai Yao"
+        },
+        {
+          "authorId": "50313905",
+          "name": "H. Jordan"
+        },
+        {
+          "authorId": "79598139",
+          "name": "David Levy"
+        },
+        {
+          "authorId": "2187579766",
+          "name": "Brian Corner"
+        },
+        {
+          "authorId": "145174375",
+          "name": "Hong Yu"
+        }
+      ]
+    },
+    {
+      "paperId": "44279244407a64431810f982be6d0c7da4429dd7",
+      "title": "BioGPT: Generative Pre-trained Transformer for Biomedical Text Generation and Mining",
+      "year": 2022,
+      "citationCount": 662,
+      "authors": [
+        {
+          "authorId": "3440939",
+          "name": "Renqian Luo"
+        },
+        {
+          "authorId": "2186266093",
+          "name": "Liai Sun"
+        },
+        {
+          "authorId": "2111056280",
+          "name": "Yingce Xia"
+        },
+        {
+          "authorId": "143826491",
+          "name": "Tao Qin"
+        },
+        {
+          "authorId": "72655349",
+          "name": "Sheng Zhang"
+        },
+        {
+          "authorId": "1759772",
+          "name": "Hoifung Poon"
+        },
+        {
+          "authorId": "2110264337",
+          "name": "Tie-Yan Liu"
+        }
+      ]
+    },
+    {
+      "paperId": "4a22d8affe36efb63cc39ac66e60f11ea30eb049",
+      "title": "Effect of Notes' Access and Complexity on OpenNotes' Utility.",
+      "year": 2022,
+      "citationCount": 5,
+      "authors": [
+        {
+          "authorId": "2596215",
+          "name": "A. Khasawneh"
+        },
+        {
+          "authorId": "5609318",
+          "name": "I. Kratzke"
+        },
+        {
+          "authorId": "51059959",
+          "name": "Karthik Adapa"
+        },
+        {
+          "authorId": "2182093318",
+          "name": "L. Marks"
+        },
+        {
+          "authorId": "144551360",
+          "name": "L. Mazur"
+        }
+      ]
+    },
+    {
+      "paperId": "0230c06c771bb6411614d685432ef076927e66f4",
+      "title": "Extracting Biomedical Factual Knowledge Using Pretrained Language Model and Electronic Health Record Context",
+      "year": 2022,
+      "citationCount": 18,
+      "authors": [
+        {
+          "authorId": "1576489304",
+          "name": "Zonghai Yao"
+        },
+        {
+          "authorId": null,
+          "name": "Yi Cao"
+        },
+        {
+          "authorId": "48598711",
+          "name": "Zhichao Yang"
+        },
+        {
+          "authorId": "2212876381",
+          "name": "Vijeta Deshpande"
+        },
+        {
+          "authorId": "145174375",
+          "name": "Hong Yu"
+        }
+      ]
+    },
+    {
+      "paperId": "844c60f5f1fced8fecf43febd0147e0422553564",
+      "title": "Entity-Driven Fact-Aware Abstractive Summarization of Biomedical Literature",
+      "year": 2022,
+      "citationCount": 7,
+      "authors": [
+        {
+          "authorId": "82194910",
+          "name": "Amanuel Alambo"
+        },
+        {
+          "authorId": "1811614",
+          "name": "Tanvi Banerjee"
+        },
+        {
+          "authorId": "3195814",
+          "name": "K. Thirunarayan"
+        },
+        {
+          "authorId": "2844334",
+          "name": "M. Raymer"
+        }
+      ]
+    },
+    {
+      "paperId": "03d3b9fae58b8dbd17920f46abf3ac78675bc41b",
+      "title": "Expertise",
+      "year": 2022,
+      "citationCount": 69,
+      "authors": [
+        {
+          "authorId": "143741615",
+          "name": "A. Karvonen"
+        },
+        {
+          "authorId": "145587477",
+          "name": "R. Brand"
+        }
+      ]
+    },
+    {
+      "paperId": "9a1f352ef21044700c180882038c28c3b2361914",
+      "title": "Data collection and quality challenges in deep learning: a data-centric AI perspective",
+      "year": 2021,
+      "citationCount": 257,
+      "authors": [
+        {
+          "authorId": "3288247",
+          "name": "Steven Euijong Whang"
+        },
+        {
+          "authorId": "30840932",
+          "name": "Yuji Roh"
+        },
+        {
+          "authorId": "22656934",
+          "name": "Hwanjun Song"
+        },
+        {
+          "authorId": "2143422191",
+          "name": "Jae-Gil Lee"
+        }
+      ]
+    },
+    {
+      "paperId": "4c5f4ddc68be643fb34ea969bf2c105ff7538995",
+      "title": "Can Language Models be Biomedical Knowledge Bases?",
+      "year": 2021,
+      "citationCount": 100,
+      "authors": [
+        {
+          "authorId": "147610425",
+          "name": "Mujeen Sung"
+        },
+        {
+          "authorId": "46664096",
+          "name": "Jinhyuk Lee"
+        },
+        {
+          "authorId": "1777844376",
+          "name": "Sean S. Yi"
+        },
+        {
+          "authorId": "145963789",
+          "name": "Minji Jeon"
+        },
+        {
+          "authorId": "2829848",
+          "name": "Sungdong Kim"
+        },
+        {
+          "authorId": null,
+          "name": "Jaewoo Kang"
+        }
+      ]
+    },
+    {
+      "paperId": "5c107f5aa33e3e5d3b3ea9dc17e04a51765b0983",
+      "title": "A review of medical image data augmentation techniques for deep learning applications",
+      "year": 2021,
+      "citationCount": 544,
+      "authors": [
+        {
+          "authorId": "2000280123",
+          "name": "P. Chlap"
+        },
+        {
+          "authorId": "50206748",
+          "name": "Hang Min"
+        },
+        {
+          "authorId": "2113746583",
+          "name": "Nym Vandenberg"
+        },
+        {
+          "authorId": "36542656",
+          "name": "J. Dowling"
+        },
+        {
+          "authorId": "2069380956",
+          "name": "L. Holloway"
+        },
+        {
+          "authorId": "2082362451",
+          "name": "A. Haworth"
+        }
+      ]
+    },
+    {
+      "paperId": "793c7f51a62a7386bfebcccf0ee1212e3902172c",
+      "title": "Evaluating the Effectiveness of NoteAid in a Community Hospital Setting: Randomized Trial of Electronic Health Record Note Comprehension Interventions With Patients",
+      "year": 2021,
+      "citationCount": 8,
+      "authors": [
+        {
+          "authorId": "9051130",
+          "name": "John P. Lalor"
+        },
+        {
+          "authorId": "2110230537",
+          "name": "Wen Hu"
+        },
+        {
+          "authorId": "47094338",
+          "name": "M. Tran"
+        },
+        {
+          "authorId": "2119796607",
+          "name": "Hao Wu"
+        },
+        {
+          "authorId": "2675194",
+          "name": "K. Mazor"
+        },
+        {
+          "authorId": "145174375",
+          "name": "Hong Yu"
+        }
+      ]
+    },
+    {
+      "paperId": "a2a7033a5a859e3a6e6f0a83018326400b4c5faa",
+      "title": "Retrieval Augmentation Reduces Hallucination in Conversation",
+      "year": 2021,
+      "citationCount": 579,
+      "authors": [
+        {
+          "authorId": "35752280",
+          "name": "Kurt Shuster"
+        },
+        {
+          "authorId": "1753626755",
+          "name": "Spencer Poff"
+        },
+        {
+          "authorId": "2108267192",
+          "name": "Moya Chen"
+        },
+        {
+          "authorId": "1743722",
+          "name": "Douwe Kiela"
+        },
+        {
+          "authorId": "145183709",
+          "name": "J. Weston"
+        }
+      ]
+    },
+    {
+      "paperId": "88d3229660f8f67e0bfd9689b0cf9ef08ad92106",
+      "title": "Paragraph-level Simplification of Medical Texts",
+      "year": 2021,
+      "citationCount": 81,
+      "authors": [
+        {
+          "authorId": "2004964582",
+          "name": "Ashwin Devaraj"
+        },
+        {
+          "authorId": "1808775",
+          "name": "I. Marshall"
+        },
+        {
+          "authorId": "1912476",
+          "name": "Byron C. Wallace"
+        },
+        {
+          "authorId": "2108933878",
+          "name": "J. Li"
+        }
+      ]
+    },
+    {
+      "paperId": "5b4376a0b97a474a4e063768cc4faf20691b7887",
+      "title": "Automated Lay Language Summarization of Biomedical Scientific Reviews",
+      "year": 2020,
+      "citationCount": 67,
+      "authors": [
+        {
+          "authorId": "2124928819",
+          "name": "Yue Guo"
+        },
+        {
+          "authorId": "2056314772",
+          "name": "Weijian Qiu"
+        },
+        {
+          "authorId": "1705260",
+          "name": "Yizhong Wang"
+        },
+        {
+          "authorId": "2696466",
+          "name": "T. Cohen"
+        }
+      ]
+    },
+    {
+      "paperId": "6a99e6df92d8d30d6c33b5c9d7554ade65c9d65c",
+      "title": "MTurk Research: Review and Recommendations",
+      "year": 2020,
+      "citationCount": 608,
+      "authors": [
+        {
+          "authorId": "5504864",
+          "name": "Herman Aguinis"
+        },
+        {
+          "authorId": "73027537",
+          "name": "Isabel Villamor"
+        },
+        {
+          "authorId": "2005493470",
+          "name": "Ravi S. Ramani"
+        }
+      ]
+    },
+    {
+      "paperId": "640cc1005c29a826b65e4af6e59fd6b23614bebc",
+      "title": "Muscle",
+      "year": 2020,
+      "citationCount": 36,
+      "authors": [
+        {
+          "authorId": "48677992",
+          "name": "C. Benson"
+        }
+      ]
+    },
+    {
+      "paperId": "71b429939be72c1f7560de5bca4d7b31e8405b92",
+      "title": "A Survey on Machine Reading Comprehension: Tasks, Evaluation Metrics, and Benchmark Datasets",
+      "year": 2020,
+      "citationCount": 99,
+      "authors": [
+        {
+          "authorId": "1753591501",
+          "name": "Chengchang Zeng"
+        },
+        {
+          "authorId": "2124883266",
+          "name": "Shaobo Li"
+        },
+        {
+          "authorId": "2108496082",
+          "name": "Qin Li"
+        },
+        {
+          "authorId": "145815844",
+          "name": "Jie Hu"
+        },
+        {
+          "authorId": "49268315",
+          "name": "Jianjun Hu"
+        }
+      ]
+    },
+    {
+      "paperId": "90abbc2cf38462b954ae1b772fac9532e2ccd8b0",
+      "title": "Language Models are Few-Shot Learners",
+      "year": 2020,
+      "citationCount": 35106,
+      "authors": [
+        {
+          "authorId": "31035595",
+          "name": "Tom B. Brown"
+        },
+        {
+          "authorId": "2056658938",
+          "name": "Benjamin Mann"
+        },
+        {
+          "authorId": "39849748",
+          "name": "Nick Ryder"
+        },
+        {
+          "authorId": "2065894334",
+          "name": "Melanie Subbiah"
+        },
+        {
+          "authorId": "152724169",
+          "name": "J. Kaplan"
+        },
+        {
+          "authorId": "6515819",
+          "name": "Prafulla Dhariwal"
+        },
+        {
+          "authorId": "2072676",
+          "name": "Arvind Neelakantan"
+        },
+        {
+          "authorId": "67311962",
+          "name": "Pranav Shyam"
+        },
+        {
+          "authorId": "144864359",
+          "name": "Girish Sastry"
+        },
+        {
+          "authorId": "119609682",
+          "name": "Amanda Askell"
+        },
+        {
+          "authorId": "144517868",
+          "name": "Sandhini Agarwal"
+        },
+        {
+          "authorId": "1404060687",
+          "name": "Ariel Herbert-Voss"
+        },
+        {
+          "authorId": "2064404342",
+          "name": "Gretchen Krueger"
+        },
+        {
+          "authorId": "103143311",
+          "name": "T. Henighan"
+        },
+        {
+          "authorId": "48422824",
+          "name": "R. Child"
+        },
+        {
+          "authorId": "1992922591",
+          "name": "A. Ramesh"
+        },
+        {
+          "authorId": "2052152920",
+          "name": "Daniel M. Ziegler"
+        },
+        {
+          "authorId": "49387725",
+          "name": "Jeff Wu"
+        },
+        {
+          "authorId": "2059411355",
+          "name": "Clemens Winter"
+        },
+        {
+          "authorId": "144239765",
+          "name": "Christopher Hesse"
+        },
+        {
+          "authorId": "2108828435",
+          "name": "Mark Chen"
+        },
+        {
+          "authorId": "2064673055",
+          "name": "Eric Sigler"
+        },
+        {
+          "authorId": "1380985420",
+          "name": "Ma-teusz Litwin"
+        },
+        {
+          "authorId": "145565184",
+          "name": "Scott Gray"
+        },
+        {
+          "authorId": "1490681878",
+          "name": "B. Chess"
+        },
+        {
+          "authorId": "2115193883",
+          "name": "Jack Clark"
+        },
+        {
+          "authorId": "133740015",
+          "name": "Christopher Berner"
+        },
+        {
+          "authorId": "52238703",
+          "name": "Sam McCandlish"
+        },
+        {
+          "authorId": "38909097",
+          "name": "Alec Radford"
+        },
+        {
+          "authorId": "1701686",
+          "name": "I. Sutskever"
+        },
+        {
+          "authorId": "2698777",
+          "name": "Dario Amodei"
+        }
+      ]
+    },
+    {
+      "paperId": "58ed1fbaabe027345f7bb3a6312d41c5aac63e22",
+      "title": "Retrieval-Augmented Generation for Knowledge-Intensive NLP Tasks",
+      "year": 2020,
+      "citationCount": 4275,
+      "authors": [
+        {
+          "authorId": "145222654",
+          "name": "Patrick Lewis"
+        },
+        {
+          "authorId": "3439053",
+          "name": "Ethan Perez"
+        },
+        {
+          "authorId": "1716179427",
+          "name": "Aleksandara Piktus"
+        },
+        {
+          "authorId": "40052301",
+          "name": "F. Petroni"
+        },
+        {
+          "authorId": "2067091563",
+          "name": "Vladimir Karpukhin"
+        },
+        {
+          "authorId": "39589154",
+          "name": "Naman Goyal"
+        },
+        {
+          "authorId": "103131985",
+          "name": "Heinrich Kuttler"
+        },
+        {
+          "authorId": "35084211",
+          "name": "M. Lewis"
+        },
+        {
+          "authorId": "144105277",
+          "name": "Wen-tau Yih"
+        },
+        {
+          "authorId": "2620211",
+          "name": "Tim Rocktäschel"
+        },
+        {
+          "authorId": "48662861",
+          "name": "Sebastian Riedel"
+        },
+        {
+          "authorId": "1743722",
+          "name": "Douwe Kiela"
+        }
+      ]
+    },
+    {
+      "paperId": "a2a378153c1f09e23c2c13a81be89af2ca0d383e",
+      "title": "Expertise Style Transfer: A New Task Towards Better Communication between Experts and Laymen",
+      "year": 2020,
+      "citationCount": 73,
+      "authors": [
+        {
+          "authorId": "2112867078",
+          "name": "Yixin Cao"
+        },
+        {
+          "authorId": "1667839719",
+          "name": "Ruihao Shui"
+        },
+        {
+          "authorId": "3470231",
+          "name": "Liangming Pan"
+        },
+        {
+          "authorId": "37596605",
+          "name": "Min-Yen Kan"
+        },
+        {
+          "authorId": "49293587",
+          "name": "Zhiyuan Liu"
+        },
+        {
+          "authorId": "144078686",
+          "name": "Tat-Seng Chua"
+        }
+      ]
+    },
+    {
+      "paperId": "b26f2037f769d5ffc5f7bdcec2de8da28ec14bee",
+      "title": "Dense Passage Retrieval for Open-Domain Question Answering",
+      "year": 2020,
+      "citationCount": 3123,
+      "authors": [
+        {
+          "authorId": "2067091563",
+          "name": "Vladimir Karpukhin"
+        },
+        {
+          "authorId": "9185192",
+          "name": "Barlas Oğuz"
+        },
+        {
+          "authorId": "48872685",
+          "name": "Sewon Min"
+        },
+        {
+          "authorId": "145222654",
+          "name": "Patrick Lewis"
+        },
+        {
+          "authorId": "51183248",
+          "name": "Ledell Yu Wu"
+        },
+        {
+          "authorId": "2068070",
+          "name": "Sergey Edunov"
+        },
+        {
+          "authorId": "50536468",
+          "name": "Danqi Chen"
+        },
+        {
+          "authorId": "144105277",
+          "name": "Wen-tau Yih"
+        }
+      ]
+    },
+    {
+      "paperId": "06a63cae52b0af6d6eb407fe2186f70e73905fba",
+      "title": "Enriching Consumer Health Vocabulary Using Enhanced GloVe Word Embedding",
+      "year": 2020,
+      "citationCount": 8,
+      "authors": [
+        {
+          "authorId": "2087283862",
+          "name": "Mohammed Ibrahim"
+        },
+        {
+          "authorId": "108207987",
+          "name": "S. Gauch"
+        },
+        {
+          "authorId": "2641677",
+          "name": "Omar Salman"
+        },
+        {
+          "authorId": "72128912",
+          "name": "Mohammed Alqahatani"
+        }
+      ]
+    },
+    {
+      "paperId": "1852780fb31f470209e1df0d2bd145752e212aaa",
+      "title": "Unified Medical Language System",
+      "year": 2020,
+      "citationCount": 538,
+      "authors": [
+        {
+          "authorId": "28486777",
+          "name": "P. Sinha"
+        },
+        {
+          "authorId": "32062683",
+          "name": "Gaur Sunder"
+        },
+        {
+          "authorId": "2222574",
+          "name": "Prashant Bendale"
+        },
+        {
+          "authorId": "52058567",
+          "name": "Manisha Mantri"
+        },
+        {
+          "authorId": "52048139",
+          "name": "Atreya Dande"
+        }
+      ]
+    },
+    {
+      "paperId": "93d63ec754f29fa22572615320afe0521f7ec66d",
+      "title": "Sentence-BERT: Sentence Embeddings using Siamese BERT-Networks",
+      "year": 2019,
+      "citationCount": 10362,
+      "authors": [
+        {
+          "authorId": "2959414",
+          "name": "Nils Reimers"
+        },
+        {
+          "authorId": "1730400",
+          "name": "Iryna Gurevych"
+        }
+      ]
+    },
+    {
+      "paperId": "8c3c9ed8cb720d50c65bfc1555d3cf24fe222b85",
+      "title": "OpenNotes After 7 Years: Patient Experiences With Ongoing Access to Their Clinicians’ Outpatient Visit Notes",
+      "year": 2019,
+      "citationCount": 222,
+      "authors": [
+        {
+          "authorId": "2110484806",
+          "name": "Janice Walker"
+        },
+        {
+          "authorId": "1983760",
+          "name": "Suzanne G. Leveille"
+        },
+        {
+          "authorId": "3272374",
+          "name": "Sigall K. Bell"
+        },
+        {
+          "authorId": "11911027",
+          "name": "Hannah Chimowitz"
+        },
+        {
+          "authorId": "83246289",
+          "name": "Z. Dong"
+        },
+        {
+          "authorId": "3021918",
+          "name": "J. Elmore"
+        },
+        {
+          "authorId": "144530577",
+          "name": "L. Fernández"
+        },
+        {
+          "authorId": "4557999",
+          "name": "Alan Fossa"
+        },
+        {
+          "authorId": "50329255",
+          "name": "Macda Gerard"
+        },
+        {
+          "authorId": "145167990",
+          "name": "Patricia Fitzgerald"
+        },
+        {
+          "authorId": "108076637",
+          "name": "Kendall Harcourt"
+        },
+        {
+          "authorId": "4648591",
+          "name": "Sara L. Jackson"
+        },
+        {
+          "authorId": "1779828",
+          "name": "T. Payne"
+        },
+        {
+          "authorId": "121436623",
+          "name": "Jocelyn Perez"
+        },
+        {
+          "authorId": "107884954",
+          "name": "Hannah Shucard"
+        },
+        {
+          "authorId": "3492882",
+          "name": "R. Stametz"
+        },
+        {
+          "authorId": "2931336",
+          "name": "C. DesRoches"
+        },
+        {
+          "authorId": "21224451",
+          "name": "T. Delbanco"
+        }
+      ]
+    },
+    {
+      "paperId": "536d0efeca0067148fa58f50869838370feb3f72",
+      "title": "AlphaClean: Automatic Generation of Data Cleaning Pipelines",
+      "year": 2019,
+      "citationCount": 46,
+      "authors": [
+        {
+          "authorId": "40428703",
+          "name": "S. Krishnan"
+        },
+        {
+          "authorId": "48144872",
+          "name": "Eugene Wu"
+        }
+      ]
+    },
+    {
+      "paperId": "b404b696aa2ef6006ab7da2cf87d6638ac5e61da",
+      "title": "Advanced practice profiles and work activities of nurse navigators: An early-stage evaluation",
+      "year": 2019,
+      "citationCount": 15,
+      "authors": [
+        {
+          "authorId": "2452548",
+          "name": "A. Spooner"
+        },
+        {
+          "authorId": "81810862",
+          "name": "N. Booth"
+        },
+        {
+          "authorId": "40460334",
+          "name": "Tai-Rae Downer"
+        },
+        {
+          "authorId": "1753885",
+          "name": "L. Gordon"
+        },
+        {
+          "authorId": "49336029",
+          "name": "Adrienne Hudson"
+        },
+        {
+          "authorId": "2592774",
+          "name": "Natalie K. Bradford"
+        },
+        {
+          "authorId": "2059845685",
+          "name": "Christopher J. O'Donnell"
+        },
+        {
+          "authorId": "8049566",
+          "name": "Alanna Geary"
+        },
+        {
+          "authorId": "2024481282",
+          "name": "Robyn Henderson"
+        },
+        {
+          "authorId": "152683836",
+          "name": "C. Franks"
+        },
+        {
+          "authorId": "2064763438",
+          "name": "Aaron Conway"
+        },
+        {
+          "authorId": "2476863",
+          "name": "P. Yates"
+        },
+        {
+          "authorId": "5536676",
+          "name": "R. Chan"
+        }
+      ]
+    },
+    {
+      "paperId": "498834ef2e51150736be6b3b96023adc47a63d98",
+      "title": "The 21st Century Cures Act and electronic health records one year later: will patients see the benefits?",
+      "year": 2018,
+      "citationCount": 46,
+      "authors": [
+        {
+          "authorId": "144082660",
+          "name": "Carolyn T. Lye"
+        },
+        {
+          "authorId": "144607655",
+          "name": "H. Forman"
+        },
+        {
+          "authorId": "145672901",
+          "name": "Jodi G. Daniel"
+        },
+        {
+          "authorId": "2467795",
+          "name": "H. Krumholz"
+        }
+      ]
+    },
+    {
+      "paperId": "32587ee5f52a20fada4a5605af8e47d4a468d270",
+      "title": "ComprehENotes, an Instrument to Assess Patient Reading Comprehension of Electronic Health Record Notes: Development and Validation",
+      "year": 2018,
+      "citationCount": 26,
+      "authors": [
+        {
+          "authorId": "9051130",
+          "name": "John P. Lalor"
+        },
+        {
+          "authorId": "2303839207",
+          "name": "Hao Wu"
+        },
+        {
+          "authorId": "2324764214",
+          "name": "Li Chen"
+        },
+        {
+          "authorId": "2675194",
+          "name": "K. Mazor"
+        },
+        {
+          "authorId": "2316049813",
+          "name": "Hong Yu"
+        }
+      ]
+    },
+    {
+      "paperId": "68813110c641c47ad9224576b5f929c7d4eb1eee",
+      "title": "A Natural Language Processing System That Links Medical Terms in Electronic Health Record Notes to Lay Definitions: System Development Using Physician Reviews",
+      "year": 2018,
+      "citationCount": 51,
+      "authors": [
+        {
+          "authorId": "2144135133",
+          "name": "Jinying Chen"
+        },
+        {
+          "authorId": "35408286",
+          "name": "Emily Druhl"
+        },
+        {
+          "authorId": "7669685",
+          "name": "Balaji Polepalli Ramesh"
+        },
+        {
+          "authorId": "2085692",
+          "name": "T. Houston"
+        },
+        {
+          "authorId": "2080841115",
+          "name": "C. Brandt"
+        },
+        {
+          "authorId": "3356351",
+          "name": "Donna M. Zulman"
+        },
+        {
+          "authorId": "4999044",
+          "name": "Varsha G. Vimalananda"
+        },
+        {
+          "authorId": "1981993",
+          "name": "S. Malkani"
+        },
+        {
+          "authorId": "145174375",
+          "name": "Hong Yu"
+        }
+      ]
+    },
+    {
+      "paperId": "aa8b8e3f89aabdfae64d1d2badc7e459231b6226",
+      "title": "Evaluating Text Complexity and Flesch-Kincaid Grade Level",
+      "year": 2017,
+      "citationCount": 47,
+      "authors": [
+        {
+          "authorId": "46173549",
+          "name": "M. Solnyshkina"
+        },
+        {
+          "authorId": "70207853",
+          "name": "R. Zamaletdinov"
+        },
+        {
+          "authorId": "113922488",
+          "name": "L. Gorodetskaya"
+        },
+        {
+          "authorId": "95747293",
+          "name": "A. Gabitov"
+        }
+      ]
+    },
+    {
+      "paperId": "b64e6637db99ea0341036516b2fc0a3f02b924d5",
+      "title": "Enriching consumer health vocabulary through mining a social Q&A site: A similarity-based approach",
+      "year": 2017,
+      "citationCount": 44,
+      "authors": [
+        {
+          "authorId": "145251559",
+          "name": "Zhe He"
+        },
+        {
+          "authorId": "2111326599",
+          "name": "Zhiwei Chen"
+        },
+        {
+          "authorId": "34317493",
+          "name": "Sanghee Oh"
+        },
+        {
+          "authorId": "50309024",
+          "name": "J. Hou"
+        },
+        {
+          "authorId": "152441499",
+          "name": "J. Bian"
+        }
+      ]
+    },
+    {
+      "paperId": "fd7964d273cd71689cc7ce9cb8323ee21040e344",
+      "title": "Different approaches for identifying important concepts in probabilistic biomedical text summarization",
+      "year": 2016,
+      "citationCount": 69,
+      "authors": [
+        {
+          "authorId": "144334436",
+          "name": "M. Moradi"
+        },
+        {
+          "authorId": "145254791",
+          "name": "Nasser Ghadiri"
+        }
+      ]
+    },
+    {
+      "paperId": "94557d2e23d422438c9e63ef0116703bcc578d9a",
+      "title": "Readability of discharge summaries: with what level of information are we dismissing our patients?",
+      "year": 2016,
+      "citationCount": 45,
+      "authors": [
+        {
+          "authorId": "4426251",
+          "name": "A. Choudhry"
+        },
+        {
+          "authorId": "13128463",
+          "name": "Yaser M. K. Baghdadi"
+        },
+        {
+          "authorId": "7703705",
+          "name": "A. Wagie"
+        },
+        {
+          "authorId": "3466712",
+          "name": "E. Habermann"
+        },
+        {
+          "authorId": "4089900",
+          "name": "Stephanie F. Heller"
+        },
+        {
+          "authorId": "1761118",
+          "name": "D. Jenkins"
+        },
+        {
+          "authorId": "6780872",
+          "name": "D. Cullinane"
+        },
+        {
+          "authorId": "6025277",
+          "name": "M. Zielinski"
+        }
+      ]
+    },
+    {
+      "paperId": "4c55c8c1d83ce5dbf0e2f84dead582378f3d2a79",
+      "title": "The 21st Century Cures Act.",
+      "year": 2015,
+      "citationCount": 160,
+      "authors": [
+        {
+          "authorId": "2247184570",
+          "name": "Stephen B Calderwood"
+        },
+        {
+          "authorId": "2247185550",
+          "name": "Barbara E Murray"
+        },
+        {
+          "authorId": "2247181549",
+          "name": "Henry F Chambers"
+        }
+      ]
+    },
+    {
+      "paperId": "fa49416ba8ff3554b31b5d4fcb0d3c5678dfd8f5",
+      "title": "Formalizing biomedical concepts from textual definitions",
+      "year": 2015,
+      "citationCount": 22,
+      "authors": [
+        {
+          "authorId": "3355396",
+          "name": "Alina Petrova"
+        },
+        {
+          "authorId": "89851526",
+          "name": "Yue Ma"
+        },
+        {
+          "authorId": "46855299",
+          "name": "G. Tsatsaronis"
+        },
+        {
+          "authorId": "2727509",
+          "name": "Maria Kissa"
+        },
+        {
+          "authorId": "1790327",
+          "name": "Felix Distel"
+        },
+        {
+          "authorId": "1710233",
+          "name": "F. Baader"
+        },
+        {
+          "authorId": "79909855",
+          "name": "M. Schroeder"
+        }
+      ]
+    },
+    {
+      "paperId": "75aa557c7b5128dc87d04deae545cba39bd6ec68",
+      "title": "Readability of Patient Education Materials on the American Association for Surgery of Trauma Website",
+      "year": 2014,
+      "citationCount": 143,
+      "authors": [
+        {
+          "authorId": "5073451",
+          "name": "A. Eltorai"
+        },
+        {
+          "authorId": "6871384",
+          "name": "S. Ghanian"
+        },
+        {
+          "authorId": "2471959",
+          "name": "C. Adams"
+        },
+        {
+          "authorId": "2462710",
+          "name": "C. Born"
+        },
+        {
+          "authorId": "144560629",
+          "name": "Alan H. Daniels"
+        }
+      ]
+    },
+    {
+      "paperId": "573ef932c82629f315f6dc3365d338f9e8628414",
+      "title": "Understanding patient-provider conversations: what are we talking about?",
+      "year": 2013,
+      "citationCount": 46,
+      "authors": [
+        {
+          "authorId": "34936192",
+          "name": "D. McCarthy"
+        },
+        {
+          "authorId": "4916139",
+          "name": "Barbara A. Buckley"
+        },
+        {
+          "authorId": "6166185",
+          "name": "K. Engel"
+        },
+        {
+          "authorId": "4766441",
+          "name": "V. Forth"
+        },
+        {
+          "authorId": "153936961",
+          "name": "James G. Adams"
+        },
+        {
+          "authorId": "33139581",
+          "name": "K. Cameron"
+        }
+      ]
+    },
+    {
+      "paperId": "a28a4896b0a17d886845c72b8fa3d46311eb22cf",
+      "title": "Patient Engagement—What Works?",
+      "year": 2012,
+      "citationCount": 402,
+      "authors": [
+        {
+          "authorId": "47565082",
+          "name": "A. Coulter"
+        }
+      ]
+    },
+    {
+      "paperId": "4ac05c3cc06b3101b76d8fc0c438bbcf392a6d3b",
+      "title": "From patient education to patient engagement: implications for the field of patient education.",
+      "year": 2010,
+      "citationCount": 342,
+      "authors": [
+        {
+          "authorId": "7419158",
+          "name": "J. Gruman"
+        },
+        {
+          "authorId": "48603597",
+          "name": "M. Rovner"
+        },
+        {
+          "authorId": "15628348",
+          "name": "M. French"
+        },
+        {
+          "authorId": "11326030",
+          "name": "D. Jeffress"
+        },
+        {
+          "authorId": "4279586",
+          "name": "S. Sofaer"
+        },
+        {
+          "authorId": "3586730",
+          "name": "D. Shaller"
+        },
+        {
+          "authorId": "2139737895",
+          "name": "D. Prager"
+        }
+      ]
+    },
+    {
+      "paperId": "e87390f56f81db50ee75eebc49b097dfed5ebcd9",
+      "title": "Health Literacy: Challenges and Strategies",
+      "year": 2009,
+      "citationCount": 92,
+      "authors": [
+        {
+          "authorId": "3172416",
+          "name": "Nichole Egbert"
+        },
+        {
+          "authorId": "7564121",
+          "name": "Kevin M. Nanna"
+        }
+      ]
+    },
+    {
+      "paperId": "5dfc3abafc71e3be8408062fff17aa7504fd4bed",
+      "title": "Towards Effective Sentence Simplification for Automatic Processing of Biomedical Text",
+      "year": 2009,
+      "citationCount": 60,
+      "authors": [
+        {
+          "authorId": "32421806",
+          "name": "Siddhartha R. Jonnalagadda"
+        },
+        {
+          "authorId": "2588631",
+          "name": "L. Tari"
+        },
+        {
+          "authorId": "1851178",
+          "name": "J. Hakenberg"
+        },
+        {
+          "authorId": "1760291",
+          "name": "Chitta Baral"
+        },
+        {
+          "authorId": "1922060",
+          "name": "Graciela Gonzalez"
+        }
+      ]
+    },
+    {
+      "paperId": "8d7df8c103194804ba52123a832aaddd53d62513",
+      "title": "Care transitions and home health care.",
+      "year": 2009,
+      "citationCount": 114,
+      "authors": [
+        {
+          "authorId": "7474630",
+          "name": "P. Boling"
+        }
+      ]
+    },
+    {
+      "paperId": "84109162905947b25e7f20e505967532bdd221be",
+      "title": "Essentials of Patient Education",
+      "year": 2005,
+      "citationCount": 89,
+      "authors": [
+        {
+          "authorId": "13395737",
+          "name": "S. B. Bastable"
+        }
+      ]
+    },
+    {
+      "paperId": "7533d30329cfdbf04ee8ee82bfef792d08015ee5",
+      "title": "METEOR: An Automatic Metric for MT Evaluation with Improved Correlation with Human Judgments",
+      "year": 2005,
+      "citationCount": 5715,
+      "authors": [
+        {
+          "authorId": "2110878863",
+          "name": "Satanjeev Banerjee"
+        },
+        {
+          "authorId": "1784914",
+          "name": "A. Lavie"
+        }
+      ]
+    },
+    {
+      "paperId": "60b05f32c32519a809f21642ef1eb3eaf3848008",
+      "title": "ROUGE: A Package for Automatic Evaluation of Summaries",
+      "year": 2004,
+      "citationCount": 14248,
+      "authors": [
+        {
+          "authorId": "1781574",
+          "name": "Chin-Yew Lin"
+        }
+      ]
+    },
+    {
+      "paperId": "028d23a171926d8c4a63020a302dab7624664f50",
+      "title": "Giving patients access to their medical records via the internet: the PCASSO experience.",
+      "year": 2002,
+      "citationCount": 168,
+      "authors": [
+        {
+          "authorId": "1774243",
+          "name": "D. Masys"
+        },
+        {
+          "authorId": "2846202",
+          "name": "D. Baker"
+        },
+        {
+          "authorId": "2879662",
+          "name": "A. Butros"
+        },
+        {
+          "authorId": "1949365",
+          "name": "K. E. Cowles"
+        }
+      ]
+    },
+    {
+      "paperId": "d4ce25a64b68f156b1c62bae8f018125ad3919a3",
+      "title": "Patient education: can it maximize the success of therapy?",
+      "year": 2001,
+      "citationCount": 124,
+      "authors": [
+        {
+          "authorId": "4939019",
+          "name": "T. Golper"
+        }
+      ]
+    },
+    {
+      "paperId": "da9de4a4fab8dad5c430aac954aedfef1128f4c9",
+      "title": "Improving comprehension for cancer patients with low literacy skills: Strategies for clinicians",
+      "year": 1998,
+      "citationCount": 300,
+      "authors": [
+        {
+          "authorId": "2069570201",
+          "name": "C. C. Doak"
+        },
+        {
+          "authorId": "3707806",
+          "name": "L. G. Doak"
+        },
+        {
+          "authorId": "5265242",
+          "name": "G. Friedell"
+        },
+        {
+          "authorId": "4430669",
+          "name": "C. Meade"
+        }
+      ]
+    },
+    {
+      "paperId": "302e1a8b4bb1839fc572d88fabd10c762c7f57e6",
+      "title": "Giving patients their own records in general practice: experience of patients and staff.",
+      "year": 1986,
+      "citationCount": 101,
+      "authors": [
+        {
+          "authorId": "49393947",
+          "name": "M. Baldry"
+        },
+        {
+          "authorId": "69883422",
+          "name": "C. Cheal"
+        },
+        {
+          "authorId": "1807900",
+          "name": "B. Fisher"
+        },
+        {
+          "authorId": "47516028",
+          "name": "M. Gillett"
+        },
+        {
+          "authorId": "51971628",
+          "name": "V. Huet"
+        }
+      ]
+    },
+    {
+      "paperId": null,
+      "title": "Human-in-the-Loop Machine Learning: Active learning and annotation for human-centered AI",
+      "year": 2021,
+      "citationCount": null,
+      "authors": []
+    },
+    {
+      "paperId": null,
+      "title": "Data-centric ai competition",
+      "year": 2021,
+      "citationCount": null,
+      "authors": []
+    },
+    {
+      "paperId": null,
+      "title": "On faithfulness and factu-ality in abstractive summarization",
+      "year": 2020,
+      "citationCount": null,
+      "authors": []
+    },
+    {
+      "paperId": "d363357f687d928890e429a5af0b3c5cdcdece83",
+      "title": "What Will We Use?",
+      "year": 2020,
+      "citationCount": 14,
+      "authors": [
+        {
+          "authorId": "145492413",
+          "name": "John Willison"
+        }
+      ]
+    },
+    {
+      "paperId": "9405cc0d6169988371b2755e573cc28650d14dfe",
+      "title": "Language Models are Unsupervised Multitask Learners",
+      "year": 2019,
+      "citationCount": 20263,
+      "authors": [
+        {
+          "authorId": "38909097",
+          "name": "Alec Radford"
+        },
+        {
+          "authorId": "49387725",
+          "name": "Jeff Wu"
+        },
+        {
+          "authorId": "48422824",
+          "name": "R. Child"
+        },
+        {
+          "authorId": "150970919",
+          "name": "D. Luan"
+        },
+        {
+          "authorId": "2698777",
+          "name": "Dario Amodei"
+        },
+        {
+          "authorId": "1701686",
+          "name": "I. Sutskever"
+        }
+      ]
+    },
+    {
+      "paperId": "2cf863b08f2e4fe0662bfb8d32fbb039b7b90a8b",
+      "title": "Learning Formal Definitions for Biomedical Concepts",
+      "year": 2013,
+      "citationCount": 15,
+      "authors": [
+        {
+          "authorId": "46855299",
+          "name": "G. Tsatsaronis"
+        },
+        {
+          "authorId": "3355396",
+          "name": "Alina Petrova"
+        },
+        {
+          "authorId": "2727509",
+          "name": "Maria Kissa"
+        },
+        {
+          "authorId": "89851526",
+          "name": "Yue Ma"
+        },
+        {
+          "authorId": "1790327",
+          "name": "Felix Distel"
+        },
+        {
+          "authorId": "1710233",
+          "name": "F. Baader"
+        },
+        {
+          "authorId": "79909855",
+          "name": "M. Schroeder"
+        }
+      ]
+    },
+    {
+      "paperId": "af635e631756342b1c8b176c1642b75b619c16f8",
+      "title": "Colon",
+      "year": 2013,
+      "citationCount": 149,
+      "authors": [
+        {
+          "authorId": "71922019",
+          "name": "Mohammed Shaik"
+        },
+        {
+          "authorId": "3348518",
+          "name": "Supriya K. Saha"
+        },
+        {
+          "authorId": "31641974",
+          "name": "G. Gay"
+        },
+        {
+          "authorId": "2205572762",
+          "name": "Sukamal Saha"
+        },
+        {
+          "authorId": "4697364",
+          "name": "A. Patel"
+        },
+        {
+          "authorId": "5294533",
+          "name": "R. Matro"
+        },
+        {
+          "authorId": "30005933",
+          "name": "Rachael Grosso"
+        },
+        {
+          "authorId": "50487920",
+          "name": "A. Sharpe"
+        },
+        {
+          "authorId": "37798976",
+          "name": "Leo C. Katz"
+        },
+        {
+          "authorId": "66121923",
+          "name": "M. Ritchie"
+        },
+        {
+          "authorId": "89233486",
+          "name": "Scott Keith"
+        },
+        {
+          "authorId": "66159601",
+          "name": "Louis Broad"
+        },
+        {
+          "authorId": "2067098370",
+          "name": "L. Greenbaum"
+        },
+        {
+          "authorId": "13107902",
+          "name": "P. Kozuch"
+        },
+        {
+          "authorId": "4131986",
+          "name": "D. Quirk"
+        },
+        {
+          "authorId": "5247645",
+          "name": "J. Sendecki"
+        },
+        {
+          "authorId": "2235986705",
+          "name": "Constatine Daskalakis"
+        },
+        {
+          "authorId": "50348240",
+          "name": "Ramalinga Kedika"
+        },
+        {
+          "authorId": "5042598",
+          "name": "D. Kastenberg"
+        },
+        {
+          "authorId": "49386742",
+          "name": "L. Butterly"
+        },
+        {
+          "authorId": "1435763878",
+          "name": "C. Robinson"
+        },
+        {
+          "authorId": "2069568329",
+          "name": "Julie Weiss"
+        },
+        {
+          "authorId": "6300001",
+          "name": "M. Goodrich"
+        }
+      ]
+    },
+    {
+      "paperId": null,
+      "title": "Effects of self-management support on structure, process, and outcomes among vulnerable patients with diabetes: a three-arm practical clinical trial",
+      "year": 2009,
+      "citationCount": null,
+      "authors": []
+    },
+    {
+      "paperId": null,
+      "title": "Citing Medicine:",
+      "year": 2007,
+      "citationCount": null,
+      "authors": []
+    },
+    {
+      "paperId": "181e77d85e9fbd37b374b0b7153b8b584dcb5b6d",
+      "title": "Exploring and developing consumer health vocabularies.",
+      "year": 2006,
+      "citationCount": 227,
+      "authors": [
+        {
+          "authorId": "49922712",
+          "name": "Q. Zeng"
+        },
+        {
+          "authorId": "144244813",
+          "name": "Tony Tse"
+        }
+      ]
+    },
+    {
+      "paperId": "1f1eaf19e38b541eec8a02f099e3090536a4c936",
+      "title": "The Unified Medical Language System (UMLS): integrating biomedical terminology",
+      "year": 2004,
+      "citationCount": 4190,
+      "authors": [
+        {
+          "authorId": "1950081",
+          "name": "O. Bodenreider"
+        }
+      ]
+    },
+    {
+      "paperId": "d4611ccfb270c6775ae06598e43c849696119def",
+      "title": "Teaching Patients With Low Literacy Skills",
+      "year": 1985,
+      "citationCount": 1807,
+      "authors": [
+        {
+          "authorId": "6025946",
+          "name": "C. Doak"
+        },
+        {
+          "authorId": "3707806",
+          "name": "L. G. Doak"
+        },
+        {
+          "authorId": "153593876",
+          "name": "J. Root"
+        }
+      ]
+    },
+    {
+      "paperId": null,
+      "title": "2023. Meditron-70b: Scaling medical pretraining for large language models",
+      "year": null,
+      "citationCount": null,
+      "authors": []
+    },
+    {
+      "paperId": null,
+      "title": "OpenAI. 2023.",
+      "year": null,
+      "citationCount": null,
+      "authors": []
+    },
+    {
+      "paperId": null,
+      "title": "2022. A source data privacy framework for synthetic clinical trial data",
+      "year": null,
+      "citationCount": null,
+      "authors": []
+    },
+    {
+      "paperId": null,
+      "title": "recognized by about 4 to 7th graders , or different meaning in the medical in the lay context (homonym) were example: •accommodate: When the eye changes",
+      "year": null,
+      "citationCount": null,
+      "authors": []
+    },
+    {
+      "paperId": null,
+      "title": "2023. Evaluating the efficacy of noteaid on ehr note comprehension among us veterans through amazon mechanical turk",
+      "year": null,
+      "citationCount": null,
+      "authors": []
+    },
+    {
+      "paperId": null,
+      "title": "2022. Patients’ experiences of web-based access to electronic health records in finland: Cross-sectional survey",
+      "year": null,
+      "citationCount": null,
+      "authors": []
+    },
+    {
+      "paperId": null,
+      "title": "2022b. Readability controllable biomedical document summarization",
+      "year": null,
+      "citationCount": null,
+      "authors": []
+    },
+    {
+      "paperId": null,
+      "title": "jargon+gen2lay(J+G2L): Generates a lay definition for a given jargon term based on the general definition provided by UMLS",
+      "year": null,
+      "citationCount": null,
+      "authors": []
+    }
+  ]
+}

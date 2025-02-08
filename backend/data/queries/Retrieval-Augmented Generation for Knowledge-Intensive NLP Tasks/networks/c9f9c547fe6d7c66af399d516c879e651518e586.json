@@ -1,0 +1,1607 @@
+{
+  "citations": [],
+  "references": [
+    {
+      "paperId": "ab15463babf98fffc6f683fe2026de0725b5e1a9",
+      "title": "Retrieval-Augmented Generation for AI-Generated Content: A Survey",
+      "year": 2024,
+      "citationCount": 123,
+      "authors": [
+        {
+          "authorId": "2268718776",
+          "name": "Penghao Zhao"
+        },
+        {
+          "authorId": "2288557803",
+          "name": "Hailin Zhang"
+        },
+        {
+          "authorId": "2289597580",
+          "name": "Qinhan Yu"
+        },
+        {
+          "authorId": "2288675277",
+          "name": "Zhengren Wang"
+        },
+        {
+          "authorId": "2288532368",
+          "name": "Yunteng Geng"
+        },
+        {
+          "authorId": "46182701",
+          "name": "Fangcheng Fu"
+        },
+        {
+          "authorId": "2249513224",
+          "name": "Ling Yang"
+        },
+        {
+          "authorId": "2277807793",
+          "name": "Wentao Zhang"
+        },
+        {
+          "authorId": "2277742543",
+          "name": "Bin Cui"
+        }
+      ]
+    },
+    {
+      "paperId": "46f9f7b8f88f72e12cbdb21e3311f995eb6e65c5",
+      "title": "Retrieval-Augmented Generation for Large Language Models: A Survey",
+      "year": 2023,
+      "citationCount": 933,
+      "authors": [
+        {
+          "authorId": "2280046531",
+          "name": "Yunfan Gao"
+        },
+        {
+          "authorId": "2275320371",
+          "name": "Yun Xiong"
+        },
+        {
+          "authorId": "2275341478",
+          "name": "Xinyu Gao"
+        },
+        {
+          "authorId": "2275191447",
+          "name": "Kangxiang Jia"
+        },
+        {
+          "authorId": "2275530552",
+          "name": "Jinliu Pan"
+        },
+        {
+          "authorId": "2275171009",
+          "name": "Yuxi Bi"
+        },
+        {
+          "authorId": "2276187454",
+          "name": "Yi Dai"
+        },
+        {
+          "authorId": "2275540959",
+          "name": "Jiawei Sun"
+        },
+        {
+          "authorId": "2258800561",
+          "name": "Qianyu Guo"
+        },
+        {
+          "authorId": "2291409458",
+          "name": "Meng Wang"
+        },
+        {
+          "authorId": "2256769434",
+          "name": "Haofen Wang"
+        }
+      ]
+    },
+    {
+      "paperId": "ddbd8fe782ac98e9c64dd98710687a962195dd9b",
+      "title": "Self-RAG: Learning to Retrieve, Generate, and Critique through Self-Reflection",
+      "year": 2023,
+      "citationCount": 423,
+      "authors": [
+        {
+          "authorId": "35584853",
+          "name": "Akari Asai"
+        },
+        {
+          "authorId": "7806955",
+          "name": "Zeqiu Wu"
+        },
+        {
+          "authorId": "1705260",
+          "name": "Yizhong Wang"
+        },
+        {
+          "authorId": "2707234",
+          "name": "Avirup Sil"
+        },
+        {
+          "authorId": "2548384",
+          "name": "Hannaneh Hajishirzi"
+        }
+      ]
+    },
+    {
+      "paperId": "c96297261467b5daa2d01227496a70d444602434",
+      "title": "Baichuan 2: Open Large-scale Language Models",
+      "year": 2023,
+      "citationCount": 608,
+      "authors": [
+        {
+          "authorId": "2208290330",
+          "name": "Ai Ming Yang"
+        },
+        {
+          "authorId": "2264098855",
+          "name": "Bin Xiao"
+        },
+        {
+          "authorId": "2242351985",
+          "name": "Bingning Wang"
+        },
+        {
+          "authorId": "152705071",
+          "name": "Borong Zhang"
+        },
+        {
+          "authorId": "2221566410",
+          "name": "Ce Bian"
+        },
+        {
+          "authorId": "2242126323",
+          "name": "Chao Yin"
+        },
+        {
+          "authorId": "2242124793",
+          "name": "Chenxu Lv"
+        },
+        {
+          "authorId": "2242124866",
+          "name": "Da Pan"
+        },
+        {
+          "authorId": "2243393517",
+          "name": "Dian Wang"
+        },
+        {
+          "authorId": "2284219972",
+          "name": "Dong Yan"
+        },
+        {
+          "authorId": "47829900",
+          "name": "Fan Yang"
+        },
+        {
+          "authorId": "2242124540",
+          "name": "Fei Deng"
+        },
+        {
+          "authorId": "2242730297",
+          "name": "Feng Wang"
+        },
+        {
+          "authorId": "2242207666",
+          "name": "Feng Liu"
+        },
+        {
+          "authorId": "2242123567",
+          "name": "Guangwei Ai"
+        },
+        {
+          "authorId": "2242124536",
+          "name": "Guosheng Dong"
+        },
+        {
+          "authorId": "47941144",
+          "name": "Hai Zhao"
+        },
+        {
+          "authorId": "2116309368",
+          "name": "Hang Xu"
+        },
+        {
+          "authorId": "2118181226",
+          "name": "Hao-Lun Sun"
+        },
+        {
+          "authorId": "2242180178",
+          "name": "Hongda Zhang"
+        },
+        {
+          "authorId": "2242276762",
+          "name": "Hui Liu"
+        },
+        {
+          "authorId": "2154630502",
+          "name": "Jiaming Ji"
+        },
+        {
+          "authorId": "2242192116",
+          "name": "Jian Xie"
+        },
+        {
+          "authorId": "14548852",
+          "name": "Juntao Dai"
+        },
+        {
+          "authorId": "144669461",
+          "name": "Kuncheng Fang"
+        },
+        {
+          "authorId": "2242130652",
+          "name": "Lei Su"
+        },
+        {
+          "authorId": "2238154661",
+          "name": "Liang Song"
+        },
+        {
+          "authorId": "2242309097",
+          "name": "Lifeng Liu"
+        },
+        {
+          "authorId": "2242124220",
+          "name": "Liyun Ru"
+        },
+        {
+          "authorId": "2242280004",
+          "name": "Luyao Ma"
+        },
+        {
+          "authorId": "2242171637",
+          "name": "Mang Wang"
+        },
+        {
+          "authorId": "2210950163",
+          "name": "Mickel Liu"
+        },
+        {
+          "authorId": "2244046109",
+          "name": "Mingan Lin"
+        },
+        {
+          "authorId": "2242123471",
+          "name": "Nuolan Nie"
+        },
+        {
+          "authorId": "2197287293",
+          "name": "Pei Guo"
+        },
+        {
+          "authorId": "2217316509",
+          "name": "Ruiyang Sun"
+        },
+        {
+          "authorId": "1689115",
+          "name": "Zhang Tao"
+        },
+        {
+          "authorId": "2299324291",
+          "name": "Tianpeng Li"
+        },
+        {
+          "authorId": null,
+          "name": "Tianyu Li"
+        },
+        {
+          "authorId": "145859270",
+          "name": "Wei Cheng"
+        },
+        {
+          "authorId": "2144305331",
+          "name": "Weipeng Chen"
+        },
+        {
+          "authorId": "2441459",
+          "name": "Xiangrong Zeng"
+        },
+        {
+          "authorId": "2242180212",
+          "name": "Xiaochuan Wang"
+        },
+        {
+          "authorId": "2242278442",
+          "name": "Xiaoxi Chen"
+        },
+        {
+          "authorId": "2242124145",
+          "name": "Xin Men"
+        },
+        {
+          "authorId": "2242135086",
+          "name": "Xin Yu"
+        },
+        {
+          "authorId": "2190800297",
+          "name": "Xuehai Pan"
+        },
+        {
+          "authorId": "2178403464",
+          "name": "Yan-Bin Shen"
+        },
+        {
+          "authorId": "2242155514",
+          "name": "Yiding Wang"
+        },
+        {
+          "authorId": "2242175361",
+          "name": "Yiyu Li"
+        },
+        {
+          "authorId": "2242171277",
+          "name": "Youxin Jiang"
+        },
+        {
+          "authorId": "2244143098",
+          "name": "Yuchen Gao"
+        },
+        {
+          "authorId": "2242155612",
+          "name": "Yupeng Zhang"
+        },
+        {
+          "authorId": "2183768304",
+          "name": "Zenan Zhou"
+        },
+        {
+          "authorId": "2242279152",
+          "name": "Zhiying Wu"
+        }
+      ]
+    },
+    {
+      "paperId": "0b0debb710366cdff461938c80763eace1651af6",
+      "title": "Code Llama: Open Foundation Models for Code",
+      "year": 2023,
+      "citationCount": 1454,
+      "authors": [
+        {
+          "authorId": "3361236",
+          "name": "Baptiste Rozière"
+        },
+        {
+          "authorId": "2401865",
+          "name": "Jonas Gehring"
+        },
+        {
+          "authorId": "2233293602",
+          "name": "Fabian Gloeckle"
+        },
+        {
+          "authorId": "31460313",
+          "name": "Sten Sootla"
+        },
+        {
+          "authorId": "2064713742",
+          "name": "Itai Gat"
+        },
+        {
+          "authorId": "46879944",
+          "name": "Xiaoqing Tan"
+        },
+        {
+          "authorId": "2727584",
+          "name": "Yossi Adi"
+        },
+        {
+          "authorId": "2301500865",
+          "name": "Jingyu Liu"
+        },
+        {
+          "authorId": "2211633",
+          "name": "T. Remez"
+        },
+        {
+          "authorId": "2756187",
+          "name": "J. Rapin"
+        },
+        {
+          "authorId": "2233293962",
+          "name": "Artyom Kozhevnikov"
+        },
+        {
+          "authorId": "22229139",
+          "name": "I. Evtimov"
+        },
+        {
+          "authorId": "1749686057",
+          "name": "Joanna Bitton"
+        },
+        {
+          "authorId": "50420713",
+          "name": "Manish P Bhatt"
+        },
+        {
+          "authorId": "66286536",
+          "name": "Cristian Cantón Ferrer"
+        },
+        {
+          "authorId": "2233294011",
+          "name": "Aaron Grattafiori"
+        },
+        {
+          "authorId": "22253126",
+          "name": "Wenhan Xiong"
+        },
+        {
+          "authorId": "2233294119",
+          "name": "Alexandre D'efossez"
+        },
+        {
+          "authorId": "1805998294",
+          "name": "Jade Copet"
+        },
+        {
+          "authorId": "34672074",
+          "name": "F. Azhar"
+        },
+        {
+          "authorId": "2113243762",
+          "name": "Hugo Touvron"
+        },
+        {
+          "authorId": "143792623",
+          "name": "Louis Martin"
+        },
+        {
+          "authorId": "1746841",
+          "name": "Nicolas Usunier"
+        },
+        {
+          "authorId": "2073456043",
+          "name": "Thomas Scialom"
+        },
+        {
+          "authorId": "2282478",
+          "name": "Gabriel Synnaeve"
+        }
+      ]
+    },
+    {
+      "paperId": "efe90ad08b1d29266874be1b74027df80fea29bc",
+      "title": "GujiBERT and GujiGPT: Construction of Intelligent Information Processing Foundation Language Models for Ancient Texts",
+      "year": 2023,
+      "citationCount": 6,
+      "authors": [
+        {
+          "authorId": "47858962",
+          "name": "Dongbo Wang"
+        },
+        {
+          "authorId": "2118483828",
+          "name": "Chang Liu"
+        },
+        {
+          "authorId": "2214963769",
+          "name": "Zhixiao Zhao"
+        },
+        {
+          "authorId": "152909152",
+          "name": "Si Shen"
+        },
+        {
+          "authorId": "144117143",
+          "name": "L. Liu"
+        },
+        {
+          "authorId": "2185909341",
+          "name": "Bin Li"
+        },
+        {
+          "authorId": "151485331",
+          "name": "Haotian Hu"
+        },
+        {
+          "authorId": "2215108670",
+          "name": "Mengcheng Wu"
+        },
+        {
+          "authorId": "2266749557",
+          "name": "Litao Lin"
+        },
+        {
+          "authorId": "2167401372",
+          "name": "Xue Zhao"
+        },
+        {
+          "authorId": "2107934862",
+          "name": "Xiyu Wang"
+        }
+      ]
+    },
+    {
+      "paperId": "a914e3bd68387ebf993145782124b0f6c45d4d77",
+      "title": "SikuGPT: A Generative Pre-trained Model for Intelligent Information Processing of Ancient Texts from the Perspective of Digital Humanities",
+      "year": 2023,
+      "citationCount": 8,
+      "authors": [
+        {
+          "authorId": "2118483828",
+          "name": "Chang Liu"
+        },
+        {
+          "authorId": "47858962",
+          "name": "Dongbo Wang"
+        },
+        {
+          "authorId": "2214963769",
+          "name": "Zhixiao Zhao"
+        },
+        {
+          "authorId": "2228651805",
+          "name": "Die Hu"
+        },
+        {
+          "authorId": "2215108670",
+          "name": "Mengcheng Wu"
+        },
+        {
+          "authorId": "2266749557",
+          "name": "Litao Lin"
+        },
+        {
+          "authorId": "152909152",
+          "name": "Si Shen"
+        },
+        {
+          "authorId": "2185909341",
+          "name": "Bin Li"
+        },
+        {
+          "authorId": "2229187676",
+          "name": "Jiangfeng Liu"
+        },
+        {
+          "authorId": "2208129904",
+          "name": "Hai Zhang"
+        },
+        {
+          "authorId": "2230193620",
+          "name": "Lianzhen Zhao"
+        }
+      ]
+    },
+    {
+      "paperId": "57e849d0de13ed5f91d086936296721d4ff75a75",
+      "title": "LLaMA: Open and Efficient Foundation Language Models",
+      "year": 2023,
+      "citationCount": 9924,
+      "authors": [
+        {
+          "authorId": "2113243762",
+          "name": "Hugo Touvron"
+        },
+        {
+          "authorId": "46183616",
+          "name": "Thibaut Lavril"
+        },
+        {
+          "authorId": "1410231361",
+          "name": "Gautier Izacard"
+        },
+        {
+          "authorId": "1490887583",
+          "name": "Xavier Martinet"
+        },
+        {
+          "authorId": "114952298",
+          "name": "M. Lachaux"
+        },
+        {
+          "authorId": "47733973",
+          "name": "Timothée Lacroix"
+        },
+        {
+          "authorId": "3361236",
+          "name": "Baptiste Rozière"
+        },
+        {
+          "authorId": "39589154",
+          "name": "Naman Goyal"
+        },
+        {
+          "authorId": "2072738644",
+          "name": "Eric Hambro"
+        },
+        {
+          "authorId": "2209986197",
+          "name": "Faisal Azhar"
+        },
+        {
+          "authorId": "2166043087",
+          "name": "Aurélien Rodriguez"
+        },
+        {
+          "authorId": "2319608",
+          "name": "Armand Joulin"
+        },
+        {
+          "authorId": "3024698",
+          "name": "Edouard Grave"
+        },
+        {
+          "authorId": "1830914",
+          "name": "Guillaume Lample"
+        }
+      ]
+    },
+    {
+      "paperId": "916be31cbf847faa65cad0549e153f0c25b9f424",
+      "title": "Few-shot Learning with Retrieval Augmented Language Models",
+      "year": 2022,
+      "citationCount": 607,
+      "authors": [
+        {
+          "authorId": "1410231361",
+          "name": "Gautier Izacard"
+        },
+        {
+          "authorId": "145222654",
+          "name": "Patrick Lewis"
+        },
+        {
+          "authorId": "3376175",
+          "name": "M. Lomeli"
+        },
+        {
+          "authorId": "26360550",
+          "name": "Lucas Hosseini"
+        },
+        {
+          "authorId": "40052301",
+          "name": "F. Petroni"
+        },
+        {
+          "authorId": "32246932",
+          "name": "Timo Schick"
+        },
+        {
+          "authorId": "2129456957",
+          "name": "Jane A. Yu"
+        },
+        {
+          "authorId": "2319608",
+          "name": "Armand Joulin"
+        },
+        {
+          "authorId": "48662861",
+          "name": "Sebastian Riedel"
+        },
+        {
+          "authorId": "3024698",
+          "name": "Edouard Grave"
+        }
+      ]
+    },
+    {
+      "paperId": "13a0d8bb38f739990c8cd65a44061c6534f17221",
+      "title": "OPT: Open Pre-trained Transformer Language Models",
+      "year": 2022,
+      "citationCount": 3115,
+      "authors": [
+        {
+          "authorId": "2108244542",
+          "name": "Susan Zhang"
+        },
+        {
+          "authorId": "3849208",
+          "name": "Stephen Roller"
+        },
+        {
+          "authorId": "39589154",
+          "name": "Naman Goyal"
+        },
+        {
+          "authorId": "2347956",
+          "name": "Mikel Artetxe"
+        },
+        {
+          "authorId": "2108267192",
+          "name": "Moya Chen"
+        },
+        {
+          "authorId": "1782969",
+          "name": "Shuohui Chen"
+        },
+        {
+          "authorId": "2065332326",
+          "name": "Christopher Dewan"
+        },
+        {
+          "authorId": "2138579860",
+          "name": "Mona T. Diab"
+        },
+        {
+          "authorId": "2116235416",
+          "name": "Xian Li"
+        },
+        {
+          "authorId": "143724481",
+          "name": "Xi Victoria Lin"
+        },
+        {
+          "authorId": "39980906",
+          "name": "Todor Mihaylov"
+        },
+        {
+          "authorId": "40511414",
+          "name": "Myle Ott"
+        },
+        {
+          "authorId": "88728159",
+          "name": "Sam Shleifer"
+        },
+        {
+          "authorId": "35752280",
+          "name": "Kurt Shuster"
+        },
+        {
+          "authorId": "2082239112",
+          "name": "Daniel Simig"
+        },
+        {
+          "authorId": "2146367061",
+          "name": "Punit Singh Koura"
+        },
+        {
+          "authorId": "5382923",
+          "name": "Anjali Sridhar"
+        },
+        {
+          "authorId": "1785372925",
+          "name": "Tianlu Wang"
+        },
+        {
+          "authorId": "1982950",
+          "name": "Luke Zettlemoyer"
+        }
+      ]
+    },
+    {
+      "paperId": "094ff971d6a8b8ff870946c9b3ce5aa173617bfb",
+      "title": "PaLM: Scaling Language Modeling with Pathways",
+      "year": 2022,
+      "citationCount": 5404,
+      "authors": [
+        {
+          "authorId": "2841893",
+          "name": "Aakanksha Chowdhery"
+        },
+        {
+          "authorId": "46617804",
+          "name": "Sharan Narang"
+        },
+        {
+          "authorId": "39172707",
+          "name": "Jacob Devlin"
+        },
+        {
+          "authorId": "40377863",
+          "name": "Maarten Bosma"
+        },
+        {
+          "authorId": "2159632445",
+          "name": "Gaurav Mishra"
+        },
+        {
+          "authorId": "145625142",
+          "name": "Adam Roberts"
+        },
+        {
+          "authorId": "152399055",
+          "name": "P. Barham"
+        },
+        {
+          "authorId": "3351938",
+          "name": "Hyung Won Chung"
+        },
+        {
+          "authorId": "152549864",
+          "name": "Charles Sutton"
+        },
+        {
+          "authorId": "3159346",
+          "name": "Sebastian Gehrmann"
+        },
+        {
+          "authorId": "2620528",
+          "name": "Parker Schuh"
+        },
+        {
+          "authorId": "2362367",
+          "name": "Kensen Shi"
+        },
+        {
+          "authorId": "2160888237",
+          "name": "Sasha Tsvyashchenko"
+        },
+        {
+          "authorId": "2124977868",
+          "name": "Joshua Maynez"
+        },
+        {
+          "authorId": "1484043592",
+          "name": "Abhishek Rao"
+        },
+        {
+          "authorId": "80940648",
+          "name": "Parker Barnes"
+        },
+        {
+          "authorId": "144447820",
+          "name": "Yi Tay"
+        },
+        {
+          "authorId": "1846258",
+          "name": "Noam M. Shazeer"
+        },
+        {
+          "authorId": "3331141",
+          "name": "Vinodkumar Prabhakaran"
+        },
+        {
+          "authorId": "49849144",
+          "name": "Emily Reif"
+        },
+        {
+          "authorId": "2140321952",
+          "name": "Nan Du"
+        },
+        {
+          "authorId": "2044655623",
+          "name": "Ben Hutchinson"
+        },
+        {
+          "authorId": "2161431901",
+          "name": "Reiner Pope"
+        },
+        {
+          "authorId": "2065251344",
+          "name": "James Bradbury"
+        },
+        {
+          "authorId": "2058365883",
+          "name": "Jacob Austin"
+        },
+        {
+          "authorId": "2090818",
+          "name": "M. Isard"
+        },
+        {
+          "authorId": "2284681044",
+          "name": "Guy Gur-Ari"
+        },
+        {
+          "authorId": "38253388",
+          "name": "Pengcheng Yin"
+        },
+        {
+          "authorId": "2145151992",
+          "name": "Toju Duke"
+        },
+        {
+          "authorId": "6639036",
+          "name": "Anselm Levskaya"
+        },
+        {
+          "authorId": "1780892",
+          "name": "Sanjay Ghemawat"
+        },
+        {
+          "authorId": "50991767",
+          "name": "Sunipa Dev"
+        },
+        {
+          "authorId": "47407464",
+          "name": "H. Michalewski"
+        },
+        {
+          "authorId": "143936294",
+          "name": "Xavier García"
+        },
+        {
+          "authorId": "40055795",
+          "name": "Vedant Misra"
+        },
+        {
+          "authorId": "2148473059",
+          "name": "Kevin Robinson"
+        },
+        {
+          "authorId": "2096916416",
+          "name": "L. Fedus"
+        },
+        {
+          "authorId": "65855107",
+          "name": "Denny Zhou"
+        },
+        {
+          "authorId": "7975935",
+          "name": "Daphne Ippolito"
+        },
+        {
+          "authorId": "150970919",
+          "name": "D. Luan"
+        },
+        {
+          "authorId": "8939217",
+          "name": "Hyeontaek Lim"
+        },
+        {
+          "authorId": "2368067",
+          "name": "Barret Zoph"
+        },
+        {
+          "authorId": "1572884723",
+          "name": "A. Spiridonov"
+        },
+        {
+          "authorId": "35474601",
+          "name": "Ryan Sepassi"
+        },
+        {
+          "authorId": "35363891",
+          "name": "David Dohan"
+        },
+        {
+          "authorId": "3504647",
+          "name": "Shivani Agrawal"
+        },
+        {
+          "authorId": "3175815",
+          "name": "Mark Omernick"
+        },
+        {
+          "authorId": "2555924",
+          "name": "Andrew M. Dai"
+        },
+        {
+          "authorId": "2598683",
+          "name": "Thanumalayan Sankaranarayana Pillai"
+        },
+        {
+          "authorId": "97905921",
+          "name": "Marie Pellat"
+        },
+        {
+          "authorId": "102549875",
+          "name": "Aitor Lewkowycz"
+        },
+        {
+          "authorId": "2057453483",
+          "name": "Erica Moreira"
+        },
+        {
+          "authorId": "48422824",
+          "name": "R. Child"
+        },
+        {
+          "authorId": "2636739",
+          "name": "Oleksandr Polozov"
+        },
+        {
+          "authorId": "3844009",
+          "name": "Katherine Lee"
+        },
+        {
+          "authorId": "2198519",
+          "name": "Zongwei Zhou"
+        },
+        {
+          "authorId": "1524732527",
+          "name": "Xuezhi Wang"
+        },
+        {
+          "authorId": "4125424",
+          "name": "Brennan Saeta"
+        },
+        {
+          "authorId": "2152965375",
+          "name": "Mark Díaz"
+        },
+        {
+          "authorId": "2345617",
+          "name": "Orhan Firat"
+        },
+        {
+          "authorId": "1754926",
+          "name": "Michele Catasta"
+        },
+        {
+          "authorId": "119640649",
+          "name": "Jason Wei"
+        },
+        {
+          "authorId": "1398655031",
+          "name": "K. Meier-Hellstern"
+        },
+        {
+          "authorId": "2396681",
+          "name": "D. Eck"
+        },
+        {
+          "authorId": "48448318",
+          "name": "J. Dean"
+        },
+        {
+          "authorId": "1754497",
+          "name": "Slav Petrov"
+        },
+        {
+          "authorId": "22640071",
+          "name": "Noah Fiedel"
+        }
+      ]
+    },
+    {
+      "paperId": "d766bffc357127e0dc86dd69561d5aeb520d6f4c",
+      "title": "Training language models to follow instructions with human feedback",
+      "year": 2022,
+      "citationCount": 10069,
+      "authors": [
+        {
+          "authorId": "31793034",
+          "name": "Long Ouyang"
+        },
+        {
+          "authorId": "49387725",
+          "name": "Jeff Wu"
+        },
+        {
+          "authorId": "2115903168",
+          "name": "Xu Jiang"
+        },
+        {
+          "authorId": "2061137049",
+          "name": "Diogo Almeida"
+        },
+        {
+          "authorId": "2064084601",
+          "name": "Carroll L. Wainwright"
+        },
+        {
+          "authorId": "2051714782",
+          "name": "Pamela Mishkin"
+        },
+        {
+          "authorId": null,
+          "name": "Chong Zhang"
+        },
+        {
+          "authorId": "144517868",
+          "name": "Sandhini Agarwal"
+        },
+        {
+          "authorId": "2117680841",
+          "name": "Katarina Slama"
+        },
+        {
+          "authorId": "2064770039",
+          "name": "Alex Ray"
+        },
+        {
+          "authorId": "47971768",
+          "name": "John Schulman"
+        },
+        {
+          "authorId": "2052366271",
+          "name": "Jacob Hilton"
+        },
+        {
+          "authorId": "2151735262",
+          "name": "Fraser Kelton"
+        },
+        {
+          "authorId": "2142365973",
+          "name": "Luke E. Miller"
+        },
+        {
+          "authorId": "2151735251",
+          "name": "Maddie Simens"
+        },
+        {
+          "authorId": "119609682",
+          "name": "Amanda Askell"
+        },
+        {
+          "authorId": "2930640",
+          "name": "P. Welinder"
+        },
+        {
+          "authorId": "145791315",
+          "name": "P. Christiano"
+        },
+        {
+          "authorId": "2990741",
+          "name": "J. Leike"
+        },
+        {
+          "authorId": "49407415",
+          "name": "Ryan J. Lowe"
+        }
+      ]
+    },
+    {
+      "paperId": "1f274b4036eb99e93945f266c227a359e5e25569",
+      "title": "Time-Aware Ancient Chinese Text Translation and Inference",
+      "year": 2021,
+      "citationCount": 11,
+      "authors": [
+        {
+          "authorId": "48025720",
+          "name": "Ernie Chang"
+        },
+        {
+          "authorId": "3448762",
+          "name": "Yow-Ting Shiue"
+        },
+        {
+          "authorId": "2047999043",
+          "name": "Hui-Syuan Yeh"
+        },
+        {
+          "authorId": "2869436",
+          "name": "Vera Demberg"
+        }
+      ]
+    },
+    {
+      "paperId": "f8c6fd5c80a0f2d89bb1e1eed3abeea0b6a0bdd5",
+      "title": "BERT-Based Named Entity Recognition in Chinese Twenty-Four Histories",
+      "year": 2020,
+      "citationCount": 15,
+      "authors": [
+        {
+          "authorId": "2114104123",
+          "name": "Peng Yu"
+        },
+        {
+          "authorId": "122024145",
+          "name": "Xin Wang"
+        }
+      ]
+    },
+    {
+      "paperId": "90abbc2cf38462b954ae1b772fac9532e2ccd8b0",
+      "title": "Language Models are Few-Shot Learners",
+      "year": 2020,
+      "citationCount": 35106,
+      "authors": [
+        {
+          "authorId": "31035595",
+          "name": "Tom B. Brown"
+        },
+        {
+          "authorId": "2056658938",
+          "name": "Benjamin Mann"
+        },
+        {
+          "authorId": "39849748",
+          "name": "Nick Ryder"
+        },
+        {
+          "authorId": "2065894334",
+          "name": "Melanie Subbiah"
+        },
+        {
+          "authorId": "152724169",
+          "name": "J. Kaplan"
+        },
+        {
+          "authorId": "6515819",
+          "name": "Prafulla Dhariwal"
+        },
+        {
+          "authorId": "2072676",
+          "name": "Arvind Neelakantan"
+        },
+        {
+          "authorId": "67311962",
+          "name": "Pranav Shyam"
+        },
+        {
+          "authorId": "144864359",
+          "name": "Girish Sastry"
+        },
+        {
+          "authorId": "119609682",
+          "name": "Amanda Askell"
+        },
+        {
+          "authorId": "144517868",
+          "name": "Sandhini Agarwal"
+        },
+        {
+          "authorId": "1404060687",
+          "name": "Ariel Herbert-Voss"
+        },
+        {
+          "authorId": "2064404342",
+          "name": "Gretchen Krueger"
+        },
+        {
+          "authorId": "103143311",
+          "name": "T. Henighan"
+        },
+        {
+          "authorId": "48422824",
+          "name": "R. Child"
+        },
+        {
+          "authorId": "1992922591",
+          "name": "A. Ramesh"
+        },
+        {
+          "authorId": "2052152920",
+          "name": "Daniel M. Ziegler"
+        },
+        {
+          "authorId": "49387725",
+          "name": "Jeff Wu"
+        },
+        {
+          "authorId": "2059411355",
+          "name": "Clemens Winter"
+        },
+        {
+          "authorId": "144239765",
+          "name": "Christopher Hesse"
+        },
+        {
+          "authorId": "2108828435",
+          "name": "Mark Chen"
+        },
+        {
+          "authorId": "2064673055",
+          "name": "Eric Sigler"
+        },
+        {
+          "authorId": "1380985420",
+          "name": "Ma-teusz Litwin"
+        },
+        {
+          "authorId": "145565184",
+          "name": "Scott Gray"
+        },
+        {
+          "authorId": "1490681878",
+          "name": "B. Chess"
+        },
+        {
+          "authorId": "2115193883",
+          "name": "Jack Clark"
+        },
+        {
+          "authorId": "133740015",
+          "name": "Christopher Berner"
+        },
+        {
+          "authorId": "52238703",
+          "name": "Sam McCandlish"
+        },
+        {
+          "authorId": "38909097",
+          "name": "Alec Radford"
+        },
+        {
+          "authorId": "1701686",
+          "name": "I. Sutskever"
+        },
+        {
+          "authorId": "2698777",
+          "name": "Dario Amodei"
+        }
+      ]
+    },
+    {
+      "paperId": "58ed1fbaabe027345f7bb3a6312d41c5aac63e22",
+      "title": "Retrieval-Augmented Generation for Knowledge-Intensive NLP Tasks",
+      "year": 2020,
+      "citationCount": 4275,
+      "authors": [
+        {
+          "authorId": "145222654",
+          "name": "Patrick Lewis"
+        },
+        {
+          "authorId": "3439053",
+          "name": "Ethan Perez"
+        },
+        {
+          "authorId": "1716179427",
+          "name": "Aleksandara Piktus"
+        },
+        {
+          "authorId": "40052301",
+          "name": "F. Petroni"
+        },
+        {
+          "authorId": "2067091563",
+          "name": "Vladimir Karpukhin"
+        },
+        {
+          "authorId": "39589154",
+          "name": "Naman Goyal"
+        },
+        {
+          "authorId": "103131985",
+          "name": "Heinrich Kuttler"
+        },
+        {
+          "authorId": "35084211",
+          "name": "M. Lewis"
+        },
+        {
+          "authorId": "144105277",
+          "name": "Wen-tau Yih"
+        },
+        {
+          "authorId": "2620211",
+          "name": "Tim Rocktäschel"
+        },
+        {
+          "authorId": "48662861",
+          "name": "Sebastian Riedel"
+        },
+        {
+          "authorId": "1743722",
+          "name": "Douwe Kiela"
+        }
+      ]
+    },
+    {
+      "paperId": "832fff14d2ed50eb7969c4c4b976c35776548f56",
+      "title": "REALM: Retrieval-Augmented Language Model Pre-Training",
+      "year": 2020,
+      "citationCount": 1768,
+      "authors": [
+        {
+          "authorId": "2091768",
+          "name": "Kelvin Guu"
+        },
+        {
+          "authorId": "2544107",
+          "name": "Kenton Lee"
+        },
+        {
+          "authorId": "9941702",
+          "name": "Zora Tung"
+        },
+        {
+          "authorId": "2616463",
+          "name": "Panupong Pasupat"
+        },
+        {
+          "authorId": "1744179",
+          "name": "Ming-Wei Chang"
+        }
+      ]
+    },
+    {
+      "paperId": "6c4b76232bb72897685d19b3d264c6ee3005bc2b",
+      "title": "Exploring the Limits of Transfer Learning with a Unified Text-to-Text Transformer",
+      "year": 2019,
+      "citationCount": 17664,
+      "authors": [
+        {
+          "authorId": "2402716",
+          "name": "Colin Raffel"
+        },
+        {
+          "authorId": "1846258",
+          "name": "Noam M. Shazeer"
+        },
+        {
+          "authorId": "145625142",
+          "name": "Adam Roberts"
+        },
+        {
+          "authorId": "3844009",
+          "name": "Katherine Lee"
+        },
+        {
+          "authorId": "46617804",
+          "name": "Sharan Narang"
+        },
+        {
+          "authorId": "1380243217",
+          "name": "Michael Matena"
+        },
+        {
+          "authorId": "2389316",
+          "name": "Yanqi Zhou"
+        },
+        {
+          "authorId": "2157338362",
+          "name": "Wei Li"
+        },
+        {
+          "authorId": "35025299",
+          "name": "Peter J. Liu"
+        }
+      ]
+    },
+    {
+      "paperId": "cfdff8aa65896fb3694ccb888ae617b9ff7c84ea",
+      "title": "CNN-BiLSTM-CRF Model for Term Extraction in Chinese Corpus",
+      "year": 2018,
+      "citationCount": 10,
+      "authors": [
+        {
+          "authorId": "2118232840",
+          "name": "Xiaowei Han"
+        },
+        {
+          "authorId": "3069081",
+          "name": "Lizhen Xu"
+        },
+        {
+          "authorId": null,
+          "name": "Feng Qiao"
+        }
+      ]
+    },
+    {
+      "paperId": "7f147cd5d509e4feb628972922297f48b86ebd3e",
+      "title": "Punctuation as Implicit Annotations for Chinese Word Segmentation",
+      "year": 2009,
+      "citationCount": 125,
+      "authors": [
+        {
+          "authorId": "2598007",
+          "name": "Zhongguo Li"
+        },
+        {
+          "authorId": "1753344",
+          "name": "Maosong Sun"
+        }
+      ]
+    },
+    {
+      "paperId": "29903da2b7d82de6b54a5ac57952cf4e116a0cf3",
+      "title": "Towards Better Translations from Classical to Modern Chinese: A New Dataset and a New Method",
+      "year": 2023,
+      "citationCount": 2,
+      "authors": [
+        {
+          "authorId": "2257135095",
+          "name": "Zongyuan Jiang"
+        },
+        {
+          "authorId": "48094112",
+          "name": "Jiapeng Wang"
+        },
+        {
+          "authorId": "2257099757",
+          "name": "Jiahuan Cao"
+        },
+        {
+          "authorId": "2257385458",
+          "name": "Xue Gao"
+        },
+        {
+          "authorId": "2262197299",
+          "name": "Lianwen Jin"
+        }
+      ]
+    },
+    {
+      "paperId": "c9dff8253b2e776abf363d0a4836abcaf64ee327",
+      "title": "ChatDoctor: A Medical Chat Model Fine-tuned on LLaMA Model using Medical Domain Knowledge",
+      "year": 2023,
+      "citationCount": 182,
+      "authors": [
+        {
+          "authorId": null,
+          "name": "Yunxiang Li"
+        },
+        {
+          "authorId": "2118273929",
+          "name": "Zihan Li"
+        },
+        {
+          "authorId": "145086492",
+          "name": "Kai Zhang"
+        },
+        {
+          "authorId": "2135297794",
+          "name": "Ruilong Dan"
+        },
+        {
+          "authorId": "49890547",
+          "name": "You Zhang"
+        }
+      ]
+    },
+    {
+      "paperId": null,
+      "title": "Garychowcmu",
+      "year": 2019,
+      "citationCount": null,
+      "authors": []
+    },
+    {
+      "paperId": "cd18800a0fe0b668a1cc19f2ec95b5003d0a5035",
+      "title": "Improving Language Understanding by Generative Pre-Training",
+      "year": 2018,
+      "citationCount": 10563,
+      "authors": [
+        {
+          "authorId": "38909097",
+          "name": "Alec Radford"
+        },
+        {
+          "authorId": "144958935",
+          "name": "Karthik Narasimhan"
+        }
+      ]
+    },
+    {
+      "paperId": null,
+      "title": "2022. Improving language models by retrieving from tril-lions of tokens",
+      "year": null,
+      "citationCount": null,
+      "authors": []
+    },
+    {
+      "paperId": null,
+      "title": "2024. The un-reasonable ineffectiveness of the deeper layers",
+      "year": null,
+      "citationCount": null,
+      "authors": []
+    },
+    {
+      "paperId": null,
+      "title": "2023. Mnbvc: Massive never-ending bt vast chinese corpus",
+      "year": null,
+      "citationCount": null,
+      "authors": []
+    },
+    {
+      "paperId": null,
+      "title": "2023. ShareGPT-Chinese-English-90k bilingual human-machine",
+      "year": null,
+      "citationCount": null,
+      "authors": []
+    },
+    {
+      "paperId": null,
+      "title": "2024. C 3 bench: A comprehensive classical Chinese understanding benchmark for large language models",
+      "year": null,
+      "citationCount": null,
+      "authors": []
+    },
+    {
+      "paperId": null,
+      "title": "2023. PMC-LLaMA: Further fine-tuning LLaMA on medical papers",
+      "year": null,
+      "citationCount": null,
+      "authors": []
+    },
+    {
+      "paperId": null,
+      "title": "Together Computer. 2023. Redpajama: An open source recipe to reproduce",
+      "year": null,
+      "citationCount": null,
+      "authors": []
+    },
+    {
+      "paperId": null,
+      "title": "2024. Scaling instruction-finetuned language models",
+      "year": null,
+      "citationCount": null,
+      "authors": []
+    },
+    {
+      "paperId": null,
+      "title": "2023. GPT-4 technical report",
+      "year": null,
+      "citationCount": null,
+      "authors": []
+    }
+  ]
+}

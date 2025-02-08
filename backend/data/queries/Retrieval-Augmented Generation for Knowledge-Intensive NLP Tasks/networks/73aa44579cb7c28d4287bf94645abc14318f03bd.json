@@ -1,0 +1,593 @@
+{
+  "citations": [],
+  "references": [
+    {
+      "paperId": "26702869774950e03b10a3657bca0621aa0d8d07",
+      "title": "KG-RAG: Bridging the Gap Between Knowledge and Creativity",
+      "year": 2024,
+      "citationCount": 18,
+      "authors": [
+        {
+          "authorId": "2302321748",
+          "name": "Diego Sanmartin"
+        }
+      ]
+    },
+    {
+      "paperId": "7238be6ddad7a199aa160e7a2bb77291f299ee99",
+      "title": "Automated Construction of Theme-specific Knowledge Graphs",
+      "year": 2024,
+      "citationCount": 6,
+      "authors": [
+        {
+          "authorId": "2299109396",
+          "name": "Linyi Ding"
+        },
+        {
+          "authorId": "2187778761",
+          "name": "Sizhe Zhou"
+        },
+        {
+          "authorId": "2259895758",
+          "name": "Jinfeng Xiao"
+        },
+        {
+          "authorId": "2259869646",
+          "name": "Jiawei Han"
+        }
+      ]
+    },
+    {
+      "paperId": "b708e0f49d8e9708bc649debd9a9372748fffa3d",
+      "title": "Retrieval-Augmented Generation with Knowledge Graphs for Customer Service Question Answering",
+      "year": 2024,
+      "citationCount": 25,
+      "authors": [
+        {
+          "authorId": "2298963010",
+          "name": "Zhentao Xu"
+        },
+        {
+          "authorId": "2298950259",
+          "name": "Mark Jerome Cruz"
+        },
+        {
+          "authorId": "2298905096",
+          "name": "Matthew Guevara"
+        },
+        {
+          "authorId": "2298945918",
+          "name": "Tie Wang"
+        },
+        {
+          "authorId": "2298905834",
+          "name": "Manasi Deshpande"
+        },
+        {
+          "authorId": "2298932063",
+          "name": "Xiaofeng Wang"
+        },
+        {
+          "authorId": "2299007327",
+          "name": "Zheng Li"
+        }
+      ]
+    },
+    {
+      "paperId": "c1799bf28d1ae93e1631be5b59196ee1e568f538",
+      "title": "From Local to Global: A Graph RAG Approach to Query-Focused Summarization",
+      "year": 2024,
+      "citationCount": 155,
+      "authors": [
+        {
+          "authorId": "2298275009",
+          "name": "Darren Edge"
+        },
+        {
+          "authorId": "2213073417",
+          "name": "Ha Trinh"
+        },
+        {
+          "authorId": "2298273973",
+          "name": "Newman Cheng"
+        },
+        {
+          "authorId": "2298275805",
+          "name": "Joshua Bradley"
+        },
+        {
+          "authorId": "2298274563",
+          "name": "Alex Chao"
+        },
+        {
+          "authorId": "2210994342",
+          "name": "Apurva Mody"
+        },
+        {
+          "authorId": "2298273810",
+          "name": "Steven Truitt"
+        },
+        {
+          "authorId": "2298278846",
+          "name": "Jonathan Larson"
+        }
+      ]
+    },
+    {
+      "paperId": "1ee1f4dd35b8d78af8381a47e4d655856427f02f",
+      "title": "Consistency Guided Knowledge Retrieval and Denoising in LLMs for Zero-shot Document-level Relation Triplet Extraction",
+      "year": 2024,
+      "citationCount": 17,
+      "authors": [
+        {
+          "authorId": "2258678494",
+          "name": "Qi Sun"
+        },
+        {
+          "authorId": "2112706130",
+          "name": "Kun Huang"
+        },
+        {
+          "authorId": "2135971356",
+          "name": "Xiaocui Yang"
+        },
+        {
+          "authorId": "2280906554",
+          "name": "Rong Tong"
+        },
+        {
+          "authorId": "2217679552",
+          "name": "Kun Zhang"
+        },
+        {
+          "authorId": "1746416",
+          "name": "Soujanya Poria"
+        }
+      ]
+    },
+    {
+      "paperId": "33e82c122f325f61e07dc7b7573e83dd3754a35b",
+      "title": "AutoKG: Efficient Automated Knowledge Graph Generation for Language Models",
+      "year": 2023,
+      "citationCount": 7,
+      "authors": [
+        {
+          "authorId": "2152691135",
+          "name": "Bohan Chen"
+        },
+        {
+          "authorId": "2267332568",
+          "name": "Andrea L. Bertozzi"
+        }
+      ]
+    },
+    {
+      "paperId": "2967ab775f6cdabc6ab59010734f352dd3ebc8d6",
+      "title": "Instruct and Extract: Instruction Tuning for On-Demand Information Extraction",
+      "year": 2023,
+      "citationCount": 21,
+      "authors": [
+        {
+          "authorId": "1381900594",
+          "name": "Yizhu Jiao"
+        },
+        {
+          "authorId": "1606040932",
+          "name": "Ming Zhong"
+        },
+        {
+          "authorId": "2263798673",
+          "name": "Sha Li"
+        },
+        {
+          "authorId": "2261459570",
+          "name": "Ruining Zhao"
+        },
+        {
+          "authorId": "2260339714",
+          "name": "Siru Ouyang"
+        },
+        {
+          "authorId": "2181650518",
+          "name": "Heng Ji"
+        },
+        {
+          "authorId": "2259869648",
+          "name": "Jiawei Han"
+        }
+      ]
+    },
+    {
+      "paperId": "83b90f4a0ae4cc214eb3cc140ccfef9cd99fac05",
+      "title": "Efficient Memory Management for Large Language Model Serving with PagedAttention",
+      "year": 2023,
+      "citationCount": 1115,
+      "authors": [
+        {
+          "authorId": "2239096468",
+          "name": "Woosuk Kwon"
+        },
+        {
+          "authorId": "2141335450",
+          "name": "Zhuohan Li"
+        },
+        {
+          "authorId": "92721493",
+          "name": "Siyuan Zhuang"
+        },
+        {
+          "authorId": "2209360681",
+          "name": "Ying Sheng"
+        },
+        {
+          "authorId": "2149970173",
+          "name": "Lianmin Zheng"
+        },
+        {
+          "authorId": "2239168517",
+          "name": "Cody Hao Yu"
+        },
+        {
+          "authorId": "49988044",
+          "name": "Joseph E. Gonzalez"
+        },
+        {
+          "authorId": "145140331",
+          "name": "Haotong Zhang"
+        },
+        {
+          "authorId": "2055174324",
+          "name": "Ion Stoica"
+        }
+      ]
+    },
+    {
+      "paperId": "70a75b05a9410198fd71c3a0fe937a77d15d6bc8",
+      "title": "Text2KGBench: A Benchmark for Ontology-Driven Knowledge Graph Generation from Text",
+      "year": 2023,
+      "citationCount": 43,
+      "authors": [
+        {
+          "authorId": "2689774",
+          "name": "Nandana Mihindukulasooriya"
+        },
+        {
+          "authorId": "148152134",
+          "name": "S. Tiwari"
+        },
+        {
+          "authorId": "3162814",
+          "name": "Carlos F. Enguix"
+        },
+        {
+          "authorId": "2065138211",
+          "name": "K. Lata"
+        }
+      ]
+    },
+    {
+      "paperId": "32ac52069e562d4f900afee70bdca63f53461481",
+      "title": "QLoRA: Efficient Finetuning of Quantized LLMs",
+      "year": 2023,
+      "citationCount": 1841,
+      "authors": [
+        {
+          "authorId": "3239480",
+          "name": "Tim Dettmers"
+        },
+        {
+          "authorId": "51152502",
+          "name": "Artidoro Pagnoni"
+        },
+        {
+          "authorId": "14487640",
+          "name": "Ari Holtzman"
+        },
+        {
+          "authorId": "1982950",
+          "name": "Luke Zettlemoyer"
+        }
+      ]
+    },
+    {
+      "paperId": "c7ae496ae37b5c1fca5c0f7e277bc9356172efd1",
+      "title": "PiVe: Prompting with Iterative Verification Improving Graph-based Generative Capability of LLMs",
+      "year": 2023,
+      "citationCount": 30,
+      "authors": [
+        {
+          "authorId": "2133405108",
+          "name": "Jiuzhou Han"
+        },
+        {
+          "authorId": "50638196",
+          "name": "Nigel Collier"
+        },
+        {
+          "authorId": "70219052",
+          "name": "Wray L. Buntine"
+        },
+        {
+          "authorId": "2888926",
+          "name": "Ehsan Shareghi"
+        }
+      ]
+    },
+    {
+      "paperId": "e01c2a01d54365c8833b816de8ef39a752ffa9b0",
+      "title": "Aligning Instruction Tasks Unlocks Large Language Models as Zero-Shot Relation Extractors",
+      "year": 2023,
+      "citationCount": 60,
+      "authors": [
+        {
+          "authorId": "145086492",
+          "name": "Kai Zhang"
+        },
+        {
+          "authorId": "1666169546",
+          "name": "Bernal Jimenez Gutierrez"
+        },
+        {
+          "authorId": "1758652",
+          "name": "Yu Su"
+        }
+      ]
+    },
+    {
+      "paperId": "ca0c955699f552e1c2fbda747bd41faf8a2513ce",
+      "title": "Exploring In-Context Learning Capabilities of Foundation Models for Generating Knowledge Graphs from Text",
+      "year": 2023,
+      "citationCount": 20,
+      "authors": [
+        {
+          "authorId": "2007922846",
+          "name": "H. Khorashadizadeh"
+        },
+        {
+          "authorId": "2689774",
+          "name": "Nandana Mihindukulasooriya"
+        },
+        {
+          "authorId": "148152134",
+          "name": "S. Tiwari"
+        },
+        {
+          "authorId": "2378835",
+          "name": "Jinghua Groppe"
+        },
+        {
+          "authorId": "145267753",
+          "name": "Sven Groppe"
+        }
+      ]
+    },
+    {
+      "paperId": "743dcf234cffd54c4e096a10a284dd81572b16ea",
+      "title": "RelationPrompt: Leveraging Prompts to Generate Synthetic Data for Zero-Shot Relation Triplet Extraction",
+      "year": 2022,
+      "citationCount": 92,
+      "authors": [
+        {
+          "authorId": "2066312627",
+          "name": "Yew Ken Chia"
+        },
+        {
+          "authorId": "1996394",
+          "name": "Lidong Bing"
+        },
+        {
+          "authorId": "1746416",
+          "name": "Soujanya Poria"
+        },
+        {
+          "authorId": "2059080424",
+          "name": "Luo Si"
+        }
+      ]
+    },
+    {
+      "paperId": "9001eb3c3d5a96ad3d804410c2437e6f60feade9",
+      "title": "Constructing A Multi-hop QA Dataset for Comprehensive Evaluation of Reasoning Steps",
+      "year": 2020,
+      "citationCount": 278,
+      "authors": [
+        {
+          "authorId": "1643889940",
+          "name": "Xanh Ho"
+        },
+        {
+          "authorId": "1997993126",
+          "name": "A. Nguyen"
+        },
+        {
+          "authorId": "2673984",
+          "name": "Saku Sugawara"
+        },
+        {
+          "authorId": "1705519",
+          "name": "Akiko Aizawa"
+        }
+      ]
+    },
+    {
+      "paperId": "2745fc72e1dd53d1c30f17cf05841b163c2f63c9",
+      "title": "DocRED: A Large-Scale Document-Level Relation Extraction Dataset",
+      "year": 2019,
+      "citationCount": 422,
+      "authors": [
+        {
+          "authorId": "46461580",
+          "name": "Yuan Yao"
+        },
+        {
+          "authorId": "50816334",
+          "name": "Deming Ye"
+        },
+        {
+          "authorId": "144326610",
+          "name": "Peng Li"
+        },
+        {
+          "authorId": "48506411",
+          "name": "Xu Han"
+        },
+        {
+          "authorId": "2427350",
+          "name": "Yankai Lin"
+        },
+        {
+          "authorId": "49047064",
+          "name": "Zhenghao Liu"
+        },
+        {
+          "authorId": "49293587",
+          "name": "Zhiyuan Liu"
+        },
+        {
+          "authorId": "2110799018",
+          "name": "Lixin Huang"
+        },
+        {
+          "authorId": "49178343",
+          "name": "Jie Zhou"
+        },
+        {
+          "authorId": "1753344",
+          "name": "Maosong Sun"
+        }
+      ]
+    },
+    {
+      "paperId": "22655979df781d222eaf812b0d325fa9adf11594",
+      "title": "HotpotQA: A Dataset for Diverse, Explainable Multi-hop Question Answering",
+      "year": 2018,
+      "citationCount": 2112,
+      "authors": [
+        {
+          "authorId": "2109512754",
+          "name": "Zhilin Yang"
+        },
+        {
+          "authorId": "50531624",
+          "name": "Peng Qi"
+        },
+        {
+          "authorId": "35097114",
+          "name": "Saizheng Zhang"
+        },
+        {
+          "authorId": "1751762",
+          "name": "Yoshua Bengio"
+        },
+        {
+          "authorId": "50056360",
+          "name": "William W. Cohen"
+        },
+        {
+          "authorId": "145124475",
+          "name": "R. Salakhutdinov"
+        },
+        {
+          "authorId": "144783904",
+          "name": "Christopher D. Manning"
+        }
+      ]
+    },
+    {
+      "paperId": "60b05f32c32519a809f21642ef1eb3eaf3848008",
+      "title": "ROUGE: A Package for Automatic Evaluation of Summaries",
+      "year": 2004,
+      "citationCount": 14248,
+      "authors": [
+        {
+          "authorId": "1781574",
+          "name": "Chin-Yew Lin"
+        }
+      ]
+    },
+    {
+      "paperId": null,
+      "title": "Transform-ers: State-of-the-art natural language processing",
+      "year": 2020,
+      "citationCount": null,
+      "authors": []
+    },
+    {
+      "paperId": null,
+      "title": "2024. Hello gpt-4o!",
+      "year": null,
+      "citationCount": null,
+      "authors": []
+    },
+    {
+      "paperId": null,
+      "title": "2024. Hipporag: Neu-robiologically inspired long-term memory for large language models",
+      "year": null,
+      "citationCount": null,
+      "authors": []
+    },
+    {
+      "paperId": null,
+      "title": "2024. Consistency guided knowledge retrieval and denoising in llms",
+      "year": null,
+      "citationCount": null,
+      "authors": []
+    },
+    {
+      "paperId": null,
+      "title": "2024. Llms for knowledge graph construction and reasoning: Recent capabilities and future opportunities",
+      "year": null,
+      "citationCount": null,
+      "authors": []
+    },
+    {
+      "paperId": null,
+      "title": "2024. Graphreader: Building graph-based agent to enhance long-context abilities of large language models",
+      "year": null,
+      "citationCount": null,
+      "authors": []
+    },
+    {
+      "paperId": null,
+      "title": "Harrison Chase",
+      "year": null,
+      "citationCount": null,
+      "authors": []
+    },
+    {
+      "paperId": null,
+      "title": "2022. Chain-of-thought prompting elicits reasoning in large language models",
+      "year": null,
+      "citationCount": null,
+      "authors": []
+    },
+    {
+      "paperId": null,
+      "title": "2022. MuSiQue: Multi-hop questions via single-hop question composition",
+      "year": null,
+      "citationCount": null,
+      "authors": []
+    },
+    {
+      "paperId": null,
+      "title": "2023. Llm2kb: Constructing knowledge bases using instruction tuned context aware large language models",
+      "year": null,
+      "citationCount": null,
+      "authors": []
+    },
+    {
+      "paperId": null,
+      "title": "2023. Mistral 7b",
+      "year": null,
+      "citationCount": null,
+      "authors": []
+    },
+    {
+      "paperId": null,
+      "title": "2024. Codekgc: Code language model for generative knowledge graph construction",
+      "year": null,
+      "citationCount": null,
+      "authors": []
+    }
+  ]
+}

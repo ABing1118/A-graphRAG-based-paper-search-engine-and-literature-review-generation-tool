@@ -127,41 +127,35 @@ async def get_citation_network(
 
 @router.get("/paper_network/{paper_id}")
 async def get_paper_sub_network(paper_id: str, request: Request):
-    """获取单篇论文的引用网络（包括引用关系最多的5篇论文以及它们之间的关系）"""
     try:
-        logger.info(f"开始获取论文 {paper_id} 的子网络")
+        logger.info(f"开始获取论文 {paper_id} 的引文网络")
         
         # 1. 获取中心论文的引用和被引用信息
+        logger.info("====== 第一层 - 中心论文 ======")
+        logger.info("正在获取中心论文的引用信息...")
         citations = await get_paper_citations(paper_id)
-        logger.info(f"获取到中心论文引用数: {len(citations)}")
+        if await request.is_disconnected(): return None
+        logger.info(f"获取到引用论文数量: {len(citations) if isinstance(citations, list) else 0}")
         
-        # 检查客户端是否还连接
-        if await request.is_disconnected():
-            logger.info("Client disconnected after getting citations")
-            return None
-        
+        logger.info("正在获取中心论文的参考文献...")
         references = await get_paper_references(paper_id)
-        logger.info(f"获取到中心论文参考文献数: {len(references)}")
+        logger.info(f"获取到参考文献数量: {len(references) if isinstance(references, list) else 0}")
         
-        # 确保是列表并处理None值
-        if not isinstance(citations, list):
-            citations = []
-        if not isinstance(references, list):
-            references = []
+        if not isinstance(citations, list): citations = []
+        if not isinstance(references, list): references = []
             
-        # 2. 按引用量排序并只取前5篇
         def safe_get_citation_count(paper):
             try:
                 return int(paper.get('citationCount', 0) or 0)
             except (TypeError, ValueError):
                 return 0
             
-        top_citations = sorted(citations, key=safe_get_citation_count, reverse=True)[:5]
-        top_references = sorted(references, key=safe_get_citation_count, reverse=True)[:5]
-        
+        # 2. 获取第一层的高引用论文
+        top_citations = sorted(citations, key=safe_get_citation_count, reverse=True)[:2]
+        top_references = sorted(references, key=safe_get_citation_count, reverse=True)[:2]
         logger.info(f"选取了 {len(top_citations)} 篇高引用论文和 {len(top_references)} 篇高引用参考文献")
         
-        # 3. 构建节点集合
+        # 3. 初始化节点和边的集合
         nodes = []
         edges = []
         edge_set = set()
@@ -175,10 +169,15 @@ async def get_paper_sub_network(paper_id: str, request: Request):
         })
         paper_ids.add(paper_id)
         
-        # 5. 添加引用论文节点和边
-        for paper in top_citations:
+        # 5. 处理第一层论文
+        logger.info("\n====== 第一层 - 相关论文 ======")
+        first_layer_papers = []
+        
+        # 5.1 处理引用论文
+        for idx, paper in enumerate(top_citations, 1):
             paper_id_cite = paper.get('paperId')
             if paper_id_cite:
+                logger.info(f"处理第一层引用论文 {idx}/{len(top_citations)}: {paper.get('title', 'Unknown')[:50]}...")
                 paper_ids.add(paper_id_cite)
                 nodes.append({
                     "id": paper_id_cite,
@@ -187,19 +186,18 @@ async def get_paper_sub_network(paper_id: str, request: Request):
                     "year": paper.get('year'),
                     "type": "citation"
                 })
-                edge_key = f"{paper_id_cite}->{paper_id}"
-                if edge_key not in edge_set:
-                    edges.append({
-                        "source": paper_id_cite,
-                        "target": paper_id,
-                        "type": "citation"
-                    })
-                    edge_set.add(edge_key)
+                edges.append({
+                    "source": paper_id_cite,
+                    "target": paper_id,
+                    "type": "citation"
+                })
+                first_layer_papers.append(paper_id_cite)
         
-        # 6. 添加被引用论文节点和边
-        for paper in top_references:
+        # 5.2 处理参考文献
+        for idx, paper in enumerate(top_references, 1):
             paper_id_ref = paper.get('paperId')
             if paper_id_ref:
+                logger.info(f"处理第一层参考文献 {idx}/{len(top_references)}: {paper.get('title', 'Unknown')[:50]}...")
                 paper_ids.add(paper_id_ref)
                 nodes.append({
                     "id": paper_id_ref,
@@ -208,90 +206,136 @@ async def get_paper_sub_network(paper_id: str, request: Request):
                     "year": paper.get('year'),
                     "type": "reference"
                 })
-                edge_key = f"{paper_id}->{paper_id_ref}"
-                if edge_key not in edge_set:
-                    edges.append({
-                        "source": paper_id,
-                        "target": paper_id_ref,
-                        "type": "reference"
+                edges.append({
+                    "source": paper_id,
+                    "target": paper_id_ref,
+                    "type": "reference"
+                })
+                first_layer_papers.append(paper_id_ref)
+        
+        # 6. 获取第二层引用关系
+        logger.info("\n====== 第二层 - 扩展论文 ======")
+        second_layer_papers = []
+        second_layer_info = {}
+        
+        for idx1, first_layer_id in enumerate(first_layer_papers, 1):
+            if await request.is_disconnected(): return None
+            
+            logger.info(f"\n处理第一层论文 {idx1}/{len(first_layer_papers)} 的扩展关系...")
+            
+            # 6.1 获取第二层论文信息
+            logger.info("正在获取引用信息...")
+            second_citations = await get_paper_citations(first_layer_id)
+            if await request.is_disconnected(): return None
+            
+            logger.info("正在获取参考文献...")
+            second_references = await get_paper_references(first_layer_id)
+            
+            if not isinstance(second_citations, list): second_citations = []
+            if not isinstance(second_references, list): second_references = []
+            
+            logger.info(f"获取到 {len(second_citations)} 篇引用论文和 {len(second_references)} 篇参考文献")
+            
+            # 6.2 获取第二层的高引用论文
+            second_top_citations = sorted(second_citations, key=safe_get_citation_count, reverse=True)[:2]
+            second_top_references = sorted(second_references, key=safe_get_citation_count, reverse=True)[:2]
+            
+            # 6.3 添加第二层节点和边
+            for idx2, paper in enumerate(second_top_citations + second_top_references, 1):
+                second_id = paper.get('paperId')
+                if second_id and second_id not in paper_ids:
+                    # 确定节点类型
+                    parent_type = "citation" if paper in second_citations else "reference"
+                    first_layer_type = "citation" if first_layer_id in [p.get('paperId') for p in top_citations] else "reference"
+                    
+                    # 根据父节点类型和一级节点类型确定二级节点类型
+                    node_type = f"{parent_type}_to_{first_layer_type}"
+                    
+                    logger.info(f"添加第二层论文 {idx2}/{len(second_top_citations + second_top_references)}: {paper.get('title', 'Unknown')[:50]}... (类型: {node_type})")
+                    
+                    paper_ids.add(second_id)
+                    second_layer_papers.append(second_id)
+                    second_layer_info[second_id] = paper
+                    nodes.append({
+                        "id": second_id,
+                        "title": paper.get('title', 'Unknown Title'),
+                        "citations_count": safe_get_citation_count(paper),
+                        "year": paper.get('year'),
+                        "type": node_type  # 使用新的节点类型
                     })
-                    edge_set.add(edge_key)
-        
-        logger.info(f"初始节点数: {len(nodes)}, 初始边数: {len(edges)}")
-        
-        # 7. 遍历论文获取它们之间的引用关系
-        logger.info("开始获取论文间的引用关系...")
-        processed_count = 0
-        
-        for source_paper in top_citations + top_references:
-            if await request.is_disconnected():
-                logger.info("Client disconnected during paper processing")
-                return None
-                
-            source_id = source_paper.get('paperId')
-            if not source_id:
-                continue
-                
-            try:
-                logger.info(f"处理论文 {processed_count + 1}/10: {source_id}")
-                
-                paper_citations = await get_paper_citations(source_id)
-                logger.info(f"获取到引用数: {len(paper_citations) if isinstance(paper_citations, list) else 0}")
+                    # 根据关系类型添加边
+                    if paper in second_citations:
+                        edges.append({
+                            "source": second_id,
+                            "target": first_layer_id,
+                            "type": "citation"
+                        })
+                    else:
+                        edges.append({
+                            "source": first_layer_id,
+                            "target": second_id,
+                            "type": "reference"
+                        })
 
+        # 7. 获取第二层节点之间的引用关系
+        logger.info("\n====== 处理第二层论文之间的引用关系 ======")
+        total_second_layer = len(second_layer_papers)
+        processed = 0
+        
+        for i, source_id in enumerate(second_layer_papers):
+            if await request.is_disconnected(): return None
+            
+            processed += 1
+            logger.info(f"\n检查第二层论文 {processed}/{total_second_layer} 的引用关系...")
+            
+            # 获取该论文的引用和被引用信息
+            logger.info("获取引用信息...")
+            paper_citations = await get_paper_citations(source_id)
+            if await request.is_disconnected(): return None
+            
+            logger.info("获取参考文献...")
+            paper_references = await get_paper_references(source_id)
+            
+            if not isinstance(paper_citations, list): paper_citations = []
+            if not isinstance(paper_references, list): paper_references = []
+            
+            found_relations = 0
+            # 检查与其他第二层节点的引用关系
+            for target_id in second_layer_papers[i+1:]:
+                new_relations = 0
+                # 检查引用关系
+                for citation in paper_citations:
+                    if citation.get('paperId') == target_id:
+                        edges.append({
+                            "source": target_id,
+                            "target": source_id,
+                            "type": "citation"
+                        })
+                        break
                 
-                paper_references = await get_paper_references(source_id)
-                logger.info(f"获取到参考文献数: {len(paper_references) if isinstance(paper_references, list) else 0}")
+                # 检查被引用关系
+                for reference in paper_references:
+                    if reference.get('paperId') == target_id:
+                        edges.append({
+                            "source": source_id,
+                            "target": target_id,
+                            "type": "citation"
+                        })
+                        break
+                if new_relations > 0:
+                    found_relations += new_relations
+                    
+            logger.info(f"找到 {found_relations} 个新的引用关系")
 
-                
-                old_edge_count = len(edges)
-                
-                # 处理引用关系
-                if isinstance(paper_citations, list):
-                    for citation in paper_citations:
-                        citing_id = citation.get('paperId')
-                        if citing_id in paper_ids:  # 只添加选中论文之间的引用关系
-                            edge_key = f"{citing_id}->{source_id}"
-                            if edge_key not in edge_set:
-                                edges.append({
-                                    "source": citing_id,
-                                    "target": source_id,
-                                    "type": "citation"
-                                })
-                                edge_set.add(edge_key)
-                
-                # 处理参考文献
-                if isinstance(paper_references, list):
-                    for reference in paper_references:
-                        ref_id = reference.get('paperId')
-                        if ref_id in paper_ids:  # 只添加选中论文之间的引用关系
-                            edge_key = f"{source_id}->{ref_id}"
-                            if edge_key not in edge_set:
-                                edges.append({
-                                    "source": source_id,
-                                    "target": ref_id,
-                                    "type": "reference"
-                                })
-                                edge_set.add(edge_key)
-                                
-                logger.info(f"新增边数: {len(edges) - old_edge_count}")
-                processed_count += 1
-                
-            except Exception as e:
-                logger.error(f"处理论文 {source_id} 失败: {str(e)}")
-                continue
+        logger.info("\n====== 处理完成 ======")
+        logger.info(f"最终节点数: {len(nodes)}")
+        logger.info(f"最终边数: {len(edges)}")
         
-        logger.info(f"处理完成。最终节点数: {len(nodes)}, 最终边数: {len(edges)}")
-        
-        result = {
+        return {
             "nodes": nodes,
             "edges": edges
         }
-        logger.info(f"成功返回子网络数据，状态码: 200")
-        return result
         
     except Exception as e:
         logger.error(f"获取论文 {paper_id} 的子网络失败: {str(e)}")
-        raise HTTPException(
-            status_code=500, 
-            detail=f"获取子网络失败: {str(e)}"
-        ) 
+        raise HTTPException(status_code=500, detail=f"获取子网络失败: {str(e)}") 

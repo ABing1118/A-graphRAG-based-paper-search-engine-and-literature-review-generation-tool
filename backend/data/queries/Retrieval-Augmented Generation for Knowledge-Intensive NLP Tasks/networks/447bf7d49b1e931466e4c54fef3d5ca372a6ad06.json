@@ -1,0 +1,916 @@
+{
+  "citations": [
+    {
+      "paperId": "c046a548f94ff1e6560eae8b9e1e99c1223d0e89",
+      "title": "EvoWiki: Evaluating LLMs on Evolving Knowledge",
+      "year": 2024,
+      "citationCount": 0,
+      "authors": [
+        {
+          "authorId": "2308631156",
+          "name": "Wei Tang"
+        },
+        {
+          "authorId": "2275189609",
+          "name": "Yixin Cao"
+        },
+        {
+          "authorId": "2336018530",
+          "name": "Yang Deng"
+        },
+        {
+          "authorId": "2249532957",
+          "name": "Jiahao Ying"
+        },
+        {
+          "authorId": "2284736724",
+          "name": "Bo Wang"
+        },
+        {
+          "authorId": "2284729613",
+          "name": "Yizhe Yang"
+        },
+        {
+          "authorId": "2109814746",
+          "name": "Yuyue Zhao"
+        },
+        {
+          "authorId": "2336962476",
+          "name": "Qi Zhang"
+        },
+        {
+          "authorId": "2284750473",
+          "name": "Xuanjing Huang"
+        },
+        {
+          "authorId": "2336013998",
+          "name": "Yugang Jiang"
+        },
+        {
+          "authorId": "2336723210",
+          "name": "Yong Liao"
+        }
+      ]
+    }
+  ],
+  "references": [
+    {
+      "paperId": "a2ce9963f1f072d578b1a1f1b995fec75e8c2247",
+      "title": "PromptRobust: Towards Evaluating the Robustness of Large Language Models on Adversarial Prompts",
+      "year": 2023,
+      "citationCount": 127,
+      "authors": [
+        {
+          "authorId": "2543684",
+          "name": "Kaijie Zhu"
+        },
+        {
+          "authorId": "1519290245",
+          "name": "Jindong Wang"
+        },
+        {
+          "authorId": "2253899818",
+          "name": "Jiaheng Zhou"
+        },
+        {
+          "authorId": null,
+          "name": "Zichen Wang"
+        },
+        {
+          "authorId": "2051536212",
+          "name": "Hao Chen"
+        },
+        {
+          "authorId": "2108024279",
+          "name": "Yidong Wang"
+        },
+        {
+          "authorId": "2145500840",
+          "name": "Linyi Yang"
+        },
+        {
+          "authorId": "2147205193",
+          "name": "Weirong Ye"
+        },
+        {
+          "authorId": "144516687",
+          "name": "N. Gong"
+        },
+        {
+          "authorId": "2211964951",
+          "name": "Yue Zhang"
+        },
+        {
+          "authorId": "1576441343",
+          "name": "Xingxu Xie"
+        }
+      ]
+    },
+    {
+      "paperId": "10f829a80a7ee0cdb16307f04e206133d75f81da",
+      "title": "Adaptive Chameleon or Stubborn Sloth: Revealing the Behavior of Large Language Models in Knowledge Conflicts",
+      "year": 2023,
+      "citationCount": 116,
+      "authors": [
+        {
+          "authorId": "2153624353",
+          "name": "Jian Xie"
+        },
+        {
+          "authorId": "145086492",
+          "name": "Kai Zhang"
+        },
+        {
+          "authorId": "5040052",
+          "name": "Jiangjie Chen"
+        },
+        {
+          "authorId": "2118614649",
+          "name": "Renze Lou"
+        },
+        {
+          "authorId": "1758652",
+          "name": "Yu Su"
+        }
+      ]
+    },
+    {
+      "paperId": "7dc928f41e15f65f1267bd87b0fcfcc7e715cb56",
+      "title": "Language Models Don't Always Say What They Think: Unfaithful Explanations in Chain-of-Thought Prompting",
+      "year": 2023,
+      "citationCount": 301,
+      "authors": [
+        {
+          "authorId": "144196816",
+          "name": "Miles Turpin"
+        },
+        {
+          "authorId": "38614754",
+          "name": "Julian Michael"
+        },
+        {
+          "authorId": "3439053",
+          "name": "Ethan Perez"
+        },
+        {
+          "authorId": "1799822",
+          "name": "Sam Bowman"
+        }
+      ]
+    },
+    {
+      "paperId": "5a91a012dc51db03d6eb3698d2e1c5b00115835f",
+      "title": "Dr ChatGPT, tell me what I want to hear: How prompt knowledge impacts health answer correctness",
+      "year": 2023,
+      "citationCount": 42,
+      "authors": [
+        {
+          "authorId": "1692855",
+          "name": "G. Zuccon"
+        },
+        {
+          "authorId": "1783566",
+          "name": "B. Koopman"
+        }
+      ]
+    },
+    {
+      "paperId": "5c7353fac22a8fdc43fc2f5c006b5d6902c47e75",
+      "title": "On the Robustness of ChatGPT: An Adversarial and Out-of-distribution Perspective",
+      "year": 2023,
+      "citationCount": 201,
+      "authors": [
+        {
+          "authorId": "1519290245",
+          "name": "Jindong Wang"
+        },
+        {
+          "authorId": "2186046594",
+          "name": "Xixu Hu"
+        },
+        {
+          "authorId": "32216189",
+          "name": "Wenxin Hou"
+        },
+        {
+          "authorId": "2051536212",
+          "name": "Hao Chen"
+        },
+        {
+          "authorId": "2008039497",
+          "name": "Runkai Zheng"
+        },
+        {
+          "authorId": "2108024279",
+          "name": "Yidong Wang"
+        },
+        {
+          "authorId": "2145500840",
+          "name": "Linyi Yang"
+        },
+        {
+          "authorId": null,
+          "name": "Haojun Huang"
+        },
+        {
+          "authorId": "2147205193",
+          "name": "Weirong Ye"
+        },
+        {
+          "authorId": "2442662",
+          "name": "Xiubo Geng"
+        },
+        {
+          "authorId": "24128606",
+          "name": "Binxing Jiao"
+        },
+        {
+          "authorId": "2211964951",
+          "name": "Yue Zhang"
+        },
+        {
+          "authorId": "1576441343",
+          "name": "Xingxu Xie"
+        }
+      ]
+    },
+    {
+      "paperId": "3d68522abfadfc8ee6b7ec9edaaf91f1b2f38e5e",
+      "title": "Large Language Models Can Be Easily Distracted by Irrelevant Context",
+      "year": 2023,
+      "citationCount": 431,
+      "authors": [
+        {
+          "authorId": "8815141",
+          "name": "Freda Shi"
+        },
+        {
+          "authorId": "1425082935",
+          "name": "Xinyun Chen"
+        },
+        {
+          "authorId": "145274478",
+          "name": "Kanishka Misra"
+        },
+        {
+          "authorId": "1471909492",
+          "name": "Nathan Scales"
+        },
+        {
+          "authorId": "35363891",
+          "name": "David Dohan"
+        },
+        {
+          "authorId": "2226805",
+          "name": "Ed H. Chi"
+        },
+        {
+          "authorId": "1821614764",
+          "name": "Nathanael Scharli"
+        },
+        {
+          "authorId": "65855107",
+          "name": "Denny Zhou"
+        }
+      ]
+    },
+    {
+      "paperId": "1c91b23d78944f7f237cb512029c2165972ae9d5",
+      "title": "On Robustness of Prompt-based Semantic Parsing with Large Pre-trained Language Model: An Empirical Study on Codex",
+      "year": 2023,
+      "citationCount": 45,
+      "authors": [
+        {
+          "authorId": "2080123731",
+          "name": "Terry Yue Zhuo"
+        },
+        {
+          "authorId": "49969771",
+          "name": "Zhuang Li"
+        },
+        {
+          "authorId": "2108733121",
+          "name": "Yujin Huang"
+        },
+        {
+          "authorId": "152244300",
+          "name": "Yuan-Fang Li"
+        },
+        {
+          "authorId": "2154869314",
+          "name": "Weiqing Wang"
+        },
+        {
+          "authorId": "2561045",
+          "name": "Gholamreza Haffari"
+        },
+        {
+          "authorId": "49994056",
+          "name": "Fatemeh Shiri"
+        }
+      ]
+    },
+    {
+      "paperId": "5b70e69b65b29d231d37bea354b25c05daec07e2",
+      "title": "Rich Knowledge Sources Bring Complex Knowledge Conflicts: Recalibrating Models to Reflect Conflicting Evidence",
+      "year": 2022,
+      "citationCount": 75,
+      "authors": [
+        {
+          "authorId": "2108262500",
+          "name": "Hung-Ting Chen"
+        },
+        {
+          "authorId": "2129403254",
+          "name": "Michael J.Q. Zhang"
+        },
+        {
+          "authorId": "2890423",
+          "name": "Eunsol Choi"
+        }
+      ]
+    },
+    {
+      "paperId": "c8d594f09413b1555970f43e68847c211235d60f",
+      "title": "Prompting GPT-3 To Be Reliable",
+      "year": 2022,
+      "citationCount": 246,
+      "authors": [
+        {
+          "authorId": "152358188",
+          "name": "Chenglei Si"
+        },
+        {
+          "authorId": "144702900",
+          "name": "Zhe Gan"
+        },
+        {
+          "authorId": "2149231840",
+          "name": "Zhengyuan Yang"
+        },
+        {
+          "authorId": "2992833",
+          "name": "Shuohang Wang"
+        },
+        {
+          "authorId": "2124948371",
+          "name": "Jianfeng Wang"
+        },
+        {
+          "authorId": "1389036863",
+          "name": "Jordan L. Boyd-Graber"
+        },
+        {
+          "authorId": "29957038",
+          "name": "Lijuan Wang"
+        }
+      ]
+    },
+    {
+      "paperId": "f9b16559282e5bea0bb072f9e260a4f0af697f4a",
+      "title": "Co-Writing Screenplays and Theatre Scripts with Language Models: Evaluation by Industry Professionals",
+      "year": 2022,
+      "citationCount": 193,
+      "authors": [
+        {
+          "authorId": "144705062",
+          "name": "Piotr Wojciech Mirowski"
+        },
+        {
+          "authorId": "2034344309",
+          "name": "K. Mathewson"
+        },
+        {
+          "authorId": "2053696095",
+          "name": "Jaylen Pittman"
+        },
+        {
+          "authorId": "2186406258",
+          "name": "Richard Evans"
+        }
+      ]
+    },
+    {
+      "paperId": "f9b94bcaf706892904c058c37d0087628f371df4",
+      "title": "e-CARE: a New Dataset for Exploring Explainable Causal Reasoning",
+      "year": 2022,
+      "citationCount": 47,
+      "authors": [
+        {
+          "authorId": "49134163",
+          "name": "LI DU"
+        },
+        {
+          "authorId": "2117434160",
+          "name": "Xiao Ding"
+        },
+        {
+          "authorId": "2121278449",
+          "name": "Kai Xiong"
+        },
+        {
+          "authorId": "2140034231",
+          "name": "Ting Liu"
+        },
+        {
+          "authorId": "152277111",
+          "name": "Bing Qin"
+        }
+      ]
+    },
+    {
+      "paperId": "2f3efe44083af91cef562c1a3451eee2f8601d22",
+      "title": "WebGPT: Browser-assisted question-answering with human feedback",
+      "year": 2021,
+      "citationCount": 1048,
+      "authors": [
+        {
+          "authorId": "7406311",
+          "name": "Reiichiro Nakano"
+        },
+        {
+          "authorId": "2052366271",
+          "name": "Jacob Hilton"
+        },
+        {
+          "authorId": "2054519183",
+          "name": "S. Balaji"
+        },
+        {
+          "authorId": "49387725",
+          "name": "Jeff Wu"
+        },
+        {
+          "authorId": "2228518120",
+          "name": "Ouyang Long"
+        },
+        {
+          "authorId": "2149054292",
+          "name": "Christina Kim"
+        },
+        {
+          "authorId": "144239765",
+          "name": "Christopher Hesse"
+        },
+        {
+          "authorId": "150298413",
+          "name": "Shantanu Jain"
+        },
+        {
+          "authorId": "13622184",
+          "name": "Vineet Kosaraju"
+        },
+        {
+          "authorId": "2058848938",
+          "name": "W. Saunders"
+        },
+        {
+          "authorId": "2115903168",
+          "name": "Xu Jiang"
+        },
+        {
+          "authorId": "6062736",
+          "name": "K. Cobbe"
+        },
+        {
+          "authorId": "2146257131",
+          "name": "Tyna Eloundou"
+        },
+        {
+          "authorId": "2064404342",
+          "name": "Gretchen Krueger"
+        },
+        {
+          "authorId": "2146257251",
+          "name": "Kevin Button"
+        },
+        {
+          "authorId": "2146257375",
+          "name": "Matthew Knight"
+        },
+        {
+          "authorId": "1490681878",
+          "name": "B. Chess"
+        },
+        {
+          "authorId": "47971768",
+          "name": "John Schulman"
+        }
+      ]
+    },
+    {
+      "paperId": "238deab37e201c57505a4a47bb854e462af79bd7",
+      "title": "Entity-Based Knowledge Conflicts in Question Answering",
+      "year": 2021,
+      "citationCount": 207,
+      "authors": [
+        {
+          "authorId": "29909347",
+          "name": "S. Longpre"
+        },
+        {
+          "authorId": "67322972",
+          "name": "Kartik Perisetla"
+        },
+        {
+          "authorId": "52151521",
+          "name": "Anthony Chen"
+        },
+        {
+          "authorId": "39681096",
+          "name": "Nikhil Ramesh"
+        },
+        {
+          "authorId": "2126499571",
+          "name": "Chris DuBois"
+        },
+        {
+          "authorId": "34650964",
+          "name": "Sameer Singh"
+        }
+      ]
+    },
+    {
+      "paperId": "cbdb45fc16b0885905b91d84281c310e6cb49e9c",
+      "title": "Cross-Task Generalization via Natural Language Crowdsourcing Instructions",
+      "year": 2021,
+      "citationCount": 661,
+      "authors": [
+        {
+          "authorId": "1817207",
+          "name": "Swaroop Mishra"
+        },
+        {
+          "authorId": "1783281",
+          "name": "Daniel Khashabi"
+        },
+        {
+          "authorId": "2064619864",
+          "name": "Chitta Baral"
+        },
+        {
+          "authorId": "2548384",
+          "name": "Hannaneh Hajishirzi"
+        }
+      ]
+    },
+    {
+      "paperId": "56fa0b9cba4d9aee5ccc327365b3b3a721031c69",
+      "title": "Calibrate Before Use: Improving Few-Shot Performance of Language Models",
+      "year": 2021,
+      "citationCount": 1229,
+      "authors": [
+        {
+          "authorId": "145914976",
+          "name": "Tony Zhao"
+        },
+        {
+          "authorId": "145217343",
+          "name": "Eric Wallace"
+        },
+        {
+          "authorId": "2113511266",
+          "name": "Shi Feng"
+        },
+        {
+          "authorId": "38666915",
+          "name": "D. Klein"
+        },
+        {
+          "authorId": "34650964",
+          "name": "Sameer Singh"
+        }
+      ]
+    },
+    {
+      "paperId": "ac3cdb50606f7770eef8e4cd951840a4f71287a0",
+      "title": "Prompt Programming for Large Language Models: Beyond the Few-Shot Paradigm",
+      "year": 2021,
+      "citationCount": 743,
+      "authors": [
+        {
+          "authorId": "2049583158",
+          "name": "Laria Reynolds"
+        },
+        {
+          "authorId": "2049410219",
+          "name": "Kyle McDonell"
+        }
+      ]
+    },
+    {
+      "paperId": "85e7d63f75c0916bd350a229e040c5fbb1472e7a",
+      "title": "Making Pre-trained Language Models Better Few-shot Learners",
+      "year": 2021,
+      "citationCount": 1791,
+      "authors": [
+        {
+          "authorId": "4800645",
+          "name": "Tianyu Gao"
+        },
+        {
+          "authorId": "2064150446",
+          "name": "Adam Fisch"
+        },
+        {
+          "authorId": "50536468",
+          "name": "Danqi Chen"
+        }
+      ]
+    },
+    {
+      "paperId": "f30444fbb6ad806168e2564db4815cd27faa7fd9",
+      "title": "It’s Not Just Size That Matters: Small Language Models Are Also Few-Shot Learners",
+      "year": 2020,
+      "citationCount": 909,
+      "authors": [
+        {
+          "authorId": "32246932",
+          "name": "Timo Schick"
+        },
+        {
+          "authorId": "144418438",
+          "name": "Hinrich Schütze"
+        }
+      ]
+    },
+    {
+      "paperId": "4d1c856275744c0284312a3a50efb6ca9dc4cd4c",
+      "title": "Know What You Don’t Know: Unanswerable Questions for SQuAD",
+      "year": 2018,
+      "citationCount": 2641,
+      "authors": [
+        {
+          "authorId": "2706258",
+          "name": "Pranav Rajpurkar"
+        },
+        {
+          "authorId": "3422908",
+          "name": "Robin Jia"
+        },
+        {
+          "authorId": "145419642",
+          "name": "Percy Liang"
+        }
+      ]
+    },
+    {
+      "paperId": "b663e16f3b466278c0ee24f1780935755c6dd436",
+      "title": "Deceiving Google's Perspective API Built for Detecting Toxic Comments",
+      "year": 2017,
+      "citationCount": 314,
+      "authors": [
+        {
+          "authorId": "144909180",
+          "name": "Hossein Hosseini"
+        },
+        {
+          "authorId": "2314388218",
+          "name": "Sreeram Kannan"
+        },
+        {
+          "authorId": "7504388",
+          "name": "Baosen Zhang"
+        },
+        {
+          "authorId": "144786412",
+          "name": "R. Poovendran"
+        }
+      ]
+    },
+    {
+      "paperId": "d891dc72cbd40ffaeefdc79f2e7afe1e530a23ad",
+      "title": "Intriguing properties of neural networks",
+      "year": 2013,
+      "citationCount": 14232,
+      "authors": [
+        {
+          "authorId": "2574060",
+          "name": "Christian Szegedy"
+        },
+        {
+          "authorId": "2563432",
+          "name": "Wojciech Zaremba"
+        },
+        {
+          "authorId": "1701686",
+          "name": "I. Sutskever"
+        },
+        {
+          "authorId": "143627859",
+          "name": "Joan Bruna"
+        },
+        {
+          "authorId": "1761978",
+          "name": "D. Erhan"
+        },
+        {
+          "authorId": "153440022",
+          "name": "I. Goodfellow"
+        },
+        {
+          "authorId": "2276554",
+          "name": "R. Fergus"
+        }
+      ]
+    },
+    {
+      "paperId": "a9cd386c4bb21d232e94518a0118f9c2caffba19",
+      "title": "Know what you don't know",
+      "year": 2012,
+      "citationCount": 24,
+      "authors": [
+        {
+          "authorId": "73750734",
+          "name": "Charles Pauka"
+        }
+      ]
+    },
+    {
+      "paperId": "e0133a658e6792f03e4186edb769df96ba8db1e3",
+      "title": "Decision-making styles and problem-solving appraisal.",
+      "year": 1984,
+      "citationCount": 124,
+      "authors": [
+        {
+          "authorId": "40302604",
+          "name": "S. Phillips"
+        },
+        {
+          "authorId": "113410265",
+          "name": "Nicholas J. Pazienza"
+        },
+        {
+          "authorId": "116601650",
+          "name": "H. Ferrin"
+        }
+      ]
+    },
+    {
+      "paperId": "da1598b07efe442b4ad984131cc5357ef7ed5102",
+      "title": "A Model of Career Decision Making for College Students.",
+      "year": 1979,
+      "citationCount": 699,
+      "authors": [
+        {
+          "authorId": "113067615",
+          "name": "Vincent A. Harren"
+        }
+      ]
+    },
+    {
+      "paperId": "f3a41a5bfec0d8ccb597d9313416130a2e0b2459",
+      "title": "PromptBench: Towards Evaluating the Robustness of Large Language Models on Adversarial Prompts",
+      "year": 2023,
+      "citationCount": 103,
+      "authors": [
+        {
+          "authorId": "2313725635",
+          "name": "Kaijie Zhu"
+        },
+        {
+          "authorId": "2273553706",
+          "name": "Jindong Wang"
+        },
+        {
+          "authorId": "2253899818",
+          "name": "Jiaheng Zhou"
+        },
+        {
+          "authorId": "2313354523",
+          "name": "Zichen Wang"
+        },
+        {
+          "authorId": "2261741520",
+          "name": "Hao Chen"
+        },
+        {
+          "authorId": "2108024279",
+          "name": "Yidong Wang"
+        },
+        {
+          "authorId": "2292413132",
+          "name": "Linyi Yang"
+        },
+        {
+          "authorId": "2147205193",
+          "name": "Weirong Ye"
+        },
+        {
+          "authorId": "2249536787",
+          "name": "Neil Zhenqiang Gong"
+        },
+        {
+          "authorId": "2250437942",
+          "name": "Yue Zhang"
+        },
+        {
+          "authorId": "2249681654",
+          "name": "Xing Xie"
+        }
+      ]
+    },
+    {
+      "paperId": "d9e0b07313a04b033a9f2dcc74c41b2bed8c3614",
+      "title": "Explanations for CommonsenseQA: New Dataset and Models",
+      "year": 2021,
+      "citationCount": 124,
+      "authors": [
+        {
+          "authorId": "1740948454",
+          "name": "Shourya Aggarwal"
+        },
+        {
+          "authorId": "2121293961",
+          "name": "Divyanshu Mandowara"
+        },
+        {
+          "authorId": "1942646156",
+          "name": "Vishwajeet Agrawal"
+        },
+        {
+          "authorId": "50564082",
+          "name": "Dinesh Khandelwal"
+        },
+        {
+          "authorId": "35108153",
+          "name": "Parag Singla"
+        },
+        {
+          "authorId": "50252087",
+          "name": "Dinesh Garg"
+        }
+      ]
+    },
+    {
+      "paperId": null,
+      "title": "Autoprompt: Eliciting knowledge from language models with automatically generated prompts",
+      "year": 2020,
+      "citationCount": null,
+      "authors": []
+    },
+    {
+      "paperId": null,
+      "title": "2022. The inverse scaling prize",
+      "year": null,
+      "citationCount": null,
+      "authors": []
+    },
+    {
+      "paperId": null,
+      "title": "Help me to answer the question, and return one choice as your answer",
+      "year": null,
+      "citationCount": null,
+      "authors": []
+    },
+    {
+      "paperId": null,
+      "title": "Scialom",
+      "year": null,
+      "citationCount": null,
+      "authors": []
+    },
+    {
+      "paperId": null,
+      "title": "Long Papers",
+      "year": null,
+      "citationCount": null,
+      "authors": []
+    },
+    {
+      "paperId": null,
+      "title": "Goodfellow",
+      "year": null,
+      "citationCount": null,
+      "authors": []
+    },
+    {
+      "paperId": null,
+      "title": "Question: What war in Ireland featured Huguenot regiments? A: Jacobite War. B: Easter Rising C: Williamite war D: Irish War of Independence",
+      "year": null,
+      "citationCount": null,
+      "authors": []
+    },
+    {
+      "paperId": null,
+      "title": "2022. Musique: Multi-hop questions via single-hop question composition",
+      "year": null,
+      "citationCount": null,
+      "authors": []
+    },
+    {
+      "paperId": null,
+      "title": "2023. Progressive-hint prompting improves reasoning in large language models",
+      "year": null,
+      "citationCount": null,
+      "authors": []
+    },
+    {
+      "paperId": null,
+      "title": "2023. Pre-train, prompt, and predict: A systematic survey of prompting methods in natural language processing",
+      "year": null,
+      "citationCount": null,
+      "authors": []
+    }
+  ]
+}

@@ -1,0 +1,949 @@
+{
+  "citations": [
+    {
+      "paperId": "1236a748381656b262447b0e96c845c3875b6bc4",
+      "title": "GEC-RAG: Improving Generative Error Correction via Retrieval-Augmented Generation for Automatic Speech Recognition Systems",
+      "year": 2025,
+      "citationCount": 0,
+      "authors": [
+        {
+          "authorId": "2341334971",
+          "name": "Amin Robatian"
+        },
+        {
+          "authorId": "2304545588",
+          "name": "Mohammadjavad Hajipour"
+        },
+        {
+          "authorId": "2341328685",
+          "name": "Mohammad Reza Peyghan"
+        },
+        {
+          "authorId": "2341322957",
+          "name": "Fatemeh Rajabi"
+        },
+        {
+          "authorId": "2140133",
+          "name": "Sajjad Amini"
+        },
+        {
+          "authorId": "145988166",
+          "name": "S. Ghaemmaghami"
+        },
+        {
+          "authorId": "2341335459",
+          "name": "Iman Gholampour"
+        }
+      ]
+    }
+  ],
+  "references": [
+    {
+      "paperId": "59d69a8005a7474d55091bf384be8a9c9c339bdb",
+      "title": "Transformer-based Model for ASR N-Best Rescoring and Rewriting",
+      "year": 2024,
+      "citationCount": 2,
+      "authors": [
+        {
+          "authorId": "2305820083",
+          "name": "Iwen E. Kang"
+        },
+        {
+          "authorId": "47069522",
+          "name": "Christophe Van Gysel"
+        },
+        {
+          "authorId": "2305826235",
+          "name": "Man-Hung Siu"
+        }
+      ]
+    },
+    {
+      "paperId": "4836552444124ac88c24323497993090a853b0d4",
+      "title": "Denoising LM: Pushing the Limits of Error Correction Models for Speech Recognition",
+      "year": 2024,
+      "citationCount": 2,
+      "authors": [
+        {
+          "authorId": "2038089137",
+          "name": "Zijin Gu"
+        },
+        {
+          "authorId": "2256707284",
+          "name": "Tatiana Likhomanenko"
+        },
+        {
+          "authorId": "37374479",
+          "name": "Richard He Bai"
+        },
+        {
+          "authorId": "2303254408",
+          "name": "Erik McDermott"
+        },
+        {
+          "authorId": "2939803",
+          "name": "R. Collobert"
+        },
+        {
+          "authorId": "3111912",
+          "name": "N. Jaitly"
+        }
+      ]
+    },
+    {
+      "paperId": "c4db4cfe084d0ab44955088e7e75f0704bd90c6c",
+      "title": "Retrieval Augmented End-to-End Spoken Dialog Models",
+      "year": 2024,
+      "citationCount": 9,
+      "authors": [
+        {
+          "authorId": "2316671524",
+          "name": "Mingqiu Wang"
+        },
+        {
+          "authorId": "1697494",
+          "name": "Izhak Shafran"
+        },
+        {
+          "authorId": "38940652",
+          "name": "H. Soltau"
+        },
+        {
+          "authorId": "2264081388",
+          "name": "Wei Han"
+        },
+        {
+          "authorId": "145144022",
+          "name": "Yuan Cao"
+        },
+        {
+          "authorId": "2256337021",
+          "name": "Dian Yu"
+        },
+        {
+          "authorId": "2121764",
+          "name": "Laurent El Shafey"
+        }
+      ]
+    },
+    {
+      "paperId": "63b2376f025dcc3432bfc7f08525f0e55f31a922",
+      "title": "Knowledge Prompt for Whisper: An ASR Entity Correction Approach with Knowledge Base",
+      "year": 2023,
+      "citationCount": 2,
+      "authors": [
+        {
+          "authorId": "2258690223",
+          "name": "Min Zhang"
+        },
+        {
+          "authorId": "2165227179",
+          "name": "Xiaosong Qiao"
+        },
+        {
+          "authorId": "2132737",
+          "name": "Yanqing Zhao"
+        },
+        {
+          "authorId": "2152082190",
+          "name": "Chang Su"
+        },
+        {
+          "authorId": "2194427215",
+          "name": "Yinglu Li"
+        },
+        {
+          "authorId": "2243955116",
+          "name": "Yuang Li"
+        },
+        {
+          "authorId": "2257227579",
+          "name": "Ming Zhu"
+        },
+        {
+          "authorId": "2242967066",
+          "name": "Mengyao Piao"
+        },
+        {
+          "authorId": "2072714333",
+          "name": "Song Peng"
+        },
+        {
+          "authorId": "1978838820",
+          "name": "Shimin Tao"
+        },
+        {
+          "authorId": "2257352836",
+          "name": "Hao Yang"
+        },
+        {
+          "authorId": "2203256236",
+          "name": "Yanfei Jiang"
+        }
+      ]
+    },
+    {
+      "paperId": "c8c5363825c76911fd3c864f639edd19f37eb071",
+      "title": "Personalization of CTC-Based End-to-End Speech Recognition Using Pronunciation-Driven Subword Tokenization",
+      "year": 2023,
+      "citationCount": 7,
+      "authors": [
+        {
+          "authorId": "2257039051",
+          "name": "Zhihong Lei"
+        },
+        {
+          "authorId": "3093199",
+          "name": "Ernest Pusateri"
+        },
+        {
+          "authorId": "2176923703",
+          "name": "Shiyi Han"
+        },
+        {
+          "authorId": "2257435501",
+          "name": "Leo Liu"
+        },
+        {
+          "authorId": "2257034772",
+          "name": "Mingbin Xu"
+        },
+        {
+          "authorId": "2257036127",
+          "name": "Tim Ng"
+        },
+        {
+          "authorId": "1721283",
+          "name": "R. Travadi"
+        },
+        {
+          "authorId": "2258751225",
+          "name": "Youyuan Zhang"
+        },
+        {
+          "authorId": "2257034367",
+          "name": "Mirko Hannemann"
+        },
+        {
+          "authorId": "2257034889",
+          "name": "Man-Hung Siu"
+        },
+        {
+          "authorId": "2257117412",
+          "name": "Zhen Huang"
+        }
+      ]
+    },
+    {
+      "paperId": "ee5c1d2cefb1475f623b2771e0196335aac1c141",
+      "title": "Acoustic Model Fusion For End-to-End Speech Recognition",
+      "year": 2023,
+      "citationCount": 5,
+      "authors": [
+        {
+          "authorId": "2257039051",
+          "name": "Zhihong Lei"
+        },
+        {
+          "authorId": "2257034772",
+          "name": "Mingbin Xu"
+        },
+        {
+          "authorId": "2176923703",
+          "name": "Shiyi Han"
+        },
+        {
+          "authorId": "2257435501",
+          "name": "Leo Liu"
+        },
+        {
+          "authorId": "2257117412",
+          "name": "Zhen Huang"
+        },
+        {
+          "authorId": "2257036127",
+          "name": "Tim Ng"
+        },
+        {
+          "authorId": "2258545722",
+          "name": "Yuanyuan Zhang"
+        },
+        {
+          "authorId": "3093199",
+          "name": "Ernest Pusateri"
+        },
+        {
+          "authorId": "2257034367",
+          "name": "Mirko Hannemann"
+        },
+        {
+          "authorId": "2176911962",
+          "name": "Yaqiao Deng"
+        },
+        {
+          "authorId": "2257034889",
+          "name": "Man-Hung Siu"
+        }
+      ]
+    },
+    {
+      "paperId": "f52ea31e37c45e0de7ab4a5324d4d970479c110a",
+      "title": "Can Generative Large Language Models Perform ASR Error Correction?",
+      "year": 2023,
+      "citationCount": 38,
+      "authors": [
+        {
+          "authorId": "50397234",
+          "name": "Rao Ma"
+        },
+        {
+          "authorId": "10769548",
+          "name": "Mengjie Qian"
+        },
+        {
+          "authorId": "89355510",
+          "name": "Potsawee Manakul"
+        },
+        {
+          "authorId": "1740397",
+          "name": "M. Gales"
+        },
+        {
+          "authorId": "145962472",
+          "name": "K. Knill"
+        }
+      ]
+    },
+    {
+      "paperId": "b204ae2dbc67a1f736fe028b3fe3d58adb7d990a",
+      "title": "Modeling Spoken Information Queries for Virtual Assistants: Open Problems, Challenges and Opportunities",
+      "year": 2023,
+      "citationCount": 4,
+      "authors": [
+        {
+          "authorId": "2268779050",
+          "name": "Christophe Van Gysel"
+        }
+      ]
+    },
+    {
+      "paperId": "e25f6a60211aa74ecfde8001a5939ff206102de4",
+      "title": "End-to-End Speech Recognition: A Survey",
+      "year": 2023,
+      "citationCount": 127,
+      "authors": [
+        {
+          "authorId": "2557391",
+          "name": "Rohit Prabhavalkar"
+        },
+        {
+          "authorId": "145443186",
+          "name": "Takaaki Hori"
+        },
+        {
+          "authorId": "1784851",
+          "name": "Tara N. Sainath"
+        },
+        {
+          "authorId": "121979316",
+          "name": "R. Schluter"
+        },
+        {
+          "authorId": "1746678",
+          "name": "Shinji Watanabe"
+        }
+      ]
+    },
+    {
+      "paperId": "57e849d0de13ed5f91d086936296721d4ff75a75",
+      "title": "LLaMA: Open and Efficient Foundation Language Models",
+      "year": 2023,
+      "citationCount": 9924,
+      "authors": [
+        {
+          "authorId": "2113243762",
+          "name": "Hugo Touvron"
+        },
+        {
+          "authorId": "46183616",
+          "name": "Thibaut Lavril"
+        },
+        {
+          "authorId": "1410231361",
+          "name": "Gautier Izacard"
+        },
+        {
+          "authorId": "1490887583",
+          "name": "Xavier Martinet"
+        },
+        {
+          "authorId": "114952298",
+          "name": "M. Lachaux"
+        },
+        {
+          "authorId": "47733973",
+          "name": "Timothée Lacroix"
+        },
+        {
+          "authorId": "3361236",
+          "name": "Baptiste Rozière"
+        },
+        {
+          "authorId": "39589154",
+          "name": "Naman Goyal"
+        },
+        {
+          "authorId": "2072738644",
+          "name": "Eric Hambro"
+        },
+        {
+          "authorId": "2209986197",
+          "name": "Faisal Azhar"
+        },
+        {
+          "authorId": "2166043087",
+          "name": "Aurélien Rodriguez"
+        },
+        {
+          "authorId": "2319608",
+          "name": "Armand Joulin"
+        },
+        {
+          "authorId": "3024698",
+          "name": "Edouard Grave"
+        },
+        {
+          "authorId": "1830914",
+          "name": "Guillaume Lample"
+        }
+      ]
+    },
+    {
+      "paperId": "a33d1b24ff14a4e4559eea16387072a81d40b6be",
+      "title": "KG-ECO: Knowledge Graph Enhanced Entity Correction For Query Rewriting",
+      "year": 2023,
+      "citationCount": 7,
+      "authors": [
+        {
+          "authorId": "2115670967",
+          "name": "Jason (Jinglun) Cai"
+        },
+        {
+          "authorId": "47628976",
+          "name": "Mingda Li"
+        },
+        {
+          "authorId": "2112347577",
+          "name": "Ziyan Jiang"
+        },
+        {
+          "authorId": "4006425",
+          "name": "Eunah Cho"
+        },
+        {
+          "authorId": "2141144864",
+          "name": "Zheng Chen"
+        },
+        {
+          "authorId": "2152797245",
+          "name": "Yang Liu"
+        },
+        {
+          "authorId": "2117800368",
+          "name": "Xing Fan"
+        },
+        {
+          "authorId": "1941997",
+          "name": "Chenlei Guo"
+        }
+      ]
+    },
+    {
+      "paperId": "75f7e9e2b59fb640ef9d1dff94097175daf46c4d",
+      "title": "Large Language Models Struggle to Learn Long-Tail Knowledge",
+      "year": 2022,
+      "citationCount": 298,
+      "authors": [
+        {
+          "authorId": "1380266797",
+          "name": "Nikhil Kandpal"
+        },
+        {
+          "authorId": "2072971465",
+          "name": "H. Deng"
+        },
+        {
+          "authorId": "145625142",
+          "name": "Adam Roberts"
+        },
+        {
+          "authorId": "145217343",
+          "name": "Eric Wallace"
+        },
+        {
+          "authorId": "2402716",
+          "name": "Colin Raffel"
+        }
+      ]
+    },
+    {
+      "paperId": "916be31cbf847faa65cad0549e153f0c25b9f424",
+      "title": "Few-shot Learning with Retrieval Augmented Language Models",
+      "year": 2022,
+      "citationCount": 607,
+      "authors": [
+        {
+          "authorId": "1410231361",
+          "name": "Gautier Izacard"
+        },
+        {
+          "authorId": "145222654",
+          "name": "Patrick Lewis"
+        },
+        {
+          "authorId": "3376175",
+          "name": "M. Lomeli"
+        },
+        {
+          "authorId": "26360550",
+          "name": "Lucas Hosseini"
+        },
+        {
+          "authorId": "40052301",
+          "name": "F. Petroni"
+        },
+        {
+          "authorId": "32246932",
+          "name": "Timo Schick"
+        },
+        {
+          "authorId": "2129456957",
+          "name": "Jane A. Yu"
+        },
+        {
+          "authorId": "2319608",
+          "name": "Armand Joulin"
+        },
+        {
+          "authorId": "48662861",
+          "name": "Sebastian Riedel"
+        },
+        {
+          "authorId": "3024698",
+          "name": "Edouard Grave"
+        }
+      ]
+    },
+    {
+      "paperId": "9358952fad5a109160ea43cf09a7a821518e4be1",
+      "title": "Stop: A Dataset for Spoken Task Oriented Semantic Parsing",
+      "year": 2022,
+      "citationCount": 34,
+      "authors": [
+        {
+          "authorId": "52021958",
+          "name": "Paden Tomasello"
+        },
+        {
+          "authorId": "2057582426",
+          "name": "Po-chun Hsu"
+        },
+        {
+          "authorId": "1519979046",
+          "name": "Akshat Shrivastava"
+        },
+        {
+          "authorId": "2178345339",
+          "name": "Daniel Lazar"
+        },
+        {
+          "authorId": "145267619",
+          "name": "Duc Le"
+        },
+        {
+          "authorId": "2063995456",
+          "name": "Adithya Sagar"
+        },
+        {
+          "authorId": "35309245",
+          "name": "A. Elkahky"
+        },
+        {
+          "authorId": "1805998294",
+          "name": "Jade Copet"
+        },
+        {
+          "authorId": "2957796",
+          "name": "Wei-Ning Hsu"
+        },
+        {
+          "authorId": "2178345845",
+          "name": "Yossef Mordechay"
+        },
+        {
+          "authorId": "108040932",
+          "name": "Robin Algayres"
+        },
+        {
+          "authorId": "2116225477",
+          "name": "Tu Nguyen"
+        },
+        {
+          "authorId": "90049550",
+          "name": "Emmanuel Dupoux"
+        },
+        {
+          "authorId": "1982950",
+          "name": "Luke Zettlemoyer"
+        },
+        {
+          "authorId": "40360972",
+          "name": "Abdel-rahman Mohamed"
+        }
+      ]
+    },
+    {
+      "paperId": "6ab7125907039eaeb24090bc6d97140f1953c66a",
+      "title": "Space-Efficient Representation of Entity-centric Query Language Models",
+      "year": 2022,
+      "citationCount": 7,
+      "authors": [
+        {
+          "authorId": "47069522",
+          "name": "Christophe Van Gysel"
+        },
+        {
+          "authorId": "2592983",
+          "name": "M. Hannemann"
+        },
+        {
+          "authorId": "3093199",
+          "name": "Ernest Pusateri"
+        },
+        {
+          "authorId": "2345538",
+          "name": "Youssef Oualil"
+        },
+        {
+          "authorId": "3135839",
+          "name": "I. Oparin"
+        }
+      ]
+    },
+    {
+      "paperId": "fd84c6d7b4d7ec6b38d7d412b0d796637d3c232b",
+      "title": "WeNet 2.0: More Productive End-to-End Speech Recognition Toolkit",
+      "year": 2022,
+      "citationCount": 86,
+      "authors": [
+        {
+          "authorId": "2107885069",
+          "name": "Binbin Zhang"
+        },
+        {
+          "authorId": "2118289574",
+          "name": "Di Wu"
+        },
+        {
+          "authorId": "2106725555",
+          "name": "Zhendong Peng"
+        },
+        {
+          "authorId": "153928324",
+          "name": "Xingcheng Song"
+        },
+        {
+          "authorId": "2007667225",
+          "name": "Zhuoyuan Yao"
+        },
+        {
+          "authorId": "49408757",
+          "name": "Hang Lv"
+        },
+        {
+          "authorId": "46330520",
+          "name": "Linfu Xie"
+        },
+        {
+          "authorId": "2155848028",
+          "name": "Chao Yang"
+        },
+        {
+          "authorId": "39917736",
+          "name": "Fuping Pan"
+        },
+        {
+          "authorId": "2056283222",
+          "name": "Jianwei Niu"
+        }
+      ]
+    },
+    {
+      "paperId": "190470955a17be6bce8edad49e02e5c55c3e4165",
+      "title": "On-Device Neural Speech Synthesis",
+      "year": 2021,
+      "citationCount": 17,
+      "authors": [
+        {
+          "authorId": "39918363",
+          "name": "Sivanand Achanta"
+        },
+        {
+          "authorId": "2063937414",
+          "name": "Albert Antony"
+        },
+        {
+          "authorId": "2874124",
+          "name": "L. Golipour"
+        },
+        {
+          "authorId": "2118506446",
+          "name": "Jiangchuan Li"
+        },
+        {
+          "authorId": "1749273",
+          "name": "T. Raitio"
+        },
+        {
+          "authorId": "2853754",
+          "name": "Ramya Rasipuram"
+        },
+        {
+          "authorId": "2140388823",
+          "name": "Francesco Rossi"
+        },
+        {
+          "authorId": "2140554531",
+          "name": "Jennifer Shi"
+        },
+        {
+          "authorId": "2127470867",
+          "name": "Jaimin Upadhyay"
+        },
+        {
+          "authorId": "32081685",
+          "name": "David Winarsky"
+        },
+        {
+          "authorId": "3375739",
+          "name": "Hepeng Zhang"
+        }
+      ]
+    },
+    {
+      "paperId": "dbe87b171bfb789e1d22a047aeeee69105e6fd02",
+      "title": "Sentence-T5: Scalable Sentence Encoders from Pre-trained Text-to-Text Models",
+      "year": 2021,
+      "citationCount": 455,
+      "authors": [
+        {
+          "authorId": "2148023",
+          "name": "Jianmo Ni"
+        },
+        {
+          "authorId": "2124016663",
+          "name": "Gustavo Hernández Abrego"
+        },
+        {
+          "authorId": "40832517",
+          "name": "Noah Constant"
+        },
+        {
+          "authorId": "2109919783",
+          "name": "Ji Ma"
+        },
+        {
+          "authorId": "32580243",
+          "name": "Keith B. Hall"
+        },
+        {
+          "authorId": "46724030",
+          "name": "Daniel Matthew Cer"
+        },
+        {
+          "authorId": "2118771180",
+          "name": "Yinfei Yang"
+        }
+      ]
+    },
+    {
+      "paperId": "a8ca46b171467ceb2d7652fbfb67fe701ad86092",
+      "title": "LoRA: Low-Rank Adaptation of Large Language Models",
+      "year": 2021,
+      "citationCount": 7366,
+      "authors": [
+        {
+          "authorId": "2157840220",
+          "name": "J. E. Hu"
+        },
+        {
+          "authorId": "1752875",
+          "name": "Yelong Shen"
+        },
+        {
+          "authorId": "104100507",
+          "name": "Phillip Wallis"
+        },
+        {
+          "authorId": "1388725932",
+          "name": "Zeyuan Allen-Zhu"
+        },
+        {
+          "authorId": "2110486765",
+          "name": "Yuanzhi Li"
+        },
+        {
+          "authorId": "2135571585",
+          "name": "Shean Wang"
+        },
+        {
+          "authorId": "2109136147",
+          "name": "Weizhu Chen"
+        }
+      ]
+    },
+    {
+      "paperId": "785ddc45a06926f30e08f986615569b949fb121e",
+      "title": "ASR Error Correction with Augmented Transformer for Entity Retrieval",
+      "year": 2020,
+      "citationCount": 43,
+      "authors": [
+        {
+          "authorId": "48016687",
+          "name": "Haoyu Wang"
+        },
+        {
+          "authorId": "50549275",
+          "name": "Shuyan Dong"
+        },
+        {
+          "authorId": "100576986",
+          "name": "Yue Liu"
+        },
+        {
+          "authorId": "2068144950",
+          "name": "James Logan"
+        },
+        {
+          "authorId": "2075308048",
+          "name": "A. Agrawal"
+        },
+        {
+          "authorId": "2152798037",
+          "name": "Yang Liu"
+        }
+      ]
+    },
+    {
+      "paperId": "1af50663742b2701f7d7a4370efa282c7b45451d",
+      "title": "Acoustic Neighbor Embeddings",
+      "year": 2020,
+      "citationCount": 6,
+      "authors": [
+        {
+          "authorId": "1965860",
+          "name": "Woojay Jeon"
+        }
+      ]
+    },
+    {
+      "paperId": "3e1beff318753e6be9a86c3b54ae82e333458c7d",
+      "title": "Entity resolution for noisy ASR transcripts",
+      "year": 2019,
+      "citationCount": 13,
+      "authors": [
+        {
+          "authorId": "2938503",
+          "name": "Arushi Raghuvanshi"
+        },
+        {
+          "authorId": "2179024608",
+          "name": "Vijay R. Ramakrishnan"
+        },
+        {
+          "authorId": "9489027",
+          "name": "Varsha Embar"
+        },
+        {
+          "authorId": "36605003",
+          "name": "Lucien Carroll"
+        },
+        {
+          "authorId": "147245935",
+          "name": "Karthik Raghunathan"
+        }
+      ]
+    },
+    {
+      "paperId": "4b4322bd7f38d9cd9280b6921866bd954e8d88d7",
+      "title": "A Spelling Correction Model for End-to-end Speech Recognition",
+      "year": 2019,
+      "citationCount": 137,
+      "authors": [
+        {
+          "authorId": "3299398",
+          "name": "Jinxi Guo"
+        },
+        {
+          "authorId": "1784851",
+          "name": "Tara N. Sainath"
+        },
+        {
+          "authorId": "39571582",
+          "name": "Ron J. Weiss"
+        }
+      ]
+    },
+    {
+      "paperId": "45dfef0cc1ed96558c1c650432ce39d6a1050b6a",
+      "title": "Fixing Weight Decay Regularization in Adam",
+      "year": 2017,
+      "citationCount": 1907,
+      "authors": [
+        {
+          "authorId": "1678656",
+          "name": "I. Loshchilov"
+        },
+        {
+          "authorId": "144661829",
+          "name": "F. Hutter"
+        }
+      ]
+    },
+    {
+      "paperId": "fa8ffa9f8d8367b987845ae88f2adcac2689f110",
+      "title": "Okapi at TREC-3",
+      "year": 1994,
+      "citationCount": 2395,
+      "authors": [
+        {
+          "authorId": "144430625",
+          "name": "S. Robertson"
+        },
+        {
+          "authorId": "48872185",
+          "name": "S. Walker"
+        },
+        {
+          "authorId": "2288355081",
+          "name": "S. Jones"
+        },
+        {
+          "authorId": "1398053996",
+          "name": "Micheline Hancock-Beaulieu"
+        },
+        {
+          "authorId": "2328476",
+          "name": "M. Gatford"
+        }
+      ]
+    },
+    {
+      "paperId": null,
+      "title": "“OpenLLaMA: An open reproduction of LLaMA, May 2023.",
+      "year": null,
+      "citationCount": null,
+      "authors": []
+    }
+  ]
+}

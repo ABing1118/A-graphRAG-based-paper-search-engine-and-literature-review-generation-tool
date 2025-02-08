@@ -5,6 +5,7 @@ import CssBaseline from '@mui/material/CssBaseline';
 import theme from './theme';
 import SearchPage from './pages/SearchPage';
 import SearchResults from './pages/SearchResults';
+import SubNetworkPage from './pages/SubNetworkPage';
 
 const App = () => {
   return (
@@ -14,6 +15,7 @@ const App = () => {
         <Routes>
           <Route path="/" element={<SearchPage />} />
           <Route path="/results" element={<SearchResults />} />
+          <Route path="/subnetwork" element={<SubNetworkPage />} />
         </Routes>
       </Router>
     </ThemeProvider>
