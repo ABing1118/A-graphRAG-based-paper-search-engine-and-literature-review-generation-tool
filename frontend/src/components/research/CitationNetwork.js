@@ -101,7 +101,7 @@ const CitationNetwork = ({
             )
             // 2. 电荷力 - 排斥/吸引
             .force("charge", d3.forceManyBody()
-                .strength(-300)   // 负值表示排斥,可调大以让节点更分散
+                .strength(-3000)   // 负值表示排斥,可调大以让节点更分散
                 .distanceMax(500) // 排斥力作用范围上限
             )
             // 3. 中心力 - 将所有节点往中心拉
@@ -114,7 +114,7 @@ const CitationNetwork = ({
                     const nodeRadius = citations === 0 
                         ? baseSize 
                         : Math.min(baseSize + Math.sqrt(citations) * 1.2, 20);
-                    return nodeRadius + 15;  // 这里增加额外间距
+                    return nodeRadius + 20;  // 这里增加额外间距
                 })
                 .strength(10)  // 这个值越大，碰撞效果越强
             )
