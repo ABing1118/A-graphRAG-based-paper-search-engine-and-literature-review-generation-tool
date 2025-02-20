@@ -27,7 +27,7 @@ const SearchPage = () => {
         }
       });
     } catch (err) {
-      console.error('搜索失败:', err);
+      console.error('Search failed:', err);
     }
   };
 
@@ -79,7 +79,7 @@ const SearchPage = () => {
             px: 2
           }}
         >
-          文献综述生成器
+          Literature Review Generator
         </Typography>
 
         {/* 搜索框和过滤器 */}

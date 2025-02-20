@@ -105,10 +105,10 @@ const SearchResults = () => {
           }}>
             <Box sx={{ p: 2 }}>
               <Typography variant="h6" gutterBottom sx={{ color: 'primary.main' }}>
-                "{searchQuery}" 相关论文
+                "{searchQuery}" related papers
               </Typography>
               <Typography variant="body2" color="text.secondary" sx={{ mb: 2 }}>
-                显示 {searchResults.length} 篇论文
+                Display {searchResults.length} papers
                 {location.state?.total > searchResults.length && 
                   `（共找到 ${location.state.total} 篇）`}
               </Typography>

@@ -78,7 +78,7 @@ const SubNetworkPage = () => {
                 <Typography variant="h6">
                     {!isDataReady(networkData) ? 
                         "Loading..." : 
-                        `"${networkData.nodes[0].title}" 的引文网络`}
+                        `Citation network of "${networkData.nodes[0].title}"`}
                 </Typography>
             </Box>
             

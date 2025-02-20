@@ -14,9 +14,9 @@ export const SearchBar = ({ onSearch }) => {
         type="text"
         value={query}
         onChange={(e) => setQuery(e.target.value)}
-        placeholder="输入搜索关键词"
+        placeholder="Enter search keyword"
       />
-      <button type="submit">搜索</button>
+      <button type="submit">Search</button>
     </form>
   );
 }; 

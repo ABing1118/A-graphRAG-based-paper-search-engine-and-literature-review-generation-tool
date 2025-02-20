@@ -150,36 +150,36 @@ const SubNetwork = ({ data, loading, onClose, fullPage = false }) => {
                 let typeDescription;
                 switch(d.type) {
                     case "center":
-                        typeDescription = "中心论文";
+                        typeDescription = "Center paper";
                         break;
                     case "citation":
-                        typeDescription = "引用本文的论文";
+                        typeDescription = "Cited by this paper";
                         break;
                     case "reference":
-                        typeDescription = "被本文引用的论文";
+                        typeDescription = "Cited by this paper";
                         break;
                     case "citation_to_citation":
-                        typeDescription = "引用引用本文论文的论文";
+                        typeDescription = "Cited by the paper that cited this paper";
                         break;
                     case "citation_to_reference":
-                        typeDescription = "引用被本文引用论文的论文";
+                        typeDescription = "Cited by the paper that cited this paper";
                         break;
                     case "reference_to_citation":
-                        typeDescription = "被引用本文论文引用的论文";
+                        typeDescription = "Cited by the paper that was cited by this paper";
                         break;
                     case "reference_to_reference":
-                        typeDescription = "被被本文引用论文引用的论文";
+                        typeDescription = "Cited by the paper that was cited by this paper";
                         break;
                     default:
-                        typeDescription = "未知类型";
+                        typeDescription = "Unknown type";
                 }
                 
                 tooltip.style("visibility", "visible")
                     .html(`
                         <strong>${d.title}</strong><br/>
-                        类型: ${typeDescription}<br/>
-                        ${d.type !== "center" ? `引用量: ${d.citations_count || 0}<br/>
-                        年份: ${d.year || '未知'}` : ''}
+                        Type: ${typeDescription}<br/>
+                        ${d.type !== "center" ? `Citations: ${d.citations_count || 0}<br/>
+                        Year: ${d.year || 'Unknown'}` : ''}
                     `);
             })
             .on("mousemove", (event) => {

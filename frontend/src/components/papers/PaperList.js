@@ -17,7 +17,7 @@ const PaperList = forwardRef(({
 }, ref) => {
   // 处理空数据情况
   if (!papers.length) {
-    return <p>没有找到结果</p>;
+    return <p>No results found</p>;
   }
 
   return (
@@ -65,7 +65,7 @@ const PaperList = forwardRef(({
                 color="text.secondary"
                 sx={{ fontSize: '0.875rem' }}  // 字体大小：14px
               >
-                作者: {paper.authors.join(', ')}
+                Authors: {paper.authors.join(', ')}
               </Typography>
               {/* 年份和引用信息 */}
               <Box sx={{ 
@@ -77,7 +77,7 @@ const PaperList = forwardRef(({
                 color: 'text.secondary'     // 次要文本颜色
               }}>
                 <span>{paper.year}</span>
-                <span>引用: {paper.citations}</span>
+                <span>Citations: {paper.citations}</span>
               </Box>
             </CardContent>
           </Card>

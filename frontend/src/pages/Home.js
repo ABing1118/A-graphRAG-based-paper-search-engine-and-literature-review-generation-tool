@@ -8,9 +8,9 @@ export const Home = () => {
 
   return (
     <div>
-      <h1>论文搜索</h1>
+      <h1>Paper Search</h1>
       <SearchBar onSearch={search} />
-      {loading && <p>加载中...</p>}
+      {loading && <p>Loading...</p>}
       {error && <p style={{ color: 'red' }}>{error}</p>}
       <PaperList papers={results} />
     </div>

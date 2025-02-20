@@ -32,7 +32,7 @@ const PaperDetail = ({ paper }) => {
             fontWeight: 'medium'                 // 字体粗细
           }}
         >
-          请选择一篇论文查看详细信息
+          Please select a paper to view detailed information
         </Typography>
       </Paper>
     );
@@ -72,14 +72,14 @@ const PaperDetail = ({ paper }) => {
         {/* 引用次数 */}
         <Box sx={{ display: 'flex', alignItems: 'center', gap: 1 }}>
           <Bookmark fontSize="small" color="primary" />
-          <Typography variant="body2">引用: {paper.citations}</Typography>
+          <Typography variant="body2">Citations: {paper.citations}</Typography>
         </Box>
       </Box>
 
       <Divider sx={{ my: 2 }} /> {/* 分隔线 */}
 
       {/* 作者信息 */}
-      <Typography variant="h6" gutterBottom>作者</Typography>
+      <Typography variant="h6" gutterBottom>Authors</Typography>
       <Typography variant="body2" sx={{ mb: 2 }}>
         {paper.authors.join(', ')}
       </Typography>
@@ -87,7 +87,7 @@ const PaperDetail = ({ paper }) => {
       {/* 研究领域 */}
       {paper.fields && paper.fields.length > 0 && (
         <>
-          <Typography variant="h6" gutterBottom>研究领域</Typography>
+          <Typography variant="h6" gutterBottom>Search Fields</Typography>
           <Box sx={{ display: 'flex', gap: 1, flexWrap: 'wrap', mb: 2 }}>
             {paper.fields.map((field, index) => (
               <Chip 
@@ -103,7 +103,7 @@ const PaperDetail = ({ paper }) => {
       )}
 
       {/* 摘要信息 */}
-      <Typography variant="h6" gutterBottom>摘要</Typography>
+      <Typography variant="h6" gutterBottom>Abstract</Typography>
       <Typography variant="body2" sx={{ mb: 2 }}>
         {paper.abstract}
       </Typography>
@@ -111,16 +111,16 @@ const PaperDetail = ({ paper }) => {
       {/* 链接 */}
       {(paper.url || paper.pdf_url) && (
         <>
-          <Typography variant="h6" gutterBottom>链接</Typography>
+          <Typography variant="h6" gutterBottom>Links</Typography>
           <Box sx={{ display: 'flex', flexDirection: 'column', gap: 1 }}>
             {paper.url && (
               <Link href={paper.url} target="_blank" rel="noopener">
-                论文页面
+                Paper Page
               </Link>
             )}
             {paper.pdf_url && (
               <Link href={paper.pdf_url} target="_blank" rel="noopener">
-                PDF下载
+                PDF Download
               </Link>
             )}
           </Box>
