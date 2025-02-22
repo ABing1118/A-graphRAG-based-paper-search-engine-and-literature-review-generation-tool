@@ -2,17 +2,6 @@ import React, { useEffect, useRef } from 'react';
 import * as d3 from 'd3';
 import CloseIcon from '@mui/icons-material/Close';  // 需要安装 @mui/icons-material
 
-// 在组件顶部定义颜色常量
-const NODE_COLORS = {
-    center: "#ff4444",          // 中心论文：红色
-    citation: "#4169E1",        // 第一层：引用本文的论文（皇家蓝）
-    reference: "#1E90FF",       // 第一层：被本文引用的论文（道奇蓝）
-    citation_to_citation: "#FFD700",    // 第二层：引用"引用本文的论文"的论文（金色）
-    citation_to_reference: "#FFA500",   // 第二层：引用"被本文引用的论文"的论文（橙色）
-    reference_to_citation: "#DAA520",   // 第二层：被"引用本文的论文"引用的论文（金菊色）
-    reference_to_reference: "#F4A460"   // 第二层：被"被本文引用的论文"引用的论文（沙褐色）
-};
-
 const SubNetwork = ({ data, loading, onClose, fullPage = false }) => {
     const subSvgRef = useRef(null);
     
@@ -67,6 +56,20 @@ const SubNetwork = ({ data, loading, onClose, fullPage = false }) => {
             .attr("d", "M0,-5L10,0L0,5")
             .attr("fill", "#999");
 
+        // 添加与主网络一致的颜色比例尺
+        const colorScale = d3.scaleSequential()
+            .domain([
+                d3.min(data.nodes, d => d.year), 
+                d3.max(data.nodes, d => d.year)
+            ])
+            .interpolator(d3.interpolate("#1565C0", "#90CAF9"));
+
+        // 计算中间年份对应的颜色
+        const minYear = d3.min(data.nodes, d => d.year);
+        const maxYear = d3.max(data.nodes, d => d.year);
+        const middleYear = Math.floor((minYear + maxYear) / 2);
+        const centerColor = colorScale(middleYear);
+
         // 创建力导向图
         const simulation = d3.forceSimulation(data.nodes)
             .force("link", d3.forceLink(data.edges)
@@ -108,11 +111,14 @@ const SubNetwork = ({ data, loading, onClose, fullPage = false }) => {
             .enter()
             .append("circle")
             .attr("r", d => {
-                if (d.type === "center") return 10;
                 const citations = d.citations_count || 0;
-                return citations === 0 ? 5 : citationScale(citations);
+                const baseRadius = citations === 0 ? 5 : citationScale(citations);
+                // 中心节点稍微大一点，但不会过大
+                return d.type === "center" ? Math.max(baseRadius, 8) : baseRadius;
             })
-            .attr("fill", d => NODE_COLORS[d.type] || "#999")
+            .style('fill', d => d.type === "center" ? centerColor : colorScale(d.year))
+            .style('stroke', d => d.type === 'center' ? '#ff4444' : 'none')
+            .style('stroke-width', d => d.type === 'center' ? 3 : 0)
             .style("cursor", "pointer");
 
         // 添加节点标签
@@ -177,8 +183,8 @@ const SubNetwork = ({ data, loading, onClose, fullPage = false }) => {
                 tooltip.style("visibility", "visible")
                     .html(`
                         <strong>${d.title}</strong><br/>
-                        Type: ${typeDescription}<br/>
-                        ${d.type !== "center" ? `Citations: ${d.citations_count || 0}<br/>
+                        Type: ${typeDescription}${d.type !== "center" ? `<br/>
+                        Citations: ${d.citations_count || 0}<br/>
                         Year: ${d.year || 'Unknown'}` : ''}
                     `);
             })
