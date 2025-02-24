@@ -136,7 +136,7 @@ async def search_papers(
 关键词: {query}
 数据目录: {QUERIES_DIR}
 """)
-        logger.info(f"收到搜索请求，关键词: {query}")
+        logger.info(f"Searching papers with query: {query}...（搜索论文，关键词: {query}...）")
         logger.info(f"搜索模式: {SEARCH_MODE.value}")
 
         # hybrid模式下先检查本地数据

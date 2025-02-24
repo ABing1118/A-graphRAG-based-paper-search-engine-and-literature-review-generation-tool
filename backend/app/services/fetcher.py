@@ -77,6 +77,7 @@ async def fetch_papers_batch(client, query: str, offset: int, limit: int):
             "openAccessPdf,fieldsOfStudy,publicationTypes,publicationDate"
         )
     }
+    logger.info(f"Fetching batch {offset}-{offset+limit}...（获取批次 {offset}-{offset+limit}...）")
     response = await fetch_papers(client, "/paper/search", params)
     return response.json()
 
