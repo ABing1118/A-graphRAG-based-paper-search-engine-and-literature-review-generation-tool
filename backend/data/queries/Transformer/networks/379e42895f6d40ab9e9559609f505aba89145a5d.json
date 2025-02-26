@@ -1,0 +1,6048 @@
+{
+  "citations": [
+    {
+      "paperId": "db3f9ff752b1370cb0e3154148e80942c8cc18b3",
+      "title": "ETS: Efficient Tree Search for Inference-Time Scaling",
+      "year": 2025,
+      "citationCount": 0,
+      "authors": [
+        {
+          "authorId": "2029486869",
+          "name": "Coleman Hooper"
+        },
+        {
+          "authorId": "2262511276",
+          "name": "Sehoon Kim"
+        },
+        {
+          "authorId": "2237424458",
+          "name": "Suhong Moon"
+        },
+        {
+          "authorId": "2346126373",
+          "name": "Kerem Dilmen"
+        },
+        {
+          "authorId": "2330588600",
+          "name": "Monishwaran Maheswaran"
+        },
+        {
+          "authorId": "2167739385",
+          "name": "Nicholas Lee"
+        },
+        {
+          "authorId": "2271923589",
+          "name": "Michael W. Mahoney"
+        },
+        {
+          "authorId": "2346126309",
+          "name": "Sophia Shao"
+        },
+        {
+          "authorId": "2242659602",
+          "name": "Kurt Keutzer"
+        },
+        {
+          "authorId": "2303682290",
+          "name": "Amir Gholami"
+        }
+      ]
+    },
+    {
+      "paperId": "1aaef33ce9a44d6926e934e3e88b9c1feb8c6bc7",
+      "title": "MALT Diffusion: Memory-Augmented Latent Transformers for Any-Length Video Generation",
+      "year": 2025,
+      "citationCount": 0,
+      "authors": [
+        {
+          "authorId": "2052088734",
+          "name": "Sihyun Yu"
+        },
+        {
+          "authorId": "2268398776",
+          "name": "Meera Hahn"
+        },
+        {
+          "authorId": "2302802441",
+          "name": "Dan Kondratyuk"
+        },
+        {
+          "authorId": "2292629288",
+          "name": "Jinwoo Shin"
+        },
+        {
+          "authorId": "2265716291",
+          "name": "Agrim Gupta"
+        },
+        {
+          "authorId": "2256999290",
+          "name": "José Lezama"
+        },
+        {
+          "authorId": "2279021287",
+          "name": "Irfan Essa"
+        },
+        {
+          "authorId": "2345930536",
+          "name": "David Ross"
+        },
+        {
+          "authorId": "2325100313",
+          "name": "Jonathan Huang"
+        }
+      ]
+    },
+    {
+      "paperId": "29186e9e841c507169c47177034c49f35604bdaf",
+      "title": "Zero Token-Driven Deep Thinking in LLMs: Unlocking the Full Potential of Existing Parameters via Cyclic Refinement",
+      "year": 2025,
+      "citationCount": 0,
+      "authors": [
+        {
+          "authorId": "2345948518",
+          "name": "Guanghao Li"
+        },
+        {
+          "authorId": "2345924401",
+          "name": "Wenhao Jiang"
+        },
+        {
+          "authorId": "2346065576",
+          "name": "Li Shen"
+        },
+        {
+          "authorId": "2346807876",
+          "name": "Ming Tang"
+        },
+        {
+          "authorId": null,
+          "name": "Chun Yuan"
+        }
+      ]
+    },
+    {
+      "paperId": "0b2c15ae624c39d973e8833e24661e53ecaaa570",
+      "title": "WaferLLM: A Wafer-Scale LLM Inference System",
+      "year": 2025,
+      "citationCount": 0,
+      "authors": [
+        {
+          "authorId": "2337252286",
+          "name": "Congjie He"
+        },
+        {
+          "authorId": "2281295857",
+          "name": "Yeqi Huang"
+        },
+        {
+          "authorId": "2344622334",
+          "name": "Pei Mu"
+        },
+        {
+          "authorId": "40793591",
+          "name": "Ziming Miao"
+        },
+        {
+          "authorId": "2308839615",
+          "name": "Jilong Xue"
+        },
+        {
+          "authorId": "2259609416",
+          "name": "Lingxiao Ma"
+        },
+        {
+          "authorId": "145338263",
+          "name": "Fan Yang"
+        },
+        {
+          "authorId": "2344610408",
+          "name": "Luo Mai"
+        }
+      ]
+    },
+    {
+      "paperId": "4684b70946048f2367579aedd14592116771ff5f",
+      "title": "Can LLMs Maintain Fundamental Abilities under KV Cache Compression?",
+      "year": 2025,
+      "citationCount": 0,
+      "authors": [
+        {
+          "authorId": "2265743820",
+          "name": "Xiang Liu"
+        },
+        {
+          "authorId": "66873962",
+          "name": "Zhenheng Tang"
+        },
+        {
+          "authorId": "2344022032",
+          "name": "Hong Chen"
+        },
+        {
+          "authorId": "2265581222",
+          "name": "Peijie Dong"
+        },
+        {
+          "authorId": "2233541345",
+          "name": "Zeyu Li"
+        },
+        {
+          "authorId": "2321412371",
+          "name": "Xiuze Zhou"
+        },
+        {
+          "authorId": "2343704731",
+          "name": "Bo Li"
+        },
+        {
+          "authorId": "2324834357",
+          "name": "Xuming Hu"
+        },
+        {
+          "authorId": "2259315629",
+          "name": "Xiaowen Chu"
+        }
+      ]
+    },
+    {
+      "paperId": "3b626b139355857a8cc10357f1156c1ae2448df6",
+      "title": "Helix: Serving Large Language Models over Heterogeneous GPUs and Network via Max-Flow",
+      "year": 2025,
+      "citationCount": 0,
+      "authors": [
+        {
+          "authorId": "2304458469",
+          "name": "Yixuan Mei"
+        },
+        {
+          "authorId": "2344307261",
+          "name": "Yonghao Zhuang"
+        },
+        {
+          "authorId": "2270842291",
+          "name": "Xupeng Miao"
+        },
+        {
+          "authorId": "2304513121",
+          "name": "Juncheng Yang"
+        },
+        {
+          "authorId": "2271058444",
+          "name": "Zhihao Jia"
+        },
+        {
+          "authorId": "2253598551",
+          "name": "Rashmi Vinayak"
+        }
+      ]
+    },
+    {
+      "paperId": "b2fecb8aa7218b00334e8fff8162509aa31761fe",
+      "title": "Accelerating LLM Inference with Lossless Speculative Decoding Algorithms for Heterogeneous Vocabularies",
+      "year": 2025,
+      "citationCount": 0,
+      "authors": [
+        {
+          "authorId": "2151790441",
+          "name": "Nadav Timor"
+        },
+        {
+          "authorId": "2254315373",
+          "name": "J. Mamou"
+        },
+        {
+          "authorId": "51151949",
+          "name": "Daniel Korat"
+        },
+        {
+          "authorId": "2077591838",
+          "name": "Moshe Berchansky"
+        },
+        {
+          "authorId": "2018909",
+          "name": "Oren Pereg"
+        },
+        {
+          "authorId": "2344749272",
+          "name": "Gaurav Jain"
+        },
+        {
+          "authorId": "2300177208",
+          "name": "Roy Schwartz"
+        },
+        {
+          "authorId": "2134755",
+          "name": "Moshe Wasserblat"
+        },
+        {
+          "authorId": "2302803517",
+          "name": "David Harel"
+        }
+      ]
+    },
+    {
+      "paperId": "61e825d23c93dcd9cacf8fe7c75dcf165cdff088",
+      "title": "HyGen: Efficient LLM Serving via Elastic Online-Offline Request Co-location",
+      "year": 2025,
+      "citationCount": 1,
+      "authors": [
+        {
+          "authorId": "2308414281",
+          "name": "Ting Sun"
+        },
+        {
+          "authorId": "2278782446",
+          "name": "Penghan Wang"
+        },
+        {
+          "authorId": "2341535072",
+          "name": "Fan Lai"
+        }
+      ]
+    },
+    {
+      "paperId": "90ebc729d237170ded1b79230cb12c5032af959a",
+      "title": "Mell: Memory-Efficient Large Language Model Serving via Multi-GPU KV Cache Management",
+      "year": 2025,
+      "citationCount": 0,
+      "authors": [
+        {
+          "authorId": "2340093730",
+          "name": "Qianli Liu"
+        },
+        {
+          "authorId": "89600513",
+          "name": "Zicong Hong"
+        },
+        {
+          "authorId": "2149500615",
+          "name": "Fahao Chen"
+        },
+        {
+          "authorId": null,
+          "name": "Peng Li"
+        },
+        {
+          "authorId": "2332312001",
+          "name": "Song Guo"
+        }
+      ]
+    },
+    {
+      "paperId": "c356a6b4b2cd7933fb92d5b6462efdab01305e2b",
+      "title": "DeServe: Towards Affordable Offline LLM Inference via Decentralization",
+      "year": 2025,
+      "citationCount": 0,
+      "authors": [
+        {
+          "authorId": "2342585929",
+          "name": "Linyu Wu"
+        },
+        {
+          "authorId": "2339075474",
+          "name": "Xiaoyuan Liu"
+        },
+        {
+          "authorId": "2178419835",
+          "name": "Tianneng Shi"
+        },
+        {
+          "authorId": "2342728033",
+          "name": "Zhe Ye"
+        },
+        {
+          "authorId": "2329892467",
+          "name": "D. Song"
+        }
+      ]
+    },
+    {
+      "paperId": "b0a8cf33c94ba3d951ce599ac4760a2eded16997",
+      "title": "SYMPHONY: Improving Memory Management for LLM Inference Workloads",
+      "year": 2024,
+      "citationCount": 0,
+      "authors": [
+        {
+          "authorId": "2216074086",
+          "name": "Saurabh Agarwal"
+        },
+        {
+          "authorId": "2336873191",
+          "name": "Anyong Mao"
+        },
+        {
+          "authorId": "2262444276",
+          "name": "Aditya Akella"
+        },
+        {
+          "authorId": "2257307243",
+          "name": "Shivaram Venkataraman"
+        }
+      ]
+    },
+    {
+      "paperId": "768dc5741107ab6563f7bebde8c143bb52d84bf0",
+      "title": "A Review of Large Language Models: Fundamental Architectures, Key Technological Evolutions, Interdisciplinary Technologies Integration, Optimization and Compression Techniques, Applications, and Challenges",
+      "year": 2024,
+      "citationCount": 0,
+      "authors": [
+        {
+          "authorId": "2332296674",
+          "name": "Song Han"
+        },
+        {
+          "authorId": "2336007067",
+          "name": "Mingyu Wang"
+        },
+        {
+          "authorId": "2108063365",
+          "name": "Jialong Zhang"
+        },
+        {
+          "authorId": "2335913829",
+          "name": "Dongdong Li"
+        },
+        {
+          "authorId": "2336167304",
+          "name": "Junhong Duan"
+        }
+      ]
+    },
+    {
+      "paperId": "9c02cc5bbde8784007cd09e29bc2f607881be26f",
+      "title": "Fast Sentence Classification using Word Co-occurrence Graphs*",
+      "year": 2024,
+      "citationCount": 0,
+      "authors": [
+        {
+          "authorId": "121086777",
+          "name": "Ashirbad Mishra"
+        },
+        {
+          "authorId": "40346731",
+          "name": "Shad Kirmani"
+        },
+        {
+          "authorId": "2421239",
+          "name": "Kamesh Madduri"
+        }
+      ]
+    },
+    {
+      "paperId": "974be2a0bd9110aaa05a1b0c1edd2768e3bc512d",
+      "title": "Coarse-to-fine Transformer For Lossless 3D Medical Image Compression",
+      "year": 2024,
+      "citationCount": 0,
+      "authors": [
+        {
+          "authorId": "2342646787",
+          "name": "Xiaoxuan Yang"
+        },
+        {
+          "authorId": "2279863590",
+          "name": "Guo Lu"
+        },
+        {
+          "authorId": "2064895107",
+          "name": "Donghui Feng"
+        },
+        {
+          "authorId": null,
+          "name": "Zhengxue Cheng"
+        },
+        {
+          "authorId": "2343703068",
+          "name": "Guosheng Yu"
+        },
+        {
+          "authorId": "2293780485",
+          "name": "Li Song"
+        }
+      ]
+    },
+    {
+      "paperId": "55a69beb1a754a0a7cbab1c5723a0841408725d9",
+      "title": "PrefixKV: Adaptive Prefix KV Cache is What Vision Instruction-Following Models Need for Efficient Generation",
+      "year": 2024,
+      "citationCount": 1,
+      "authors": [
+        {
+          "authorId": "2211980511",
+          "name": "Ao Wang"
+        },
+        {
+          "authorId": "2155552964",
+          "name": "Hui Chen"
+        },
+        {
+          "authorId": "2326256572",
+          "name": "Jianchao Tan"
+        },
+        {
+          "authorId": "2326248013",
+          "name": "Kefeng Zhang"
+        },
+        {
+          "authorId": "2326248599",
+          "name": "Xunliang Cai"
+        },
+        {
+          "authorId": "1818920",
+          "name": "Zijia Lin"
+        },
+        {
+          "authorId": "2345186205",
+          "name": "Jungong Han"
+        },
+        {
+          "authorId": "2242661989",
+          "name": "Guiguang Ding"
+        }
+      ]
+    },
+    {
+      "paperId": "81ff441cf2f1071960509f7d902e30a820056d51",
+      "title": "Unifying KV Cache Compression for Large Language Models with LeanKV",
+      "year": 2024,
+      "citationCount": 1,
+      "authors": [
+        {
+          "authorId": "2333586163",
+          "name": "Yanqi Zhang"
+        },
+        {
+          "authorId": "2333852812",
+          "name": "Yuwei Hu"
+        },
+        {
+          "authorId": "2334232846",
+          "name": "Runyuan Zhao"
+        },
+        {
+          "authorId": "2333593709",
+          "name": "John C.S. Lui"
+        },
+        {
+          "authorId": "2333653003",
+          "name": "Haibo Chen"
+        }
+      ]
+    },
+    {
+      "paperId": "c0df8d8fbc1ec87382450ae1f524ecff0e49ea0f",
+      "title": "All You Should Know About Large Language Models (LLMs)",
+      "year": 2024,
+      "citationCount": 0,
+      "authors": [
+        {
+          "authorId": "2335894895",
+          "name": "Abadila Alaktif"
+        },
+        {
+          "authorId": "38891715",
+          "name": "M. Chergui"
+        },
+        {
+          "authorId": "2335898511",
+          "name": "Imane Daoudi"
+        },
+        {
+          "authorId": "1500600713",
+          "name": "Abdelkrim Ammoumou"
+        }
+      ]
+    },
+    {
+      "paperId": "5201913bb3b941e0d42606969da5c1f927aeb48b",
+      "title": "InputSnatch: Stealing Input in LLM Services via Timing Side-Channel Attacks",
+      "year": 2024,
+      "citationCount": 1,
+      "authors": [
+        {
+          "authorId": "2311303196",
+          "name": "Xinyao Zheng"
+        },
+        {
+          "authorId": "2148310338",
+          "name": "Husheng Han"
+        },
+        {
+          "authorId": "2330236574",
+          "name": "Shangyi Shi"
+        },
+        {
+          "authorId": "2332537093",
+          "name": "Qiyan Fang"
+        },
+        {
+          "authorId": "1678776",
+          "name": "Zidong Du"
+        },
+        {
+          "authorId": "2330375684",
+          "name": "Xing Hu"
+        },
+        {
+          "authorId": "2266139212",
+          "name": "Qi Guo"
+        }
+      ]
+    },
+    {
+      "paperId": "33c35eaa465f49b5bcba049f1d01b29ca6685841",
+      "title": "MarketGPT: Developing a Pre-trained transformer (GPT) for Modeling Financial Time Series",
+      "year": 2024,
+      "citationCount": 0,
+      "authors": [
+        {
+          "authorId": "2276206722",
+          "name": "Aaron Wheeler"
+        },
+        {
+          "authorId": "2273326778",
+          "name": "Jeffrey D. Varner"
+        }
+      ]
+    },
+    {
+      "paperId": "37896307f1f43df873ad1d82bf91f7abb5e10221",
+      "title": "Ensuring Fair LLM Serving Amid Diverse Applications",
+      "year": 2024,
+      "citationCount": 0,
+      "authors": [
+        {
+          "authorId": "2040530471",
+          "name": "Redwan Ibne Seraj Khan"
+        },
+        {
+          "authorId": "2316951652",
+          "name": "Kunal Jain"
+        },
+        {
+          "authorId": "2315814166",
+          "name": "Haiying Shen"
+        },
+        {
+          "authorId": "2297849625",
+          "name": "Ankur Mallick"
+        },
+        {
+          "authorId": "52229619",
+          "name": "Anjaly Parayil"
+        },
+        {
+          "authorId": "2317051458",
+          "name": "Anoop Kulkarni"
+        },
+        {
+          "authorId": "2316950175",
+          "name": "Steve Kofsky"
+        },
+        {
+          "authorId": "2332093462",
+          "name": "Pankhuri Choudhary"
+        },
+        {
+          "authorId": "2677903",
+          "name": "Renée St. Amant"
+        },
+        {
+          "authorId": "2281070449",
+          "name": "Rujia Wang"
+        },
+        {
+          "authorId": "2332943227",
+          "name": "Yue Cheng"
+        },
+        {
+          "authorId": "2271066279",
+          "name": "A. Butt"
+        },
+        {
+          "authorId": "2051493623",
+          "name": "Victor Ruhle"
+        },
+        {
+          "authorId": "2239106685",
+          "name": "Chetan Bansal"
+        },
+        {
+          "authorId": "148121358",
+          "name": "S. Rajmohan"
+        }
+      ]
+    },
+    {
+      "paperId": "4c0a965c6881fafe41fe562ccb3e29b7ec3fe6ec",
+      "title": "Towards a Middleware for Large Language Models",
+      "year": 2024,
+      "citationCount": 0,
+      "authors": [
+        {
+          "authorId": "2331857594",
+          "name": "Narcisa Guran"
+        },
+        {
+          "authorId": "2331857892",
+          "name": "Florian Knauf"
+        },
+        {
+          "authorId": "2331857536",
+          "name": "Man Ngo"
+        },
+        {
+          "authorId": "2280207511",
+          "name": "Stefan Petrescu"
+        },
+        {
+          "authorId": "2342602",
+          "name": "Jan S. Rellermeyer"
+        }
+      ]
+    },
+    {
+      "paperId": "8d870bde7b5d29f8664556905a92a69111790924",
+      "title": "MoE-Lightning: High-Throughput MoE Inference on Memory-constrained GPUs",
+      "year": 2024,
+      "citationCount": 1,
+      "authors": [
+        {
+          "authorId": "2265490669",
+          "name": "Shiyi Cao"
+        },
+        {
+          "authorId": "2290853114",
+          "name": "Shu Liu"
+        },
+        {
+          "authorId": "2297848196",
+          "name": "Tyler Griggs"
+        },
+        {
+          "authorId": "2077592405",
+          "name": "Peter Schafhalter"
+        },
+        {
+          "authorId": "2238885972",
+          "name": "Xiaoxuan Liu"
+        },
+        {
+          "authorId": "2209360681",
+          "name": "Ying Sheng"
+        },
+        {
+          "authorId": "2254681613",
+          "name": "Joseph Gonzalez"
+        },
+        {
+          "authorId": "143834867",
+          "name": "M. Zaharia"
+        },
+        {
+          "authorId": "2316149874",
+          "name": "Ion Stoica"
+        }
+      ]
+    },
+    {
+      "paperId": "5028fc2d5685ddf20d55da9dcda92b89326ae195",
+      "title": "MixQ: Taming Dynamic Outliers in Mixed-Precision Quantization by Online Prediction",
+      "year": 2024,
+      "citationCount": 1,
+      "authors": [
+        {
+          "authorId": "2109265632",
+          "name": "Yidong Chen"
+        },
+        {
+          "authorId": "2111574245",
+          "name": "Chen Zhang"
+        },
+        {
+          "authorId": "2311499166",
+          "name": "Rongchao Dong"
+        },
+        {
+          "authorId": "2315578550",
+          "name": "Haoyuan Zhang"
+        },
+        {
+          "authorId": "2336087473",
+          "name": "Yonghua Zhang"
+        },
+        {
+          "authorId": "2241076723",
+          "name": "Zhonghua Lu"
+        },
+        {
+          "authorId": "2285159790",
+          "name": "Jidong Zhai"
+        }
+      ]
+    },
+    {
+      "paperId": "33177181c599e06535ca6714801af0da66585eb2",
+      "title": "WDMoE: Wireless Distributed Mixture of Experts for Large Language Models",
+      "year": 2024,
+      "citationCount": 0,
+      "authors": [
+        {
+          "authorId": "2300093743",
+          "name": "Nan Xue"
+        },
+        {
+          "authorId": "2218341779",
+          "name": "Yaping Sun"
+        },
+        {
+          "authorId": "2241452077",
+          "name": "Zhiyong Chen"
+        },
+        {
+          "authorId": "2241372181",
+          "name": "Meixia Tao"
+        },
+        {
+          "authorId": "2300137359",
+          "name": "Xiaodong Xu"
+        },
+        {
+          "authorId": "2217411196",
+          "name": "Liang Qian"
+        },
+        {
+          "authorId": "2324081084",
+          "name": "Shuguang Cui"
+        },
+        {
+          "authorId": "2288169170",
+          "name": "Wenjun Zhang"
+        },
+        {
+          "authorId": "2300249794",
+          "name": "Ping Zhang"
+        }
+      ]
+    },
+    {
+      "paperId": "42c2e4e90fcd3dcc147bb7a86cbc63fd22a5a8d2",
+      "title": "Retentive Neural Quantum States: Efficient Ansätze for Ab Initio Quantum Chemistry",
+      "year": 2024,
+      "citationCount": 0,
+      "authors": [
+        {
+          "authorId": "2028196004",
+          "name": "Oliver Knitter"
+        },
+        {
+          "authorId": "2329526695",
+          "name": "Dan Zhao"
+        },
+        {
+          "authorId": "2310699452",
+          "name": "James Stokes"
+        },
+        {
+          "authorId": "7418620",
+          "name": "M. Ganahl"
+        },
+        {
+          "authorId": "2329372328",
+          "name": "Stefan Leichenauer"
+        },
+        {
+          "authorId": "32507327",
+          "name": "S. Veerapaneni"
+        }
+      ]
+    },
+    {
+      "paperId": "c738c5630f454d1722f936cdaeec053744695c96",
+      "title": "Context Parallelism for Scalable Million-Token Inference",
+      "year": 2024,
+      "citationCount": 1,
+      "authors": [
+        {
+          "authorId": "2329138320",
+          "name": "Amy Yang"
+        },
+        {
+          "authorId": "2314170063",
+          "name": "Jingyi Yang"
+        },
+        {
+          "authorId": "2329528440",
+          "name": "Aya Ibrahim"
+        },
+        {
+          "authorId": "2285798957",
+          "name": "Xinfeng Xie"
+        },
+        {
+          "authorId": "2329186134",
+          "name": "Bangsheng Tang"
+        },
+        {
+          "authorId": "2266304177",
+          "name": "G. Sizov"
+        },
+        {
+          "authorId": "39906022",
+          "name": "Jeremy Reizenstein"
+        },
+        {
+          "authorId": "2149161568",
+          "name": "Jongsoo Park"
+        },
+        {
+          "authorId": "2314428565",
+          "name": "Jianyu Huang"
+        }
+      ]
+    },
+    {
+      "paperId": "3cc151df2a7f2b24df0dc5f3d439015b30fbe25c",
+      "title": "Fish-Speech: Leveraging Large Language Models for Advanced Multilingual Text-to-Speech Synthesis",
+      "year": 2024,
+      "citationCount": 4,
+      "authors": [
+        {
+          "authorId": "2330090366",
+          "name": "Shijia Liao"
+        },
+        {
+          "authorId": "2329305566",
+          "name": "Yuxuan Wang"
+        },
+        {
+          "authorId": "2118911500",
+          "name": "Tianyue Li"
+        },
+        {
+          "authorId": "2329118508",
+          "name": "Yifan Cheng"
+        },
+        {
+          "authorId": "2329130910",
+          "name": "Ruoyi Zhang"
+        },
+        {
+          "authorId": "2330061962",
+          "name": "Rongzhi Zhou"
+        },
+        {
+          "authorId": "2329137914",
+          "name": "Yijin Xing"
+        }
+      ]
+    },
+    {
+      "paperId": "f265fdc530939711ffbca7696979418a37a6abfb",
+      "title": "VGA: Hardware Accelerator for Scalable Long Sequence Model Inference",
+      "year": 2024,
+      "citationCount": 1,
+      "authors": [
+        {
+          "authorId": "2157283075",
+          "name": "Seung Yul Lee"
+        },
+        {
+          "authorId": "2165637879",
+          "name": "Hyunseung Lee"
+        },
+        {
+          "authorId": "2241949415",
+          "name": "Jihoon Hong"
+        },
+        {
+          "authorId": "2284729708",
+          "name": "SangLyul Cho"
+        },
+        {
+          "authorId": "2242181248",
+          "name": "Jae W. Lee"
+        }
+      ]
+    },
+    {
+      "paperId": "af4c684b244aab2e1d9c384c1315be7b6103cf00",
+      "title": "Privacy Risks of Speculative Decoding in Large Language Models",
+      "year": 2024,
+      "citationCount": 1,
+      "authors": [
+        {
+          "authorId": "2330242617",
+          "name": "Jiankun Wei"
+        },
+        {
+          "authorId": "2329105003",
+          "name": "Abdulrahman Abdulrazzag"
+        },
+        {
+          "authorId": "2329268705",
+          "name": "Tianchen Zhang"
+        },
+        {
+          "authorId": "2329105072",
+          "name": "Adel Muursepp"
+        },
+        {
+          "authorId": "9658817",
+          "name": "Gururaj Saileshwar"
+        }
+      ]
+    },
+    {
+      "paperId": "eeb169a41784c0edac2def1b1c71b438ab02f5b8",
+      "title": "Spatial-Temporal Correlation Learning for Traffic Demand Prediction",
+      "year": 2024,
+      "citationCount": 0,
+      "authors": [
+        {
+          "authorId": "2260828961",
+          "name": "Yiling Wu"
+        },
+        {
+          "authorId": "2268645548",
+          "name": "Yingping Zhao"
+        },
+        {
+          "authorId": "2130035913",
+          "name": "Xinfeng Zhang"
+        },
+        {
+          "authorId": "2309924008",
+          "name": "Yaowei Wang"
+        }
+      ]
+    },
+    {
+      "paperId": "c6ae89489e2846913d07c9dc85fb8a2a3c358a69",
+      "title": "LLM-Inference-Bench: Inference Benchmarking of Large Language Models on AI Accelerators",
+      "year": 2024,
+      "citationCount": 0,
+      "authors": [
+        {
+          "authorId": "1418875123",
+          "name": "Krishna Teja Chitty-Venkata"
+        },
+        {
+          "authorId": "151462530",
+          "name": "Siddhisanket Raskar"
+        },
+        {
+          "authorId": "145523800",
+          "name": "Bharati Kale"
+        },
+        {
+          "authorId": "2328975819",
+          "name": "Farah Ferdaus"
+        },
+        {
+          "authorId": "2328976487",
+          "name": "Aditya Tanikanti"
+        },
+        {
+          "authorId": "2285163707",
+          "name": "Kenneth Raffenetti"
+        },
+        {
+          "authorId": "2328977553",
+          "name": "Valerie Taylor"
+        },
+        {
+          "authorId": "2157261",
+          "name": "M. Emani"
+        },
+        {
+          "authorId": "2267938602",
+          "name": "Venkat Vishwanath"
+        }
+      ]
+    },
+    {
+      "paperId": "ff3525bd3b48c325ef3177eb5797cce176357910",
+      "title": "Relaxed Recursive Transformers: Effective Parameter Sharing with Layer-wise LoRA",
+      "year": 2024,
+      "citationCount": 3,
+      "authors": [
+        {
+          "authorId": "2329772129",
+          "name": "Sangmin Bae"
+        },
+        {
+          "authorId": "2064150446",
+          "name": "Adam Fisch"
+        },
+        {
+          "authorId": "144787340",
+          "name": "Hrayr Harutyunyan"
+        },
+        {
+          "authorId": "2328245185",
+          "name": "Ziwei Ji"
+        },
+        {
+          "authorId": "2328160131",
+          "name": "Seungyeon Kim"
+        },
+        {
+          "authorId": "32303439",
+          "name": "Tal Schuster"
+        }
+      ]
+    },
+    {
+      "paperId": "6f0548d04b6029f048dd048c3311eefa0f238fa2",
+      "title": "Meta-Learning for Speeding Up Large Model Inference in Decentralized Environments",
+      "year": 2024,
+      "citationCount": 0,
+      "authors": [
+        {
+          "authorId": "2328109014",
+          "name": "Yuzhe Yang"
+        },
+        {
+          "authorId": "2328114486",
+          "name": "Yipeng Du"
+        },
+        {
+          "authorId": "2313633863",
+          "name": "Ahmad Farhan"
+        },
+        {
+          "authorId": "2313632915",
+          "name": "Claudio Angione"
+        },
+        {
+          "authorId": "2313697707",
+          "name": "Yue Zhao"
+        },
+        {
+          "authorId": "2313697874",
+          "name": "Harry Yang"
+        },
+        {
+          "authorId": "2313630102",
+          "name": "Fielding Johnston"
+        },
+        {
+          "authorId": "2313633865",
+          "name": "James Buban"
+        },
+        {
+          "authorId": "2313632120",
+          "name": "Patrick Colangelo"
+        }
+      ]
+    },
+    {
+      "paperId": "ef8de9508816b4b1fad3d16f8ff8ab70e0853e92",
+      "title": "CoreInfer: Accelerating Large Language Model Inference with Semantics-Inspired Adaptive Sparse Activation",
+      "year": 2024,
+      "citationCount": 3,
+      "authors": [
+        {
+          "authorId": "2327503028",
+          "name": "Qinsi Wang"
+        },
+        {
+          "authorId": "2268405765",
+          "name": "Saeed Vahidian"
+        },
+        {
+          "authorId": "2327836024",
+          "name": "Hancheng Ye"
+        },
+        {
+          "authorId": "2293561728",
+          "name": "Jianyang Gu"
+        },
+        {
+          "authorId": "2265652686",
+          "name": "Jianyi Zhang"
+        },
+        {
+          "authorId": "2265715182",
+          "name": "Yiran Chen"
+        }
+      ]
+    },
+    {
+      "paperId": "6027d9b7f875a42a36029e2d3b7308be6fa88bb1",
+      "title": "MagicPIG: LSH Sampling for Efficient LLM Generation",
+      "year": 2024,
+      "citationCount": 5,
+      "authors": [
+        {
+          "authorId": "2280390208",
+          "name": "Zhuoming Chen"
+        },
+        {
+          "authorId": "2003376054",
+          "name": "Ranajoy Sadhukhan"
+        },
+        {
+          "authorId": "3060913",
+          "name": "Zihao Ye"
+        },
+        {
+          "authorId": "2288027007",
+          "name": "Yang Zhou"
+        },
+        {
+          "authorId": "2327111723",
+          "name": "Jianyu Zhang"
+        },
+        {
+          "authorId": "2301016168",
+          "name": "Niklas Nolte"
+        },
+        {
+          "authorId": "2249538771",
+          "name": "Yuandong Tian"
+        },
+        {
+          "authorId": "3271933",
+          "name": "Matthijs Douze"
+        },
+        {
+          "authorId": "2253589498",
+          "name": "Léon Bottou"
+        },
+        {
+          "authorId": "2284727859",
+          "name": "Zhihao Jia"
+        },
+        {
+          "authorId": "2301065578",
+          "name": "Beidi Chen"
+        }
+      ]
+    },
+    {
+      "paperId": "b3a472a9a352ec4e910d29330e1d9dec47b0cf5a",
+      "title": "EPIC: Efficient Position-Independent Context Caching for Serving Large Language Models",
+      "year": 2024,
+      "citationCount": 1,
+      "authors": [
+        {
+          "authorId": "2265725059",
+          "name": "Junhao Hu"
+        },
+        {
+          "authorId": "2326980020",
+          "name": "Wenrui Huang"
+        },
+        {
+          "authorId": "2326986069",
+          "name": "Haoyi Wang"
+        },
+        {
+          "authorId": "2327142651",
+          "name": "Weidong Wang"
+        },
+        {
+          "authorId": "2327169193",
+          "name": "Tiancheng Hu"
+        },
+        {
+          "authorId": "2327003209",
+          "name": "Qin Zhang"
+        },
+        {
+          "authorId": "2220876532",
+          "name": "Hao Feng"
+        },
+        {
+          "authorId": "2280208638",
+          "name": "Xusheng Chen"
+        },
+        {
+          "authorId": "2280137293",
+          "name": "Yizhou Shan"
+        },
+        {
+          "authorId": "2265682640",
+          "name": "Tao Xie"
+        }
+      ]
+    },
+    {
+      "paperId": "b371d90d4b0bbdde8f322c360dafc243cc1a47e4",
+      "title": "Efficient Vision-Language Models by Summarizing Visual Tokens into Compact Registers",
+      "year": 2024,
+      "citationCount": 0,
+      "authors": [
+        {
+          "authorId": "2327514306",
+          "name": "Yuxin Wen"
+        },
+        {
+          "authorId": "2297867187",
+          "name": "Qingqing Cao"
+        },
+        {
+          "authorId": "2237800256",
+          "name": "Qichen Fu"
+        },
+        {
+          "authorId": "2326117224",
+          "name": "Sachin Mehta"
+        },
+        {
+          "authorId": "40465379",
+          "name": "Mahyar Najibi"
+        }
+      ]
+    },
+    {
+      "paperId": "8a4fda653f2e58471f21c79ae980ab0e3135f39e",
+      "title": "KBLaM: Knowledge Base augmented Language Model",
+      "year": 2024,
+      "citationCount": 0,
+      "authors": [
+        {
+          "authorId": "2326077612",
+          "name": "Xi Wang"
+        },
+        {
+          "authorId": "2274334782",
+          "name": "Liana Mikaelyan"
+        },
+        {
+          "authorId": "2127175780",
+          "name": "Taketomo Isazawa"
+        },
+        {
+          "authorId": "2266803418",
+          "name": "James Hensman"
+        }
+      ]
+    },
+    {
+      "paperId": "b3b8e8dcd58d69204a222ca21df3f13b558d2f61",
+      "title": "COrAL: Order-Agnostic Language Modeling for Efficient Iterative Refinement",
+      "year": 2024,
+      "citationCount": 1,
+      "authors": [
+        {
+          "authorId": "2325017947",
+          "name": "Yuxi Xie"
+        },
+        {
+          "authorId": "2297786971",
+          "name": "Anirudh Goyal"
+        },
+        {
+          "authorId": "2325887390",
+          "name": "Xiaobao Wu"
+        },
+        {
+          "authorId": "2327972131",
+          "name": "Xunjian Yin"
+        },
+        {
+          "authorId": "2325914565",
+          "name": "Xiao Xu"
+        },
+        {
+          "authorId": "2273380846",
+          "name": "Min-Yen Kan"
+        },
+        {
+          "authorId": "2304300629",
+          "name": "Liangming Pan"
+        },
+        {
+          "authorId": "2303615873",
+          "name": "William Yang Wang"
+        }
+      ]
+    },
+    {
+      "paperId": "bacdf9671fb872287201b53d768df89b4d6630a3",
+      "title": "SWIFT: On-the-Fly Self-Speculative Decoding for LLM Inference Acceleration",
+      "year": 2024,
+      "citationCount": 0,
+      "authors": [
+        {
+          "authorId": "2308104853",
+          "name": "Heming Xia"
+        },
+        {
+          "authorId": "2257099189",
+          "name": "Yongqi Li"
+        },
+        {
+          "authorId": "2325140486",
+          "name": "Jun Zhang"
+        },
+        {
+          "authorId": "2324793557",
+          "name": "Cunxiao Du"
+        },
+        {
+          "authorId": "2284641622",
+          "name": "Wenjie Li"
+        }
+      ]
+    },
+    {
+      "paperId": "0b6457824c6551cef44c4c6481463d3aa84c2122",
+      "title": "Accelerating Error Correction Code Transformers",
+      "year": 2024,
+      "citationCount": 0,
+      "authors": [
+        {
+          "authorId": "2330600570",
+          "name": "Matan Levy"
+        },
+        {
+          "authorId": "3468810",
+          "name": "Yoni Choukroun"
+        },
+        {
+          "authorId": "2300174650",
+          "name": "Lior Wolf"
+        }
+      ]
+    },
+    {
+      "paperId": "886c869be8aa43dcce51a204292d861545064400",
+      "title": "LoRC: Low-Rank Compression for LLMs KV Cache with a Progressive Compression Strategy",
+      "year": 2024,
+      "citationCount": 2,
+      "authors": [
+        {
+          "authorId": "2288852433",
+          "name": "Rongzhi Zhang"
+        },
+        {
+          "authorId": "2335658909",
+          "name": "Kuan Wang"
+        },
+        {
+          "authorId": "2324592002",
+          "name": "Liyuan Liu"
+        },
+        {
+          "authorId": "2287785375",
+          "name": "Shuohang Wang"
+        },
+        {
+          "authorId": "2324664204",
+          "name": "Hao Cheng"
+        },
+        {
+          "authorId": "2324895381",
+          "name": "Chao Zhang"
+        },
+        {
+          "authorId": "2324671790",
+          "name": "Yelong Shen"
+        }
+      ]
+    },
+    {
+      "paperId": "0aeb7df7a92f58d39e0411889884e7d3ed5ecec6",
+      "title": "UNComp: Uncertainty-Aware Long-Context Compressor for Efficient Large Language Model Inference",
+      "year": 2024,
+      "citationCount": 0,
+      "authors": [
+        {
+          "authorId": "2324168511",
+          "name": "Jing Xiong"
+        },
+        {
+          "authorId": "2324898183",
+          "name": "Jianghan Shen"
+        },
+        {
+          "authorId": "2324030709",
+          "name": "Fanghua Ye"
+        },
+        {
+          "authorId": "2290488386",
+          "name": "Chaofan Tao"
+        },
+        {
+          "authorId": "2324007214",
+          "name": "Zhongwei Wan"
+        },
+        {
+          "authorId": "2324103389",
+          "name": "Jianqiao Lu"
+        },
+        {
+          "authorId": "2324251892",
+          "name": "Xun Wu"
+        },
+        {
+          "authorId": "2294163935",
+          "name": "Chuanyang Zheng"
+        },
+        {
+          "authorId": "2681038",
+          "name": "Zhijiang Guo"
+        },
+        {
+          "authorId": "2324779503",
+          "name": "Lingpeng Kong"
+        },
+        {
+          "authorId": "2324060181",
+          "name": "Ngai Wong"
+        }
+      ]
+    },
+    {
+      "paperId": "d0093f984d00cb617d2607ed33c82925971ec25e",
+      "title": "SwiftKV: Fast Prefill-Optimized Inference with Knowledge-Preserving Model Transformation",
+      "year": 2024,
+      "citationCount": 0,
+      "authors": [
+        {
+          "authorId": "2320455363",
+          "name": "Aurick Qiao"
+        },
+        {
+          "authorId": "2262242352",
+          "name": "Zhewei Yao"
+        },
+        {
+          "authorId": "32817044",
+          "name": "Samyam Rajbhandari"
+        },
+        {
+          "authorId": "2300208615",
+          "name": "Yuxiong He"
+        }
+      ]
+    },
+    {
+      "paperId": "c58e2bce889c870e75c09791048835e8b10acf4f",
+      "title": "ControlAR: Controllable Image Generation with Autoregressive Models",
+      "year": 2024,
+      "citationCount": 6,
+      "authors": [
+        {
+          "authorId": "2324035262",
+          "name": "Zongming Li"
+        },
+        {
+          "authorId": "46806979",
+          "name": "Tianheng Cheng"
+        },
+        {
+          "authorId": "2107977968",
+          "name": "Shoufa Chen"
+        },
+        {
+          "authorId": "2288870078",
+          "name": "Peize Sun"
+        },
+        {
+          "authorId": "2315977152",
+          "name": "Haocheng Shen"
+        },
+        {
+          "authorId": "7826997",
+          "name": "Longjin Ran"
+        },
+        {
+          "authorId": "2309115012",
+          "name": "Xiaoxin Chen"
+        },
+        {
+          "authorId": "2257432695",
+          "name": "Wenyu Liu"
+        },
+        {
+          "authorId": "2320181046",
+          "name": "Xinggang Wang"
+        }
+      ]
+    },
+    {
+      "paperId": "35720458f84c664ea01c8fd501886614dbccf368",
+      "title": "LLMCO2: Advancing Accurate Carbon Footprint Prediction for LLM Inferences",
+      "year": 2024,
+      "citationCount": 1,
+      "authors": [
+        {
+          "authorId": "2284691717",
+          "name": "Zhenxiao Fu"
+        },
+        {
+          "authorId": "2319685703",
+          "name": "Fan Chen"
+        },
+        {
+          "authorId": "2324695657",
+          "name": "Shan Zhou"
+        },
+        {
+          "authorId": "2324579765",
+          "name": "Haitong Li"
+        },
+        {
+          "authorId": "2284731797",
+          "name": "Lei Jiang"
+        }
+      ]
+    },
+    {
+      "paperId": "6a33c42eb058a04f3ae4ea08277d364522d0b0b8",
+      "title": "Discrete Copula Diffusion",
+      "year": 2024,
+      "citationCount": 2,
+      "authors": [
+        {
+          "authorId": "2325101564",
+          "name": "Anji Liu"
+        },
+        {
+          "authorId": "2324054629",
+          "name": "Oliver Broadrick"
+        },
+        {
+          "authorId": "2324053495",
+          "name": "Mathias Niepert"
+        },
+        {
+          "authorId": "2324053483",
+          "name": "Guy Van den Broeck"
+        }
+      ]
+    },
+    {
+      "paperId": "a5b4dbbc3200a40d887cee8b34cc91b9eae5dc39",
+      "title": "Analog In-Memory Computing Attention Mechanism for Fast and Energy-Efficient Large Language Models",
+      "year": 2024,
+      "citationCount": 1,
+      "authors": [
+        {
+          "authorId": "2323513608",
+          "name": "Nathan Leroux"
+        },
+        {
+          "authorId": "2215167645",
+          "name": "Paul-Philipp Manea"
+        },
+        {
+          "authorId": "40975335",
+          "name": "C. Sudarshan"
+        },
+        {
+          "authorId": "1753687081",
+          "name": "Jan Finkbeiner"
+        },
+        {
+          "authorId": "2289526195",
+          "name": "Sebastian Siegel"
+        },
+        {
+          "authorId": "2281341389",
+          "name": "J. Strachan"
+        },
+        {
+          "authorId": "2264264805",
+          "name": "Emre Neftci"
+        }
+      ]
+    },
+    {
+      "paperId": "f2144e875ca6270cd3fc4f4e177c2c07a338cb62",
+      "title": "FLaRe: Achieving Masterful and Adaptive Robot Policies with Large-Scale Reinforcement Learning Fine-Tuning",
+      "year": 2024,
+      "citationCount": 2,
+      "authors": [
+        {
+          "authorId": "81703072",
+          "name": "Jiaheng Hu"
+        },
+        {
+          "authorId": "2008211857",
+          "name": "Rose Hendrix"
+        },
+        {
+          "authorId": "2257020375",
+          "name": "Ali Farhadi"
+        },
+        {
+          "authorId": "2684226",
+          "name": "Aniruddha Kembhavi"
+        },
+        {
+          "authorId": "1382655067",
+          "name": "Roberto Martín-Martín"
+        },
+        {
+          "authorId": "2290916532",
+          "name": "Peter Stone"
+        },
+        {
+          "authorId": "2269736837",
+          "name": "Kuo-Hao Zeng"
+        },
+        {
+          "authorId": "2322808474",
+          "name": "Kiana Ehsan"
+        }
+      ]
+    },
+    {
+      "paperId": "d0d60717aaa18f6d60b704e0cb2f85bf12f2a25f",
+      "title": "PraxiPaaS: A Decomposable Machine Learning System for Efficient Container Package Discovery",
+      "year": 2024,
+      "citationCount": 0,
+      "authors": [
+        {
+          "authorId": "1819101173",
+          "name": "Zongshun Zhang"
+        },
+        {
+          "authorId": "2330992158",
+          "name": "Rohan Kumar"
+        },
+        {
+          "authorId": "2265718361",
+          "name": "Jason Li"
+        },
+        {
+          "authorId": "2330829458",
+          "name": "Lisa Korver"
+        },
+        {
+          "authorId": "2040087869",
+          "name": "Anthony Byrne"
+        },
+        {
+          "authorId": "2265672456",
+          "name": "Gianluca Stringhini"
+        },
+        {
+          "authorId": "2285550429",
+          "name": "Ibrahim Matta"
+        },
+        {
+          "authorId": "2265673095",
+          "name": "Ayse K. Coskun"
+        }
+      ]
+    },
+    {
+      "paperId": "c6d0130d74795792aff3c7dfdd91f4681c6c485f",
+      "title": "A Diagonal Structured State Space Model on Loihi 2 for Efficient Streaming Sequence Processing",
+      "year": 2024,
+      "citationCount": 1,
+      "authors": [
+        {
+          "authorId": "2263745316",
+          "name": "Svea Marie Meyer"
+        },
+        {
+          "authorId": "2322438291",
+          "name": "Philipp Weidel"
+        },
+        {
+          "authorId": "2322447688",
+          "name": "Philipp Plank"
+        },
+        {
+          "authorId": "1405447447",
+          "name": "L. Campos-Macias"
+        },
+        {
+          "authorId": "144419894",
+          "name": "S. Shrestha"
+        },
+        {
+          "authorId": "2281638533",
+          "name": "Philipp Stratmann"
+        },
+        {
+          "authorId": "2263911843",
+          "name": "Mathis Richter"
+        }
+      ]
+    },
+    {
+      "paperId": "4f1567f197f14e234fbda494501cf4ed804cb016",
+      "title": "TSM-LLM: Task Scheduling Management System for Large Language Models",
+      "year": 2024,
+      "citationCount": 0,
+      "authors": [
+        {
+          "authorId": "2333336433",
+          "name": "Ziqiang Wen"
+        },
+        {
+          "authorId": "2320488742",
+          "name": "Guoping Zhu"
+        },
+        {
+          "authorId": "2333127799",
+          "name": "Yong Wang"
+        },
+        {
+          "authorId": "2333421825",
+          "name": "Haijun Luo"
+        },
+        {
+          "authorId": "2320820421",
+          "name": "Nianchao Liu"
+        }
+      ]
+    },
+    {
+      "paperId": "b4a0dd90b4182334781d5934ee674af55957bdfd",
+      "title": "An Efficient and Streaming Audio Visual Active Speaker Detection System",
+      "year": 2024,
+      "citationCount": 0,
+      "authors": [
+        {
+          "authorId": "123369573",
+          "name": "Arnav Kundu"
+        },
+        {
+          "authorId": "2321493221",
+          "name": "Yanzi Jin"
+        },
+        {
+          "authorId": "2297845909",
+          "name": "M. Sekhavat"
+        },
+        {
+          "authorId": "2321176651",
+          "name": "Max Horton"
+        },
+        {
+          "authorId": "2321177837",
+          "name": "Danny Tormoen"
+        },
+        {
+          "authorId": "2304745673",
+          "name": "Devang Naik"
+        }
+      ]
+    },
+    {
+      "paperId": "16be68af143ed87af00d9f52bf0d945780a270e5",
+      "title": "Faster Speech-LLaMA Inference with Multi-token Prediction",
+      "year": 2024,
+      "citationCount": 0,
+      "authors": [
+        {
+          "authorId": "34549139",
+          "name": "Desh Raj"
+        },
+        {
+          "authorId": "2308273464",
+          "name": "Gil Keren"
+        },
+        {
+          "authorId": "2266441813",
+          "name": "Junteng Jia"
+        },
+        {
+          "authorId": "3222225",
+          "name": "Jay Mahadeokar"
+        },
+        {
+          "authorId": "1729960",
+          "name": "Ozlem Kalinli"
+        }
+      ]
+    },
+    {
+      "paperId": "f8afa3989d176277d31400efe1ee339063cb094b",
+      "title": "ISO: Overlap of Computation and Communication within Seqenence For LLM Inference",
+      "year": 2024,
+      "citationCount": 0,
+      "authors": [
+        {
+          "authorId": "2264098855",
+          "name": "Bin Xiao"
+        },
+        {
+          "authorId": "2242130652",
+          "name": "Lei Su"
+        }
+      ]
+    },
+    {
+      "paperId": "a677bacb923ebf38094ce6f901c8df8b0e62ee2f",
+      "title": "P/D-Serve: Serving Disaggregated Large Language Model at Scale",
+      "year": 2024,
+      "citationCount": 4,
+      "authors": [
+        {
+          "authorId": "2316170962",
+          "name": "Yibo Jin"
+        },
+        {
+          "authorId": "2316203611",
+          "name": "Tao Wang"
+        },
+        {
+          "authorId": "2316360272",
+          "name": "Huimin Lin"
+        },
+        {
+          "authorId": "2316171276",
+          "name": "Mingyang Song"
+        },
+        {
+          "authorId": "2316144318",
+          "name": "Peiyang Li"
+        },
+        {
+          "authorId": "2302419632",
+          "name": "Yipeng Ma"
+        },
+        {
+          "authorId": "2316147435",
+          "name": "Yicheng Shan"
+        },
+        {
+          "authorId": "2316448314",
+          "name": "Zhengfan Yuan"
+        },
+        {
+          "authorId": "2316153555",
+          "name": "Cailong Li"
+        },
+        {
+          "authorId": "2316175905",
+          "name": "Yajing Sun"
+        },
+        {
+          "authorId": "2316175696",
+          "name": "Tiandeng Wu"
+        },
+        {
+          "authorId": "2316190675",
+          "name": "Xing Chu"
+        },
+        {
+          "authorId": "2316125805",
+          "name": "Ruizhi Huan"
+        },
+        {
+          "authorId": "2211925425",
+          "name": "Li Ma"
+        },
+        {
+          "authorId": "2316192881",
+          "name": "Xiao You"
+        },
+        {
+          "authorId": "2316131525",
+          "name": "Wenting Zhou"
+        },
+        {
+          "authorId": "2316210565",
+          "name": "Yunpeng Ye"
+        },
+        {
+          "authorId": "2269827557",
+          "name": "Wen Liu"
+        },
+        {
+          "authorId": "2316174301",
+          "name": "Xiangkun Xu"
+        },
+        {
+          "authorId": "82946132",
+          "name": "Yongsheng Zhang"
+        },
+        {
+          "authorId": "2061034816",
+          "name": "Tian Dong"
+        },
+        {
+          "authorId": "2302885604",
+          "name": "Jiawei Zhu"
+        },
+        {
+          "authorId": "2271230498",
+          "name": "Zhe Wang"
+        },
+        {
+          "authorId": "2316184247",
+          "name": "Xijian Ju"
+        },
+        {
+          "authorId": "2316175358",
+          "name": "Jianxun Song"
+        },
+        {
+          "authorId": "2269858509",
+          "name": "Hao Cheng"
+        },
+        {
+          "authorId": "2294307355",
+          "name": "Xiaojing Li"
+        },
+        {
+          "authorId": "2316310063",
+          "name": "Jiandong Ding"
+        },
+        {
+          "authorId": "2316165284",
+          "name": "Hefei Guo"
+        },
+        {
+          "authorId": "2316243779",
+          "name": "Zhengyong Zhang"
+        }
+      ]
+    },
+    {
+      "paperId": "ec4be85aae5f7d9cfb81e35153e4f6bd672db7a6",
+      "title": "Kraken: Inherently Parallel Transformers For Efficient Multi-Device Inference",
+      "year": 2024,
+      "citationCount": 0,
+      "authors": [
+        {
+          "authorId": "2270798256",
+          "name": "R. Prabhakar"
+        },
+        {
+          "authorId": "2271866717",
+          "name": "Hengrui Zhang"
+        },
+        {
+          "authorId": "1752172",
+          "name": "D. Wentzlaff"
+        }
+      ]
+    },
+    {
+      "paperId": "7ddda143b08430ce3f07ecaf836c755e35fd3fbd",
+      "title": "Post-Training Sparse Attention with Double Sparsity",
+      "year": 2024,
+      "citationCount": 4,
+      "authors": [
+        {
+          "authorId": "2265546903",
+          "name": "Shuo Yang"
+        },
+        {
+          "authorId": "2209360681",
+          "name": "Ying Sheng"
+        },
+        {
+          "authorId": "2254681613",
+          "name": "Joseph Gonzalez"
+        },
+        {
+          "authorId": "2055174324",
+          "name": "Ion Stoica"
+        },
+        {
+          "authorId": "2149970173",
+          "name": "Lianmin Zheng"
+        }
+      ]
+    },
+    {
+      "paperId": "c60d4537f391d35e1ee3966ed17a0241bd3ea9ec",
+      "title": "Hessian-Aware KV Cache Quantization for LLMs",
+      "year": 2024,
+      "citationCount": 0,
+      "authors": [
+        {
+          "authorId": "2281998776",
+          "name": "Woohong Byun"
+        },
+        {
+          "authorId": "2066636043",
+          "name": "J. Woo"
+        },
+        {
+          "authorId": "2255388436",
+          "name": "Saibal Mukhopadhyay"
+        }
+      ]
+    },
+    {
+      "paperId": "ec41df3ee88fd5c5967dbd72d2e578bb062e5f3e",
+      "title": "RepMobile: A MobileNet-Like Network With Structural Reparameterization for Sensor-Based Human Activity Recognition",
+      "year": 2024,
+      "citationCount": 0,
+      "authors": [
+        {
+          "authorId": "2307817693",
+          "name": "Jianglai Yu"
+        },
+        {
+          "authorId": "2152830323",
+          "name": "Lei Zhang"
+        },
+        {
+          "authorId": "2216897261",
+          "name": "Dongzhou Cheng"
+        },
+        {
+          "authorId": "2215760535",
+          "name": "Can Bu"
+        },
+        {
+          "authorId": "2254288040",
+          "name": "Hao Wu"
+        },
+        {
+          "authorId": "2238422265",
+          "name": "Aiguo Song"
+        }
+      ]
+    },
+    {
+      "paperId": "659e0b3303caa860348dee52f41476e3fddc9573",
+      "title": "LazyLLM: Dynamic Token Pruning for Efficient Long Context LLM Inference",
+      "year": 2024,
+      "citationCount": 14,
+      "authors": [
+        {
+          "authorId": "2237800256",
+          "name": "Qichen Fu"
+        },
+        {
+          "authorId": "2237803694",
+          "name": "Minsik Cho"
+        },
+        {
+          "authorId": "2178316365",
+          "name": "Thomas Merth"
+        },
+        {
+          "authorId": "2256998189",
+          "name": "Sachin Mehta"
+        },
+        {
+          "authorId": "2284683934",
+          "name": "Mohammad Rastegari"
+        },
+        {
+          "authorId": "40465379",
+          "name": "Mahyar Najibi"
+        }
+      ]
+    },
+    {
+      "paperId": "76f521aca6089439575f466a00e7c0820ef5ddab",
+      "title": "Performance Modeling and Workload Analysis of Distributed Large Language Model Training and Inference",
+      "year": 2024,
+      "citationCount": 2,
+      "authors": [
+        {
+          "authorId": "2312328985",
+          "name": "Joyjit Kundu"
+        },
+        {
+          "authorId": "2312330163",
+          "name": "Wenzhe Guo"
+        },
+        {
+          "authorId": "10715710",
+          "name": "Ali BanaGozar"
+        },
+        {
+          "authorId": "2114844988",
+          "name": "Udari De Alwis"
+        },
+        {
+          "authorId": "2312329746",
+          "name": "Sourav Sengupta"
+        },
+        {
+          "authorId": "2281473292",
+          "name": "Puneet Gupta"
+        },
+        {
+          "authorId": "2312915688",
+          "name": "Arindam Mallik"
+        }
+      ]
+    },
+    {
+      "paperId": "6dc3b5129b8f5a36c19b6455c80774a90952ea85",
+      "title": "LLM Inference Serving: Survey of Recent Advances and Opportunities",
+      "year": 2024,
+      "citationCount": 8,
+      "authors": [
+        {
+          "authorId": "2118425325",
+          "name": "Baolin Li"
+        },
+        {
+          "authorId": "2292237533",
+          "name": "Yankai Jiang"
+        },
+        {
+          "authorId": "74882299",
+          "name": "V. Gadepally"
+        },
+        {
+          "authorId": "2253460188",
+          "name": "Devesh Tiwari"
+        }
+      ]
+    },
+    {
+      "paperId": "49653c3e849a5e403949ba0545c70cf90664a163",
+      "title": "PRET: Planning with Directed Fidelity Trajectory for Vision and Language Navigation",
+      "year": 2024,
+      "citationCount": 0,
+      "authors": [
+        {
+          "authorId": "2311514906",
+          "name": "Renjie Lu"
+        },
+        {
+          "authorId": "3452929",
+          "name": "Jingke Meng"
+        },
+        {
+          "authorId": "2269705755",
+          "name": "Wei-Shi Zheng"
+        }
+      ]
+    },
+    {
+      "paperId": "ea5768d746378940d4c062c523f7f3356625177e",
+      "title": "Fast On-device LLM Inference with NPUs",
+      "year": 2024,
+      "citationCount": 5,
+      "authors": [
+        {
+          "authorId": "2238890503",
+          "name": "Daliang Xu"
+        },
+        {
+          "authorId": "2306091156",
+          "name": "Hao Zhang"
+        },
+        {
+          "authorId": "2306073259",
+          "name": "Liming Yang"
+        },
+        {
+          "authorId": "2306098544",
+          "name": "Ruiqi Liu"
+        },
+        {
+          "authorId": "2258319623",
+          "name": "Gang Huang"
+        },
+        {
+          "authorId": "2529558",
+          "name": "Mengwei Xu"
+        },
+        {
+          "authorId": "2110773587",
+          "name": "Xuanzhe Liu"
+        }
+      ]
+    },
+    {
+      "paperId": "03a015adaa28e2b2c83bf4c7cc9d0a930ab12218",
+      "title": "Let the Code LLM Edit Itself When You Edit the Code",
+      "year": 2024,
+      "citationCount": 0,
+      "authors": [
+        {
+          "authorId": "2266802709",
+          "name": "Zhenyu He"
+        },
+        {
+          "authorId": "2324106120",
+          "name": "Jun Zhang"
+        },
+        {
+          "authorId": "2108801920",
+          "name": "Shengjie Luo"
+        },
+        {
+          "authorId": "2283486084",
+          "name": "Jingjing Xu"
+        },
+        {
+          "authorId": "2157136438",
+          "name": "Z. Zhang"
+        },
+        {
+          "authorId": "2266036459",
+          "name": "Di He"
+        }
+      ]
+    },
+    {
+      "paperId": "cfd8f5e2a8b57fc3b93fee25dd60a6728c2353e2",
+      "title": "A Quantitative Analysis of State Space Model-Based Large Language Model: Study of Hungry Hungry Hippos",
+      "year": 2024,
+      "citationCount": 0,
+      "authors": [
+        {
+          "authorId": "2183082948",
+          "name": "Dongho Yoon"
+        },
+        {
+          "authorId": "2296661229",
+          "name": "Taehun Kim"
+        },
+        {
+          "authorId": "2220582322",
+          "name": "Jae W. Lee"
+        },
+        {
+          "authorId": "1998820",
+          "name": "Minsoo Rhu"
+        }
+      ]
+    },
+    {
+      "paperId": "0795ace51489a0249458c3a8436e6f1fc2231059",
+      "title": "An Open-source Cross-Industry and Cloud-agnostic Generative AI Platform",
+      "year": 2024,
+      "citationCount": 0,
+      "authors": [
+        {
+          "authorId": "2265928470",
+          "name": "Abbas Raza Ali"
+        },
+        {
+          "authorId": "2320547016",
+          "name": "Kei Kumar"
+        },
+        {
+          "authorId": "2265943440",
+          "name": "Muhammad Ajmal Siddiqui"
+        },
+        {
+          "authorId": "2320575218",
+          "name": "Moona Zahid"
+        }
+      ]
+    },
+    {
+      "paperId": "9c7643224b26a05584504cff2896ac9286bc3c71",
+      "title": "TCP: A Tensor Contraction Processor for AI Workloads Industrial Product*",
+      "year": 2024,
+      "citationCount": 1,
+      "authors": [
+        {
+          "authorId": "2316360527",
+          "name": "Hanjoon Kim"
+        },
+        {
+          "authorId": "2189764633",
+          "name": "Younggeun Choi"
+        },
+        {
+          "authorId": "2314396173",
+          "name": "Junyoung Park"
+        },
+        {
+          "authorId": "2314384649",
+          "name": "Byeongwook Bae"
+        },
+        {
+          "authorId": "2316407785",
+          "name": "Hyunmin Jeong"
+        },
+        {
+          "authorId": "2189942214",
+          "name": "Sang Min Lee"
+        },
+        {
+          "authorId": "2189819105",
+          "name": "Jeseung Yeon"
+        },
+        {
+          "authorId": "2316296966",
+          "name": "Minho Kim"
+        },
+        {
+          "authorId": "2314859553",
+          "name": "Changjae Park"
+        },
+        {
+          "authorId": "2314393884",
+          "name": "Boncheol Gu"
+        },
+        {
+          "authorId": "2189919527",
+          "name": "Changman Lee"
+        },
+        {
+          "authorId": "2314890561",
+          "name": "Jaeick Bae"
+        },
+        {
+          "authorId": "2314426771",
+          "name": "SungGyeong Bae"
+        },
+        {
+          "authorId": "2314393107",
+          "name": "Yojung Cha"
+        },
+        {
+          "authorId": "2314392596",
+          "name": "Wooyoung Choe"
+        },
+        {
+          "authorId": "2314921177",
+          "name": "Jonguk Choi"
+        },
+        {
+          "authorId": "2314386056",
+          "name": "Juho Ha"
+        },
+        {
+          "authorId": "2190040287",
+          "name": "Hyuck Han"
+        },
+        {
+          "authorId": "2314390190",
+          "name": "Namoh Hwang"
+        },
+        {
+          "authorId": "2314699132",
+          "name": "Seokha Hwang"
+        },
+        {
+          "authorId": "2189807503",
+          "name": "Kiseok Jang"
+        },
+        {
+          "authorId": "2314386930",
+          "name": "Haechan Je"
+        },
+        {
+          "authorId": "2314394162",
+          "name": "Hojin Jeon"
+        },
+        {
+          "authorId": "2314915290",
+          "name": "Jaewoo Jeon"
+        },
+        {
+          "authorId": "2316407787",
+          "name": "Hyunjun Jeong"
+        },
+        {
+          "authorId": "2315195265",
+          "name": "Yeonsu Jung"
+        },
+        {
+          "authorId": "2314373870",
+          "name": "Dongok Kang"
+        },
+        {
+          "authorId": "2316296382",
+          "name": "Hyewon Kim"
+        },
+        {
+          "authorId": "2316296932",
+          "name": "Minjae Kim"
+        },
+        {
+          "authorId": "2316296071",
+          "name": "Muhwan Kim"
+        },
+        {
+          "authorId": "2316281072",
+          "name": "Sewon Kim"
+        },
+        {
+          "authorId": "2316278421",
+          "name": "Suhyung Kim"
+        },
+        {
+          "authorId": "2189922463",
+          "name": "W. Kim"
+        },
+        {
+          "authorId": "2316339440",
+          "name": "Yong Kim"
+        },
+        {
+          "authorId": "2195698715",
+          "name": "Youngsik Kim"
+        },
+        {
+          "authorId": "2314392667",
+          "name": "Younki Ku"
+        },
+        {
+          "authorId": "2316344488",
+          "name": "Jeong Ki Lee"
+        },
+        {
+          "authorId": "2316285213",
+          "name": "Juyun Lee"
+        },
+        {
+          "authorId": "2314403751",
+          "name": "Kyungjae Lee"
+        },
+        {
+          "authorId": "2316358462",
+          "name": "Seokho Lee"
+        },
+        {
+          "authorId": "2314392811",
+          "name": "Minwoo Noh"
+        },
+        {
+          "authorId": "2315102129",
+          "name": "Hyuntaek Oh"
+        },
+        {
+          "authorId": "2314551267",
+          "name": "Gyunghee Park"
+        },
+        {
+          "authorId": "2314943528",
+          "name": "Sanguk Park"
+        },
+        {
+          "authorId": "2314743435",
+          "name": "Jimin Seo"
+        },
+        {
+          "authorId": "2314392466",
+          "name": "Jungyoung Seong"
+        },
+        {
+          "authorId": "2314389879",
+          "name": "June Paik"
+        },
+        {
+          "authorId": "2314392479",
+          "name": "Nuno P. Lopes"
+        },
+        {
+          "authorId": "2314604114",
+          "name": "Sungjoo Yoo"
+        }
+      ]
+    },
+    {
+      "paperId": "b9f39a73b67707a95b3a5eaacc7e28af808b455e",
+      "title": "PoliFormer: Scaling On-Policy RL with Transformers Results in Masterful Navigators",
+      "year": 2024,
+      "citationCount": 5,
+      "authors": [
+        {
+          "authorId": "2269736837",
+          "name": "Kuo-Hao Zeng"
+        },
+        {
+          "authorId": "5630943",
+          "name": "Zichen Zhang"
+        },
+        {
+          "authorId": "2883417",
+          "name": "Kiana Ehsani"
+        },
+        {
+          "authorId": "2008211857",
+          "name": "Rose Hendrix"
+        },
+        {
+          "authorId": "2261652003",
+          "name": "Jordi Salvador"
+        },
+        {
+          "authorId": "3360135",
+          "name": "Alvaro Herrasti"
+        },
+        {
+          "authorId": "2268775608",
+          "name": "Ross Girshick"
+        },
+        {
+          "authorId": "2684226",
+          "name": "Aniruddha Kembhavi"
+        },
+        {
+          "authorId": "20745881",
+          "name": "Luca Weihs"
+        }
+      ]
+    },
+    {
+      "paperId": "964440957c030504f6bcab11f514635ece1bf6b2",
+      "title": "InfiniGen: Efficient Generative Inference of Large Language Models with Dynamic KV Cache Management",
+      "year": 2024,
+      "citationCount": 36,
+      "authors": [
+        {
+          "authorId": "2307593072",
+          "name": "Wonbeom Lee"
+        },
+        {
+          "authorId": "2306073131",
+          "name": "Jungi Lee"
+        },
+        {
+          "authorId": "2309429657",
+          "name": "Junghwan Seo"
+        },
+        {
+          "authorId": "2298298493",
+          "name": "Jaewoong Sim"
+        }
+      ]
+    },
+    {
+      "paperId": "516c2e01a4a552cd375bb28a7b07572669def33c",
+      "title": "OutlierTune: Efficient Channel-Wise Quantization for Large Language Models",
+      "year": 2024,
+      "citationCount": 1,
+      "authors": [
+        {
+          "authorId": "2145271973",
+          "name": "Jinguang Wang"
+        },
+        {
+          "authorId": "2308625999",
+          "name": "Yuexi Yin"
+        },
+        {
+          "authorId": "3211546",
+          "name": "Haifeng Sun"
+        },
+        {
+          "authorId": "2253567598",
+          "name": "Qi Qi"
+        },
+        {
+          "authorId": "1519274136",
+          "name": "Jingyu Wang"
+        },
+        {
+          "authorId": "70647186",
+          "name": "Zirui Zhuang"
+        },
+        {
+          "authorId": "2308796956",
+          "name": "Tingting Yang"
+        },
+        {
+          "authorId": "2153704848",
+          "name": "Jianxin Liao"
+        }
+      ]
+    },
+    {
+      "paperId": "251f7674abfa20b15fd677f3737d791f67bac270",
+      "title": "Navigating the Minefield of MT Beam Search in Cascaded Streaming Speech Translation",
+      "year": 2024,
+      "citationCount": 0,
+      "authors": [
+        {
+          "authorId": "3422414",
+          "name": "Rastislav Rabatin"
+        },
+        {
+          "authorId": "2243280567",
+          "name": "Frank Seide"
+        },
+        {
+          "authorId": "2264085875",
+          "name": "Ernie Chang"
+        }
+      ]
+    },
+    {
+      "paperId": "f78bfa2daa34bd2552aa3f5f090e98cdab3b4c62",
+      "title": "Scalable Artificial Intelligence for Science: Perspectives, Methods and Exemplars",
+      "year": 2024,
+      "citationCount": 0,
+      "authors": [
+        {
+          "authorId": "2266400700",
+          "name": "Wesley Brewer"
+        },
+        {
+          "authorId": "2266399260",
+          "name": "Aditya Kashi"
+        },
+        {
+          "authorId": "2143124",
+          "name": "Sajal Dash"
+        },
+        {
+          "authorId": "3395528",
+          "name": "A. Tsaris"
+        },
+        {
+          "authorId": "2244593486",
+          "name": "Junqi Yin"
+        },
+        {
+          "authorId": "2132114264",
+          "name": "M. Shankar"
+        },
+        {
+          "authorId": "2244140922",
+          "name": "Feiyi Wang"
+        }
+      ]
+    },
+    {
+      "paperId": "7590e9217439de05accd3041b9658ebc4cf4037a",
+      "title": "AI-coupled HPC Workflow Applications, Middleware and Performance",
+      "year": 2024,
+      "citationCount": 7,
+      "authors": [
+        {
+          "authorId": "2307474088",
+          "name": "Wes Brewer"
+        },
+        {
+          "authorId": "1861915",
+          "name": "Ana Gainaru"
+        },
+        {
+          "authorId": "2247718484",
+          "name": "Frédéric Suter"
+        },
+        {
+          "authorId": "2244140922",
+          "name": "Feiyi Wang"
+        },
+        {
+          "authorId": "2157261",
+          "name": "M. Emani"
+        },
+        {
+          "authorId": "1693678",
+          "name": "S. Jha"
+        }
+      ]
+    },
+    {
+      "paperId": "e2d89f2aaf27d53e50f7599ae58e6a928640eedd",
+      "title": "Exploring Conversations with AI NPCs: The Impact of Token Latency on QoE and Player Experience in a Text-Based Game",
+      "year": 2024,
+      "citationCount": 0,
+      "authors": [
+        {
+          "authorId": "2312641922",
+          "name": "Nikolina Roso"
+        },
+        {
+          "authorId": "1410120926",
+          "name": "Sara Vlahovic"
+        },
+        {
+          "authorId": "2265938747",
+          "name": "Nenad Markus"
+        },
+        {
+          "authorId": "1861610",
+          "name": "M. Sužnjević"
+        }
+      ]
+    },
+    {
+      "paperId": "7528033e5d43b8ee169598c0d09bb2d303c7e42f",
+      "title": "FLUX: Fast Software-based Communication Overlap On GPUs Through Kernel Fusion",
+      "year": 2024,
+      "citationCount": 8,
+      "authors": [
+        {
+          "authorId": "2328081757",
+          "name": "Liwen Chang"
+        },
+        {
+          "authorId": "2305683890",
+          "name": "Wenlei Bao"
+        },
+        {
+          "authorId": "2286882255",
+          "name": "Qi Hou"
+        },
+        {
+          "authorId": "2305750714",
+          "name": "Chengquan Jiang"
+        },
+        {
+          "authorId": "2305682698",
+          "name": "Ningxin Zheng"
+        },
+        {
+          "authorId": "2203414303",
+          "name": "Yinmin Zhong"
+        },
+        {
+          "authorId": "2305743012",
+          "name": "Xuanrun Zhang"
+        },
+        {
+          "authorId": "2306205535",
+          "name": "Zuquan Song"
+        },
+        {
+          "authorId": "2287104163",
+          "name": "Ziheng Jiang"
+        },
+        {
+          "authorId": "2257447831",
+          "name": "Haibin Lin"
+        },
+        {
+          "authorId": "2315662072",
+          "name": "Xin Jin"
+        },
+        {
+          "authorId": "2305828489",
+          "name": "Xin Liu"
+        }
+      ]
+    },
+    {
+      "paperId": "7318a804566baadc9f4b4ca8255f78744e749a32",
+      "title": "QJL: 1-Bit Quantized JL Transform for KV Cache Quantization with Zero Overhead",
+      "year": 2024,
+      "citationCount": 5,
+      "authors": [
+        {
+          "authorId": "2872461",
+          "name": "A. Zandieh"
+        },
+        {
+          "authorId": "2158375012",
+          "name": "Majid Daliri"
+        },
+        {
+          "authorId": "2237714",
+          "name": "Insu Han"
+        }
+      ]
+    },
+    {
+      "paperId": "8d76c76e1d1d528cebbf78d8a8abc03796bc1268",
+      "title": "Towards Reducing Latency Using Beam Search in an Interactive Conversational Speech Agent",
+      "year": 2024,
+      "citationCount": 0,
+      "authors": [
+        {
+          "authorId": "150248220",
+          "name": "Nikolas Ott"
+        },
+        {
+          "authorId": "1865131806",
+          "name": "R. Horst"
+        },
+        {
+          "authorId": "2260354745",
+          "name": "Ralf Dörner"
+        }
+      ]
+    },
+    {
+      "paperId": "0ac39ef1352641533b01f07c42da0dcb8cdc81a9",
+      "title": "Block Transformer: Global-to-Local Language Modeling for Fast Inference",
+      "year": 2024,
+      "citationCount": 3,
+      "authors": [
+        {
+          "authorId": "2047104015",
+          "name": "Namgyu Ho"
+        },
+        {
+          "authorId": "2104224550",
+          "name": "Sangmin Bae"
+        },
+        {
+          "authorId": "1840081210",
+          "name": "Taehyeon Kim"
+        },
+        {
+          "authorId": "2304748875",
+          "name": "Hyunjik Jo"
+        },
+        {
+          "authorId": "2181032855",
+          "name": "Yireun Kim"
+        },
+        {
+          "authorId": "32303439",
+          "name": "Tal Schuster"
+        },
+        {
+          "authorId": "2064150446",
+          "name": "Adam Fisch"
+        },
+        {
+          "authorId": "2263749072",
+          "name": "James Thorne"
+        },
+        {
+          "authorId": "2269051253",
+          "name": "SeYoung Yun"
+        }
+      ]
+    },
+    {
+      "paperId": "79fb4c51065d633af4da885a7dd385e8613fb43f",
+      "title": "Helix: Distributed Serving of Large Language Models via Max-Flow on Heterogeneous GPUs",
+      "year": 2024,
+      "citationCount": 4,
+      "authors": [
+        {
+          "authorId": "2304458469",
+          "name": "Yixuan Mei"
+        },
+        {
+          "authorId": "2152482391",
+          "name": "Yonghao Zhuang"
+        },
+        {
+          "authorId": "2270842291",
+          "name": "Xupeng Miao"
+        },
+        {
+          "authorId": "2304513121",
+          "name": "Juncheng Yang"
+        },
+        {
+          "authorId": "2271058444",
+          "name": "Zhihao Jia"
+        },
+        {
+          "authorId": "2253598551",
+          "name": "Rashmi Vinayak"
+        }
+      ]
+    },
+    {
+      "paperId": "656857a3f463eaea3a469917ea1a247c39dbf2af",
+      "title": "SUBER: An RL Environment with Simulated Human Behavior for Recommender Systems",
+      "year": 2024,
+      "citationCount": 0,
+      "authors": [
+        {
+          "authorId": "2304551025",
+          "name": "Nathan Corecco"
+        },
+        {
+          "authorId": "2304551370",
+          "name": "Giorgio Piatti"
+        },
+        {
+          "authorId": "2219931770",
+          "name": "Luca A. Lanzendörfer"
+        },
+        {
+          "authorId": "2135378483",
+          "name": "Flint Xiaofeng Fan"
+        },
+        {
+          "authorId": "2075356250",
+          "name": "R. Wattenhofer"
+        },
+        {
+          "authorId": "152106787",
+          "name": "E. Zurich"
+        }
+      ]
+    },
+    {
+      "paperId": "050d66cab131c8e10c230df9469d897622ccf7d2",
+      "title": "SpecDec++: Boosting Speculative Decoding via Adaptive Candidate Lengths",
+      "year": 2024,
+      "citationCount": 9,
+      "authors": [
+        {
+          "authorId": "2242535459",
+          "name": "Kaixuan Huang"
+        },
+        {
+          "authorId": "2303892844",
+          "name": "Xudong Guo"
+        },
+        {
+          "authorId": "2257417692",
+          "name": "Mengdi Wang"
+        }
+      ]
+    },
+    {
+      "paperId": "178ffe44cd3ec01b1fb46d682cf506976f160299",
+      "title": "Optimizing Foundation Model Inference on a Many-Tiny-Core Open-Source RISC-V Platform",
+      "year": 2024,
+      "citationCount": 2,
+      "authors": [
+        {
+          "authorId": "2303654593",
+          "name": "Viviane Potocnik"
+        },
+        {
+          "authorId": "2294570264",
+          "name": "Luca Colagrande"
+        },
+        {
+          "authorId": "2212188097",
+          "name": "Tim Fischer"
+        },
+        {
+          "authorId": "4075770",
+          "name": "Luca Bertaccini"
+        },
+        {
+          "authorId": "36204425",
+          "name": "D. J. Pagliari"
+        },
+        {
+          "authorId": "51091982",
+          "name": "Alessio Burrello"
+        },
+        {
+          "authorId": "2294566195",
+          "name": "Luca Benini"
+        }
+      ]
+    },
+    {
+      "paperId": "62051926adbdb23011931c13f0c5e5f6dd1c8ce6",
+      "title": "TURNIP: A \"Nondeterministic\" GPU Runtime with CPU RAM Offload",
+      "year": 2024,
+      "citationCount": 1,
+      "authors": [
+        {
+          "authorId": "2283314288",
+          "name": "Zhimin Ding"
+        },
+        {
+          "authorId": "2303610386",
+          "name": "Jiawen Yao"
+        },
+        {
+          "authorId": "2303401190",
+          "name": "Brianna Barrow"
+        },
+        {
+          "authorId": "2248184062",
+          "name": "Tania Lorido-Botran"
+        },
+        {
+          "authorId": "2283132701",
+          "name": "Christopher Jermaine"
+        },
+        {
+          "authorId": "9146402",
+          "name": "Yu-Shuen Tang"
+        },
+        {
+          "authorId": "2303490635",
+          "name": "Jiehui Li"
+        },
+        {
+          "authorId": "2303419783",
+          "name": "Xinyu Yao"
+        },
+        {
+          "authorId": "2303402152",
+          "name": "Sleem Mahmoud Abdelghafar"
+        },
+        {
+          "authorId": "2303402103",
+          "name": "Daniel Bourgeois"
+        }
+      ]
+    },
+    {
+      "paperId": "56df593ef2b36cbf74c8df24b2cdb6e0f260dfc0",
+      "title": "Mitigating Quantization Errors Due to Activation Spikes in GLU-Based LLMs",
+      "year": 2024,
+      "citationCount": 7,
+      "authors": [
+        {
+          "authorId": "2228875244",
+          "name": "Jaewoo Yang"
+        },
+        {
+          "authorId": "2302790701",
+          "name": "Hayun Kim"
+        },
+        {
+          "authorId": "2302794225",
+          "name": "Younghoon Kim"
+        }
+      ]
+    },
+    {
+      "paperId": "d372fb69c485472385f152bc832bf1d35e223324",
+      "title": "MiniCache: KV Cache Compression in Depth Dimension for Large Language Models",
+      "year": 2024,
+      "citationCount": 17,
+      "authors": [
+        {
+          "authorId": "2291729675",
+          "name": "Akide Liu"
+        },
+        {
+          "authorId": "2302773646",
+          "name": "Jing Liu"
+        },
+        {
+          "authorId": "1840579673",
+          "name": "Zizheng Pan"
+        },
+        {
+          "authorId": "2254280175",
+          "name": "Yefei He"
+        },
+        {
+          "authorId": "2561045",
+          "name": "Gholamreza Haffari"
+        },
+        {
+          "authorId": "3194022",
+          "name": "Bohan Zhuang"
+        }
+      ]
+    },
+    {
+      "paperId": "caeb1e2d285c3e68ea88fd31ab4a3770aa55649b",
+      "title": "Attention as an RNN",
+      "year": 2024,
+      "citationCount": 8,
+      "authors": [
+        {
+          "authorId": "31787052",
+          "name": "Leo Feng"
+        },
+        {
+          "authorId": "2249531679",
+          "name": "Frederick Tung"
+        },
+        {
+          "authorId": "1858551",
+          "name": "Hossein Hajimirsadeghi"
+        },
+        {
+          "authorId": "2249721653",
+          "name": "Mohamed Osama Ahmed"
+        },
+        {
+          "authorId": "1865800402",
+          "name": "Y. Bengio"
+        },
+        {
+          "authorId": "2284592411",
+          "name": "Greg Mori"
+        }
+      ]
+    },
+    {
+      "paperId": "0dcbf11176db2a55d43b19c1765f1759e13f368b",
+      "title": "A Historical Survey of Advances in Transformer Architectures",
+      "year": 2024,
+      "citationCount": 2,
+      "authors": [
+        {
+          "authorId": "2047933303",
+          "name": "Ali Reza Sajun"
+        },
+        {
+          "authorId": "2291253540",
+          "name": "Imran A. Zualkernan"
+        },
+        {
+          "authorId": "2003812364",
+          "name": "Donthi Sankalpa"
+        }
+      ]
+    },
+    {
+      "paperId": "4375abf311b0ef51644551276153efaf11426916",
+      "title": "The CAP Principle for LLM Serving: A Survey of Long-Context Large Language Model Serving",
+      "year": 2024,
+      "citationCount": 4,
+      "authors": [
+        {
+          "authorId": "2302327872",
+          "name": "Pai Zeng"
+        },
+        {
+          "authorId": "2302322712",
+          "name": "Zhenyu Ning"
+        },
+        {
+          "authorId": "2302350607",
+          "name": "Jieru Zhao"
+        },
+        {
+          "authorId": "2302334566",
+          "name": "Weihao Cui"
+        },
+        {
+          "authorId": "2302362588",
+          "name": "Mengwei Xu"
+        },
+        {
+          "authorId": "2286749413",
+          "name": "Liwei Guo"
+        },
+        {
+          "authorId": "2280208638",
+          "name": "Xusheng Chen"
+        },
+        {
+          "authorId": "2280137293",
+          "name": "Yizhou Shan"
+        }
+      ]
+    },
+    {
+      "paperId": "d5a2b22b7f9cfad3b582f9784fafd42749d87b1a",
+      "title": "Lean Attention: Hardware-Aware Scalable Attention Mechanism for the Decode-Phase of Transformers",
+      "year": 2024,
+      "citationCount": 4,
+      "authors": [
+        {
+          "authorId": "2302152805",
+          "name": "Rya Sanovar"
+        },
+        {
+          "authorId": "116355858",
+          "name": "Srikant Bharadwaj"
+        },
+        {
+          "authorId": "2677903",
+          "name": "Renée St. Amant"
+        },
+        {
+          "authorId": "2051493623",
+          "name": "Victor Ruhle"
+        },
+        {
+          "authorId": "148121358",
+          "name": "S. Rajmohan"
+        }
+      ]
+    },
+    {
+      "paperId": "e65b11af710692b8df557797238df6a15ea6cf86",
+      "title": "ENOVA: Autoscaling towards Cost-effective and Stable Serverless LLM Serving",
+      "year": 2024,
+      "citationCount": 0,
+      "authors": [
+        {
+          "authorId": "2311459922",
+          "name": "Tao Huang"
+        },
+        {
+          "authorId": "2311459855",
+          "name": "Pengfei Chen"
+        },
+        {
+          "authorId": "2311436117",
+          "name": "Kyoka Gong"
+        },
+        {
+          "authorId": "2311442632",
+          "name": "Jocky Hawk"
+        },
+        {
+          "authorId": "2311441199",
+          "name": "Zachary Bright"
+        },
+        {
+          "authorId": "2311451838",
+          "name": "Wenxin Xie"
+        },
+        {
+          "authorId": "2311492849",
+          "name": "Kecheng Huang"
+        },
+        {
+          "authorId": "2312343931",
+          "name": "Zhi Ji"
+        }
+      ]
+    },
+    {
+      "paperId": "5b89f716ee24b0408c5cb854b49dbcbf89b951d5",
+      "title": "HW-GPT-Bench: Hardware-Aware Architecture Benchmark for Language Models",
+      "year": 2024,
+      "citationCount": 3,
+      "authors": [
+        {
+          "authorId": "46219704",
+          "name": "R. Sukthanker"
+        },
+        {
+          "authorId": "51109984",
+          "name": "Arber Zela"
+        },
+        {
+          "authorId": "40539032",
+          "name": "B. Staffler"
+        },
+        {
+          "authorId": "2240526179",
+          "name": "Jorg K. H. Franke"
+        },
+        {
+          "authorId": "2269049641",
+          "name": "Frank Hutter"
+        }
+      ]
+    },
+    {
+      "paperId": "f1d39175484e58db627c0dcdbe96ebdfa6d22da1",
+      "title": "SambaNova SN40L: Scaling the AI Memory Wall with Dataflow and Composition of Experts",
+      "year": 2024,
+      "citationCount": 5,
+      "authors": [
+        {
+          "authorId": "2688640",
+          "name": "R. Prabhakar"
+        },
+        {
+          "authorId": "144512130",
+          "name": "R. Sivaramakrishnan"
+        },
+        {
+          "authorId": "144280544",
+          "name": "Darshan Gandhi"
+        },
+        {
+          "authorId": "2203922735",
+          "name": "Yun Du"
+        },
+        {
+          "authorId": "2217860234",
+          "name": "Mingran Wang"
+        },
+        {
+          "authorId": "2301149803",
+          "name": "Xiangyu Song"
+        },
+        {
+          "authorId": "2301251444",
+          "name": "Kejie Zhang"
+        },
+        {
+          "authorId": "2243338432",
+          "name": "Tianren Gao"
+        },
+        {
+          "authorId": "2301247910",
+          "name": "Angela Wang"
+        },
+        {
+          "authorId": "2219857708",
+          "name": "Karen Li"
+        },
+        {
+          "authorId": "2951019",
+          "name": "Yongning Sheng"
+        },
+        {
+          "authorId": "2301154209",
+          "name": "Joshua Brot"
+        },
+        {
+          "authorId": "2301154303",
+          "name": "Denis Sokolov"
+        },
+        {
+          "authorId": "2301154230",
+          "name": "Apurv Vivek"
+        },
+        {
+          "authorId": "2301155438",
+          "name": "Calvin Leung"
+        },
+        {
+          "authorId": "2266400032",
+          "name": "Arjun Sabnis"
+        },
+        {
+          "authorId": "2301569064",
+          "name": "Jiayu Bai"
+        },
+        {
+          "authorId": "2301270476",
+          "name": "Tuowen Zhao"
+        },
+        {
+          "authorId": "1790396",
+          "name": "Mark Gottscho"
+        },
+        {
+          "authorId": "2301157078",
+          "name": "David Jackson"
+        },
+        {
+          "authorId": "50260984",
+          "name": "Mark Luttrell"
+        },
+        {
+          "authorId": "49246199",
+          "name": "Manish Shah"
+        },
+        {
+          "authorId": "2265424969",
+          "name": "Edison Chen"
+        },
+        {
+          "authorId": "2243335661",
+          "name": "Kaizhao Liang"
+        },
+        {
+          "authorId": "2301197963",
+          "name": "Swayambhoo Jain"
+        },
+        {
+          "authorId": "70296695",
+          "name": "Urmish Thakker"
+        },
+        {
+          "authorId": "2304300017",
+          "name": "Dawei Huang"
+        },
+        {
+          "authorId": "37522759",
+          "name": "Sumti Jairath"
+        },
+        {
+          "authorId": "144806284",
+          "name": "Kevin J. Brown"
+        },
+        {
+          "authorId": "1746638",
+          "name": "K. Olukotun"
+        }
+      ]
+    },
+    {
+      "paperId": "862479f7bd78a69c52a0691766848caa8eb4660f",
+      "title": "Linearizing Large Language Models",
+      "year": 2024,
+      "citationCount": 10,
+      "authors": [
+        {
+          "authorId": "72847120",
+          "name": "Jean-Pierre Mercat"
+        },
+        {
+          "authorId": "2291068185",
+          "name": "Igor Vasiljevic"
+        },
+        {
+          "authorId": "150299584",
+          "name": "Sedrick Scott Keh"
+        },
+        {
+          "authorId": "2284685268",
+          "name": "Kushal Arora"
+        },
+        {
+          "authorId": "2298523",
+          "name": "Achal Dave"
+        },
+        {
+          "authorId": "2143070716",
+          "name": "Adrien Gaidon"
+        },
+        {
+          "authorId": "2283843631",
+          "name": "Thomas Kollar"
+        }
+      ]
+    },
+    {
+      "paperId": "e66f54d35d7218dc2d4de380981f49e7e32648ac",
+      "title": "Boosting Multimodal Large Language Models with Visual Tokens Withdrawal for Rapid Inference",
+      "year": 2024,
+      "citationCount": 6,
+      "authors": [
+        {
+          "authorId": "2170182934",
+          "name": "Zhihang Lin"
+        },
+        {
+          "authorId": "49352079",
+          "name": "Mingbao Lin"
+        },
+        {
+          "authorId": "2300412424",
+          "name": "Luxi Lin"
+        },
+        {
+          "authorId": "2298754789",
+          "name": "Rongrong Ji"
+        }
+      ]
+    },
+    {
+      "paperId": "1d4c48335d841014d0145256c3c4e7f6c426b8fb",
+      "title": "You Only Cache Once: Decoder-Decoder Architectures for Language Models",
+      "year": 2024,
+      "citationCount": 33,
+      "authors": [
+        {
+          "authorId": "2108540694",
+          "name": "Yutao Sun"
+        },
+        {
+          "authorId": "145307652",
+          "name": "Li Dong"
+        },
+        {
+          "authorId": "2271748644",
+          "name": "Yi Zhu"
+        },
+        {
+          "authorId": "3110003",
+          "name": "Shaohan Huang"
+        },
+        {
+          "authorId": "51456429",
+          "name": "Wenhui Wang"
+        },
+        {
+          "authorId": "2118866998",
+          "name": "Shuming Ma"
+        },
+        {
+          "authorId": "2270914501",
+          "name": "Quanlu Zhang"
+        },
+        {
+          "authorId": "2316583640",
+          "name": "Jianyong Wang"
+        },
+        {
+          "authorId": "2253471545",
+          "name": "Furu Wei"
+        }
+      ]
+    },
+    {
+      "paperId": "860d31679b86029ddece55e6aa34c6f7e638db5f",
+      "title": "Transformer Models as an Efficient Replacement for Statistical Test Suites to Evaluate the Quality of Random Numbers",
+      "year": 2024,
+      "citationCount": 0,
+      "authors": [
+        {
+          "authorId": "2300176748",
+          "name": "Rishabh Goel"
+        },
+        {
+          "authorId": "2300248719",
+          "name": "Yizi Xiao"
+        },
+        {
+          "authorId": "115667923",
+          "name": "Ramin Ramezani"
+        }
+      ]
+    },
+    {
+      "paperId": "0e3ddf94053d06b40283f4250e37582bdcea0e9e",
+      "title": "BlockLLM: Multi-tenant Finer-grained Serving for Large Language Models",
+      "year": 2024,
+      "citationCount": 1,
+      "authors": [
+        {
+          "authorId": "2144515553",
+          "name": "Jiamin Li"
+        },
+        {
+          "authorId": "2262515049",
+          "name": "Le Xu"
+        },
+        {
+          "authorId": "2309250935",
+          "name": "Hong Xu"
+        },
+        {
+          "authorId": "2262444276",
+          "name": "Aditya Akella"
+        }
+      ]
+    },
+    {
+      "paperId": "b397af271897328a3111ea406c63553fb963e883",
+      "title": "Andes: Defining and Enhancing Quality-of-Experience in LLM-Based Text Streaming Services",
+      "year": 2024,
+      "citationCount": 13,
+      "authors": [
+        {
+          "authorId": "2257350256",
+          "name": "Jiachen Liu"
+        },
+        {
+          "authorId": "2298290649",
+          "name": "Zhiyu Wu"
+        },
+        {
+          "authorId": "2210833820",
+          "name": "Jae-Won Chung"
+        },
+        {
+          "authorId": "50140716",
+          "name": "Fan Lai"
+        },
+        {
+          "authorId": "2298316696",
+          "name": "Myungjin Lee"
+        },
+        {
+          "authorId": "2271369030",
+          "name": "Mosharaf Chowdhury"
+        }
+      ]
+    }
+  ],
+  "references": [
+    {
+      "paperId": "3692f4df9d11af68f9b9c9a526667db3f99e552c",
+      "title": "Overlap Communication with Dependent Computation via Decomposition in Large Deep Learning Models",
+      "year": 2022,
+      "citationCount": 53,
+      "authors": [
+        {
+          "authorId": "2108553866",
+          "name": "Shibo Wang"
+        },
+        {
+          "authorId": "1766143",
+          "name": "Jinliang Wei"
+        },
+        {
+          "authorId": "1736081",
+          "name": "Amit Sabne"
+        },
+        {
+          "authorId": "36347083",
+          "name": "Andy Davis"
+        },
+        {
+          "authorId": "2906275",
+          "name": "Berkin Ilbeyi"
+        },
+        {
+          "authorId": "3135881",
+          "name": "Blake A. Hechtman"
+        },
+        {
+          "authorId": "7167328",
+          "name": "Dehao Chen"
+        },
+        {
+          "authorId": "50287574",
+          "name": "K. Murthy"
+        },
+        {
+          "authorId": "2090812426",
+          "name": "M. Maggioni"
+        },
+        {
+          "authorId": "2197671266",
+          "name": "Qiao Zhang"
+        },
+        {
+          "authorId": "49596195",
+          "name": "Sameer Kumar"
+        },
+        {
+          "authorId": "2197543886",
+          "name": "Tongfei Guo"
+        },
+        {
+          "authorId": "2145139570",
+          "name": "Yuanzhong Xu"
+        },
+        {
+          "authorId": "1389392654",
+          "name": "Zongwei Zhou"
+        }
+      ]
+    },
+    {
+      "paperId": "ca086f4c09cf8de705830ac2b70951737fab93ca",
+      "title": "A Review of Sparse Expert Models in Deep Learning",
+      "year": 2022,
+      "citationCount": 123,
+      "authors": [
+        {
+          "authorId": "26958176",
+          "name": "W. Fedus"
+        },
+        {
+          "authorId": "48448318",
+          "name": "J. Dean"
+        },
+        {
+          "authorId": "2368067",
+          "name": "Barret Zoph"
+        }
+      ]
+    },
+    {
+      "paperId": "4be7d1524edb0137599a5cc95f72844b85a52fe1",
+      "title": "LLM.int8(): 8-bit Matrix Multiplication for Transformers at Scale",
+      "year": 2022,
+      "citationCount": 552,
+      "authors": [
+        {
+          "authorId": "3239480",
+          "name": "Tim Dettmers"
+        },
+        {
+          "authorId": "35084211",
+          "name": "M. Lewis"
+        },
+        {
+          "authorId": "2037496520",
+          "name": "Younes Belkada"
+        },
+        {
+          "authorId": "1982950",
+          "name": "Luke Zettlemoyer"
+        }
+      ]
+    },
+    {
+      "paperId": "2ef60a4ea4ea53056be811ff55679eb59fb4b586",
+      "title": "Confident Adaptive Language Modeling",
+      "year": 2022,
+      "citationCount": 142,
+      "authors": [
+        {
+          "authorId": "32303439",
+          "name": "Tal Schuster"
+        },
+        {
+          "authorId": "2064150446",
+          "name": "Adam Fisch"
+        },
+        {
+          "authorId": "143702064",
+          "name": "Jai Gupta"
+        },
+        {
+          "authorId": "3226635",
+          "name": "Mostafa Dehghani"
+        },
+        {
+          "authorId": "2119725651",
+          "name": "Dara Bahri"
+        },
+        {
+          "authorId": "2057663102",
+          "name": "Vinh Q. Tran"
+        },
+        {
+          "authorId": "144447820",
+          "name": "Yi Tay"
+        },
+        {
+          "authorId": "1680617",
+          "name": "Donald Metzler"
+        }
+      ]
+    },
+    {
+      "paperId": "c022f75b00d795c6297d6a9ea948856ea4d365a1",
+      "title": "DeepSpeed- Inference: Enabling Efficient Inference of Transformer Models at Unprecedented Scale",
+      "year": 2022,
+      "citationCount": 254,
+      "authors": [
+        {
+          "authorId": "3394222",
+          "name": "Reza Yazdani Aminabadi"
+        },
+        {
+          "authorId": "32817044",
+          "name": "Samyam Rajbhandari"
+        },
+        {
+          "authorId": "67016465",
+          "name": "Minjia Zhang"
+        },
+        {
+          "authorId": "2942686",
+          "name": "A. A. Awan"
+        },
+        {
+          "authorId": "2133092186",
+          "name": "Cheng Li"
+        },
+        {
+          "authorId": "2174809658",
+          "name": "Du Li"
+        },
+        {
+          "authorId": "123820298",
+          "name": "Elton Zheng"
+        },
+        {
+          "authorId": "3299496",
+          "name": "Jeff Rasley"
+        },
+        {
+          "authorId": "2110486618",
+          "name": "Shaden Smith"
+        },
+        {
+          "authorId": "2537545",
+          "name": "Olatunji Ruwase"
+        },
+        {
+          "authorId": "2145020341",
+          "name": "Yuxiong He"
+        }
+      ]
+    },
+    {
+      "paperId": "87c5b281fa43e6f27191b20a8dd694eda1126336",
+      "title": "FlashAttention: Fast and Memory-Efficient Exact Attention with IO-Awareness",
+      "year": 2022,
+      "citationCount": 1613,
+      "authors": [
+        {
+          "authorId": "24593911",
+          "name": "Tri Dao"
+        },
+        {
+          "authorId": "49577833",
+          "name": "Daniel Y. Fu"
+        },
+        {
+          "authorId": "2490652",
+          "name": "Stefano Ermon"
+        },
+        {
+          "authorId": "1755572",
+          "name": "A. Rudra"
+        },
+        {
+          "authorId": "2061444681",
+          "name": "Christopher R'e"
+        }
+      ]
+    },
+    {
+      "paperId": "bc8b82e8eb0b0714892e4ec7a54ebdf47c4fde96",
+      "title": "Reducing Activation Recomputation in Large Transformer Models",
+      "year": 2022,
+      "citationCount": 202,
+      "authors": [
+        {
+          "authorId": "3111334",
+          "name": "V. Korthikanti"
+        },
+        {
+          "authorId": "48991386",
+          "name": "J. Casper"
+        },
+        {
+          "authorId": "3448779",
+          "name": "Sangkug Lym"
+        },
+        {
+          "authorId": "20957879",
+          "name": "Lawrence C. McAfee"
+        },
+        {
+          "authorId": "47304697",
+          "name": "M. Andersch"
+        },
+        {
+          "authorId": "1911755",
+          "name": "M. Shoeybi"
+        },
+        {
+          "authorId": "2301680",
+          "name": "Bryan Catanzaro"
+        }
+      ]
+    },
+    {
+      "paperId": "094ff971d6a8b8ff870946c9b3ce5aa173617bfb",
+      "title": "PaLM: Scaling Language Modeling with Pathways",
+      "year": 2022,
+      "citationCount": 5454,
+      "authors": [
+        {
+          "authorId": "2841893",
+          "name": "Aakanksha Chowdhery"
+        },
+        {
+          "authorId": "46617804",
+          "name": "Sharan Narang"
+        },
+        {
+          "authorId": "39172707",
+          "name": "Jacob Devlin"
+        },
+        {
+          "authorId": "40377863",
+          "name": "Maarten Bosma"
+        },
+        {
+          "authorId": "2159632445",
+          "name": "Gaurav Mishra"
+        },
+        {
+          "authorId": "145625142",
+          "name": "Adam Roberts"
+        },
+        {
+          "authorId": "152399055",
+          "name": "P. Barham"
+        },
+        {
+          "authorId": "3351938",
+          "name": "Hyung Won Chung"
+        },
+        {
+          "authorId": "152549864",
+          "name": "Charles Sutton"
+        },
+        {
+          "authorId": "3159346",
+          "name": "Sebastian Gehrmann"
+        },
+        {
+          "authorId": "2620528",
+          "name": "Parker Schuh"
+        },
+        {
+          "authorId": "2362367",
+          "name": "Kensen Shi"
+        },
+        {
+          "authorId": "2160888237",
+          "name": "Sasha Tsvyashchenko"
+        },
+        {
+          "authorId": "2124977868",
+          "name": "Joshua Maynez"
+        },
+        {
+          "authorId": "1484043592",
+          "name": "Abhishek Rao"
+        },
+        {
+          "authorId": "80940648",
+          "name": "Parker Barnes"
+        },
+        {
+          "authorId": "144447820",
+          "name": "Yi Tay"
+        },
+        {
+          "authorId": "1846258",
+          "name": "Noam M. Shazeer"
+        },
+        {
+          "authorId": "3331141",
+          "name": "Vinodkumar Prabhakaran"
+        },
+        {
+          "authorId": "49849144",
+          "name": "Emily Reif"
+        },
+        {
+          "authorId": "2140321952",
+          "name": "Nan Du"
+        },
+        {
+          "authorId": "2044655623",
+          "name": "Ben Hutchinson"
+        },
+        {
+          "authorId": "2161431901",
+          "name": "Reiner Pope"
+        },
+        {
+          "authorId": "2065251344",
+          "name": "James Bradbury"
+        },
+        {
+          "authorId": "2058365883",
+          "name": "Jacob Austin"
+        },
+        {
+          "authorId": "2090818",
+          "name": "M. Isard"
+        },
+        {
+          "authorId": "2284681044",
+          "name": "Guy Gur-Ari"
+        },
+        {
+          "authorId": "38253388",
+          "name": "Pengcheng Yin"
+        },
+        {
+          "authorId": "2145151992",
+          "name": "Toju Duke"
+        },
+        {
+          "authorId": "6639036",
+          "name": "Anselm Levskaya"
+        },
+        {
+          "authorId": "1780892",
+          "name": "Sanjay Ghemawat"
+        },
+        {
+          "authorId": "50991767",
+          "name": "Sunipa Dev"
+        },
+        {
+          "authorId": "47407464",
+          "name": "H. Michalewski"
+        },
+        {
+          "authorId": "143936294",
+          "name": "Xavier García"
+        },
+        {
+          "authorId": "40055795",
+          "name": "Vedant Misra"
+        },
+        {
+          "authorId": "2148473059",
+          "name": "Kevin Robinson"
+        },
+        {
+          "authorId": "2096916416",
+          "name": "L. Fedus"
+        },
+        {
+          "authorId": "65855107",
+          "name": "Denny Zhou"
+        },
+        {
+          "authorId": "7975935",
+          "name": "Daphne Ippolito"
+        },
+        {
+          "authorId": "150970919",
+          "name": "D. Luan"
+        },
+        {
+          "authorId": "8939217",
+          "name": "Hyeontaek Lim"
+        },
+        {
+          "authorId": "2368067",
+          "name": "Barret Zoph"
+        },
+        {
+          "authorId": "1572884723",
+          "name": "A. Spiridonov"
+        },
+        {
+          "authorId": "35474601",
+          "name": "Ryan Sepassi"
+        },
+        {
+          "authorId": "35363891",
+          "name": "David Dohan"
+        },
+        {
+          "authorId": "3504647",
+          "name": "Shivani Agrawal"
+        },
+        {
+          "authorId": "3175815",
+          "name": "Mark Omernick"
+        },
+        {
+          "authorId": "2555924",
+          "name": "Andrew M. Dai"
+        },
+        {
+          "authorId": "2598683",
+          "name": "Thanumalayan Sankaranarayana Pillai"
+        },
+        {
+          "authorId": "97905921",
+          "name": "Marie Pellat"
+        },
+        {
+          "authorId": "102549875",
+          "name": "Aitor Lewkowycz"
+        },
+        {
+          "authorId": "2057453483",
+          "name": "Erica Moreira"
+        },
+        {
+          "authorId": "48422824",
+          "name": "R. Child"
+        },
+        {
+          "authorId": "2636739",
+          "name": "Oleksandr Polozov"
+        },
+        {
+          "authorId": "3844009",
+          "name": "Katherine Lee"
+        },
+        {
+          "authorId": "2198519",
+          "name": "Zongwei Zhou"
+        },
+        {
+          "authorId": "1524732527",
+          "name": "Xuezhi Wang"
+        },
+        {
+          "authorId": "4125424",
+          "name": "Brennan Saeta"
+        },
+        {
+          "authorId": "2152965375",
+          "name": "Mark Díaz"
+        },
+        {
+          "authorId": "2345617",
+          "name": "Orhan Firat"
+        },
+        {
+          "authorId": "1754926",
+          "name": "Michele Catasta"
+        },
+        {
+          "authorId": "119640649",
+          "name": "Jason Wei"
+        },
+        {
+          "authorId": "1398655031",
+          "name": "K. Meier-Hellstern"
+        },
+        {
+          "authorId": "2396681",
+          "name": "D. Eck"
+        },
+        {
+          "authorId": "48448318",
+          "name": "J. Dean"
+        },
+        {
+          "authorId": "1754497",
+          "name": "Slav Petrov"
+        },
+        {
+          "authorId": "22640071",
+          "name": "Noah Fiedel"
+        }
+      ]
+    },
+    {
+      "paperId": "8342b592fe238f3d230e4959b06fd10153c45db1",
+      "title": "Training Compute-Optimal Large Language Models",
+      "year": 2022,
+      "citationCount": 1609,
+      "authors": [
+        {
+          "authorId": "46616544",
+          "name": "Jordan Hoffmann"
+        },
+        {
+          "authorId": "148016269",
+          "name": "Sebastian Borgeaud"
+        },
+        {
+          "authorId": "1697879",
+          "name": "A. Mensch"
+        },
+        {
+          "authorId": "118801223",
+          "name": "Elena Buchatskaya"
+        },
+        {
+          "authorId": "2072572294",
+          "name": "Trevor Cai"
+        },
+        {
+          "authorId": "2143538252",
+          "name": "Eliza Rutherford"
+        },
+        {
+          "authorId": "40550616",
+          "name": "Diego de Las Casas"
+        },
+        {
+          "authorId": "2234342",
+          "name": "Lisa Anne Hendricks"
+        },
+        {
+          "authorId": "1851564",
+          "name": "Johannes Welbl"
+        },
+        {
+          "authorId": "31993415",
+          "name": "Aidan Clark"
+        },
+        {
+          "authorId": "2146532222",
+          "name": "Tom Hennigan"
+        },
+        {
+          "authorId": "51210148",
+          "name": "Eric Noland"
+        },
+        {
+          "authorId": "2143434227",
+          "name": "Katie Millican"
+        },
+        {
+          "authorId": "47568983",
+          "name": "George van den Driessche"
+        },
+        {
+          "authorId": "2143374656",
+          "name": "Bogdan Damoc"
+        },
+        {
+          "authorId": "40895205",
+          "name": "Aurelia Guy"
+        },
+        {
+          "authorId": "2217144",
+          "name": "Simon Osindero"
+        },
+        {
+          "authorId": "34838386",
+          "name": "K. Simonyan"
+        },
+        {
+          "authorId": "152585800",
+          "name": "Erich Elsen"
+        },
+        {
+          "authorId": "34269227",
+          "name": "Jack W. Rae"
+        },
+        {
+          "authorId": "1689108",
+          "name": "O. Vinyals"
+        },
+        {
+          "authorId": "2175946",
+          "name": "L. Sifre"
+        }
+      ]
+    },
+    {
+      "paperId": "7cbc2a7843411a1768ab762930707af0a3c33a19",
+      "title": "Using DeepSpeed and Megatron to Train Megatron-Turing NLG 530B, A Large-Scale Generative Language Model",
+      "year": 2022,
+      "citationCount": 676,
+      "authors": [
+        {
+          "authorId": "2110486618",
+          "name": "Shaden Smith"
+        },
+        {
+          "authorId": "66870756",
+          "name": "M. Patwary"
+        },
+        {
+          "authorId": "2172095",
+          "name": "Brandon Norick"
+        },
+        {
+          "authorId": "3081566",
+          "name": "P. LeGresley"
+        },
+        {
+          "authorId": "32817044",
+          "name": "Samyam Rajbhandari"
+        },
+        {
+          "authorId": "48991386",
+          "name": "J. Casper"
+        },
+        {
+          "authorId": "49293070",
+          "name": "Zhun Liu"
+        },
+        {
+          "authorId": "9358910",
+          "name": "Shrimai Prabhumoye"
+        },
+        {
+          "authorId": "30647302",
+          "name": "George Zerveas"
+        },
+        {
+          "authorId": "3111334",
+          "name": "V. Korthikanti"
+        },
+        {
+          "authorId": "2151686157",
+          "name": "Elton Zhang"
+        },
+        {
+          "authorId": "48422824",
+          "name": "R. Child"
+        },
+        {
+          "authorId": "3394222",
+          "name": "Reza Yazdani Aminabadi"
+        },
+        {
+          "authorId": "2745589",
+          "name": "J. Bernauer"
+        },
+        {
+          "authorId": "50706785",
+          "name": "Xia Song"
+        },
+        {
+          "authorId": "1911755",
+          "name": "M. Shoeybi"
+        },
+        {
+          "authorId": "2145020341",
+          "name": "Yuxiong He"
+        },
+        {
+          "authorId": "122523478",
+          "name": "Michael Houston"
+        },
+        {
+          "authorId": "40070335",
+          "name": "Saurabh Tiwary"
+        },
+        {
+          "authorId": "2301680",
+          "name": "Bryan Catanzaro"
+        }
+      ]
+    },
+    {
+      "paperId": "b3848d32f7294ec708627897833c4097eb4d8778",
+      "title": "LaMDA: Language Models for Dialog Applications",
+      "year": 2022,
+      "citationCount": 1444,
+      "authors": [
+        {
+          "authorId": "9501591",
+          "name": "R. Thoppilan"
+        },
+        {
+          "authorId": "1490889580",
+          "name": "Daniel De Freitas"
+        },
+        {
+          "authorId": "2115876918",
+          "name": "Jamie Hall"
+        },
+        {
+          "authorId": "1846258",
+          "name": "Noam M. Shazeer"
+        },
+        {
+          "authorId": "1490888815",
+          "name": "Apoorv Kulshreshtha"
+        },
+        {
+          "authorId": "2061550",
+          "name": "Heng-Tze Cheng"
+        },
+        {
+          "authorId": "2150572756",
+          "name": "Alicia Jin"
+        },
+        {
+          "authorId": "2150572221",
+          "name": "Taylor Bos"
+        },
+        {
+          "authorId": "2150777298",
+          "name": "Leslie Baker"
+        },
+        {
+          "authorId": "144708948",
+          "name": "Yu Du"
+        },
+        {
+          "authorId": "1720837956",
+          "name": "Yaguang Li"
+        },
+        {
+          "authorId": "8386466",
+          "name": "Hongrae Lee"
+        },
+        {
+          "authorId": "2115689465",
+          "name": "H. Zheng"
+        },
+        {
+          "authorId": "3010652",
+          "name": "Amin Ghafouri"
+        },
+        {
+          "authorId": "2150572520",
+          "name": "Marcelo Menegali"
+        },
+        {
+          "authorId": "2145438541",
+          "name": "Yanping Huang"
+        },
+        {
+          "authorId": "2048712",
+          "name": "M. Krikun"
+        },
+        {
+          "authorId": "150077954",
+          "name": "Dmitry Lepikhin"
+        },
+        {
+          "authorId": "47901308",
+          "name": "James Qin"
+        },
+        {
+          "authorId": "7167328",
+          "name": "Dehao Chen"
+        },
+        {
+          "authorId": "2145139570",
+          "name": "Yuanzhong Xu"
+        },
+        {
+          "authorId": "2111317372",
+          "name": "Zhifeng Chen"
+        },
+        {
+          "authorId": "145625142",
+          "name": "Adam Roberts"
+        },
+        {
+          "authorId": "40377863",
+          "name": "Maarten Bosma"
+        },
+        {
+          "authorId": "2389316",
+          "name": "Yanqi Zhou"
+        },
+        {
+          "authorId": "2152948655",
+          "name": "Chung-Ching Chang"
+        },
+        {
+          "authorId": "115361655",
+          "name": "I. Krivokon"
+        },
+        {
+          "authorId": "69540629",
+          "name": "W. Rusch"
+        },
+        {
+          "authorId": "144851733",
+          "name": "Marc Pickett"
+        },
+        {
+          "authorId": "1398655031",
+          "name": "K. Meier-Hellstern"
+        },
+        {
+          "authorId": "144844426",
+          "name": "M. Morris"
+        },
+        {
+          "authorId": "2155007",
+          "name": "Tulsee Doshi"
+        },
+        {
+          "authorId": "2150575477",
+          "name": "Renelito Delos Santos"
+        },
+        {
+          "authorId": "2145151992",
+          "name": "Toju Duke"
+        },
+        {
+          "authorId": "152181934",
+          "name": "J. Søraker"
+        },
+        {
+          "authorId": "70326942",
+          "name": "Ben Zevenbergen"
+        },
+        {
+          "authorId": "3331141",
+          "name": "Vinodkumar Prabhakaran"
+        },
+        {
+          "authorId": "2152965375",
+          "name": "Mark Díaz"
+        },
+        {
+          "authorId": "2044655623",
+          "name": "Ben Hutchinson"
+        },
+        {
+          "authorId": "2053872069",
+          "name": "Kristen Olson"
+        },
+        {
+          "authorId": "145142660",
+          "name": "Alejandra Molina"
+        },
+        {
+          "authorId": "1413971055",
+          "name": "Erin Hoffman-John"
+        },
+        {
+          "authorId": "2108300711",
+          "name": "Josh Lee"
+        },
+        {
+          "authorId": "1745337",
+          "name": "Lora Aroyo"
+        },
+        {
+          "authorId": "22167999",
+          "name": "Ravi Rajakumar"
+        },
+        {
+          "authorId": "1724714282",
+          "name": "Alena Butryna"
+        },
+        {
+          "authorId": "48024953",
+          "name": "Matthew Lamm"
+        },
+        {
+          "authorId": "104146486",
+          "name": "V. Kuzmina"
+        },
+        {
+          "authorId": "2067536215",
+          "name": "Joseph Fenton"
+        },
+        {
+          "authorId": "2112929869",
+          "name": "Aaron Cohen"
+        },
+        {
+          "authorId": "144864136",
+          "name": "R. Bernstein"
+        },
+        {
+          "authorId": "2186634",
+          "name": "R. Kurzweil"
+        },
+        {
+          "authorId": "1453482151",
+          "name": "Blaise Aguera-Arcas"
+        },
+        {
+          "authorId": "40498222",
+          "name": "Claire Cui"
+        },
+        {
+          "authorId": "2098130534",
+          "name": "M. Croak"
+        },
+        {
+          "authorId": "2226805",
+          "name": "Ed H. Chi"
+        },
+        {
+          "authorId": "1998340269",
+          "name": "Quoc Le"
+        }
+      ]
+    },
+    {
+      "paperId": "68f141724814839d556a989646194be88641b143",
+      "title": "Scaling Language Models: Methods, Analysis & Insights from Training Gopher",
+      "year": 2021,
+      "citationCount": 1188,
+      "authors": [
+        {
+          "authorId": "34269227",
+          "name": "Jack W. Rae"
+        },
+        {
+          "authorId": "148016269",
+          "name": "Sebastian Borgeaud"
+        },
+        {
+          "authorId": "2072572294",
+          "name": "Trevor Cai"
+        },
+        {
+          "authorId": "2143434227",
+          "name": "Katie Millican"
+        },
+        {
+          "authorId": "46616544",
+          "name": "Jordan Hoffmann"
+        },
+        {
+          "authorId": "2059836321",
+          "name": "Francis Song"
+        },
+        {
+          "authorId": "9958912",
+          "name": "John Aslanides"
+        },
+        {
+          "authorId": "2057025033",
+          "name": "Sarah Henderson"
+        },
+        {
+          "authorId": "81387328",
+          "name": "Roman Ring"
+        },
+        {
+          "authorId": "116494324",
+          "name": "Susannah Young"
+        },
+        {
+          "authorId": "2143538252",
+          "name": "Eliza Rutherford"
+        },
+        {
+          "authorId": "2146532222",
+          "name": "Tom Hennigan"
+        },
+        {
+          "authorId": "10698483",
+          "name": "Jacob Menick"
+        },
+        {
+          "authorId": "51042571",
+          "name": "Albin Cassirer"
+        },
+        {
+          "authorId": "2067745837",
+          "name": "Richard Powell"
+        },
+        {
+          "authorId": "47568983",
+          "name": "George van den Driessche"
+        },
+        {
+          "authorId": "2234342",
+          "name": "Lisa Anne Hendricks"
+        },
+        {
+          "authorId": "94483529",
+          "name": "Maribeth Rauh"
+        },
+        {
+          "authorId": "2421691",
+          "name": "Po-Sen Huang"
+        },
+        {
+          "authorId": "2105840001",
+          "name": "Amelia Glaese"
+        },
+        {
+          "authorId": "1851564",
+          "name": "Johannes Welbl"
+        },
+        {
+          "authorId": "3491117",
+          "name": "Sumanth Dathathri"
+        },
+        {
+          "authorId": "2148653469",
+          "name": "Saffron Huang"
+        },
+        {
+          "authorId": "9960452",
+          "name": "Jonathan Uesato"
+        },
+        {
+          "authorId": "1386957852",
+          "name": "John F. J. Mellor"
+        },
+        {
+          "authorId": "39051054",
+          "name": "I. Higgins"
+        },
+        {
+          "authorId": "3433026",
+          "name": "Antonia Creswell"
+        },
+        {
+          "authorId": "147687624",
+          "name": "Nat McAleese"
+        },
+        {
+          "authorId": "2147235306",
+          "name": "Amy Wu"
+        },
+        {
+          "authorId": "152585800",
+          "name": "Erich Elsen"
+        },
+        {
+          "authorId": "35880964",
+          "name": "Siddhant M. Jayakumar"
+        },
+        {
+          "authorId": "118801223",
+          "name": "Elena Buchatskaya"
+        },
+        {
+          "authorId": "2508525",
+          "name": "D. Budden"
+        },
+        {
+          "authorId": "2146531039",
+          "name": "Esme Sutherland"
+        },
+        {
+          "authorId": "34838386",
+          "name": "K. Simonyan"
+        },
+        {
+          "authorId": "35550664",
+          "name": "Michela Paganini"
+        },
+        {
+          "authorId": "2175946",
+          "name": "L. Sifre"
+        },
+        {
+          "authorId": "2146532326",
+          "name": "Lena Martens"
+        },
+        {
+          "authorId": "1737850",
+          "name": "Xiang Lorraine Li"
+        },
+        {
+          "authorId": "3376845",
+          "name": "A. Kuncoro"
+        },
+        {
+          "authorId": "3208081",
+          "name": "Aida Nematzadeh"
+        },
+        {
+          "authorId": "1980809",
+          "name": "E. Gribovskaya"
+        },
+        {
+          "authorId": "119050937",
+          "name": "Domenic Donato"
+        },
+        {
+          "authorId": "2672644",
+          "name": "Angeliki Lazaridou"
+        },
+        {
+          "authorId": "1697879",
+          "name": "A. Mensch"
+        },
+        {
+          "authorId": "143783339",
+          "name": "Jean-Baptiste Lespiau"
+        },
+        {
+          "authorId": "2010057",
+          "name": "M. Tsimpoukelli"
+        },
+        {
+          "authorId": "84052496",
+          "name": "N. Grigorev"
+        },
+        {
+          "authorId": "40514522",
+          "name": "Doug Fritz"
+        },
+        {
+          "authorId": "2070364520",
+          "name": "Thibault Sottiaux"
+        },
+        {
+          "authorId": "2146532125",
+          "name": "Mantas Pajarskas"
+        },
+        {
+          "authorId": "3408089",
+          "name": "Tobias Pohlen"
+        },
+        {
+          "authorId": "5145075",
+          "name": "Z. Gong"
+        },
+        {
+          "authorId": "1393948967",
+          "name": "Daniel Toyama"
+        },
+        {
+          "authorId": "1413221272",
+          "name": "Cyprien de Masson d'Autume"
+        },
+        {
+          "authorId": "47002813",
+          "name": "Yujia Li"
+        },
+        {
+          "authorId": "114261380",
+          "name": "Tayfun Terzi"
+        },
+        {
+          "authorId": "148305440",
+          "name": "Vladimir Mikulik"
+        },
+        {
+          "authorId": "2256699276",
+          "name": "Igor Babuschkin"
+        },
+        {
+          "authorId": "31993415",
+          "name": "Aidan Clark"
+        },
+        {
+          "authorId": "40550616",
+          "name": "Diego de Las Casas"
+        },
+        {
+          "authorId": "40895205",
+          "name": "Aurelia Guy"
+        },
+        {
+          "authorId": "2115601070",
+          "name": "Chris Jones"
+        },
+        {
+          "authorId": "2065251344",
+          "name": "James Bradbury"
+        },
+        {
+          "authorId": "2124469920",
+          "name": "Matthew G. Johnson"
+        },
+        {
+          "authorId": "3135881",
+          "name": "Blake A. Hechtman"
+        },
+        {
+          "authorId": "51932191",
+          "name": "Laura Weidinger"
+        },
+        {
+          "authorId": "116589025",
+          "name": "Iason Gabriel"
+        },
+        {
+          "authorId": "103087275",
+          "name": "William S. Isaac"
+        },
+        {
+          "authorId": "49860549",
+          "name": "Edward Lockhart"
+        },
+        {
+          "authorId": "2217144",
+          "name": "Simon Osindero"
+        },
+        {
+          "authorId": "2554988",
+          "name": "Laura Rimell"
+        },
+        {
+          "authorId": "1745899",
+          "name": "Chris Dyer"
+        },
+        {
+          "authorId": "1689108",
+          "name": "O. Vinyals"
+        },
+        {
+          "authorId": "34122449",
+          "name": "Kareem W. Ayoub"
+        },
+        {
+          "authorId": "35149729",
+          "name": "J. Stanway"
+        },
+        {
+          "authorId": "121282413",
+          "name": "L. Bennett"
+        },
+        {
+          "authorId": "48987704",
+          "name": "D. Hassabis"
+        },
+        {
+          "authorId": "2645384",
+          "name": "K. Kavukcuoglu"
+        },
+        {
+          "authorId": "2060655766",
+          "name": "G. Irving"
+        }
+      ]
+    },
+    {
+      "paperId": "da0d38cf2ac7e2a6908e0d9e1fff07058daab2ed",
+      "title": "Sparse is Enough in Scaling Transformers",
+      "year": 2021,
+      "citationCount": 95,
+      "authors": [
+        {
+          "authorId": "25898662",
+          "name": "Sebastian Jaszczur"
+        },
+        {
+          "authorId": "2841893",
+          "name": "Aakanksha Chowdhery"
+        },
+        {
+          "authorId": "1579862074",
+          "name": "Afroz Mohiuddin"
+        },
+        {
+          "authorId": "40527594",
+          "name": "Lukasz Kaiser"
+        },
+        {
+          "authorId": "32861932",
+          "name": "Wojciech Gajewski"
+        },
+        {
+          "authorId": "47407464",
+          "name": "H. Michalewski"
+        },
+        {
+          "authorId": "2036077",
+          "name": "Jonni Kanerva"
+        }
+      ]
+    },
+    {
+      "paperId": "8ae292cbd9144acbf4b42b7ead82b079faf33192",
+      "title": "Beyond Distillation: Task-level Mixture-of-Experts for Efficient Inference",
+      "year": 2021,
+      "citationCount": 96,
+      "authors": [
+        {
+          "authorId": "2131614068",
+          "name": "Sneha Kudugunta"
+        },
+        {
+          "authorId": "2145438541",
+          "name": "Yanping Huang"
+        },
+        {
+          "authorId": "12295226",
+          "name": "Ankur Bapna"
+        },
+        {
+          "authorId": "2048712",
+          "name": "M. Krikun"
+        },
+        {
+          "authorId": "150077954",
+          "name": "Dmitry Lepikhin"
+        },
+        {
+          "authorId": "1707242",
+          "name": "Minh-Thang Luong"
+        },
+        {
+          "authorId": "2345617",
+          "name": "Orhan Firat"
+        }
+      ]
+    },
+    {
+      "paperId": "509b16378deec0fb6bbec1d7aeb32a4bdeedddb1",
+      "title": "GSPMD: General and Scalable Parallelization for ML Computation Graphs",
+      "year": 2021,
+      "citationCount": 118,
+      "authors": [
+        {
+          "authorId": "2145139570",
+          "name": "Yuanzhong Xu"
+        },
+        {
+          "authorId": "34946720",
+          "name": "HyoukJoong Lee"
+        },
+        {
+          "authorId": "7167328",
+          "name": "Dehao Chen"
+        },
+        {
+          "authorId": "3135881",
+          "name": "Blake A. Hechtman"
+        },
+        {
+          "authorId": "2145438541",
+          "name": "Yanping Huang"
+        },
+        {
+          "authorId": "2056292299",
+          "name": "Rahul Joshi"
+        },
+        {
+          "authorId": "2048712",
+          "name": "M. Krikun"
+        },
+        {
+          "authorId": "150077954",
+          "name": "Dmitry Lepikhin"
+        },
+        {
+          "authorId": "2064878079",
+          "name": "Andy Ly"
+        },
+        {
+          "authorId": "2090812426",
+          "name": "M. Maggioni"
+        },
+        {
+          "authorId": "34320634",
+          "name": "Ruoming Pang"
+        },
+        {
+          "authorId": "1846258",
+          "name": "Noam M. Shazeer"
+        },
+        {
+          "authorId": "2108553866",
+          "name": "Shibo Wang"
+        },
+        {
+          "authorId": null,
+          "name": "Tao Wang"
+        },
+        {
+          "authorId": "48607963",
+          "name": "Yonghui Wu"
+        },
+        {
+          "authorId": "2111317372",
+          "name": "Zhifeng Chen"
+        }
+      ]
+    },
+    {
+      "paperId": "4267d94ca28170f8bab97888757691f84da09356",
+      "title": "Pareto-Optimal Quantized ResNet Is Mostly 4-bit",
+      "year": 2021,
+      "citationCount": 29,
+      "authors": [
+        {
+          "authorId": "1938271",
+          "name": "AmirAli Abdolrashidi"
+        },
+        {
+          "authorId": "2108552747",
+          "name": "Lisa Wang"
+        },
+        {
+          "authorId": "3504647",
+          "name": "Shivani Agrawal"
+        },
+        {
+          "authorId": "3274291",
+          "name": "J. Malmaud"
+        },
+        {
+          "authorId": "145573927",
+          "name": "Oleg Rybakov"
+        },
+        {
+          "authorId": "108381331",
+          "name": "Chas Leichner"
+        },
+        {
+          "authorId": "2065594000",
+          "name": "Lukasz Lew"
+        }
+      ]
+    },
+    {
+      "paperId": "5e38dc1ccf33ac1df09b8eb6476f110cb3d1966f",
+      "title": "Learning N: M Fine-grained Structured Sparse Neural Networks From Scratch",
+      "year": 2021,
+      "citationCount": 205,
+      "authors": [
+        {
+          "authorId": "9548994",
+          "name": "Aojun Zhou"
+        },
+        {
+          "authorId": "2109238929",
+          "name": "Yukun Ma"
+        },
+        {
+          "authorId": "24925751",
+          "name": "Junnan Zhu"
+        },
+        {
+          "authorId": "2124809722",
+          "name": "Jianbo Liu"
+        },
+        {
+          "authorId": "1490508571",
+          "name": "Zhijie Zhang"
+        },
+        {
+          "authorId": "50492964",
+          "name": "Kun Yuan"
+        },
+        {
+          "authorId": "8397576",
+          "name": "Wenxiu Sun"
+        },
+        {
+          "authorId": "47893312",
+          "name": "Hongsheng Li"
+        }
+      ]
+    },
+    {
+      "paperId": "3fbf6339273c50b04e886fa9bd4ad18c952a683d",
+      "title": "Rethinking Attention with Performers",
+      "year": 2020,
+      "citationCount": 1394,
+      "authors": [
+        {
+          "authorId": "1805203",
+          "name": "K. Choromanski"
+        },
+        {
+          "authorId": "52314889",
+          "name": "Valerii Likhosherstov"
+        },
+        {
+          "authorId": "35363891",
+          "name": "David Dohan"
+        },
+        {
+          "authorId": "32725720",
+          "name": "Xingyou Song"
+        },
+        {
+          "authorId": "3071104",
+          "name": "Andreea Gane"
+        },
+        {
+          "authorId": "2227764",
+          "name": "Tamás Sarlós"
+        },
+        {
+          "authorId": "2052793706",
+          "name": "Peter Hawkins"
+        },
+        {
+          "authorId": "29827891",
+          "name": "Jared Davis"
+        },
+        {
+          "authorId": "1579862074",
+          "name": "Afroz Mohiuddin"
+        },
+        {
+          "authorId": "40527594",
+          "name": "Lukasz Kaiser"
+        },
+        {
+          "authorId": "2636941",
+          "name": "David Belanger"
+        },
+        {
+          "authorId": "2654847",
+          "name": "Lucy J. Colwell"
+        },
+        {
+          "authorId": "145689461",
+          "name": "Adrian Weller"
+        }
+      ]
+    },
+    {
+      "paperId": "48745e3485f84cc5a2dab8e1ce41de0a38afb490",
+      "title": "Efficient Transformer-based Large Scale Language Representations using Hardware-friendly Block Structured Pruning",
+      "year": 2020,
+      "citationCount": 59,
+      "authors": [
+        {
+          "authorId": "2145729424",
+          "name": "Bingbing Li"
+        },
+        {
+          "authorId": "32409528",
+          "name": "Zhenglun Kong"
+        },
+        {
+          "authorId": "3417475",
+          "name": "Tianyun Zhang"
+        },
+        {
+          "authorId": "2118400741",
+          "name": "Ji Li"
+        },
+        {
+          "authorId": "48459506",
+          "name": "Z. Li"
+        },
+        {
+          "authorId": "1390915579",
+          "name": "Hang Liu"
+        },
+        {
+          "authorId": "2881873",
+          "name": "Caiwen Ding"
+        }
+      ]
+    },
+    {
+      "paperId": "9baab08fbe37369856688b2abe5b3c90cce1682c",
+      "title": "Compression of Deep Learning Models for Text: A Survey",
+      "year": 2020,
+      "citationCount": 107,
+      "authors": [
+        {
+          "authorId": "46722320",
+          "name": "Manish Gupta"
+        },
+        {
+          "authorId": "2067432800",
+          "name": "Puneet Agrawal"
+        }
+      ]
+    },
+    {
+      "paperId": "1882f194cb43828852cc052887671e55a80f945a",
+      "title": "GShard: Scaling Giant Models with Conditional Computation and Automatic Sharding",
+      "year": 2020,
+      "citationCount": 960,
+      "authors": [
+        {
+          "authorId": "150077954",
+          "name": "Dmitry Lepikhin"
+        },
+        {
+          "authorId": "34946720",
+          "name": "HyoukJoong Lee"
+        },
+        {
+          "authorId": "2145139570",
+          "name": "Yuanzhong Xu"
+        },
+        {
+          "authorId": "7167328",
+          "name": "Dehao Chen"
+        },
+        {
+          "authorId": "2345617",
+          "name": "Orhan Firat"
+        },
+        {
+          "authorId": "2145438541",
+          "name": "Yanping Huang"
+        },
+        {
+          "authorId": "2048712",
+          "name": "M. Krikun"
+        },
+        {
+          "authorId": "1846258",
+          "name": "Noam M. Shazeer"
+        },
+        {
+          "authorId": "2545358",
+          "name": "Z. Chen"
+        }
+      ]
+    },
+    {
+      "paperId": "ef8d788a904ed66bd8e30ffa69bc3ea1fe57dda7",
+      "title": "HAT: Hardware-Aware Transformers for Efficient Natural Language Processing",
+      "year": 2020,
+      "citationCount": 248,
+      "authors": [
+        {
+          "authorId": "35446689",
+          "name": "Hanrui Wang"
+        },
+        {
+          "authorId": "1390573666",
+          "name": "Zhanghao Wu"
+        },
+        {
+          "authorId": "47781592",
+          "name": "Zhijian Liu"
+        },
+        {
+          "authorId": "2114069742",
+          "name": "Han Cai"
+        },
+        {
+          "authorId": "20515689",
+          "name": "Ligeng Zhu"
+        },
+        {
+          "authorId": "144158271",
+          "name": "Chuang Gan"
+        },
+        {
+          "authorId": "143840275",
+          "name": "Song Han"
+        }
+      ]
+    },
+    {
+      "paperId": "90abbc2cf38462b954ae1b772fac9532e2ccd8b0",
+      "title": "Language Models are Few-Shot Learners",
+      "year": 2020,
+      "citationCount": 35506,
+      "authors": [
+        {
+          "authorId": "31035595",
+          "name": "Tom B. Brown"
+        },
+        {
+          "authorId": "2056658938",
+          "name": "Benjamin Mann"
+        },
+        {
+          "authorId": "39849748",
+          "name": "Nick Ryder"
+        },
+        {
+          "authorId": "2065894334",
+          "name": "Melanie Subbiah"
+        },
+        {
+          "authorId": "152724169",
+          "name": "J. Kaplan"
+        },
+        {
+          "authorId": "6515819",
+          "name": "Prafulla Dhariwal"
+        },
+        {
+          "authorId": "2072676",
+          "name": "Arvind Neelakantan"
+        },
+        {
+          "authorId": "67311962",
+          "name": "Pranav Shyam"
+        },
+        {
+          "authorId": "144864359",
+          "name": "Girish Sastry"
+        },
+        {
+          "authorId": "119609682",
+          "name": "Amanda Askell"
+        },
+        {
+          "authorId": "144517868",
+          "name": "Sandhini Agarwal"
+        },
+        {
+          "authorId": "1404060687",
+          "name": "Ariel Herbert-Voss"
+        },
+        {
+          "authorId": "2064404342",
+          "name": "Gretchen Krueger"
+        },
+        {
+          "authorId": "103143311",
+          "name": "T. Henighan"
+        },
+        {
+          "authorId": "48422824",
+          "name": "R. Child"
+        },
+        {
+          "authorId": "1992922591",
+          "name": "A. Ramesh"
+        },
+        {
+          "authorId": "2052152920",
+          "name": "Daniel M. Ziegler"
+        },
+        {
+          "authorId": "49387725",
+          "name": "Jeff Wu"
+        },
+        {
+          "authorId": "2059411355",
+          "name": "Clemens Winter"
+        },
+        {
+          "authorId": "144239765",
+          "name": "Christopher Hesse"
+        },
+        {
+          "authorId": "2108828435",
+          "name": "Mark Chen"
+        },
+        {
+          "authorId": "2064673055",
+          "name": "Eric Sigler"
+        },
+        {
+          "authorId": "1380985420",
+          "name": "Ma-teusz Litwin"
+        },
+        {
+          "authorId": "145565184",
+          "name": "Scott Gray"
+        },
+        {
+          "authorId": "1490681878",
+          "name": "B. Chess"
+        },
+        {
+          "authorId": "2115193883",
+          "name": "Jack Clark"
+        },
+        {
+          "authorId": "133740015",
+          "name": "Christopher Berner"
+        },
+        {
+          "authorId": "52238703",
+          "name": "Sam McCandlish"
+        },
+        {
+          "authorId": "38909097",
+          "name": "Alec Radford"
+        },
+        {
+          "authorId": "1701686",
+          "name": "I. Sutskever"
+        },
+        {
+          "authorId": "2698777",
+          "name": "Dario Amodei"
+        }
+      ]
+    },
+    {
+      "paperId": "143b0bd73e7e765945e0b8620f84f52878617560",
+      "title": "Successfully Applying the Stabilized Lottery Ticket Hypothesis to the Transformer Architecture",
+      "year": 2020,
+      "citationCount": 37,
+      "authors": [
+        {
+          "authorId": "51518834",
+          "name": "Christopher Brix"
+        },
+        {
+          "authorId": "1872287",
+          "name": "Parnia Bahar"
+        },
+        {
+          "authorId": "145322333",
+          "name": "H. Ney"
+        }
+      ]
+    },
+    {
+      "paperId": "2573af4e13d9a5dddb257d22cd38a600528d9a8b",
+      "title": "MobileBERT: a Compact Task-Agnostic BERT for Resource-Limited Devices",
+      "year": 2020,
+      "citationCount": 745,
+      "authors": [
+        {
+          "authorId": "48064856",
+          "name": "Zhiqing Sun"
+        },
+        {
+          "authorId": "40244451",
+          "name": "Hongkun Yu"
+        },
+        {
+          "authorId": "1718192",
+          "name": "Xiaodan Song"
+        },
+        {
+          "authorId": "2112354219",
+          "name": "Renjie Liu"
+        },
+        {
+          "authorId": "35729970",
+          "name": "Yiming Yang"
+        },
+        {
+          "authorId": "65855107",
+          "name": "Denny Zhou"
+        }
+      ]
+    },
+    {
+      "paperId": "657329c633709dd1ac34a30d57341b186b1a47c2",
+      "title": "Efficient Content-Based Sparse Attention with Routing Transformers",
+      "year": 2020,
+      "citationCount": 550,
+      "authors": [
+        {
+          "authorId": "39788470",
+          "name": "Aurko Roy"
+        },
+        {
+          "authorId": "2814161",
+          "name": "M. Saffar"
+        },
+        {
+          "authorId": "40348417",
+          "name": "Ashish Vaswani"
+        },
+        {
+          "authorId": "2529182",
+          "name": "David Grangier"
+        }
+      ]
+    },
+    {
+      "paperId": "8771679aac0e90371340bd8c657317f5be113e81",
+      "title": "Train Large, Then Compress: Rethinking Model Size for Efficient Training and Inference of Transformers",
+      "year": 2020,
+      "citationCount": 147,
+      "authors": [
+        {
+          "authorId": "2276422",
+          "name": "Zhuohan Li"
+        },
+        {
+          "authorId": "145217343",
+          "name": "Eric Wallace"
+        },
+        {
+          "authorId": "2191455",
+          "name": "Sheng Shen"
+        },
+        {
+          "authorId": "48085802",
+          "name": "Kevin Lin"
+        },
+        {
+          "authorId": "1732330",
+          "name": "K. Keutzer"
+        },
+        {
+          "authorId": "38666915",
+          "name": "D. Klein"
+        },
+        {
+          "authorId": "49988044",
+          "name": "Joseph E. Gonzalez"
+        }
+      ]
+    },
+    {
+      "paperId": "e6c561d02500b2596a230b341a8eb8b921ca5bf2",
+      "title": "Scaling Laws for Neural Language Models",
+      "year": 2020,
+      "citationCount": 3704,
+      "authors": [
+        {
+          "authorId": "152724169",
+          "name": "J. Kaplan"
+        },
+        {
+          "authorId": "52238703",
+          "name": "Sam McCandlish"
+        },
+        {
+          "authorId": "103143311",
+          "name": "T. Henighan"
+        },
+        {
+          "authorId": "31035595",
+          "name": "Tom B. Brown"
+        },
+        {
+          "authorId": "1490681878",
+          "name": "B. Chess"
+        },
+        {
+          "authorId": "48422824",
+          "name": "R. Child"
+        },
+        {
+          "authorId": "145565184",
+          "name": "Scott Gray"
+        },
+        {
+          "authorId": "38909097",
+          "name": "Alec Radford"
+        },
+        {
+          "authorId": "49387725",
+          "name": "Jeff Wu"
+        },
+        {
+          "authorId": "2698777",
+          "name": "Dario Amodei"
+        }
+      ]
+    },
+    {
+      "paperId": "055fd6a9f7293269f1b22c1470e63bd02d8d9500",
+      "title": "Reformer: The Efficient Transformer",
+      "year": 2020,
+      "citationCount": 2124,
+      "authors": [
+        {
+          "authorId": "143808231",
+          "name": "Nikita Kitaev"
+        },
+        {
+          "authorId": "40527594",
+          "name": "Lukasz Kaiser"
+        },
+        {
+          "authorId": "6639036",
+          "name": "Anselm Levskaya"
+        }
+      ]
+    },
+    {
+      "paperId": "dc52b09089704ebd6f471177474bc29741c50023",
+      "title": "Fast Transformer Decoding: One Write-Head is All You Need",
+      "year": 2019,
+      "citationCount": 357,
+      "authors": [
+        {
+          "authorId": "1846258",
+          "name": "Noam M. Shazeer"
+        }
+      ]
+    },
+    {
+      "paperId": "ce106590145e89ea4b621c99665862967ccf5dac",
+      "title": "Q8BERT: Quantized 8Bit BERT",
+      "year": 2019,
+      "citationCount": 482,
+      "authors": [
+        {
+          "authorId": "1387202086",
+          "name": "Ofir Zafrir"
+        },
+        {
+          "authorId": "3150063",
+          "name": "Guy Boudoukh"
+        },
+        {
+          "authorId": "2477428",
+          "name": "Peter Izsak"
+        },
+        {
+          "authorId": "2134755",
+          "name": "Moshe Wasserblat"
+        }
+      ]
+    },
+    {
+      "paperId": "70fe1f854bc59092ded4bf2939a6624a80e5e4c3",
+      "title": "ZeRO: Memory Optimization Towards Training A Trillion Parameter Models",
+      "year": 2019,
+      "citationCount": 630,
+      "authors": [
+        {
+          "authorId": "32817044",
+          "name": "Samyam Rajbhandari"
+        },
+        {
+          "authorId": "3299496",
+          "name": "Jeff Rasley"
+        },
+        {
+          "authorId": "2537545",
+          "name": "Olatunji Ruwase"
+        },
+        {
+          "authorId": "2145020341",
+          "name": "Yuxiong He"
+        }
+      ]
+    },
+    {
+      "paperId": "a54b56af24bb4873ed0163b77df63b92bd018ddc",
+      "title": "DistilBERT, a distilled version of BERT: smaller, faster, cheaper and lighter",
+      "year": 2019,
+      "citationCount": 6714,
+      "authors": [
+        {
+          "authorId": "51918868",
+          "name": "Victor Sanh"
+        },
+        {
+          "authorId": "1380459402",
+          "name": "Lysandre Debut"
+        },
+        {
+          "authorId": "40811585",
+          "name": "Julien Chaumond"
+        },
+        {
+          "authorId": "50335211",
+          "name": "Thomas Wolf"
+        }
+      ]
+    },
+    {
+      "paperId": "8323c591e119eb09b28b29fd6c7bc76bd889df7a",
+      "title": "Megatron-LM: Training Multi-Billion Parameter Language Models Using Model Parallelism",
+      "year": 2019,
+      "citationCount": 1603,
+      "authors": [
+        {
+          "authorId": "1911755",
+          "name": "M. Shoeybi"
+        },
+        {
+          "authorId": "66870756",
+          "name": "M. Patwary"
+        },
+        {
+          "authorId": "41158993",
+          "name": "Raul Puri"
+        },
+        {
+          "authorId": "3081566",
+          "name": "P. LeGresley"
+        },
+        {
+          "authorId": "48991386",
+          "name": "J. Casper"
+        },
+        {
+          "authorId": "2301680",
+          "name": "Bryan Catanzaro"
+        }
+      ]
+    },
+    {
+      "paperId": "f4238bd2385a52413ccbacfd9e409a650235bd13",
+      "title": "Adaptive Attention Span in Transformers",
+      "year": 2019,
+      "citationCount": 273,
+      "authors": [
+        {
+          "authorId": "2265067",
+          "name": "Sainbayar Sukhbaatar"
+        },
+        {
+          "authorId": "3024698",
+          "name": "Edouard Grave"
+        },
+        {
+          "authorId": "2329288",
+          "name": "Piotr Bojanowski"
+        },
+        {
+          "authorId": "2319608",
+          "name": "Armand Joulin"
+        }
+      ]
+    },
+    {
+      "paperId": "21da617a0f79aabf94272107184606cefe90ab75",
+      "title": "Generating Long Sequences with Sparse Transformers",
+      "year": 2019,
+      "citationCount": 1716,
+      "authors": [
+        {
+          "authorId": "48422824",
+          "name": "R. Child"
+        },
+        {
+          "authorId": "145565184",
+          "name": "Scott Gray"
+        },
+        {
+          "authorId": "38909097",
+          "name": "Alec Radford"
+        },
+        {
+          "authorId": "1701686",
+          "name": "I. Sutskever"
+        }
+      ]
+    },
+    {
+      "paperId": "a8e1b91b0940a539aca302fb4e5c1f098e4e3860",
+      "title": "LQ-Nets: Learned Quantization for Highly Accurate and Compact Deep Neural Networks",
+      "year": 2018,
+      "citationCount": 675,
+      "authors": [
+        {
+          "authorId": "2109552037",
+          "name": "Dongqing Zhang"
+        },
+        {
+          "authorId": "2109732576",
+          "name": "Jiaolong Yang"
+        },
+        {
+          "authorId": "51150243",
+          "name": "Dongqiangzi Ye"
+        },
+        {
+          "authorId": "144988571",
+          "name": "G. Hua"
+        }
+      ]
+    },
+    {
+      "paperId": "510e26733aaff585d65701b9f1be7ca9d5afc586",
+      "title": "Outrageously Large Neural Networks: The Sparsely-Gated Mixture-of-Experts Layer",
+      "year": 2017,
+      "citationCount": 2197,
+      "authors": [
+        {
+          "authorId": "1846258",
+          "name": "Noam M. Shazeer"
+        },
+        {
+          "authorId": "1861312",
+          "name": "Azalia Mirhoseini"
+        },
+        {
+          "authorId": "50351613",
+          "name": "Krzysztof Maziarz"
+        },
+        {
+          "authorId": "36347083",
+          "name": "Andy Davis"
+        },
+        {
+          "authorId": "2827616",
+          "name": "Quoc V. Le"
+        },
+        {
+          "authorId": "1695689",
+          "name": "Geoffrey E. Hinton"
+        },
+        {
+          "authorId": "48448318",
+          "name": "J. Dean"
+        }
+      ]
+    },
+    {
+      "paperId": "8aa5d3201c293d29a6702afa0ea2354d53d5bf3f",
+      "title": "Collective communication: theory, practice, and experience",
+      "year": 2007,
+      "citationCount": 279,
+      "authors": [
+        {
+          "authorId": "2534720",
+          "name": "E. Chan"
+        },
+        {
+          "authorId": "21526335",
+          "name": "M. Heimlich"
+        },
+        {
+          "authorId": "2416890",
+          "name": "A. Purkayastha"
+        },
+        {
+          "authorId": "9151878",
+          "name": "R. V. D. Geijn"
+        }
+      ]
+    },
+    {
+      "paperId": null,
+      "title": "Aqt: Accurate quantized training)",
+      "year": 2022,
+      "citationCount": null,
+      "authors": []
+    },
+    {
+      "paperId": null,
+      "title": "GPT-J-6B: A 6 Billion Parameter Autoregressive Language Model",
+      "year": 2021,
+      "citationCount": null,
+      "authors": []
+    },
+    {
+      "paperId": null,
+      "title": "JAX: Composable transformations of Python+NumPy programs",
+      "year": 2018,
+      "citationCount": null,
+      "authors": []
+    },
+    {
+      "paperId": "6a630ac89d7c0a57eb7bf4cb30dd5946bcf3ccce",
+      "title": "google,我,萨娜",
+      "year": 2006,
+      "citationCount": 6126,
+      "authors": [
+        {
+          "authorId": "52280303",
+          "name": "方华"
+        }
+      ]
+    },
+    {
+      "paperId": "433e1601d67edb974af2d30fe353b54142b1cc59",
+      "title": "The MPI Message Passing Interface Standard",
+      "year": 1994,
+      "citationCount": 147,
+      "authors": [
+        {
+          "authorId": "6362145",
+          "name": "Lyndon J. Clarke"
+        },
+        {
+          "authorId": "3184188",
+          "name": "I. Glendinning"
+        },
+        {
+          "authorId": "1773825",
+          "name": "R. Hempel"
+        }
+      ]
+    },
+    {
+      "paperId": "5a1d1b6d18b80e9393671cb57257bc985e2efb5b",
+      "title": "Programming Environments for Massively Parallel Distributed Systems",
+      "year": 1994,
+      "citationCount": 98,
+      "authors": [
+        {
+          "authorId": "15097157",
+          "name": "K. M. Decker"
+        },
+        {
+          "authorId": "32138127",
+          "name": "R. Rehmann"
+        }
+      ]
+    },
+    {
+      "paperId": "a40614033be2c4f6dd17bcd420a044f6381874c9",
+      "title": "MPI: A message - passing interface standard",
+      "year": 1994,
+      "citationCount": 3576,
+      "authors": [
+        {
+          "authorId": "1397171013",
+          "name": "Message Passing Interface Forum"
+        }
+      ]
+    },
+    {
+      "paperId": "1d27a56a8133f947a5a0217b00241d26f585f834",
+      "title": "This paper is included in the Proceedings of the 16th USENIX Symposium on Operating Systems Design and Implementation.",
+      "year": null,
+      "citationCount": 141,
+      "authors": [
+        {
+          "authorId": "2149970173",
+          "name": "Lianmin Zheng"
+        },
+        {
+          "authorId": "2141335450",
+          "name": "Zhuohan Li"
+        },
+        {
+          "authorId": "2344837252",
+          "name": "UC Hao Zhang"
+        },
+        {
+          "authorId": "2152482391",
+          "name": "Yonghao Zhuang"
+        },
+        {
+          "authorId": "2288865069",
+          "name": "Zhifeng Chen"
+        },
+        {
+          "authorId": "2344837161",
+          "name": "Google Yanping Huang"
+        },
+        {
+          "authorId": "2344837159",
+          "name": "Amazon Yida Wang"
+        },
+        {
+          "authorId": "2313936716",
+          "name": "Web Services"
+        },
+        {
+          "authorId": "2344837249",
+          "name": "Google Yuanzhong Xu"
+        },
+        {
+          "authorId": "2271430880",
+          "name": "Danyang Zhuo"
+        },
+        {
+          "authorId": "2243336934",
+          "name": "Eric P. Xing"
+        },
+        {
+          "authorId": "2284969362",
+          "name": "Joseph E. Gonzalez"
+        },
+        {
+          "authorId": "2055174324",
+          "name": "Ion Stoica"
+        },
+        {
+          "authorId": "2285241527",
+          "name": "Uc Berkeley"
+        },
+        {
+          "authorId": "2288874340",
+          "name": "Amazon Web Services"
+        },
+        {
+          "authorId": "2271850438",
+          "name": "Google"
+        }
+      ]
+    },
+    {
+      "paperId": null,
+      "title": "Effective transformer. https:// github.com/bytedance/effective trans former)",
+      "year": null,
+      "citationCount": null,
+      "authors": []
+    },
+    {
+      "paperId": null,
+      "title": "Efficiently Scaling Transformer Inference",
+      "year": null,
+      "citationCount": null,
+      "authors": []
+    },
+    {
+      "paperId": null,
+      "title": "FasterTransformer",
+      "year": null,
+      "citationCount": null,
+      "authors": []
+    }
+  ]
+}

@@ -2,9 +2,10 @@ import asyncio
 import logging
 from datetime import datetime
 from fastapi import APIRouter, Query, HTTPException
-from typing import List
+from typing import List, Dict, Any
 import json
 import os
+from pathlib import Path
 
 # 这里的 import 需要根据你的项目实际结构做调整
 from config import (
@@ -114,6 +115,61 @@ async def check_local_data(query: str) -> tuple[bool, set, int]:
     except Exception as e:
         logger.error(f"检查本地数据时出错: {str(e)}")
         return False, set(), 0
+
+def generate_simplified_paper_txt(papers: List[Dict[Any, Any]], output_path: Path) -> None:
+    """
+    生成简化版的论文信息txt文件，只保留前150篇高分论文
+    
+    Args:
+        papers: 论文列表
+        output_path: 输出路径
+    """
+    # 按score降序排序
+    sorted_papers = sorted(papers, key=lambda x: x.get('score', 0), reverse=True)
+    
+    # 只取前150篇
+    top_papers = sorted_papers[:150]
+    
+    # 准备简化的论文数据
+    simplified_papers = []
+    for paper in top_papers:
+        # 提取作者名字列表
+        author_names = [author['name'] for author in paper.get('authors', [])]
+        
+        # 处理发布日期：如果 publicationDate 为空，则使用 year
+        pub_date = paper.get('publicationDate')
+        if not pub_date and paper.get('year'):
+            pub_date = f"{paper['year']}-01-01"  # 使用年份的第一天作为默认日期
+        
+        # 构建简化的论文对象
+        simplified_paper = {
+            'title': paper.get('title', ''),
+            'abstract': paper.get('abstract', ''),
+            'publicationDate': pub_date,
+            'authors': author_names,
+            'score': paper.get('score', 0)
+        }
+        simplified_papers.append(simplified_paper)
+    
+    # 写入txt文件
+    with open(output_path, 'w', encoding='utf-8') as f:
+        for paper in simplified_papers:
+            # 格式化输出
+            paper_str = "{\n"
+            paper_str += f"    title: {paper['title']},\n"
+            paper_str += f"    abstract: {paper['abstract']},\n"
+            paper_str += f"    publicationDate: {paper['publicationDate']},\n"
+            paper_str += f"    authors: {paper['authors']},\n"
+            paper_str += f"    score: {paper['score']}\n"
+            paper_str += "},\n"
+            f.write(paper_str)
+            
+    logger.info(f"""
+====== 生成精简版论文数据 ======
+位置: {output_path}
+论文数量: {len(simplified_papers)} (从 {len(papers)} 篇中选取前150篇)
+分数范围: {simplified_papers[0]['score']:.2f} - {simplified_papers[-1]['score']:.2f}
+    """)
 
 @router.get("/search_papers")
 async def search_papers(
@@ -378,6 +434,22 @@ async def search_papers(
 
                 processed_papers.sort(key=lambda x: x.get("score", 0), reverse=True)
 
+                # 在保存papers.json之后，生成简化版txt文件
+                query_dir = Path(QUERIES_DIR) / query
+                if not query_dir.exists():
+                    query_dir.mkdir(parents=True)
+                
+                # 保存原始json文件
+                papers_json_path = query_dir / "papers.json"
+                with open(papers_json_path, 'w', encoding='utf-8') as f:
+                    json.dump(qualified_papers, f, ensure_ascii=False, indent=2)
+                    
+                # 生成简化版txt文件
+                papers_txt_path = query_dir / "papers.txt"
+                generate_simplified_paper_txt(qualified_papers, papers_txt_path)
+                
+                logger.info(f"Generated simplified papers.txt at {papers_txt_path}")
+
                 # 返回搜索结果
                 return {
                     "query": query,
@@ -417,7 +489,7 @@ async def search_papers_offline(
     min_citations: int = None,
     top_k: int = 60,
     min_score: float = MIN_SCORE_THRESHOLD
-) -> dict:
+):
     """
     从本地数据中检索论文
     
@@ -532,6 +604,17 @@ async def search_papers_offline(
         返回结果数: {len(results)}
         """)
         
+        # 在返回结果之前，生成简化版txt文件
+        query_dir = Path(QUERIES_DIR) / query
+        papers_txt_path = query_dir / "papers.txt"
+        generate_simplified_paper_txt(qualified_papers, papers_txt_path)
+        
+        logger.info(f"""
+====== 生成精简版论文数据 ======
+位置: {papers_txt_path}
+论文数量: {len(qualified_papers)}
+        """)
+        
         return {
             "query": query,
             "total_available": len(all_papers),
@@ -542,8 +625,8 @@ async def search_papers_offline(
         }
         
     except Exception as e:
-        logger.error(f"离线检索出错: {str(e)}")
-        raise HTTPException(status_code=500, detail=f"离线检索失败: {str(e)}")
+        logger.error(f"离线搜索失败: {str(e)}")
+        raise HTTPException(status_code=500, detail=str(e))
 
 async def get_citation_networks(query: str, papers: list, required_count: int = NETWORK_CACHE_SIZE) -> dict:
     """渐进式获取引用网络数据"""

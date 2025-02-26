@@ -93,19 +93,16 @@ const CitationNetwork = ({
 
         // 创建力导向图(仅在这部分做布局的改动)
         const simulation = d3.forceSimulation(data.nodes)
-            // 1. 连接力 - 控制有连线节点之间的距离
+            // 调整节点间的斥力，减小 strength 值会让节点更聚集
+            .force("charge", d3.forceManyBody().strength(-150))  // 原来可能是 -500 或更大的负值
+            
+            // 调整中心引力，增大 strength 值会让节点更靠近中心
+            .force("center", d3.forceCenter(width / 2, height / 2).strength(0.3))  // 增加 strength
+            
+            // 调整连接线的长度，减小 distance 值会让相连的节点距离更近
             .force("link", d3.forceLink(data.edges)
                 .id(d => d.id)
-                .distance(200)  
-                .strength(0.4)
-            )
-            // 2. 电荷力 - 排斥/吸引
-            .force("charge", d3.forceManyBody()
-                .strength(-3000)   // 负值表示排斥,可调大以让节点更分散
-                .distanceMax(500) // 排斥力作用范围上限
-            )
-            // 3. 中心力 - 将所有节点往中心拉
-            .force("center", d3.forceCenter(width / 2, height / 2))
+                .distance(50))  // 原来可能是 100 或更大值
             // 4. 碰撞力 - 防止节点重叠
             .force("collision", d3.forceCollide()
                 .radius(d => {
