@@ -14,9 +14,12 @@ from config import (
     MAX_PARALLEL_REQUESTS,
     SEARCH_MODE,
     QUERIES_DIR,
-    SearchMode,  # 添加这个导入
+    SearchMode,
     NETWORK_CACHE_SIZE,
-    NETWORK_MINIMUM_REQUIRED
+    NETWORK_MINIMUM_REQUIRED,
+    SERVER_URL,
+    ACCESS_TOKEN,
+    REMOTE_FOLDER
 )
 from app.services.fetcher import (
     get_client,
@@ -25,9 +28,13 @@ from app.services.fetcher import (
 )
 from app.services.scorer import calculate_paper_score
 from app.routers.paper import get_paper_citations, get_paper_references  # 添加 get_paper_references
+from app.services.file_uploader import FileUploader
 
 logger = logging.getLogger(__name__)
 router = APIRouter()
+
+# 创建上传器实例
+file_uploader = FileUploader(SERVER_URL, ACCESS_TOKEN)
 
 async def save_search_results(query: str, papers: list, paper_networks: dict = None):
     """保存所有搜索结果，不考虑筛选条件"""
@@ -154,7 +161,6 @@ def generate_simplified_paper_txt(papers: List[Dict[Any, Any]], output_path: Pat
     # 写入txt文件
     with open(output_path, 'w', encoding='utf-8') as f:
         for paper in simplified_papers:
-            # 格式化输出
             paper_str = "{\n"
             paper_str += f"    title: {paper['title']},\n"
             paper_str += f"    abstract: {paper['abstract']},\n"
@@ -604,17 +610,17 @@ async def search_papers_offline(
         返回结果数: {len(results)}
         """)
         
-        # 在返回结果之前，生成简化版txt文件
+        # 生成txt文件
         query_dir = Path(QUERIES_DIR) / query
         papers_txt_path = query_dir / "papers.txt"
         generate_simplified_paper_txt(qualified_papers, papers_txt_path)
         
-        logger.info(f"""
-====== 生成精简版论文数据 ======
-位置: {papers_txt_path}
-论文数量: {len(qualified_papers)}
-        """)
-        
+        # 上传文件到远程服务器
+        if file_uploader.upload_file(papers_txt_path, REMOTE_FOLDER):
+            logger.info(f"Successfully uploaded papers.txt for query: {query}")
+        else:
+            logger.error(f"Failed to upload papers.txt for query: {query}")
+            
         return {
             "query": query,
             "total_available": len(all_papers),

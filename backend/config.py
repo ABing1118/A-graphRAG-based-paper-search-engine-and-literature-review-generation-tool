@@ -24,15 +24,22 @@ DEFAULT_FETCH_SIZE = 1000
 MAX_CONCURRENT_REQUESTS = 2  # 最大并发请求数
 REQUEST_INTERVAL = 1.0      # 请求间隔（秒）
 
-# 添加新的配置
+# 搜索模式配置
 SEARCH_MODE = SearchMode.HYBRID  # 默认使用混合模式
+
+# 数据存储路径配置
 DATA_DIR = os.path.join(os.path.dirname(__file__), "data")  # 数据存储目录
 QUERIES_DIR = os.path.join(DATA_DIR, "queries")  # 按查询词存储的目录
+
+# 引用网络缓存配置
+NETWORK_CACHE_SIZE = 200  # 存储更多的引用网络，比如200篇
+NETWORK_MINIMUM_REQUIRED = 100  # 最少需要100篇才能离线使用
+
+# 文件上传配置
+SERVER_URL = "https://hub.comp-teach.qmul.ac.uk/user/jp2021213177/"
+ACCESS_TOKEN = "789ffdb6ea3445dfa8e5cb036d535545"
+REMOTE_FOLDER = "test folder"
 
 # 创建必要的目录
 os.makedirs(DATA_DIR, exist_ok=True)
 os.makedirs(QUERIES_DIR, exist_ok=True)
-
-# 添加配置项
-NETWORK_CACHE_SIZE = 200  # 存储更多的引用网络，比如200篇
-NETWORK_MINIMUM_REQUIRED = 100  # 最少需要100篇才能离线使用
