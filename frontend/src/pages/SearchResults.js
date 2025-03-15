@@ -7,6 +7,7 @@ import Navbar from '../components/common/Navbar';
 import { useLocation, useNavigate } from 'react-router-dom';
 import axios from 'axios';
 import CitationNetwork from '../components/research/CitationNetwork';
+import LiteratureReview from '../components/research/LiteratureReview';
 
 const SearchResults = () => {
   const location = useLocation();
@@ -149,9 +150,7 @@ const SearchResults = () => {
                 />
               )}
               {activeTab === 'review' && (
-                <Box sx={{ p: 2 }}>
-                  <Typography>Literature Review Component (Coming Soon)</Typography>
-                </Box>
+                <LiteratureReview />
               )}
             </Box>
           </Box>
