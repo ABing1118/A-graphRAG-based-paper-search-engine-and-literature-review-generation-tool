@@ -97,7 +97,7 @@ const SearchBar = ({ onSearch, initialQuery = '', showFilters = true }) => {
       >
         <InputBase
           sx={{ ml: 1, flex: 1 }}
-          placeholder="搜索论文..."
+          placeholder="Searching paper..."
           value={query}
           onChange={(e) => setQuery(e.target.value)}
           onFocus={handleInputFocus}
