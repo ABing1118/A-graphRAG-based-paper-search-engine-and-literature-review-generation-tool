@@ -36,9 +36,14 @@ NETWORK_CACHE_SIZE = 200  # 存储更多的引用网络，比如200篇
 NETWORK_MINIMUM_REQUIRED = 100  # 最少需要100篇才能离线使用
 
 # 文件上传配置
+UPLOAD_API_URL = "http://hub.comp-teach.qmul.ac.uk:8011/upload/"  # 使用 HTTP
 SERVER_URL = "https://hub.comp-teach.qmul.ac.uk/user/jp2021213177/"
 ACCESS_TOKEN = "789ffdb6ea3445dfa8e5cb036d535545"
-REMOTE_FOLDER = "test folder"
+
+
+# WebSocket配置
+WS_REVIEW_URL = "wss://hub.comp-teach.qmul.ac.uk/user/jp2021213177/proxy/8011/ws?token=789ffdb6ea3445dfa8e5cb036d535545"
+
 
 # 创建必要的目录
 os.makedirs(DATA_DIR, exist_ok=True)

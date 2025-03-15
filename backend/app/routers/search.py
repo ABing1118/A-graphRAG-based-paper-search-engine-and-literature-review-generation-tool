@@ -19,7 +19,6 @@ from config import (
     NETWORK_MINIMUM_REQUIRED,
     SERVER_URL,
     ACCESS_TOKEN,
-    REMOTE_FOLDER
 )
 from app.services.fetcher import (
     get_client,
@@ -29,12 +28,38 @@ from app.services.fetcher import (
 from app.services.scorer import calculate_paper_score
 from app.routers.paper import get_paper_citations, get_paper_references  # 添加 get_paper_references
 from app.services.file_uploader import FileUploader
+from app.services.review_service import ReviewService
 
 logger = logging.getLogger(__name__)
 router = APIRouter()
 
 # 创建上传器实例
 file_uploader = FileUploader(SERVER_URL, ACCESS_TOKEN)
+
+# 创建ReviewService实例
+review_service = ReviewService()
+
+# 在适当的地方启动WebSocket客户端
+@router.on_event("startup")
+async def startup_event():
+    asyncio.create_task(review_service.start_websocket_client())
+
+# 添加一个新的路由来获取review
+@router.get("/review")
+async def get_review():
+    review = await review_service.get_current_review()
+    if review:
+        return {"review": review}
+    return {"message": "Review not available yet"}
+
+# 在上传文件成功后，可以添加review监听器
+async def handle_new_review(review_content):
+    """处理新的review内容"""
+    logger.info(f"Received new review: {review_content[:100]}...")  # 只记录前100个字符
+    # 这里可以添加其他处理逻辑
+
+# 在适当的初始化位置添加监听器
+review_service.add_review_listener(handle_new_review)
 
 async def save_search_results(query: str, papers: list, paper_networks: dict = None):
     """保存所有搜索结果，不考虑筛选条件"""
@@ -616,7 +641,7 @@ async def search_papers_offline(
         generate_simplified_paper_txt(qualified_papers, papers_txt_path)
         
         # 上传文件到远程服务器
-        if file_uploader.upload_file(papers_txt_path, REMOTE_FOLDER):
+        if file_uploader.upload_file(papers_txt_path):
             logger.info(f"Successfully uploaded papers.txt for query: {query}")
         else:
             logger.error(f"Failed to upload papers.txt for query: {query}")
