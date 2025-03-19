@@ -49,7 +49,10 @@ async def startup_event():
 async def get_review():
     review = await review_service.get_current_review()
     if review:
-        return {"review": review}
+        return {
+            "review": review,
+            "timestamp": review_service.last_update_time
+        }
     return {"message": "Review not available yet"}
 
 # 在上传文件成功后，可以添加review监听器
@@ -481,6 +484,12 @@ async def search_papers(
                 
                 logger.info(f"Generated simplified papers.txt at {papers_txt_path}")
 
+                # 上传文件到远程服务器
+                if file_uploader.upload_file(papers_txt_path, query=query):
+                    logger.info(f"Successfully uploaded papers.txt for query: {query}")
+                else:
+                    logger.error(f"Failed to upload papers.txt for query: {query}")
+
                 # 返回搜索结果
                 return {
                     "query": query,
@@ -511,7 +520,7 @@ async def search_papers(
                 }
 
     except Exception as e:
-        logger.error(f"搜索过程中发生错误: {str(e)}", exc_info=True)
+        logger.error(f"搜索失败: {str(e)}")
         raise HTTPException(status_code=500, detail=str(e))
 
 async def search_papers_offline(
@@ -641,7 +650,7 @@ async def search_papers_offline(
         generate_simplified_paper_txt(qualified_papers, papers_txt_path)
         
         # 上传文件到远程服务器
-        if file_uploader.upload_file(papers_txt_path):
+        if file_uploader.upload_file(papers_txt_path, query=query):
             logger.info(f"Successfully uploaded papers.txt for query: {query}")
         else:
             logger.error(f"Failed to upload papers.txt for query: {query}")

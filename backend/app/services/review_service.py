@@ -2,6 +2,7 @@ import websockets
 import asyncio
 import logging
 import ssl
+import time
 from config import WS_REVIEW_URL
 
 logger = logging.getLogger(__name__)
@@ -12,6 +13,7 @@ class ReviewService:
         self.ws_url = WS_REVIEW_URL  # 直接使用配置的 URL，不需要替换
         self.review_listeners = []
         self.current_review = None  # 存储最新的 review 内容
+        self.last_update_time = None  # 添加时间戳
         
         # 创建 SSL 上下文
         self.ssl_context = ssl.SSLContext(ssl.PROTOCOL_TLS_CLIENT)
@@ -47,6 +49,7 @@ class ReviewService:
                         try:
                             review_content = await websocket.recv()
                             self.current_review = review_content
+                            self.last_update_time = int(time.time() * 1000)  # 更新时间戳
                             # 通知所有监听器
                             for listener in self.review_listeners:
                                 await listener(review_content)
