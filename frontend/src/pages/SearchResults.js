@@ -150,7 +150,7 @@ const SearchResults = () => {
                 />
               )}
               {activeTab === 'review' && (
-                <LiteratureReview />
+                <LiteratureReview query={searchQuery} />
               )}
             </Box>
           </Box>
