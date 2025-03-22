@@ -5,6 +5,24 @@ import ReactMarkdown from 'react-markdown';
 import remarkGfm from 'remark-gfm';  // 支持 GitHub Flavored Markdown
 import rehypeHighlight from 'rehype-highlight';  // 代码高亮
 
+// 自定义组件来处理列表项
+const ListItemRenderer = ({ node, ...props }) => {
+  return (
+    <li style={{ marginBottom: '1rem' }}>
+      {props.children}
+    </li>
+  );
+};
+
+// 自定义组件来处理段落
+const ParagraphRenderer = ({ node, ...props }) => {
+  return (
+    <p style={{ marginBottom: '1rem' }}>
+      {props.children}
+    </p>
+  );
+};
+
 const LiteratureReview = ({ query }) => {
     const [review, setReview] = useState(null);
     const [loading, setLoading] = useState(true);
@@ -51,6 +69,42 @@ const LiteratureReview = ({ query }) => {
         
     }, [query, currentQuery, lastReviewTimestamp]);
 
+    // 预处理文本函数
+    const preprocessMarkdown = (text) => {
+        if (!text) return '';
+        
+        // 将文本分割成行
+        const lines = text.split('\n');
+        const result = [];
+        
+        for (let i = 0; i < lines.length; i++) {
+            const line = lines[i].trim();
+            
+            // 检查是否是单独的数字列表项（如 "1."）
+            if (/^\d+\.$/.test(line)) {
+                // 确保前面有空行
+                if (result.length > 0 && result[result.length - 1] !== '') {
+                    result.push('');
+                }
+                
+                // 如果下一行存在且不是空行
+                if (i + 1 < lines.length && lines[i + 1].trim() !== '') {
+                    // 合并数字和下一行内容
+                    result.push(`${line} ${lines[i + 1].trim()}`);
+                    i++; // 跳过下一行
+                } else {
+                    // 如果下一行是空行或不存在，只添加数字
+                    result.push(line);
+                }
+            } else {
+                // 不是数字列表项，直接添加
+                result.push(line);
+            }
+        }
+        
+        return result.join('\n');
+    };
+
     if (loading) {
         return (
             <Box sx={{ 
@@ -92,7 +146,6 @@ const LiteratureReview = ({ query }) => {
                 Literature Review for: {query}
             </Typography>
             
-            {/* 使用 ReactMarkdown 渲染 Markdown 格式 */}
             <Box sx={{ 
                 fontFamily: 'serif',
                 lineHeight: 1.8,
@@ -108,7 +161,13 @@ const LiteratureReview = ({ query }) => {
                 '& h5': { fontSize: '1.2rem' },
                 '& h6': { fontSize: '1.1rem' },
                 '& p': { mb: 2 },
-                '& ul, & ol': { ml: 3, mb: 2 },
+                '& ul, & ol': { 
+                    ml: 3, 
+                    mb: 2,
+                    '& li': {
+                        mb: 2  // 增加列表项之间的间距
+                    }
+                },
                 '& blockquote': {
                     borderLeft: '4px solid #ccc',
                     pl: 2,
@@ -136,8 +195,13 @@ const LiteratureReview = ({ query }) => {
                 <ReactMarkdown
                     remarkPlugins={[remarkGfm]}
                     rehypePlugins={[rehypeHighlight]}
+                    components={{
+                        // 自定义组件渲染
+                        li: ListItemRenderer,
+                        p: ParagraphRenderer
+                    }}
                 >
-                    {review}
+                    {preprocessMarkdown(review)}
                 </ReactMarkdown>
             </Box>
         </Box>
