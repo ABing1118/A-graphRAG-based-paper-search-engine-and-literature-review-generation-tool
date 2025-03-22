@@ -1,6 +1,9 @@
 import React, { useState, useEffect } from 'react';
 import { Box, Typography, CircularProgress } from '@mui/material';
 import axios from 'axios';
+import ReactMarkdown from 'react-markdown';
+import remarkGfm from 'remark-gfm';  // 支持 GitHub Flavored Markdown
+import rehypeHighlight from 'rehype-highlight';  // 代码高亮
 
 const LiteratureReview = ({ query }) => {
     const [review, setReview] = useState(null);
@@ -88,15 +91,55 @@ const LiteratureReview = ({ query }) => {
             <Typography variant="h6" sx={{ mb: 2 }}>
                 Literature Review for: {query}
             </Typography>
-            <Typography variant="body1" 
-                sx={{ 
-                    whiteSpace: 'pre-wrap',
-                    fontFamily: 'serif',
-                    lineHeight: 1.8 
-                }}
-            >
-                {review}
-            </Typography>
+            
+            {/* 使用 ReactMarkdown 渲染 Markdown 格式 */}
+            <Box sx={{ 
+                fontFamily: 'serif',
+                lineHeight: 1.8,
+                '& h1, & h2, & h3, & h4, & h5, & h6': {
+                    fontWeight: 'bold',
+                    mt: 3,
+                    mb: 2
+                },
+                '& h1': { fontSize: '2rem' },
+                '& h2': { fontSize: '1.8rem' },
+                '& h3': { fontSize: '1.6rem' },
+                '& h4': { fontSize: '1.4rem' },
+                '& h5': { fontSize: '1.2rem' },
+                '& h6': { fontSize: '1.1rem' },
+                '& p': { mb: 2 },
+                '& ul, & ol': { ml: 3, mb: 2 },
+                '& blockquote': {
+                    borderLeft: '4px solid #ccc',
+                    pl: 2,
+                    fontStyle: 'italic'
+                },
+                '& code': {
+                    fontFamily: 'monospace',
+                    backgroundColor: '#f5f5f5',
+                    p: 0.5,
+                    borderRadius: 1
+                },
+                '& pre': {
+                    backgroundColor: '#f5f5f5',
+                    p: 2,
+                    borderRadius: 1,
+                    overflow: 'auto'
+                },
+                '& strong': {
+                    fontWeight: 'bold'
+                },
+                '& em': {
+                    fontStyle: 'italic'
+                }
+            }}>
+                <ReactMarkdown
+                    remarkPlugins={[remarkGfm]}
+                    rehypePlugins={[rehypeHighlight]}
+                >
+                    {review}
+                </ReactMarkdown>
+            </Box>
         </Box>
     );
 };
