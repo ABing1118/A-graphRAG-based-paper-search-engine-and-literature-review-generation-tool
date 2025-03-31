@@ -47,3 +47,5 @@ npm start
 ### 服务端启动方式可以看以下项目的readme
 
 https://github.com/ABing1118/A-graphRAG-based-paper-search-engine-and-literature-review-generation-tool-Code-on-jupyter-server-
+
+只有三部分全都不报错启动之后，项目才算可以运行
