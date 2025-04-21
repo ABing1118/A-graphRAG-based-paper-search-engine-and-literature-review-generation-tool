@@ -639,9 +639,9 @@ async def search_papers_offline(
                         
         logger.info(f"""
         离线检索完成:
-        总论文数: {len(all_papers)}
-        符合条件数: {len(qualified_papers)}
-        返回结果数: {len(results)}
+        总论文数 all_papers: {len(all_papers)}
+        符合条件数 qualified_papers: {len(qualified_papers)}
+        返回结果数 results: {len(results)}
         """)
         
         # 生成txt文件
