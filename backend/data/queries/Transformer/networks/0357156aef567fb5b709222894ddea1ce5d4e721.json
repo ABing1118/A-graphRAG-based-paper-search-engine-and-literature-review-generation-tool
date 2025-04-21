@@ -1,10 +1,638 @@
 {
   "citations": [
     {
+      "paperId": "5545b818651cf367961f66092b3b96ac89a96fb0",
+      "title": "Accurate Tracking of Arabidopsis Root Cortex Cell Nuclei in 3D Time-Lapse Microscopy Images Based on Genetic Algorithm",
+      "year": 2025,
+      "citationCount": 0,
+      "authors": [
+        {
+          "authorId": "2260844744",
+          "name": "Yu Song"
+        },
+        {
+          "authorId": "2282983577",
+          "name": "Tatsuaki Goh"
+        },
+        {
+          "authorId": "1712217403",
+          "name": "Yinhao Li"
+        },
+        {
+          "authorId": "2355953000",
+          "name": "Jiahua Dong"
+        },
+        {
+          "authorId": "6563254",
+          "name": "Shunsuke Miyashima"
+        },
+        {
+          "authorId": "3153697",
+          "name": "Yutaro Iwamoto"
+        },
+        {
+          "authorId": "2355865242",
+          "name": "Yohei Kondo"
+        },
+        {
+          "authorId": "2355867507",
+          "name": "Keiji Nakajima"
+        },
+        {
+          "authorId": null,
+          "name": "Yen-wei Chen"
+        }
+      ]
+    },
+    {
+      "paperId": "0359d21afc2342adf98a1efde95be6898d66d1f7",
+      "title": "CoMotion: Concurrent Multi-person 3D Motion",
+      "year": 2025,
+      "citationCount": 0,
+      "authors": [
+        {
+          "authorId": "2355649131",
+          "name": "Alejandro Newell"
+        },
+        {
+          "authorId": null,
+          "name": "Peiyun Hu"
+        },
+        {
+          "authorId": "2127067390",
+          "name": "Lahav Lipson"
+        },
+        {
+          "authorId": "2724721",
+          "name": "Stephan R. Richter"
+        },
+        {
+          "authorId": "145231047",
+          "name": "V. Koltun"
+        }
+      ]
+    },
+    {
+      "paperId": "f849902c0836f6760d5497e93dae0eefab8a0e71",
+      "title": "ReferGPT: Towards Zero-Shot Referring Multi-Object Tracking",
+      "year": 2025,
+      "citationCount": 0,
+      "authors": [
+        {
+          "authorId": "2334873026",
+          "name": "Tzoulio Chamiti"
+        },
+        {
+          "authorId": "2304556824",
+          "name": "Leandro Di Bella"
+        },
+        {
+          "authorId": "2267751962",
+          "name": "Adrian Munteanu"
+        },
+        {
+          "authorId": "1782042",
+          "name": "N. Deligiannis"
+        }
+      ]
+    },
+    {
+      "paperId": "2441a2db9680c11d1dd76e9ae1744fcd8e3b5fde",
+      "title": "SAM2MOT: A Novel Paradigm of Multi-Object Tracking by Segmentation",
+      "year": 2025,
+      "citationCount": 0,
+      "authors": [
+        {
+          "authorId": "2354186040",
+          "name": "Junjie Jiang"
+        },
+        {
+          "authorId": "2354151218",
+          "name": "Zelin Wang"
+        },
+        {
+          "authorId": "2354127475",
+          "name": "Manqi Zhao"
+        },
+        {
+          "authorId": "2354197732",
+          "name": "Yin Li"
+        },
+        {
+          "authorId": "2316516611",
+          "name": "Dongsheng Jiang"
+        }
+      ]
+    },
+    {
+      "paperId": "42a32e36dbe0f0a777a87f0d2bd16f07fc206c05",
+      "title": "TQD-Track: Temporal Query Denoising for 3D Multi-Object Tracking",
+      "year": 2025,
+      "citationCount": 0,
+      "authors": [
+        {
+          "authorId": "1491319052",
+          "name": "Shuxiao Ding"
+        },
+        {
+          "authorId": "2354061608",
+          "name": "Yutong Yang"
+        },
+        {
+          "authorId": "2320465852",
+          "name": "Julian Wiederer"
+        },
+        {
+          "authorId": "2320466827",
+          "name": "Markus Braun"
+        },
+        {
+          "authorId": "2220434051",
+          "name": "Peizheng Li"
+        },
+        {
+          "authorId": "2301311112",
+          "name": "Juergen Gall"
+        },
+        {
+          "authorId": "2320656400",
+          "name": "Bin Yang"
+        }
+      ]
+    },
+    {
+      "paperId": "f633ff9be42d66621a571c65994f20c608949e79",
+      "title": "Data-Driven Object Tracking: Integrating Modular Neural Networks into a Kalman Framework",
+      "year": 2025,
+      "citationCount": 0,
+      "authors": [
+        {
+          "authorId": "2353386598",
+          "name": "Christian Alexander Holz"
+        },
+        {
+          "authorId": "2353386139",
+          "name": "Christian Bader"
+        },
+        {
+          "authorId": "2353381106",
+          "name": "Markus Enzweiler"
+        },
+        {
+          "authorId": "2353383298",
+          "name": "Matthias Druppel"
+        }
+      ]
+    },
+    {
+      "paperId": "3f7bbe3578def658d377d46c071dec33c29a13ed",
+      "title": "PolypSegTrack: Unified Foundation Model for Colonoscopy Video Analysis",
+      "year": 2025,
+      "citationCount": 0,
+      "authors": [
+        {
+          "authorId": "33358853",
+          "name": "Anwesa Choudhuri"
+        },
+        {
+          "authorId": "2276185368",
+          "name": "Zhongpai Gao"
+        },
+        {
+          "authorId": "2275991003",
+          "name": "Meng Zheng"
+        },
+        {
+          "authorId": "2755187",
+          "name": "Benjamin Planche"
+        },
+        {
+          "authorId": "2275100185",
+          "name": "Terrence Chen"
+        },
+        {
+          "authorId": "2109685046",
+          "name": "Ziyan Wu"
+        }
+      ]
+    },
+    {
+      "paperId": "c09f7d1610ee03f3365627858fbe0b6d490169c3",
+      "title": "Improving esports viewing experience through hierarchical scene detection and tracking",
+      "year": 2025,
+      "citationCount": 0,
+      "authors": [
+        {
+          "authorId": "2064496261",
+          "name": "Ho-Taek Joo"
+        },
+        {
+          "authorId": "2163204554",
+          "name": "Sungha Lee"
+        },
+        {
+          "authorId": "2223773578",
+          "name": "Insik Chung"
+        },
+        {
+          "authorId": "2338194414",
+          "name": "Kyung-Joong Kim"
+        }
+      ]
+    },
+    {
+      "paperId": "bcfd7357141a2f09e6a8b408bae471d4bb944266",
+      "title": "OptiPMB: Enhancing 3D Multi-Object Tracking with Optimized Poisson Multi-Bernoulli Filtering",
+      "year": 2025,
+      "citationCount": 0,
+      "authors": [
+        {
+          "authorId": "2300285020",
+          "name": "Guanhua Ding"
+        },
+        {
+          "authorId": "2256029663",
+          "name": "Yuxuan Xia"
+        },
+        {
+          "authorId": "2349845753",
+          "name": "Runwei Guan"
+        },
+        {
+          "authorId": "67051233",
+          "name": "Qinchen Wu"
+        },
+        {
+          "authorId": "2350529577",
+          "name": "Tao Huang"
+        },
+        {
+          "authorId": "2274164335",
+          "name": "Weiping Ding"
+        },
+        {
+          "authorId": "2239287466",
+          "name": "Jinping Sun"
+        },
+        {
+          "authorId": "2350512947",
+          "name": "Guoqiang Mao"
+        }
+      ]
+    },
+    {
+      "paperId": "32d9edfa3e3c6141c46a6c1f96405328af1329ce",
+      "title": "History-Aware Transformation of ReID Features for Multiple Object Tracking",
+      "year": 2025,
+      "citationCount": 1,
+      "authors": [
+        {
+          "authorId": "2186303294",
+          "name": "Ruopeng Gao"
+        },
+        {
+          "authorId": "2350520317",
+          "name": "Yuyao Wang"
+        },
+        {
+          "authorId": "2164305686",
+          "name": "Chunxu Liu"
+        },
+        {
+          "authorId": "2293319742",
+          "name": "Limin Wang"
+        }
+      ]
+    },
+    {
+      "paperId": "f025358f9e0190a91106df91ff6ec286d92e455d",
+      "title": "Cognitive Disentanglement for Referring Multi-Object Tracking",
+      "year": 2025,
+      "citationCount": 0,
+      "authors": [
+        {
+          "authorId": "2350448137",
+          "name": "Shaofeng Liang"
+        },
+        {
+          "authorId": "2349845753",
+          "name": "Runwei Guan"
+        },
+        {
+          "authorId": "2350368027",
+          "name": "Wangwang Lian"
+        },
+        {
+          "authorId": "2349712065",
+          "name": "Daizong Liu"
+        },
+        {
+          "authorId": "2349547245",
+          "name": "Xiaolou Sun"
+        },
+        {
+          "authorId": "2350427825",
+          "name": "Dongming Wu"
+        },
+        {
+          "authorId": "2105585150",
+          "name": "Yutao Yue"
+        },
+        {
+          "authorId": "2274164335",
+          "name": "Weiping Ding"
+        },
+        {
+          "authorId": "2302402345",
+          "name": "Hui Xiong"
+        }
+      ]
+    },
+    {
+      "paperId": "9a12178bddbd22ce3ba04ffce1a2863f2b7b220f",
+      "title": "OVTR: End-to-End Open-Vocabulary Multiple Object Tracking with Transformer",
+      "year": 2025,
+      "citationCount": 1,
+      "authors": [
+        {
+          "authorId": "2290239303",
+          "name": "Jinyang Li"
+        },
+        {
+          "authorId": "2290185399",
+          "name": "En Yu"
+        },
+        {
+          "authorId": "2290474088",
+          "name": "Sijia Chen"
+        },
+        {
+          "authorId": "2269141370",
+          "name": "Wenbing Tao"
+        }
+      ]
+    },
+    {
+      "paperId": "732f03b8acd11fb0df4fd71ad55390139672537e",
+      "title": "FDCT: Frequency-Aware Decomposition and Cross-Modal Token-Alignment for Multi-Sensor Target Classification",
+      "year": 2025,
+      "citationCount": 0,
+      "authors": [
+        {
+          "authorId": "2069492532",
+          "name": "S. Sami"
+        },
+        {
+          "authorId": "2153634204",
+          "name": "M. Hasan"
+        },
+        {
+          "authorId": "2239906833",
+          "name": "Nasser M. Nasrabadi"
+        },
+        {
+          "authorId": "2269512771",
+          "name": "Raghuveer Rao"
+        }
+      ]
+    },
+    {
+      "paperId": "ba229ebaf8d735c7cfed98d9805fded5060dfa09",
+      "title": "Video Individual Counting for Moving Drones",
+      "year": 2025,
+      "citationCount": 0,
+      "authors": [
+        {
+          "authorId": "2204361103",
+          "name": "Yao Fan"
+        },
+        {
+          "authorId": "2000542135",
+          "name": "Jia Wan"
+        },
+        {
+          "authorId": "2351865398",
+          "name": "Tao Han"
+        },
+        {
+          "authorId": "2268185736",
+          "name": "Antoni B. Chan"
+        },
+        {
+          "authorId": "2321335754",
+          "name": "Andy J. Ma"
+        }
+      ]
+    },
+    {
+      "paperId": "f0ebcf15cfa7aca8a61af85207caeebf6c35ddda",
+      "title": "From Slices to Sequences: Autoregressive Tracking Transformer for Cohesive and Consistent 3D Lymph Node Detection in CT Scans",
+      "year": 2025,
+      "citationCount": 0,
+      "authors": [
+        {
+          "authorId": "2087411506",
+          "name": "Qinji Yu"
+        },
+        {
+          "authorId": "2130365789",
+          "name": "Yirui Wang"
+        },
+        {
+          "authorId": "2249160126",
+          "name": "K. Yan"
+        },
+        {
+          "authorId": "2335093038",
+          "name": "Dandan Zheng"
+        },
+        {
+          "authorId": "2349517556",
+          "name": "Dashan Ai"
+        },
+        {
+          "authorId": "145889317",
+          "name": "Dazhou Guo"
+        },
+        {
+          "authorId": "2335129728",
+          "name": "Zhanghexuan Ji"
+        },
+        {
+          "authorId": "2332704839",
+          "name": "Yanzhou Su"
+        },
+        {
+          "authorId": "2320275856",
+          "name": "Yun Bian"
+        },
+        {
+          "authorId": "2295513061",
+          "name": "Na Shen"
+        },
+        {
+          "authorId": "2295606893",
+          "name": "Xiaowei Ding"
+        },
+        {
+          "authorId": "2217494329",
+          "name": "Le Lu"
+        },
+        {
+          "authorId": "83447939",
+          "name": "X. Ye"
+        },
+        {
+          "authorId": "2266476481",
+          "name": "Dakai Jin"
+        }
+      ]
+    },
+    {
+      "paperId": "6d73316625733cbce78f0ece20e148d19aed4c04",
+      "title": "Griffin: Aerial-Ground Cooperative Detection and Tracking Dataset and Benchmark",
+      "year": 2025,
+      "citationCount": 0,
+      "authors": [
+        {
+          "authorId": "2349393345",
+          "name": "Jiahao Wang"
+        },
+        {
+          "authorId": "2349777292",
+          "name": "Xiangyu Cao"
+        },
+        {
+          "authorId": "2349555236",
+          "name": "Jiaru Zhong"
+        },
+        {
+          "authorId": "2350419267",
+          "name": "Yuner Zhang"
+        },
+        {
+          "authorId": "2349447077",
+          "name": "Haibao Yu"
+        },
+        {
+          "authorId": "2349400654",
+          "name": "Lei He"
+        },
+        {
+          "authorId": "2349542627",
+          "name": "Shaobing Xu"
+        }
+      ]
+    },
+    {
+      "paperId": "c2ce85724e715d9b90bbcee5e0706a94617da4bf",
+      "title": "CATPlan: Loss-based Collision Prediction in End-to-End Autonomous Driving",
+      "year": 2025,
+      "citationCount": 0,
+      "authors": [
+        {
+          "authorId": "2302767157",
+          "name": "Ziliang Xiong"
+        },
+        {
+          "authorId": "2349818983",
+          "name": "Shipeng Liu"
+        },
+        {
+          "authorId": "2349535730",
+          "name": "Nathaniel Helgesen"
+        },
+        {
+          "authorId": "19173439",
+          "name": "Joakim Johnander"
+        },
+        {
+          "authorId": "1934088",
+          "name": "Per-Erik Forssén"
+        }
+      ]
+    },
+    {
+      "paperId": "fde1636b982b2a8ac8f9b9bb79dccd07d091428c",
+      "title": "CPAny: Couple With Any Encoder to Refer Multi-Object Tracking",
+      "year": 2025,
+      "citationCount": 0,
+      "authors": [
+        {
+          "authorId": "2303325198",
+          "name": "Weize Li"
+        },
+        {
+          "authorId": "2152973598",
+          "name": "Yunhao Du"
+        },
+        {
+          "authorId": "2323575101",
+          "name": "Qixiang Yin"
+        },
+        {
+          "authorId": "2324215021",
+          "name": "Zhicheng Zhao"
+        },
+        {
+          "authorId": "2267244789",
+          "name": "Fei Su"
+        },
+        {
+          "authorId": "2349712063",
+          "name": "Daqi Liu"
+        }
+      ]
+    },
+    {
+      "paperId": "36caf9b0be380831342d114797617942294e1a87",
+      "title": "Omnidirectional Multi-Object Tracking",
+      "year": 2025,
+      "citationCount": 0,
+      "authors": [
+        {
+          "authorId": "2348254368",
+          "name": "Kai Luo"
+        },
+        {
+          "authorId": "2034192426",
+          "name": "Haowen Shi"
+        },
+        {
+          "authorId": "2348816779",
+          "name": "Sheng Wu"
+        },
+        {
+          "authorId": "2281831418",
+          "name": "Fei Teng"
+        },
+        {
+          "authorId": "2348254443",
+          "name": "Mengfei Duan"
+        },
+        {
+          "authorId": "2348970552",
+          "name": "Chang Huang"
+        },
+        {
+          "authorId": "2348944633",
+          "name": "Yuhang Wang"
+        },
+        {
+          "authorId": "2254489051",
+          "name": "Kaiwei Wang"
+        },
+        {
+          "authorId": "8689702",
+          "name": "Kailun Yang"
+        }
+      ]
+    },
+    {
       "paperId": "243534515f3fbb67361522e53303d4040ec7a835",
       "title": "Exploring the synergies of hybrid convolutional neural network and Vision Transformer architectures for computer vision: A survey",
       "year": 2025,
-      "citationCount": 0,
+      "citationCount": 1,
       "authors": [
         {
           "authorId": "67097589",
@@ -28,31 +656,199 @@
         },
         {
           "authorId": "3327507",
-          "name": "A. Lawan"
+          "name": "Adamu Lawan"
         }
       ]
     },
     {
-      "paperId": "c39053a676b03d49a302ba004670dc8645e84937",
-      "title": "MEX: Memory-efficient Approach to Referring Multi-Object Tracking",
+      "paperId": "7a5e747e8bd938d54de9adbddd5f6d436e422bde",
+      "title": "Recent Estimation Techniques of Vehicle-Road-Pedestrian States for Traffic Safety: Comprehensive Review and Future Perspectives",
       "year": 2025,
       "citationCount": 0,
       "authors": [
         {
-          "authorId": "2346356638",
-          "name": "Huu-Thien Tran"
+          "authorId": "2299354765",
+          "name": "Cheng Tian"
         },
         {
-          "authorId": "2320544542",
-          "name": "Phuoc-Sang Pham"
+          "authorId": "2332346025",
+          "name": "Chao Huang"
         },
         {
-          "authorId": null,
-          "name": "Thai-Son Tran"
+          "authorId": "2299362754",
+          "name": "Yan Wang"
         },
         {
-          "authorId": "2346114595",
-          "name": "Khoa Luu"
+          "authorId": "2239280852",
+          "name": "Edward Chung"
+        },
+        {
+          "authorId": "2176530071",
+          "name": "Anh‐Tu Nguyen"
+        },
+        {
+          "authorId": "2257894235",
+          "name": "P. Wong"
+        },
+        {
+          "authorId": "2337266577",
+          "name": "Wei Ni"
+        },
+        {
+          "authorId": "2332944683",
+          "name": "Abbas Jamalipour"
+        },
+        {
+          "authorId": "2158262164",
+          "name": "Kai Li"
+        },
+        {
+          "authorId": "2243332823",
+          "name": "Hailong Huang"
+        }
+      ]
+    },
+    {
+      "paperId": "909a418704b43b149edebe0dfa740284c124460d",
+      "title": "Indoor Scene Multi-Object Tracking based on Region Search and Memory Buffer Pool",
+      "year": 2025,
+      "citationCount": 0,
+      "authors": [
+        {
+          "authorId": "2154902220",
+          "name": "Yang Li"
+        },
+        {
+          "authorId": "2237948813",
+          "name": "Guanci Yang"
+        },
+        {
+          "authorId": "2313470921",
+          "name": "Zhidong Su"
+        },
+        {
+          "authorId": "2352546584",
+          "name": "Shaobo Li"
+        },
+        {
+          "authorId": "2143851333",
+          "name": "Jing Yang"
+        },
+        {
+          "authorId": "2112501396",
+          "name": "Ling He"
+        }
+      ]
+    },
+    {
+      "paperId": "2f2ed657189b3c0521f483c82e00b4d5204305df",
+      "title": "CoopDETR: A Unified Cooperative Perception Framework for 3D Detection via Object Query",
+      "year": 2025,
+      "citationCount": 0,
+      "authors": [
+        {
+          "authorId": "2241483637",
+          "name": "Zhe Wang"
+        },
+        {
+          "authorId": "2242329425",
+          "name": "Shaocong Xu"
+        },
+        {
+          "authorId": "2347331529",
+          "name": "Xucai Zhuang"
+        },
+        {
+          "authorId": "2151647458",
+          "name": "Tongda Xu"
+        },
+        {
+          "authorId": "2288161907",
+          "name": "Yan Wang"
+        },
+        {
+          "authorId": "2144197385",
+          "name": "Jingjing Liu"
+        },
+        {
+          "authorId": "2286605166",
+          "name": "Yilun Chen"
+        },
+        {
+          "authorId": "2286392970",
+          "name": "Ya-Qin Zhang"
+        }
+      ]
+    },
+    {
+      "paperId": "48f6892105d2b8b6bc32f24f84fdaf6842300824",
+      "title": "DragonTrack: Transformer-Enhanced Graphical Multi-Person Tracking in Complex Scenarios",
+      "year": 2025,
+      "citationCount": 1,
+      "authors": [
+        {
+          "authorId": "2310807861",
+          "name": "Bishoy Galoaa"
+        },
+        {
+          "authorId": "2305981",
+          "name": "Somaieh Amraee"
+        },
+        {
+          "authorId": "2268672126",
+          "name": "Sarah Ostadabbas"
+        }
+      ]
+    },
+    {
+      "paperId": "7005e56d768fac2eb758f820b5e8cc0894eec854",
+      "title": "Towards Robust Multi-Camera Object Tracking: A Framework for Global Coordination and ID Consistency",
+      "year": 2025,
+      "citationCount": 0,
+      "authors": [
+        {
+          "authorId": "2312092584",
+          "name": "Eun Ho Kim"
+        },
+        {
+          "authorId": "2312093188",
+          "name": "Yeong Gwang Choi"
+        },
+        {
+          "authorId": "2351281150",
+          "name": "Young Hoon Suh"
+        },
+        {
+          "authorId": "2351348607",
+          "name": "Jae Wook Jeon"
+        }
+      ]
+    },
+    {
+      "paperId": "cca55c6855d4718dd52a0fd38152580becb7f524",
+      "title": "Divide and Merge: Motion and Semantic Learning in End-to-End Autonomous Driving",
+      "year": 2025,
+      "citationCount": 0,
+      "authors": [
+        {
+          "authorId": "2293315725",
+          "name": "Yinzhe Shen"
+        },
+        {
+          "authorId": "2257210261",
+          "name": "Ömer Sahin Tas"
+        },
+        {
+          "authorId": "2293321982",
+          "name": "Kaiwen Wang"
+        },
+        {
+          "authorId": "2161663418",
+          "name": "Royden Wagner"
+        },
+        {
+          "authorId": "2262214692",
+          "name": "Christoph Stiller"
         }
       ]
     },
@@ -60,7 +856,7 @@
       "paperId": "4a3a772dbacd589b7d8c86cb3cee8dbf41b224a2",
       "title": "UniSORT: Tracking with unified cue integration and refined association",
       "year": 2025,
-      "citationCount": 0,
+      "citationCount": 1,
       "authors": [
         {
           "authorId": "2344196015",
@@ -105,10 +901,46 @@
       ]
     },
     {
+      "paperId": "9638f89b17071d6fd5d3eb52493f74d86bc6c687",
+      "title": "SiamTP: A Transformer tracker based on target perception",
+      "year": 2025,
+      "citationCount": 0,
+      "authors": [
+        {
+          "authorId": "2213734535",
+          "name": "Ying Ren"
+        },
+        {
+          "authorId": "2323427719",
+          "name": "Zhenhai Wang"
+        },
+        {
+          "authorId": "2347189606",
+          "name": "Yijun Jing"
+        },
+        {
+          "authorId": "2155552324",
+          "name": "Hui-Yong Chen"
+        },
+        {
+          "authorId": "2191231042",
+          "name": "Lu Yuan"
+        },
+        {
+          "authorId": "1471697285",
+          "name": "Hongyu Tian"
+        },
+        {
+          "authorId": "2189590384",
+          "name": "Xing Wang"
+        }
+      ]
+    },
+    {
       "paperId": "cb2a631748f05f18243db3c0432cee4293374cdc",
       "title": "Prompt-Aware Controllable Shadow Removal",
       "year": 2025,
-      "citationCount": 0,
+      "citationCount": 1,
       "authors": [
         {
           "authorId": "2342774450",
@@ -149,6 +981,58 @@
         {
           "authorId": "2253466514",
           "name": "Andreas Uhl"
+        }
+      ]
+    },
+    {
+      "paperId": "fe0cf93194713ddb6c4bea485629e9fcfb828f43",
+      "title": "OmniTracker: Unifying Visual Object Tracking by Tracking-With-Detection",
+      "year": 2025,
+      "citationCount": 1,
+      "authors": [
+        {
+          "authorId": "2124919221",
+          "name": "Junke Wang"
+        },
+        {
+          "authorId": "3099139",
+          "name": "Zuxuan Wu"
+        },
+        {
+          "authorId": "2310288341",
+          "name": "Dongdong Chen"
+        },
+        {
+          "authorId": "2294680622",
+          "name": "Chong Luo"
+        },
+        {
+          "authorId": "3386593",
+          "name": "Xiyang Dai"
+        },
+        {
+          "authorId": "2260347652",
+          "name": "Lu Yuan"
+        },
+        {
+          "authorId": "2238451522",
+          "name": "Yu-Gang Jiang"
+        }
+      ]
+    },
+    {
+      "paperId": "2b46bdbf680a613516835229e61e25913bf49b84",
+      "title": "Enhancing Multi-Object Tracking Using Roadside Camera Based on Trajectory Prediction in BEV",
+      "year": 2025,
+      "citationCount": 0,
+      "authors": [
+        {
+          "authorId": "2355790013",
+          "name": "Chongchong Wang"
+        },
+        {
+          "authorId": null,
+          "name": "Hong Cao"
         }
       ]
     },
@@ -204,7 +1088,7 @@
       "paperId": "34720e0c0c199782b8bb69960c2f58d6d6e7e687",
       "title": "Adaptive probabilistic multi-model framework for robust 3D multi-object tracking under uncertainty",
       "year": 2025,
-      "citationCount": 0,
+      "citationCount": 1,
       "authors": [
         {
           "authorId": "116578380",
@@ -224,7 +1108,7 @@
       "paperId": "31a7bf920649070c2ea4f723c354b20d249c488c",
       "title": "Is Segment Anything Model 2 All You Need for Surgery Video Segmentation? A Systematic Evaluation",
       "year": 2024,
-      "citationCount": 0,
+      "citationCount": 1,
       "authors": [
         {
           "authorId": "2329139348",
@@ -281,6 +1165,42 @@
       ]
     },
     {
+      "paperId": "a5b79b5fb7dd5aa5d1e685849b30fd00e80f0af2",
+      "title": "Tell Me What to Track: Infusing Robust Language Guidance for Enhanced Referring Multi-Object Tracking",
+      "year": 2024,
+      "citationCount": 0,
+      "authors": [
+        {
+          "authorId": "2280107063",
+          "name": "Wenjun Huang"
+        },
+        {
+          "authorId": "2290732265",
+          "name": "Yang Ni"
+        },
+        {
+          "authorId": "2241550254",
+          "name": "Hanning Chen"
+        },
+        {
+          "authorId": "2335854468",
+          "name": "Yirui He"
+        },
+        {
+          "authorId": "2335669269",
+          "name": "Ian Bryant"
+        },
+        {
+          "authorId": "2319672217",
+          "name": "Yezi Liu"
+        },
+        {
+          "authorId": "2238651307",
+          "name": "Mohsen Imani"
+        }
+      ]
+    },
+    {
       "paperId": "853a401d9ebb8220acfb5106980e2941a59adde3",
       "title": "Enhancing Multi-Object Tracking with Compact Model Adjustment",
       "year": 2024,
@@ -305,6 +1225,42 @@
         {
           "authorId": "2111185886",
           "name": "Jian-Jiun Ding"
+        }
+      ]
+    },
+    {
+      "paperId": "81e44071c48cca6a3b0c5b6ea68c615f961b01d2",
+      "title": "Physical ID-Transfer Attacks against Multi-Object Tracking via Adversarial Trajectory",
+      "year": 2024,
+      "citationCount": 0,
+      "authors": [
+        {
+          "authorId": "2350835958",
+          "name": "Chenyi Wang"
+        },
+        {
+          "authorId": "3203103",
+          "name": "Yanmao Man"
+        },
+        {
+          "authorId": "2165600733",
+          "name": "Raymond Muller"
+        },
+        {
+          "authorId": "2312359749",
+          "name": "Ming Li"
+        },
+        {
+          "authorId": "2312304703",
+          "name": "Z. B. Celik"
+        },
+        {
+          "authorId": "2307534629",
+          "name": "Ryan M. Gerdes"
+        },
+        {
+          "authorId": "2312305914",
+          "name": "Jonathan Petit"
         }
       ]
     },
@@ -420,7 +1376,7 @@
       "paperId": "0a76d96bdf9572f7812617fdd169633736f8a306",
       "title": "Online Multi-object Tracking with YOLOv9 and DeepSORT Optimized by Optical Flow",
       "year": 2024,
-      "citationCount": 0,
+      "citationCount": 1,
       "authors": [
         {
           "authorId": "2081736060",
@@ -437,6 +1393,34 @@
         {
           "authorId": "2294295351",
           "name": "Laid Khettache"
+        }
+      ]
+    },
+    {
+      "paperId": "c2ed12f7268bd78a63c49875777d027caa621395",
+      "title": "A2VIS: Amodal-Aware Approach to Video Instance Segmentation",
+      "year": 2024,
+      "citationCount": 0,
+      "authors": [
+        {
+          "authorId": "2302569335",
+          "name": "Minh Tran"
+        },
+        {
+          "authorId": "2236478094",
+          "name": "Thang Pham"
+        },
+        {
+          "authorId": "2292033212",
+          "name": "Winston Bounsavy"
+        },
+        {
+          "authorId": "2292256138",
+          "name": "Tri Nguyen"
+        },
+        {
+          "authorId": "2256992475",
+          "name": "Ngan Le"
         }
       ]
     },
@@ -513,6 +1497,102 @@
       ]
     },
     {
+      "paperId": "8062c2b8438500d62a25497a131f0e22ea36e796",
+      "title": "VideoOrion: Tokenizing Object Dynamics in Videos",
+      "year": 2024,
+      "citationCount": 1,
+      "authors": [
+        {
+          "authorId": "2115319860",
+          "name": "Yicheng Feng"
+        },
+        {
+          "authorId": "2324002240",
+          "name": "Yijiang Li"
+        },
+        {
+          "authorId": "2324490975",
+          "name": "Wanpeng Zhang"
+        },
+        {
+          "authorId": "2258682220",
+          "name": "Sipeng Zheng"
+        },
+        {
+          "authorId": "2258676670",
+          "name": "Zongqing Lu"
+        }
+      ]
+    },
+    {
+      "paperId": "74df25cb59bae070cbe43d1b06b45cc6593e25eb",
+      "title": "FastTrackTr:Towards Fast Multi-Object Tracking with Transformers",
+      "year": 2024,
+      "citationCount": 0,
+      "authors": [
+        {
+          "authorId": "2263111037",
+          "name": "Pan Liao"
+        },
+        {
+          "authorId": "2303359119",
+          "name": "Feng Yang"
+        },
+        {
+          "authorId": "2263065332",
+          "name": "Di Wu"
+        },
+        {
+          "authorId": "2333147524",
+          "name": "Jinwen Yu"
+        },
+        {
+          "authorId": "2332360828",
+          "name": "Wenhui Zhao"
+        },
+        {
+          "authorId": "2263769898",
+          "name": "Bo Liu"
+        }
+      ]
+    },
+    {
+      "paperId": "f66de3d099feaa3375db5a8327a62335584e68dd",
+      "title": "LiDAR-based End-to-end Temporal Perception for Vehicle-Infrastructure Cooperation",
+      "year": 2024,
+      "citationCount": 0,
+      "authors": [
+        {
+          "authorId": "2307592538",
+          "name": "Zhenwei Yang"
+        },
+        {
+          "authorId": "72102077",
+          "name": "Jilei Mao"
+        },
+        {
+          "authorId": "3445535",
+          "name": "Wen-Yen Yang"
+        },
+        {
+          "authorId": "9239375",
+          "name": "Yibo Ai"
+        },
+        {
+          "authorId": "2332301475",
+          "name": "Yu Kong"
+        },
+        {
+          "authorId": "2162290793",
+          "name": "Haibao Yu"
+        },
+        {
+          "authorId": "2108134105",
+          "name": "Weidong Zhang"
+        }
+      ]
+    },
+    {
       "paperId": "18806f22178e730649b337b97e42fed2d2a1c0c4",
       "title": "Towards Discriminative Feature Learning for Multi-object Tracking in UAV Captured Videos",
       "year": 2024,
@@ -580,7 +1660,7 @@
       "paperId": "8a56b98936874a430058e23f0714dd5f6e3a61aa",
       "title": "Moving Off-the-Grid: Scene-Grounded Video Representations",
       "year": 2024,
-      "citationCount": 1,
+      "citationCount": 2,
       "authors": [
         {
           "authorId": "3440930",
@@ -688,7 +1768,7 @@
       "paperId": "f6a0a2520d586a503aedfce2029f0c6b661546c0",
       "title": "Is Multiple Object Tracking a Matter of Specialization?",
       "year": 2024,
-      "citationCount": 0,
+      "citationCount": 1,
       "authors": [
         {
           "authorId": "2150266367",
@@ -824,7 +1904,7 @@
       "paperId": "452a56e2ead56157c9e0958691ae74e27b3bb30d",
       "title": "End-to-end multiple object tracking in high-resolution optical sensors of drones with transformer models",
       "year": 2024,
-      "citationCount": 0,
+      "citationCount": 2,
       "authors": [
         {
           "authorId": "2247992901",
@@ -872,7 +1952,7 @@
       "paperId": "7345d4093d4d13521ebd469f76e280c84b265f22",
       "title": "OVT-B: A New Large-Scale Benchmark for Open-Vocabulary Multi-Object Tracking",
       "year": 2024,
-      "citationCount": 0,
+      "citationCount": 1,
       "authors": [
         {
           "authorId": "2327302773",
@@ -917,6 +1997,30 @@
         {
           "authorId": "2326295791",
           "name": "Long Lan"
+        }
+      ]
+    },
+    {
+      "paperId": "c39053a676b03d49a302ba004670dc8645e84937",
+      "title": "MEX: Memory-Efficient Approach to Referring Multi-Object Tracking",
+      "year": 2024,
+      "citationCount": 1,
+      "authors": [
+        {
+          "authorId": "2346356638",
+          "name": "Huu-Thien Tran"
+        },
+        {
+          "authorId": "2320544542",
+          "name": "Phuoc-Sang Pham"
+        },
+        {
+          "authorId": "2347917291",
+          "name": "Thai-Son Tran"
+        },
+        {
+          "authorId": "2346114595",
+          "name": "Khoa Luu"
         }
       ]
     },
@@ -1156,7 +2260,7 @@
       "paperId": "d1311ffe5c92bdd3dabc26acb8a07d34efee8647",
       "title": "Samba: Synchronized Set-of-Sequences Modeling for Multiple Object Tracking",
       "year": 2024,
-      "citationCount": 0,
+      "citationCount": 2,
       "authors": [
         {
           "authorId": "151136071",
@@ -1232,7 +2336,7 @@
       "paperId": "e14cc09058dd38d1fbe4ed5ca15e5f9341a3a177",
       "title": "Online multi-object tracking method for shrimps in high density using multi-task you only look once exceeding and cascade strategy",
       "year": 2024,
-      "citationCount": 1,
+      "citationCount": 2,
       "authors": [
         {
           "authorId": "2108076191",
@@ -1260,7 +2364,7 @@
       "paperId": "59cabbb34d29249443b5f1e551965db66cdf837a",
       "title": "A Target Sensing and Visual Tracking Method for Countering Unmanned Aerial Vehicle Swarm",
       "year": 2024,
-      "citationCount": 2,
+      "citationCount": 3,
       "authors": [
         {
           "authorId": "2260830846",
@@ -1292,7 +2396,7 @@
       "paperId": "69606952cc9ccb6772bb0b48fe92c484aac186bb",
       "title": "High-Precision Multi-Object Tracking in Satellite Videos via Pixel-Wise Adaptive Feature Enhancement",
       "year": 2024,
-      "citationCount": 1,
+      "citationCount": 2,
       "authors": [
         {
           "authorId": "2325274069",
@@ -1360,7 +2464,7 @@
       "paperId": "4e0e4db20996287873b661a8ac780869b9bb8e8c",
       "title": "LTTrack: Rethinking the Tracking Framework for Long-Term Multi-Object Tracking",
       "year": 2024,
-      "citationCount": 0,
+      "citationCount": 1,
       "authors": [
         {
           "authorId": "2303261838",
@@ -1380,7 +2484,7 @@
       "paperId": "322362283fe76d379bf3965ab3b8844a2362afab",
       "title": "Tracking and Behavior Analysis of Group-Housed Pigs Based on a Multi-Object Tracking Approach",
       "year": 2024,
-      "citationCount": 0,
+      "citationCount": 1,
       "authors": [
         {
           "authorId": "41157630",
@@ -1448,7 +2552,7 @@
       "paperId": "c7926628e7e6748cdd6796a06737e5548f81f161",
       "title": "RingMo-Aerial: An Aerial Remote Sensing Foundation Model With A Affine Transformation Contrastive Learning",
       "year": 2024,
-      "citationCount": 0,
+      "citationCount": 1,
       "authors": [
         {
           "authorId": "2600667",
@@ -1528,7 +2632,7 @@
       "paperId": "ceee5859a8f5fc343404b79f42bf79c3b2ba9048",
       "title": "Unveiling the Power of Self-Supervision for Multi-View Multi-Human Association and Tracking",
       "year": 2024,
-      "citationCount": 1,
+      "citationCount": 4,
       "authors": [
         {
           "authorId": "2260614013",
@@ -1564,7 +2668,7 @@
       "paperId": "caedb32e4f9cae031fe49422d43d47dd6ae451ff",
       "title": "SLAck: Semantic, Location, and Appearance Aware Open-Vocabulary Tracking",
       "year": 2024,
-      "citationCount": 2,
+      "citationCount": 4,
       "authors": [
         {
           "authorId": "2293805941",
@@ -1652,7 +2756,7 @@
       "paperId": "efedb7c12a2a00154b231e8c3fc9b7521026e7a7",
       "title": "UNIT: Unsupervised Online Instance Segmentation through Time",
       "year": 2024,
-      "citationCount": 0,
+      "citationCount": 1,
       "authors": [
         {
           "authorId": "2160711622",
@@ -1663,7 +2767,7 @@
           "name": "Gilles Puy"
         },
         {
-          "authorId": "2257258087",
+          "authorId": "2300845",
           "name": "Alexandre Boulch"
         },
         {
@@ -1760,7 +2864,7 @@
       "paperId": "ed9561e9e66f7a54d4f405451b997322ac4b9b7c",
       "title": "FMRFT: Fusion Mamba and DETR for Query Time Sequence Intersection Fish Tracking",
       "year": 2024,
-      "citationCount": 3,
+      "citationCount": 4,
       "authors": [
         {
           "authorId": "2280522460",
@@ -1807,915 +2911,1884 @@
           "name": "Carlos Figueiredo"
         }
       ]
-    },
+    }
+  ],
+  "references": [
     {
-      "paperId": "2826719e926a6fd0ae7065de646882a83d22db7d",
-      "title": "Multiobject Tracking Algorithm With Adaptive Noise Calculation and Information Fusion in Crowded Environments",
-      "year": 2024,
-      "citationCount": 0,
+      "paperId": "76d7461665dc88bd4ef30d8bc764f027fdf52c18",
+      "title": "A General Recurrent Tracking Framework without Real Data",
+      "year": 2021,
+      "citationCount": 42,
       "authors": [
         {
-          "authorId": "2223276365",
-          "name": "Taintian Luan"
+          "authorId": "153926149",
+          "name": "Shuai Wang"
         },
         {
-          "authorId": "2311749998",
-          "name": "Fengkun Lv"
+          "authorId": "2182252",
+          "name": "Hao Sheng"
         },
         {
-          "authorId": "2280133983",
-          "name": "Mingxiao Sun"
+          "authorId": "2145955253",
+          "name": "Yang Zhang"
         },
         {
-          "authorId": "2311752798",
-          "name": "Xicheng Ban"
+          "authorId": "2107894845",
+          "name": "Yubin Wu"
         },
         {
-          "authorId": "2311716282",
-          "name": "Ziqi Zhou"
+          "authorId": "119746350",
+          "name": "Zhangyue Xiong"
         }
       ]
     },
     {
-      "paperId": "f11ec18fc2c9d83fe35c79aedb7bfd4aa362306f",
-      "title": "Few-Shot Image Classification of Crop Diseases Based on Vision–Language Models",
-      "year": 2024,
-      "citationCount": 1,
+      "paperId": "336b31c3f26317dfe0222cad9818534ac753fb97",
+      "title": "Improving Multiple Pedestrian Tracking by Track Management and Occlusion Handling",
+      "year": 2021,
+      "citationCount": 100,
       "authors": [
         {
-          "authorId": "2305734582",
-          "name": "Yueyue Zhou"
+          "authorId": "1413714588",
+          "name": "Daniel S. Stadler"
         },
         {
-          "authorId": "2302933475",
-          "name": "Hongping Yan"
-        },
-        {
-          "authorId": "2302860708",
-          "name": "Kun Ding"
-        },
-        {
-          "authorId": "2305680541",
-          "name": "Tingting Cai"
-        },
-        {
-          "authorId": "2305883799",
-          "name": "Yan Zhang"
+          "authorId": "73125940",
+          "name": "J. Beyerer"
         }
       ]
     },
     {
-      "paperId": "e9e41c635717569c787444445733b1875de13e7b",
-      "title": "TrackSSM: A General Motion Predictor by State-Space Model",
-      "year": 2024,
-      "citationCount": 1,
+      "paperId": "4d4b2bf9ff48b35e7191094aab643943188c5c45",
+      "title": "Improving Multiple Object Tracking with Single Object Tracking",
+      "year": 2021,
+      "citationCount": 91,
       "authors": [
         {
-          "authorId": "2316172326",
-          "name": "Bin Hu"
+          "authorId": "48026369",
+          "name": "Linyu Zheng"
         },
         {
-          "authorId": "2319406835",
-          "name": "Run Luo"
+          "authorId": "2113727378",
+          "name": "Ming Tang"
         },
         {
-          "authorId": "2319389122",
-          "name": "Zelin Liu"
+          "authorId": "50580380",
+          "name": "Yingying Chen"
         },
         {
-          "authorId": "2347008211",
-          "name": "Cheng Wang"
+          "authorId": "2894321",
+          "name": "Guibo Zhu"
         },
         {
-          "authorId": "2319399713",
-          "name": "Wenyu Liu"
+          "authorId": "49606029",
+          "name": "Jinqiao Wang"
+        },
+        {
+          "authorId": "1694235",
+          "name": "Hanqing Lu"
         }
       ]
     },
     {
-      "paperId": "f7e42fea4ca4e39011ad4215e98771b06d59b888",
-      "title": "Estimating Dynamic Flow Features in Groups of Tracked Objects",
-      "year": 2024,
-      "citationCount": 0,
+      "paperId": "e243c89ac61aae7330792c6c3f8791f07f40d031",
+      "title": "Joint Object Detection and Multi-Object Tracking with Graph Neural Networks",
+      "year": 2021,
+      "citationCount": 217,
       "authors": [
         {
-          "authorId": "2258957668",
-          "name": "Tanner D. Harms"
+          "authorId": "2130354677",
+          "name": "Yongxin Wang"
         },
         {
-          "authorId": "3083169",
-          "name": "S. Brunton"
+          "authorId": "144040368",
+          "name": "Kris Kitani"
         },
         {
-          "authorId": "3190206",
-          "name": "B. McKeon"
+          "authorId": "7885067",
+          "name": "Xinshuo Weng"
         }
       ]
     },
     {
-      "paperId": "2bf454270196e24a14154560b5e72aac52570a30",
-      "title": "ConsistencyTrack: A Robust Multi-Object Tracker with a Generation Strategy of Consistency Model",
-      "year": 2024,
-      "citationCount": 0,
+      "paperId": "88a3579aecc1f0c7a3d5b57a5c07cd51c242b3c4",
+      "title": "Multiple Object Tracking with Correlation Learning",
+      "year": 2021,
+      "citationCount": 143,
       "authors": [
         {
-          "authorId": "2300027322",
-          "name": "Lifan Jiang"
+          "authorId": "145805403",
+          "name": "Qiang Wang"
         },
         {
-          "authorId": "2317147168",
-          "name": "Zhihui Wang"
+          "authorId": "2149513498",
+          "name": "Yun Zheng"
         },
         {
-          "authorId": "2301149241",
-          "name": "Siqi Yin"
+          "authorId": "1642296684",
+          "name": "Pan Pan"
         },
         {
-          "authorId": "2319945013",
-          "name": "Guangxiao Ma"
-        },
-        {
-          "authorId": "2318006306",
-          "name": "Peng Zhang"
-        },
-        {
-          "authorId": "2317143350",
-          "name": "Boxi Wu"
+          "authorId": "50125871",
+          "name": "Yinghui Xu"
         }
       ]
     },
     {
-      "paperId": "aca5b6de9d2f4a764fb50d330ca0c756b2673b9b",
-      "title": "A Statistical Framework for Data-dependent Retrieval-Augmented Models",
-      "year": 2024,
-      "citationCount": 0,
+      "paperId": "0fe60d50f27bd94cc4b407f11fe26b54222eeae2",
+      "title": "Learning to Track with Object Permanence",
+      "year": 2021,
+      "citationCount": 198,
       "authors": [
         {
-          "authorId": "2313929137",
-          "name": "Soumya Basu"
+          "authorId": "2931554",
+          "name": "P. Tokmakov"
         },
         {
-          "authorId": "2241094",
-          "name": "A. Rawat"
+          "authorId": "2155868565",
+          "name": "Jie Li"
         },
         {
-          "authorId": "1771307",
-          "name": "M. Zaheer"
+          "authorId": "2106871731",
+          "name": "Wolfram Burgard"
+        },
+        {
+          "authorId": "1799820",
+          "name": "Adrien Gaidon"
         }
       ]
     },
     {
-      "paperId": "27732f6b5c3fa1ea17b13972dd802fa453c8a1c6",
-      "title": "MCTR: Multi Camera Tracking Transformer",
-      "year": 2024,
-      "citationCount": 0,
+      "paperId": "827455225f598f5444b8025073cefeb9bb3d4a85",
+      "title": "Track to Detect and Segment: An Online Multi-Object Tracker",
+      "year": 2021,
+      "citationCount": 308,
       "authors": [
         {
-          "authorId": "2316859841",
-          "name": "Alexandru Niculescu-Mizil"
+          "authorId": "11288490",
+          "name": "Jialian Wu"
         },
         {
-          "authorId": "2319937981",
-          "name": "Deep Patel"
+          "authorId": "1898752",
+          "name": "Jiale Cao"
         },
         {
-          "authorId": "2316859839",
-          "name": "Iain Melvin"
+          "authorId": "2150597873",
+          "name": "Liangchen Song"
+        },
+        {
+          "authorId": "2153609796",
+          "name": "Yu Wang"
+        },
+        {
+          "authorId": "41216159",
+          "name": "Ming Yang"
+        },
+        {
+          "authorId": "34316743",
+          "name": "Junsong Yuan"
         }
       ]
     },
     {
-      "paperId": "27aed52710215d9bee756853ce8d2063c9ff492d",
-      "title": "Multi-Object Tracking Using Video Sequences with Improved Performance and Reduced Computation Cost",
-      "year": 2024,
-      "citationCount": 0,
+      "paperId": "2710255c7e45d34750ca573c75bb0f4e3e85ab44",
+      "title": "ReMOT: A model-agnostic refinement for multiple object tracking",
+      "year": 2020,
+      "citationCount": 94,
       "authors": [
         {
-          "authorId": "144375781",
-          "name": "Jiayi Su"
+          "authorId": "1879167",
+          "name": "F. Yang"
         },
         {
-          "authorId": "2192211910",
-          "name": "Susan C. Schneider"
+          "authorId": "143742875",
+          "name": "Xin Chang"
         },
         {
-          "authorId": "2309551724",
-          "name": "Edwin E. Yaz"
+          "authorId": "1783949",
+          "name": "S. Sakti"
+        },
+        {
+          "authorId": "145629717",
+          "name": "Yang Wu"
+        },
+        {
+          "authorId": "145223960",
+          "name": "Satoshi Nakamura"
         }
       ]
     },
     {
-      "paperId": "ca62cdd0d7e88ad6d5cf42d96941ec64263f73bb",
-      "title": "3D-Aware Instance Segmentation and Tracking in Egocentric Videos",
-      "year": 2024,
-      "citationCount": 0,
+      "paperId": "2ac7999cce9f415ee87643f56631b55ed26aa10e",
+      "title": "End-to-End Video Instance Segmentation with Transformers",
+      "year": 2020,
+      "citationCount": 676,
       "authors": [
         {
-          "authorId": "3469024",
-          "name": "Yash Bhalgat"
+          "authorId": "2108035065",
+          "name": "Yuqing Wang"
         },
         {
-          "authorId": "2316427689",
-          "name": "Vadim Tschernezki"
+          "authorId": "2980642",
+          "name": "Zhaoliang Xu"
         },
         {
-          "authorId": "3422200",
-          "name": "Iro Laina"
+          "authorId": "1875266191",
+          "name": "Xinlong Wang"
         },
         {
-          "authorId": "2288261246",
-          "name": "Joao F. Henriques"
+          "authorId": "12459603",
+          "name": "Chunhua Shen"
         },
         {
-          "authorId": "1687524",
-          "name": "A. Vedaldi"
+          "authorId": "103204798",
+          "name": "Baoshan Cheng"
         },
         {
-          "authorId": "2252432062",
-          "name": "A. Zisserman"
+          "authorId": "2110770528",
+          "name": "Hao Shen"
+        },
+        {
+          "authorId": "2065044626",
+          "name": "Huaxia Xia"
         }
       ]
     },
     {
-      "paperId": "9d7fc70c0ece31c0f31cd7cf2c9028f849f51dfe",
-      "title": "VrdONE: One-stage Video Visual Relation Detection",
-      "year": 2024,
-      "citationCount": 1,
+      "paperId": "8a193e0ee60efb931054c35866491ed0f08c55bd",
+      "title": "MOTChallenge: A Benchmark for Single-Camera Multiple Target Tracking",
+      "year": 2020,
+      "citationCount": 254,
       "authors": [
         {
-          "authorId": "2316552896",
-          "name": "Xinjie Jiang"
+          "authorId": "1416750021",
+          "name": "Patrick Dendorfer"
         },
         {
-          "authorId": "2220800052",
-          "name": "Chenxi Zheng"
+          "authorId": "3331304",
+          "name": "Aljosa Osep"
         },
         {
-          "authorId": "2884662",
-          "name": "Xuemiao Xu"
+          "authorId": "34761498",
+          "name": "Anton Milan"
         },
         {
-          "authorId": "2220596660",
-          "name": "Bangzhen Liu"
+          "authorId": "144810819",
+          "name": "K. Schindler"
         },
         {
-          "authorId": "2274015401",
-          "name": "Weiying Zheng"
+          "authorId": "1695302",
+          "name": "D. Cremers"
         },
         {
-          "authorId": "2108909080",
-          "name": "Huaidong Zhang"
+          "authorId": "145950884",
+          "name": "I. Reid"
         },
         {
-          "authorId": "2257314718",
-          "name": "Shengfeng He"
+          "authorId": "145920814",
+          "name": "S. Roth"
+        },
+        {
+          "authorId": "1388407684",
+          "name": "L. Leal-Taixé"
         }
       ]
     },
     {
-      "paperId": "0c8146bbca9be9da39dde7f8fdb3de130fae4f37",
-      "title": "RTAT: A Robust Two-stage Association Tracker for Multi-Object Tracking",
-      "year": 2024,
-      "citationCount": 0,
+      "paperId": "39ca8f8ff28cc640e3b41a6bd7814ab85c586504",
+      "title": "Deformable DETR: Deformable Transformers for End-to-End Object Detection",
+      "year": 2020,
+      "citationCount": 4696,
       "authors": [
         {
-          "authorId": "2316093482",
-          "name": "Song Guo"
+          "authorId": "2578924",
+          "name": "Xizhou Zhu"
         },
         {
-          "authorId": "2243748323",
-          "name": "Rujie Liu"
+          "authorId": "145499378",
+          "name": "Weijie Su"
         },
         {
-          "authorId": "3322335",
-          "name": "N. Abe"
+          "authorId": "152309485",
+          "name": "Lewei Lu"
+        },
+        {
+          "authorId": "2183101614",
+          "name": "Bin Li"
+        },
+        {
+          "authorId": "93768810",
+          "name": "Xiaogang Wang"
+        },
+        {
+          "authorId": "3304536",
+          "name": "Jifeng Dai"
         }
       ]
     },
     {
-      "paperId": "e8864e07a7e0916478a0aa3fee103d2d2f911f95",
-      "title": "Visible-Thermal Multiple Object Tracking: Large-scale Video Dataset and Progressive Fusion Approach",
-      "year": 2024,
-      "citationCount": 0,
+      "paperId": "bec1169363ac423033cc05e8058b7a621531b088",
+      "title": "Chained-Tracker: Chaining Paired Attentive Regression Results for End-to-End Joint Multiple-Object Detection and Tracking",
+      "year": 2020,
+      "citationCount": 302,
       "authors": [
-        {
-          "authorId": "2153095461",
-          "name": "Yabin Zhu"
-        },
-        {
-          "authorId": "2314773017",
-          "name": "Qianwu Wang"
-        },
-        {
-          "authorId": "2276202268",
-          "name": "Chenglong Li"
-        },
-        {
-          "authorId": "2240265161",
-          "name": "Jin Tang"
-        },
-        {
-          "authorId": "2314949757",
-          "name": "Zhixiang Huang"
-        }
-      ]
-    },
-    {
-      "paperId": "92a09cdfc19f3f582d89c28c1b4f386299cc69e1",
-      "title": "SAM 2: Segment Anything in Images and Videos",
-      "year": 2024,
-      "citationCount": 266,
-      "authors": [
-        {
-          "authorId": "2308102494",
-          "name": "Nikhila Ravi"
-        },
-        {
-          "authorId": "2314115964",
-          "name": "Valentin Gabeur"
-        },
-        {
-          "authorId": "2314514593",
-          "name": "Yuan-Ting Hu"
-        },
-        {
-          "authorId": "2314374069",
-          "name": "Ronghang Hu"
-        },
-        {
-          "authorId": "52190116",
-          "name": "Chaitanya K. Ryali"
-        },
-        {
-          "authorId": "2314306272",
-          "name": "Tengyu Ma"
-        },
-        {
-          "authorId": "2314116200",
-          "name": "Haitham Khedr"
-        },
-        {
-          "authorId": "2320227019",
-          "name": "Roman Rädle"
-        },
-        {
-          "authorId": "2213549340",
-          "name": "Chloé Rolland"
-        },
-        {
-          "authorId": "2314116847",
-          "name": "Laura Gustafson"
-        },
-        {
-          "authorId": "13131689",
-          "name": "Eric Mintun"
-        },
-        {
-          "authorId": "2314142914",
-          "name": "Junting Pan"
-        },
-        {
-          "authorId": "3085301",
-          "name": "Kalyan Vasudev Alwala"
-        },
-        {
-          "authorId": "2314113525",
-          "name": "Nicolas Carion"
-        },
-        {
-          "authorId": "2314513936",
-          "name": "Chao-Yuan Wu"
-        },
-        {
-          "authorId": "2257205047",
-          "name": "Ross B. Girshick"
-        },
-        {
-          "authorId": "2065731243",
-          "name": "Piotr Doll'ar"
-        },
-        {
-          "authorId": "2322150",
-          "name": "Christoph Feichtenhofer"
-        }
-      ]
-    },
-    {
-      "paperId": "b4e4101925b36e1b6976e159f4764883c7139bfc",
-      "title": "Leveraging Driver Attention for an End-to-End Explainable Decision-Making From Frontal Images",
-      "year": 2024,
-      "citationCount": 3,
-      "authors": [
-        {
-          "authorId": "115450682",
-          "name": "Javier Araluce"
-        },
-        {
-          "authorId": "1683950",
-          "name": "L. Bergasa"
-        },
-        {
-          "authorId": "2238205489",
-          "name": "Manuel Ocaña"
-        },
-        {
-          "authorId": "1751095",
-          "name": "Á. Llamazares"
-        },
-        {
-          "authorId": "2196927922",
-          "name": "Elena López-Guillén"
-        }
-      ]
-    },
-    {
-      "paperId": "349490b89cef339eaaee43d3dd131dde06f3a298",
-      "title": "Learning Dynamical Position Embedding for Discriminative Segmentation Tracking",
-      "year": 2024,
-      "citationCount": 2,
-      "authors": [
-        {
-          "authorId": "2108568154",
-          "name": "Yijin Yang"
-        },
-        {
-          "authorId": "2118712301",
-          "name": "X. Gu"
-        }
-      ]
-    },
-    {
-      "paperId": "d68ddf050d6a9d6cc2f4e096043f3dbc33914625",
-      "title": "WDTtrack: tracking multiple objects with indistinguishable appearance and irregular motion",
-      "year": 2024,
-      "citationCount": 0,
-      "authors": [
-        {
-          "authorId": "2269414359",
-          "name": "Zeyong Zhao"
-        },
-        {
-          "authorId": "2315538430",
-          "name": "Jingyi Wu"
-        },
-        {
-          "authorId": "2290046517",
-          "name": "Ruicong Zhi"
-        }
-      ]
-    },
-    {
-      "paperId": "eca764d0f8d176ca0713bedb6ead898db4fe43e5",
-      "title": "A Multi-target Tracking Method Based on Feature Enhancement",
-      "year": 2024,
-      "citationCount": 0,
-      "authors": [
-        {
-          "authorId": "2322412470",
-          "name": "Yuxin Tan"
-        },
-        {
-          "authorId": "2321777736",
-          "name": "Zhixiang Zhu"
-        }
-      ]
-    },
-    {
-      "paperId": "151eac7b5122ced756bec88cc0a0ca52160ca673",
-      "title": "Wavelet-domain feature decoupling for weakly supervised multi-object tracking",
-      "year": 2024,
-      "citationCount": 0,
-      "authors": [
-        {
-          "authorId": "2216484391",
-          "name": "Yu-Lei Li"
-        },
-        {
-          "authorId": "2277800004",
-          "name": "Yan Yan"
-        },
-        {
-          "authorId": "2277972659",
-          "name": "Yang Lu"
-        },
-        {
-          "authorId": "2163741582",
-          "name": "Hanzi Wang"
-        }
-      ]
-    },
-    {
-      "paperId": "495308338afce1021ea5ea0286f6ff16d35b1c67",
-      "title": "TAPTRv2: Attention-based Position Update Improves Tracking Any Point",
-      "year": 2024,
-      "citationCount": 3,
-      "authors": [
-        {
-          "authorId": "2267783957",
-          "name": "Hongyang Li"
-        },
-        {
-          "authorId": "2288975593",
-          "name": "Hao Zhang"
-        },
-        {
-          "authorId": "2260294246",
-          "name": "Shilong Liu"
-        },
-        {
-          "authorId": "2267879736",
-          "name": "Zhaoyang Zeng"
-        },
-        {
-          "authorId": "2152978390",
-          "name": "Feng Li"
-        },
-        {
-          "authorId": "2143150727",
-          "name": "Tianhe Ren"
-        },
-        {
-          "authorId": "2289234030",
-          "name": "Bo Li"
-        },
-        {
-          "authorId": "2267970729",
-          "name": "Lei Zhang"
-        }
-      ]
-    },
-    {
-      "paperId": "74eadea84863d23b754e3720847df48bba6d6b5c",
-      "title": "C3T: Cross-modal Transfer Through Time for Human Action Recognition",
-      "year": 2024,
-      "citationCount": 0,
-      "authors": [
-        {
-          "authorId": "2293318296",
-          "name": "Abhi Kamboj"
-        },
-        {
-          "authorId": "2314092593",
-          "name": "Anh Duy Nguyen"
-        },
-        {
-          "authorId": "2293318784",
-          "name": "Minh Do"
-        }
-      ]
-    },
-    {
-      "paperId": "b98cbf3872d4b48eeabe2f7b516f523fab1434bf",
-      "title": "CORT: Class-Oriented Real-time Tracking for Embedded Systems",
-      "year": 2024,
-      "citationCount": 0,
-      "authors": [
-        {
-          "authorId": "2212546890",
-          "name": "Edoardo Cittadini"
-        },
-        {
-          "authorId": "2312917395",
-          "name": "Alessandro De Siena"
-        },
-        {
-          "authorId": "2332538875",
-          "name": "Giorgio Buttazzo"
-        }
-      ]
-    },
-    {
-      "paperId": "22388d200c74dfb6437bae329bd5bf045f5f6242",
-      "title": "OCTrack: Benchmarking the Open-Corpus Multi-Object Tracking",
-      "year": 2024,
-      "citationCount": 1,
-      "authors": [
-        {
-          "authorId": "2158122924",
-          "name": "Zekun Qian"
-        },
-        {
-          "authorId": "81631713",
-          "name": "Ruize Han"
-        },
-        {
-          "authorId": "2260614013",
-          "name": "Wei Feng"
-        },
-        {
-          "authorId": "2280085036",
-          "name": "Junhui Hou"
-        },
-        {
-          "authorId": "2312274329",
-          "name": "Linqi Song"
-        },
-        {
-          "authorId": "2273909408",
-          "name": "Song Wang"
-        }
-      ]
-    },
-    {
-      "paperId": "c8ddfb0a030e1fed9bc288054fa8a138bb213e75",
-      "title": "Multi-Object Tracking Algorithm Based on Improved ByteTrack",
-      "year": 2024,
-      "citationCount": 0,
-      "authors": [
-        {
-          "authorId": "2325138476",
-          "name": "Zixuan Liu"
-        },
-        {
-          "authorId": "2325091669",
-          "name": "Fang Li"
-        },
-        {
-          "authorId": "2325471581",
-          "name": "Linjing Hou"
-        },
-        {
-          "authorId": "2324963707",
-          "name": "Yuhang Shi"
-        }
-      ]
-    },
-    {
-      "paperId": "d8e9f33e4b4c454066251b11017c07e978513cd5",
-      "title": "MM-Tracker: Motion Mamba with Margin Loss for UAV-platform Multiple Object Tracking",
-      "year": 2024,
-      "citationCount": 0,
-      "authors": [
-        {
-          "authorId": "151142646",
-          "name": "Mufeng Yao"
-        },
         {
           "authorId": "2122806600",
           "name": "Jinlong Peng"
         },
         {
-          "authorId": "2280341072",
-          "name": "Qingdong He"
+          "authorId": "2146408386",
+          "name": "Changan Wang"
         },
         {
-          "authorId": "2311475299",
-          "name": "Bo Peng"
+          "authorId": "1491039645",
+          "name": "Fangbin Wan"
         },
         {
-          "authorId": "2311577189",
-          "name": "Hao Chen"
+          "authorId": "2149122078",
+          "name": "Yang Wu"
         },
         {
-          "authorId": "2293473246",
-          "name": "Mingmin Chi"
+          "authorId": "2628601",
+          "name": "Yabiao Wang"
         },
         {
-          "authorId": "2152503334",
-          "name": "Chao Liu"
+          "authorId": "144970872",
+          "name": "Ying Tai"
         },
         {
-          "authorId": "1682001",
-          "name": "J. Benediktsson"
+          "authorId": "1978245",
+          "name": "Chengjie Wang"
+        },
+        {
+          "authorId": "49298244",
+          "name": "Jilin Li"
+        },
+        {
+          "authorId": "1835006",
+          "name": "Feiyue Huang"
+        },
+        {
+          "authorId": "35782003",
+          "name": "Yanwei Fu"
         }
       ]
     },
     {
-      "paperId": "2e7ce763ecafd0ff9d0dd55bb791c2fc921e2b77",
-      "title": "STCMOT: Spatio-Temporal Cohesion Learning for UAV-Based Multiple Object Tracking",
-      "year": 2024,
-      "citationCount": 0,
+      "paperId": "000458c2651ab147d503429f6460aa80155e8e35",
+      "title": "Segment as Points for Efficient Online Multi-Object Tracking and Segmentation",
+      "year": 2020,
+      "citationCount": 67,
       "authors": [
         {
-          "authorId": "2318287365",
-          "name": "Jianbo Ma"
+          "authorId": "48559520",
+          "name": "Zhenbo Xu"
         },
         {
-          "authorId": "15720271",
-          "name": "Chuanming Tang"
+          "authorId": "2329600",
+          "name": "Wei Zhang"
         },
         {
-          "authorId": "2110922830",
-          "name": "Fei Wu"
+          "authorId": "145681032",
+          "name": "Xiao Tan"
         },
         {
-          "authorId": "2321483969",
-          "name": "Can Zhao"
+          "authorId": "144984311",
+          "name": "Wei Yang"
         },
         {
-          "authorId": "2264343678",
-          "name": "Jianlin Zhang"
+          "authorId": "2146052891",
+          "name": "Huan Huang"
         },
         {
-          "authorId": "2300223945",
-          "name": "Zhiyong Xu"
+          "authorId": "2671368",
+          "name": "Shilei Wen"
+        },
+        {
+          "authorId": "12081764",
+          "name": "Errui Ding"
+        },
+        {
+          "authorId": "2111137251",
+          "name": "Liusheng Huang"
         }
       ]
     },
     {
-      "paperId": "cf39ff93675876199aeaf0f427324cb71a2a05ab",
-      "title": "GATrack: Group-Aware features for multiple object tracking",
-      "year": 2024,
-      "citationCount": 0,
+      "paperId": "83f2ba521ce4e49ebfda2d2bc506ca5bafd055c3",
+      "title": "GSM: Graph Similarity Model for Multi-Object Tracking",
+      "year": 2020,
+      "citationCount": 107,
       "authors": [
         {
-          "authorId": "2267291429",
-          "name": "Xiaolong Wang"
+          "authorId": "2145484131",
+          "name": "Qiankun Liu"
         },
         {
-          "authorId": "2269476610",
-          "name": "Ping Hu"
+          "authorId": "3127351",
+          "name": "Q. Chu"
         },
         {
-          "authorId": "4478507",
-          "name": "Rongyao Hu"
+          "authorId": "1641360431",
+          "name": "B. Liu"
         },
         {
-          "authorId": "2323717498",
-          "name": "Xiaofeng Zhu"
+          "authorId": "1708598",
+          "name": "Nenghai Yu"
         }
       ]
     },
     {
-      "paperId": "bef15b08d2ca668ba7407ddb506a57448971d683",
-      "title": "A New Architecture for Neural Enhanced Multiobject Tracking",
-      "year": 2024,
-      "citationCount": 0,
+      "paperId": "9d7b2b4cdb2e312a2989a5a13e64fd15dade8c5e",
+      "title": "Lifted Disjoint Paths with Application in Multiple Object Tracking",
+      "year": 2020,
+      "citationCount": 116,
       "authors": [
         {
-          "authorId": "2325457105",
-          "name": "Shaoxiu Wei"
+          "authorId": "4435419",
+          "name": "Andrea Hornáková"
         },
         {
-          "authorId": "2119248625",
-          "name": "Mingchao Liang"
+          "authorId": "32760647",
+          "name": "Roberto Henschel"
         },
         {
-          "authorId": "2276431448",
-          "name": "Florian Meyer"
+          "authorId": "1779035",
+          "name": "B. Rosenhahn"
+        },
+        {
+          "authorId": "143657159",
+          "name": "P. Swoboda"
         }
       ]
     },
     {
-      "paperId": "182e6c08b91b46b9f2d9700835a15c5bcd7d368d",
-      "title": "JDT3D: Addressing the Gaps in LiDAR-Based Tracking-by-Attention",
-      "year": 2024,
-      "citationCount": 0,
+      "paperId": "4586e787deb9ae3230f132d0368a89bb3887af9f",
+      "title": "Quasi-Dense Similarity Learning for Multiple Object Tracking",
+      "year": 2020,
+      "citationCount": 354,
       "authors": [
         {
-          "authorId": "2310342184",
-          "name": "Brian Cheong"
+          "authorId": "49968574",
+          "name": "Jiangmiao Pang"
         },
         {
-          "authorId": "2310388269",
-          "name": "Jiachen Zhou"
+          "authorId": "1742081895",
+          "name": "Linlu Qiu"
         },
         {
-          "authorId": "2307971443",
-          "name": "Steven Waslander"
+          "authorId": "1502869569",
+          "name": "Xia Li"
+        },
+        {
+          "authorId": "2149051402",
+          "name": "Haofeng Chen"
+        },
+        {
+          "authorId": "2118913027",
+          "name": "Qi Li"
+        },
+        {
+          "authorId": "1753210",
+          "name": "Trevor Darrell"
+        },
+        {
+          "authorId": "1807197",
+          "name": "F. Yu"
         }
       ]
     },
     {
-      "paperId": "661373c6a7282ec2779dc68969ef741610c5ddb9",
-      "title": "TF-SASM: Training-free Spatial-aware Sparse Memory for Multi-object Tracking",
-      "year": 2024,
-      "citationCount": 0,
+      "paperId": "d92827d0c62ce499e199caadb83e5ba457bc8869",
+      "title": "TubeTK: Adopting Tubes to Track Multi-Object in a One-Step Training Model",
+      "year": 2020,
+      "citationCount": 232,
       "authors": [
         {
-          "authorId": "2270552281",
-          "name": "Thuc Nguyen-Quang"
+          "authorId": "1560385163",
+          "name": "Bo Pang"
         },
         {
-          "authorId": "2310236459",
-          "name": "Minh-Triet Tran"
+          "authorId": "48513370",
+          "name": "Yizhuo Li"
+        },
+        {
+          "authorId": "40382978",
+          "name": "Yifan Zhang"
+        },
+        {
+          "authorId": "2692368",
+          "name": "Muchen Li"
+        },
+        {
+          "authorId": "2289047310",
+          "name": "Cewu Lu"
         }
       ]
     },
     {
-      "paperId": "a42c6cdfd7bc33803e0afd128dd72f1f937c0d20",
-      "title": "SSP-GNN: Learning to Track via Bilevel Optimization",
-      "year": 2024,
-      "citationCount": 0,
+      "paperId": "962dc29fdc3fbdc5930a10aba114050b82fe5a3e",
+      "title": "End-to-End Object Detection with Transformers",
+      "year": 2020,
+      "citationCount": 12107,
       "authors": [
         {
-          "authorId": "2310238628",
-          "name": "Griffin Golias"
+          "authorId": "3422899",
+          "name": "Nicolas Carion"
         },
         {
-          "authorId": "2310238669",
-          "name": "Masa Nakura-Fan"
+          "authorId": "1403239967",
+          "name": "Francisco Massa"
         },
         {
-          "authorId": "1852308",
-          "name": "Vitaly Ablavsky"
+          "authorId": "2282478",
+          "name": "Gabriel Synnaeve"
+        },
+        {
+          "authorId": "1746841",
+          "name": "Nicolas Usunier"
+        },
+        {
+          "authorId": "144843400",
+          "name": "Alexander Kirillov"
+        },
+        {
+          "authorId": "2134433",
+          "name": "Sergey Zagoruyko"
         }
       ]
     },
     {
-      "paperId": "16cc8982ac696ed2f62a4699c6566827e573a78c",
-      "title": "UniPlane: Unified Plane Detection and Reconstruction from Posed Monocular Videos",
-      "year": 2024,
-      "citationCount": 0,
+      "paperId": "a76241999c8a594eb18fa93e06d81b4099a8e1fe",
+      "title": "Long-Term Tracking With Deep Tracklet Association",
+      "year": 2020,
+      "citationCount": 84,
       "authors": [
         {
-          "authorId": "2277568094",
-          "name": "Yuzhong Huang"
+          "authorId": "1698138",
+          "name": "Yang Zhang"
         },
         {
-          "authorId": "2310278600",
-          "name": "Chen Liu"
+          "authorId": "2182252",
+          "name": "Hao Sheng"
         },
         {
-          "authorId": "2310236854",
-          "name": "Ji Hou"
+          "authorId": "2107894845",
+          "name": "Yubin Wu"
         },
         {
-          "authorId": "2310239473",
-          "name": "Ke Huo"
+          "authorId": "153926149",
+          "name": "Shuai Wang"
         },
         {
-          "authorId": "2310401537",
-          "name": "Shiyu Dong"
+          "authorId": "2106019745",
+          "name": "Weifeng Lyu"
         },
         {
-          "authorId": "2306781456",
-          "name": "Fred Morstatter"
+          "authorId": "48614994",
+          "name": "W. Ke"
+        },
+        {
+          "authorId": "46335589",
+          "name": "Z. Xiong"
         }
       ]
     },
     {
-      "paperId": "c1608212d768397aed455075eba6e65c19e1a125",
-      "title": "StreamLTS: Query-based Temporal-Spatial LiDAR Fusion for Cooperative Object Detection",
-      "year": 2024,
-      "citationCount": 0,
+      "paperId": "9cf9b6a1c3bea5dd2079bf599946ec85db9e5673",
+      "title": "FairMOT: On the Fairness of Detection and Re-identification in Multiple Object Tracking",
+      "year": 2020,
+      "citationCount": 1261,
       "authors": [
         {
-          "authorId": "2153108400",
-          "name": "Yunshuang Yuan"
+          "authorId": "2108464812",
+          "name": "Yifu Zhang"
         },
         {
-          "authorId": "2267794438",
-          "name": "Monika Sester"
+          "authorId": "50097069",
+          "name": "Chunyu Wang"
+        },
+        {
+          "authorId": "2443233",
+          "name": "Xinggang Wang"
+        },
+        {
+          "authorId": "1634494276",
+          "name": "Wenjun Zeng"
+        },
+        {
+          "authorId": "2109194747",
+          "name": "Wenyu Liu"
         }
       ]
     },
     {
-      "paperId": "bc45246ce2310c5de2777709a21fd882420875ff",
-      "title": "FlowTrack: Point-level Flow Network for 3D Single Object Tracking",
-      "year": 2024,
-      "citationCount": 1,
+      "paperId": "6daaf6640ecd56779354c3937e5275c3eed0cfef",
+      "title": "Tracking Objects as Points",
+      "year": 2020,
+      "citationCount": 1012,
       "authors": [
         {
-          "authorId": "2287475283",
-          "name": "Shuo Li"
+          "authorId": "1390555183",
+          "name": "Xingyi Zhou"
         },
         {
-          "authorId": "1471674162",
-          "name": "Yubo Cui"
+          "authorId": "145231047",
+          "name": "V. Koltun"
         },
         {
-          "authorId": "2282630247",
-          "name": "Zhiheng Li"
-        },
-        {
-          "authorId": "2182178220",
-          "name": "Zheng Fang"
+          "authorId": "2562966",
+          "name": "Philipp Krähenbühl"
         }
       ]
     },
     {
-      "paperId": "5851ca6213ade622efa95a436f7b72a348e65e5a",
-      "title": "RoMATer: An end-to-end robust multiaircraft tracker with transformer",
-      "year": 2024,
-      "citationCount": 0,
+      "paperId": "d11c50e49998e2156da7c179a3caea86e9601abd",
+      "title": "MOT20: A benchmark for multi object tracking in crowded scenes",
+      "year": 2020,
+      "citationCount": 619,
       "authors": [
         {
-          "authorId": "2116987663",
-          "name": "Xujie He"
+          "authorId": "1416750021",
+          "name": "Patrick Dendorfer"
         },
         {
-          "authorId": "2283873607",
-          "name": "Jing Jin"
+          "authorId": "1387977754",
+          "name": "Hamid Rezatofighi"
         },
         {
-          "authorId": "2283815557",
-          "name": "Duo Chen"
+          "authorId": "34761498",
+          "name": "Anton Milan"
         },
         {
-          "authorId": "2314344270",
-          "name": "Cangtian Zhou"
+          "authorId": "3177281",
+          "name": "Javen Qinfeng Shi"
         },
         {
-          "authorId": "2320463851",
-          "name": "Jiale Jiang"
+          "authorId": "1695302",
+          "name": "D. Cremers"
         },
         {
-          "authorId": "2320475991",
-          "name": "Yuhan Chen"
+          "authorId": "145950884",
+          "name": "I. Reid"
+        },
+        {
+          "authorId": "145920814",
+          "name": "S. Roth"
+        },
+        {
+          "authorId": "144810819",
+          "name": "K. Schindler"
+        },
+        {
+          "authorId": "2065226982",
+          "name": "L. Leal-Taix'e"
         }
       ]
+    },
+    {
+      "paperId": "9883759eb90c2aff373b48d31d3e5700b3bd256a",
+      "title": "Motion Segmentation & Multiple Object Tracking by Correlation Co-Clustering",
+      "year": 2020,
+      "citationCount": 203,
+      "authors": [
+        {
+          "authorId": "3316866",
+          "name": "M. Keuper"
+        },
+        {
+          "authorId": "1831081930",
+          "name": "Siyu Tang"
+        },
+        {
+          "authorId": "16576043",
+          "name": "Bjoern Andres"
+        },
+        {
+          "authorId": "1710872",
+          "name": "T. Brox"
+        },
+        {
+          "authorId": "48920094",
+          "name": "B. Schiele"
+        }
+      ]
+    },
+    {
+      "paperId": "67e63dc78c79330d7edb14761b0c4a599600e534",
+      "title": "Learning a Neural Solver for Multiple Object Tracking",
+      "year": 2019,
+      "citationCount": 389,
+      "authors": [
+        {
+          "authorId": "2064987101",
+          "name": "Guillem Brasó"
+        },
+        {
+          "authorId": "2065226982",
+          "name": "L. Leal-Taix'e"
+        }
+      ]
+    },
+    {
+      "paperId": "0fd731b4f5802b7177c45607dcfb8b8c45d418bf",
+      "title": "Learning Multi-Object Tracking and Segmentation From Automatic Annotations",
+      "year": 2019,
+      "citationCount": 69,
+      "authors": [
+        {
+          "authorId": "3202308",
+          "name": "L. Porzi"
+        },
+        {
+          "authorId": "153431233",
+          "name": "Markus Hofinger"
+        },
+        {
+          "authorId": "2065434473",
+          "name": "Idoia Ruiz"
+        },
+        {
+          "authorId": "1507212704",
+          "name": "J. Serrat"
+        },
+        {
+          "authorId": "2145174",
+          "name": "S. R. Bulò"
+        },
+        {
+          "authorId": "2049889",
+          "name": "P. Kontschieder"
+        }
+      ]
+    },
+    {
+      "paperId": "3eaa1ada0667245f32d507d702c9d143a55d7c1a",
+      "title": "Heterogeneous Association Graph Fusion for Target Association in Multiple Object Tracking",
+      "year": 2019,
+      "citationCount": 100,
+      "authors": [
+        {
+          "authorId": "2182252",
+          "name": "Hao Sheng"
+        },
+        {
+          "authorId": "2145955253",
+          "name": "Yang Zhang"
+        },
+        {
+          "authorId": "50762926",
+          "name": "Jiahui Chen"
+        },
+        {
+          "authorId": "46335589",
+          "name": "Z. Xiong"
+        },
+        {
+          "authorId": "2155662539",
+          "name": "Jun Zhang"
+        }
+      ]
+    },
+    {
+      "paperId": "21926651e49cfd5b7c00c62777a59e057345137e",
+      "title": "FAMNet: Joint Learning of Feature, Affinity and Multi-Dimensional Assignment for Online Multiple Object Tracking",
+      "year": 2019,
+      "citationCount": 213,
+      "authors": [
+        {
+          "authorId": "49829905",
+          "name": "Peng Chu"
+        },
+        {
+          "authorId": "1805398",
+          "name": "Haibin Ling"
+        }
+      ]
+    },
+    {
+      "paperId": "58cf45b4c1bc070535c2f3c1004b2fdc6fe8c907",
+      "title": "Tracking Without Bells and Whistles",
+      "year": 2019,
+      "citationCount": 893,
+      "authors": [
+        {
+          "authorId": "2067327261",
+          "name": "Philipp Bergmann"
+        },
+        {
+          "authorId": "10683576",
+          "name": "Tim Meinhardt"
+        },
+        {
+          "authorId": "1388407684",
+          "name": "L. Leal-Taixé"
+        }
+      ]
+    },
+    {
+      "paperId": "889c81b4d7b7ed43a3f69f880ea60b0572e02e27",
+      "title": "Generalized Intersection Over Union: A Metric and a Loss for Bounding Box Regression",
+      "year": 2019,
+      "citationCount": 3895,
+      "authors": [
+        {
+          "authorId": "73768948",
+          "name": "S. H. Rezatofighi"
+        },
+        {
+          "authorId": "39282796",
+          "name": "Nathan Tsoi"
+        },
+        {
+          "authorId": "39813007",
+          "name": "JunYoung Gwak"
+        },
+        {
+          "authorId": "145759966",
+          "name": "Amir Sadeghian"
+        },
+        {
+          "authorId": "145950884",
+          "name": "I. Reid"
+        },
+        {
+          "authorId": "1702137",
+          "name": "S. Savarese"
+        }
+      ]
+    },
+    {
+      "paperId": "ddb80e2c3e1c2ba012ff33bafaef86f02b7275b0",
+      "title": "MOTS: Multi-Object Tracking and Segmentation",
+      "year": 2019,
+      "citationCount": 566,
+      "authors": [
+        {
+          "authorId": "2767859",
+          "name": "P. Voigtlaender"
+        },
+        {
+          "authorId": "2053721892",
+          "name": "Michael Krause"
+        },
+        {
+          "authorId": "3331304",
+          "name": "Aljosa Osep"
+        },
+        {
+          "authorId": "31553652",
+          "name": "Jonathon Luiten"
+        },
+        {
+          "authorId": "69984537",
+          "name": "Berin Balachandar Gnana Sekar"
+        },
+        {
+          "authorId": "47237027",
+          "name": "Andreas Geiger"
+        },
+        {
+          "authorId": "1789756",
+          "name": "B. Leibe"
+        }
+      ]
+    },
+    {
+      "paperId": "aa982a07fdf5e809c8702eed678067e47ef422f8",
+      "title": "Online Multi-Object Tracking with Dual Matching Attention Networks",
+      "year": 2018,
+      "citationCount": 346,
+      "authors": [
+        {
+          "authorId": "2108714865",
+          "name": "Ji Zhu"
+        },
+        {
+          "authorId": "71227046",
+          "name": "Hua Yang"
+        },
+        {
+          "authorId": "2089020066",
+          "name": "Nian Liu"
+        },
+        {
+          "authorId": "2918263",
+          "name": "Minyoung Kim"
+        },
+        {
+          "authorId": "2108391663",
+          "name": "Wenjun Zhang"
+        },
+        {
+          "authorId": "1715634",
+          "name": "Ming-Hsuan Yang"
+        }
+      ]
+    },
+    {
+      "paperId": "07f4ba45b771ed123b08261d88acda19406a7987",
+      "title": "Real-Time Multiple People Tracking with Deeply Learned Candidate Selection and Person Re-Identification",
+      "year": 2018,
+      "citationCount": 371,
+      "authors": [
+        {
+          "authorId": "1737625",
+          "name": "Long Chen"
+        },
+        {
+          "authorId": "1679380",
+          "name": "H. Ai"
+        },
+        {
+          "authorId": "153417486",
+          "name": "Zijie Zhuang"
+        },
+        {
+          "authorId": "7272718",
+          "name": "C. Shang"
+        }
+      ]
+    },
+    {
+      "paperId": "03a65d274dc6caea94f6ab344e0b4969575327e3",
+      "title": "CrowdHuman: A Benchmark for Detecting Human in a Crowd",
+      "year": 2018,
+      "citationCount": 654,
+      "authors": [
+        {
+          "authorId": "2143993776",
+          "name": "Shuai Shao"
+        },
+        {
+          "authorId": "2117928374",
+          "name": "Zijian Zhao"
+        },
+        {
+          "authorId": "2143356219",
+          "name": "Boxun Li"
+        },
+        {
+          "authorId": "15727192",
+          "name": "Tete Xiao"
+        },
+        {
+          "authorId": "2116565951",
+          "name": "Gang Yu"
+        },
+        {
+          "authorId": "50875121",
+          "name": "Xiangyu Zhang"
+        },
+        {
+          "authorId": null,
+          "name": "Jian Sun"
+        }
+      ]
+    },
+    {
+      "paperId": "c0f01b8174a632448c20eb5472cd9d5b2c595e39",
+      "title": "Features for Multi-target Multi-camera Tracking and Re-identification",
+      "year": 2018,
+      "citationCount": 513,
+      "authors": [
+        {
+          "authorId": "2788204",
+          "name": "Ergys Ristani"
+        },
+        {
+          "authorId": "145086151",
+          "name": "Carlo Tomasi"
+        }
+      ]
+    },
+    {
+      "paperId": "d3cdc922532b0e200b34f0ffea9503628f037ff8",
+      "title": "Learning to Detect and Track Visible and Occluded Body Joints in a Virtual World",
+      "year": 2018,
+      "citationCount": 169,
+      "authors": [
+        {
+          "authorId": "41183949",
+          "name": "Matteo Fabbri"
+        },
+        {
+          "authorId": "2064949613",
+          "name": "Fabio Lanzi"
+        },
+        {
+          "authorId": "2175529",
+          "name": "S. Calderara"
+        },
+        {
+          "authorId": "38772386",
+          "name": "Andrea Palazzi"
+        },
+        {
+          "authorId": "1723285",
+          "name": "R. Vezzani"
+        },
+        {
+          "authorId": "1741922",
+          "name": "R. Cucchiara"
+        }
+      ]
+    },
+    {
+      "paperId": "1db9bd18681b96473f3c82b21edc9240b44dc329",
+      "title": "Image Transformer",
+      "year": 2018,
+      "citationCount": 1621,
+      "authors": [
+        {
+          "authorId": "3877127",
+          "name": "Niki Parmar"
+        },
+        {
+          "authorId": "40348417",
+          "name": "Ashish Vaswani"
+        },
+        {
+          "authorId": "39328010",
+          "name": "Jakob Uszkoreit"
+        },
+        {
+          "authorId": "40527594",
+          "name": "Lukasz Kaiser"
+        },
+        {
+          "authorId": "1846258",
+          "name": "Noam M. Shazeer"
+        },
+        {
+          "authorId": "31702389",
+          "name": "Alexander Ku"
+        },
+        {
+          "authorId": "47497262",
+          "name": "Dustin Tran"
+        }
+      ]
+    },
+    {
+      "paperId": "6b55153f8d87bfd0dfb2f24eb2aa61d40e314cae",
+      "title": "Track, Then Decide: Category-Agnostic Vision-Based Multi-Object Tracking",
+      "year": 2017,
+      "citationCount": 64,
+      "authors": [
+        {
+          "authorId": "3331304",
+          "name": "Aljosa Osep"
+        },
+        {
+          "authorId": "2072623",
+          "name": "Wolfgang Mehner"
+        },
+        {
+          "authorId": "2767859",
+          "name": "P. Voigtlaender"
+        },
+        {
+          "authorId": "1789756",
+          "name": "B. Leibe"
+        }
+      ]
+    },
+    {
+      "paperId": "fb3948152788cfaf8a829aab2f02a6ec7de7c7d1",
+      "title": "Detect to Track and Track to Detect",
+      "year": 2017,
+      "citationCount": 553,
+      "authors": [
+        {
+          "authorId": "2322150",
+          "name": "Christoph Feichtenhofer"
+        },
+        {
+          "authorId": "1718587",
+          "name": "A. Pinz"
+        },
+        {
+          "authorId": "1688869",
+          "name": "Andrew Zisserman"
+        }
+      ]
+    },
+    {
+      "paperId": "794ed0316647a7fb1d334b7dafc38b7a2b2a5b76",
+      "title": "Online Multi-object Tracking Using CNN-Based Single Object Tracker with Spatial-Temporal Attention Mechanism",
+      "year": 2017,
+      "citationCount": 343,
+      "authors": [
+        {
+          "authorId": "3127351",
+          "name": "Q. Chu"
+        },
+        {
+          "authorId": "3001348",
+          "name": "Wanli Ouyang"
+        },
+        {
+          "authorId": "49404547",
+          "name": "Hongsheng Li"
+        },
+        {
+          "authorId": "31843833",
+          "name": "Xiaogang Wang"
+        },
+        {
+          "authorId": null,
+          "name": "Bin Liu"
+        },
+        {
+          "authorId": "1708598",
+          "name": "Nenghai Yu"
+        }
+      ]
+    },
+    {
+      "paperId": "73530b7ece291cd77e409bf03001dfc6983f602d",
+      "title": "Multiple People Tracking by Lifted Multicut and Person Re-identification",
+      "year": 2017,
+      "citationCount": 518,
+      "authors": [
+        {
+          "authorId": "1831081930",
+          "name": "Siyu Tang"
+        },
+        {
+          "authorId": "1906895",
+          "name": "Mykhaylo Andriluka"
+        },
+        {
+          "authorId": "16576043",
+          "name": "Bjoern Andres"
+        },
+        {
+          "authorId": "48920094",
+          "name": "B. Schiele"
+        }
+      ]
+    },
+    {
+      "paperId": "204e3073870fae3d05bcbc2f6a8e263d9b72e776",
+      "title": "Attention is All you Need",
+      "year": 2017,
+      "citationCount": 122776,
+      "authors": [
+        {
+          "authorId": "40348417",
+          "name": "Ashish Vaswani"
+        },
+        {
+          "authorId": "1846258",
+          "name": "Noam M. Shazeer"
+        },
+        {
+          "authorId": "3877127",
+          "name": "Niki Parmar"
+        },
+        {
+          "authorId": "39328010",
+          "name": "Jakob Uszkoreit"
+        },
+        {
+          "authorId": "145024664",
+          "name": "Llion Jones"
+        },
+        {
+          "authorId": "19177000",
+          "name": "Aidan N. Gomez"
+        },
+        {
+          "authorId": "40527594",
+          "name": "Lukasz Kaiser"
+        },
+        {
+          "authorId": "3443442",
+          "name": "Illia Polosukhin"
+        }
+      ]
+    },
+    {
+      "paperId": "32d072ce790b62750fbe343d9dd8620939d84975",
+      "title": "Improvements to Frank-Wolfe optimization for multi-detector multi-object tracking",
+      "year": 2017,
+      "citationCount": 45,
+      "authors": [
+        {
+          "authorId": "32760647",
+          "name": "Roberto Henschel"
+        },
+        {
+          "authorId": "1388407684",
+          "name": "L. Leal-Taixé"
+        },
+        {
+          "authorId": "1695302",
+          "name": "D. Cremers"
+        },
+        {
+          "authorId": "1779035",
+          "name": "B. Rosenhahn"
+        }
+      ]
+    },
+    {
+      "paperId": "1a0912bb76777469295bb2c059faee907e7f3258",
+      "title": "Mask R-CNN",
+      "year": 2017,
+      "citationCount": 26171,
+      "authors": [
+        {
+          "authorId": "39353098",
+          "name": "Kaiming He"
+        },
+        {
+          "authorId": "2082991",
+          "name": "Georgia Gkioxari"
+        },
+        {
+          "authorId": "3127283",
+          "name": "Piotr Dollár"
+        },
+        {
+          "authorId": "2983898",
+          "name": "Ross B. Girshick"
+        }
+      ]
+    },
+    {
+      "paperId": "85aefde69e916523d9587b6abd01419420039474",
+      "title": "Performance Measures and a Data Set for Multi-target, Multi-camera Tracking",
+      "year": 2016,
+      "citationCount": 2545,
+      "authors": [
+        {
+          "authorId": "2788204",
+          "name": "Ergys Ristani"
+        },
+        {
+          "authorId": "2059900",
+          "name": "Francesco Solera"
+        },
+        {
+          "authorId": "50671472",
+          "name": "Roger S. Zou"
+        },
+        {
+          "authorId": "1741922",
+          "name": "R. Cucchiara"
+        },
+        {
+          "authorId": "145086151",
+          "name": "Carlo Tomasi"
+        }
+      ]
+    },
+    {
+      "paperId": "e11a020f0d2942d09127daf1ce7e658d3bf67291",
+      "title": "Social LSTM: Human Trajectory Prediction in Crowded Spaces",
+      "year": 2016,
+      "citationCount": 2754,
+      "authors": [
+        {
+          "authorId": "3304525",
+          "name": "Alexandre Alahi"
+        },
+        {
+          "authorId": "2957685",
+          "name": "Kratarth Goel"
+        },
+        {
+          "authorId": "34066479",
+          "name": "Vignesh Ramanathan"
+        },
+        {
+          "authorId": "2364487",
+          "name": "Alexandre Robicquet"
+        },
+        {
+          "authorId": "48004138",
+          "name": "Li Fei-Fei"
+        },
+        {
+          "authorId": "1702137",
+          "name": "S. Savarese"
+        }
+      ]
+    },
+    {
+      "paperId": "c2f06ff302c393d8e14b90ebd14e28582631209f",
+      "title": "Exploit All the Layers: Fast and Accurate CNN Object Detector with Scale Dependent Pooling and Cascaded Rejection Classifiers",
+      "year": 2016,
+      "citationCount": 549,
+      "authors": [
+        {
+          "authorId": "145338224",
+          "name": "F. Yang"
+        },
+        {
+          "authorId": "17132791",
+          "name": "Wongun Choi"
+        },
+        {
+          "authorId": "119916460",
+          "name": "Yuanqing Lin"
+        }
+      ]
+    },
+    {
+      "paperId": "498d79c61a4f998e0e50af670885a1d5c391f6a2",
+      "title": "Learning by Tracking: Siamese CNN for Robust Target Association",
+      "year": 2016,
+      "citationCount": 421,
+      "authors": [
+        {
+          "authorId": "1388407684",
+          "name": "L. Leal-Taixé"
+        },
+        {
+          "authorId": "1399086207",
+          "name": "C. Canton-Ferrer"
+        },
+        {
+          "authorId": "144810819",
+          "name": "K. Schindler"
+        }
+      ]
+    },
+    {
+      "paperId": "ac0d88ca5f75a4a80da90365c28fa26f1a26d4c4",
+      "title": "MOT16: A Benchmark for Multi-Object Tracking",
+      "year": 2016,
+      "citationCount": 1754,
+      "authors": [
+        {
+          "authorId": "34761498",
+          "name": "Anton Milan"
+        },
+        {
+          "authorId": "1388407684",
+          "name": "L. Leal-Taixé"
+        },
+        {
+          "authorId": "145950884",
+          "name": "I. Reid"
+        },
+        {
+          "authorId": "145920814",
+          "name": "S. Roth"
+        },
+        {
+          "authorId": "144810819",
+          "name": "K. Schindler"
+        }
+      ]
+    },
+    {
+      "paperId": "2c03df8b48bf3fa39054345bafabfeff15bfd11d",
+      "title": "Deep Residual Learning for Image Recognition",
+      "year": 2015,
+      "citationCount": 186822,
+      "authors": [
+        {
+          "authorId": "39353098",
+          "name": "Kaiming He"
+        },
+        {
+          "authorId": "1771551",
+          "name": "X. Zhang"
+        },
+        {
+          "authorId": "3080683",
+          "name": "Shaoqing Ren"
+        },
+        {
+          "authorId": null,
+          "name": "Jian Sun"
+        }
+      ]
+    },
+    {
+      "paperId": "6968cc16bccd99c3d21d09b226234e639002c07e",
+      "title": "Multiple Hypothesis Tracking Revisited",
+      "year": 2015,
+      "citationCount": 613,
+      "authors": [
+        {
+          "authorId": "48809882",
+          "name": "Chanho Kim"
+        },
+        {
+          "authorId": "3141988",
+          "name": "Fuxin Li"
+        },
+        {
+          "authorId": "3244141",
+          "name": "A. Ciptadi"
+        },
+        {
+          "authorId": "144177248",
+          "name": "James M. Rehg"
+        }
+      ]
+    },
+    {
+      "paperId": "e24c261f5cfcd58a595efb7ca684aedcb2a2f22c",
+      "title": "Scalable Person Re-identification: A Benchmark",
+      "year": 2015,
+      "citationCount": 3884,
+      "authors": [
+        {
+          "authorId": "144802394",
+          "name": "Liang Zheng"
+        },
+        {
+          "authorId": "1970631",
+          "name": "Liyue Shen"
+        },
+        {
+          "authorId": "152755696",
+          "name": "Lu Tian"
+        },
+        {
+          "authorId": "1678689",
+          "name": "Shengjin Wang"
+        },
+        {
+          "authorId": "1688516",
+          "name": "Jingdong Wang"
+        },
+        {
+          "authorId": "144876831",
+          "name": "Q. Tian"
+        }
+      ]
+    },
+    {
+      "paperId": "ef0a32525869ac3a2bd4cbacb18343d737c5916d",
+      "title": "End-to-End People Detection in Crowded Scenes",
+      "year": 2015,
+      "citationCount": 535,
+      "authors": [
+        {
+          "authorId": "143713394",
+          "name": "Russell Stewart"
+        },
+        {
+          "authorId": "1906895",
+          "name": "Mykhaylo Andriluka"
+        },
+        {
+          "authorId": "34699434",
+          "name": "A. Ng"
+        }
+      ]
+    },
+    {
+      "paperId": "424561d8585ff8ebce7d5d07de8dbf7aae5e7270",
+      "title": "Faster R-CNN: Towards Real-Time Object Detection with Region Proposal Networks",
+      "year": 2015,
+      "citationCount": 60150,
+      "authors": [
+        {
+          "authorId": "3080683",
+          "name": "Shaoqing Ren"
+        },
+        {
+          "authorId": "39353098",
+          "name": "Kaiming He"
+        },
+        {
+          "authorId": "2983898",
+          "name": "Ross B. Girshick"
+        },
+        {
+          "authorId": "2032184078",
+          "name": "Jian Sun"
+        }
+      ]
+    },
+    {
+      "paperId": "fbdf59de63e93b38bd539f8c8b0cab41a89aff5b",
+      "title": "Learning an Image-Based Motion Context for Multiple People Tracking",
+      "year": 2014,
+      "citationCount": 268,
+      "authors": [
+        {
+          "authorId": "1388407684",
+          "name": "L. Leal-Taixé"
+        },
+        {
+          "authorId": "1779415",
+          "name": "Michele Fenzi"
+        },
+        {
+          "authorId": "33746152",
+          "name": "Alina Kuznetsova"
+        },
+        {
+          "authorId": "1779035",
+          "name": "B. Rosenhahn"
+        },
+        {
+          "authorId": "1702137",
+          "name": "S. Savarese"
+        }
+      ]
+    },
+    {
+      "paperId": "6bd36e9fd0ef20a3074e1430a6cc601e6d407fc3",
+      "title": "DeepReID: Deep Filter Pairing Neural Network for Person Re-identification",
+      "year": 2014,
+      "citationCount": 2336,
+      "authors": [
+        {
+          "authorId": "72531670",
+          "name": "Wei Li"
+        },
+        {
+          "authorId": "145638781",
+          "name": "Rui Zhao"
+        },
+        {
+          "authorId": "2014849645",
+          "name": "Tong Xiao"
+        },
+        {
+          "authorId": "31843833",
+          "name": "Xiaogang Wang"
+        }
+      ]
+    },
+    {
+      "paperId": "71b7178df5d2b112d07e45038cb5637208659ff7",
+      "title": "Microsoft COCO: Common Objects in Context",
+      "year": 2014,
+      "citationCount": 41886,
+      "authors": [
+        {
+          "authorId": "33493200",
+          "name": "Tsung-Yi Lin"
+        },
+        {
+          "authorId": "145854440",
+          "name": "M. Maire"
+        },
+        {
+          "authorId": "50172592",
+          "name": "Serge J. Belongie"
+        },
+        {
+          "authorId": "48966748",
+          "name": "James Hays"
+        },
+        {
+          "authorId": "1690922",
+          "name": "P. Perona"
+        },
+        {
+          "authorId": "1770537",
+          "name": "Deva Ramanan"
+        },
+        {
+          "authorId": "3127283",
+          "name": "Piotr Dollár"
+        },
+        {
+          "authorId": "1699161",
+          "name": "C. L. Zitnick"
+        }
+      ]
+    },
+    {
+      "paperId": "ceeb69ba6ee106ad5f89281ef437f4ac2c626fc0",
+      "title": "Everybody needs somebody: Modeling social and grouping behavior on a linear programming multiple people tracker",
+      "year": 2011,
+      "citationCount": 227,
+      "authors": [
+        {
+          "authorId": "1388407684",
+          "name": "L. Leal-Taixé"
+        },
+        {
+          "authorId": "1403428213",
+          "name": "Gerard Pons-Moll"
+        },
+        {
+          "authorId": "1779035",
+          "name": "B. Rosenhahn"
+        }
+      ]
+    },
+    {
+      "paperId": "a79b60109070e1da614b6fd441ff12dcffcd7908",
+      "title": "Multiple Object Tracking Using K-Shortest Paths Optimization",
+      "year": 2011,
+      "citationCount": 1068,
+      "authors": [
+        {
+          "authorId": "3255177",
+          "name": "J. Berclaz"
+        },
+        {
+          "authorId": "2721983",
+          "name": "F. Fleuret"
+        },
+        {
+          "authorId": "3281545",
+          "name": "Engin Türetken"
+        },
+        {
+          "authorId": "1717736",
+          "name": "P. Fua"
+        }
+      ]
+    },
+    {
+      "paperId": "cc7b1da8d2879ddf83a0f1cdfb24311ba5d75d60",
+      "title": "Multi-target tracking by continuous energy minimization",
+      "year": 2011,
+      "citationCount": 341,
+      "authors": [
+        {
+          "authorId": "2342482",
+          "name": "A. Andriyenko"
+        },
+        {
+          "authorId": "144810819",
+          "name": "K. Schindler"
+        }
+      ]
+    },
+    {
+      "paperId": "af7657bbe96de2196869425b8f8c346e0ec50861",
+      "title": "Who are you with and where are you going?",
+      "year": 2011,
+      "citationCount": 512,
+      "authors": [
+        {
+          "authorId": "1721910",
+          "name": "Kota Yamaguchi"
+        },
+        {
+          "authorId": "39668247",
+          "name": "A. Berg"
+        },
+        {
+          "authorId": "2056565929",
+          "name": "Luis E. Ortiz"
+        },
+        {
+          "authorId": "1685538",
+          "name": "Tamara L. Berg"
+        }
+      ]
+    },
+    {
+      "paperId": "417a1990a0b2017fe0b932673776a970295afa00",
+      "title": "Globally-optimal greedy algorithms for tracking a variable number of objects",
+      "year": 2011,
+      "citationCount": 867,
+      "authors": [
+        {
+          "authorId": "2367683",
+          "name": "H. Pirsiavash"
+        },
+        {
+          "authorId": "1770537",
+          "name": "Deva Ramanan"
+        },
+        {
+          "authorId": "143800213",
+          "name": "Charless C. Fowlkes"
+        }
+      ]
+    },
+    {
+      "paperId": "1712157a63ec7c0825ee60b708a4006cf5391184",
+      "title": "Multiple Target Tracking in World Coordinate with Single, Minimally Calibrated Camera",
+      "year": 2010,
+      "citationCount": 148,
+      "authors": [
+        {
+          "authorId": "17132791",
+          "name": "Wongun Choi"
+        },
+        {
+          "authorId": "2285907381",
+          "name": "Silvio Savarese"
+        }
+      ]
+    },
+    {
+      "paperId": "e79272fe3d65197100eae8be9fec6469107969ae",
+      "title": "Object Detection with Discriminatively Trained Part Based Models",
+      "year": 2010,
+      "citationCount": 10405,
+      "authors": [
+        {
+          "authorId": "1685089",
+          "name": "Pedro F. Felzenszwalb"
+        },
+        {
+          "authorId": "2983898",
+          "name": "Ross B. Girshick"
+        },
+        {
+          "authorId": "145689002",
+          "name": "David A. McAllester"
+        },
+        {
+          "authorId": "1770537",
+          "name": "Deva Ramanan"
+        }
+      ]
+    },
+    {
+      "paperId": "7d7a98a81715e2d3747071722b2deeed8937d122",
+      "title": "You'll never walk alone: Modeling social behavior for multi-target tracking",
+      "year": 2009,
+      "citationCount": 1532,
+      "authors": [
+        {
+          "authorId": "31458284",
+          "name": "S. Pellegrini"
+        },
+        {
+          "authorId": "2433494",
+          "name": "Andreas Ess"
+        },
+        {
+          "authorId": "144810819",
+          "name": "K. Schindler"
+        },
+        {
+          "authorId": "1681236",
+          "name": "L. Gool"
+        }
+      ]
+    },
+    {
+      "paperId": "e14c83c1e3b0557c50618f9da45377f992bd1bdc",
+      "title": "Learning pedestrian dynamics from the real world",
+      "year": 2009,
+      "citationCount": 148,
+      "authors": [
+        {
+          "authorId": "3048032",
+          "name": "P. Scovanner"
+        },
+        {
+          "authorId": "1802944",
+          "name": "M. Tappen"
+        }
+      ]
+    },
+    {
+      "paperId": "6b866ba1dfd2a7b3bbae2518667c8244a6b79aaa",
+      "title": "Global data association for multi-object tracking using network flows",
+      "year": 2008,
+      "citationCount": 1056,
+      "authors": [
+        {
+          "authorId": "2152835649",
+          "name": "Li Zhang"
+        },
+        {
+          "authorId": "2118204296",
+          "name": "Yuan Li"
+        },
+        {
+          "authorId": "144862593",
+          "name": "R. Nevatia"
+        }
+      ]
+    },
+    {
+      "paperId": "2258e01865367018ed6f4262c880df85b94959f8",
+      "title": "Evaluating Multiple Object Tracking Performance: The CLEAR MOT Metrics",
+      "year": 2008,
+      "citationCount": 2666,
+      "authors": [
+        {
+          "authorId": "1701229",
+          "name": "Keni Bernardin"
+        },
+        {
+          "authorId": "1742325",
+          "name": "R. Stiefelhagen"
+        }
+      ]
+    },
+    {
+      "paperId": "d8d6819004a6f384f06b902133463c50fe8cd8d3",
+      "title": "A Linear Programming Approach for Multiple Object Tracking",
+      "year": 2007,
+      "citationCount": 372,
+      "authors": [
+        {
+          "authorId": "143891655",
+          "name": "Hao Jiang"
+        },
+        {
+          "authorId": "23111666",
+          "name": "S. Fels"
+        },
+        {
+          "authorId": "1710980",
+          "name": "J. Little"
+        }
+      ]
+    },
+    {
+      "paperId": "38dd730a7d2466b3bde4674daddecb6532fd3ae3",
+      "title": "Multiple Target Tracking Using Spatio-Temporal Markov Chain Monte Carlo Data Association",
+      "year": 2007,
+      "citationCount": 155,
+      "authors": [
+        {
+          "authorId": "2087411205",
+          "name": "Qian Yu"
+        },
+        {
+          "authorId": "3463966",
+          "name": "G. Medioni"
+        },
+        {
+          "authorId": "144422657",
+          "name": "I. Cohen"
+        }
+      ]
+    },
+    {
+      "paperId": null,
+      "title": "Learning social etiquette: Human trajectory prediction",
+      "year": 2016,
+      "citationCount": null,
+      "authors": []
+    },
+    {
+      "paperId": null,
+      "title": "In order to achieve frame-to-frame track generation, we introduce the concept of track queries to the decoder",
+      "year": null,
+      "citationCount": null,
+      "authors": []
+    },
+    {
+      "paperId": null,
+      "title": "Bounding boxes switching the corresponding ground truth identity",
+      "year": null,
+      "citationCount": null,
+      "authors": []
+    },
+    {
+      "paperId": null,
+      "title": "ii) Encoding of frame features with self-attention in a Transformer encoder",
+      "year": null,
+      "citationCount": null,
+      "authors": []
     }
-  ],
-  "references": []
+  ]
 }

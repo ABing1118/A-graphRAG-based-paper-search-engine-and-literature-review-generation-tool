@@ -1,0 +1,787 @@
+{
+  "citations": [
+    {
+      "paperId": "aa3517c664890cd36aee3cfff0f09d2645e373b6",
+      "title": "A Sober Look at Progress in Language Model Reasoning: Pitfalls and Paths to Reproducibility",
+      "year": 2025,
+      "citationCount": 1,
+      "authors": [
+        {
+          "authorId": "2311885568",
+          "name": "Andreas Hochlehnert"
+        },
+        {
+          "authorId": "2354337076",
+          "name": "Hardik Bhatnagar"
+        },
+        {
+          "authorId": "2345194898",
+          "name": "Vishaal Udandarao"
+        },
+        {
+          "authorId": "7641268",
+          "name": "Samuel Albanie"
+        },
+        {
+          "authorId": "2311885852",
+          "name": "Ameya Prabhu"
+        },
+        {
+          "authorId": "2256998402",
+          "name": "Matthias Bethge"
+        }
+      ]
+    }
+  ],
+  "references": [
+    {
+      "paperId": "f5d194b600e4e4021564f3647afde07308ac41d3",
+      "title": "VLM-R1: A Stable and Generalizable R1-style Large Vision-Language Model",
+      "year": 2025,
+      "citationCount": 15,
+      "authors": [
+        {
+          "authorId": null,
+          "name": "Haozhan Shen"
+        },
+        {
+          "authorId": "2354633767",
+          "name": "Peng Liu"
+        },
+        {
+          "authorId": "2354610545",
+          "name": "Jingcheng Li"
+        },
+        {
+          "authorId": null,
+          "name": "Chunxin Fang"
+        },
+        {
+          "authorId": "2308296536",
+          "name": "Yibo Ma"
+        },
+        {
+          "authorId": "2310400759",
+          "name": "Jiajia Liao"
+        },
+        {
+          "authorId": "2354813773",
+          "name": "Qiaoli Shen"
+        },
+        {
+          "authorId": "2270181751",
+          "name": "Zilun Zhang"
+        },
+        {
+          "authorId": "2261168430",
+          "name": "Kangjia Zhao"
+        },
+        {
+          "authorId": "2310389580",
+          "name": "Qianqian Zhang"
+        },
+        {
+          "authorId": null,
+          "name": "Ruochen Xu"
+        },
+        {
+          "authorId": null,
+          "name": "Tiancheng Zhao"
+        }
+      ]
+    },
+    {
+      "paperId": "45e1c99a1c8935bf137c0b51a08a03ffb6821993",
+      "title": "Demystifying Long Chain-of-Thought Reasoning in LLMs",
+      "year": 2025,
+      "citationCount": 42,
+      "authors": [
+        {
+          "authorId": "2349449435",
+          "name": "Edward Y. Chang"
+        },
+        {
+          "authorId": "2344576207",
+          "name": "Yuxuan Tong"
+        },
+        {
+          "authorId": "2343833063",
+          "name": "Morry Niu"
+        },
+        {
+          "authorId": "2315307439",
+          "name": "Graham Neubig"
+        },
+        {
+          "authorId": "2327047556",
+          "name": "Xiang Yue"
+        }
+      ]
+    },
+    {
+      "paperId": "a99dee9602e21a71526b9681d8dba37c55b66941",
+      "title": "SFT Memorizes, RL Generalizes: A Comparative Study of Foundation Model Post-training",
+      "year": 2025,
+      "citationCount": 38,
+      "authors": [
+        {
+          "authorId": "2218725693",
+          "name": "Tianzhe Chu"
+        },
+        {
+          "authorId": "119692515",
+          "name": "Yuexiang Zhai"
+        },
+        {
+          "authorId": "2308068128",
+          "name": "Jihan Yang"
+        },
+        {
+          "authorId": "2143202419",
+          "name": "Shengbang Tong"
+        },
+        {
+          "authorId": "2282918539",
+          "name": "Saining Xie"
+        },
+        {
+          "authorId": "2265994815",
+          "name": "Dale Schuurmans"
+        },
+        {
+          "authorId": "2316407385",
+          "name": "Quoc V. Le"
+        },
+        {
+          "authorId": "2342508120",
+          "name": "Sergey Levine"
+        },
+        {
+          "authorId": "2255716385",
+          "name": "Yi Ma"
+        }
+      ]
+    },
+    {
+      "paperId": "6a7c29829227bfd65ae0ffec294a874bb9ea0871",
+      "title": "TÜLU 3: Pushing Frontiers in Open Language Model Post-Training",
+      "year": 2024,
+      "citationCount": 42,
+      "authors": [
+        {
+          "authorId": "2052363815",
+          "name": "Nathan Lambert"
+        },
+        {
+          "authorId": "2146964035",
+          "name": "Jacob Daniel Morrison"
+        },
+        {
+          "authorId": "22330666",
+          "name": "Valentina Pyatkin"
+        },
+        {
+          "authorId": "2332080646",
+          "name": "Shengyi Huang"
+        },
+        {
+          "authorId": "2056776606",
+          "name": "Hamish Ivison"
+        },
+        {
+          "authorId": "2223951216",
+          "name": "Faeze Brahman"
+        },
+        {
+          "authorId": "13614871",
+          "name": "Lester James Validad Miranda"
+        },
+        {
+          "authorId": "2261363520",
+          "name": "Alisa Liu"
+        },
+        {
+          "authorId": "46217681",
+          "name": "Nouha Dziri"
+        },
+        {
+          "authorId": "2156533327",
+          "name": "Xinxi Lyu"
+        },
+        {
+          "authorId": "2261456046",
+          "name": "Yuling Gu"
+        },
+        {
+          "authorId": "2331861420",
+          "name": "Saumya Malik"
+        },
+        {
+          "authorId": "2331856782",
+          "name": "Victoria Graf"
+        },
+        {
+          "authorId": "2267902676",
+          "name": "Jena D. Hwang"
+        },
+        {
+          "authorId": "82148460",
+          "name": "Jiangjiang Yang"
+        },
+        {
+          "authorId": "2069676542",
+          "name": "R. L. Bras"
+        },
+        {
+          "authorId": "3385516",
+          "name": "Oyvind Tafjord"
+        },
+        {
+          "authorId": "2270038642",
+          "name": "Chris Wilhelm"
+        },
+        {
+          "authorId": "2280666145",
+          "name": "Luca Soldaini"
+        },
+        {
+          "authorId": "2292425227",
+          "name": "Noah A. Smith"
+        },
+        {
+          "authorId": "1705260",
+          "name": "Yizhong Wang"
+        },
+        {
+          "authorId": "2697425",
+          "name": "Pradeep Dasigi"
+        },
+        {
+          "authorId": "2264251662",
+          "name": "Hanna Hajishirzi"
+        }
+      ]
+    },
+    {
+      "paperId": "1406bb4cb6801bc4767b661308118c888a9b09da",
+      "title": "MMLU-Pro: A More Robust and Challenging Multi-Task Language Understanding Benchmark",
+      "year": 2024,
+      "citationCount": 249,
+      "authors": [
+        {
+          "authorId": "2238120100",
+          "name": "Yubo Wang"
+        },
+        {
+          "authorId": "2461713",
+          "name": "Xueguang Ma"
+        },
+        {
+          "authorId": "2143853895",
+          "name": "Ge Zhang"
+        },
+        {
+          "authorId": "2268493966",
+          "name": "Yuansheng Ni"
+        },
+        {
+          "authorId": "2304449194",
+          "name": "Abhranil Chandra"
+        },
+        {
+          "authorId": "2304752176",
+          "name": "Shiguang Guo"
+        },
+        {
+          "authorId": "2268493042",
+          "name": "Weiming Ren"
+        },
+        {
+          "authorId": "2304445005",
+          "name": "Aaran Arulraj"
+        },
+        {
+          "authorId": "2299486403",
+          "name": "Xuan He"
+        },
+        {
+          "authorId": "2112347577",
+          "name": "Ziyan Jiang"
+        },
+        {
+          "authorId": "2304932037",
+          "name": "Tianle Li"
+        },
+        {
+          "authorId": "2218153604",
+          "name": "Max W.F. Ku"
+        },
+        {
+          "authorId": "2304713202",
+          "name": "Kai Wang"
+        },
+        {
+          "authorId": "2304444725",
+          "name": "Alex Zhuang"
+        },
+        {
+          "authorId": "2304426528",
+          "name": "Rongqi \"Richard\" Fan"
+        },
+        {
+          "authorId": "2284988933",
+          "name": "Xiang Yue"
+        },
+        {
+          "authorId": "2253811180",
+          "name": "Wenhu Chen"
+        }
+      ]
+    },
+    {
+      "paperId": "9deda73da446cbb21550abaa62b41f5a3acd92fc",
+      "title": "OpenRLHF: An Easy-to-use, Scalable and High-performance RLHF Framework",
+      "year": 2024,
+      "citationCount": 72,
+      "authors": [
+        {
+          "authorId": "2302332412",
+          "name": "Jian Hu"
+        },
+        {
+          "authorId": "2302344288",
+          "name": "Xibin Wu"
+        },
+        {
+          "authorId": "2302365193",
+          "name": "Weixun Wang"
+        },
+        {
+          "authorId": "2302372580",
+          "name": "Dehao Zhang"
+        },
+        {
+          "authorId": "2302339069",
+          "name": "Yu Cao"
+        },
+        {
+          "authorId": "2304440556",
+          "name": "OpenLLMAI Team"
+        },
+        {
+          "authorId": "2304442983",
+          "name": "Netease Fuxi"
+        },
+        {
+          "authorId": "2304443414",
+          "name": "AI Lab"
+        },
+        {
+          "authorId": "2304441167",
+          "name": "Alibaba Group"
+        }
+      ]
+    },
+    {
+      "paperId": "afe0998d191f3ea8490c7df100a3ffc5dcc62c5e",
+      "title": "LiveCodeBench: Holistic and Contamination Free Evaluation of Large Language Models for Code",
+      "year": 2024,
+      "citationCount": 223,
+      "authors": [
+        {
+          "authorId": "1646458461",
+          "name": "Naman Jain"
+        },
+        {
+          "authorId": "2291438028",
+          "name": "King Han"
+        },
+        {
+          "authorId": "2261364306",
+          "name": "Alex Gu"
+        },
+        {
+          "authorId": "2108635077",
+          "name": "Wen-Ding Li"
+        },
+        {
+          "authorId": "2291072588",
+          "name": "Fanjia Yan"
+        },
+        {
+          "authorId": "1993655237",
+          "name": "Tianjun Zhang"
+        },
+        {
+          "authorId": "2278894217",
+          "name": "Sida Wang"
+        },
+        {
+          "authorId": "2278433392",
+          "name": "Armando Solar-Lezama"
+        },
+        {
+          "authorId": "2268398121",
+          "name": "Koushik Sen"
+        },
+        {
+          "authorId": "2290576964",
+          "name": "Ion Stoica"
+        }
+      ]
+    },
+    {
+      "paperId": "bde9da9a39a065588d7f4573936731510d6f4f29",
+      "title": "Can Generalist Foundation Models Outcompete Special-Purpose Tuning? Case Study in Medicine",
+      "year": 2023,
+      "citationCount": 272,
+      "authors": [
+        {
+          "authorId": "2268494857",
+          "name": "Harsha Nori"
+        },
+        {
+          "authorId": "2239163839",
+          "name": "Yin Tat Lee"
+        },
+        {
+          "authorId": "72655349",
+          "name": "Sheng Zhang"
+        },
+        {
+          "authorId": "3364465",
+          "name": "Dean Carignan"
+        },
+        {
+          "authorId": "2268494659",
+          "name": "Richard Edgar"
+        },
+        {
+          "authorId": "2723245",
+          "name": "Nicoló Fusi"
+        },
+        {
+          "authorId": "2214807281",
+          "name": "Nicholas King"
+        },
+        {
+          "authorId": "2248259058",
+          "name": "Jonathan Larson"
+        },
+        {
+          "authorId": "2268435346",
+          "name": "Yuanzhi Li"
+        },
+        {
+          "authorId": "2268632175",
+          "name": "Weishung Liu"
+        },
+        {
+          "authorId": "3440939",
+          "name": "Renqian Luo"
+        },
+        {
+          "authorId": "2047820455",
+          "name": "S. McKinney"
+        },
+        {
+          "authorId": "2292406983",
+          "name": "Robert Osazuwa Ness"
+        },
+        {
+          "authorId": "1759772",
+          "name": "Hoifung Poon"
+        },
+        {
+          "authorId": "2167159386",
+          "name": "Tao Qin"
+        },
+        {
+          "authorId": "2637252",
+          "name": "N. Usuyama"
+        },
+        {
+          "authorId": "2268495274",
+          "name": "Chris White"
+        },
+        {
+          "authorId": "2268493614",
+          "name": "Eric Horvitz"
+        }
+      ]
+    },
+    {
+      "paperId": "be8db99310602d66bba64bcf41a572c45816fbfc",
+      "title": "Let's Verify Step by Step",
+      "year": 2023,
+      "citationCount": 785,
+      "authors": [
+        {
+          "authorId": "2219360905",
+          "name": "Hunter Lightman"
+        },
+        {
+          "authorId": "13622184",
+          "name": "Vineet Kosaraju"
+        },
+        {
+          "authorId": "51178856",
+          "name": "Yura Burda"
+        },
+        {
+          "authorId": "144632352",
+          "name": "Harrison Edwards"
+        },
+        {
+          "authorId": "40566201",
+          "name": "Bowen Baker"
+        },
+        {
+          "authorId": "2110664120",
+          "name": "Teddy Lee"
+        },
+        {
+          "authorId": "2990741",
+          "name": "J. Leike"
+        },
+        {
+          "authorId": "47971768",
+          "name": "John Schulman"
+        },
+        {
+          "authorId": "1701686",
+          "name": "I. Sutskever"
+        },
+        {
+          "authorId": "6062736",
+          "name": "K. Cobbe"
+        }
+      ]
+    },
+    {
+      "paperId": "d766bffc357127e0dc86dd69561d5aeb520d6f4c",
+      "title": "Training language models to follow instructions with human feedback",
+      "year": 2022,
+      "citationCount": 11364,
+      "authors": [
+        {
+          "authorId": "31793034",
+          "name": "Long Ouyang"
+        },
+        {
+          "authorId": "49387725",
+          "name": "Jeff Wu"
+        },
+        {
+          "authorId": "2115903168",
+          "name": "Xu Jiang"
+        },
+        {
+          "authorId": "2061137049",
+          "name": "Diogo Almeida"
+        },
+        {
+          "authorId": "2064084601",
+          "name": "Carroll L. Wainwright"
+        },
+        {
+          "authorId": "2051714782",
+          "name": "Pamela Mishkin"
+        },
+        {
+          "authorId": null,
+          "name": "Chong Zhang"
+        },
+        {
+          "authorId": "144517868",
+          "name": "Sandhini Agarwal"
+        },
+        {
+          "authorId": "2117680841",
+          "name": "Katarina Slama"
+        },
+        {
+          "authorId": "2064770039",
+          "name": "Alex Ray"
+        },
+        {
+          "authorId": "47971768",
+          "name": "John Schulman"
+        },
+        {
+          "authorId": "2052366271",
+          "name": "Jacob Hilton"
+        },
+        {
+          "authorId": "2151735262",
+          "name": "Fraser Kelton"
+        },
+        {
+          "authorId": "2142365973",
+          "name": "Luke E. Miller"
+        },
+        {
+          "authorId": "2151735251",
+          "name": "Maddie Simens"
+        },
+        {
+          "authorId": "119609682",
+          "name": "Amanda Askell"
+        },
+        {
+          "authorId": "2930640",
+          "name": "P. Welinder"
+        },
+        {
+          "authorId": "145791315",
+          "name": "P. Christiano"
+        },
+        {
+          "authorId": "2990741",
+          "name": "J. Leike"
+        },
+        {
+          "authorId": "49407415",
+          "name": "Ryan J. Lowe"
+        }
+      ]
+    },
+    {
+      "paperId": "fc97c3f375c7228a1df7caa5c0ce5d2a6a171bd7",
+      "title": "What Disease does this Patient Have? A Large-scale Open Domain Question Answering Dataset from Medical Exams",
+      "year": 2020,
+      "citationCount": 640,
+      "authors": [
+        {
+          "authorId": "2068347799",
+          "name": "Di Jin"
+        },
+        {
+          "authorId": "2180661888",
+          "name": "Eileen Pan"
+        },
+        {
+          "authorId": "1971979426",
+          "name": "Nassim Oufattole"
+        },
+        {
+          "authorId": "2088565",
+          "name": "W. Weng"
+        },
+        {
+          "authorId": "2114960754",
+          "name": "Hanyi Fang"
+        },
+        {
+          "authorId": "1679873",
+          "name": "Peter Szolovits"
+        }
+      ]
+    },
+    {
+      "paperId": "dce6f9d4017b1785979e7520fd0834ef8cf02f4b",
+      "title": "Proximal Policy Optimization Algorithms",
+      "year": 2017,
+      "citationCount": 17494,
+      "authors": [
+        {
+          "authorId": "47971768",
+          "name": "John Schulman"
+        },
+        {
+          "authorId": "143909660",
+          "name": "Filip Wolski"
+        },
+        {
+          "authorId": "6515819",
+          "name": "Prafulla Dhariwal"
+        },
+        {
+          "authorId": "38909097",
+          "name": "Alec Radford"
+        },
+        {
+          "authorId": "2067138712",
+          "name": "Oleg Klimov"
+        }
+      ]
+    },
+    {
+      "paperId": "d316c82c12cf4c45f9e85211ef3d1fa62497bff8",
+      "title": "High-Dimensional Continuous Control Using Generalized Advantage Estimation",
+      "year": 2015,
+      "citationCount": 3237,
+      "authors": [
+        {
+          "authorId": "47971768",
+          "name": "John Schulman"
+        },
+        {
+          "authorId": "29912342",
+          "name": "Philipp Moritz"
+        },
+        {
+          "authorId": "1736651",
+          "name": "S. Levine"
+        },
+        {
+          "authorId": "1694621",
+          "name": "Michael I. Jordan"
+        },
+        {
+          "authorId": "1689992",
+          "name": "P. Abbeel"
+        }
+      ]
+    },
+    {
+      "paperId": null,
+      "title": "QwenTeam",
+      "year": 2024,
+      "citationCount": null,
+      "authors": []
+    },
+    {
+      "paperId": "75f8a4d7ed6a0f32fa098cac967de247938d9ce5",
+      "title": "An Introduction to the Bootstrap",
+      "year": 2007,
+      "citationCount": 24250,
+      "authors": []
+    },
+    {
+      "paperId": null,
+      "title": "Emerging Medical Reasoning from a 3B base model via reinforcement Learning",
+      "year": null,
+      "citationCount": null,
+      "authors": []
+    },
+    {
+      "paperId": null,
+      "title": "7b model and 8k examples: Emerging reasoning with reinforcement learning is both effective and efficient",
+      "year": null,
+      "citationCount": null,
+      "authors": []
+    },
+    {
+      "paperId": null,
+      "title": "R1-v: Reinforcing super generalization ability in vision-language models with less than $3",
+      "year": null,
+      "citationCount": null,
+      "authors": []
+    },
+    {
+      "paperId": null,
+      "title": "EvolvingLMMs-Lab",
+      "year": null,
+      "citationCount": null,
+      "authors": []
+    },
+    {
+      "paperId": null,
+      "title": "HuggingFace",
+      "year": null,
+      "citationCount": null,
+      "authors": []
+    }
+  ]
+}

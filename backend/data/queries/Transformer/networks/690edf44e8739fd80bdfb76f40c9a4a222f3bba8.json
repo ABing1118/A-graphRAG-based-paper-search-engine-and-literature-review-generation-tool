@@ -1,10 +1,702 @@
 {
   "citations": [
     {
+      "paperId": "595f3f116a0448d82d107290830d06e65b6a96f6",
+      "title": "TagRec: Temporal-Aware Graph Contrastive Learning With Theoretical Augmentation for Sequential Recommendation",
+      "year": 2025,
+      "citationCount": 1,
+      "authors": [
+        {
+          "authorId": "2329101319",
+          "name": "Tianhao Peng"
+        },
+        {
+          "authorId": "2247248213",
+          "name": "Haitao Yuan"
+        },
+        {
+          "authorId": "2337056685",
+          "name": "Yongqi Zhang"
+        },
+        {
+          "authorId": "2344019196",
+          "name": "Yuchen Li"
+        },
+        {
+          "authorId": "2343970547",
+          "name": "Peihong Dai"
+        },
+        {
+          "authorId": "2117951174",
+          "name": "Qunbo Wang"
+        },
+        {
+          "authorId": "2281709520",
+          "name": "Senzhang Wang"
+        },
+        {
+          "authorId": "2303732720",
+          "name": "Wenjun Wu"
+        }
+      ]
+    },
+    {
+      "paperId": "16a41fcb2dee620402fe5787f1ec2d65c242b0e9",
+      "title": "Rethinking LLM-Based Recommendations: A Query Generation-Based, Training-Free Approach",
+      "year": 2025,
+      "citationCount": 0,
+      "authors": [
+        {
+          "authorId": null,
+          "name": "Donghee Han"
+        },
+        {
+          "authorId": "2346426150",
+          "name": "Hwanjun Song"
+        },
+        {
+          "authorId": "2262007262",
+          "name": "M. Yi"
+        }
+      ]
+    },
+    {
+      "paperId": "1e4b40eb810243a5fe7720f8b6565f8b50181741",
+      "title": "Personalized recommendation with clustering via prompt-tuning",
+      "year": 2025,
+      "citationCount": 0,
+      "authors": [
+        {
+          "authorId": "2355900994",
+          "name": "Tongyu Wu"
+        },
+        {
+          "authorId": null,
+          "name": "Xiaojian Liu"
+        },
+        {
+          "authorId": "2143400684",
+          "name": "Yi Zhu"
+        },
+        {
+          "authorId": null,
+          "name": "Yun Li"
+        },
+        {
+          "authorId": null,
+          "name": "Yunhao Yuan"
+        },
+        {
+          "authorId": "39845702",
+          "name": "Jipeng Qiang"
+        }
+      ]
+    },
+    {
+      "paperId": "76f2815f82f6ec23b303304f9ecd32f360b2ae8d",
+      "title": "FARec: frequency domain enhanced filter for sequential recommendation",
+      "year": 2025,
+      "citationCount": 0,
+      "authors": [
+        {
+          "authorId": null,
+          "name": "Zhibin Yang"
+        },
+        {
+          "authorId": null,
+          "name": "Jiwei Qin"
+        },
+        {
+          "authorId": "2323098077",
+          "name": "Jie Ma"
+        },
+        {
+          "authorId": null,
+          "name": "Donghao Zhang"
+        }
+      ]
+    },
+    {
+      "paperId": "f1e353d0fe5ab606c37bee20a31322412fda78cd",
+      "title": "Improving LLM Interpretability and Performance via Guided Embedding Refinement for Sequential Recommendation",
+      "year": 2025,
+      "citationCount": 0,
+      "authors": [
+        {
+          "authorId": "2327865686",
+          "name": "Nanshan Jia"
+        },
+        {
+          "authorId": "2355790737",
+          "name": "Chenfei Yuan"
+        },
+        {
+          "authorId": "2053857729",
+          "name": "Yuhang Wu"
+        },
+        {
+          "authorId": "2265468276",
+          "name": "Zeyu Zheng"
+        }
+      ]
+    },
+    {
+      "paperId": "38c0ced95b01aebdee8744897b27684f0ee3fead",
+      "title": "Probing the Symbolic Logical Reasoning Ability of Large Language Models",
+      "year": 2025,
+      "citationCount": 0,
+      "authors": [
+        {
+          "authorId": null,
+          "name": "Jianchao Ji"
+        },
+        {
+          "authorId": "2109968285",
+          "name": "Zelong Li"
+        },
+        {
+          "authorId": "2111044480",
+          "name": "Shuyuan Xu"
+        },
+        {
+          "authorId": "2007245028",
+          "name": "Wenyue Hua"
+        },
+        {
+          "authorId": null,
+          "name": "Juntao Tan"
+        },
+        {
+          "authorId": null,
+          "name": "Haoming Gong"
+        },
+        {
+          "authorId": "2260830380",
+          "name": "Yongfeng Zhang"
+        }
+      ]
+    },
+    {
+      "paperId": "c16f93e45bbbc12bbbd1a1104065d8bb3cb24441",
+      "title": "Revisiting Self-Attentive Sequential Recommendation",
+      "year": 2025,
+      "citationCount": 0,
+      "authors": [
+        {
+          "authorId": "2355346161",
+          "name": "Zan Huang"
+        }
+      ]
+    },
+    {
+      "paperId": "8ef5255cbbde540e28aaa11cbb3dbf771d6a4644",
+      "title": "Slow Thinking for Sequential Recommendation",
+      "year": 2025,
+      "citationCount": 0,
+      "authors": [
+        {
+          "authorId": "2120518257",
+          "name": "Junjie Zhang"
+        },
+        {
+          "authorId": "2107926615",
+          "name": "Beichen Zhang"
+        },
+        {
+          "authorId": "2111845105",
+          "name": "Wenqi Sun"
+        },
+        {
+          "authorId": "2266804776",
+          "name": "Hongyu Lu"
+        },
+        {
+          "authorId": "2257376413",
+          "name": "Wayne Xin Zhao"
+        },
+        {
+          "authorId": "2266788301",
+          "name": "Yu Chen"
+        },
+        {
+          "authorId": null,
+          "name": "Ji-Rong Wen"
+        }
+      ]
+    },
+    {
+      "paperId": "2dd16833e62fb82ce6d70eddd1009a545f80eb94",
+      "title": "Integrating Textual Embeddings from Contrastive Learning with Generative Recommender for Enhanced Personalization",
+      "year": 2025,
+      "citationCount": 0,
+      "authors": [
+        {
+          "authorId": "2355442611",
+          "name": "Yijun Liu"
+        }
+      ]
+    },
+    {
+      "paperId": "2c0475e28abb5356da5c6f7321ad67d7019ca52b",
+      "title": "Bidirectional Linear Recurrent Models for Sequence-Level Multisource Fusion",
+      "year": 2025,
+      "citationCount": 0,
+      "authors": [
+        {
+          "authorId": "2047032610",
+          "name": "Qisai Liu"
+        },
+        {
+          "authorId": "2351816544",
+          "name": "Zhanhong Jiang"
+        },
+        {
+          "authorId": "2037675847",
+          "name": "Joshua R. Waite"
+        },
+        {
+          "authorId": "2152503641",
+          "name": "Chao Liu"
+        },
+        {
+          "authorId": "1925829",
+          "name": "Aditya Balu"
+        },
+        {
+          "authorId": null,
+          "name": "Soumik Sarkar"
+        }
+      ]
+    },
+    {
+      "paperId": "9e399bf58f3f5aba20fc5ee2ea40b4df522edbf7",
+      "title": "JEPA4Rec: Learning Effective Language Representations for Sequential Recommendation via Joint Embedding Predictive Architecture",
+      "year": 2025,
+      "citationCount": 0,
+      "authors": [
+        {
+          "authorId": null,
+          "name": "Minh-Anh Nguyen"
+        },
+        {
+          "authorId": "2355450217",
+          "name": "Dung D.Le"
+        }
+      ]
+    },
+    {
+      "paperId": "dc8da2bbd37c99c229c26df06921ae1f7f494689",
+      "title": "A Novel Mamba-based Sequential Recommendation Method",
+      "year": 2025,
+      "citationCount": 0,
+      "authors": [
+        {
+          "authorId": "2325120382",
+          "name": "Jun Yuan"
+        }
+      ]
+    },
+    {
+      "paperId": "0a5ba4049f4eda75c25c371f7effede4fcee9ee5",
+      "title": "Knowledge Distillation Based Recommendation Systems: A Comprehensive Survey",
+      "year": 2025,
+      "citationCount": 0,
+      "authors": [
+        {
+          "authorId": "2355031907",
+          "name": "Haoyuan Song"
+        },
+        {
+          "authorId": "2237951392",
+          "name": "Yibowen Zhao"
+        },
+        {
+          "authorId": "2308566347",
+          "name": "Yixin Zhang"
+        },
+        {
+          "authorId": "2354704568",
+          "name": "Hongxu Chen"
+        },
+        {
+          "authorId": null,
+          "name": "Lizhen Cui"
+        }
+      ]
+    },
+    {
+      "paperId": "b2b25af84c046d3c027af7d1e132f0fb8303b327",
+      "title": "InteractRank: Personalized Web-Scale Search Pre-Ranking with Cross Interaction Features",
+      "year": 2025,
+      "citationCount": 0,
+      "authors": [
+        {
+          "authorId": "102998695",
+          "name": "Sujay Khandagale"
+        },
+        {
+          "authorId": "2354337938",
+          "name": "Bhawna Juneja"
+        },
+        {
+          "authorId": "40013400",
+          "name": "Prabhat Agarwal"
+        },
+        {
+          "authorId": "2354339135",
+          "name": "Aditya Subramanian"
+        },
+        {
+          "authorId": "2354500166",
+          "name": "Jaewon Yang"
+        },
+        {
+          "authorId": "2354377098",
+          "name": "Yuting Wang"
+        }
+      ]
+    },
+    {
+      "paperId": "efb4d23171f699757dfb33d0911b9f355039d4b2",
+      "title": "BBQRec: Behavior-Bind Quantization for Multi-Modal Sequential Recommendation",
+      "year": 2025,
+      "citationCount": 0,
+      "authors": [
+        {
+          "authorId": "2355118563",
+          "name": "Kaiyuan Li"
+        },
+        {
+          "authorId": "2354334861",
+          "name": "Rui Xiang"
+        },
+        {
+          "authorId": "2354513102",
+          "name": "Yong Bai"
+        },
+        {
+          "authorId": "2338354794",
+          "name": "Yongxiang Tang"
+        },
+        {
+          "authorId": "2338527108",
+          "name": "Yanhua Cheng"
+        },
+        {
+          "authorId": "2347564333",
+          "name": "Xialong Liu"
+        },
+        {
+          "authorId": "2338375505",
+          "name": "Peng Jiang"
+        },
+        {
+          "authorId": "2244624390",
+          "name": "Kun Gai"
+        }
+      ]
+    },
+    {
+      "paperId": "27e68692212354ffa5edaa62acf399139dfee949",
+      "title": "Unifying Search and Recommendation: A Generative Paradigm Inspired by Information Theory",
+      "year": 2025,
+      "citationCount": 0,
+      "authors": [
+        {
+          "authorId": "2260830089",
+          "name": "Jujia Zhao"
+        },
+        {
+          "authorId": "2355840226",
+          "name": "Wenjie Wang"
+        },
+        {
+          "authorId": "2354665729",
+          "name": "Chen Xu"
+        },
+        {
+          "authorId": "2354448459",
+          "name": "Xiuying Wang"
+        },
+        {
+          "authorId": "2315457268",
+          "name": "Zhaochun Ren"
+        },
+        {
+          "authorId": "2273374171",
+          "name": "Suzan Verberne"
+        }
+      ]
+    },
+    {
+      "paperId": "7feeaeffd7adafda550e4ae637804e2f814b9c9d",
+      "title": "PinRec: Outcome-Conditioned, Multi-Token Generative Retrieval for Industry-Scale Recommendation Systems",
+      "year": 2025,
+      "citationCount": 0,
+      "authors": [
+        {
+          "authorId": "2087062017",
+          "name": "Anirudhan Badrinath"
+        },
+        {
+          "authorId": "40013400",
+          "name": "Prabhat Agarwal"
+        },
+        {
+          "authorId": "2355425651",
+          "name": "Laksh Bhasin"
+        },
+        {
+          "authorId": "2325196654",
+          "name": "Jaewon Yang"
+        },
+        {
+          "authorId": "2298404561",
+          "name": "Jiajing Xu"
+        },
+        {
+          "authorId": "2298267853",
+          "name": "Chuck Rosenberg"
+        }
+      ]
+    },
+    {
+      "paperId": "f2880815eea331164b91f2815759f7abd4e2a268",
+      "title": "Unified Generative Search and Recommendation",
+      "year": 2025,
+      "citationCount": 0,
+      "authors": [
+        {
+          "authorId": "2296718641",
+          "name": "Teng Shi"
+        },
+        {
+          "authorId": "2293399145",
+          "name": "Jun Xu"
+        },
+        {
+          "authorId": "2293646334",
+          "name": "Xiao Zhang"
+        },
+        {
+          "authorId": "2055666765",
+          "name": "Xiaoxue Zang"
+        },
+        {
+          "authorId": "2293395261",
+          "name": "Kai Zheng"
+        },
+        {
+          "authorId": "2293392741",
+          "name": "Yang Song"
+        },
+        {
+          "authorId": "2257004786",
+          "name": "Enyun Yu"
+        }
+      ]
+    },
+    {
+      "paperId": "d6c87ebd39933b16d3f741e34561650ace273086",
+      "title": "Why is Normalization Necessary for Linear Recommenders?",
+      "year": 2025,
+      "citationCount": 0,
+      "authors": [
+        {
+          "authorId": "2335446744",
+          "name": "Seongmin Park"
+        },
+        {
+          "authorId": "2298553478",
+          "name": "Mincheol Yoon"
+        },
+        {
+          "authorId": "2155257120",
+          "name": "Hye-young Kim"
+        },
+        {
+          "authorId": "2289313455",
+          "name": "Jongwuk Lee"
+        }
+      ]
+    },
+    {
+      "paperId": "03caf4e98ba27c300a7ce70d544450282b15e58d",
+      "title": "Pre-training Generative Recommender with Multi-Identifier Item Tokenization",
+      "year": 2025,
+      "citationCount": 0,
+      "authors": [
+        {
+          "authorId": "2223753455",
+          "name": "Bowen Zheng"
+        },
+        {
+          "authorId": "2292260322",
+          "name": "Enze Liu"
+        },
+        {
+          "authorId": "2354223648",
+          "name": "Zhongfu Chen"
+        },
+        {
+          "authorId": "2283769104",
+          "name": "Zhongrui Ma"
+        },
+        {
+          "authorId": "2354913625",
+          "name": "Yue Wang"
+        },
+        {
+          "authorId": "2257376413",
+          "name": "Wayne Xin Zhao"
+        },
+        {
+          "authorId": null,
+          "name": "Ji-Rong Wen"
+        }
+      ]
+    },
+    {
+      "paperId": "bc22a065dd6d6b5365f6b41faccc48c398ba6c11",
+      "title": "Decoding Recommendation Behaviors of In-Context Learning LLMs Through Gradient Descent",
+      "year": 2025,
+      "citationCount": 0,
+      "authors": [
+        {
+          "authorId": "2293354411",
+          "name": "Yi Xu"
+        },
+        {
+          "authorId": "2274936473",
+          "name": "Weicong Qin"
+        },
+        {
+          "authorId": "2118684861",
+          "name": "Weijie Yu"
+        },
+        {
+          "authorId": "2321041812",
+          "name": "Ming He"
+        },
+        {
+          "authorId": "2307889913",
+          "name": "Jianpin Fan"
+        },
+        {
+          "authorId": "2274965731",
+          "name": "Jun Xu"
+        }
+      ]
+    },
+    {
+      "paperId": "a5e91c6a8be169f848163013126703511a59c173",
+      "title": "Universal Item Tokenization for Transferable Generative Recommendation",
+      "year": 2025,
+      "citationCount": 0,
+      "authors": [
+        {
+          "authorId": "2223753455",
+          "name": "Bowen Zheng"
+        },
+        {
+          "authorId": "2266804776",
+          "name": "Hongyu Lu"
+        },
+        {
+          "authorId": "2266788301",
+          "name": "Yu Chen"
+        },
+        {
+          "authorId": "2257376413",
+          "name": "Wayne Xin Zhao"
+        },
+        {
+          "authorId": null,
+          "name": "Ji-Rong Wen"
+        }
+      ]
+    },
+    {
+      "paperId": "be52803ec49ddfb6ecbb52bc242a77a13d7a3d3a",
+      "title": "MSL: Not All Tokens Are What You Need for Tuning LLM as a Recommender",
+      "year": 2025,
+      "citationCount": 0,
+      "authors": [
+        {
+          "authorId": "2284850843",
+          "name": "Bohao Wang"
+        },
+        {
+          "authorId": "2299184777",
+          "name": "Feng Liu"
+        },
+        {
+          "authorId": "2265720058",
+          "name": "Jiawei Chen"
+        },
+        {
+          "authorId": "2293301766",
+          "name": "Xingyu Lou"
+        },
+        {
+          "authorId": "2351712181",
+          "name": "Changwang Zhang"
+        },
+        {
+          "authorId": "2300016985",
+          "name": "Jun Wang"
+        },
+        {
+          "authorId": "2354184660",
+          "name": "Yuegang Sun"
+        },
+        {
+          "authorId": "1692947908",
+          "name": "Yan Feng"
+        },
+        {
+          "authorId": "2109525713",
+          "name": "Chun Chen"
+        },
+        {
+          "authorId": "2279089364",
+          "name": "Can Wang"
+        }
+      ]
+    },
+    {
+      "paperId": "204236ae4258bbd4943458655ea6fe3bb06bf94e",
+      "title": "Test-Time Alignment for Tracking User Interest Shifts in Sequential Recommendation",
+      "year": 2025,
+      "citationCount": 2,
+      "authors": [
+        {
+          "authorId": "2219692939",
+          "name": "Changshuo Zhang"
+        },
+        {
+          "authorId": "2305623872",
+          "name": "Xiao Zhang"
+        },
+        {
+          "authorId": "2296718641",
+          "name": "Teng Shi"
+        },
+        {
+          "authorId": "2305587350",
+          "name": "Jun Xu"
+        },
+        {
+          "authorId": "2113341834",
+          "name": "Jirong Wen"
+        }
+      ]
+    },
+    {
       "paperId": "4ca482830bf37385462954cfe1230738975d99d2",
       "title": "A transformer-based adversarial network framework for steganography",
       "year": 2025,
-      "citationCount": 0,
+      "citationCount": 2,
       "authors": [
         {
           "authorId": "1942317",
@@ -61,6 +753,1394 @@
         {
           "authorId": "2330474506",
           "name": "Hongtao Shen"
+        }
+      ]
+    },
+    {
+      "paperId": "30a0aff311c2f1f5bcaf6425c402abe9bea5e3ae",
+      "title": "HORAE: Temporal Multi-Interest Pre-training for Sequential Recommendation",
+      "year": 2025,
+      "citationCount": 0,
+      "authors": [
+        {
+          "authorId": "2327158334",
+          "name": "Shirui Hu"
+        },
+        {
+          "authorId": "2243956990",
+          "name": "Weichang Wu"
+        },
+        {
+          "authorId": "2223900932",
+          "name": "Zuoli Tang"
+        },
+        {
+          "authorId": "50815987",
+          "name": "Zhaoxin Huan"
+        },
+        {
+          "authorId": "2144736678",
+          "name": "Lin Wang"
+        },
+        {
+          "authorId": "2260823600",
+          "name": "Xiaolu Zhang"
+        },
+        {
+          "authorId": "2293705830",
+          "name": "Jun Zhou"
+        },
+        {
+          "authorId": "2240533680",
+          "name": "Lixin Zou"
+        },
+        {
+          "authorId": "2261355440",
+          "name": "Chenliang Li"
+        }
+      ]
+    },
+    {
+      "paperId": "2a60d80d2c17d4944e2ecffa8b1fd6b0c4afcc33",
+      "title": "Self-attention based cloud top height retrieval for intelligent meteorological service recommendation",
+      "year": 2025,
+      "citationCount": 0,
+      "authors": [
+        {
+          "authorId": "2354721367",
+          "name": "Xuhao Shi"
+        },
+        {
+          "authorId": "2355014861",
+          "name": "Jie Zhang"
+        },
+        {
+          "authorId": "2261982761",
+          "name": "Guoqiang Liu"
+        },
+        {
+          "authorId": "2355008413",
+          "name": "Kun Yi"
+        },
+        {
+          "authorId": "2136882827",
+          "name": "Muhammad Bilal"
+        }
+      ]
+    },
+    {
+      "paperId": "fd8c0d5b7a71024e8bfdc6b926a84c364e4c3ad0",
+      "title": "Practical Federated Recommendation Model Learning Using ORAM with Controlled Privacy",
+      "year": 2025,
+      "citationCount": 0,
+      "authors": [
+        {
+          "authorId": "2352508012",
+          "name": "Jinyu Liu"
+        },
+        {
+          "authorId": "49602412",
+          "name": "Wenjie Xiong"
+        },
+        {
+          "authorId": "2322395471",
+          "name": "G. E. Suh"
+        },
+        {
+          "authorId": "10995410",
+          "name": "Kiwan Maeng"
+        }
+      ]
+    },
+    {
+      "paperId": "99216c2bc97fedb72bd4dbbdf36f9f71e790cb18",
+      "title": "Beyond Unimodal Boundaries: Generative Recommendation with Multimodal Semantics",
+      "year": 2025,
+      "citationCount": 0,
+      "authors": [
+        {
+          "authorId": "2307469621",
+          "name": "Jing Zhu"
+        },
+        {
+          "authorId": "2322440668",
+          "name": "Mingxuan Ju"
+        },
+        {
+          "authorId": "152891495",
+          "name": "Yozen Liu"
+        },
+        {
+          "authorId": "2479152",
+          "name": "Danai Koutra"
+        },
+        {
+          "authorId": "2310871156",
+          "name": "Neil Shah"
+        },
+        {
+          "authorId": "2312181809",
+          "name": "Tong Zhao"
+        }
+      ]
+    },
+    {
+      "paperId": "83f8850a9804a842be845b7573aece85a4208d62",
+      "title": "Filtering with Time-frequency Analysis: An Adaptive and Lightweight Model for Sequential Recommender Systems Based on Discrete Wavelet Transform",
+      "year": 2025,
+      "citationCount": 0,
+      "authors": [
+        {
+          "authorId": "2352946774",
+          "name": "Sheng Lu"
+        },
+        {
+          "authorId": "2352943635",
+          "name": "Mingxi Ge"
+        },
+        {
+          "authorId": "2352942171",
+          "name": "Jiuyi Zhang"
+        },
+        {
+          "authorId": "2352942914",
+          "name": "Wanli Zhu"
+        },
+        {
+          "authorId": "2352933390",
+          "name": "Guanjin Li"
+        },
+        {
+          "authorId": "2352943730",
+          "name": "Fangming Gu"
+        }
+      ]
+    },
+    {
+      "paperId": "a91be28eddcde710e98787c202e13b216a03a5e9",
+      "title": "Ensuring accuracy and fairness: a de-biasing framework for sequential recommendation",
+      "year": 2025,
+      "citationCount": 0,
+      "authors": [
+        {
+          "authorId": "2267366840",
+          "name": "Qifeng Bai"
+        },
+        {
+          "authorId": "2238216836",
+          "name": "Nankai Lin"
+        },
+        {
+          "authorId": "2315549520",
+          "name": "Meiyu Zeng"
+        },
+        {
+          "authorId": "2183786589",
+          "name": "Guanqiu Qin"
+        },
+        {
+          "authorId": "2267699003",
+          "name": "Dong Zhou"
+        },
+        {
+          "authorId": "2179616868",
+          "name": "Aimin Yang"
+        }
+      ]
+    },
+    {
+      "paperId": "fd39424b0ea5f5d15fc7cd82379eb88850e29b8d",
+      "title": "Federated Semantic Learning for Privacy-preserving Cross-domain Recommendation",
+      "year": 2025,
+      "citationCount": 0,
+      "authors": [
+        {
+          "authorId": "2281718219",
+          "name": "Ziang Lu"
+        },
+        {
+          "authorId": "2261190897",
+          "name": "Lei Guo"
+        },
+        {
+          "authorId": "2116329674",
+          "name": "Xuzheng Yu"
+        },
+        {
+          "authorId": "2310856824",
+          "name": "Zhiyong Cheng"
+        },
+        {
+          "authorId": "2332475030",
+          "name": "Xiaohui Han"
+        },
+        {
+          "authorId": "2252391979",
+          "name": "Lei Zhu"
+        }
+      ]
+    },
+    {
+      "paperId": "c2b2a9fc2d890e6d512d2f8c993ebf962791445f",
+      "title": "Think Before Recommend: Unleashing the Latent Reasoning Power for Sequential Recommendation",
+      "year": 2025,
+      "citationCount": 3,
+      "authors": [
+        {
+          "authorId": "144010962",
+          "name": "Jiakai Tang"
+        },
+        {
+          "authorId": "2155892801",
+          "name": "Sunhao Dai"
+        },
+        {
+          "authorId": "2296718641",
+          "name": "Teng Shi"
+        },
+        {
+          "authorId": "2305587350",
+          "name": "Jun Xu"
+        },
+        {
+          "authorId": "2352850378",
+          "name": "Xu Chen"
+        },
+        {
+          "authorId": "2352884831",
+          "name": "Wen Chen"
+        },
+        {
+          "authorId": "2352798027",
+          "name": "Wu Jian"
+        },
+        {
+          "authorId": "2314169006",
+          "name": "Yuning Jiang"
+        }
+      ]
+    },
+    {
+      "paperId": "6fcfade8255bda85b2c9d789e7726046936a21c2",
+      "title": "GC4MRec: Generative-Contrastive for Multimodal Recommendation",
+      "year": 2025,
+      "citationCount": 0,
+      "authors": [
+        {
+          "authorId": "2352892787",
+          "name": "Lei Wang"
+        },
+        {
+          "authorId": "2315849374",
+          "name": "Yingjie Li"
+        },
+        {
+          "authorId": "2352770301",
+          "name": "Heran Wang"
+        },
+        {
+          "authorId": "2338298575",
+          "name": "Jun Li"
+        }
+      ]
+    },
+    {
+      "paperId": "f13ff88b82c143346eca94b35d7f96f0bc263a28",
+      "title": "Learnable Sequence Augmenter for Triplet Contrastive Learning in Sequential Recommendation",
+      "year": 2025,
+      "citationCount": 0,
+      "authors": [
+        {
+          "authorId": "2270568776",
+          "name": "Wei Wang"
+        },
+        {
+          "authorId": "150349953",
+          "name": "Yujie Lin"
+        },
+        {
+          "authorId": "2278852649",
+          "name": "Jianli Zhao"
+        },
+        {
+          "authorId": "2211360524",
+          "name": "Moyan Zhang"
+        },
+        {
+          "authorId": "2341722193",
+          "name": "Pengjie Ren"
+        },
+        {
+          "authorId": "2278790919",
+          "name": "Xianye Ben"
+        },
+        {
+          "authorId": "2273464104",
+          "name": "Yujun Li"
+        }
+      ]
+    },
+    {
+      "paperId": "a24012a741c3a565dad84ae5315ddf0f2c259d98",
+      "title": "UniEDU: A Unified Language and Vision Assistant for Education Applications",
+      "year": 2025,
+      "citationCount": 0,
+      "authors": [
+        {
+          "authorId": "2321403039",
+          "name": "Zhendong Chu"
+        },
+        {
+          "authorId": "2350610413",
+          "name": "Jian Xie"
+        },
+        {
+          "authorId": "2293652650",
+          "name": "Shen Wang"
+        },
+        {
+          "authorId": "2352191824",
+          "name": "Zichao Wang"
+        },
+        {
+          "authorId": "2346838715",
+          "name": "Qingsong Wen"
+        }
+      ]
+    },
+    {
+      "paperId": "19203b587888ff7124141a8411cc61030a5a9ea7",
+      "title": "Bi-View Contrastive Learning with Hypergraph for Enhanced Session-Based Recommendation",
+      "year": 2025,
+      "citationCount": 0,
+      "authors": [
+        {
+          "authorId": "2352266943",
+          "name": "Zijun Wang"
+        },
+        {
+          "authorId": "2321486010",
+          "name": "Lai Wei"
+        }
+      ]
+    },
+    {
+      "paperId": "a5da17a3b7d8220b8f307acea9efd3bda3f7c56c",
+      "title": "A sequential recommendation method using contrastive learning and Wasserstein self-attention mechanism",
+      "year": 2025,
+      "citationCount": 0,
+      "authors": [
+        {
+          "authorId": "88058966",
+          "name": "Shengbin Liang"
+        },
+        {
+          "authorId": "2244516901",
+          "name": "Jinfeng Ma"
+        },
+        {
+          "authorId": "2352394704",
+          "name": "Qiuchen Zhao"
+        },
+        {
+          "authorId": "2241042049",
+          "name": "Tingting Chen"
+        },
+        {
+          "authorId": "2328450256",
+          "name": "Xixi Lu"
+        },
+        {
+          "authorId": "2329141490",
+          "name": "Shuanglong Ren"
+        },
+        {
+          "authorId": "2352534922",
+          "name": "Chenyang Zhao"
+        },
+        {
+          "authorId": "2353328692",
+          "name": "Lei Fu"
+        },
+        {
+          "authorId": "2352426775",
+          "name": "Huichao Ding"
+        }
+      ]
+    },
+    {
+      "paperId": "cfa537070992ee0cadbe6f4201ed9a456b5976ca",
+      "title": "Group attention for collaborative filtering with sequential feedback and context aware attributes",
+      "year": 2025,
+      "citationCount": 0,
+      "authors": [
+        {
+          "authorId": "2295779312",
+          "name": "Hadise Vaghari"
+        },
+        {
+          "authorId": "2351731437",
+          "name": "Mehdi Hosseinzadeh Aghdam"
+        },
+        {
+          "authorId": "2275003774",
+          "name": "Hojjat Emami"
+        }
+      ]
+    },
+    {
+      "paperId": "af0ca7fe9cb6dbae150a54da3b41f6e0626f652d",
+      "title": "Enhancing Recommender Systems Using Textual Embeddings from Pre-trained Language Models",
+      "year": 2025,
+      "citationCount": 0,
+      "authors": [
+        {
+          "authorId": "2214766625",
+          "name": "Ngoc Luyên Lê"
+        },
+        {
+          "authorId": "2295992816",
+          "name": "Marie-Hélène Abel"
+        }
+      ]
+    },
+    {
+      "paperId": "b1971b0463df4a38146d06bcea257f069c3f1667",
+      "title": "Recommendation System in Advertising and Streaming Media: Unsupervised Data Enhancement Sequence Suggestions",
+      "year": 2025,
+      "citationCount": 0,
+      "authors": [
+        {
+          "authorId": "2354927421",
+          "name": "Kowei Shih"
+        },
+        {
+          "authorId": "2355531496",
+          "name": "Yi Han"
+        },
+        {
+          "authorId": "2352991937",
+          "name": "Li Tan"
+        }
+      ]
+    },
+    {
+      "paperId": "c4cc7d63b68fd7f92aa70fa976e6bb54050704e2",
+      "title": "Rankformer: A Graph Transformer for Recommendation based on Ranking Objective",
+      "year": 2025,
+      "citationCount": 0,
+      "authors": [
+        {
+          "authorId": "2297405418",
+          "name": "Sirui Chen"
+        },
+        {
+          "authorId": "2297282084",
+          "name": "Shen Han"
+        },
+        {
+          "authorId": "2115448385",
+          "name": "Jiawei Chen"
+        },
+        {
+          "authorId": "2297370163",
+          "name": "Binbin Hu"
+        },
+        {
+          "authorId": "2115867010",
+          "name": "Sheng Zhou"
+        },
+        {
+          "authorId": "2346047671",
+          "name": "Gang Wang"
+        },
+        {
+          "authorId": "1692947908",
+          "name": "Yan Feng"
+        },
+        {
+          "authorId": "2109525713",
+          "name": "Chun Chen"
+        },
+        {
+          "authorId": "2279089364",
+          "name": "Can Wang"
+        }
+      ]
+    },
+    {
+      "paperId": "274637b206d71699749c1849d2f1c0b4afcba61b",
+      "title": "In-depth survey: deep learning in recommender systems—exploring prediction and ranking models, datasets, feature analysis, and emerging trends",
+      "year": 2025,
+      "citationCount": 0,
+      "authors": [
+        {
+          "authorId": "83113740",
+          "name": "Shivangi Gheewala"
+        },
+        {
+          "authorId": "2323266983",
+          "name": "Shuxiang Xu"
+        },
+        {
+          "authorId": "69969800",
+          "name": "Soonja Yeom"
+        }
+      ]
+    },
+    {
+      "paperId": "9dda85a4fc1db297f95731b7b1dfbd9b62631b8b",
+      "title": "Personalized music recommendation algorithm based on machine learning",
+      "year": 2025,
+      "citationCount": 0,
+      "authors": [
+        {
+          "authorId": "2308818235",
+          "name": "Lanhui Liu"
+        },
+        {
+          "authorId": "2211374842",
+          "name": "Menglin Kong"
+        },
+        {
+          "authorId": "150053698",
+          "name": "Cong Cao"
+        },
+        {
+          "authorId": "2067368189",
+          "name": "Zhanjie Shu"
+        },
+        {
+          "authorId": "2351421035",
+          "name": "Kecheng Liu"
+        },
+        {
+          "authorId": "2198158438",
+          "name": "Xingquan Li"
+        },
+        {
+          "authorId": "2287810673",
+          "name": "Muzhou Hou"
+        }
+      ]
+    },
+    {
+      "paperId": "e5e7ae000e77c75796b5bc9949cd10ad17582e5d",
+      "title": "Uniform Graph Pre-training and Prompting for Transferable Recommendation",
+      "year": 2025,
+      "citationCount": 0,
+      "authors": [
+        {
+          "authorId": "2342057996",
+          "name": "Qing Yu"
+        },
+        {
+          "authorId": "2240533680",
+          "name": "Lixin Zou"
+        },
+        {
+          "authorId": "2283881183",
+          "name": "Xiangyang Luo"
+        },
+        {
+          "authorId": "2116711669",
+          "name": "Xiangyu Zhao"
+        },
+        {
+          "authorId": "2136338739",
+          "name": "Chenliang Li"
+        }
+      ]
+    },
+    {
+      "paperId": "60fa6530f194cab42c534d8b67f3bc72f03a170c",
+      "title": "Advances in Recommendation Systems: From Traditional Approaches to Future Trends",
+      "year": 2025,
+      "citationCount": 0,
+      "authors": [
+        {
+          "authorId": "2355077352",
+          "name": "Pei Wang"
+        }
+      ]
+    },
+    {
+      "paperId": "15f50f3b5afa9f909078c8a280f682295d21dbe3",
+      "title": "LLMSeR: Enhancing Sequential Recommendation via LLM-based Data Augmentation",
+      "year": 2025,
+      "citationCount": 0,
+      "authors": [
+        {
+          "authorId": "2336039401",
+          "name": "Yuqi Sun"
+        },
+        {
+          "authorId": "2240559309",
+          "name": "Qidong Liu"
+        },
+        {
+          "authorId": "2350609006",
+          "name": "Haiping Zhu"
+        },
+        {
+          "authorId": "2244621655",
+          "name": "Feng Tian"
+        }
+      ]
+    },
+    {
+      "paperId": "2837115aa49bbc37083f2fe7f8933bb911354d5b",
+      "title": "Addressing Information Loss and Interaction Collapse: A Dual Enhanced Attention Framework for Feature Interaction",
+      "year": 2025,
+      "citationCount": 0,
+      "authors": [
+        {
+          "authorId": "2350309236",
+          "name": "Yi Xu"
+        },
+        {
+          "authorId": "2350525883",
+          "name": "Zhiyuan Lu"
+        },
+        {
+          "authorId": "2348494680",
+          "name": "Xiaochen Li"
+        },
+        {
+          "authorId": "2297522420",
+          "name": "Jinxin Hu"
+        },
+        {
+          "authorId": "2340005832",
+          "name": "Hong Wen"
+        },
+        {
+          "authorId": "8157135",
+          "name": "Zulong Chen"
+        },
+        {
+          "authorId": "2347011397",
+          "name": "Yu Zhang"
+        },
+        {
+          "authorId": "2339986808",
+          "name": "Jing Zhang"
+        }
+      ]
+    },
+    {
+      "paperId": "0b95fb10cad94e948d96b25b7c25f2a76693e75e",
+      "title": "Variational Bayesian Personalized Ranking",
+      "year": 2025,
+      "citationCount": 0,
+      "authors": [
+        {
+          "authorId": "2281274654",
+          "name": "Bin Liu"
+        },
+        {
+          "authorId": "2211737291",
+          "name": "Xiaohong Liu"
+        },
+        {
+          "authorId": "2350615387",
+          "name": "Qin Luo"
+        },
+        {
+          "authorId": "2223050053",
+          "name": "Ziqiao Shang"
+        },
+        {
+          "authorId": "1924156",
+          "name": "Jielei Chu"
+        },
+        {
+          "authorId": "2350511545",
+          "name": "Lin Ma"
+        },
+        {
+          "authorId": "2298969125",
+          "name": "Zhaoyu Li"
+        },
+        {
+          "authorId": "2350345257",
+          "name": "Fei Teng"
+        },
+        {
+          "authorId": "2266393212",
+          "name": "Guangtao Zhai"
+        },
+        {
+          "authorId": "1776861",
+          "name": "Tian-Jie Li"
+        }
+      ]
+    },
+    {
+      "paperId": "4b88592493c207e6d4495500df1fcd0639c3ac67",
+      "title": "REGEN: A Dataset and Benchmarks with Natural Language Critiques and Narratives",
+      "year": 2025,
+      "citationCount": 0,
+      "authors": [
+        {
+          "authorId": "2327046084",
+          "name": "Kun Su"
+        },
+        {
+          "authorId": "2278834212",
+          "name": "Krishna Sayana"
+        },
+        {
+          "authorId": "2302929446",
+          "name": "Hubert Pham"
+        },
+        {
+          "authorId": "2302934160",
+          "name": "James Pine"
+        },
+        {
+          "authorId": "2221286262",
+          "name": "Yuri Vasilevski"
+        },
+        {
+          "authorId": "1388713706",
+          "name": "Raghavendra Vasudeva"
+        },
+        {
+          "authorId": "1875985",
+          "name": "Marialena Kyriakidi"
+        },
+        {
+          "authorId": "2314690907",
+          "name": "Liam Hebert"
+        },
+        {
+          "authorId": "2099591310",
+          "name": "Ambarish Jash"
+        },
+        {
+          "authorId": "2304745675",
+          "name": "Anushya Subbiah"
+        },
+        {
+          "authorId": "3336431",
+          "name": "Sukhdeep S. Sodhi"
+        }
+      ]
+    },
+    {
+      "paperId": "0b3729266a72885e3aac38ec98674074d6a1a1b0",
+      "title": "Harmonizing Large Language Models with Collaborative Behavioral Signals for Conversational Recommendation",
+      "year": 2025,
+      "citationCount": 0,
+      "authors": [
+        {
+          "authorId": "2349732782",
+          "name": "Guanrong Li"
+        },
+        {
+          "authorId": "2350343944",
+          "name": "Kuo Tian"
+        },
+        {
+          "authorId": "2351017561",
+          "name": "Jinnan Qi"
+        },
+        {
+          "authorId": "2350451067",
+          "name": "Qinghan Fu"
+        },
+        {
+          "authorId": "2351333143",
+          "name": "Zhen Wu"
+        },
+        {
+          "authorId": "2257010530",
+          "name": "Xinyu Dai"
+        }
+      ]
+    },
+    {
+      "paperId": "5589de2278ac93bbe2d730b66c7640470b5abea7",
+      "title": "MA-GCL4SR: Improving Graph Contrastive Learning-Based Sequential Recommendation with Model Augmentation",
+      "year": 2025,
+      "citationCount": 0,
+      "authors": [
+        {
+          "authorId": "2206798607",
+          "name": "Chunyan Sang"
+        },
+        {
+          "authorId": "2349786459",
+          "name": "Ming Gong"
+        },
+        {
+          "authorId": "2206882796",
+          "name": "Shigen Liao"
+        },
+        {
+          "authorId": "2256662846",
+          "name": "Wei Zhou"
+        }
+      ]
+    },
+    {
+      "paperId": "1bf01b17d8343b18849d98b46f213a6b7c349a12",
+      "title": "UIPN: User Intent Profiling Network for Multi Behavior Modeling in CTR Prediction",
+      "year": 2025,
+      "citationCount": 0,
+      "authors": [
+        {
+          "authorId": "2347574670",
+          "name": "Xu Yang"
+        },
+        {
+          "authorId": "2347903959",
+          "name": "Guangyuan Yu"
+        },
+        {
+          "authorId": "2348216235",
+          "name": "Jun He"
+        }
+      ]
+    },
+    {
+      "paperId": "5c5d2298a079d33dd33d7a9cd2414fb39f4a07a3",
+      "title": "Teach Me How to Denoise: A Universal Framework for Denoising Multi-modal Recommender Systems via Guided Calibration",
+      "year": 2025,
+      "citationCount": 0,
+      "authors": [
+        {
+          "authorId": "2347572676",
+          "name": "Hongji Li"
+        },
+        {
+          "authorId": "2276316559",
+          "name": "Hanwen Du"
+        },
+        {
+          "authorId": "2240567587",
+          "name": "Youhua Li"
+        },
+        {
+          "authorId": "2166195168",
+          "name": "Junchen Fu"
+        },
+        {
+          "authorId": "2347686193",
+          "name": "Chunxiao Li"
+        },
+        {
+          "authorId": "2347600525",
+          "name": "Ziyi Zhuang"
+        },
+        {
+          "authorId": "2347683896",
+          "name": "Jiakang Li"
+        },
+        {
+          "authorId": "2339267612",
+          "name": "Yongxin Ni"
+        }
+      ]
+    },
+    {
+      "paperId": "838504ae3c843a4f6631b8a4ed2568c2913dcef0",
+      "title": "DDualSE: Decoupled Dual-head Squeeze and Excitation Attention for Sequential Recommendation",
+      "year": 2025,
+      "citationCount": 0,
+      "authors": [
+        {
+          "authorId": "2347637036",
+          "name": "Nijia Mo"
+        },
+        {
+          "authorId": "2223755235",
+          "name": "Jianxiang Zang"
+        },
+        {
+          "authorId": "2347728801",
+          "name": "Zhan Wang"
+        },
+        {
+          "authorId": "2347676884",
+          "name": "Hui Liu"
+        }
+      ]
+    },
+    {
+      "paperId": "1453e04e7f277d80c57ae0b182806726eb7303c1",
+      "title": "Explainable CTR Prediction via LLM Reasoning",
+      "year": 2025,
+      "citationCount": 0,
+      "authors": [
+        {
+          "authorId": "2323288930",
+          "name": "Xiaohan Yu"
+        },
+        {
+          "authorId": "2333446176",
+          "name": "Li Zhang"
+        },
+        {
+          "authorId": "2333536704",
+          "name": "Chong Chen"
+        }
+      ]
+    },
+    {
+      "paperId": "be156ba4196d09aee05e1f47e7a626e25c4300ee",
+      "title": "Temporal Linear Item-Item Model for Sequential Recommendation",
+      "year": 2025,
+      "citationCount": 1,
+      "authors": [
+        {
+          "authorId": "2335446744",
+          "name": "Seongmin Park"
+        },
+        {
+          "authorId": "2298553478",
+          "name": "Mincheol Yoon"
+        },
+        {
+          "authorId": "2111881386",
+          "name": "Minjin Choi"
+        },
+        {
+          "authorId": "2289313455",
+          "name": "Jongwuk Lee"
+        }
+      ]
+    },
+    {
+      "paperId": "380f57f962aa534541fb30e386d9d24ec46605df",
+      "title": "Multi-Behavior Recommender Systems: A Survey",
+      "year": 2025,
+      "citationCount": 0,
+      "authors": [
+        {
+          "authorId": "2325315533",
+          "name": "Kyungho Kim"
+        },
+        {
+          "authorId": "2268372451",
+          "name": "Sunwoo Kim"
+        },
+        {
+          "authorId": "2261454328",
+          "name": "Geon Lee"
+        },
+        {
+          "authorId": "2242114711",
+          "name": "Jinhong Jung"
+        },
+        {
+          "authorId": "2284695009",
+          "name": "Kijung Shin"
+        }
+      ]
+    },
+    {
+      "paperId": "b9a0c6f366591d6262efd366707109142a8bf2bd",
+      "title": "Image is All You Need: Towards Efficient and Effective Large Language Model-Based Recommender Systems",
+      "year": 2025,
+      "citationCount": 0,
+      "authors": [
+        {
+          "authorId": "2182382634",
+          "name": "Kibum Kim"
+        },
+        {
+          "authorId": "2284929443",
+          "name": "Sein Kim"
+        },
+        {
+          "authorId": "2297140458",
+          "name": "Hongseok Kang"
+        },
+        {
+          "authorId": "2346276546",
+          "name": "Jiwan Kim"
+        },
+        {
+          "authorId": "2211427039",
+          "name": "Heewoong Noh"
+        },
+        {
+          "authorId": "2161339914",
+          "name": "Yeonjun In"
+        },
+        {
+          "authorId": "2182294722",
+          "name": "Kanghoon Yoon"
+        },
+        {
+          "authorId": "2351004660",
+          "name": "Jinoh Oh"
+        },
+        {
+          "authorId": "2258812202",
+          "name": "Chanyoung Park"
+        }
+      ]
+    },
+    {
+      "paperId": "94ba6df2772ffce8163e3ff3ead73af1dd5580b8",
+      "title": "RouterEval: A Comprehensive Benchmark for Routing LLMs to Explore Model-level Scaling Up in LLMs",
+      "year": 2025,
+      "citationCount": 1,
+      "authors": [
+        {
+          "authorId": "2109670338",
+          "name": "Zhongzhan Huang"
+        },
+        {
+          "authorId": "2350347175",
+          "name": "Guoming Ling"
+        },
+        {
+          "authorId": "2350347092",
+          "name": "Vincent S. Liang"
+        },
+        {
+          "authorId": "46395826",
+          "name": "Yu-Hsiang Lin"
+        },
+        {
+          "authorId": "2267017926",
+          "name": "Yandong Chen"
+        },
+        {
+          "authorId": "2053866242",
+          "name": "Shan Zhong"
+        },
+        {
+          "authorId": "2264958585",
+          "name": "Hefeng Wu"
+        },
+        {
+          "authorId": "2237746830",
+          "name": "Liang Lin"
+        }
+      ]
+    },
+    {
+      "paperId": "688f291f549775a3c0a0b7e36a1e411b941ec8e6",
+      "title": "Benchmarking LLMs in Recommendation Tasks: A Comparative Evaluation with Conventional Recommenders",
+      "year": 2025,
+      "citationCount": 0,
+      "authors": [
+        {
+          "authorId": "150270469",
+          "name": "Qijiong Liu"
+        },
+        {
+          "authorId": "2290237904",
+          "name": "Jieming Zhu"
+        },
+        {
+          "authorId": "2147259441",
+          "name": "Lu Fan"
+        },
+        {
+          "authorId": "2349424670",
+          "name": "Kun Wang"
+        },
+        {
+          "authorId": "2258801777",
+          "name": "Hengchang Hu"
+        },
+        {
+          "authorId": "2260810851",
+          "name": "Wei Guo"
+        },
+        {
+          "authorId": "2293683997",
+          "name": "Yong Liu"
+        },
+        {
+          "authorId": "2187512110",
+          "name": "Xiao-Ming Wu"
+        }
+      ]
+    },
+    {
+      "paperId": "8381c580ad975ce6855790edbdb05f8ec37b3ba6",
+      "title": "Semantic Retrieval Augmented Contrastive Learning for Sequential Recommendation",
+      "year": 2025,
+      "citationCount": 0,
+      "authors": [
+        {
+          "authorId": "2279336004",
+          "name": "Ziqiang Cui"
+        },
+        {
+          "authorId": "81049933",
+          "name": "Yunpeng Weng"
+        },
+        {
+          "authorId": "2315079186",
+          "name": "Xing Tang"
+        },
+        {
+          "authorId": "2345331831",
+          "name": "Xiaokun Zhang"
+        },
+        {
+          "authorId": "2257136810",
+          "name": "Dugang Liu"
+        },
+        {
+          "authorId": "2195780326",
+          "name": "Shiwei Li"
+        },
+        {
+          "authorId": "2348741950",
+          "name": "Peiyang Liu"
+        },
+        {
+          "authorId": "2256987771",
+          "name": "Bowei He"
+        },
+        {
+          "authorId": "2261426672",
+          "name": "Weihong Luo"
+        },
+        {
+          "authorId": "2261430143",
+          "name": "Xiuqiang He"
+        },
+        {
+          "authorId": "2258189274",
+          "name": "Chen Ma"
+        }
+      ]
+    },
+    {
+      "paperId": "178234606fded799021da6d850ca471261f6105f",
+      "title": "Intrinsic and Extrinsic Factor Disentanglement for Recommendation in Various Context Scenarios",
+      "year": 2025,
+      "citationCount": 0,
+      "authors": [
+        {
+          "authorId": "2313910549",
+          "name": "Yixin Su"
+        },
+        {
+          "authorId": "2267147042",
+          "name": "Wei Jiang"
+        },
+        {
+          "authorId": "2113698750",
+          "name": "Fangquan Lin"
+        },
+        {
+          "authorId": "2349143628",
+          "name": "Cheng Yang"
+        },
+        {
+          "authorId": "144757691",
+          "name": "S. Erfani"
+        },
+        {
+          "authorId": "2348545761",
+          "name": "Junhao Gan"
+        },
+        {
+          "authorId": "2297257226",
+          "name": "Yunxiang Zhao"
+        },
+        {
+          "authorId": "2282807365",
+          "name": "Ruixuan Li"
+        },
+        {
+          "authorId": "2293586635",
+          "name": "Rui Zhang"
+        }
+      ]
+    },
+    {
+      "paperId": "36485756610616bde975b91c259f9f3e1cdc0369",
+      "title": "Sparse Meets Dense: Unified Generative Recommendations with Cascaded Sparse-Dense Representations",
+      "year": 2025,
+      "citationCount": 0,
+      "authors": [
+        {
+          "authorId": "2348392154",
+          "name": "Yuhao Yang"
+        },
+        {
+          "authorId": "2350148260",
+          "name": "Zhi Ji"
+        },
+        {
+          "authorId": "2348683552",
+          "name": "Zhaopeng Li"
+        },
+        {
+          "authorId": "2348540238",
+          "name": "Yi Li"
+        },
+        {
+          "authorId": "2348434014",
+          "name": "Zhonglin Mo"
+        },
+        {
+          "authorId": "2349191396",
+          "name": "Yue Ding"
+        },
+        {
+          "authorId": "2348754314",
+          "name": "Kai Chen"
+        },
+        {
+          "authorId": "2333404597",
+          "name": "Zijian Zhang"
+        },
+        {
+          "authorId": "2348676533",
+          "name": "Jie Li"
+        },
+        {
+          "authorId": "2203249661",
+          "name": "Shuanglong Li"
+        },
+        {
+          "authorId": "2281643023",
+          "name": "Lin Liu"
+        }
+      ]
+    },
+    {
+      "paperId": "e2f922b3562e72d43ae596169b308b39000d1d37",
+      "title": "Diversifying Furniture Recommendations: A User-Profile-Enhanced Recommender VAE Approach",
+      "year": 2025,
+      "citationCount": 0,
+      "authors": [
+        {
+          "authorId": "2348637794",
+          "name": "Shin Izawa"
+        },
+        {
+          "authorId": "2283609324",
+          "name": "Keiko Ono"
+        },
+        {
+          "authorId": "2315506868",
+          "name": "Panagiotis Adamidis"
+        }
+      ]
+    },
+    {
+      "paperId": "4124740c5376b23d87a1d539051b3f350aeb4326",
+      "title": "Hierarchical Gating Network for Cross-Domain Sequential Recommendation",
+      "year": 2025,
+      "citationCount": 0,
+      "authors": [
+        {
+          "authorId": "2280729078",
+          "name": "Shuliang Wang"
+        },
+        {
+          "authorId": "2317030916",
+          "name": "Jiabao Zhu"
+        },
+        {
+          "authorId": "2348474209",
+          "name": "Yi Wang"
+        },
+        {
+          "authorId": "2260852073",
+          "name": "Chen Ma"
+        },
+        {
+          "authorId": "2284987428",
+          "name": "Xin Zhao"
+        },
+        {
+          "authorId": "2177377528",
+          "name": "Yansen Zhang"
+        },
+        {
+          "authorId": "2048467169",
+          "name": "Ziqiang Yuan"
+        },
+        {
+          "authorId": "2316995759",
+          "name": "Sijie Ruan"
+        }
+      ]
+    },
+    {
+      "paperId": "2845a2591b5dfe52a13cca8448d6cf912938c3e3",
+      "title": "Hierarchical Causal Transformer with Heterogeneous Information for Expandable Sequential Recommendation",
+      "year": 2025,
+      "citationCount": 0,
+      "authors": [
+        {
+          "authorId": "2347000383",
+          "name": "Hao Deng"
+        },
+        {
+          "authorId": "2346973928",
+          "name": "Haibo Xing"
+        },
+        {
+          "authorId": "2338827900",
+          "name": "Kanefumi Matsuyama"
+        },
+        {
+          "authorId": "2348488316",
+          "name": "Yulei Huang"
+        },
+        {
+          "authorId": "2297522420",
+          "name": "Jinxin Hu"
+        },
+        {
+          "authorId": "2340005832",
+          "name": "Hong Wen"
+        },
+        {
+          "authorId": "2348407349",
+          "name": "Jia Xu"
+        },
+        {
+          "authorId": "8157135",
+          "name": "Zulong Chen"
+        },
+        {
+          "authorId": "2347011397",
+          "name": "Yu Zhang"
+        },
+        {
+          "authorId": "2346997929",
+          "name": "Xiaoyi Zeng"
+        },
+        {
+          "authorId": "2339986808",
+          "name": "Jing Zhang"
+        }
+      ]
+    },
+    {
+      "paperId": "7816266a94f7b9496877a195ea32e61ad17dd1aa",
+      "title": "Two-Tower Structure Recommendation Method Fusing Multi-Source Data",
+      "year": 2025,
+      "citationCount": 2,
+      "authors": [
+        {
+          "authorId": "2307501359",
+          "name": "Yaning Su"
+        },
+        {
+          "authorId": "2348686700",
+          "name": "Yuxiang Li"
+        },
+        {
+          "authorId": "2266138642",
+          "name": "Zhiyong Zhang"
         }
       ]
     },
@@ -149,6 +2229,542 @@
       ]
     },
     {
+      "paperId": "d032b15eb714785c57ba29570e592eef03390089",
+      "title": "Bidirectional alignment text-embeddings with decoupled contrastive for sequential recommendation",
+      "year": 2025,
+      "citationCount": 0,
+      "authors": [
+        {
+          "authorId": "2224015200",
+          "name": "Piao Tong"
+        },
+        {
+          "authorId": "2313613075",
+          "name": "Qiao Liu"
+        },
+        {
+          "authorId": "2308234466",
+          "name": "Zhipeng Zhang"
+        },
+        {
+          "authorId": "2271824159",
+          "name": "Yuke Wang"
+        },
+        {
+          "authorId": "2318957741",
+          "name": "Tian Lan"
+        }
+      ]
+    },
+    {
+      "paperId": "836f59a931e51c5f24acd2a5f007c979539a0b90",
+      "title": "Contrastive learning with adversarial masking for sequential recommendation",
+      "year": 2025,
+      "citationCount": 0,
+      "authors": [
+        {
+          "authorId": "2351931749",
+          "name": "Rongzheng Xiang"
+        },
+        {
+          "authorId": "2256307415",
+          "name": "Jiajin Huang"
+        },
+        {
+          "authorId": "2146237737",
+          "name": "Jian Yang"
+        }
+      ]
+    },
+    {
+      "paperId": "2b7a1af86b3449a35c8c90886f7a5c7aac3a0f11",
+      "title": "Multi-session transformers and multi-attribute integration of items for sequential recommendation",
+      "year": 2025,
+      "citationCount": 0,
+      "authors": [
+        {
+          "authorId": "2223166657",
+          "name": "Jiahao Hu"
+        },
+        {
+          "authorId": "2223155451",
+          "name": "Ruizhen Chen"
+        },
+        {
+          "authorId": "2242735919",
+          "name": "Yihao Zhang"
+        },
+        {
+          "authorId": "2352779508",
+          "name": "Yong Zhou"
+        }
+      ]
+    },
+    {
+      "paperId": "9e2f04ceeb0c6a97ce6acbd16ae1af5c2528c76a",
+      "title": "What learns next: Learning intents guided dual contrastive learning model for online course recommendation",
+      "year": 2025,
+      "citationCount": 0,
+      "authors": [
+        {
+          "authorId": "2352907191",
+          "name": "Weiqiang Yao"
+        },
+        {
+          "authorId": "2352672913",
+          "name": "Xiaohuan Hu"
+        }
+      ]
+    },
+    {
+      "paperId": "6dea4432b7ff18140d0c2d4d04106b7895eca483",
+      "title": "One multimodal plugin enhancing all: CLIP-based pre-training framework enhancing multimodal item representations in recommendation systems",
+      "year": 2025,
+      "citationCount": 0,
+      "authors": [
+        {
+          "authorId": "2334873749",
+          "name": "Minghao Mo"
+        },
+        {
+          "authorId": "2335188473",
+          "name": "Weihai Lu"
+        },
+        {
+          "authorId": "2335521512",
+          "name": "Qixiao Xie"
+        },
+        {
+          "authorId": "2283103675",
+          "name": "Zikai Xiao"
+        },
+        {
+          "authorId": "2335103702",
+          "name": "Xiang Lv"
+        },
+        {
+          "authorId": "2335443441",
+          "name": "Hong Yang"
+        },
+        {
+          "authorId": "2332075565",
+          "name": "Yanchun Zhang"
+        }
+      ]
+    },
+    {
+      "paperId": "7ed528783175e5dd0c4b566697389a2bc5955fff",
+      "title": "Unleashing the Potential of Two-Tower Models: Diffusion-Based Cross-Interaction for Large-Scale Matching",
+      "year": 2025,
+      "citationCount": 0,
+      "authors": [
+        {
+          "authorId": "2348189038",
+          "name": "Yihan Wang"
+        },
+        {
+          "authorId": "2348099816",
+          "name": "Fei Xiong"
+        },
+        {
+          "authorId": "2348887716",
+          "name": "Zhexin Han"
+        },
+        {
+          "authorId": "2324987761",
+          "name": "Qi Song"
+        },
+        {
+          "authorId": "2279336579",
+          "name": "Kaiqiao Zhan"
+        },
+        {
+          "authorId": "2279406106",
+          "name": "Ben Wang"
+        }
+      ]
+    },
+    {
+      "paperId": "73430332bb4e281275124d8c36a526df8a669433",
+      "title": "Joint Modeling in Recommendations: A Survey",
+      "year": 2025,
+      "citationCount": 0,
+      "authors": [
+        {
+          "authorId": "2238104000",
+          "name": "Xiangyu Zhao"
+        },
+        {
+          "authorId": "2262403807",
+          "name": "Yichao Wang"
+        },
+        {
+          "authorId": "92633145",
+          "name": "Bo Chen"
+        },
+        {
+          "authorId": "2161309826",
+          "name": "Jingtong Gao"
+        },
+        {
+          "authorId": "2223878432",
+          "name": "Yuhao Wang"
+        },
+        {
+          "authorId": "2238125533",
+          "name": "Xiaopeng Li"
+        },
+        {
+          "authorId": "2264224432",
+          "name": "Pengyue Jia"
+        },
+        {
+          "authorId": "2240559309",
+          "name": "Qidong Liu"
+        },
+        {
+          "authorId": "3339005",
+          "name": "Huifeng Guo"
+        },
+        {
+          "authorId": "2334741329",
+          "name": "Ruiming Tang"
+        }
+      ]
+    },
+    {
+      "paperId": "b1ee4940c9654c7ff89dac1cfd9176f8453ee45b",
+      "title": "OneRec: Unifying Retrieve and Rank with Generative Recommender and Iterative Preference Alignment",
+      "year": 2025,
+      "citationCount": 1,
+      "authors": [
+        {
+          "authorId": "2309220662",
+          "name": "Jiaxin Deng"
+        },
+        {
+          "authorId": "2309219156",
+          "name": "Shiyao Wang"
+        },
+        {
+          "authorId": "2326984795",
+          "name": "Kuo Cai"
+        },
+        {
+          "authorId": "2347466894",
+          "name": "Lejian Ren"
+        },
+        {
+          "authorId": "2331768762",
+          "name": "Qigen Hu"
+        },
+        {
+          "authorId": "2336023242",
+          "name": "Weifeng Ding"
+        },
+        {
+          "authorId": "2331345061",
+          "name": "Qiang Luo"
+        },
+        {
+          "authorId": "2286410462",
+          "name": "Guorui Zhou"
+        }
+      ]
+    },
+    {
+      "paperId": "ba79fc94ec819f0bab31973188e95634b1d359dc",
+      "title": "UQABench: Evaluating User Embedding for Prompting LLMs in Personalized Question Answering",
+      "year": 2025,
+      "citationCount": 1,
+      "authors": [
+        {
+          "authorId": "2345182946",
+          "name": "Langming Liu"
+        },
+        {
+          "authorId": "2345246755",
+          "name": "Shilei Liu"
+        },
+        {
+          "authorId": "2345122773",
+          "name": "Yujin Yuan"
+        },
+        {
+          "authorId": "2345136524",
+          "name": "Yizhen Zhang"
+        },
+        {
+          "authorId": "1466481870",
+          "name": "Bencheng Yan"
+        },
+        {
+          "authorId": "2345338864",
+          "name": "Zhiyuan Zeng"
+        },
+        {
+          "authorId": "2345064259",
+          "name": "Zihao Wang"
+        },
+        {
+          "authorId": "2265515383",
+          "name": "Jiaqi Liu"
+        },
+        {
+          "authorId": "2346720626",
+          "name": "Di Wang"
+        },
+        {
+          "authorId": "2279560018",
+          "name": "Wenbo Su"
+        },
+        {
+          "authorId": "2145012431",
+          "name": "Pengjie Wang"
+        },
+        {
+          "authorId": "2244589086",
+          "name": "Jian Xu"
+        },
+        {
+          "authorId": "2343782562",
+          "name": "Bo Zheng"
+        }
+      ]
+    },
+    {
+      "paperId": "f63fb75381bef5b4665774f45e950ad27b8e5c7a",
+      "title": "Recurrent-optimized user association representation for multi-target cross-domain sequential recommendation",
+      "year": 2025,
+      "citationCount": 0,
+      "authors": [
+        {
+          "authorId": "2349309009",
+          "name": "Nuo Chen"
+        },
+        {
+          "authorId": "2274449677",
+          "name": "Lin Zheng"
+        },
+        {
+          "authorId": "66860739",
+          "name": "Sentao Chen"
+        }
+      ]
+    },
+    {
+      "paperId": "9464ae39ff973456dbd39d35928828a4ee9b6f4b",
+      "title": "KVCrush: Key value cache size-reduction using similarity in head-behaviour",
+      "year": 2025,
+      "citationCount": 0,
+      "authors": [
+        {
+          "authorId": "2185508380",
+          "name": "Gopi Krishna Jha"
+        },
+        {
+          "authorId": "1714409",
+          "name": "Sameh Gobriel"
+        },
+        {
+          "authorId": "2348254380",
+          "name": "Liubov Talamanova"
+        },
+        {
+          "authorId": "2348274148",
+          "name": "Alexander Kozlov"
+        },
+        {
+          "authorId": "2334571101",
+          "name": "Nilesh Jain"
+        }
+      ]
+    },
+    {
+      "paperId": "e2fb25aecf19c5d12647e6709824f96ed37fdf2f",
+      "title": "Unified Semantic and ID Representation Learning for Deep Recommenders",
+      "year": 2025,
+      "citationCount": 0,
+      "authors": [
+        {
+          "authorId": "2301577462",
+          "name": "Guanyu Lin"
+        },
+        {
+          "authorId": "2293482433",
+          "name": "Zhigang Hua"
+        },
+        {
+          "authorId": "2300275413",
+          "name": "Tao Feng"
+        },
+        {
+          "authorId": "2326452811",
+          "name": "Shuang Yang"
+        },
+        {
+          "authorId": "2338267824",
+          "name": "Bo Long"
+        },
+        {
+          "authorId": "2261495159",
+          "name": "Jiaxuan You"
+        }
+      ]
+    },
+    {
+      "paperId": "be95f7ab0e2b140e72f29d1c57c16d9fb565d9f8",
+      "title": "Predictive Modeling: BIM Command Recommendation Based on Large-scale Usage Logs",
+      "year": 2025,
+      "citationCount": 0,
+      "authors": [
+        {
+          "authorId": "2306970878",
+          "name": "Changyu Du"
+        },
+        {
+          "authorId": "2308981432",
+          "name": "Zihan Deng"
+        },
+        {
+          "authorId": "3425723",
+          "name": "Stavros Nousias"
+        },
+        {
+          "authorId": "2260661317",
+          "name": "André Borrmann"
+        }
+      ]
+    },
+    {
+      "paperId": "4bbeda646b42d47e2c5d7db8b5784dd6012025d0",
+      "title": "Semantic Gaussian Mixture Variational Autoencoder for Sequential Recommendation",
+      "year": 2025,
+      "citationCount": 0,
+      "authors": [
+        {
+          "authorId": "2109133840",
+          "name": "Beibei Li"
+        },
+        {
+          "authorId": "2272319042",
+          "name": "Tao Xiang"
+        },
+        {
+          "authorId": "2243438011",
+          "name": "Beihong Jin"
+        },
+        {
+          "authorId": "2271836303",
+          "name": "Yiyuan Zheng"
+        },
+        {
+          "authorId": "2320821519",
+          "name": "Rui Zhao"
+        }
+      ]
+    },
+    {
+      "paperId": "ddda611bc96d833a8aed1f8c06ef680cdd0113ed",
+      "title": "Lightweight yet Efficient: An External Attentive Graph Convolutional Network with Positional Prompts for Sequential Recommendation",
+      "year": 2025,
+      "citationCount": 0,
+      "authors": [
+        {
+          "authorId": "2267150727",
+          "name": "Jinyu Zhang"
+        },
+        {
+          "authorId": "48161499",
+          "name": "Chao Li"
+        },
+        {
+          "authorId": "145793197",
+          "name": "Zhongying Zhao"
+        }
+      ]
+    },
+    {
+      "paperId": "e8459d4490bb8aa38df2eb584f675efe856a1a5c",
+      "title": "Multimodal Quantitative Language for Generative Recommendation",
+      "year": 2025,
+      "citationCount": 0,
+      "authors": [
+        {
+          "authorId": "2341721693",
+          "name": "Jianyang Zhai"
+        },
+        {
+          "authorId": "2276423463",
+          "name": "Zi-Feng Mai"
+        },
+        {
+          "authorId": "2342272828",
+          "name": "Chang-Dong Wang"
+        },
+        {
+          "authorId": "2309259035",
+          "name": "Feidiao Yang"
+        },
+        {
+          "authorId": "2354502340",
+          "name": "Xiawu Zheng"
+        },
+        {
+          "authorId": "2256782409",
+          "name": "Hui Li"
+        },
+        {
+          "authorId": "2341864681",
+          "name": "Yonghong Tian"
+        }
+      ]
+    },
+    {
+      "paperId": "c8f3007ba27551d92d4c8cdfd12725d279899305",
+      "title": "Lost in Sequence: Do Large Language Models Understand Sequential Recommendation?",
+      "year": 2025,
+      "citationCount": 0,
+      "authors": [
+        {
+          "authorId": "2284929443",
+          "name": "Sein Kim"
+        },
+        {
+          "authorId": "2297140458",
+          "name": "Hongseok Kang"
+        },
+        {
+          "authorId": "2182382634",
+          "name": "Kibum Kim"
+        },
+        {
+          "authorId": "2346276546",
+          "name": "Jiwan Kim"
+        },
+        {
+          "authorId": "2145183039",
+          "name": "Donghyun Kim"
+        },
+        {
+          "authorId": "2297139112",
+          "name": "Min-Chul Yang"
+        },
+        {
+          "authorId": "2346109417",
+          "name": "Kwangjin Oh"
+        },
+        {
+          "authorId": "2262079198",
+          "name": "Julian McAuley"
+        },
+        {
+          "authorId": "2258812202",
+          "name": "Chanyoung Park"
+        }
+      ]
+    },
+    {
       "paperId": "24a85b17a212021f83f6351af5ff0f9beb72bcbd",
       "title": "Unsupervised Graph Embeddings for Session-based Recommendation with Item Features",
       "year": 2025,
@@ -200,7 +2816,7 @@
       "paperId": "24b82c7e2c555d20d589ffa4b488ded17d5524b5",
       "title": "A computational analysis of aspect-based sentiment analysis research through bibliometric mapping and topic modeling",
       "year": 2025,
-      "citationCount": 0,
+      "citationCount": 1,
       "authors": [
         {
           "authorId": "2314404",
@@ -225,6 +2841,46 @@
         {
           "authorId": "2310298650",
           "name": "Hongning Dai"
+        }
+      ]
+    },
+    {
+      "paperId": "e3e47713e47640a3342e1440bf64dda58045f61e",
+      "title": "A Systematic Survey on Federated Sequential Recommendation",
+      "year": 2025,
+      "citationCount": 0,
+      "authors": [
+        {
+          "authorId": "2290859580",
+          "name": "Yichen Li"
+        },
+        {
+          "authorId": "2354248340",
+          "name": "Qiyu Qin"
+        },
+        {
+          "authorId": "2355038721",
+          "name": "Gaoyang Zhu"
+        },
+        {
+          "authorId": "2314844128",
+          "name": "Wenchao Xu"
+        },
+        {
+          "authorId": "2312867341",
+          "name": "Haozhao Wang"
+        },
+        {
+          "authorId": "2315068141",
+          "name": "Yuhua Li"
+        },
+        {
+          "authorId": "2336520288",
+          "name": "Rui Zhang"
+        },
+        {
+          "authorId": "2260298889",
+          "name": "Ruixuan Li"
         }
       ]
     },
@@ -267,7 +2923,7 @@
       "citationCount": 0,
       "authors": [
         {
-          "authorId": null,
+          "authorId": "2347688132",
           "name": "Shaoguo Cui"
         },
         {
@@ -323,7 +2979,7 @@
           "name": "Wenqi Sun"
         },
         {
-          "authorId": null,
+          "authorId": "151472453",
           "name": "Yupeng Hou"
         },
         {
@@ -421,2570 +3077,22 @@
       ]
     },
     {
-      "paperId": "fc7e5bc50be58a2ae8b332662a1bb0206477aa04",
-      "title": "Multi-task intent recommendation based on dynamic and static intent integration and disentanglement",
+      "paperId": "15e3daaba0e03df95253a9a8c34c5b43c34031f5",
+      "title": "A Contextual-Aware Position Encoding for Sequential Recommendation",
       "year": 2025,
       "citationCount": 0,
       "authors": [
         {
-          "authorId": "2340389911",
-          "name": "Xiao Huang"
+          "authorId": "2325120382",
+          "name": "Jun Yuan"
         },
         {
-          "authorId": "2332292260",
-          "name": "Xianyi Zhang"
+          "authorId": "24140498",
+          "name": "Guohao Cai"
         },
         {
-          "authorId": "2311459918",
-          "name": "Tao Huang"
-        },
-        {
-          "authorId": "2311472324",
-          "name": "Lin Liu"
-        },
-        {
-          "authorId": "2113342168",
-          "name": "Junhao Wen"
-        }
-      ]
-    },
-    {
-      "paperId": "5287605d5c77b372eec7ab94e3bed30f886d7d3f",
-      "title": "SS4Rec: Continuous-Time Sequential Recommendation with State Space Models",
-      "year": 2025,
-      "citationCount": 0,
-      "authors": [
-        {
-          "authorId": "2344592657",
-          "name": "Wei Xiao"
-        },
-        {
-          "authorId": "2345025365",
-          "name": "Huiying Wang"
-        },
-        {
-          "authorId": "2344391608",
-          "name": "Qifeng Zhou"
-        },
-        {
-          "authorId": "2212280584",
-          "name": "Qing Wang"
-        }
-      ]
-    },
-    {
-      "paperId": "983ba12677f422bf224b077975ff10c2d2517070",
-      "title": "Beyond Models! Explainable Data Valuation and Metric Adaption for Recommendation",
-      "year": 2025,
-      "citationCount": 0,
-      "authors": [
-        {
-          "authorId": "2308097186",
-          "name": "Renqi Jia"
-        },
-        {
-          "authorId": "2345331831",
-          "name": "Xiaokun Zhang"
-        },
-        {
-          "authorId": "2256987771",
-          "name": "Bowei He"
-        },
-        {
-          "authorId": "2346811353",
-          "name": "Qiannan Zhu"
-        },
-        {
-          "authorId": "2345195428",
-          "name": "Weitao Xu"
-        },
-        {
-          "authorId": "2345249453",
-          "name": "Jiehao Chen"
-        },
-        {
-          "authorId": "2345333542",
-          "name": "Chen Ma"
-        }
-      ]
-    },
-    {
-      "paperId": "564efef1e9f3e5a98627599903cb6c3338f472c2",
-      "title": "Progressive Collaborative and Semantic Knowledge Fusion for Generative Recommendation",
-      "year": 2025,
-      "citationCount": 0,
-      "authors": [
-        {
-          "authorId": "2344979746",
-          "name": "Longtao Xiao"
-        },
-        {
-          "authorId": "2312867341",
-          "name": "Haozhao Wang"
-        },
-        {
-          "authorId": "2255299725",
-          "name": "Cheng Wang"
-        },
-        {
-          "authorId": "2345680509",
-          "name": "Linfei Ji"
-        },
-        {
-          "authorId": "2345326379",
-          "name": "Yifan Wang"
-        },
-        {
-          "authorId": "2240695630",
-          "name": "Jieming Zhu"
-        },
-        {
-          "authorId": null,
+          "authorId": "2348316681",
           "name": "Zhenhua Dong"
-        },
-        {
-          "authorId": "2336520288",
-          "name": "Rui Zhang"
-        },
-        {
-          "authorId": "2260298889",
-          "name": "Ruixuan Li"
-        }
-      ]
-    },
-    {
-      "paperId": "1ae41576df949959d4a07f0a9dd863599ffe64d4",
-      "title": "FuXi-$\\alpha$: Scaling Recommendation Model with Feature Interaction Enhanced Transformer",
-      "year": 2025,
-      "citationCount": 1,
-      "authors": [
-        {
-          "authorId": null,
-          "name": "Yufei Ye"
-        },
-        {
-          "authorId": "2260810851",
-          "name": "Wei Guo"
-        },
-        {
-          "authorId": "2333399537",
-          "name": "Jin Yao Chin"
-        },
-        {
-          "authorId": "2256768674",
-          "name": "Hao Wang"
-        },
-        {
-          "authorId": "2343847730",
-          "name": "Hong Zhu"
-        },
-        {
-          "authorId": "2344047585",
-          "name": "Xi Lin"
-        },
-        {
-          "authorId": null,
-          "name": "Yuyang Ye"
-        },
-        {
-          "authorId": "2293683997",
-          "name": "Yong Liu"
-        },
-        {
-          "authorId": "2284295184",
-          "name": "Ruiming Tang"
-        },
-        {
-          "authorId": "2266241113",
-          "name": "Defu Lian"
-        },
-        {
-          "authorId": "2113754294",
-          "name": "Enhong Chen"
-        }
-      ]
-    },
-    {
-      "paperId": "70ee07772471a93ab7878a3e745dfd1139e96dce",
-      "title": "DSRS: DELIGHT sequential recommender system",
-      "year": 2025,
-      "citationCount": 1,
-      "authors": [
-        {
-          "authorId": "2176502129",
-          "name": "Syed Tauhidullah Shah"
-        },
-        {
-          "authorId": "2256383962",
-          "name": "Fazlullah Khan"
-        },
-        {
-          "authorId": "2338903217",
-          "name": "Shirin Yamani"
-        },
-        {
-          "authorId": "2249367824",
-          "name": "Ryan Alturki"
-        },
-        {
-          "authorId": "41156510",
-          "name": "Foziah Gazzawe"
-        },
-        {
-          "authorId": "1986976",
-          "name": "M. I. Razzak"
-        }
-      ]
-    },
-    {
-      "paperId": "5d90e81e0583db7876494566f820b6810730526d",
-      "title": "An efficient continuous control perspective for reinforcement-learning-based sequential recommendation",
-      "year": 2025,
-      "citationCount": 0,
-      "authors": [
-        {
-          "authorId": "2152811643",
-          "name": "Jun Wang"
-        },
-        {
-          "authorId": "12892739",
-          "name": "Likang Wu"
-        },
-        {
-          "authorId": "2312869311",
-          "name": "Qi Liu"
-        },
-        {
-          "authorId": "2316173675",
-          "name": "Yu Yang"
-        }
-      ]
-    },
-    {
-      "paperId": "8b1dd486b22270f402d091d5a1a3ae6c427bc10f",
-      "title": "Time-based knowledge-aware framework for multi-behavior recommendation",
-      "year": 2025,
-      "citationCount": 0,
-      "authors": [
-        {
-          "authorId": "2327338249",
-          "name": "Xiujuan Li"
-        },
-        {
-          "authorId": "2292851788",
-          "name": "Nan Wang"
-        },
-        {
-          "authorId": "2346107448",
-          "name": "Xin Liu"
-        },
-        {
-          "authorId": "2292677421",
-          "name": "Jin Zeng"
-        },
-        {
-          "authorId": "2239388630",
-          "name": "Jinbao Li"
-        }
-      ]
-    },
-    {
-      "paperId": "c746978c87dd0894d8133ee194ae729868cd774b",
-      "title": "Deep Learning Application in Sales Automation and Customer Experience Personalization in Small and Medium-Sized Business: A Hybrid Approach Using Transformer-Based Large Language Models and Reinforcement Learning",
-      "year": 2025,
-      "citationCount": 0,
-      "authors": [
-        {
-          "authorId": "2331256101",
-          "name": "Ugochukwu H. B. Ibecheozor"
-        },
-        {
-          "authorId": "2342321212",
-          "name": "Eugene C Iwuchukwu"
-        },
-        {
-          "authorId": "2331254072",
-          "name": "Ayodele R Akinyele"
-        }
-      ]
-    },
-    {
-      "paperId": "d4f70d5de33511805a01feac82d4bacd7e1b6a03",
-      "title": "Value Function Decomposition in Markov Recommendation Process",
-      "year": 2025,
-      "citationCount": 0,
-      "authors": [
-        {
-          "authorId": "2317419052",
-          "name": "Xiaobei Wang"
-        },
-        {
-          "authorId": "2244772979",
-          "name": "Shuchang Liu"
-        },
-        {
-          "authorId": "2244625023",
-          "name": "Qingpeng Cai"
-        },
-        {
-          "authorId": "2343430283",
-          "name": "Xiang Li"
-        },
-        {
-          "authorId": "2258334183",
-          "name": "Lantao Hu"
-        },
-        {
-          "authorId": "2281741404",
-          "name": "Han Li"
-        },
-        {
-          "authorId": "2281741990",
-          "name": "Guangming Xie"
-        }
-      ]
-    },
-    {
-      "paperId": "5728a309dc7d16e12432aeb6570512440aa1d9bb",
-      "title": "Uncertainty Quantification and Decomposition for LLM-based Recommendation",
-      "year": 2025,
-      "citationCount": 0,
-      "authors": [
-        {
-          "authorId": "1643930327",
-          "name": "Wonbin Kweon"
-        },
-        {
-          "authorId": "2287988207",
-          "name": "Sanghwan Jang"
-        },
-        {
-          "authorId": "71965979",
-          "name": "SeongKu Kang"
-        },
-        {
-          "authorId": "2286165699",
-          "name": "Hwanjo Yu"
-        }
-      ]
-    },
-    {
-      "paperId": "93603d857bae2ab4caab03492f78542684f855ea",
-      "title": "ABXI: Invariant Interest Adaptation for Task-Guided Cross-Domain Sequential Recommendation",
-      "year": 2025,
-      "citationCount": 0,
-      "authors": [
-        {
-          "authorId": "2218561112",
-          "name": "Qingtian Bian"
-        },
-        {
-          "authorId": "2342997339",
-          "name": "Marcus Vin'icius de Carvalho"
-        },
-        {
-          "authorId": "2321483563",
-          "name": "Tieying Li"
-        },
-        {
-          "authorId": "2157763562",
-          "name": "Jiaxing Xu"
-        },
-        {
-          "authorId": "2343790173",
-          "name": "Hui Fang"
-        },
-        {
-          "authorId": "2238953821",
-          "name": "Yiping Ke"
-        }
-      ]
-    },
-    {
-      "paperId": "04d96ab6a76aae419fcbe8c01bb582427c1974b4",
-      "title": "A self-supervised graph convolutional model for recommendation with exponential moving average",
-      "year": 2025,
-      "citationCount": 0,
-      "authors": [
-        {
-          "authorId": "2218951530",
-          "name": "Rui Chen"
-        },
-        {
-          "authorId": "2265874540",
-          "name": "Kangning Pang"
-        },
-        {
-          "authorId": "2298202188",
-          "name": "Zonglin Wang"
-        },
-        {
-          "authorId": "2342396830",
-          "name": "Qingfang Liu"
-        },
-        {
-          "authorId": "2298218487",
-          "name": "Cundong Tang"
-        },
-        {
-          "authorId": "2342245532",
-          "name": "Yanshuo Chang"
-        },
-        {
-          "authorId": "2266010027",
-          "name": "Min Huang"
-        }
-      ]
-    },
-    {
-      "paperId": "ae57f38c1c62e2b0a143c0c862f94bb4c11f4fab",
-      "title": "Hierarchical Time-Aware Mixture of Experts for Multi-Modal Sequential Recommendation",
-      "year": 2025,
-      "citationCount": 0,
-      "authors": [
-        {
-          "authorId": "2342574394",
-          "name": "Shengzhe Zhang"
-        },
-        {
-          "authorId": "2293559850",
-          "name": "Liyi Chen"
-        },
-        {
-          "authorId": "2065251473",
-          "name": "Dazhong Shen"
-        },
-        {
-          "authorId": "2324627531",
-          "name": "Chao Wang"
-        },
-        {
-          "authorId": "2266789166",
-          "name": "Hui Xiong"
-        }
-      ]
-    },
-    {
-      "paperId": "c858898b9a7a2db50d9ef93bf1904a2200bb9b56",
-      "title": "A Contrastive Framework with User, Item and Review Alignment for Recommendation",
-      "year": 2025,
-      "citationCount": 0,
-      "authors": [
-        {
-          "authorId": "2344771388",
-          "name": "Hoang V. Dong"
-        },
-        {
-          "authorId": "2342357682",
-          "name": "Yuan Fang"
-        },
-        {
-          "authorId": "3309003",
-          "name": "Hady W. Lauw"
-        }
-      ]
-    },
-    {
-      "paperId": "c5a302862b400d12cb1e991383ab3d34ceeaa73c",
-      "title": "Style4Rec: Enhancing Transformer-based E-commerce Recommendation Systems with Style and Shopping Cart Information",
-      "year": 2025,
-      "citationCount": 0,
-      "authors": [
-        {
-          "authorId": "2133721685",
-          "name": "Berke Uğurlu"
-        },
-        {
-          "authorId": "2203261993",
-          "name": "Ming-Yi Hong"
-        },
-        {
-          "authorId": "2273383350",
-          "name": "Che Lin"
-        }
-      ]
-    },
-    {
-      "paperId": "834d93061b4978c3ee24fae4821232c54a3df49c",
-      "title": "Efficient Personalization in E-Commerce: Leveraging Universal Customer Representations with Embeddings",
-      "year": 2025,
-      "citationCount": 0,
-      "authors": [
-        {
-          "authorId": "2222966912",
-          "name": "Miguel Alves Gomes"
-        },
-        {
-          "authorId": "2301133",
-          "name": "Philipp Meisen"
-        },
-        {
-          "authorId": "2278897850",
-          "name": "Tobias Meisen"
-        }
-      ]
-    },
-    {
-      "paperId": "835db38ddf6df5df0eefed4f7bcf062542a57225",
-      "title": "Future-Conditioned Recommendations with Multi-Objective Controllable Decision Transformer",
-      "year": 2025,
-      "citationCount": 0,
-      "authors": [
-        {
-          "authorId": "2287659903",
-          "name": "Chongming Gao"
-        },
-        {
-          "authorId": "2336024143",
-          "name": "Kexin Huang"
-        },
-        {
-          "authorId": "2339779831",
-          "name": "Ziang Fei"
-        },
-        {
-          "authorId": "2301270090",
-          "name": "Jiaju Chen"
-        },
-        {
-          "authorId": "2286608063",
-          "name": "Jiawei Chen"
-        },
-        {
-          "authorId": "2265487531",
-          "name": "Jianshan Sun"
-        },
-        {
-          "authorId": "2244772979",
-          "name": "Shuchang Liu"
-        },
-        {
-          "authorId": "2244625023",
-          "name": "Qingpeng Cai"
-        },
-        {
-          "authorId": "2316644045",
-          "name": "Peng Jiang"
-        }
-      ]
-    },
-    {
-      "paperId": "c38834fffd3e5784d1e0a706b4e61fa0744f518a",
-      "title": "A transformer-based model for next disease prediction using electronic health records",
-      "year": 2025,
-      "citationCount": 0,
-      "authors": [
-        {
-          "authorId": "2339094600",
-          "name": "Nikolai Makarov"
-        },
-        {
-          "authorId": "2339194654",
-          "name": "Mikhail Lipkovich"
-        }
-      ]
-    },
-    {
-      "paperId": "85488af8db54f454f132315aad9f743301478d49",
-      "title": "Forward Once for All: Structural Parameterized Adaptation for Efficient Cloud-coordinated On-device Recommendation",
-      "year": 2025,
-      "citationCount": 0,
-      "authors": [
-        {
-          "authorId": "2286911276",
-          "name": "Kairui Fu"
-        },
-        {
-          "authorId": "1475705618",
-          "name": "Zheqi Lv"
-        },
-        {
-          "authorId": "2333226456",
-          "name": "Shengyu Zhang"
-        },
-        {
-          "authorId": "2338854931",
-          "name": "Fan Wu"
-        },
-        {
-          "authorId": "2338827986",
-          "name": "Kun Kuang"
-        }
-      ]
-    },
-    {
-      "paperId": "1c713ba521deda29619f2125cf4935f5e8c48ef8",
-      "title": "Unveiling user interests: A deep user interest exploration network for sequential location recommendation",
-      "year": 2025,
-      "citationCount": 2,
-      "authors": [
-        {
-          "authorId": "2288045583",
-          "name": "Junyang Chen"
-        },
-        {
-          "authorId": "2319633611",
-          "name": "Jingcai Guo"
-        },
-        {
-          "authorId": "2261798371",
-          "name": "Qin Zhang"
-        },
-        {
-          "authorId": "2274700269",
-          "name": "Kaishun Wu"
-        },
-        {
-          "authorId": "2319946521",
-          "name": "Liangjie Zhang"
-        },
-        {
-          "authorId": "2273930159",
-          "name": "Victor C. M. Leung"
-        },
-        {
-          "authorId": "2293567386",
-          "name": "Huan Wang"
-        },
-        {
-          "authorId": "2293480329",
-          "name": "Zhiguo Gong"
-        }
-      ]
-    },
-    {
-      "paperId": "a42a0afd3dc0b34d2980a32bfdb658eb99f7da6e",
-      "title": "Implicit local-global feature extraction for diffusion sequence recommendation",
-      "year": 2025,
-      "citationCount": 1,
-      "authors": [
-        {
-          "authorId": "152973080",
-          "name": "Yongjie Niu"
-        },
-        {
-          "authorId": "2681177",
-          "name": "Xing Xing"
-        },
-        {
-          "authorId": "2978976",
-          "name": "Zhichun Jia"
-        },
-        {
-          "authorId": "2275192096",
-          "name": "Ruidi Liu"
-        },
-        {
-          "authorId": "2035860018",
-          "name": "Mindong Xin"
-        }
-      ]
-    },
-    {
-      "paperId": "47df06ebb6aebe64dc27ac6ccbcd2ae1e3917513",
-      "title": "Sequential recommendation by reprogramming pretrained transformer",
-      "year": 2025,
-      "citationCount": 1,
-      "authors": [
-        {
-          "authorId": "2321263286",
-          "name": "Min Tang"
-        },
-        {
-          "authorId": "2320523193",
-          "name": "Shujie Cui"
-        },
-        {
-          "authorId": "2185947941",
-          "name": "Zhe Jin"
-        },
-        {
-          "authorId": "2299503261",
-          "name": "Shiuan-ni Liang"
-        },
-        {
-          "authorId": "2136338739",
-          "name": "Chenliang Li"
-        },
-        {
-          "authorId": "2240533680",
-          "name": "Lixin Zou"
-        }
-      ]
-    },
-    {
-      "paperId": "af2902eadaa6d352691b3a019599356be69c46f2",
-      "title": "Self-supervised contrastive learning for implicit collaborative filtering",
-      "year": 2025,
-      "citationCount": 0,
-      "authors": [
-        {
-          "authorId": "2290940282",
-          "name": "Shipeng Song"
-        },
-        {
-          "authorId": "2297804602",
-          "name": "Bin Liu"
-        },
-        {
-          "authorId": "2276608030",
-          "name": "Fei Teng"
-        },
-        {
-          "authorId": "2266044540",
-          "name": "Tianrui Li"
-        }
-      ]
-    },
-    {
-      "paperId": "8ed430380c9a7a28fd8c5c9d189899fed2046ef1",
-      "title": "DGT: Unbiased sequential recommendation via Disentangled Graph Transformer",
-      "year": 2025,
-      "citationCount": 0,
-      "authors": [
-        {
-          "authorId": "2128672010",
-          "name": "Chenglin Li"
-        },
-        {
-          "authorId": "2218515877",
-          "name": "Tao Xie"
-        },
-        {
-          "authorId": "2148858199",
-          "name": "Chenyun Yu"
-        },
-        {
-          "authorId": "2277191642",
-          "name": "Bo Hu"
-        },
-        {
-          "authorId": "2283087673",
-          "name": "Zang Li"
-        },
-        {
-          "authorId": "2283102868",
-          "name": "Lei Cheng"
-        },
-        {
-          "authorId": "2056613156",
-          "name": "Beibei Kong"
-        },
-        {
-          "authorId": "2301202487",
-          "name": "Di Niu"
-        }
-      ]
-    },
-    {
-      "paperId": "efd12839174707970d8b076ba0b45908abe08ebd",
-      "title": "Sequential recommendation via agent-based irrelevancy skipping",
-      "year": 2025,
-      "citationCount": 0,
-      "authors": [
-        {
-          "authorId": "2312756044",
-          "name": "Yu Cheng"
-        },
-        {
-          "authorId": "2265576131",
-          "name": "Jiawei Zheng"
-        },
-        {
-          "authorId": "2279734299",
-          "name": "Binquan Wu"
-        },
-        {
-          "authorId": "2265585093",
-          "name": "Qianli Ma"
-        }
-      ]
-    },
-    {
-      "paperId": "2d7d1e8cdecfe7c2ee37ed50f73409edc7ac56a7",
-      "title": "A Novel session-based recommendation system using capsule graph neural network",
-      "year": 2025,
-      "citationCount": 0,
-      "authors": [
-        {
-          "authorId": "123323021",
-          "name": "Driss El Alaoui"
-        },
-        {
-          "authorId": "2097971",
-          "name": "J. Riffi"
-        },
-        {
-          "authorId": "6191920",
-          "name": "Abdelouahed Sabri"
-        },
-        {
-          "authorId": "2278068003",
-          "name": "Badraddine Aghoutane"
-        },
-        {
-          "authorId": "2519197",
-          "name": "Ali Yahyaouy"
-        },
-        {
-          "authorId": "3116845",
-          "name": "H. Tairi"
-        }
-      ]
-    },
-    {
-      "paperId": "0e2efc5a719909c10fb677661f77aa21a2f8b73c",
-      "title": "Simplified self-supervised learning for hybrid propagation graph-based recommendation",
-      "year": 2025,
-      "citationCount": 0,
-      "authors": [
-        {
-          "authorId": "2124965609",
-          "name": "Jianing Zhou"
-        },
-        {
-          "authorId": "2154951008",
-          "name": "Jie Liao"
-        },
-        {
-          "authorId": "2341165500",
-          "name": "Xi Zhu"
-        },
-        {
-          "authorId": "2113342168",
-          "name": "Junhao Wen"
-        },
-        {
-          "authorId": "2256662846",
-          "name": "Wei Zhou"
-        }
-      ]
-    },
-    {
-      "paperId": "c13603992b90529918bd170e2f7a10858a340d43",
-      "title": "A multi-agent reinforcement learning framework for cross-domain sequential recommendation",
-      "year": 2025,
-      "citationCount": 0,
-      "authors": [
-        {
-          "authorId": "48446897",
-          "name": "Huiting Liu"
-        },
-        {
-          "authorId": "2341864435",
-          "name": "Junyi Wei"
-        },
-        {
-          "authorId": "2342112282",
-          "name": "Kaiwen Zhu"
-        },
-        {
-          "authorId": "2158011944",
-          "name": "Peipei Li"
-        },
-        {
-          "authorId": "2289856923",
-          "name": "Peng Zhao"
-        },
-        {
-          "authorId": "2255396936",
-          "name": "Xindong Wu"
-        }
-      ]
-    },
-    {
-      "paperId": "f51f0fe18f05dcac2b91b4ce7f51b4dd7f420105",
-      "title": "From collaborative filtering to deep learning: Advancing recommender systems with longitudinal data in the financial services industry",
-      "year": 2025,
-      "citationCount": 0,
-      "authors": [
-        {
-          "authorId": "2291379241",
-          "name": "Stephanie Beyer Díaz"
-        },
-        {
-          "authorId": "2060729",
-          "name": "Kristof Coussement"
-        },
-        {
-          "authorId": "41036674",
-          "name": "Arno De Caigny"
-        }
-      ]
-    },
-    {
-      "paperId": "296c21c46acbe5db7790d6a16b9eab81b07bc524",
-      "title": "Intent-Guided Bilateral Long and Short-Term Information Mining With Contrastive Learning for Sequential Recommendation",
-      "year": 2025,
-      "citationCount": 0,
-      "authors": [
-        {
-          "authorId": "2338591958",
-          "name": "Junhui Niu"
-        },
-        {
-          "authorId": "2256662846",
-          "name": "Wei Zhou"
-        },
-        {
-          "authorId": "2072689063",
-          "name": "F. Luo"
-        },
-        {
-          "authorId": "2242735919",
-          "name": "Yihao Zhang"
-        },
-        {
-          "authorId": "2319095523",
-          "name": "Jun Zeng"
-        },
-        {
-          "authorId": "2113342168",
-          "name": "Junhao Wen"
-        }
-      ]
-    },
-    {
-      "paperId": "475ea641c742098ebfa8610bda8bacf8aac0353d",
-      "title": "Adaptive user multi-level and multi-interest preferences for sequential recommendation",
-      "year": 2025,
-      "citationCount": 0,
-      "authors": [
-        {
-          "authorId": "1455113749",
-          "name": "Rongmei Zhao"
-        },
-        {
-          "authorId": "2345327858",
-          "name": "Yuxin Zhang"
-        },
-        {
-          "authorId": "2344919905",
-          "name": "Shenggen Ju"
-        },
-        {
-          "authorId": "2313694614",
-          "name": "Jian Peng"
-        },
-        {
-          "authorId": "2344968570",
-          "name": "Yueting Yang"
-        }
-      ]
-    },
-    {
-      "paperId": "49bcd5a1e110330bb6af00213a1f4122093e78da",
-      "title": "MLLM4Rec : multimodal information enhancing LLM for sequential recommendation",
-      "year": 2024,
-      "citationCount": 0,
-      "authors": [
-        {
-          "authorId": "2338017571",
-          "name": "Yuxiang Wang"
-        },
-        {
-          "authorId": "2110331657",
-          "name": "Xin Shi"
-        },
-        {
-          "authorId": "2274196100",
-          "name": "Xueqing Zhao"
-        }
-      ]
-    },
-    {
-      "paperId": "ed8d254a1b806b4428d99c896a92fd788c4daf3b",
-      "title": "DualCFGL: dual-channel fusion global and local features for sequential recommendation",
-      "year": 2024,
-      "citationCount": 0,
-      "authors": [
-        {
-          "authorId": "2297926669",
-          "name": "Shuxu Chen"
-        },
-        {
-          "authorId": "2337704558",
-          "name": "Yuanyuan Liu"
-        },
-        {
-          "authorId": "2280345017",
-          "name": "Chao Che"
-        },
-        {
-          "authorId": "2313871289",
-          "name": "Ziqi Wei"
-        },
-        {
-          "authorId": "2335512855",
-          "name": "Zhaoqian Zhong"
-        }
-      ]
-    },
-    {
-      "paperId": "0febdb3942452bd2bc09b96fa2a950ea941ed664",
-      "title": "HỆ THỐNG GỢI Ý VỚI MÔ HÌNH BERT4REC",
-      "year": 2024,
-      "citationCount": 0,
-      "authors": [
-        {
-          "authorId": "41206238",
-          "name": "Nguyễn Thái Nghe"
-        },
-        {
-          "authorId": "2345085932",
-          "name": "Bào Thị Bẩy"
-        },
-        {
-          "authorId": "46203166",
-          "name": "Nguyễn Hữu Hòa"
-        },
-        {
-          "authorId": "2069452506",
-          "name": "Trần Minh Tân"
-        },
-        {
-          "authorId": "2278537053",
-          "name": "Mai Thị Cẩm Nhung"
-        }
-      ]
-    },
-    {
-      "paperId": "6d3ff3ddba16276c858931636cd63eafe89f51f2",
-      "title": "STKDRec: Spatial-Temporal Knowledge Distillation for Takeaway Recommendation",
-      "year": 2024,
-      "citationCount": 0,
-      "authors": [
-        {
-          "authorId": "2269747162",
-          "name": "Shuyuan Zhao"
-        },
-        {
-          "authorId": "2261393880",
-          "name": "Wei Chen"
-        },
-        {
-          "authorId": "2336945988",
-          "name": "Boyan Shi"
-        },
-        {
-          "authorId": "2336919282",
-          "name": "Liyong Zhou"
-        },
-        {
-          "authorId": "2301762377",
-          "name": "Shuohao Lin"
-        },
-        {
-          "authorId": "2301582919",
-          "name": "Huaiyu Wan"
-        }
-      ]
-    },
-    {
-      "paperId": "cc5c9df84a3751d1a996cee1683dac96034e60e5",
-      "title": "DiffGCA: A Diffusion Recommendation Model with Global Attention Mechanism",
-      "year": 2024,
-      "citationCount": 0,
-      "authors": [
-        {
-          "authorId": "2309959300",
-          "name": "Jiatong Li"
-        },
-        {
-          "authorId": "2978976",
-          "name": "Zhichun Jia"
-        },
-        {
-          "authorId": "2681177",
-          "name": "Xing Xing"
-        },
-        {
-          "authorId": "2035860018",
-          "name": "Mindong Xin"
-        }
-      ]
-    },
-    {
-      "paperId": "4116a4fe3f6f8d1b72f7621cfd60b26f0780cba4",
-      "title": "Semantic Convergence: Harmonizing Recommender Systems via Two-Stage Alignment and Behavioral Semantic Tokenization",
-      "year": 2024,
-      "citationCount": 0,
-      "authors": [
-        {
-          "authorId": "2336084275",
-          "name": "Guanghan Li"
-        },
-        {
-          "authorId": "2336017879",
-          "name": "Xun Zhang"
-        },
-        {
-          "authorId": "2336012903",
-          "name": "Yufei Zhang"
-        },
-        {
-          "authorId": "2336305855",
-          "name": "Yifan Yin"
-        },
-        {
-          "authorId": "2335868502",
-          "name": "Guojun Yin"
-        },
-        {
-          "authorId": "2336243476",
-          "name": "Wei Lin"
-        }
-      ]
-    },
-    {
-      "paperId": "acd7f8254f49be654458143782e695d0cd9af195",
-      "title": "Future Sight and Tough Fights: Revolutionizing Sequential Recommendation with FENRec",
-      "year": 2024,
-      "citationCount": 0,
-      "authors": [
-        {
-          "authorId": "2142203947",
-          "name": "Yu-Hsuan Huang"
-        },
-        {
-          "authorId": "1388566371",
-          "name": "Ling Lo"
-        },
-        {
-          "authorId": "49838829",
-          "name": "Hongxia Xie"
-        },
-        {
-          "authorId": "2426757",
-          "name": "Hong-Han Shuai"
-        },
-        {
-          "authorId": "2267892777",
-          "name": "Wen-Huang Cheng"
-        }
-      ]
-    },
-    {
-      "paperId": "0dcf0c2ebb1c2e5d36e106875256626a85c91986",
-      "title": "Intention Knowledge Graph Construction for User Intention Relation Modeling",
-      "year": 2024,
-      "citationCount": 1,
-      "authors": [
-        {
-          "authorId": "145677395",
-          "name": "Jiaxin Bai"
-        },
-        {
-          "authorId": "2320413542",
-          "name": "Zhaobo Wang"
-        },
-        {
-          "authorId": "2335626946",
-          "name": "Junfei Cheng"
-        },
-        {
-          "authorId": "2335825863",
-          "name": "Dan Yu"
-        },
-        {
-          "authorId": "2335579727",
-          "name": "Zerui Huang"
-        },
-        {
-          "authorId": "1587728690",
-          "name": "Weiqi Wang"
-        },
-        {
-          "authorId": "2260287837",
-          "name": "Xin Liu"
-        },
-        {
-          "authorId": "2276186819",
-          "name": "Chen Luo"
-        },
-        {
-          "authorId": "2335599555",
-          "name": "Qi He"
-        },
-        {
-          "authorId": "2335815811",
-          "name": "Yanming Zhu"
-        },
-        {
-          "authorId": "2335624296",
-          "name": "Bo Li"
-        },
-        {
-          "authorId": "2241325169",
-          "name": "Yangqiu Song"
-        }
-      ]
-    },
-    {
-      "paperId": "e28888b6dd2130d86a6eeadc5c4af40751137a0b",
-      "title": "ID and Graph View Contrastive Learning with Multi-View Attention Fusion for Sequential Recommendation",
-      "year": 2024,
-      "citationCount": 0,
-      "authors": [
-        {
-          "authorId": "2305315493",
-          "name": "Xiaofan Zhou"
-        },
-        {
-          "authorId": "2336259471",
-          "name": "Kyumin Lee"
-        }
-      ]
-    },
-    {
-      "paperId": "1447e5265d3eb85f9a4a231c0d52ca46e44a46ba",
-      "title": "Context-Aware Diffusion-based Sequential Recommendation",
-      "year": 2024,
-      "citationCount": 0,
-      "authors": [
-        {
-          "authorId": "2053272333",
-          "name": "Di You"
-        },
-        {
-          "authorId": "2282508776",
-          "name": "Kyumin Lee"
-        }
-      ]
-    },
-    {
-      "paperId": "b23c2e4a8afbd586bef2d0daeb3a637b19006a34",
-      "title": "Towards True Multi-interest Recommendation: Enhanced Scheme for Balanced Interest Training",
-      "year": 2024,
-      "citationCount": 0,
-      "authors": [
-        {
-          "authorId": "2181453995",
-          "name": "Jaeri Lee"
-        },
-        {
-          "authorId": "2257005371",
-          "name": "Jeongin Yun"
-        },
-        {
-          "authorId": "2340522669",
-          "name": "U. Kang"
-        }
-      ]
-    },
-    {
-      "paperId": "7768e63d08be5df8ad7295b271d6bb11bc801cc4",
-      "title": "MIBR: Bridging Domains through Diverse Interests for Cross-Domain Sequential Recommendation",
-      "year": 2024,
-      "citationCount": 0,
-      "authors": [
-        {
-          "authorId": "2342753064",
-          "name": "Chengzhe Zhang"
-        },
-        {
-          "authorId": "2185996020",
-          "name": "Xu Min"
-        },
-        {
-          "authorId": "2260925375",
-          "name": "Changsheng Li"
-        },
-        {
-          "authorId": "2260823600",
-          "name": "Xiaolu Zhang"
-        },
-        {
-          "authorId": "2243956990",
-          "name": "Weichang Wu"
-        },
-        {
-          "authorId": "2151551686",
-          "name": "Jun Zhou"
-        },
-        {
-          "authorId": "2223883623",
-          "name": "Ye Yuan"
-        },
-        {
-          "authorId": "2168989170",
-          "name": "Guoren Wang"
-        }
-      ]
-    },
-    {
-      "paperId": "573341bda21d9e5fe68bc4516d7e2b81b5de3757",
-      "title": "Augmenting Sequential Recommendation with Balanced Relevance and Diversity",
-      "year": 2024,
-      "citationCount": 0,
-      "authors": [
-        {
-          "authorId": "2197108524",
-          "name": "Yizhou Dang"
-        },
-        {
-          "authorId": "2334817021",
-          "name": "Jiahui Zhang"
-        },
-        {
-          "authorId": "2234610417",
-          "name": "Yuting Liu"
-        },
-        {
-          "authorId": "151497321",
-          "name": "Enneng Yang"
-        },
-        {
-          "authorId": "2266464920",
-          "name": "Yuliang Liang"
-        },
-        {
-          "authorId": "2237427680",
-          "name": "Guibing Guo"
-        },
-        {
-          "authorId": "2290846879",
-          "name": "Jianzhe Zhao"
-        },
-        {
-          "authorId": "2237603955",
-          "name": "Xingwei Wang"
-        }
-      ]
-    },
-    {
-      "paperId": "ddf530e83ed0b0b14e03d7f0db90fe96e7af4a96",
-      "title": "Temporal Linear Item-Item Model for Sequential Recommendation",
-      "year": 2024,
-      "citationCount": 0,
-      "authors": [
-        {
-          "authorId": "2335446744",
-          "name": "Seongmin Park"
-        },
-        {
-          "authorId": "2298553478",
-          "name": "Mincheol Yoon"
-        },
-        {
-          "authorId": "2111881386",
-          "name": "Minjin Choi"
-        },
-        {
-          "authorId": "2289313455",
-          "name": "Jongwuk Lee"
-        }
-      ]
-    },
-    {
-      "paperId": "2a919a8b5b5d2be610a2144721a69f9abde9dd2a",
-      "title": "RLT4Rec: Reinforcement Learning Transformer for User Cold Start and Item Recommendation",
-      "year": 2024,
-      "citationCount": 0,
-      "authors": [
-        {
-          "authorId": "2184743935",
-          "name": "D. Rajapakse"
-        },
-        {
-          "authorId": "2334568520",
-          "name": "Douglas Leith"
-        }
-      ]
-    },
-    {
-      "paperId": "1cea9d3a1394d35d8104ed528f398a83b69d7aef",
-      "title": "Contrastive Learning for Adapting Language Model to Sequential Recommendation",
-      "year": 2024,
-      "citationCount": 0,
-      "authors": [
-        {
-          "authorId": "2283005080",
-          "name": "Fei-Yao Liang"
-        },
-        {
-          "authorId": "2261748884",
-          "name": "Wu-Dong Xi"
-        },
-        {
-          "authorId": "2283156333",
-          "name": "Xing-Xing Xing"
-        },
-        {
-          "authorId": "2346529508",
-          "name": "Wei Wan"
-        },
-        {
-          "authorId": "2283053983",
-          "name": "Chang-Dong Wang"
-        },
-        {
-          "authorId": "2346567627",
-          "name": "Min Chen"
-        },
-        {
-          "authorId": "2346514292",
-          "name": "Mohsen Guizani"
-        }
-      ]
-    },
-    {
-      "paperId": "b38f0053459fcbc96205f4bd75bf92c8d8917d71",
-      "title": "RecCoder: Reformulating Sequential Recommendation as Large Language Model-Based Code Completion",
-      "year": 2024,
-      "citationCount": 0,
-      "authors": [
-        {
-          "authorId": "2293400708",
-          "name": "Kai-Huang Lai"
-        },
-        {
-          "authorId": "2261748884",
-          "name": "Wu-Dong Xi"
-        },
-        {
-          "authorId": "2283156333",
-          "name": "Xing-Xing Xing"
-        },
-        {
-          "authorId": "2346529508",
-          "name": "Wei Wan"
-        },
-        {
-          "authorId": "2283053983",
-          "name": "Chang-Dong Wang"
-        },
-        {
-          "authorId": "2346567627",
-          "name": "Min Chen"
-        },
-        {
-          "authorId": "2346514292",
-          "name": "Mohsen Guizani"
-        }
-      ]
-    },
-    {
-      "paperId": "c833e9e38a8d7c6a82bb3a344d34622603323df8",
-      "title": "Hypergraph-Enhanced Contrastively Regularized Transformer for Multi-Behavior E-commerce Product Recommendation",
-      "year": 2024,
-      "citationCount": 0,
-      "authors": [
-        {
-          "authorId": "2219725947",
-          "name": "Shuiying Liao"
-        },
-        {
-          "authorId": "2346522117",
-          "name": "P. Y. Mok"
-        }
-      ]
-    },
-    {
-      "paperId": "3fac26e51226ce92e150f5c97883f692d6d49edf",
-      "title": "Recent Progress in Understanding Transformer and Developing Its Surpasser: A Survey",
-      "year": 2024,
-      "citationCount": 0,
-      "authors": [
-        {
-          "authorId": "2276822774",
-          "name": "M. Liu"
-        },
-        {
-          "authorId": "2341458245",
-          "name": "D. Yang"
-        },
-        {
-          "authorId": "31601735",
-          "name": "F. Beyette"
-        },
-        {
-          "authorId": "2276977880",
-          "name": "S. Wang"
-        },
-        {
-          "authorId": "2341454509",
-          "name": "L. Zhao"
-        }
-      ]
-    },
-    {
-      "paperId": "60ace574ba96ba1a08a90e3d4d35d58b7cd0b36c",
-      "title": "Graph-Sequential Alignment and Uniformity: Toward Enhanced Recommendation Systems",
-      "year": 2024,
-      "citationCount": 0,
-      "authors": [
-        {
-          "authorId": "150346771",
-          "name": "Yuwei Cao"
-        },
-        {
-          "authorId": "120378195",
-          "name": "Liangwei Yang"
-        },
-        {
-          "authorId": "2303794103",
-          "name": "Zhiwei Liu"
-        },
-        {
-          "authorId": "2244568529",
-          "name": "Yuqing Liu"
-        },
-        {
-          "authorId": "2109115149",
-          "name": "Chen Wang"
-        },
-        {
-          "authorId": "2258794432",
-          "name": "Yueqing Liang"
-        },
-        {
-          "authorId": "2261107029",
-          "name": "Hao Peng"
-        },
-        {
-          "authorId": "2258846722",
-          "name": "Philip S. Yu"
-        }
-      ]
-    },
-    {
-      "paperId": "9bdb42a03241bce43740fb80896022acdcf543a7",
-      "title": "Improving Sequential Recommender Systems with Online and In-store User Behavior",
-      "year": 2024,
-      "citationCount": 0,
-      "authors": [
-        {
-          "authorId": "1504996823",
-          "name": "Luyi Ma"
-        },
-        {
-          "authorId": "2333428873",
-          "name": "Aashika Padmanabhan"
-        },
-        {
-          "authorId": "2333429326",
-          "name": "Anjana Ganesh"
-        },
-        {
-          "authorId": "2333882813",
-          "name": "Shengwei Tang"
-        },
-        {
-          "authorId": "2157074190",
-          "name": "Jiaoayan Chen"
-        },
-        {
-          "authorId": "2289862584",
-          "name": "Xiaohan Li"
-        },
-        {
-          "authorId": "117576986",
-          "name": "Lalitesh Morishetti"
-        },
-        {
-          "authorId": "2190948143",
-          "name": "Kaushiki Nag"
-        },
-        {
-          "authorId": "2269717277",
-          "name": "Malay Patel"
-        },
-        {
-          "authorId": "2262403777",
-          "name": "Jason H. D. Cho"
-        },
-        {
-          "authorId": "2119163223",
-          "name": "Sushant Kumar"
-        },
-        {
-          "authorId": "2120209935",
-          "name": "Kannan Achan"
-        }
-      ]
-    },
-    {
-      "paperId": "22e4b8078ad5839ff4859f2c8a21ebdcfef6c991",
-      "title": "Precision Profile Pollution Attack on Sequential Recommenders via Influence Function",
-      "year": 2024,
-      "citationCount": 0,
-      "authors": [
-        {
-          "authorId": "37340042",
-          "name": "Xiaoyu Du"
-        },
-        {
-          "authorId": "2334787199",
-          "name": "Yingying Chen"
-        },
-        {
-          "authorId": "2333451330",
-          "name": "Yang Zhang"
-        },
-        {
-          "authorId": "2333467890",
-          "name": "Jinhui Tang"
-        }
-      ]
-    },
-    {
-      "paperId": "24e493f84e0949fcfd86d96fe5841b771766ca78",
-      "title": "e-Fold Cross-Validation for Recommender-System Evaluation",
-      "year": 2024,
-      "citationCount": 1,
-      "authors": [
-        {
-          "authorId": "2326137802",
-          "name": "Moritz Baumgart"
-        },
-        {
-          "authorId": "2239569327",
-          "name": "Lukas Wegmeth"
-        },
-        {
-          "authorId": "2239566946",
-          "name": "Tobias Vente"
-        },
-        {
-          "authorId": "2137867216",
-          "name": "Joeran Beel"
-        }
-      ]
-    },
-    {
-      "paperId": "80daa7209ddd6a9b4f086e5930160ae72bc7a3ed",
-      "title": "Multi-granular approach to learn user mobility preferences for next Point-of-Interest recommendation",
-      "year": 2024,
-      "citationCount": 0,
-      "authors": [
-        {
-          "authorId": "2112831164",
-          "name": "Li Cai"
-        },
-        {
-          "authorId": "2336697258",
-          "name": "Shicun Wu"
-        },
-        {
-          "authorId": "2336710194",
-          "name": "Hai Li"
-        },
-        {
-          "authorId": "2117874973",
-          "name": "Yu Liang"
-        }
-      ]
-    },
-    {
-      "paperId": "2b71d8d0854d686e6b000781cdc47e01407f36b4",
-      "title": "Oracle-guided Dynamic User Preference Modeling for Sequential Recommendation",
-      "year": 2024,
-      "citationCount": 0,
-      "authors": [
-        {
-          "authorId": "2069550892",
-          "name": "Jiafeng Xia"
-        },
-        {
-          "authorId": "2259817156",
-          "name": "Dongsheng Li"
-        },
-        {
-          "authorId": "1759997",
-          "name": "Hansu Gu"
-        },
-        {
-          "authorId": "2284552265",
-          "name": "Tun Lu"
-        },
-        {
-          "authorId": "1896008570",
-          "name": "Peng Zhang"
-        },
-        {
-          "authorId": "1845904076",
-          "name": "Li Shang"
-        },
-        {
-          "authorId": "2258958923",
-          "name": "Ning Gu"
-        }
-      ]
-    },
-    {
-      "paperId": "faac8545a373f870715ee5e1e66b953251d8a007",
-      "title": "Cross-domain sequential recommendation base on Fourier transform and contrastive variational augmentation",
-      "year": 2024,
-      "citationCount": 3,
-      "authors": [
-        {
-          "authorId": "50030812",
-          "name": "Xingyao Yang"
-        },
-        {
-          "authorId": "2322667962",
-          "name": "Xinyu Xiong"
-        },
-        {
-          "authorId": "2267688201",
-          "name": "Jiong Yu"
-        },
-        {
-          "authorId": "2108327729",
-          "name": "Jiaying Chen"
-        },
-        {
-          "authorId": "2322536619",
-          "name": "Shuangquan Li"
-        }
-      ]
-    },
-    {
-      "paperId": "e5a7f82707a9abd5a504ab5838978b19a3bf6473",
-      "title": "Revisiting the loss functions in sequential recommendation",
-      "year": 2024,
-      "citationCount": 0,
-      "authors": [
-        {
-          "authorId": "2326145941",
-          "name": "Fangyu Li"
-        },
-        {
-          "authorId": "2306157111",
-          "name": "Hong Peng"
-        },
-        {
-          "authorId": "2325707740",
-          "name": "Shenbao Yu"
-        },
-        {
-          "authorId": "2325558016",
-          "name": "Feng Zeng"
-        },
-        {
-          "authorId": "2325817817",
-          "name": "Fei Chen"
-        },
-        {
-          "authorId": "2263378963",
-          "name": "Fan Yang"
-        }
-      ]
-    },
-    {
-      "paperId": "e732da0ccff008958160b1cc025c74f571c21eb9",
-      "title": "Deep Session Heterogeneity-Aware Network for Click Through Rate Prediction",
-      "year": 2024,
-      "citationCount": 1,
-      "authors": [
-        {
-          "authorId": "2149174550",
-          "name": "Xin Zhang"
-        },
-        {
-          "authorId": "2145656",
-          "name": "Zengmao Wang"
-        },
-        {
-          "authorId": "2064619450",
-          "name": "Bo Du"
-        },
-        {
-          "authorId": "2109176690",
-          "name": "Jia Wu"
-        },
-        {
-          "authorId": "2328074497",
-          "name": "Xiao Zhang"
-        },
-        {
-          "authorId": "2309618571",
-          "name": "Erli Meng"
-        }
-      ]
-    },
-    {
-      "paperId": "85de3c754e64f465f3c6db0cb74f974c74e0d902",
-      "title": "A Framework for Elastic Adaptation of User Multiple Intents in Sequential Recommendation",
-      "year": 2024,
-      "citationCount": 0,
-      "authors": [
-        {
-          "authorId": "2280615849",
-          "name": "Zhikai Wang"
-        },
-        {
-          "authorId": "2281418623",
-          "name": "Yanyan Shen"
-        }
-      ]
-    },
-    {
-      "paperId": "9e6aa1ce744824c0cacbcee7a342c4f001ff008c",
-      "title": "Reliable Data Augmented Contrastive Learning for Sequential Recommendation",
-      "year": 2024,
-      "citationCount": 0,
-      "authors": [
-        {
-          "authorId": "2466436",
-          "name": "Mankun Zhao"
-        },
-        {
-          "authorId": "2209207251",
-          "name": "Aitong Sun"
-        },
-        {
-          "authorId": "2155521320",
-          "name": "Jian Yu"
-        },
-        {
-          "authorId": "50079136",
-          "name": "Xuewei Li"
-        },
-        {
-          "authorId": "2258959961",
-          "name": "Dongxiao He"
-        },
-        {
-          "authorId": "2805420",
-          "name": "Ruiguo Yu"
-        },
-        {
-          "authorId": "2318924425",
-          "name": "Mei Yu"
-        }
-      ]
-    },
-    {
-      "paperId": "850f706c321d7beb156cdb7ece7d2aa3d57a33d6",
-      "title": "Diff-DGMN: A Diffusion-Based Dual Graph Multiattention Network for POI Recommendation",
-      "year": 2024,
-      "citationCount": 3,
-      "authors": [
-        {
-          "authorId": "116194051",
-          "name": "Jian-yong Zuo"
-        },
-        {
-          "authorId": "2296669170",
-          "name": "Yaying Zhang"
-        }
-      ]
-    },
-    {
-      "paperId": "1d5316e695b1a65315cd585128236e21412c9ac9",
-      "title": "Scaling New Frontiers: Insights into Large Recommendation Models",
-      "year": 2024,
-      "citationCount": 3,
-      "authors": [
-        {
-          "authorId": "2260810851",
-          "name": "Wei Guo"
-        },
-        {
-          "authorId": "2256768674",
-          "name": "Hao Wang"
-        },
-        {
-          "authorId": "2294685051",
-          "name": "Luankang Zhang"
-        },
-        {
-          "authorId": "2333399537",
-          "name": "Jin Yao Chin"
-        },
-        {
-          "authorId": "2333590484",
-          "name": "Zhongzhou Liu"
-        },
-        {
-          "authorId": "2316559945",
-          "name": "Kai Cheng"
-        },
-        {
-          "authorId": "2325100673",
-          "name": "Qiushi Pan"
-        },
-        {
-          "authorId": "2297951506",
-          "name": "Yi Lee"
-        },
-        {
-          "authorId": "2333366197",
-          "name": "Wanqi Xue"
-        },
-        {
-          "authorId": "2218610917",
-          "name": "Tingjia Shen"
-        },
-        {
-          "authorId": "2333414081",
-          "name": "Kenan Song"
-        },
-        {
-          "authorId": "2293923694",
-          "name": "Kefan Wang"
-        },
-        {
-          "authorId": "2321490593",
-          "name": "Wenjia Xie"
-        },
-        {
-          "authorId": "2289648235",
-          "name": "Yuyang Ye"
-        },
-        {
-          "authorId": "2290027703",
-          "name": "Huifeng Guo"
-        },
-        {
-          "authorId": "2293683997",
-          "name": "Yong Liu"
-        },
-        {
-          "authorId": "1862782",
-          "name": "Defu Lian"
-        },
-        {
-          "authorId": "2284295184",
-          "name": "Ruiming Tang"
-        },
-        {
-          "authorId": "2113754294",
-          "name": "Enhong Chen"
-        }
-      ]
-    },
-    {
-      "paperId": "8474de681db0a100b8d8efa9b399160feb7097ce",
-      "title": "Hyperbolic Translation-Based Sequential Recommendation",
-      "year": 2024,
-      "citationCount": 2,
-      "authors": [
-        {
-          "authorId": "2256461709",
-          "name": "Yonghong Yu"
-        },
-        {
-          "authorId": "2163939574",
-          "name": "Aoran Zhang"
-        },
-        {
-          "authorId": "2276654545",
-          "name": "Li Zhang"
-        },
-        {
-          "authorId": "2157314411",
-          "name": "Rong Gao"
-        },
-        {
-          "authorId": "2309942041",
-          "name": "Shang Gao"
-        },
-        {
-          "authorId": "2257288106",
-          "name": "Hongzhi Yin"
-        }
-      ]
-    },
-    {
-      "paperId": "f584bbbf335b4005e79be662c1f03097aeebc23c",
-      "title": "Sudden Fall Detection of Human Body Using Transformer Model",
-      "year": 2024,
-      "citationCount": 0,
-      "authors": [
-        {
-          "authorId": "2229940163",
-          "name": "Duncan Kibet"
-        },
-        {
-          "authorId": "104472672",
-          "name": "Min-Seop So"
-        },
-        {
-          "authorId": "2336052769",
-          "name": "Hahyeon Kang"
-        },
-        {
-          "authorId": "2336509875",
-          "name": "Yongsu Han"
-        },
-        {
-          "authorId": "2265354676",
-          "name": "Jong-Ho Shin"
-        }
-      ]
-    },
-    {
-      "paperId": "58570e9b43d82fec0aa60f7ee2890fc3ea37b32e",
-      "title": "Self-attention mechanism-based activity and motion recognition using Wi-Fi signals",
-      "year": 2024,
-      "citationCount": 0,
-      "authors": [
-        {
-          "authorId": "73103248",
-          "name": "K. Nkabiti"
-        },
-        {
-          "authorId": "2238912902",
-          "name": "Yueyun Chen"
-        },
-        {
-          "authorId": "2296196690",
-          "name": "Tang Chao"
-        }
-      ]
-    },
-    {
-      "paperId": "92fb898316ea4550c100d7a1388ce009c63c1edb",
-      "title": "ContextGNN: Beyond Two-Tower Recommendation Systems",
-      "year": 2024,
-      "citationCount": 1,
-      "authors": [
-        {
-          "authorId": "2112499894",
-          "name": "Yiwen Yuan"
-        },
-        {
-          "authorId": "2294848842",
-          "name": "Zecheng Zhang"
-        },
-        {
-          "authorId": "2313796183",
-          "name": "Xinwei He"
-        },
-        {
-          "authorId": "2294360062",
-          "name": "Akihiro Nitta"
-        },
-        {
-          "authorId": "2146241852",
-          "name": "Weihua Hu"
-        },
-        {
-          "authorId": "2333594166",
-          "name": "Dong Wang"
-        },
-        {
-          "authorId": "2333428671",
-          "name": "Manan Shah"
-        },
-        {
-          "authorId": "2333525437",
-          "name": "Shenyang Huang"
-        },
-        {
-          "authorId": "2338276879",
-          "name": "Blaz Stojanovic"
-        },
-        {
-          "authorId": "2333235219",
-          "name": "Alan Krumholz"
-        },
-        {
-          "authorId": "9572099",
-          "name": "J. E. Lenssen"
-        },
-        {
-          "authorId": "2251205420",
-          "name": "J. Leskovec"
-        },
-        {
-          "authorId": "2294360908",
-          "name": "Matthias Fey"
-        }
-      ]
-    },
-    {
-      "paperId": "726178869fcb6ddbb88bac6899237f8a13e886fb",
-      "title": "Text-based Multi-pair Contrastive Learning Bidirectional Transformer for Sequential Recommendation *",
-      "year": 2024,
-      "citationCount": 0,
-      "authors": [
-        {
-          "authorId": "2334696483",
-          "name": "Tao He"
-        },
-        {
-          "authorId": "2332355213",
-          "name": "Xuejun Liu"
-        },
-        {
-          "authorId": "2332088144",
-          "name": "Zhuoya Xing"
-        },
-        {
-          "authorId": "2332288286",
-          "name": "Yitian Wang"
-        }
-      ]
-    },
-    {
-      "paperId": "3e18e90e43b5537cbc31b7ea4157409888f4c490",
-      "title": "Utilization of DistilBERT in Developing a Conversational Recommender System for Skincare Products Based on Critiquing",
-      "year": 2024,
-      "citationCount": 0,
-      "authors": [
-        {
-          "authorId": "2344584968",
-          "name": "Audry Jesica Putri"
-        },
-        {
-          "authorId": "9172850",
-          "name": "Z. Baizal"
-        }
-      ]
-    },
-    {
-      "paperId": "1aa4d3908d085204e45fa25304d1f9cd6c7d30ef",
-      "title": "Break the ID-Language Barrier: An Adaption Framework for Sequential Recommendation",
-      "year": 2024,
-      "citationCount": 0,
-      "authors": [
-        {
-          "authorId": "2323288930",
-          "name": "Xiaohan Yu"
-        },
-        {
-          "authorId": "2301436164",
-          "name": "Li Zhang"
-        },
-        {
-          "authorId": "2161557838",
-          "name": "Xin Zhao"
-        },
-        {
-          "authorId": "2283328111",
-          "name": "Yue Wang"
-        }
-      ]
-    },
-    {
-      "paperId": "08811b9882d0d544e35dc75878c2419beee29530",
-      "title": "Integrating Transformers into Recommendation Systems: A Hybrid Approach",
-      "year": 2024,
-      "citationCount": 0,
-      "authors": [
-        {
-          "authorId": "2288108049",
-          "name": "M. Uysal"
-        },
-        {
-          "authorId": "2332854508",
-          "name": "Aynur Uysal"
-        },
-        {
-          "authorId": "2288108049",
-          "name": "M. Uysal"
-        }
-      ]
-    },
-    {
-      "paperId": "c42b7e92ab3dc9cc9ee7ce92eef56e384129ebdd",
-      "title": "VisualLens: Personalization through Visual History",
-      "year": 2024,
-      "citationCount": 0,
-      "authors": [
-        {
-          "authorId": "2332241527",
-          "name": "Wang Bill Zhu"
-        },
-        {
-          "authorId": "2135593484",
-          "name": "Deqing Fu"
-        },
-        {
-          "authorId": "2332094619",
-          "name": "Kai Sun"
-        },
-        {
-          "authorId": "2332940510",
-          "name": "Yi Lu"
-        },
-        {
-          "authorId": "2146396528",
-          "name": "Zhaojiang Lin"
-        },
-        {
-          "authorId": "2256132624",
-          "name": "Seungwhan Moon"
-        },
-        {
-          "authorId": "2317748188",
-          "name": "Kanika Narang"
-        },
-        {
-          "authorId": "2285653795",
-          "name": "Mustafa Canim"
-        },
-        {
-          "authorId": "2247965931",
-          "name": "Yue Liu"
-        },
-        {
-          "authorId": "2247977368",
-          "name": "Anuj Kumar"
-        },
-        {
-          "authorId": "2283964663",
-          "name": "Xin Dong"
-        }
-      ]
-    },
-    {
-      "paperId": "36f8b85dcf07e1792cd92c099810df844b83f1dd",
-      "title": "DTR4Rec: direct transition relationship for sequential recommendation",
-      "year": 2024,
-      "citationCount": 0,
-      "authors": [
-        {
-          "authorId": "2282929344",
-          "name": "Ming He"
-        },
-        {
-          "authorId": "2260859243",
-          "name": "Hang Zhang"
-        },
-        {
-          "authorId": "2283120567",
-          "name": "Zihao Zhang"
-        },
-        {
-          "authorId": "2282893146",
-          "name": "Chang Liu"
-        }
-      ]
-    },
-    {
-      "paperId": "1d9f88534fc7c152a33abce7363128b65400f23a",
-      "title": "User-based clustering deep model for the sequential point-of-interest recommendation",
-      "year": 2024,
-      "citationCount": 0,
-      "authors": [
-        {
-          "authorId": "2283483267",
-          "name": "Tianxing Wang"
-        },
-        {
-          "authorId": "2283084838",
-          "name": "Can Wang"
-        },
-        {
-          "authorId": "2294644824",
-          "name": "Hui Tian"
-        },
-        {
-          "authorId": "2275711497",
-          "name": "Alan Wee-Chung Liew"
-        }
-      ]
-    },
-    {
-      "paperId": "3f54f1ce5cf2fc389692f318ba7241c62c451cd4",
-      "title": "Multi-granularity Interest Retrieval and Refinement Network for Long-Term User Behavior Modeling in CTR Prediction",
-      "year": 2024,
-      "citationCount": 2,
-      "authors": [
-        {
-          "authorId": "2227611065",
-          "name": "Xiang Xu"
-        },
-        {
-          "authorId": "2256768854",
-          "name": "Hao Wang"
-        },
-        {
-          "authorId": "2292344659",
-          "name": "Wei Guo"
-        },
-        {
-          "authorId": "2294685051",
-          "name": "Luankang Zhang"
-        },
-        {
-          "authorId": "2332081652",
-          "name": "Wanshan Yang"
-        },
-        {
-          "authorId": "51508019",
-          "name": "Runlong Yu"
-        },
-        {
-          "authorId": "2293683997",
-          "name": "Yong Liu"
-        },
-        {
-          "authorId": "1862782",
-          "name": "Defu Lian"
-        },
-        {
-          "authorId": "2113754294",
-          "name": "Enhong Chen"
-        }
-      ]
-    },
-    {
-      "paperId": "aa592b875e1e61add814ef8f8a471276ea3fea09",
-      "title": "Financial Risk Assessment via Long-term Payment Behavior Sequence Folding",
-      "year": 2024,
-      "citationCount": 0,
-      "authors": [
-        {
-          "authorId": "2303334978",
-          "name": "Yiran Qiao"
-        },
-        {
-          "authorId": "2345778461",
-          "name": "Yateng Tang"
-        },
-        {
-          "authorId": "2331856098",
-          "name": "Xiang Ao"
-        },
-        {
-          "authorId": "2331868822",
-          "name": "Qi Yuan"
-        },
-        {
-          "authorId": "2332275292",
-          "name": "Ziming Liu"
-        },
-        {
-          "authorId": "2332690510",
-          "name": "Chen Shen"
-        },
-        {
-          "authorId": "2332078956",
-          "name": "Xuehao Zheng"
-        }
-      ]
-    },
-    {
-      "paperId": "89bd8eb95d914f0cc8e11b74ba08758d3ce5995b",
-      "title": "Data Watermarking for Sequential Recommender Systems",
-      "year": 2024,
-      "citationCount": 0,
-      "authors": [
-        {
-          "authorId": "2328224602",
-          "name": "Sixiao Zhang"
-        },
-        {
-          "authorId": "2328011945",
-          "name": "Cheng Long"
-        },
-        {
-          "authorId": "2106755543",
-          "name": "Wei Yuan"
-        },
-        {
-          "authorId": "2261682536",
-          "name": "Hongxu Chen"
-        },
-        {
-          "authorId": "2302520304",
-          "name": "Hongzhi Yin"
-        }
-      ]
-    },
-    {
-      "paperId": "23826d6218aa30a341815791e8bee981acd814d3",
-      "title": "Multi-Grained Preference Enhanced Transformer for Multi-Behavior Sequential Recommendation",
-      "year": 2024,
-      "citationCount": 0,
-      "authors": [
-        {
-          "authorId": "2331439272",
-          "name": "Chuan He"
-        },
-        {
-          "authorId": "2313693489",
-          "name": "Yongchao Liu"
-        },
-        {
-          "authorId": "2331495277",
-          "name": "Qiang Li"
-        },
-        {
-          "authorId": "2320546567",
-          "name": "Weiqiang Wang"
-        },
-        {
-          "authorId": "2331501769",
-          "name": "Xinyi Fu"
-        },
-        {
-          "authorId": "2331501769",
-          "name": "Xinyi Fu"
-        },
-        {
-          "authorId": "2313754922",
-          "name": "Chuntao Hong"
-        },
-        {
-          "authorId": "2331535697",
-          "name": "Xinwei Yao"
-        }
-      ]
-    },
-    {
-      "paperId": "bd786551a30163fb84941146f607600d6999e7f0",
-      "title": "LLM-assisted Explicit and Implicit Multi-interest Learning Framework for Sequential Recommendation",
-      "year": 2024,
-      "citationCount": 0,
-      "authors": [
-        {
-          "authorId": "2330590735",
-          "name": "Shutong Qiao"
-        },
-        {
-          "authorId": "2276188578",
-          "name": "Chen Gao"
-        },
-        {
-          "authorId": "2258761514",
-          "name": "Yong Li"
-        },
-        {
-          "authorId": "2331453415",
-          "name": "Hongzhi Yin"
-        }
-      ]
-    },
-    {
-      "paperId": "ed0bbcc704c6c6f4f50c32dbc682bf8515431e7f",
-      "title": "DeBaTeR: Denoising Bipartite Temporal Graph for Recommendation",
-      "year": 2024,
-      "citationCount": 0,
-      "authors": [
-        {
-          "authorId": "2327324758",
-          "name": "Xinyu He"
-        },
-        {
-          "authorId": "2217196790",
-          "name": "Jose Sepulveda"
-        },
-        {
-          "authorId": "2240548352",
-          "name": "Mostafa Rahmani"
-        },
-        {
-          "authorId": "2321176449",
-          "name": "Alyssa Woo"
-        },
-        {
-          "authorId": "2321348803",
-          "name": "Fei Wang"
-        },
-        {
-          "authorId": "2256983432",
-          "name": "Hanghang Tong"
-        }
-      ]
-    },
-    {
-      "paperId": "25a0c03879b24a49b49b5787c23333e6c364b82a",
-      "title": "ADARec: An Adaptive Data Augmentation Framework for Sequence Recommendation",
-      "year": 2024,
-      "citationCount": 0,
-      "authors": [
-        {
-          "authorId": "2188239629",
-          "name": "Guanghu Yuan"
-        },
-        {
-          "authorId": "2277453615",
-          "name": "Shujie Li"
-        },
-        {
-          "authorId": "2336636835",
-          "name": "Lei Fang"
-        },
-        {
-          "authorId": "2336081496",
-          "name": "Chengming Li"
-        }
-      ]
-    },
-    {
-      "paperId": "2bd592c3e6bd436cefe93a5303b24db5f6cec5e8",
-      "title": "Multi-Head Self-Attention Based Arabic News Recommendation System",
-      "year": 2024,
-      "citationCount": 0,
-      "authors": [
-        {
-          "authorId": "2342700337",
-          "name": "Karboua Sabrina"
-        },
-        {
-          "authorId": "2624126",
-          "name": "Fouzi Harrag"
-        },
-        {
-          "authorId": "2267801961",
-          "name": "Farid Meziane"
-        }
-      ]
-    },
-    {
-      "paperId": "a0ad295e00c55188af5b0023c69518dad8b63ca0",
-      "title": "Sequential Recommendation Based on Bi-LSTM and Fourier Transform",
-      "year": 2024,
-      "citationCount": 0,
-      "authors": [
-        {
-          "authorId": "2346901876",
-          "name": "Mengtao He"
-        },
-        {
-          "authorId": "2344270262",
-          "name": "Lin Cheng"
-        },
-        {
-          "authorId": "2344406853",
-          "name": "Xiaojia Wu"
-        }
-      ]
-    },
-    {
-      "paperId": "d2814602615bd8292ab687af7c08cc120cc9a0ff",
-      "title": "TIMBRE: Efficient Job Recommendation On Heterogeneous Graphs For Professional Recruiters",
-      "year": 2024,
-      "citationCount": 0,
-      "authors": [
-        {
-          "authorId": "2248053671",
-          "name": "Eric Behar"
-        },
-        {
-          "authorId": "2332496257",
-          "name": "Julien Romero"
-        },
-        {
-          "authorId": "1695916",
-          "name": "A. Bouzeghoub"
-        },
-        {
-          "authorId": "1398535955",
-          "name": "K. Wegrzyn-Wolska"
-        }
-      ]
-    },
-    {
-      "paperId": "7f2b7a7c1444be674af716643ec821d2f4828548",
-      "title": "BiG: Bidirectional Graph Convolutional Networks for Social and Sequential Recommendation",
-      "year": 2024,
-      "citationCount": 0,
-      "authors": [
-        {
-          "authorId": "2333631199",
-          "name": "Nikom Kannikaklang"
-        },
-        {
-          "authorId": "2112656",
-          "name": "S. Wongthanavasu"
         }
       ]
     }
@@ -3022,7 +3130,7 @@
       "paperId": "e3ee61f49cd2639c15c8662a45f1d0c2b83a60c1",
       "title": "Why Self-Attention? A Targeted Evaluation of Neural Machine Translation Architectures",
       "year": 2018,
-      "citationCount": 255,
+      "citationCount": 260,
       "authors": [
         {
           "authorId": "2786820",
@@ -3033,7 +3141,7 @@
           "name": "Mathias Müller"
         },
         {
-          "authorId": "40659617",
+          "authorId": "2237431320",
           "name": "Annette Rios Gonzales"
         },
         {
@@ -3046,7 +3154,7 @@
       "paperId": "97faeefa771e8cc8e55159e2bd03e6f5eef249a8",
       "title": "Self-Attentive Sequential Recommendation",
       "year": 2018,
-      "citationCount": 2069,
+      "citationCount": 2184,
       "authors": [
         {
           "authorId": "2741053",
@@ -3062,7 +3170,7 @@
       "paperId": "fd3f489fc0438e500c0473af40dfebe4705df6d2",
       "title": "STAMP: Short-Term Attention/Memory Priority Model for Session-based Recommendation",
       "year": 2018,
-      "citationCount": 821,
+      "citationCount": 839,
       "authors": [
         {
           "authorId": "2145484826",
@@ -3086,7 +3194,7 @@
       "paperId": "f4e5af510c63ecb84c4619b9fc12a2d26a3c8d40",
       "title": "Improving Sequential Recommendation with Knowledge-Enhanced Memory Networks",
       "year": 2018,
-      "citationCount": 472,
+      "citationCount": 485,
       "authors": [
         {
           "authorId": "2143649323",
@@ -3114,7 +3222,7 @@
       "paperId": "5bc23b04c7681cb2a10f94b383accaf93d9fda51",
       "title": "Attention-Based Transactional Context Embedding for Next-Item Recommendation",
       "year": 2018,
-      "citationCount": 215,
+      "citationCount": 216,
       "authors": [
         {
           "authorId": "2116951322",
@@ -3146,7 +3254,7 @@
       "paperId": "c8efcc854d97dfc2a42b83316a2109f9d166e43f",
       "title": "Self-Attention with Relative Position Representations",
       "year": 2018,
-      "citationCount": 2147,
+      "citationCount": 2202,
       "authors": [
         {
           "authorId": "38759328",
@@ -3166,7 +3274,7 @@
       "paperId": "75a927501749c2cbc0e19a58f798f04de59df64a",
       "title": "Personalized Top-N Sequential Recommendation via Convolutional Sequence Embedding",
       "year": 2018,
-      "citationCount": 1550,
+      "citationCount": 1612,
       "authors": [
         {
           "authorId": "3431394",
@@ -3182,7 +3290,7 @@
       "paperId": "bc6a927b079fc1c4189f00108ff792a6d3d190e7",
       "title": "Sequential Recommendation with User Memory Networks",
       "year": 2018,
-      "citationCount": 482,
+      "citationCount": 489,
       "authors": [
         {
           "authorId": "49795005",
@@ -3218,7 +3326,7 @@
       "paperId": "8691706ad0cf5e83969658b2e6bfffdc379440c9",
       "title": "Generating Wikipedia by Summarizing Long Sequences",
       "year": 2018,
-      "citationCount": 770,
+      "citationCount": 778,
       "authors": [
         {
           "authorId": "35025299",
@@ -3254,7 +3362,7 @@
       "paperId": "97de32d8ca162944e5f7e83071c596d13d168109",
       "title": "Neural Attentive Session-based Recommendation",
       "year": 2017,
-      "citationCount": 1268,
+      "citationCount": 1300,
       "authors": [
         {
           "authorId": "2152907678",
@@ -3286,7 +3394,7 @@
       "paperId": "76d8ccc5a35affb08271fee720a24418c8943b44",
       "title": "Visually-Aware Fashion Recommendation and Design with Generative Image Models",
       "year": 2017,
-      "citationCount": 242,
+      "citationCount": 248,
       "authors": [
         {
           "authorId": "2741053",
@@ -3310,7 +3418,7 @@
       "paperId": "665a99a77b3d07859d56dd78ceda17c2ce226195",
       "title": "Sequential User-based Recurrent Neural Network Recommendations",
       "year": 2017,
-      "citationCount": 325,
+      "citationCount": 335,
       "authors": [
         {
           "authorId": "2907656",
@@ -3330,7 +3438,7 @@
       "paperId": "d5a823053663a77869d4b38a8026c51ebc2e975e",
       "title": "Translation-based Recommendation",
       "year": 2017,
-      "citationCount": 396,
+      "citationCount": 406,
       "authors": [
         {
           "authorId": "2933399",
@@ -3350,7 +3458,7 @@
       "paperId": "cb57001315188582bbb79e548dfdb354592fa80e",
       "title": "Personalizing Session-based Recommendations with Hierarchical Recurrent Neural Networks",
       "year": 2017,
-      "citationCount": 625,
+      "citationCount": 634,
       "authors": [
         {
           "authorId": "2032788",
@@ -3374,7 +3482,7 @@
       "paperId": "1dd7038128e3a1ba49f0224ac711166c8dc36d3d",
       "title": "Recurrent Neural Networks with Top-k Gains for Session-based Recommendations",
       "year": 2017,
-      "citationCount": 793,
+      "citationCount": 809,
       "authors": [
         {
           "authorId": "2507883",
@@ -3390,7 +3498,7 @@
       "paperId": "204e3073870fae3d05bcbc2f6a8e263d9b72e776",
       "title": "Attention is All you Need",
       "year": 2017,
-      "citationCount": 116294,
+      "citationCount": 122776,
       "authors": [
         {
           "authorId": "40348417",
@@ -3430,7 +3538,7 @@
       "paperId": "ad42c33c299ef1c53dfd4697e3f7f98ed0ca31dd",
       "title": "Neural Collaborative Filtering",
       "year": 2017,
-      "citationCount": 5652,
+      "citationCount": 5819,
       "authors": [
         {
           "authorId": "7792071",
@@ -3462,7 +3570,7 @@
       "paperId": "10e1fb949e10d5fe99d5f1b32bb48d625149bce8",
       "title": "What Your Images Reveal: Exploiting Visual Contents for Point-of-Interest Recommendation",
       "year": 2017,
-      "citationCount": 237,
+      "citationCount": 239,
       "authors": [
         {
           "authorId": "2893721",
@@ -3494,7 +3602,7 @@
       "paperId": "204a4a70428f3938d2c538a4d74c7ae0416306d8",
       "title": "A Structured Self-attentive Sentence Embedding",
       "year": 2017,
-      "citationCount": 2079,
+      "citationCount": 2102,
       "authors": [
         {
           "authorId": "3146592",
@@ -3530,7 +3638,7 @@
       "paperId": "119868d3a5862c514e64d7855b41ff9927c311d4",
       "title": "Recurrent Recommender Networks",
       "year": 2017,
-      "citationCount": 690,
+      "citationCount": 697,
       "authors": [
         {
           "authorId": "9194382",
@@ -3558,7 +3666,7 @@
       "paperId": "fea7e2bcbe852bcb33ce70a4d57664e954f0e82a",
       "title": "Fusing Similarity Models with Markov Chains for Sparse Sequential Recommendation",
       "year": 2016,
-      "citationCount": 633,
+      "citationCount": 658,
       "authors": [
         {
           "authorId": "2933399",
@@ -3574,7 +3682,7 @@
       "paperId": "5e383584ccbc8b920eaf3cfce3869da646ff5550",
       "title": "Deep Neural Networks for YouTube Recommendations",
       "year": 2016,
-      "citationCount": 3008,
+      "citationCount": 3108,
       "authors": [
         {
           "authorId": "2072136504",
@@ -3594,7 +3702,7 @@
       "paperId": "af9c4dda90e807246a2f6fa0a922bbf8029767cf",
       "title": "Convolutional Matrix Factorization for Document Context-Aware Recommendation",
       "year": 2016,
-      "citationCount": 708,
+      "citationCount": 718,
       "authors": [
         {
           "authorId": "2145183039",
@@ -3622,7 +3730,7 @@
       "paperId": "97fb4e3d45bb098e27e0071448b6152217bd35a5",
       "title": "Layer Normalization",
       "year": 2016,
-      "citationCount": 9789,
+      "citationCount": 10087,
       "authors": [
         {
           "authorId": "2503659",
@@ -3642,7 +3750,7 @@
       "paperId": "1d87ab4e11143a02afaf28222c4cacb7248a3ad0",
       "title": "A Dynamic Recurrent Model for Next Basket Recommendation",
       "year": 2016,
-      "citationCount": 473,
+      "citationCount": 478,
       "authors": [
         {
           "authorId": "2155385667",
@@ -3670,7 +3778,7 @@
       "paperId": "4361e64f2d12d63476fdc88faf72a0f70d9a2ffb",
       "title": "Bridging Nonlinearities and Stochastic Regularizers with Gaussian Error Linear Units",
       "year": 2016,
-      "citationCount": 641,
+      "citationCount": 663,
       "authors": [
         {
           "authorId": "3422872",
@@ -3686,7 +3794,7 @@
       "paperId": "455afd748e8834ef521e4b67c7c056d3c33429e2",
       "title": "Hierarchical Attention Networks for Document Classification",
       "year": 2016,
-      "citationCount": 4343,
+      "citationCount": 4389,
       "authors": [
         {
           "authorId": "8387085",
@@ -3718,7 +3826,7 @@
       "paperId": "7656cddac460af91919558175063938acfdd813b",
       "title": "Collaborative Denoising Auto-Encoders for Top-N Recommender Systems",
       "year": 2016,
-      "citationCount": 946,
+      "citationCount": 958,
       "authors": [
         {
           "authorId": "2108052451",
@@ -3742,7 +3850,7 @@
       "paperId": "276ebc620a8976026bd2d03582b9ecfa3738d43c",
       "title": "The MovieLens Datasets: History and Context",
       "year": 2016,
-      "citationCount": 4410,
+      "citationCount": 4505,
       "authors": [
         {
           "authorId": "145192090",
@@ -3762,7 +3870,7 @@
       "paperId": "2c03df8b48bf3fa39054345bafabfeff15bfd11d",
       "title": "Deep Residual Learning for Image Recognition",
       "year": 2015,
-      "citationCount": 181783,
+      "citationCount": 186822,
       "authors": [
         {
           "authorId": "39353098",
@@ -3786,7 +3894,7 @@
       "paperId": "e0021d61c2ab1334bc725852edd44597f4c65dff",
       "title": "Session-based Recommendations with Recurrent Neural Networks",
       "year": 2015,
-      "citationCount": 1818,
+      "citationCount": 1905,
       "authors": [
         {
           "authorId": "2507883",
@@ -3810,7 +3918,7 @@
       "paperId": "fab4d19ed77dad7c437d885eceb8aa65fae5a783",
       "title": "Image-Based Recommendations on Styles and Substitutes",
       "year": 2015,
-      "citationCount": 2263,
+      "citationCount": 2313,
       "authors": [
         {
           "authorId": "35660011",
@@ -3834,7 +3942,7 @@
       "paperId": "7f0e32170ebd1c338442049c0ef8606ab482af5e",
       "title": "AutoRec: Autoencoders Meet Collaborative Filtering",
       "year": 2015,
-      "citationCount": 1122,
+      "citationCount": 1145,
       "authors": [
         {
           "authorId": "2095747",
@@ -3858,7 +3966,7 @@
       "paperId": "0c908739fbff75f03469d13d4a1a07de3414ee19",
       "title": "Distilling the Knowledge in a Neural Network",
       "year": 2015,
-      "citationCount": 18193,
+      "citationCount": 18797,
       "authors": [
         {
           "authorId": "1695689",
@@ -3878,7 +3986,7 @@
       "paperId": "a6cb366736791bcccc5c8639de5a8f9636bf87e8",
       "title": "Adam: A Method for Stochastic Optimization",
       "year": 2014,
-      "citationCount": 144362,
+      "citationCount": 146622,
       "authors": [
         {
           "authorId": "1726807",
@@ -3894,7 +4002,7 @@
       "paperId": "3eaf79589dbb9bce5a502e867a8f03917e52de26",
       "title": "Collaborative Deep Learning for Recommender Systems",
       "year": 2014,
-      "citationCount": 1591,
+      "citationCount": 1602,
       "authors": [
         {
           "authorId": "49528584",
@@ -3914,7 +4022,7 @@
       "paperId": "fa72afa9b2cbc8f0d7b05d52548906610ffbb9c5",
       "title": "Neural Machine Translation by Jointly Learning to Align and Translate",
       "year": 2014,
-      "citationCount": 26505,
+      "citationCount": 26830,
       "authors": [
         {
           "authorId": "3335364",
@@ -3934,7 +4042,7 @@
       "paperId": "0b544dfe355a5070b60986319a3f51fb45d1348e",
       "title": "Learning Phrase Representations using RNN Encoder–Decoder for Statistical Machine Translation",
       "year": 2014,
-      "citationCount": 22312,
+      "citationCount": 22737,
       "authors": [
         {
           "authorId": "1979489",
@@ -3970,7 +4078,7 @@
       "paperId": "eeff60867041d2ea92d1b38a20c2031d240d8872",
       "title": "Deep content-based music recommendation",
       "year": 2013,
-      "citationCount": 1163,
+      "citationCount": 1175,
       "authors": [
         {
           "authorId": "3422336",
@@ -3990,7 +4098,7 @@
       "paperId": "87f40e6f3022adbc1f1905e3e506abad05a9964f",
       "title": "Distributed Representations of Words and Phrases and their Compositionality",
       "year": 2013,
-      "citationCount": 32760,
+      "citationCount": 33055,
       "authors": [
         {
           "authorId": "2047446108",
@@ -4018,7 +4126,7 @@
       "paperId": "0c0ff60e9d39c203929457d1ac3f840f8c8e9619",
       "title": "FISM: factored item similarity models for top-N recommender systems",
       "year": 2013,
-      "citationCount": 676,
+      "citationCount": 684,
       "authors": [
         {
           "authorId": "2093760224",
@@ -4038,7 +4146,7 @@
       "paperId": "f6b51c8753a871dc94ff32152c00c01e94f90f09",
       "title": "Efficient Estimation of Word Representations in Vector Space",
       "year": 2013,
-      "citationCount": 30445,
+      "citationCount": 30835,
       "authors": [
         {
           "authorId": "2047446108",
@@ -4062,7 +4170,7 @@
       "paperId": "50d85cb114f7c5e779a6772f2931e77dddd54a5e",
       "title": "Factorizing personalized Markov chains for next-basket recommendation",
       "year": 2010,
-      "citationCount": 2248,
+      "citationCount": 2302,
       "authors": [
         {
           "authorId": "2843982",
@@ -4082,7 +4190,7 @@
       "paperId": "d4bbcc842f22547eaf5884251eaa68251895dccb",
       "title": "Matrix Factorization Techniques for Recommender Systems",
       "year": 2009,
-      "citationCount": 9390,
+      "citationCount": 9531,
       "authors": [
         {
           "authorId": "1701121",
@@ -4102,7 +4210,7 @@
       "paperId": "db16e908246f32b60a6e0a8e27093aa145fbb1ed",
       "title": "BPR: Bayesian Personalized Ranking from Implicit Feedback",
       "year": 2009,
-      "citationCount": 5448,
+      "citationCount": 5541,
       "authors": [
         {
           "authorId": "2843982",
@@ -4126,7 +4234,7 @@
       "paperId": "cf6f83fcce274606bf0264c59d1c78a30c9c9d18",
       "title": "Factorization meets the neighborhood: a multifaceted collaborative filtering model",
       "year": 2008,
-      "citationCount": 4131,
+      "citationCount": 4159,
       "authors": [
         {
           "authorId": "1701121",
@@ -4138,7 +4246,7 @@
       "paperId": "e19971e7d100386b9b4cf4ea1a0782b62fe036e5",
       "title": "Probabilistic Matrix Factorization",
       "year": 2007,
-      "citationCount": 4490,
+      "citationCount": 4516,
       "authors": [
         {
           "authorId": "145124475",
@@ -4154,7 +4262,7 @@
       "paperId": "1626c940a64ad96a7ed53d7d6c0df63c6696956b",
       "title": "Restricted Boltzmann machines for collaborative filtering",
       "year": 2007,
-      "citationCount": 2020,
+      "citationCount": 2029,
       "authors": [
         {
           "authorId": "145124475",
@@ -4174,7 +4282,7 @@
       "paperId": "2d1cfc9e81fb159967c2be8446a8e3e7b50fe36b",
       "title": "An MDP-Based Recommender System",
       "year": 2002,
-      "citationCount": 937,
+      "citationCount": 950,
       "authors": [
         {
           "authorId": "2299965009",
@@ -4194,7 +4302,7 @@
       "paperId": "f82c52452c7de8cd6472202c1be2cce9fbcb8dda",
       "title": "Item-based collaborative filtering recommendation algorithms",
       "year": 2001,
-      "citationCount": 9448,
+      "citationCount": 9524,
       "authors": [
         {
           "authorId": "32646084",
@@ -4218,7 +4326,7 @@
       "paperId": "2e9d221c206e9503ceb452302d68d10e293f2a10",
       "title": "Long Short-Term Memory",
       "year": 1997,
-      "citationCount": 85884,
+      "citationCount": 88048,
       "authors": [
         {
           "authorId": "3308557",
@@ -4234,7 +4342,7 @@
       "paperId": "766ce989b8b8b984f7a4691fd8c9af4bdb2b74cd",
       "title": "“Cloze Procedure”: A New Tool for Measuring Readability",
       "year": 1953,
-      "citationCount": 2445,
+      "citationCount": 2463,
       "authors": [
         {
           "authorId": "47324198",
@@ -4246,7 +4354,7 @@
       "paperId": "df2b0e26d0599ce3e70df8a9da02e51594e0e992",
       "title": "BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding",
       "year": 2019,
-      "citationCount": 87283,
+      "citationCount": 90168,
       "authors": [
         {
           "authorId": "39172707",
@@ -4270,7 +4378,7 @@
       "paperId": "9405cc0d6169988371b2755e573cc28650d14dfe",
       "title": "Language Models are Unsupervised Multitask Learners",
       "year": 2019,
-      "citationCount": 20472,
+      "citationCount": 21477,
       "authors": [
         {
           "authorId": "38909097",
@@ -4302,7 +4410,7 @@
       "paperId": "cd18800a0fe0b668a1cc19f2ec95b5003d0a5035",
       "title": "Improving Language Understanding by Generative Pre-Training",
       "year": 2018,
-      "citationCount": 10615,
+      "citationCount": 11186,
       "authors": [
         {
           "authorId": "38909097",
@@ -4350,7 +4458,7 @@
       "paperId": "34f25a8704614163c4095b3ee2fc969b60de4698",
       "title": "Dropout: a simple way to prevent neural networks from overfitting",
       "year": 2014,
-      "citationCount": 38664,
+      "citationCount": 39145,
       "authors": [
         {
           "authorId": "2897313",
@@ -4394,7 +4502,7 @@
       "paperId": "480ca76957e066eb6b24cd28df998d30310b4ced",
       "title": "Advances in Collaborative Filtering",
       "year": 2011,
-      "citationCount": 1366,
+      "citationCount": 1384,
       "authors": [
         {
           "authorId": "1701121",
@@ -4410,7 +4518,7 @@
       "paperId": "fdb98ca19262fa192db2494f4f64369351cb7d7c",
       "title": "Industry Report: Amazon.com Recommendations: Item-to-Item Collaborative Filtering",
       "year": 2003,
-      "citationCount": 3644,
+      "citationCount": 3643,
       "authors": [
         {
           "authorId": "30182834",

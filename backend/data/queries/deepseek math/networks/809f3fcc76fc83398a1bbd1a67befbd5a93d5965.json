@@ -1,0 +1,922 @@
+{
+  "citations": [
+    {
+      "paperId": "b6e182a5946c173e74692211fcc5eb12fe49e3f3",
+      "title": "Leveraging Reasoning Model Answers to Enhance Non-Reasoning Model Capability",
+      "year": 2025,
+      "citationCount": 0,
+      "authors": [
+        {
+          "authorId": "2352011931",
+          "name": "Haotian Wang"
+        },
+        {
+          "authorId": "2352622605",
+          "name": "Han Zhao"
+        },
+        {
+          "authorId": "2351916957",
+          "name": "Shuaiting Chen"
+        },
+        {
+          "authorId": "2352756200",
+          "name": "Xiaoyu Tian"
+        },
+        {
+          "authorId": "2352024154",
+          "name": "Sitong Zhao"
+        },
+        {
+          "authorId": null,
+          "name": "Yunjie Ji"
+        },
+        {
+          "authorId": "2111015160",
+          "name": "Yiping Peng"
+        },
+        {
+          "authorId": "2352034310",
+          "name": "Xiangang Li"
+        }
+      ]
+    },
+    {
+      "paperId": "ff4964bb1309d52b14c9e4e2b7c664a7d9ceca80",
+      "title": "How Difficulty-Aware Staged Reinforcement Learning Enhances LLMs' Reasoning Capabilities: A Preliminary Experimental Study",
+      "year": 2025,
+      "citationCount": 0,
+      "authors": [
+        {
+          "authorId": "24780166",
+          "name": "Yunjie Ji"
+        },
+        {
+          "authorId": "2352024154",
+          "name": "Sitong Zhao"
+        },
+        {
+          "authorId": "2352756200",
+          "name": "Xiaoyu Tian"
+        },
+        {
+          "authorId": "2352011931",
+          "name": "Haotian Wang"
+        },
+        {
+          "authorId": "2351916957",
+          "name": "Shuaiting Chen"
+        },
+        {
+          "authorId": "2111015160",
+          "name": "Yiping Peng"
+        },
+        {
+          "authorId": "2352622605",
+          "name": "Han Zhao"
+        },
+        {
+          "authorId": "2352034310",
+          "name": "Xiangang Li"
+        }
+      ]
+    },
+    {
+      "paperId": "a6d813ecf0663e5d00c688daa322297568873471",
+      "title": "CrossWordBench: Evaluating the Reasoning Capabilities of LLMs and LVLMs with Controllable Puzzle Generation",
+      "year": 2025,
+      "citationCount": 0,
+      "authors": [
+        {
+          "authorId": "2334479549",
+          "name": "Jixuan Leng"
+        },
+        {
+          "authorId": "31937655",
+          "name": "Chengsong Huang"
+        },
+        {
+          "authorId": "2325910509",
+          "name": "Langlin Huang"
+        },
+        {
+          "authorId": "2353730540",
+          "name": "Bill Yuchen Lin"
+        },
+        {
+          "authorId": "2353074662",
+          "name": "William W. Cohen"
+        },
+        {
+          "authorId": "2296947643",
+          "name": "Haohan Wang"
+        },
+        {
+          "authorId": "2300246276",
+          "name": "Jiaxin Huang"
+        }
+      ]
+    },
+    {
+      "paperId": "765051eee0fb1394b62555edb86ba1f7a00892fb",
+      "title": "Think Twice: Enhancing LLM Reasoning by Scaling Multi-round Test-time Thinking",
+      "year": 2025,
+      "citationCount": 3,
+      "authors": [
+        {
+          "authorId": "2352756200",
+          "name": "Xiaoyu Tian"
+        },
+        {
+          "authorId": "2352024154",
+          "name": "Sitong Zhao"
+        },
+        {
+          "authorId": "2352011931",
+          "name": "Haotian Wang"
+        },
+        {
+          "authorId": "2351916957",
+          "name": "Shuaiting Chen"
+        },
+        {
+          "authorId": "24780166",
+          "name": "Yunjie Ji"
+        },
+        {
+          "authorId": "2111015160",
+          "name": "Yiping Peng"
+        },
+        {
+          "authorId": "2352622605",
+          "name": "Han Zhao"
+        },
+        {
+          "authorId": "2352034310",
+          "name": "Xiangang Li"
+        }
+      ]
+    }
+  ],
+  "references": [
+    {
+      "paperId": "3ff44c2de70d779aacc766ee148d6df465f53e01",
+      "title": "KodCode: A Diverse, Challenging, and Verifiable Synthetic Dataset for Coding",
+      "year": 2025,
+      "citationCount": 1,
+      "authors": [
+        {
+          "authorId": "2268640874",
+          "name": "Zhangchen Xu"
+        },
+        {
+          "authorId": "2348704344",
+          "name": "Yang Liu"
+        },
+        {
+          "authorId": "2284728692",
+          "name": "Yueqin Yin"
+        },
+        {
+          "authorId": "2338865211",
+          "name": "Mingyuan Zhou"
+        },
+        {
+          "authorId": "2288930670",
+          "name": "Radha Poovendran"
+        }
+      ]
+    },
+    {
+      "paperId": "7ad37360eb0f3855827b9a981fc80c166a20a558",
+      "title": "NaturalReasoning: Reasoning in the Wild with 2.8M Challenging Questions",
+      "year": 2025,
+      "citationCount": 6,
+      "authors": [
+        {
+          "authorId": "2281387619",
+          "name": "Weizhe Yuan"
+        },
+        {
+          "authorId": "2345092840",
+          "name": "Jane Yu"
+        },
+        {
+          "authorId": "2327145097",
+          "name": "Song Jiang"
+        },
+        {
+          "authorId": "2299943953",
+          "name": "Karthik Padthe"
+        },
+        {
+          "authorId": "2346175081",
+          "name": "Yang Li"
+        },
+        {
+          "authorId": "2346112830",
+          "name": "Dong Wang"
+        },
+        {
+          "authorId": "2308102420",
+          "name": "Ilia Kulikov"
+        },
+        {
+          "authorId": "2279965735",
+          "name": "Kyunghyun Cho"
+        },
+        {
+          "authorId": "2285362895",
+          "name": "Yuandong Tian"
+        },
+        {
+          "authorId": "2267341626",
+          "name": "Jason E Weston"
+        },
+        {
+          "authorId": "2327159625",
+          "name": "Xian Li"
+        }
+      ]
+    },
+    {
+      "paperId": "77904afcad72c97335e9d95a585a2f73c744ce01",
+      "title": "CodeI/O: Condensing Reasoning Patterns via Code Input-Output Prediction",
+      "year": 2025,
+      "citationCount": 8,
+      "authors": [
+        {
+          "authorId": "2337836211",
+          "name": "Junlong Li"
+        },
+        {
+          "authorId": "2345785410",
+          "name": "Daya Guo"
+        },
+        {
+          "authorId": "2278404250",
+          "name": "Dejian Yang"
+        },
+        {
+          "authorId": "2346643085",
+          "name": "Runxin Xu"
+        },
+        {
+          "authorId": "2345143177",
+          "name": "Yu Wu"
+        },
+        {
+          "authorId": "2312100607",
+          "name": "Junxian He"
+        }
+      ]
+    },
+    {
+      "paperId": "1a2720c8e4900f1a7d7b53287dfa6235052b1158",
+      "title": "LIMO: Less is More for Reasoning",
+      "year": 2025,
+      "citationCount": 63,
+      "authors": [
+        {
+          "authorId": "2307408759",
+          "name": "Yixin Ye"
+        },
+        {
+          "authorId": "2307164191",
+          "name": "Zhen Huang"
+        },
+        {
+          "authorId": "2307314606",
+          "name": "Yang Xiao"
+        },
+        {
+          "authorId": "2273658317",
+          "name": "Ethan Chern"
+        },
+        {
+          "authorId": "2295644924",
+          "name": "Shijie Xia"
+        },
+        {
+          "authorId": "2307778855",
+          "name": "Pengfei Liu"
+        }
+      ]
+    },
+    {
+      "paperId": "ef8a8bd193b1a0a5e2c834a7a28869a2ec85bab7",
+      "title": "s1: Simple test-time scaling",
+      "year": 2025,
+      "citationCount": 128,
+      "authors": [
+        {
+          "authorId": "2037383772",
+          "name": "Niklas Muennighoff"
+        },
+        {
+          "authorId": "2283514777",
+          "name": "Zitong Yang"
+        },
+        {
+          "authorId": "2257597409",
+          "name": "Weijia Shi"
+        },
+        {
+          "authorId": "2253888828",
+          "name": "Xiang Lisa Li"
+        },
+        {
+          "authorId": "2343596281",
+          "name": "Fei-Fei Li"
+        },
+        {
+          "authorId": "2264251662",
+          "name": "Hanna Hajishirzi"
+        },
+        {
+          "authorId": "2137813791",
+          "name": "Luke S. Zettlemoyer"
+        },
+        {
+          "authorId": "2271898270",
+          "name": "Percy Liang"
+        },
+        {
+          "authorId": "2283307289",
+          "name": "Emmanuel J. Candes"
+        },
+        {
+          "authorId": "2253575091",
+          "name": "Tatsunori Hashimoto"
+        }
+      ]
+    },
+    {
+      "paperId": "9e576b3d5afd79791ead4d2a2a8bf5640b2de513",
+      "title": "Free Process Rewards without Process Labels",
+      "year": 2024,
+      "citationCount": 33,
+      "authors": [
+        {
+          "authorId": "2152195191",
+          "name": "Lifan Yuan"
+        },
+        {
+          "authorId": "2326015753",
+          "name": "Wendi Li"
+        },
+        {
+          "authorId": "2333928927",
+          "name": "Huayu Chen"
+        },
+        {
+          "authorId": "52297757",
+          "name": "Ganqu Cui"
+        },
+        {
+          "authorId": "46649145",
+          "name": "Ning Ding"
+        },
+        {
+          "authorId": "2153281320",
+          "name": "Kaiyan Zhang"
+        },
+        {
+          "authorId": "2218723159",
+          "name": "Bowen Zhou"
+        },
+        {
+          "authorId": "2273470196",
+          "name": "Zhiyuan Liu"
+        },
+        {
+          "authorId": "2334095077",
+          "name": "Hao Peng"
+        }
+      ]
+    },
+    {
+      "paperId": "28b37751fb70e82be14b7b9672559efe758a0117",
+      "title": "OpenCoder: The Open Cookbook for Top-Tier Code Large Language Models",
+      "year": 2024,
+      "citationCount": 13,
+      "authors": [
+        {
+          "authorId": "2329576196",
+          "name": "Siming Huang"
+        },
+        {
+          "authorId": "2330153728",
+          "name": "Tianhao Cheng"
+        },
+        {
+          "authorId": "2329629676",
+          "name": "Jason Klein Liu"
+        },
+        {
+          "authorId": "2226440100",
+          "name": "Jiaran Hao"
+        },
+        {
+          "authorId": "2013706",
+          "name": "Liuyihan Song"
+        },
+        {
+          "authorId": "2329817325",
+          "name": "Yang Xu"
+        },
+        {
+          "authorId": "2329716020",
+          "name": "J. Yang"
+        },
+        {
+          "authorId": "2320741249",
+          "name": "J. H. Liu"
+        },
+        {
+          "authorId": "2214538677",
+          "name": "Chenchen Zhang"
+        },
+        {
+          "authorId": "2165382882",
+          "name": "Linzheng Chai"
+        },
+        {
+          "authorId": "2293428443",
+          "name": "Ruifeng Yuan"
+        },
+        {
+          "authorId": "2322607797",
+          "name": "Zhaoxiang Zhang"
+        },
+        {
+          "authorId": "2265967208",
+          "name": "Jie Fu"
+        },
+        {
+          "authorId": "2329569301",
+          "name": "Qian Liu"
+        },
+        {
+          "authorId": "2329638433",
+          "name": "Ge Zhang"
+        },
+        {
+          "authorId": "2284801141",
+          "name": "Zili Wang"
+        },
+        {
+          "authorId": "98215547",
+          "name": "Y. Qi"
+        },
+        {
+          "authorId": "2266466742",
+          "name": "Yinghui Xu"
+        },
+        {
+          "authorId": "2266389707",
+          "name": "Wei Chu"
+        }
+      ]
+    },
+    {
+      "paperId": "8292083dd8f6ae898ea0ee54a6b97997d1a51c9d",
+      "title": "Scaling LLM Test-Time Compute Optimally can be More Effective than Scaling Model Parameters",
+      "year": 2024,
+      "citationCount": 394,
+      "authors": [
+        {
+          "authorId": "2314917835",
+          "name": "Charlie Snell"
+        },
+        {
+          "authorId": "2315069693",
+          "name": "Jaehoon Lee"
+        },
+        {
+          "authorId": "2269023101",
+          "name": "Kelvin Xu"
+        },
+        {
+          "authorId": "2275526115",
+          "name": "Aviral Kumar"
+        }
+      ]
+    },
+    {
+      "paperId": "b945115f175231d7fafefbdeacdc40edc391273f",
+      "title": "Inference Scaling Laws: An Empirical Analysis of Compute-Optimal Inference for Problem-Solving with Language Models",
+      "year": 2024,
+      "citationCount": 98,
+      "authors": [
+        {
+          "authorId": "2314347409",
+          "name": "Yangzhen Wu"
+        },
+        {
+          "authorId": "48064856",
+          "name": "Zhiqing Sun"
+        },
+        {
+          "authorId": "2257057803",
+          "name": "Shanda Li"
+        },
+        {
+          "authorId": "2129663",
+          "name": "S. Welleck"
+        },
+        {
+          "authorId": "2257099254",
+          "name": "Yiming Yang"
+        }
+      ]
+    },
+    {
+      "paperId": "49daaadfe84f1bf850feb8d6db46b652f75c9750",
+      "title": "Self-Explore: Enhancing Mathematical Reasoning in Language Models with Fine-grained Rewards",
+      "year": 2024,
+      "citationCount": 16,
+      "authors": [
+        {
+          "authorId": "2161436241",
+          "name": "Hyeonbin Hwang"
+        },
+        {
+          "authorId": "2180527259",
+          "name": "Doyoung Kim"
+        },
+        {
+          "authorId": "2184037220",
+          "name": "Seungone Kim"
+        },
+        {
+          "authorId": "2152111477",
+          "name": "Seonghyeon Ye"
+        },
+        {
+          "authorId": "2266468609",
+          "name": "Minjoon Seo"
+        }
+      ]
+    },
+    {
+      "paperId": "b3cdde45d87a3a90d86ebe20c1ee8c4ef0150d1c",
+      "title": "Scaling Data Diversity for Fine-Tuning Language Models in Human Alignment",
+      "year": 2024,
+      "citationCount": 11,
+      "authors": [
+        {
+          "authorId": "66947198",
+          "name": "Feifan Song"
+        },
+        {
+          "authorId": "2249451832",
+          "name": "Bowen Yu"
+        },
+        {
+          "authorId": "98256342",
+          "name": "Hao Lang"
+        },
+        {
+          "authorId": "2288351000",
+          "name": "Haiyang Yu"
+        },
+        {
+          "authorId": "2257407873",
+          "name": "Fei Huang"
+        },
+        {
+          "authorId": "2284129758",
+          "name": "Houfeng Wang"
+        },
+        {
+          "authorId": "2287833084",
+          "name": "Yongbin Li"
+        }
+      ]
+    },
+    {
+      "paperId": "afe0998d191f3ea8490c7df100a3ffc5dcc62c5e",
+      "title": "LiveCodeBench: Holistic and Contamination Free Evaluation of Large Language Models for Code",
+      "year": 2024,
+      "citationCount": 223,
+      "authors": [
+        {
+          "authorId": "1646458461",
+          "name": "Naman Jain"
+        },
+        {
+          "authorId": "2291438028",
+          "name": "King Han"
+        },
+        {
+          "authorId": "2261364306",
+          "name": "Alex Gu"
+        },
+        {
+          "authorId": "2108635077",
+          "name": "Wen-Ding Li"
+        },
+        {
+          "authorId": "2291072588",
+          "name": "Fanjia Yan"
+        },
+        {
+          "authorId": "1993655237",
+          "name": "Tianjun Zhang"
+        },
+        {
+          "authorId": "2278894217",
+          "name": "Sida Wang"
+        },
+        {
+          "authorId": "2278433392",
+          "name": "Armando Solar-Lezama"
+        },
+        {
+          "authorId": "2268398121",
+          "name": "Koushik Sen"
+        },
+        {
+          "authorId": "2290576964",
+          "name": "Ion Stoica"
+        }
+      ]
+    },
+    {
+      "paperId": "210b0a3d76e93079cc51b03c4115fde545eea966",
+      "title": "GPQA: A Graduate-Level Google-Proof Q&A Benchmark",
+      "year": 2023,
+      "citationCount": 369,
+      "authors": [
+        {
+          "authorId": "2266751602",
+          "name": "David Rein"
+        },
+        {
+          "authorId": "2311500127",
+          "name": "Betty Li Hou"
+        },
+        {
+          "authorId": "68974453",
+          "name": "Asa Cooper Stickland"
+        },
+        {
+          "authorId": "153098735",
+          "name": "Jackson Petty"
+        },
+        {
+          "authorId": "46230016",
+          "name": "Richard Yuanzhe Pang"
+        },
+        {
+          "authorId": "2266752124",
+          "name": "Julien Dirani"
+        },
+        {
+          "authorId": "2266761535",
+          "name": "Julian Michael"
+        },
+        {
+          "authorId": "2266751652",
+          "name": "Samuel R. Bowman"
+        }
+      ]
+    },
+    {
+      "paperId": "29f07e73b7aaa7e9e950c59710472c62316be74a",
+      "title": "Synthetic Data Generation with Large Language Models for Text Classification: Potential and Limitations",
+      "year": 2023,
+      "citationCount": 54,
+      "authors": [
+        {
+          "authorId": "2214910699",
+          "name": "Zhuoyan Li"
+        },
+        {
+          "authorId": "2257905556",
+          "name": "Hangxiao Zhu"
+        },
+        {
+          "authorId": "121552883",
+          "name": "Zhuoran Lu"
+        },
+        {
+          "authorId": "2053888438",
+          "name": "Ming Yin"
+        }
+      ]
+    },
+    {
+      "paperId": "77b1f1c6d1658d120456b9046667cf009ceb39ce",
+      "title": "MetaMath: Bootstrap Your Own Mathematical Questions for Large Language Models",
+      "year": 2023,
+      "citationCount": 306,
+      "authors": [
+        {
+          "authorId": "2112584251",
+          "name": "L. Yu"
+        },
+        {
+          "authorId": "2152123946",
+          "name": "Weisen Jiang"
+        },
+        {
+          "authorId": "152751416",
+          "name": "Han Shi"
+        },
+        {
+          "authorId": "2193887687",
+          "name": "Jincheng Yu"
+        },
+        {
+          "authorId": "2239065052",
+          "name": "Zhengying Liu"
+        },
+        {
+          "authorId": "2153638098",
+          "name": "Yu Zhang"
+        },
+        {
+          "authorId": "2243335442",
+          "name": "James T. Kwok"
+        },
+        {
+          "authorId": "121544682",
+          "name": "Zheng Li"
+        },
+        {
+          "authorId": "145689461",
+          "name": "Adrian Weller"
+        },
+        {
+          "authorId": "2243412679",
+          "name": "Weiyang Liu"
+        }
+      ]
+    },
+    {
+      "paperId": "1b6e810ce0afd0dd093f789d2b2742d047e316d5",
+      "title": "Chain of Thought Prompting Elicits Reasoning in Large Language Models",
+      "year": 2022,
+      "citationCount": 7866,
+      "authors": [
+        {
+          "authorId": "119640649",
+          "name": "Jason Wei"
+        },
+        {
+          "authorId": "1524732527",
+          "name": "Xuezhi Wang"
+        },
+        {
+          "authorId": "1714772",
+          "name": "Dale Schuurmans"
+        },
+        {
+          "authorId": "40377863",
+          "name": "Maarten Bosma"
+        },
+        {
+          "authorId": "2226805",
+          "name": "Ed H. Chi"
+        },
+        {
+          "authorId": "144956443",
+          "name": "F. Xia"
+        },
+        {
+          "authorId": "1998340269",
+          "name": "Quoc Le"
+        },
+        {
+          "authorId": "65855107",
+          "name": "Denny Zhou"
+        }
+      ]
+    },
+    {
+      "paperId": "57d1e7ac339e783898f2c3b1af55737cbeee9fc5",
+      "title": "Measuring Mathematical Problem Solving With the MATH Dataset",
+      "year": 2021,
+      "citationCount": 1654,
+      "authors": [
+        {
+          "authorId": "3422872",
+          "name": "Dan Hendrycks"
+        },
+        {
+          "authorId": "90909974",
+          "name": "Collin Burns"
+        },
+        {
+          "authorId": "148070327",
+          "name": "Saurav Kadavath"
+        },
+        {
+          "authorId": "2054194196",
+          "name": "Akul Arora"
+        },
+        {
+          "authorId": "104444594",
+          "name": "Steven Basart"
+        },
+        {
+          "authorId": "2090511698",
+          "name": "Eric Tang"
+        },
+        {
+          "authorId": "143711382",
+          "name": "D. Song"
+        },
+        {
+          "authorId": "5164568",
+          "name": "J. Steinhardt"
+        }
+      ]
+    },
+    {
+      "paperId": null,
+      "title": "Team OpenThoughts",
+      "year": 2025,
+      "citationCount": null,
+      "authors": []
+    },
+    {
+      "paperId": null,
+      "title": "Score 4: Mostly correct, minor deviations or insignificant errors that do not affect overall (cid:44) → meaning",
+      "year": null,
+      "citationCount": null,
+      "authors": []
+    },
+    {
+      "paperId": null,
+      "title": ": Alignment data synthesis from scratch by prompting aligned",
+      "year": null,
+      "citationCount": null,
+      "authors": []
+    },
+    {
+      "paperId": null,
+      "title": "American invitational mathematics examination - aime",
+      "year": null,
+      "citationCount": null,
+      "authors": []
+    },
+    {
+      "paperId": null,
+      "title": "General Reasoning",
+      "year": null,
+      "citationCount": null,
+      "authors": []
+    },
+    {
+      "paperId": null,
+      "title": "Bespoke-stratos: The unreasonable effectiveness of reasoning distillation",
+      "year": null,
+      "citationCount": null,
+      "authors": []
+    },
+    {
+      "paperId": null,
+      "title": "Team qwen2.5: A party of foundation models,",
+      "year": null,
+      "citationCount": null,
+      "authors": []
+    },
+    {
+      "paperId": null,
+      "title": "Rlhflow",
+      "year": null,
+      "citationCount": null,
+      "authors": []
+    },
+    {
+      "paperId": null,
+      "title": "D4: Improving llm pretraining",
+      "year": null,
+      "citationCount": null,
+      "authors": []
+    },
+    {
+      "paperId": null,
+      "title": "Given the user query, you first need to analyze the user intent and the knowledge needed to solve (cid:44) → the task in the user query",
+      "year": null,
+      "citationCount": null,
+      "authors": []
+    },
+    {
+      "paperId": null,
+      "title": "rate the difficulty level of the user query as ‘very easy‘, ‘easy‘, ‘medium‘, ‘hard‘, or ‘ (cid:44) → very hard‘",
+      "year": null,
+      "citationCount": null,
+      "authors": []
+    },
+    {
+      "paperId": null,
+      "title": "Score 5: Completely correct, fully matches the reference answer or accurately addresses the query (cid:44) → when the reference answer is not provided",
+      "year": null,
+      "citationCount": null,
+      "authors": []
+    }
+  ]
+}

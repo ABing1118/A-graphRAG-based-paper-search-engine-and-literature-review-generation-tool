@@ -1,13 +1,1441 @@
 {
   "citations": [
     {
-      "paperId": "90e9addbb373a654abf25a68068f10d2cfe1d435",
-      "title": "Federated Continual Instruction Tuning",
+      "paperId": "e056d5103408cc93d7acd2ae3678bd3a5f39bafd",
+      "title": "Instruction-augmented Multimodal Alignment for Image-Text and Element Matching",
+      "year": 2025,
+      "citationCount": 0,
+      "authors": [
+        {
+          "authorId": "2287942175",
+          "name": "Xinli Yue"
+        },
+        {
+          "authorId": "2297014697",
+          "name": "Jianhui Sun"
+        },
+        {
+          "authorId": "2355845694",
+          "name": "Junda Lu"
+        },
+        {
+          "authorId": null,
+          "name": "Liangchao Yao"
+        },
+        {
+          "authorId": "2322445600",
+          "name": "Fan Xia"
+        },
+        {
+          "authorId": null,
+          "name": "Tianyi Wang"
+        },
+        {
+          "authorId": "2322445697",
+          "name": "Fengyun Rao"
+        },
+        {
+          "authorId": "2355648835",
+          "name": "Jing Lyu"
+        },
+        {
+          "authorId": null,
+          "name": "Yuetang Deng"
+        }
+      ]
+    },
+    {
+      "paperId": "c7249e8dc79198e4a316e7a9f2b6db24f54843c8",
+      "title": "PRM-BAS: Enhancing Multimodal Reasoning through PRM-guided Beam Annealing Search",
       "year": 2025,
       "citationCount": 0,
       "authors": [
         {
           "authorId": null,
+          "name": "Pengfei Hu"
+        },
+        {
+          "authorId": "2128660562",
+          "name": "Zhenrong Zhang"
+        },
+        {
+          "authorId": "2321457351",
+          "name": "Qikai Chang"
+        },
+        {
+          "authorId": "2321671280",
+          "name": "Shuhang Liu"
+        },
+        {
+          "authorId": "2143520841",
+          "name": "Jie Ma"
+        },
+        {
+          "authorId": "2243402281",
+          "name": "Jun Du"
+        },
+        {
+          "authorId": "39557762",
+          "name": "Jianshu Zhang"
+        },
+        {
+          "authorId": "2355787752",
+          "name": "Quan Liu"
+        },
+        {
+          "authorId": "2344792827",
+          "name": "Jianqing Gao"
+        },
+        {
+          "authorId": null,
+          "name": "Feng Ma"
+        },
+        {
+          "authorId": "2355401628",
+          "name": "Qingfeng Liu"
+        }
+      ]
+    },
+    {
+      "paperId": "5a01479ccd51c57a4cf9a29b306fcdeb6622eae6",
+      "title": "BabyVLM: Data-Efficient Pretraining of VLMs Inspired by Infant Learning",
+      "year": 2025,
+      "citationCount": 0,
+      "authors": [
+        {
+          "authorId": "2355360702",
+          "name": "Shengao Wang"
+        },
+        {
+          "authorId": "2355350387",
+          "name": "Arjun Chandra"
+        },
+        {
+          "authorId": "2356011065",
+          "name": "Aoming Liu"
+        },
+        {
+          "authorId": "2355352485",
+          "name": "Venkatesh Saligrama"
+        },
+        {
+          "authorId": "2355352342",
+          "name": "Boqing Gong"
+        }
+      ]
+    },
+    {
+      "paperId": "420a65ea7fe8bd235a4331af59dacf5accef180f",
+      "title": "PathVLM-R1: A Reinforcement Learning-Driven Reasoning Model for Pathology Visual-Language Tasks",
+      "year": 2025,
+      "citationCount": 0,
+      "authors": [
+        {
+          "authorId": "2355358741",
+          "name": "Jianyu Wu"
+        },
+        {
+          "authorId": "2311846280",
+          "name": "Haoran Yang"
+        },
+        {
+          "authorId": "2310563493",
+          "name": "Xinhua Zeng"
+        },
+        {
+          "authorId": null,
+          "name": "Guibing He"
+        },
+        {
+          "authorId": "2355360281",
+          "name": "Zhiyu Chen"
+        },
+        {
+          "authorId": "2354580890",
+          "name": "Zihui Li"
+        },
+        {
+          "authorId": "2355359065",
+          "name": "Xiaochuan Zhang"
+        },
+        {
+          "authorId": "2355786893",
+          "name": "Yangyang Ma"
+        },
+        {
+          "authorId": "2355350477",
+          "name": "Run Fang"
+        },
+        {
+          "authorId": "2355395242",
+          "name": "Yang Liu"
+        }
+      ]
+    },
+    {
+      "paperId": "7de3e35d67f3b483e7fc98517470bcf69facfbac",
+      "title": "FVQ: A Large-Scale Dataset and A LMM-based Method for Face Video Quality Assessment",
+      "year": 2025,
+      "citationCount": 0,
+      "authors": [
+        {
+          "authorId": "2271450703",
+          "name": "Sijing Wu"
+        },
+        {
+          "authorId": "2272304476",
+          "name": "Yunhao Li"
+        },
+        {
+          "authorId": "2355910455",
+          "name": "Ziwen Xu"
+        },
+        {
+          "authorId": "2118544238",
+          "name": "Yixuan Gao"
+        },
+        {
+          "authorId": "19269060",
+          "name": "Huiyu Duan"
+        },
+        {
+          "authorId": "2153198409",
+          "name": "Wei Sun"
+        },
+        {
+          "authorId": "2335558386",
+          "name": "Guangtao Zhai"
+        }
+      ]
+    },
+    {
+      "paperId": "b3fa9363e7368f46cb2df4c6fa6dcf683c28d5d3",
+      "title": "Investigating Vision-Language Model for Point Cloud-based Vehicle Classification",
+      "year": 2025,
+      "citationCount": 0,
+      "authors": [
+        {
+          "authorId": "2355240931",
+          "name": "Yiqiao Li"
+        },
+        {
+          "authorId": "2355359179",
+          "name": "Jie Wei"
+        },
+        {
+          "authorId": "2355078175",
+          "name": "Camille Kamga"
+        }
+      ]
+    },
+    {
+      "paperId": "9169fff2c69fa9d6b8ce743d0509cb72eeb914de",
+      "title": "Data Metabolism: An Efficient Data Design Schema For Vision Language Model",
+      "year": 2025,
+      "citationCount": 1,
+      "authors": [
+        {
+          "authorId": "2354283849",
+          "name": "Jingyuan Zhang"
+        },
+        {
+          "authorId": "2354602991",
+          "name": "Hongzhi Zhang"
+        },
+        {
+          "authorId": "2355885340",
+          "name": "Haonan Zhou"
+        },
+        {
+          "authorId": "2301639873",
+          "name": "Chenxi Sun"
+        },
+        {
+          "authorId": null,
+          "name": "Xingguang ji"
+        },
+        {
+          "authorId": "2355908643",
+          "name": "Jiakang Wang"
+        },
+        {
+          "authorId": "2355869797",
+          "name": "Fanheng Kong"
+        },
+        {
+          "authorId": "2354283873",
+          "name": "Yahui Liu"
+        },
+        {
+          "authorId": null,
+          "name": "Qi Wang"
+        },
+        {
+          "authorId": null,
+          "name": "Fuzheng Zhang"
+        }
+      ]
+    },
+    {
+      "paperId": "a09e68d3ad6b165e79e04d9a0e0f224ad32dd617",
+      "title": "Benchmarking Multimodal CoT Reward Model Stepwise by Visual Program",
+      "year": 2025,
+      "citationCount": 0,
+      "authors": [
+        {
+          "authorId": "2211467299",
+          "name": "Minghe Gao"
+        },
+        {
+          "authorId": "2354514403",
+          "name": "Xuqi Liu"
+        },
+        {
+          "authorId": "2334476426",
+          "name": "Zhongqi Yue"
+        },
+        {
+          "authorId": "2331539012",
+          "name": "Yang Wu"
+        },
+        {
+          "authorId": "2297146759",
+          "name": "Shuang Chen"
+        },
+        {
+          "authorId": "2261788275",
+          "name": "Juncheng Li"
+        },
+        {
+          "authorId": "2276402838",
+          "name": "Siliang Tang"
+        },
+        {
+          "authorId": "2289700887",
+          "name": "Fei Wu"
+        },
+        {
+          "authorId": "2351809900",
+          "name": "Tat-Seng Chua"
+        },
+        {
+          "authorId": "2253660817",
+          "name": "Yueting Zhuang"
+        }
+      ]
+    },
+    {
+      "paperId": "92658eaf0eaf6665c1bfc2bb3c57755e82926bf8",
+      "title": "LEO-MINI: An Efficient Multimodal Large Language Model using Conditional Token Reduction and Mixture of Multi-Modal Experts",
+      "year": 2025,
+      "citationCount": 0,
+      "authors": [
+        {
+          "authorId": "2343900064",
+          "name": "Yimu Wang"
+        },
+        {
+          "authorId": "9244695",
+          "name": "Mozhgan Nasr Azadani"
+        },
+        {
+          "authorId": "1824281",
+          "name": "Sean Sedwards"
+        },
+        {
+          "authorId": "2269776117",
+          "name": "Krzysztof Czarnecki"
+        }
+      ]
+    },
+    {
+      "paperId": "e194ae9aa95453697cce8f5964992071c55fad38",
+      "title": "SmolVLM: Redefining small and efficient multimodal models",
+      "year": 2025,
+      "citationCount": 3,
+      "authors": [
+        {
+          "authorId": "2316862322",
+          "name": "Andrés Marafioti"
+        },
+        {
+          "authorId": "2354267612",
+          "name": "Orr Zohar"
+        },
+        {
+          "authorId": "2350348221",
+          "name": "Miquel Farr'e"
+        },
+        {
+          "authorId": "2212460023",
+          "name": "Merve Noyan"
+        },
+        {
+          "authorId": "2303467794",
+          "name": "Elie Bakouch"
+        },
+        {
+          "authorId": "2354243824",
+          "name": "Pedro Cuenca"
+        },
+        {
+          "authorId": "2343833491",
+          "name": "Cyril Zakka"
+        },
+        {
+          "authorId": "2190281230",
+          "name": "Loubna Ben Allal"
+        },
+        {
+          "authorId": "2159547851",
+          "name": "Anton Lozhkov"
+        },
+        {
+          "authorId": "2179884903",
+          "name": "Nouamane Tazi"
+        },
+        {
+          "authorId": "2343835046",
+          "name": "Vaibhav Srivastav"
+        },
+        {
+          "authorId": "2343833488",
+          "name": "Joshua Lochner"
+        },
+        {
+          "authorId": "2343835559",
+          "name": "Hugo Larcher"
+        },
+        {
+          "authorId": "2343833053",
+          "name": "Mathieu Morlon"
+        },
+        {
+          "authorId": "2072250824",
+          "name": "Lewis Tunstall"
+        },
+        {
+          "authorId": "51128119",
+          "name": "L. V. Werra"
+        },
+        {
+          "authorId": "2354240405",
+          "name": "Thomas Wolf"
+        }
+      ]
+    },
+    {
+      "paperId": "1279888e52ea4dd2a437c7024c3f5a6d20cd3932",
+      "title": "UniToken: Harmonizing Multimodal Understanding and Generation through Unified Visual Encoding",
+      "year": 2025,
+      "citationCount": 2,
+      "authors": [
+        {
+          "authorId": "2149629531",
+          "name": "Yang Jiao"
+        },
+        {
+          "authorId": "2354610320",
+          "name": "Haibo Qiu"
+        },
+        {
+          "authorId": "2269829514",
+          "name": "Zequn Jie"
+        },
+        {
+          "authorId": "2144337489",
+          "name": "Shaoxiang Chen"
+        },
+        {
+          "authorId": "2319592539",
+          "name": "Jingjing Chen"
+        },
+        {
+          "authorId": "2152343776",
+          "name": "Lin Ma"
+        },
+        {
+          "authorId": "2345304992",
+          "name": "Yu-Gang Jiang"
+        }
+      ]
+    },
+    {
+      "paperId": "3712578410a2358cac046f1d4f7ffa7013f06156",
+      "title": "SARLANG-1M: A Benchmark for Vision-Language Modeling in SAR Image Understanding",
+      "year": 2025,
+      "citationCount": 0,
+      "authors": [
+        {
+          "authorId": "2339966639",
+          "name": "Yimin Wei"
+        },
+        {
+          "authorId": "2351067177",
+          "name": "Aoran Xiao"
+        },
+        {
+          "authorId": "41064281",
+          "name": "Yexian Ren"
+        },
+        {
+          "authorId": "2354064402",
+          "name": "Yuting Zhu"
+        },
+        {
+          "authorId": "151020613",
+          "name": "Hongruixuan Chen"
+        },
+        {
+          "authorId": "2239157968",
+          "name": "Junshi Xia"
+        },
+        {
+          "authorId": "2237802627",
+          "name": "Naoto Yokoya"
+        }
+      ]
+    },
+    {
+      "paperId": "6f7ee3bcf2b5711ac99efa13f2416a533774dd7b",
+      "title": "TokenFLEX: Unified VLM Training for Flexible Visual Tokens Inference",
+      "year": 2025,
+      "citationCount": 0,
+      "authors": [
+        {
+          "authorId": "2354143749",
+          "name": "Junshan Hu"
+        },
+        {
+          "authorId": "2354997542",
+          "name": "Jialiang Mao"
+        },
+        {
+          "authorId": "2354064070",
+          "name": "Zhikang Liu"
+        },
+        {
+          "authorId": "2351189632",
+          "name": "Zhongpu Xia"
+        },
+        {
+          "authorId": "2353954278",
+          "name": "Peng Jia"
+        },
+        {
+          "authorId": "2277446558",
+          "name": "Xianpeng Lang"
+        }
+      ]
+    },
+    {
+      "paperId": "a13d1c4f553b15ffb51d1c36fdfafe5ffbd62b54",
+      "title": "A Survey of Large Language Models in Mental Health Disorder Detection on Social Media",
+      "year": 2025,
+      "citationCount": 0,
+      "authors": [
+        {
+          "authorId": "2353383279",
+          "name": "Zhuohan Ge"
+        },
+        {
+          "authorId": "2353385015",
+          "name": "Nicole Hu"
+        },
+        {
+          "authorId": "2345876305",
+          "name": "Darian Li"
+        },
+        {
+          "authorId": "2353550155",
+          "name": "Yubo Wang"
+        },
+        {
+          "authorId": "2353386355",
+          "name": "Shihao Qi"
+        },
+        {
+          "authorId": "2353556983",
+          "name": "Yuming Xu"
+        },
+        {
+          "authorId": "2353696811",
+          "name": "Han Shi"
+        },
+        {
+          "authorId": "2354064466",
+          "name": "Jason Zhang"
+        }
+      ]
+    },
+    {
+      "paperId": "36e3cc58412483c4c3c743296891420cd3c94255",
+      "title": "AdPO: Enhancing the Adversarial Robustness of Large Vision-Language Models with Preference Optimization",
+      "year": 2025,
+      "citationCount": 0,
+      "authors": [
+        {
+          "authorId": "2237823214",
+          "name": "Chaohu Liu"
+        },
+        {
+          "authorId": "2352099739",
+          "name": "Tianyi Gui"
+        },
+        {
+          "authorId": "2353310869",
+          "name": "Yu Liu"
+        },
+        {
+          "authorId": "2347301088",
+          "name": "Linli Xu"
+        }
+      ]
+    },
+    {
+      "paperId": "318a6d0d03fe7293edb973ee5394e55938eecf7f",
+      "title": "ILLUME+: Illuminating Unified MLLM with Dual Visual Tokenization and Diffusion Refinement",
+      "year": 2025,
+      "citationCount": 0,
+      "authors": [
+        {
+          "authorId": "2140386536",
+          "name": "Runhu Huang"
+        },
+        {
+          "authorId": "2258786929",
+          "name": "Chunwei Wang"
+        },
+        {
+          "authorId": "2243330383",
+          "name": "Junwei Yang"
+        },
+        {
+          "authorId": "46182317",
+          "name": "Guansong Lu"
+        },
+        {
+          "authorId": "2157637784",
+          "name": "Yunlong Yuan"
+        },
+        {
+          "authorId": "47180442",
+          "name": "Jianhua Han"
+        },
+        {
+          "authorId": "2311312463",
+          "name": "Lu Hou"
+        },
+        {
+          "authorId": "2256596407",
+          "name": "Wei Zhang"
+        },
+        {
+          "authorId": "2353906756",
+          "name": "Lanqing Hong"
+        },
+        {
+          "authorId": "2310758544",
+          "name": "Hengshuang Zhao"
+        },
+        {
+          "authorId": "2320227478",
+          "name": "Hang Xu"
+        }
+      ]
+    },
+    {
+      "paperId": "2d4cfee7105633fc6c02f4b2b395ce40bae7ee8b",
+      "title": "Leveraging the DeepSeek large model: A framework for AI-assisted disaster prevention, mitigation, and emergency response systems",
+      "year": 2025,
+      "citationCount": 0,
+      "authors": [
+        {
+          "authorId": "2244610894",
+          "name": "Chenchen Xie"
+        },
+        {
+          "authorId": "2269382613",
+          "name": "Huiran Gao"
+        },
+        {
+          "authorId": "2155914193",
+          "name": "Yuandong Huang"
+        },
+        {
+          "authorId": "2247755693",
+          "name": "Zhiwen Xue"
+        },
+        {
+          "authorId": "2221339371",
+          "name": "Chong Xu"
+        },
+        {
+          "authorId": "2353663135",
+          "name": "Kebin Dai"
+        }
+      ]
+    },
+    {
+      "paperId": "1f4e8e783710708859cca8dfa916b1ea1287b9b4",
+      "title": "FakeScope: Large Multimodal Expert Model for Transparent AI-Generated Image Forensics",
+      "year": 2025,
+      "citationCount": 0,
+      "authors": [
+        {
+          "authorId": "2279762308",
+          "name": "Yixuan Li"
+        },
+        {
+          "authorId": "2353519892",
+          "name": "Yu Tian"
+        },
+        {
+          "authorId": "2353187771",
+          "name": "Yipo Huang"
+        },
+        {
+          "authorId": "2353298862",
+          "name": "Wei Lu"
+        },
+        {
+          "authorId": "2320299055",
+          "name": "Shiqi Wang"
+        },
+        {
+          "authorId": "2320312756",
+          "name": "Weisi Lin"
+        },
+        {
+          "authorId": "2320290996",
+          "name": "Anderson Rocha"
+        }
+      ]
+    },
+    {
+      "paperId": "ddf3dad4bd47dbdfc2c98a011e5690a805496a85",
+      "title": "InternVL-X: Advancing and Accelerating InternVL Series with Efficient Visual Token Compression",
+      "year": 2025,
+      "citationCount": 0,
+      "authors": [
+        {
+          "authorId": "2352403623",
+          "name": "Dongchen Lu"
+        },
+        {
+          "authorId": "2352301589",
+          "name": "Yuyao Sun"
+        },
+        {
+          "authorId": "2353293627",
+          "name": "Zilu Zhang"
+        },
+        {
+          "authorId": "2352321566",
+          "name": "Leping Huang"
+        },
+        {
+          "authorId": "2353564172",
+          "name": "Jianliang Zeng"
+        },
+        {
+          "authorId": "2352271550",
+          "name": "Mao Shu"
+        },
+        {
+          "authorId": "2352993975",
+          "name": "Huo Cao"
+        }
+      ]
+    },
+    {
+      "paperId": "6697d9f07bd70ac397bea2e8c2dde03da2d4d896",
+      "title": "FaceBench: A Multi-View Multi-Level Facial Attribute VQA Dataset for Benchmarking Face Perception MLLMs",
+      "year": 2025,
+      "citationCount": 0,
+      "authors": [
+        {
+          "authorId": "2352404273",
+          "name": "Xiaoqin Wang"
+        },
+        {
+          "authorId": "2352473505",
+          "name": "Xusen Ma"
+        },
+        {
+          "authorId": "3468964",
+          "name": "Xianxu Hou"
+        },
+        {
+          "authorId": "2333552495",
+          "name": "Meidan Ding"
+        },
+        {
+          "authorId": "2111162634",
+          "name": "Yudong Li"
+        },
+        {
+          "authorId": "2129482293",
+          "name": "Junliang Chen"
+        },
+        {
+          "authorId": "2119295832",
+          "name": "Wenting Chen"
+        },
+        {
+          "authorId": "2354182476",
+          "name": "Xiaoyang Peng"
+        },
+        {
+          "authorId": "2276486592",
+          "name": "Linlin Shen"
+        }
+      ]
+    },
+    {
+      "paperId": "5e805ffe13612d84f4c9526a93e94423e737fdb1",
+      "title": "Harmonizing Visual Representations for Unified Multimodal Understanding and Generation",
+      "year": 2025,
+      "citationCount": 0,
+      "authors": [
+        {
+          "authorId": "2149346794",
+          "name": "Size Wu"
+        },
+        {
+          "authorId": "2352842005",
+          "name": "Wenwei Zhang"
+        },
+        {
+          "authorId": "31570091",
+          "name": "Lumin Xu"
+        },
+        {
+          "authorId": "2108914743",
+          "name": "Sheng Jin"
+        },
+        {
+          "authorId": "2296945034",
+          "name": "Zhonghua Wu"
+        },
+        {
+          "authorId": "2339987547",
+          "name": "Qi Tao"
+        },
+        {
+          "authorId": "2253923219",
+          "name": "Wentao Liu"
+        },
+        {
+          "authorId": "2305623854",
+          "name": "Wei Li"
+        },
+        {
+          "authorId": "2253394312",
+          "name": "Chen Change Loy"
+        }
+      ]
+    },
+    {
+      "paperId": "ac2a21b5b6a1e869623d7bded559ea91d4800460",
+      "title": "MLLM-Selector: Necessity and Diversity-driven High-Value Data Selection for Enhanced Visual Instruction Tuning",
+      "year": 2025,
+      "citationCount": 0,
+      "authors": [
+        {
+          "authorId": "2161655780",
+          "name": "Yiwei Ma"
+        },
+        {
+          "authorId": "2347035382",
+          "name": "Guohai Xu"
+        },
+        {
+          "authorId": "2227806539",
+          "name": "Xiaoshuai Sun"
+        },
+        {
+          "authorId": null,
+          "name": "Jiayi Ji"
+        },
+        {
+          "authorId": "2317976163",
+          "name": "Jie Lou"
+        },
+        {
+          "authorId": "2318585548",
+          "name": "Debing Zhang"
+        },
+        {
+          "authorId": "2232781359",
+          "name": "Rongrong Ji"
+        }
+      ]
+    },
+    {
+      "paperId": "729d6438227465525463c4f2ea3df1b44c0960b2",
+      "title": "Beyond Words: Advancing Long-Text Image Generation via Multimodal Autoregressive Models",
+      "year": 2025,
+      "citationCount": 0,
+      "authors": [
+        {
+          "authorId": "2275540429",
+          "name": "Alex Jinpeng Wang"
+        },
+        {
+          "authorId": "50703697",
+          "name": "Linjie Li"
+        },
+        {
+          "authorId": "2149231840",
+          "name": "Zhengyuan Yang"
+        },
+        {
+          "authorId": "2273909761",
+          "name": "Lijuan Wang"
+        },
+        {
+          "authorId": "2304587460",
+          "name": "Min Li"
+        }
+      ]
+    },
+    {
+      "paperId": "088ae610b44a94e8976118cb290cb9b48cf388dc",
+      "title": "TileLink: Generating Efficient Compute-Communication Overlapping Kernels using Tile-Centric Primitives",
+      "year": 2025,
+      "citationCount": 0,
+      "authors": [
+        {
+          "authorId": "2329057567",
+          "name": "Size Zheng"
+        },
+        {
+          "authorId": "2353710265",
+          "name": "Jin Fang"
+        },
+        {
+          "authorId": "2352219020",
+          "name": "Xuegui Zheng"
+        },
+        {
+          "authorId": "2286882255",
+          "name": "Qi Hou"
+        },
+        {
+          "authorId": "2305683890",
+          "name": "Wenlei Bao"
+        },
+        {
+          "authorId": "2305682698",
+          "name": "Ningxin Zheng"
+        },
+        {
+          "authorId": "2287104163",
+          "name": "Ziheng Jiang"
+        },
+        {
+          "authorId": "2352200846",
+          "name": "Dongyang Wang"
+        },
+        {
+          "authorId": "2269130869",
+          "name": "Jia-jun Ye"
+        },
+        {
+          "authorId": "2257447831",
+          "name": "Haibin Lin"
+        },
+        {
+          "authorId": "2328081757",
+          "name": "Li-Wen Chang"
+        },
+        {
+          "authorId": "2328747777",
+          "name": "Xin Liu"
+        }
+      ]
+    },
+    {
+      "paperId": "70316474ff561cc01b0f336d10483ea4dadc2051",
+      "title": "ImageGen-CoT: Enhancing Text-to-Image In-context Learning with Chain-of-Thought Reasoning",
+      "year": 2025,
+      "citationCount": 0,
+      "authors": [
+        {
+          "authorId": "2315613899",
+          "name": "Jiaqi Liao"
+        },
+        {
+          "authorId": "2149231840",
+          "name": "Zhengyuan Yang"
+        },
+        {
+          "authorId": "50703697",
+          "name": "Linjie Li"
+        },
+        {
+          "authorId": "2325116457",
+          "name": "Dianqi Li"
+        },
+        {
+          "authorId": "2249717753",
+          "name": "K. Lin"
+        },
+        {
+          "authorId": "2339635488",
+          "name": "Yu Cheng"
+        },
+        {
+          "authorId": "2273909761",
+          "name": "Lijuan Wang"
+        }
+      ]
+    },
+    {
+      "paperId": "5d704c96c12931c8fa1c05cfaa2bcba2fc1fbe02",
+      "title": "LangBridge: Interpreting Image as a Combination of Language Embeddings",
+      "year": 2025,
+      "citationCount": 0,
+      "authors": [
+        {
+          "authorId": "2315613899",
+          "name": "Jiaqi Liao"
+        },
+        {
+          "authorId": "2350309448",
+          "name": "Yuwei Niu"
+        },
+        {
+          "authorId": "2352420644",
+          "name": "Fanqing Meng"
+        },
+        {
+          "authorId": "2274232642",
+          "name": "Hao Li"
+        },
+        {
+          "authorId": "2176398517",
+          "name": "Changyao Tian"
+        },
+        {
+          "authorId": "2321602999",
+          "name": "Yinuo Du"
+        },
+        {
+          "authorId": "2279394155",
+          "name": "Yuwen Xiong"
+        },
+        {
+          "authorId": "2325116457",
+          "name": "Dianqi Li"
+        },
+        {
+          "authorId": "2578924",
+          "name": "Xizhou Zhu"
+        },
+        {
+          "authorId": "2352601021",
+          "name": "Li Yuan"
+        },
+        {
+          "authorId": "2325954167",
+          "name": "Jifeng Dai"
+        },
+        {
+          "authorId": "2325322553",
+          "name": "Yu Cheng"
+        }
+      ]
+    },
+    {
+      "paperId": "1382a96009db5f1e73d88dc2c45e2b0d0a753a48",
+      "title": "Towards Online Multi-Modal Social Interaction Understanding",
+      "year": 2025,
+      "citationCount": 0,
+      "authors": [
+        {
+          "authorId": "2352033797",
+          "name": "Xinpeng Li"
+        },
+        {
+          "authorId": "2195232122",
+          "name": "Shijian Deng"
+        },
+        {
+          "authorId": "2306998506",
+          "name": "Bolin Lai"
+        },
+        {
+          "authorId": "1739403116",
+          "name": "Weiguo Pian"
+        },
+        {
+          "authorId": "50779871",
+          "name": "J. Rehg"
+        },
+        {
+          "authorId": "2304892568",
+          "name": "Yapeng Tian"
+        }
+      ]
+    },
+    {
+      "paperId": "fb80db450e5eda720b42570c8318191c4271d858",
+      "title": "ORION: A Holistic End-to-End Autonomous Driving Framework by Vision-Language Instructed Action Generation",
+      "year": 2025,
+      "citationCount": 0,
+      "authors": [
+        {
+          "authorId": "2353202920",
+          "name": "Haoyu Fu"
+        },
+        {
+          "authorId": "2352387234",
+          "name": "Diankun Zhang"
+        },
+        {
+          "authorId": "2352021773",
+          "name": "Zongchuang Zhao"
+        },
+        {
+          "authorId": "2352597764",
+          "name": "Jianfeng Cui"
+        },
+        {
+          "authorId": "94882716",
+          "name": "Dingkang Liang"
+        },
+        {
+          "authorId": "2352199718",
+          "name": "Chong Zhang"
+        },
+        {
+          "authorId": "2238915937",
+          "name": "Dingyuan Zhang"
+        },
+        {
+          "authorId": "2117711522",
+          "name": "Hongwei Xie"
+        },
+        {
+          "authorId": "2352324828",
+          "name": "Bing Wang"
+        },
+        {
+          "authorId": "2352208030",
+          "name": "Xiang Bai"
+        }
+      ]
+    },
+    {
+      "paperId": "f248930b7b864bb660c85ad974f008b2270eb159",
+      "title": "Can Multi-modal (reasoning) LLMs work as deepfake detectors?",
+      "year": 2025,
+      "citationCount": 1,
+      "authors": [
+        {
+          "authorId": "2345881588",
+          "name": "Simiao Ren"
+        },
+        {
+          "authorId": "2352202260",
+          "name": "Yao Yao"
+        },
+        {
+          "authorId": "2345818281",
+          "name": "Kidus Zewde"
+        },
+        {
+          "authorId": "2352397911",
+          "name": "Zisheng Liang"
+        },
+        {
+          "authorId": "2345820913",
+          "name": "Tsang Ng"
+        },
+        {
+          "authorId": "2345820516",
+          "name": "Ning-Yau Cheng"
+        },
+        {
+          "authorId": "2352099359",
+          "name": "Xiaoou Zhan"
+        },
+        {
+          "authorId": "2352109502",
+          "name": "Qinzhe Liu"
+        },
+        {
+          "authorId": "2352202213",
+          "name": "Yifei Chen"
+        },
+        {
+          "authorId": "2345838034",
+          "name": "Hengwei Xu"
+        }
+      ]
+    },
+    {
+      "paperId": "14d96497f0685bcdfc40b7a4564c7c07e13f8b9c",
+      "title": "Commander-GPT: Fully Unleashing the Sarcasm Detection Capability of Multi-Modal Large Language Models",
+      "year": 2025,
+      "citationCount": 0,
+      "authors": [
+        {
+          "authorId": "2269685107",
+          "name": "Yazhou Zhang"
+        },
+        {
+          "authorId": "2316563025",
+          "name": "Chunwang Zou"
+        },
+        {
+          "authorId": "2322369413",
+          "name": "Bo Wang"
+        },
+        {
+          "authorId": "2259358765",
+          "name": "Jing Qin"
+        }
+      ]
+    },
+    {
+      "paperId": "6a1b24a52a5b1d71d4fc4a7e7aade9f28a0d2152",
+      "title": "Chain of Functions: A Programmatic Pipeline for Fine-Grained Chart Reasoning Data",
+      "year": 2025,
+      "citationCount": 0,
+      "authors": [
+        {
+          "authorId": "2284810402",
+          "name": "Zijian Li"
+        },
+        {
+          "authorId": "2343605307",
+          "name": "Jingjing Fu"
+        },
+        {
+          "authorId": "2321176535",
+          "name": "Lei Song"
+        },
+        {
+          "authorId": "2189495179",
+          "name": "Jiang Bian"
+        },
+        {
+          "authorId": "2351084099",
+          "name": "Jun Zhang"
+        },
+        {
+          "authorId": "2305875171",
+          "name": "Rui Wang"
+        }
+      ]
+    },
+    {
+      "paperId": "e9496639d29db56292859e1e320d1e193123d6ac",
+      "title": "Think or Not Think: A Study of Explicit Thinking inRule-Based Visual Reinforcement Fine-Tuning",
+      "year": 2025,
+      "citationCount": 1,
+      "authors": [
+        {
+          "authorId": "2329165520",
+          "name": "Ming Li"
+        },
+        {
+          "authorId": "2323763979",
+          "name": "Jike Zhong"
+        },
+        {
+          "authorId": "2350762157",
+          "name": "Shitian Zhao"
+        },
+        {
+          "authorId": "2329143736",
+          "name": "Yuxiang Lai"
+        },
+        {
+          "authorId": "2258882773",
+          "name": "Kaipeng Zhang"
+        }
+      ]
+    },
+    {
+      "paperId": "5c230779615572074b8dc9a932671929e87f6752",
+      "title": "Forensics-Bench: A Comprehensive Forgery Detection Benchmark Suite for Large Vision Language Models",
+      "year": 2025,
+      "citationCount": 0,
+      "authors": [
+        {
+          "authorId": "2279766413",
+          "name": "Jin Wang"
+        },
+        {
+          "authorId": "2350859961",
+          "name": "Chenghui Lv"
+        },
+        {
+          "authorId": "2350843352",
+          "name": "Xian Li"
+        },
+        {
+          "authorId": "2303436837",
+          "name": "Shichao Dong"
+        },
+        {
+          "authorId": "2346998861",
+          "name": "Huadong Li"
+        },
+        {
+          "authorId": "2279717385",
+          "name": "Kelu Yao"
+        },
+        {
+          "authorId": "2279855999",
+          "name": "Chao Li"
+        },
+        {
+          "authorId": "1485702259",
+          "name": "Wenqi Shao"
+        },
+        {
+          "authorId": "2324787214",
+          "name": "Ping Luo"
+        }
+      ]
+    },
+    {
+      "paperId": "0dbfde86ee14b4d5a501f64f649e0e775625cf7b",
+      "title": "Visual Persona: Foundation Model for Full-Body Human Customization",
+      "year": 2025,
+      "citationCount": 0,
+      "authors": [
+        {
+          "authorId": "2146930133",
+          "name": "Jisu Nam"
+        },
+        {
+          "authorId": "2308036716",
+          "name": "Soowon Son"
+        },
+        {
+          "authorId": "2280105492",
+          "name": "Zhan Xu"
+        },
+        {
+          "authorId": "2351253669",
+          "name": "Jing Shi"
+        },
+        {
+          "authorId": "2285160960",
+          "name": "Difan Liu"
+        },
+        {
+          "authorId": "2285387171",
+          "name": "Feng Liu"
+        },
+        {
+          "authorId": "29926277",
+          "name": "A. Misraa"
+        },
+        {
+          "authorId": "2265238987",
+          "name": "Seungryong Kim"
+        },
+        {
+          "authorId": "2265714726",
+          "name": "Yang Zhou"
+        }
+      ]
+    },
+    {
+      "paperId": "91842cd8c848217bf6f06b2be1b0914cc6d4c344",
+      "title": "LLaVA-MORE: A Comparative Study of LLMs and Visual Backbones for Enhanced Visual Instruction Tuning",
+      "year": 2025,
+      "citationCount": 1,
+      "authors": [
+        {
+          "authorId": "2238814159",
+          "name": "Federico Cocchi"
+        },
+        {
+          "authorId": "2202986093",
+          "name": "Nicholas Moratelli"
+        },
+        {
+          "authorId": "2238815102",
+          "name": "Davide Caffagni"
+        },
+        {
+          "authorId": "2179325162",
+          "name": "Sara Sarto"
+        },
+        {
+          "authorId": "1843795",
+          "name": "L. Baraldi"
+        },
+        {
+          "authorId": "3468983",
+          "name": "Marcella Cornia"
+        },
+        {
+          "authorId": "2303850502",
+          "name": "Rita Cucchiara"
+        }
+      ]
+    },
+    {
+      "paperId": "43beb4dcfaf17f2f4a0675e1882352f566da8173",
+      "title": "Can Large Vision Language Models Read Maps Like a Human?",
+      "year": 2025,
+      "citationCount": 1,
+      "authors": [
+        {
+          "authorId": "2334356497",
+          "name": "Shuo Xing"
+        },
+        {
+          "authorId": "2350870566",
+          "name": "Zezhou Sun"
+        },
+        {
+          "authorId": "72330491",
+          "name": "Shuangyun Xie"
+        },
+        {
+          "authorId": "2351290760",
+          "name": "Kaiyuan Chen"
+        },
+        {
+          "authorId": "2351000265",
+          "name": "Yanjia Huang"
+        },
+        {
+          "authorId": "2336248720",
+          "name": "Yuping Wang"
+        },
+        {
+          "authorId": "2343596356",
+          "name": "Jiachen Li"
+        },
+        {
+          "authorId": "2244396866",
+          "name": "Dezhen Song"
+        },
+        {
+          "authorId": "2336092412",
+          "name": "Zhengzhong Tu"
+        }
+      ]
+    },
+    {
+      "paperId": "90e9addbb373a654abf25a68068f10d2cfe1d435",
+      "title": "Federated Continual Instruction Tuning",
+      "year": 2025,
+      "citationCount": 1,
+      "authors": [
+        {
+          "authorId": "2277786851",
           "name": "Haiyang Guo"
         },
         {
@@ -15,7 +1443,7 @@
           "name": "Fanhu Zeng"
         },
         {
-          "authorId": null,
+          "authorId": "2349314046",
           "name": "Fei Zhu"
         },
         {
@@ -27,7 +1455,7 @@
           "name": "Da-Han Wang"
         },
         {
-          "authorId": null,
+          "authorId": "2349960285",
           "name": "Jian Xu"
         },
         {
@@ -59,7 +1487,7 @@
           "name": "Winston Hu"
         },
         {
-          "authorId": null,
+          "authorId": "2350754070",
           "name": "Yu Cheng"
         }
       ]
@@ -139,7 +1567,7 @@
       "citationCount": 0,
       "authors": [
         {
-          "authorId": null,
+          "authorId": "2333703775",
           "name": "Chengmeng Li"
         },
         {
@@ -147,7 +1575,7 @@
           "name": "Junjie Wen"
         },
         {
-          "authorId": "2349644188",
+          "authorId": "2110930121",
           "name": "Yan Peng"
         },
         {
@@ -223,7 +1651,7 @@
       "citationCount": 0,
       "authors": [
         {
-          "authorId": null,
+          "authorId": "2275693545",
           "name": "Chenglu Pan"
         },
         {
@@ -284,7 +1712,7 @@
       "paperId": "55308dc3466ddb4ff3b12412290b1239a919c344",
       "title": "PerturboLLaVA: Reducing Multimodal Hallucinations with Perturbative Visual Training",
       "year": 2025,
-      "citationCount": 1,
+      "citationCount": 2,
       "authors": [
         {
           "authorId": "2349394679",
@@ -299,7 +1727,7 @@
           "name": "Chenchen Jing"
         },
         {
-          "authorId": "2349379218",
+          "authorId": "2141747950",
           "name": "Yizhou Zhou"
         },
         {
@@ -307,15 +1735,15 @@
           "name": "Fengyun Rao"
         },
         {
-          "authorId": null,
+          "authorId": "2292645524",
           "name": "Hao Chen"
         },
         {
-          "authorId": null,
+          "authorId": "2312651412",
           "name": "Bo Zhang"
         },
         {
-          "authorId": null,
+          "authorId": "2257324242",
           "name": "Chunhua Shen"
         }
       ]
@@ -407,11 +1835,11 @@
           "name": "Wenqi Zhang"
         },
         {
-          "authorId": null,
+          "authorId": "2326048708",
           "name": "Kaitao Song"
         },
         {
-          "authorId": "2305951992",
+          "authorId": "1776903",
           "name": "Weiming Lu"
         },
         {
@@ -455,7 +1883,7 @@
           "name": "Junyan Lin"
         },
         {
-          "authorId": null,
+          "authorId": "2351221111",
           "name": "Haoran Chen"
         },
         {
@@ -499,7 +1927,7 @@
           "name": "Yinghao Chen"
         },
         {
-          "authorId": null,
+          "authorId": "2331375246",
           "name": "Renshou Wu"
         },
         {
@@ -559,7 +1987,7 @@
           "name": "Haohao Gao"
         },
         {
-          "authorId": null,
+          "authorId": "2331375246",
           "name": "Renshou Wu"
         },
         {
@@ -708,7 +2136,7 @@
       "paperId": "4114668019552c42d1a7624bbf9b8771f961d712",
       "title": "Are Large Vision Language Models Good Game Players?",
       "year": 2025,
-      "citationCount": 1,
+      "citationCount": 2,
       "authors": [
         {
           "authorId": "2240543227",
@@ -791,7 +2219,7 @@
           "name": "Haiyang Wang"
         },
         {
-          "authorId": "2348386788",
+          "authorId": "2273372923",
           "name": "Xiaoyi Bao"
         },
         {
@@ -803,7 +2231,7 @@
           "name": "Pandeng Li"
         },
         {
-          "authorId": "2349241584",
+          "authorId": "2279756190",
           "name": "Yun Zheng"
         },
         {
@@ -844,7 +2272,7 @@
       "paperId": "91f0c25a63eebbc3c8aa78f93746a303fb857065",
       "title": "A Comparative Study of Vision Language Models for Italian Cultural Heritage",
       "year": 2025,
-      "citationCount": 0,
+      "citationCount": 1,
       "authors": [
         {
           "authorId": "2348615752",
@@ -897,6 +2325,34 @@
       ]
     },
     {
+      "paperId": "6004653241a19e694254fd38e7c98321bde34751",
+      "title": "Artificial Intelligence Enhances Food Testing Process: A Comprehensive Review",
+      "year": 2025,
+      "citationCount": 0,
+      "authors": [
+        {
+          "authorId": "1570494198",
+          "name": "Haohan Ding"
+        },
+        {
+          "authorId": "2354101268",
+          "name": "Zhenqi Xie"
+        },
+        {
+          "authorId": "2265397438",
+          "name": "Wei Yu"
+        },
+        {
+          "authorId": "2149528254",
+          "name": "Xiaohui Cui"
+        },
+        {
+          "authorId": "2110955335",
+          "name": "David I. Wilson"
+        }
+      ]
+    },
+    {
       "paperId": "ea65fc7355dd099d0baec83ffc64a21c4c82dda6",
       "title": "Chitranuvad: Adapting Multi-lingual LLMs for Multimodal Translation",
       "year": 2025,
@@ -939,7 +2395,7 @@
           "name": "Abhinav Ravi"
         },
         {
-          "authorId": "2331856343",
+          "authorId": "144992211",
           "name": "Shubham Agarwal"
         }
       ]
@@ -948,7 +2404,7 @@
       "paperId": "d97c62086861fa25a1734c7c0611d8bf95c51cdd",
       "title": "ObjectVLA: End-to-End Open-World Object Manipulation Without Demonstration",
       "year": 2025,
-      "citationCount": 0,
+      "citationCount": 1,
       "authors": [
         {
           "authorId": "2277906045",
@@ -992,7 +2448,7 @@
       "paperId": "08b5fbf58901f27edcac0c21c635971d1b3b4d6b",
       "title": "Comparative Analysis Based on DeepSeek, ChatGPT, and Google Gemini: Features, Techniques, Performance, Future Prospects",
       "year": 2025,
-      "citationCount": 0,
+      "citationCount": 1,
       "authors": [
         {
           "authorId": "2266199223",
@@ -1116,7 +2572,7 @@
       "paperId": "ce85250cc3684c9fb305bfa48b27bc7570481f0d",
       "title": "DICEPTION: A Generalist Diffusion Model for Visual Perceptual Tasks",
       "year": 2025,
-      "citationCount": 2,
+      "citationCount": 4,
       "authors": [
         {
           "authorId": "2267430102",
@@ -1215,7 +2671,7 @@
           "name": "Chandra Khatri"
         },
         {
-          "authorId": "2331856343",
+          "authorId": "144992211",
           "name": "Shubham Agarwal"
         }
       ]
@@ -1224,7 +2680,7 @@
       "paperId": "5976a31d1b0f3edb4032803168e33cb7fdacb5a4",
       "title": "ChatVLA: Unified Multimodal Understanding and Robot Control with Vision-Language-Action Model",
       "year": 2025,
-      "citationCount": 3,
+      "citationCount": 4,
       "authors": [
         {
           "authorId": "2333736318",
@@ -1247,7 +2703,7 @@
           "name": "Ning Liu"
         },
         {
-          "authorId": "2346841376",
+          "authorId": "48559420",
           "name": "Zhiyuan Xu"
         },
         {
@@ -1348,7 +2804,7 @@
       "paperId": "2a49f6cd8059911b254995acd8f17b5e285f8e19",
       "title": "Re-Align: Aligning Vision Language Models via Retrieval-Augmented Direct Preference Optimization",
       "year": 2025,
-      "citationCount": 2,
+      "citationCount": 6,
       "authors": [
         {
           "authorId": "2334356497",
@@ -1483,7 +2939,7 @@
           "name": "Keyuan Cheng"
         },
         {
-          "authorId": "2345818907",
+          "authorId": "2267332991",
           "name": "Yuxin Zuo"
         },
         {
@@ -1512,7 +2968,7 @@
       "paperId": "91df1c88a86b463558cd741731fa6f5f03d8a053",
       "title": "MMUnlearner: Reformulating Multimodal Machine Unlearning in the Era of Multimodal Large Language Models",
       "year": 2025,
-      "citationCount": 2,
+      "citationCount": 3,
       "authors": [
         {
           "authorId": "2307004760",
@@ -1548,7 +3004,7 @@
       "paperId": "9860e04e9073d0e7ed6734aa3bd279b37c9bc526",
       "title": "ChatGPT and DeepSeek Evaluate One Another for Science Education",
       "year": 2025,
-      "citationCount": 0,
+      "citationCount": 2,
       "authors": [
         {
           "authorId": "49077374",
@@ -1592,7 +3048,7 @@
       "paperId": "a1e2b178e3861440cc9348288ea5ff3643acb6c7",
       "title": "Sparse Autoencoders for Scientifically Rigorous Interpretation of Vision Models",
       "year": 2025,
-      "citationCount": 0,
+      "citationCount": 1,
       "authors": [
         {
           "authorId": "1480968444",
@@ -1616,7 +3072,7 @@
       "paperId": "67a8fdf0b5854d7cb76decbcc68da89736088225",
       "title": "Boosting Multimodal Reasoning with MCTS-Automated Structured Thinking",
       "year": 2025,
-      "citationCount": 2,
+      "citationCount": 5,
       "authors": [
         {
           "authorId": "2298086588",
@@ -1724,7 +3180,7 @@
       "paperId": "7344382a6fcccc69fefabb721f9b77a5a4e6809b",
       "title": "LEO: Boosting Mixture of Vision Encoders for Multimodal Large Language Models",
       "year": 2025,
-      "citationCount": 1,
+      "citationCount": 2,
       "authors": [
         {
           "authorId": "9244695",
@@ -1748,7 +3204,7 @@
       "paperId": "6cf64f544140a2f27bc0851fee2506aaf1e58723",
       "title": "ChartCoder: Advancing Multimodal Large Language Model for Chart-to-Code Generation",
       "year": 2025,
-      "citationCount": 0,
+      "citationCount": 2,
       "authors": [
         {
           "authorId": "2340097538",
@@ -1763,7 +3219,7 @@
           "name": "Qi Shi"
         },
         {
-          "authorId": "2335912091",
+          "authorId": "2116885534",
           "name": "Chi Chen"
         },
         {
@@ -1791,7 +3247,7 @@
       "citationCount": 0,
       "authors": [
         {
-          "authorId": null,
+          "authorId": "1475705618",
           "name": "Zheqi Lv"
         },
         {
@@ -1803,11 +3259,11 @@
           "name": "Jiawei Wang"
         },
         {
-          "authorId": null,
+          "authorId": "2333226456",
           "name": "Shengyu Zhang"
         },
         {
-          "authorId": null,
+          "authorId": "2273351067",
           "name": "Fei Wu"
         }
       ]
@@ -1816,7 +3272,7 @@
       "paperId": "e8d92af6e1779e72ea7bf332225b16f720f68487",
       "title": "URSA: Understanding and Verifying Chain-of-thought Reasoning in Multimodal Mathematics",
       "year": 2025,
-      "citationCount": 5,
+      "citationCount": 11,
       "authors": [
         {
           "authorId": "2279024030",
@@ -1856,7 +3312,7 @@
       "paperId": "cca431c69807196211c657a35697644743944b12",
       "title": "Visual Large Language Models for Generalized and Specialized Applications",
       "year": 2025,
-      "citationCount": 1,
+      "citationCount": 7,
       "authors": [
         {
           "authorId": "2267393864",
@@ -1879,7 +3335,7 @@
           "name": "Anh Dao"
         },
         {
-          "authorId": "2338825594",
+          "authorId": "2350511920",
           "name": "Kewei Sui"
         },
         {
@@ -1904,7 +3360,7 @@
       "paperId": "f07cbbf8d82fdbc64679a7e869d207207cfe69ed",
       "title": "Automated Generation of Challenging Multiple-Choice Questions for Vision Language Model Evaluation",
       "year": 2025,
-      "citationCount": 1,
+      "citationCount": 3,
       "authors": [
         {
           "authorId": "49889860",
@@ -1976,7 +3432,7 @@
       "paperId": "4f62ac743e2ed33e682a9c6f5f7875723d9a7025",
       "title": "VITA-1.5: Towards GPT-4o Level Real-Time Vision and Speech Interaction",
       "year": 2025,
-      "citationCount": 14,
+      "citationCount": 21,
       "authors": [
         {
           "authorId": "2258705773",
@@ -2044,7 +3500,7 @@
       "paperId": "d8be52422a9179442fd26b7e9a44b50042415775",
       "title": "2.5 Years in Class: A Multimodal Textbook for Vision-Language Pretraining",
       "year": 2025,
-      "citationCount": 0,
+      "citationCount": 2,
       "authors": [
         {
           "authorId": "2135282890",
@@ -2067,7 +3523,7 @@
           "name": "Yongliang Shen"
         },
         {
-          "authorId": "2305951992",
+          "authorId": "1776903",
           "name": "Weiming Lu"
         },
         {
@@ -2148,7 +3604,7 @@
       "paperId": "6bcd708d2e49b34f34f157daa6bf1c3e062f57c5",
       "title": "A Survey on Large Language Model Acceleration based on KV Cache Management",
       "year": 2024,
-      "citationCount": 8,
+      "citationCount": 12,
       "authors": [
         {
           "authorId": "2145537904",
@@ -2196,7 +3652,7 @@
       "paperId": "a63ab6334c8d91c92904288a4369b1a2acf1fb9f",
       "title": "Mulberry: Empowering MLLM with o1-like Reasoning and Reflection via Collective Monte Carlo Tree Search",
       "year": 2024,
-      "citationCount": 12,
+      "citationCount": 20,
       "authors": [
         {
           "authorId": "2268465257",
@@ -2331,1610 +3787,6 @@
           "name": "Jifeng Dai"
         }
       ]
-    },
-    {
-      "paperId": "0a5cd939ac08a93725b5c2ac727d0861771bf485",
-      "title": "LLaVA-UHD v2: an MLLM Integrating High-Resolution Feature Pyramid via Hierarchical Window Transformer",
-      "year": 2024,
-      "citationCount": 2,
-      "authors": [
-        {
-          "authorId": "2336012888",
-          "name": "Yipeng Zhang"
-        },
-        {
-          "authorId": "2336042614",
-          "name": "Yifan Liu"
-        },
-        {
-          "authorId": "2292210274",
-          "name": "Zonghao Guo"
-        },
-        {
-          "authorId": "2108215648",
-          "name": "Yidan Zhang"
-        },
-        {
-          "authorId": "2335946896",
-          "name": "Xuesong Yang"
-        },
-        {
-          "authorId": "2335912091",
-          "name": "Chi Chen"
-        },
-        {
-          "authorId": "2303303180",
-          "name": "Jun Song"
-        },
-        {
-          "authorId": "2303257086",
-          "name": "Bo Zheng"
-        },
-        {
-          "authorId": "2297153776",
-          "name": "Yuan Yao"
-        },
-        {
-          "authorId": "2336018991",
-          "name": "Zhiyuan Liu"
-        },
-        {
-          "authorId": "2257036129",
-          "name": "Tat-Seng Chua"
-        },
-        {
-          "authorId": "2273551430",
-          "name": "Maosong Sun"
-        }
-      ]
-    },
-    {
-      "paperId": "f1b1dd002edce21ca241d5df7caff05567af37a9",
-      "title": "CoMT: A Novel Benchmark for Chain of Multi-modal Thought on Large Vision-Language Models",
-      "year": 2024,
-      "citationCount": 1,
-      "authors": [
-        {
-          "authorId": "2335821179",
-          "name": "Zihui Cheng"
-        },
-        {
-          "authorId": "2133447633",
-          "name": "Qiguang Chen"
-        },
-        {
-          "authorId": "2303455452",
-          "name": "Jin Zhang"
-        },
-        {
-          "authorId": "2328007145",
-          "name": "Hao Fei"
-        },
-        {
-          "authorId": "2336955105",
-          "name": "Xiaocheng Feng"
-        },
-        {
-          "authorId": "2262459819",
-          "name": "Wanxiang Che"
-        },
-        {
-          "authorId": "2266810224",
-          "name": "Min Li"
-        },
-        {
-          "authorId": "49169076",
-          "name": "Libo Qin"
-        }
-      ]
-    },
-    {
-      "paperId": "48adf25f6fda3711759e307c2e3aaab42f314854",
-      "title": "Attention-driven GUI Grounding: Leveraging Pretrained Multimodal Large Language Models without Fine-Tuning",
-      "year": 2024,
-      "citationCount": 0,
-      "authors": [
-        {
-          "authorId": "150128927",
-          "name": "Hai-Ming Xu"
-        },
-        {
-          "authorId": "2335590084",
-          "name": "Qi Chen"
-        },
-        {
-          "authorId": "2304623450",
-          "name": "Lei Wang"
-        },
-        {
-          "authorId": "2243894782",
-          "name": "Lingqiao Liu"
-        }
-      ]
-    },
-    {
-      "paperId": "86cb9450e8d02ddc9d83ecd9dc4f1fb12adf00cc",
-      "title": "Falcon-UI: Understanding GUI Before Following User Instructions",
-      "year": 2024,
-      "citationCount": 2,
-      "authors": [
-        {
-          "authorId": "2311999957",
-          "name": "Huawen Shen"
-        },
-        {
-          "authorId": "2312096447",
-          "name": "Chang Liu"
-        },
-        {
-          "authorId": "2334947766",
-          "name": "Gengluo Li"
-        },
-        {
-          "authorId": "2334885388",
-          "name": "Xinlong Wang"
-        },
-        {
-          "authorId": "49454803",
-          "name": "Yu ZHOU"
-        },
-        {
-          "authorId": "2279255473",
-          "name": "Can Ma"
-        },
-        {
-          "authorId": "2305263249",
-          "name": "Xiangyang Ji"
-        }
-      ]
-    },
-    {
-      "paperId": "7b317fae3faf170bf9435b0823dea9177afc2755",
-      "title": "MIT-10M: A Large Scale Parallel Corpus of Multilingual Image Translation",
-      "year": 2024,
-      "citationCount": 0,
-      "authors": [
-        {
-          "authorId": "2316954411",
-          "name": "Bo Li"
-        },
-        {
-          "authorId": "2322740650",
-          "name": "Shaolin Zhu"
-        },
-        {
-          "authorId": "2289835858",
-          "name": "Lijie Wen"
-        }
-      ]
-    },
-    {
-      "paperId": "5f49ec9560ca9e03eff32a607f6caabc08f98926",
-      "title": "Expanding Performance Boundaries of Open-Source Multimodal Models with Model, Data, and Test-Time Scaling",
-      "year": 2024,
-      "citationCount": 109,
-      "authors": [
-        {
-          "authorId": "2305731793",
-          "name": "Zhe Chen"
-        },
-        {
-          "authorId": "2190474418",
-          "name": "Weiyun Wang"
-        },
-        {
-          "authorId": "2312369775",
-          "name": "Yue Cao"
-        },
-        {
-          "authorId": "2312345209",
-          "name": "Yangzhou Liu"
-        },
-        {
-          "authorId": "2262400432",
-          "name": "Zhangwei Gao"
-        },
-        {
-          "authorId": "2262217755",
-          "name": "Erfei Cui"
-        },
-        {
-          "authorId": "2327111699",
-          "name": "Jinguo Zhu"
-        },
-        {
-          "authorId": "2298577575",
-          "name": "Shenglong Ye"
-        },
-        {
-          "authorId": "2251049221",
-          "name": "Hao Tian"
-        },
-        {
-          "authorId": "2305947006",
-          "name": "Zhaoyang Liu"
-        },
-        {
-          "authorId": "2334465171",
-          "name": "Lixin Gu"
-        },
-        {
-          "authorId": "2257372052",
-          "name": "Xuehui Wang"
-        },
-        {
-          "authorId": "2329620809",
-          "name": "Qingyun Li"
-        },
-        {
-          "authorId": "2289958948",
-          "name": "Yiming Ren"
-        },
-        {
-          "authorId": "2334564150",
-          "name": "Zixuan Chen"
-        },
-        {
-          "authorId": "2279419424",
-          "name": "Jiapeng Luo"
-        },
-        {
-          "authorId": "2323739617",
-          "name": "Jiahao Wang"
-        },
-        {
-          "authorId": "2190838172",
-          "name": "Tan Jiang"
-        },
-        {
-          "authorId": "2334566068",
-          "name": "Bo Wang"
-        },
-        {
-          "authorId": "2267889334",
-          "name": "Conghui He"
-        },
-        {
-          "authorId": "2297846008",
-          "name": "Botian Shi"
-        },
-        {
-          "authorId": "2298585927",
-          "name": "Xingcheng Zhang"
-        },
-        {
-          "authorId": "2335196335",
-          "name": "Han Lv"
-        },
-        {
-          "authorId": "2263510675",
-          "name": "Yi Wang"
-        },
-        {
-          "authorId": "2283133523",
-          "name": "Wenqi Shao"
-        },
-        {
-          "authorId": "2288188121",
-          "name": "Pei Chu"
-        },
-        {
-          "authorId": "2289992992",
-          "name": "Zhongying Tu"
-        },
-        {
-          "authorId": "2118328745",
-          "name": "Tong He"
-        },
-        {
-          "authorId": "2307435055",
-          "name": "Zhiyong Wu"
-        },
-        {
-          "authorId": "2268012155",
-          "name": "Hui Deng"
-        },
-        {
-          "authorId": "2293426655",
-          "name": "Jiaye Ge"
-        },
-        {
-          "authorId": "2298717051",
-          "name": "Kaiming Chen"
-        },
-        {
-          "authorId": "2197075911",
-          "name": "Min Dou"
-        },
-        {
-          "authorId": "152309485",
-          "name": "Lewei Lu"
-        },
-        {
-          "authorId": "2578924",
-          "name": "Xizhou Zhu"
-        },
-        {
-          "authorId": "2276323159",
-          "name": "Tong Lu"
-        },
-        {
-          "authorId": "2330224431",
-          "name": "Dahu Lin"
-        },
-        {
-          "authorId": "2300923227",
-          "name": "Yunfeng Qiao"
-        },
-        {
-          "authorId": "2292283383",
-          "name": "Jifeng Dai"
-        },
-        {
-          "authorId": "2257133501",
-          "name": "Wenhai Wang"
-        }
-      ]
-    },
-    {
-      "paperId": "0e9363b8bc9715acdb9fabed53c68290c3d9c745",
-      "title": "EgoPlan-Bench2: A Benchmark for Multimodal Large Language Model Planning in Real-World Scenarios",
-      "year": 2024,
-      "citationCount": 3,
-      "authors": [
-        {
-          "authorId": "2333956635",
-          "name": "Lu Qiu"
-        },
-        {
-          "authorId": "51123495",
-          "name": "Yuying Ge"
-        },
-        {
-          "authorId": "2298711929",
-          "name": "Yi Chen"
-        },
-        {
-          "authorId": "152988335",
-          "name": "Yixiao Ge"
-        },
-        {
-          "authorId": "2265579883",
-          "name": "Ying Shan"
-        },
-        {
-          "authorId": "2233227802",
-          "name": "Xihui Liu"
-        }
-      ]
-    },
-    {
-      "paperId": "74fc4ed1c3060f134f0916b69434ab5be7cd05c7",
-      "title": "VISCO: Benchmarking Fine-Grained Critique and Correction Towards Self-Improvement in Visual Reasoning",
-      "year": 2024,
-      "citationCount": 1,
-      "authors": [
-        {
-          "authorId": "2288110531",
-          "name": "Xueqing Wu"
-        },
-        {
-          "authorId": "2333589555",
-          "name": "Yuheng Ding"
-        },
-        {
-          "authorId": "2319420762",
-          "name": "Bingxuan Li"
-        },
-        {
-          "authorId": "2325210746",
-          "name": "Pan Lu"
-        },
-        {
-          "authorId": "2266239479",
-          "name": "Da Yin"
-        },
-        {
-          "authorId": "2259015895",
-          "name": "Kai-Wei Chang"
-        },
-        {
-          "authorId": "2269460824",
-          "name": "Nanyun Peng"
-        }
-      ]
-    },
-    {
-      "paperId": "5c7bd0e337f2080038c0c62d6167dfd6d5007ed2",
-      "title": "OBI-Bench: Can LMMs Aid in Study of Ancient Script on Oracle Bones?",
-      "year": 2024,
-      "citationCount": 1,
-      "authors": [
-        {
-          "authorId": "2268795764",
-          "name": "Zijian Chen"
-        },
-        {
-          "authorId": "2333450287",
-          "name": "Tingzhu Chen"
-        },
-        {
-          "authorId": "2268821294",
-          "name": "Wenjun Zhang"
-        },
-        {
-          "authorId": "2333365277",
-          "name": "Guangtao Zhai"
-        }
-      ]
-    },
-    {
-      "paperId": "565582bcf30a55ceafa453e94da26d528eb1fc20",
-      "title": "VLsI: Verbalized Layers-to-Interactions from Large to Small Vision Language Models",
-      "year": 2024,
-      "citationCount": 0,
-      "authors": [
-        {
-          "authorId": "2152440079",
-          "name": "Byung-Kwan Lee"
-        },
-        {
-          "authorId": "2307471477",
-          "name": "Ryo Hachiuma"
-        },
-        {
-          "authorId": "2333378657",
-          "name": "Yu-Chiang Frank Wang"
-        },
-        {
-          "authorId": "2073193069",
-          "name": "Yonghyun Ro"
-        },
-        {
-          "authorId": "2333795724",
-          "name": "Yueh-Hua Wu"
-        }
-      ]
-    },
-    {
-      "paperId": "8690c869ab7e18cdbd4f17e38a41727c16b28221",
-      "title": "Critic-V: VLM Critics Help Catch VLM Errors in Multimodal Reasoning",
-      "year": 2024,
-      "citationCount": 6,
-      "authors": [
-        {
-          "authorId": "2283952275",
-          "name": "Di Zhang"
-        },
-        {
-          "authorId": "2316236029",
-          "name": "Jingdi Lei"
-        },
-        {
-          "authorId": "2109383573",
-          "name": "Junxian Li"
-        },
-        {
-          "authorId": "2316089170",
-          "name": "Xunzhi Wang"
-        },
-        {
-          "authorId": "2332665855",
-          "name": "Yujie Liu"
-        },
-        {
-          "authorId": "2124477940",
-          "name": "Zonglin Yang"
-        },
-        {
-          "authorId": "2259858493",
-          "name": "Jiatong Li"
-        },
-        {
-          "authorId": "2332666924",
-          "name": "Weida Wang"
-        },
-        {
-          "authorId": "2332713907",
-          "name": "Suorong Yang"
-        },
-        {
-          "authorId": "2302781884",
-          "name": "Jianbo Wu"
-        },
-        {
-          "authorId": "2283133268",
-          "name": "Peng Ye"
-        },
-        {
-          "authorId": "2283918605",
-          "name": "Wanli Ouyang"
-        },
-        {
-          "authorId": "2116324147",
-          "name": "Dongzhan Zhou"
-        }
-      ]
-    },
-    {
-      "paperId": "b3c26417b43f105651f9a0f867a38586becd1da4",
-      "title": "HEIE: MLLM-Based Hierarchical Explainable AIGC Image Implausibility Evaluator",
-      "year": 2024,
-      "citationCount": 0,
-      "authors": [
-        {
-          "authorId": "2256810480",
-          "name": "Fan Yang"
-        },
-        {
-          "authorId": "2332363468",
-          "name": "Ru Zhen"
-        },
-        {
-          "authorId": "2332434041",
-          "name": "Jianing Wang"
-        },
-        {
-          "authorId": "2316098158",
-          "name": "Yanhao Zhang"
-        },
-        {
-          "authorId": "2316117662",
-          "name": "Haoxiang Chen"
-        },
-        {
-          "authorId": "2316096563",
-          "name": "Haonan Lu"
-        },
-        {
-          "authorId": "2243033701",
-          "name": "Sicheng Zhao"
-        },
-        {
-          "authorId": "2256742201",
-          "name": "Guiguang Ding"
-        }
-      ]
-    },
-    {
-      "paperId": "0aa9a80890f416e880be08f43f5d8287d6597473",
-      "title": "DiagramQG: Concept-Focused Diagram Question Generation via Hierarchical Knowledge Integration",
-      "year": 2024,
-      "citationCount": 0,
-      "authors": [
-        {
-          "authorId": "2281396425",
-          "name": "Xinyu Zhang"
-        },
-        {
-          "authorId": "2145417611",
-          "name": "Lingling Zhang"
-        },
-        {
-          "authorId": "2333582823",
-          "name": "Yanrui Wu"
-        },
-        {
-          "authorId": "2319458239",
-          "name": "Muye Huang"
-        },
-        {
-          "authorId": "2267272280",
-          "name": "Wenjun Wu"
-        },
-        {
-          "authorId": "2315792422",
-          "name": "Bo Li"
-        },
-        {
-          "authorId": "2117147558",
-          "name": "Shaowei Wang"
-        },
-        {
-          "authorId": "2280333072",
-          "name": "Basura Fernando"
-        },
-        {
-          "authorId": "2319504019",
-          "name": "Jun Liu"
-        }
-      ]
-    },
-    {
-      "paperId": "bf790cb8a95da05dcafd6bf1a4d02efce784720b",
-      "title": "ZoomEye: Enhancing Multimodal LLMs with Human-Like Zooming Capabilities through Tree-Based Image Exploration",
-      "year": 2024,
-      "citationCount": 3,
-      "authors": [
-        {
-          "authorId": "2174678931",
-          "name": "Haozhan Shen"
-        },
-        {
-          "authorId": "2261168430",
-          "name": "Kangjia Zhao"
-        },
-        {
-          "authorId": "2261366766",
-          "name": "Tiancheng Zhao"
-        },
-        {
-          "authorId": "2308996906",
-          "name": "Ruochen Xu"
-        },
-        {
-          "authorId": "2270181751",
-          "name": "Zilun Zhang"
-        },
-        {
-          "authorId": "2152187203",
-          "name": "Mingwei Zhu"
-        },
-        {
-          "authorId": "2262516354",
-          "name": "Jianwei Yin"
-        }
-      ]
-    },
-    {
-      "paperId": "4b24d3519391380520461abcf5fbe22cd149f731",
-      "title": "Beyond Sight: Towards Cognitive Alignment in LVLM via Enriched Visual Knowledge",
-      "year": 2024,
-      "citationCount": 0,
-      "authors": [
-        {
-          "authorId": "2316586612",
-          "name": "Yaqi Zhao"
-        },
-        {
-          "authorId": "2316586299",
-          "name": "Yuanyang Yin"
-        },
-        {
-          "authorId": "2333420885",
-          "name": "Lin Li"
-        },
-        {
-          "authorId": "2244046109",
-          "name": "Mingan Lin"
-        },
-        {
-          "authorId": "2328009632",
-          "name": "Victor Shea-Jay Huang"
-        },
-        {
-          "authorId": "2333394750",
-          "name": "Siwei Chen"
-        },
-        {
-          "authorId": "2299165327",
-          "name": "Weipeng Chen"
-        },
-        {
-          "authorId": "2316559006",
-          "name": "Baoqun Yin"
-        },
-        {
-          "authorId": "2183768304",
-          "name": "Zenan Zhou"
-        },
-        {
-          "authorId": "2316585161",
-          "name": "Wentao Zhang"
-        }
-      ]
-    },
-    {
-      "paperId": "13136f0614742d62c0478cc4eec630bfe67217d4",
-      "title": "Panther: Illuminate the Sight of Multimodal LLMs with Instruction-Guided Visual Prompts",
-      "year": 2024,
-      "citationCount": 0,
-      "authors": [
-        {
-          "authorId": "2257428953",
-          "name": "Honglin Li"
-        },
-        {
-          "authorId": "2331681908",
-          "name": "Yuting Gao"
-        },
-        {
-          "authorId": "50812118",
-          "name": "Chenglu Zhu"
-        },
-        {
-          "authorId": "2331263470",
-          "name": "Jingdong Chen"
-        },
-        {
-          "authorId": "2261787428",
-          "name": "Ming Yang"
-        },
-        {
-          "authorId": "2266438802",
-          "name": "Lin Yang"
-        }
-      ]
-    },
-    {
-      "paperId": "d3a39c06c9c42f009d2525a11774c4a89c874336",
-      "title": "Visual Cue Enhancement and Dual Low-Rank Adaptation for Efficient Visual Instruction Fine-Tuning",
-      "year": 2024,
-      "citationCount": 0,
-      "authors": [
-        {
-          "authorId": "2310344545",
-          "name": "Pengkun Jiao"
-        },
-        {
-          "authorId": "2289341222",
-          "name": "Bin Zhu"
-        },
-        {
-          "authorId": "2311917125",
-          "name": "Jingjing Chen"
-        },
-        {
-          "authorId": "143977389",
-          "name": "C. Ngo"
-        },
-        {
-          "authorId": "2267603439",
-          "name": "Yu-Gang Jiang"
-        }
-      ]
-    },
-    {
-      "paperId": "7de5783c45dade7ca94735f0d41dd7655bef3d74",
-      "title": "SignEye: Traffic Sign Interpretation from Vehicle First-Person View",
-      "year": 2024,
-      "citationCount": 1,
-      "authors": [
-        {
-          "authorId": "2331359441",
-          "name": "Chuang Yang"
-        },
-        {
-          "authorId": "2267487820",
-          "name": "Xu Han"
-        },
-        {
-          "authorId": "2267339803",
-          "name": "Tao Han"
-        },
-        {
-          "authorId": "2309656096",
-          "name": "Yuejiao Su"
-        },
-        {
-          "authorId": "2302531336",
-          "name": "Junyu Gao"
-        },
-        {
-          "authorId": "2331368207",
-          "name": "Hongyuan Zhang"
-        },
-        {
-          "authorId": "2316827424",
-          "name": "Yi Wang"
-        },
-        {
-          "authorId": "2241906237",
-          "name": "Lap-Pui Chau"
-        }
-      ]
-    },
-    {
-      "paperId": "83255346b964833a03c564dfa4b945c8dbc3433a",
-      "title": "A Picture is Worth A Thousand Numbers: Enabling LLMs Reason about Time Series via Visualization",
-      "year": 2024,
-      "citationCount": 3,
-      "authors": [
-        {
-          "authorId": "2143856875",
-          "name": "Haoxin Liu"
-        },
-        {
-          "authorId": "2330238158",
-          "name": "Chenghao Liu"
-        },
-        {
-          "authorId": "2266467183",
-          "name": "B. A. Prakash"
-        },
-        {
-          "authorId": "151024076",
-          "name": "Harshavardhan Kamarthi"
-        },
-        {
-          "authorId": "2316687814",
-          "name": "Lingkai Kong"
-        },
-        {
-          "authorId": "2257259600",
-          "name": "Zhiyuan Zhao"
-        },
-        {
-          "authorId": "2306214918",
-          "name": "Chao Zhang"
-        },
-        {
-          "authorId": "2287253253",
-          "name": "Aditya Prakash"
-        },
-        {
-          "authorId": "2279408907",
-          "name": "Shangqing Xu"
-        },
-        {
-          "authorId": "2306253431",
-          "name": "Aditya B. Sasanur"
-        },
-        {
-          "authorId": "2306754604",
-          "name": "Megha Sharma"
-        },
-        {
-          "authorId": "2256427436",
-          "name": "Jiaming Cui"
-        },
-        {
-          "authorId": "2303259263",
-          "name": "Qingsong Wen"
-        },
-        {
-          "authorId": "2304515949",
-          "name": "Jindong Wang"
-        },
-        {
-          "authorId": "151024076",
-          "name": "Harshavardhan Kamarthi"
-        },
-        {
-          "authorId": "2330215842",
-          "name": "Lst-prompt"
-        },
-        {
-          "authorId": "2254120943",
-          "name": "Yong Liu"
-        },
-        {
-          "authorId": "2203368846",
-          "name": "Tengge Hu"
-        },
-        {
-          "authorId": "2257340579",
-          "name": "Haoran Zhang"
-        },
-        {
-          "authorId": "2330420423",
-          "name": "Haixu Wu"
-        },
-        {
-          "authorId": "2278583258",
-          "name": "Haoyu Lu"
-        },
-        {
-          "authorId": "2296667805",
-          "name": "Wen Liu"
-        },
-        {
-          "authorId": "2298860033",
-          "name": "Boxiang Zhang"
-        },
-        {
-          "authorId": "2329483678",
-          "name": "Bing-Yi Wang"
-        },
-        {
-          "authorId": "2307702769",
-          "name": "Kai Dong"
-        },
-        {
-          "authorId": "2283183674",
-          "name": "Bo Liu"
-        },
-        {
-          "authorId": "2330217219",
-          "name": "M. Mathis"
-        },
-        {
-          "authorId": "2273815979",
-          "name": "Alexander E Webber"
-        },
-        {
-          "authorId": "2238191554",
-          "name": "Tomás M León"
-        },
-        {
-          "authorId": "2273770226",
-          "name": "Erin L Murray"
-        },
-        {
-          "authorId": "2273904053",
-          "name": "Monica Sun"
-        },
-        {
-          "authorId": "2298030441",
-          "name": "Lauren A White"
-        },
-        {
-          "authorId": "2330216458",
-          "name": "Logan C Brooks"
-        },
-        {
-          "authorId": "30008497",
-          "name": "Alden Green"
-        },
-        {
-          "authorId": "2145301068",
-          "name": "Addison J. Hu"
-        }
-      ]
-    },
-    {
-      "paperId": "226787d438bc47f986f82625d6b74fa6f733ef60",
-      "title": "M3DocRAG: Multi-modal Retrieval is What You Need for Multi-page Multi-document Understanding",
-      "year": 2024,
-      "citationCount": 4,
-      "authors": [
-        {
-          "authorId": "2706729",
-          "name": "Jaemin Cho"
-        },
-        {
-          "authorId": "2712224",
-          "name": "Debanjan Mahata"
-        },
-        {
-          "authorId": "2329943",
-          "name": "Ozan Irsoy"
-        },
-        {
-          "authorId": "2330150110",
-          "name": "Yujie He"
-        },
-        {
-          "authorId": "2276608813",
-          "name": "Mohit Bansal"
-        }
-      ]
-    },
-    {
-      "paperId": "04a161d791194819c11686cbb4e20e2a8105d330",
-      "title": "M3SciQA: A Multi-Modal Multi-Document Scientific QA Benchmark for Evaluating Foundation Models",
-      "year": 2024,
-      "citationCount": 0,
-      "authors": [
-        {
-          "authorId": "2328342749",
-          "name": "Chuhan Li"
-        },
-        {
-          "authorId": "2328289446",
-          "name": "Ziyao Shangguan"
-        },
-        {
-          "authorId": "46316984",
-          "name": "Yilun Zhao"
-        },
-        {
-          "authorId": "2329730173",
-          "name": "Deyuan Li"
-        },
-        {
-          "authorId": "2316953172",
-          "name": "Yixin Liu"
-        },
-        {
-          "authorId": "2266838179",
-          "name": "Arman Cohan"
-        }
-      ]
-    },
-    {
-      "paperId": "b45cca1e804cd1ee8bc0cc29906ed22ffbf8f0c9",
-      "title": "Exploring Response Uncertainty in MLLMs: An Empirical Evaluation under Misleading Scenarios",
-      "year": 2024,
-      "citationCount": 2,
-      "authors": [
-        {
-          "authorId": "2329184955",
-          "name": "Yunkai Dang"
-        },
-        {
-          "authorId": "2330227028",
-          "name": "Mengxi Gao"
-        },
-        {
-          "authorId": "2262511952",
-          "name": "Yibo Yan"
-        },
-        {
-          "authorId": "2316449100",
-          "name": "Xin Zou"
-        },
-        {
-          "authorId": "2316676931",
-          "name": "Yanggan Gu"
-        },
-        {
-          "authorId": "10017193",
-          "name": "Aiwei Liu"
-        },
-        {
-          "authorId": "2307036168",
-          "name": "Xuming Hu"
-        }
-      ]
-    },
-    {
-      "paperId": "ffeedd5d12e19556303742dab12a306626d2a0f1",
-      "title": "Benchmarking Multimodal Retrieval Augmented Generation with Dynamic VQA Dataset and Self-adaptive Planning Agent",
-      "year": 2024,
-      "citationCount": 4,
-      "authors": [
-        {
-          "authorId": "2258649570",
-          "name": "Yangning Li"
-        },
-        {
-          "authorId": "2110503552",
-          "name": "Yinghui Li"
-        },
-        {
-          "authorId": "47120498",
-          "name": "Xinyu Wang"
-        },
-        {
-          "authorId": "2267428955",
-          "name": "Yong Jiang"
-        },
-        {
-          "authorId": "2329286912",
-          "name": "Zhen Zhang"
-        },
-        {
-          "authorId": "2329329799",
-          "name": "Xinran Zheng"
-        },
-        {
-          "authorId": "2329409745",
-          "name": "Hui Wang"
-        },
-        {
-          "authorId": "2238396445",
-          "name": "Hai-Tao Zheng"
-        },
-        {
-          "authorId": "35930962",
-          "name": "Pengjun Xie"
-        },
-        {
-          "authorId": "2284755458",
-          "name": "Philip S. Yu"
-        },
-        {
-          "authorId": "2276428076",
-          "name": "Fei Huang"
-        },
-        {
-          "authorId": "2284490340",
-          "name": "Jingren Zhou"
-        }
-      ]
-    },
-    {
-      "paperId": "b43b78340333b2785bc88adda28b8cacb26bfa27",
-      "title": "Multi-modal scene graph inspired policy for visual navigation",
-      "year": 2024,
-      "citationCount": 0,
-      "authors": [
-        {
-          "authorId": "2298509400",
-          "name": "Yu He"
-        },
-        {
-          "authorId": "2328828729",
-          "name": "Kang Zhou"
-        },
-        {
-          "authorId": "2328526151",
-          "name": "T. L. Tian"
-        }
-      ]
-    },
-    {
-      "paperId": "8e35a4ac3378442c71d2b74b4958ca92c725eaa5",
-      "title": "DynaMath: A Dynamic Visual Benchmark for Evaluating Mathematical Reasoning Robustness of Vision Language Models",
-      "year": 2024,
-      "citationCount": 9,
-      "authors": [
-        {
-          "authorId": "2329099337",
-          "name": "Chengke Zou"
-        },
-        {
-          "authorId": "2116513714",
-          "name": "Xing-ming Guo"
-        },
-        {
-          "authorId": "145094495",
-          "name": "Rui Yang"
-        },
-        {
-          "authorId": "2329114461",
-          "name": "Junyu Zhang"
-        },
-        {
-          "authorId": "2284794937",
-          "name": "Bin Hu"
-        },
-        {
-          "authorId": "2284035235",
-          "name": "Huan Zhang"
-        }
-      ]
-    },
-    {
-      "paperId": "45a3db25a7a278781eee3da88195966a5e29eba9",
-      "title": "Rethinking Visual Dependency in Long-Context Reasoning for Large Vision-Language Models",
-      "year": 2024,
-      "citationCount": 14,
-      "authors": [
-        {
-          "authorId": "2110348767",
-          "name": "Yucheng Zhou"
-        },
-        {
-          "authorId": "2327864248",
-          "name": "Zhi Rao"
-        },
-        {
-          "authorId": "2328399359",
-          "name": "Jun Wan"
-        },
-        {
-          "authorId": "2266802577",
-          "name": "Jianbing Shen"
-        }
-      ]
-    },
-    {
-      "paperId": "7cad83ee8fd3def0fc77481ef621bdbd76cf22d0",
-      "title": "R-CoT: Reverse Chain-of-Thought Problem Generation for Geometric Reasoning in Large Multimodal Models",
-      "year": 2024,
-      "citationCount": 6,
-      "authors": [
-        {
-          "authorId": "2275821103",
-          "name": "Linger Deng"
-        },
-        {
-          "authorId": "2266428398",
-          "name": "Yuliang Liu"
-        },
-        {
-          "authorId": "2327411327",
-          "name": "Bohan Li"
-        },
-        {
-          "authorId": "2061549522",
-          "name": "Dongliang Luo"
-        },
-        {
-          "authorId": "2161945021",
-          "name": "Liang Wu"
-        },
-        {
-          "authorId": "2248958848",
-          "name": "Chengquan Zhang"
-        },
-        {
-          "authorId": "10344582",
-          "name": "Pengyuan Lyu"
-        },
-        {
-          "authorId": "2327347391",
-          "name": "Ziyang Zhang"
-        },
-        {
-          "authorId": "2327300376",
-          "name": "Gang Zhang"
-        },
-        {
-          "authorId": "2287836061",
-          "name": "Errui Ding"
-        },
-        {
-          "authorId": "2136033340",
-          "name": "Yingying Zhu"
-        },
-        {
-          "authorId": "2258401423",
-          "name": "Xiang Bai"
-        }
-      ]
-    },
-    {
-      "paperId": "b0721bd8644fc3cd5d75f2974adf30973234d607",
-      "title": "Mini-InternVL: A Flexible-Transfer Pocket Multimodal Model with 5% Parameters and 90% Performance",
-      "year": 2024,
-      "citationCount": 10,
-      "authors": [
-        {
-          "authorId": "2262400432",
-          "name": "Zhangwei Gao"
-        },
-        {
-          "authorId": "2305731793",
-          "name": "Zhe Chen"
-        },
-        {
-          "authorId": "2262217755",
-          "name": "Erfei Cui"
-        },
-        {
-          "authorId": "2289958948",
-          "name": "Yiming Ren"
-        },
-        {
-          "authorId": "2190474418",
-          "name": "Weiyun Wang"
-        },
-        {
-          "authorId": "2327111699",
-          "name": "Jinguo Zhu"
-        },
-        {
-          "authorId": "2251049221",
-          "name": "Hao Tian"
-        },
-        {
-          "authorId": "2298577575",
-          "name": "Shenglong Ye"
-        },
-        {
-          "authorId": "2275304138",
-          "name": "Junjun He"
-        },
-        {
-          "authorId": "2578924",
-          "name": "Xizhou Zhu"
-        },
-        {
-          "authorId": "152309485",
-          "name": "Lewei Lu"
-        },
-        {
-          "authorId": "2276323159",
-          "name": "Tong Lu"
-        },
-        {
-          "authorId": "2258755556",
-          "name": "Yu Qiao"
-        },
-        {
-          "authorId": "2292283383",
-          "name": "Jifeng Dai"
-        },
-        {
-          "authorId": "2257133501",
-          "name": "Wenhai Wang"
-        }
-      ]
-    },
-    {
-      "paperId": "1921e2e7f65eec605c4690a215c8901eb14320e4",
-      "title": "Beyond Filtering: Adaptive Image-Text Quality Enhancement for MLLM Pretraining",
-      "year": 2024,
-      "citationCount": 0,
-      "authors": [
-        {
-          "authorId": "2326671798",
-          "name": "Han Huang"
-        },
-        {
-          "authorId": "2306153273",
-          "name": "Yuqi Huo"
-        },
-        {
-          "authorId": "2307482335",
-          "name": "Zijia Zhao"
-        },
-        {
-          "authorId": "2306061596",
-          "name": "Haoyu Lu"
-        },
-        {
-          "authorId": "50425438",
-          "name": "Shu Wu"
-        },
-        {
-          "authorId": "2242351985",
-          "name": "Bingning Wang"
-        },
-        {
-          "authorId": "48873756",
-          "name": "Q. Liu"
-        },
-        {
-          "authorId": "2290136725",
-          "name": "Weipeng Chen"
-        },
-        {
-          "authorId": "2258184369",
-          "name": "Liang Wang"
-        }
-      ]
-    },
-    {
-      "paperId": "cc5f0c6e92ec9d37fba3f52defa3efe04fdb08d0",
-      "title": "NaturalBench: Evaluating Vision-Language Models on Natural Adversarial Samples",
-      "year": 2024,
-      "citationCount": 13,
-      "authors": [
-        {
-          "authorId": "2294776993",
-          "name": "Baiqi Li"
-        },
-        {
-          "authorId": "2112411338",
-          "name": "Zhiqiu Lin"
-        },
-        {
-          "authorId": "2327303440",
-          "name": "Wenxuan Peng"
-        },
-        {
-          "authorId": "2326839258",
-          "name": "Jean de Dieu Nyandwi"
-        },
-        {
-          "authorId": "2327004464",
-          "name": "Daniel Jiang"
-        },
-        {
-          "authorId": "2149504559",
-          "name": "Zixian Ma"
-        },
-        {
-          "authorId": "1452678825",
-          "name": "Simran Khanuja"
-        },
-        {
-          "authorId": "2257273968",
-          "name": "Ranjay Krishna"
-        },
-        {
-          "authorId": "2285194103",
-          "name": "Graham Neubig"
-        },
-        {
-          "authorId": "2244744284",
-          "name": "Deva Ramanan"
-        }
-      ]
-    },
-    {
-      "paperId": "d10c26bddb9ea90192148cc0ae1c01fb65a4e7cf",
-      "title": "MultiChartQA: Benchmarking Vision-Language Models on Multi-Chart Problems",
-      "year": 2024,
-      "citationCount": 1,
-      "authors": [
-        {
-          "authorId": "2326914903",
-          "name": "Zifeng Zhu"
-        },
-        {
-          "authorId": "2266769392",
-          "name": "Mengzhao Jia"
-        },
-        {
-          "authorId": "2109087161",
-          "name": "Zhihan Zhang"
-        },
-        {
-          "authorId": "2327006076",
-          "name": "Lang Li"
-        },
-        {
-          "authorId": "2324854937",
-          "name": "Meng Jiang"
-        }
-      ]
-    },
-    {
-      "paperId": "b438a496045feccd1c028f1ce034062636a1ee04",
-      "title": "Janus: Decoupling Visual Encoding for Unified Multimodal Understanding and Generation",
-      "year": 2024,
-      "citationCount": 35,
-      "authors": [
-        {
-          "authorId": "2277988832",
-          "name": "Chengyue Wu"
-        },
-        {
-          "authorId": "2326444644",
-          "name": "Xiaokang Chen"
-        },
-        {
-          "authorId": "2326514370",
-          "name": "Zhiyu Wu"
-        },
-        {
-          "authorId": "2326805499",
-          "name": "Yiyang Ma"
-        },
-        {
-          "authorId": "2326998908",
-          "name": "Xingchao Liu"
-        },
-        {
-          "authorId": "2327000291",
-          "name": "Zizheng Pan"
-        },
-        {
-          "authorId": "2326440587",
-          "name": "Wen Liu"
-        },
-        {
-          "authorId": "2279107352",
-          "name": "Zhenda Xie"
-        },
-        {
-          "authorId": "2279159169",
-          "name": "Xingkai Yu"
-        },
-        {
-          "authorId": "2278217940",
-          "name": "C. Ruan"
-        },
-        {
-          "authorId": "2295886816",
-          "name": "Ping Luo"
-        }
-      ]
-    },
-    {
-      "paperId": "b09c2c0b7b3498fab4cfdbece3323c896ad60317",
-      "title": "Identifying Implicit Social Biases in Vision-Language Models",
-      "year": 2024,
-      "citationCount": 5,
-      "authors": [
-        {
-          "authorId": "2141059217",
-          "name": "Kimia Hamidieh"
-        },
-        {
-          "authorId": "2135690782",
-          "name": "Haoran Zhang"
-        },
-        {
-          "authorId": "2128956690",
-          "name": "Walter Gerych"
-        },
-        {
-          "authorId": "1452598350",
-          "name": "Tom Hartvigsen"
-        },
-        {
-          "authorId": "2275548863",
-          "name": "Marzyeh Ghassemi"
-        }
-      ]
-    },
-    {
-      "paperId": "d2626d990c9b2a2ffc4de76b266b4653e36fffc4",
-      "title": "MLLM can see? Dynamic Correction Decoding for Hallucination Mitigation",
-      "year": 2024,
-      "citationCount": 1,
-      "authors": [
-        {
-          "authorId": "2279862515",
-          "name": "Chenxi Wang"
-        },
-        {
-          "authorId": "2143735911",
-          "name": "Xiang Chen"
-        },
-        {
-          "authorId": "2153010067",
-          "name": "Ningyu Zhang"
-        },
-        {
-          "authorId": "2064522174",
-          "name": "Bo Tian"
-        },
-        {
-          "authorId": "2326503114",
-          "name": "Haoming Xu"
-        },
-        {
-          "authorId": "152931849",
-          "name": "Shumin Deng"
-        },
-        {
-          "authorId": "2144200945",
-          "name": "Huajun Chen"
-        }
-      ]
-    },
-    {
-      "paperId": "6c5dfb45136dfb442dea2b8a7925854ed5911187",
-      "title": "MMFuser: Multimodal Multi-Layer Feature Fuser for Fine-Grained Vision-Language Understanding",
-      "year": 2024,
-      "citationCount": 3,
-      "authors": [
-        {
-          "authorId": "2312369775",
-          "name": "Yue Cao"
-        },
-        {
-          "authorId": "2312345209",
-          "name": "Yangzhou Liu"
-        },
-        {
-          "authorId": "2305731793",
-          "name": "Zhe Chen"
-        },
-        {
-          "authorId": "2146870036",
-          "name": "Guangchen Shi"
-        },
-        {
-          "authorId": "2257133501",
-          "name": "Wenhai Wang"
-        },
-        {
-          "authorId": "2326454048",
-          "name": "Danhuai Zhao"
-        },
-        {
-          "authorId": "2276323159",
-          "name": "Tong Lu"
-        }
-      ]
-    },
-    {
-      "paperId": "26bd84d181af3812a62bc03ba005e223471a3bad",
-      "title": "Locality Alignment Improves Vision-Language Models",
-      "year": 2024,
-      "citationCount": 3,
-      "authors": [
-        {
-          "authorId": "2304323176",
-          "name": "Ian Covert"
-        },
-        {
-          "authorId": "2326061275",
-          "name": "Tony Sun"
-        },
-        {
-          "authorId": "2304494549",
-          "name": "James Zou"
-        },
-        {
-          "authorId": "2302156937",
-          "name": "Tatsunori B. Hashimoto"
-        }
-      ]
-    },
-    {
-      "paperId": "bfac292adcb757105b4f9bcf3010ad81ad91dc21",
-      "title": "Character-aware audio-visual subtitling in context",
-      "year": 2024,
-      "citationCount": 0,
-      "authors": [
-        {
-          "authorId": "98492542",
-          "name": "Jaesung Huh"
-        },
-        {
-          "authorId": "2252432062",
-          "name": "A. Zisserman"
-        }
-      ]
     }
   ],
   "references": [
@@ -3942,7 +3794,7 @@
       "paperId": "bce43cb9af37a0c8d90f8cadaebd6bb002685edd",
       "title": "InternLM-XComposer2: Mastering Free-form Text-Image Composition and Comprehension in Vision-Language Large Model",
       "year": 2024,
-      "citationCount": 197,
+      "citationCount": 227,
       "authors": [
         {
           "authorId": "2118187561",
@@ -4042,7 +3894,7 @@
       "paperId": "a35084f393108217938c393f450dc7aff4a7ceb1",
       "title": "CMMMU: A Chinese Massive Multi-discipline Multimodal Understanding Benchmark",
       "year": 2024,
-      "citationCount": 27,
+      "citationCount": 28,
       "authors": [
         {
           "authorId": "2143853895",
@@ -4142,7 +3994,7 @@
       "paperId": "ca00f4056f9039d3c1a4c3a113f5ee0527149b66",
       "title": "Eyes Wide Shut? Exploring the Visual Shortcomings of Multimodal LLMs",
       "year": 2024,
-      "citationCount": 216,
+      "citationCount": 259,
       "authors": [
         {
           "authorId": "2143202419",
@@ -4174,7 +4026,7 @@
       "paperId": "7260442ef9c0448f07ce3803efd49cebaffcebe9",
       "title": "DeepSeek LLM: Scaling Open-Source Language Models with Longtermism",
       "year": 2024,
-      "citationCount": 232,
+      "citationCount": 267,
       "authors": [
         {
           "authorId": "2278217964",
@@ -4526,7 +4378,7 @@
       "paperId": "2141ed804636a1cf339d606cd03fd3b3e9582133",
       "title": "VILA: On Pre-training for Visual Language Models",
       "year": 2023,
-      "citationCount": 254,
+      "citationCount": 316,
       "authors": [
         {
           "authorId": "2273904689",
@@ -4574,7 +4426,7 @@
       "paperId": "b240a1d8ec2860bdd7370daa3144268ce46ac018",
       "title": "Vary: Scaling up the Vision Vocabulary for Large Vision-Language Models",
       "year": 2023,
-      "citationCount": 65,
+      "citationCount": 70,
       "authors": [
         {
           "authorId": "2269416991",
@@ -4618,7 +4470,7 @@
       "paperId": "ed4e20bcd73b1138d3bb2ed4dbbf5e8b224ef5c7",
       "title": "mPLUG-PaperOwl: Scientific Diagram Analysis with the Multimodal Large Language Model",
       "year": 2023,
-      "citationCount": 23,
+      "citationCount": 24,
       "authors": [
         {
           "authorId": "120897486",
@@ -4666,7 +4518,7 @@
       "paperId": "b50d19c5c298f6562c3b3c6c3822a351bdc89260",
       "title": "MMMU: A Massive Multi-Discipline Multimodal Understanding and Reasoning Benchmark for Expert AGI",
       "year": 2023,
-      "citationCount": 565,
+      "citationCount": 680,
       "authors": [
         {
           "authorId": "2268495181",
@@ -4737,7 +4589,7 @@
           "name": "Zhenzhu Yang"
         },
         {
-          "authorId": "2268631023",
+          "authorId": "2348575598",
           "name": "Yibo Liu"
         },
         {
@@ -4762,7 +4614,7 @@
       "paperId": "f68f6f2a057c4e6e5a3c91fc8563533d9bf6e560",
       "title": "ShareGPT4V: Improving Large Multi-Modal Models with Better Captions",
       "year": 2023,
-      "citationCount": 477,
+      "citationCount": 545,
       "authors": [
         {
           "authorId": "2267778503",
@@ -4802,7 +4654,7 @@
       "paperId": "619184447595337a9fe3dca72c4e951e7ab7467c",
       "title": "To See is to Believe: Prompting GPT-4V for Better Visual Instruction Tuning",
       "year": 2023,
-      "citationCount": 85,
+      "citationCount": 90,
       "authors": [
         {
           "authorId": "2124919221",
@@ -4834,7 +4686,7 @@
       "paperId": "76a3f4a79ae9a00db2f2b5f6877021d8deb96ada",
       "title": "SPHINX: The Joint Mixing of Weights, Tasks, and Visual Embeddings for Multi-modal Large Language Models",
       "year": 2023,
-      "citationCount": 183,
+      "citationCount": 202,
       "authors": [
         {
           "authorId": "2112305433",
@@ -4906,7 +4758,7 @@
       "paperId": "2313afae52d98e569da2dedbf14daf9efc74e7cf",
       "title": "CogVLM: Visual Expert for Pretrained Language Models",
       "year": 2023,
-      "citationCount": 386,
+      "citationCount": 428,
       "authors": [
         {
           "authorId": "2265518149",
@@ -4978,7 +4830,7 @@
       "paperId": "56cb3506586c540d4bd2c573fad66d22dff69826",
       "title": "CapsFusion: Rethinking Image-Text Data at Scale",
       "year": 2023,
-      "citationCount": 45,
+      "citationCount": 49,
       "authors": [
         {
           "authorId": "23716915",
@@ -5014,7 +4866,7 @@
       "paperId": "8946891e94831adc8cddb0d32311cce2445c96d2",
       "title": "MathVista: Evaluating Mathematical Reasoning of Foundation Models in Visual Contexts",
       "year": 2023,
-      "citationCount": 381,
+      "citationCount": 465,
       "authors": [
         {
           "authorId": "2887562",
@@ -5062,7 +4914,7 @@
       "paperId": "4b4a329e54325e80be50cdc77e274c6e9fd5ade4",
       "title": "Nougat: Neural Optical Understanding for Academic Documents",
       "year": 2023,
-      "citationCount": 90,
+      "citationCount": 97,
       "authors": [
         {
           "authorId": "2040305955",
@@ -5086,7 +4938,7 @@
       "paperId": "fc6a2f7478f68adefd69e2071f27e38aa1647f2f",
       "title": "Qwen-VL: A Versatile Vision-Language Model for Understanding, Localization, Text Reading, and Beyond",
       "year": 2023,
-      "citationCount": 632,
+      "citationCount": 727,
       "authors": [
         {
           "authorId": "41211611",
@@ -5130,7 +4982,7 @@
       "paperId": "94972e30504017156ef5b5debc419bf6edc67384",
       "title": "MM-Vet: Evaluating Large Multimodal Models for Integrated Capabilities",
       "year": 2023,
-      "citationCount": 504,
+      "citationCount": 574,
       "authors": [
         {
           "authorId": "23476952",
@@ -5170,7 +5022,7 @@
       "paperId": "4309d572a37d655779f9dce6a2c98c66334132de",
       "title": "SEED-Bench: Benchmarking Multimodal LLMs with Generative Comprehension",
       "year": 2023,
-      "citationCount": 423,
+      "citationCount": 472,
       "authors": [
         {
           "authorId": "1491798621",
@@ -5202,7 +5054,7 @@
       "paperId": "104b0bb1da562d53cbda87aec79ef6a2827d191a",
       "title": "Llama 2: Open Foundation and Fine-Tuned Chat Models",
       "year": 2023,
-      "citationCount": 9793,
+      "citationCount": 10333,
       "authors": [
         {
           "authorId": "2113243762",
@@ -5230,7 +5082,7 @@
         },
         {
           "authorId": "2223756247",
-          "name": "Nikolay Bashlykov"
+          "name": "Niko-lay Bashlykov"
         },
         {
           "authorId": "47505161",
@@ -5462,7 +5314,7 @@
         },
         {
           "authorId": "2166043087",
-          "name": "Aurélien Rodriguez"
+          "name": "Aur'elien Rodriguez"
         },
         {
           "authorId": "1962768",
@@ -5482,7 +5334,7 @@
       "paperId": "b37b1dc72b1882858f5120f2cd6883134089a6ed",
       "title": "MMBench: Is Your Multi-modal Model an All-around Player?",
       "year": 2023,
-      "citationCount": 726,
+      "citationCount": 846,
       "authors": [
         {
           "authorId": "1604959737",
@@ -5538,7 +5390,7 @@
       "paperId": "94053805cd59f2e9a47fe3f080c7e7afefb337cc",
       "title": "Generative Pretraining in Multimodality",
       "year": 2023,
-      "citationCount": 117,
+      "citationCount": 123,
       "authors": [
         {
           "authorId": "2112490007",
@@ -5586,7 +5438,7 @@
       "paperId": "a0a79dad89857a96f8f71b14238e5237cbfc4787",
       "title": "Judging LLM-as-a-judge with MT-Bench and Chatbot Arena",
       "year": 2023,
-      "citationCount": 3219,
+      "citationCount": 3497,
       "authors": [
         {
           "authorId": "2149970173",
@@ -5646,7 +5498,7 @@
       "paperId": "8ab4863393fceb41d0fa77d632ace4c80a57a154",
       "title": "UniChart: A Universal Vision-language Pretrained Model for Chart Comprehension and Reasoning",
       "year": 2023,
-      "citationCount": 87,
+      "citationCount": 98,
       "authors": [
         {
           "authorId": "100832735",
@@ -5674,7 +5526,7 @@
       "paperId": "206400aba5f12f734cdd2e4ab48ef6014ea60773",
       "title": "Evaluating Object Hallucination in Large Vision-Language Models",
       "year": 2023,
-      "citationCount": 565,
+      "citationCount": 655,
       "authors": [
         {
           "authorId": "2209136299",
@@ -5746,7 +5598,7 @@
       "paperId": "a5036f31f0e629dc661f120b8c3b1f374d479ab8",
       "title": "Visual Instruction Tuning",
       "year": 2023,
-      "citationCount": 3452,
+      "citationCount": 3985,
       "authors": [
         {
           "authorId": "2143856368",
@@ -5770,7 +5622,7 @@
       "paperId": "df958800014d310b6df34ad83d771314d68fbb2d",
       "title": "Multimodal C4: An Open, Billion-scale Corpus of Images Interleaved With Text",
       "year": 2023,
-      "citationCount": 148,
+      "citationCount": 161,
       "authors": [
         {
           "authorId": "51439692",
@@ -5818,7 +5670,7 @@
       "paperId": "68c834c19cd126bbd6d25a3572d7205cfed76271",
       "title": "AGIEval: A Human-Centric Benchmark for Evaluating Foundation Models",
       "year": 2023,
-      "citationCount": 420,
+      "citationCount": 454,
       "authors": [
         {
           "authorId": "81970097",
@@ -5862,7 +5714,7 @@
       "paperId": "7470a1702c8c86e6f28d32cfa315381150102f5b",
       "title": "Segment Anything",
       "year": 2023,
-      "citationCount": 5607,
+      "citationCount": 6240,
       "authors": [
         {
           "authorId": "2064802835",
@@ -5918,7 +5770,7 @@
       "paperId": "57e849d0de13ed5f91d086936296721d4ff75a75",
       "title": "LLaMA: Open and Efficient Foundation Language Models",
       "year": 2023,
-      "citationCount": 10754,
+      "citationCount": 11488,
       "authors": [
         {
           "authorId": "2113243762",
@@ -5962,7 +5814,7 @@
         },
         {
           "authorId": "2166043087",
-          "name": "Aurélien Rodriguez"
+          "name": "Aur'elien Rodriguez"
         },
         {
           "authorId": "2319608",
@@ -5982,7 +5834,7 @@
       "paperId": "95e184e2668ad49b5ea7c1c185727ef2d2c30de6",
       "title": "MatCha: Enhancing Visual Language Pretraining with Math Reasoning and Chart Derendering",
       "year": 2022,
-      "citationCount": 81,
+      "citationCount": 87,
       "authors": [
         {
           "authorId": "144097210",
@@ -6026,7 +5878,7 @@
       "paperId": "f3a6115e5fb2237df938976e005468f0b18da797",
       "title": "The Stack: 3 TB of permissively licensed source code",
       "year": 2022,
-      "citationCount": 271,
+      "citationCount": 291,
       "authors": [
         {
           "authorId": "2192609008",
@@ -6086,7 +5938,7 @@
       "paperId": "7d46140facc461f5600e24d6026b7007c2ff3160",
       "title": "OCR-VQGAN: Taming Text-within-Image Generation",
       "year": 2022,
-      "citationCount": 17,
+      "citationCount": 18,
       "authors": [
         {
           "authorId": "2116899991",
@@ -6102,7 +5954,7 @@
         },
         {
           "authorId": "3048367",
-          "name": "M. Pedersoli"
+          "name": "Marco Pedersoli"
         },
         {
           "authorId": "117849477",
@@ -6114,7 +5966,7 @@
       "paperId": "d3135733aa39dec20ce72aa138589dda27c8406d",
       "title": "Learn to Explain: Multimodal Reasoning via Thought Chains for Science Question Answering",
       "year": 2022,
-      "citationCount": 968,
+      "citationCount": 1061,
       "authors": [
         {
           "authorId": "2887562",
@@ -6158,7 +6010,7 @@
       "paperId": "fe351bc1bda19583a7d6b1a96a9b18f59c40b213",
       "title": "ScreenQA: Large-Scale Question-Answer Pairs over Mobile App Screenshots",
       "year": 2022,
-      "citationCount": 21,
+      "citationCount": 25,
       "authors": [
         {
           "authorId": "2315196",
@@ -6182,7 +6034,7 @@
       "paperId": "bc8b82e8eb0b0714892e4ec7a54ebdf47c4fde96",
       "title": "Reducing Activation Recomputation in Large Transformer Models",
       "year": 2022,
-      "citationCount": 217,
+      "citationCount": 230,
       "authors": [
         {
           "authorId": "3111334",
@@ -6218,7 +6070,7 @@
       "paperId": "a09cbcaac305884f043810afc4fa4053099b5970",
       "title": "Exploring Plain Vision Transformer Backbones for Object Detection",
       "year": 2022,
-      "citationCount": 707,
+      "citationCount": 742,
       "authors": [
         {
           "authorId": "3128506",
@@ -6242,7 +6094,7 @@
       "paperId": "d0f4407d7cbf5bb607f99e0a30fc7e311b486b60",
       "title": "Towards End-to-End Unified Scene Text Detection and Layout Analysis",
       "year": 2022,
-      "citationCount": 81,
+      "citationCount": 83,
       "authors": [
         {
           "authorId": "51126615",
@@ -6274,7 +6126,7 @@
       "paperId": "ca2f63950685a97e5ab6b8e6b2db78a8995e94a2",
       "title": "Chart-to-Text: A Large-Scale Benchmark for Chart Summarization",
       "year": 2022,
-      "citationCount": 116,
+      "citationCount": 125,
       "authors": [
         {
           "authorId": "2158815576",
@@ -6310,7 +6162,7 @@
       "paperId": "d6045d2ccc9c09ca1671348de86d07da6bc28eea",
       "title": "Training Verifiers to Solve Math Word Problems",
       "year": 2021,
-      "citationCount": 3256,
+      "citationCount": 3522,
       "authors": [
         {
           "authorId": "6062736",
@@ -6366,7 +6218,7 @@
       "paperId": "9bcf3b43f2323a194036cc52c6878a9b1dc7e058",
       "title": "IconQA: A New Benchmark for Abstract Diagram Understanding and Visual Language Reasoning",
       "year": 2021,
-      "citationCount": 164,
+      "citationCount": 178,
       "authors": [
         {
           "authorId": "2887562",
@@ -6410,7 +6262,7 @@
       "paperId": "a38e0f993e4805ba8a9beae4c275c91ffcec01df",
       "title": "Program Synthesis with Large Language Models",
       "year": 2021,
-      "citationCount": 1510,
+      "citationCount": 1627,
       "authors": [
         {
           "authorId": "2058365883",
@@ -6462,7 +6314,7 @@
       "paperId": "638107136cd71057855a1d393c07923394b0e40f",
       "title": "Screen2Words: Automatic Mobile UI Summarization with Multimodal Learning",
       "year": 2021,
-      "citationCount": 136,
+      "citationCount": 148,
       "authors": [
         {
           "authorId": "2112547231",
@@ -6494,7 +6346,7 @@
       "paperId": "2f80785cbdfd79ed49df165a311e81001d285a04",
       "title": "Open Images V5 Text Annotation and Yet Another Mask Text Spotter",
       "year": 2021,
-      "citationCount": 49,
+      "citationCount": 53,
       "authors": [
         {
           "authorId": "2072326169",
@@ -6514,7 +6366,7 @@
       "paperId": "f09826d6ce8b11cf425793853a708b6d107bb79d",
       "title": "TextOCR: Towards large-scale end-to-end reasoning for arbitrary-shaped scene text",
       "year": 2021,
-      "citationCount": 146,
+      "citationCount": 159,
       "authors": [
         {
           "authorId": null,
@@ -6546,7 +6398,7 @@
       "paperId": "66c10bf1f11bc1b2d92204d8f8391d087f6de1c4",
       "title": "RoFormer: Enhanced Transformer with Rotary Position Embedding",
       "year": 2021,
-      "citationCount": 1825,
+      "citationCount": 2011,
       "authors": [
         {
           "authorId": "51111230",
@@ -6574,7 +6426,7 @@
       "paperId": "7c9e1282124c7c161962df3b78c1c3116deffdfd",
       "title": "Visual Goal-Step Inference using wikiHow",
       "year": 2021,
-      "citationCount": 39,
+      "citationCount": 41,
       "authors": [
         {
           "authorId": "2109409802",
@@ -6606,7 +6458,7 @@
       "paperId": "774591fdd988eaaff3917e7c5171d044b0843e63",
       "title": "Efficient Large-Scale Language Model Training on GPU Clusters Using Megatron-LM",
       "year": 2021,
-      "citationCount": 561,
+      "citationCount": 601,
       "authors": [
         {
           "authorId": "22252150",
@@ -6662,7 +6514,7 @@
       "paperId": "db1afe3b3cd4cd90e41fbba65d3075dd5aebb61e",
       "title": "The Pile: An 800GB Dataset of Diverse Text for Language Modeling",
       "year": 2020,
-      "citationCount": 1852,
+      "citationCount": 1906,
       "authors": [
         {
           "authorId": "2027599537",
@@ -6718,7 +6570,7 @@
       "paperId": "0b4a8b1c98bd13ce0a6281bb1af3761f7f887235",
       "title": "Widget Captioning: Generating Natural Language Description for Mobile User Interface Elements",
       "year": 2020,
-      "citationCount": 93,
+      "citationCount": 101,
       "authors": [
         {
           "authorId": "98177814",
@@ -6750,7 +6602,7 @@
       "paperId": "814a4f680b9ba6baba23b93499f4b48af1a27678",
       "title": "Measuring Massive Multitask Language Understanding",
       "year": 2020,
-      "citationCount": 3340,
+      "citationCount": 3578,
       "authors": [
         {
           "authorId": "3422872",
@@ -6786,7 +6638,7 @@
       "paperId": "bdbf780dfd6b3eb0c9e980887feae5f23af15bc4",
       "title": "GLU Variants Improve Transformer",
       "year": 2020,
-      "citationCount": 792,
+      "citationCount": 848,
       "authors": [
         {
           "authorId": "1846258",
@@ -6798,7 +6650,7 @@
       "paperId": "10eda4521c032adabaa8e70d6569e17370b29dcd",
       "title": "Root Mean Square Layer Normalization",
       "year": 2019,
-      "citationCount": 559,
+      "citationCount": 613,
       "authors": [
         {
           "authorId": "48335426",
@@ -6814,7 +6666,7 @@
       "paperId": "8323c591e119eb09b28b29fd6c7bc76bd889df7a",
       "title": "Megatron-LM: Training Multi-Billion Parameter Language Models Using Model Parallelism",
       "year": 2019,
-      "citationCount": 1677,
+      "citationCount": 1739,
       "authors": [
         {
           "authorId": "1911755",
@@ -6846,7 +6698,7 @@
       "paperId": "d8c00dd9e1a5979ba943b11d1225a1d20f58357c",
       "title": "ICDAR 2019 Competition on Large-Scale Street View Text with Partial Labeling - RRC-LSVT",
       "year": 2019,
-      "citationCount": 141,
+      "citationCount": 148,
       "authors": [
         {
           "authorId": "2108564789",
@@ -6902,7 +6754,7 @@
       "paperId": "712a5bccd196bc9512ef5c004cdc6cb90ce3c039",
       "title": "ICDAR2019 Robust Reading Challenge on Arbitrary-Shaped Text - RRC-ArT",
       "year": 2019,
-      "citationCount": 200,
+      "citationCount": 207,
       "authors": [
         {
           "authorId": "1388004262",
@@ -6966,7 +6818,7 @@
       "paperId": "556bf0a688f164b1de94fd69cf855e42b13cbda7",
       "title": "ICDAR 2019 Robust Reading Challenge on Reading Chinese Text on Signboard",
       "year": 2019,
-      "citationCount": 143,
+      "citationCount": 148,
       "authors": [
         {
           "authorId": "2108711165",
@@ -7038,7 +6890,7 @@
       "paperId": "8b0f27bb594b1eaaf493eaf1e2ee723a2b0a19ad",
       "title": "HellaSwag: Can a Machine Really Finish Your Sentence?",
       "year": 2019,
-      "citationCount": 1993,
+      "citationCount": 2096,
       "authors": [
         {
           "authorId": "2545335",
@@ -7066,7 +6918,7 @@
       "paperId": "d899525e35ef784afd2aeeac977d7bb361fd7092",
       "title": "ICDAR2017 Robust Reading Challenge on Multi-Lingual Scene Text Detection and Script Identification - RRC-MLT",
       "year": 2017,
-      "citationCount": 351,
+      "citationCount": 356,
       "authors": [
         {
           "authorId": "2170742",
@@ -7134,7 +6986,7 @@
       "paperId": "629841cdf232751041870116b68d863ddf21cb1e",
       "title": "ICDAR2017 Competition on Reading Chinese Text in the Wild (RCTW-17)",
       "year": 2017,
-      "citationCount": 202,
+      "citationCount": 207,
       "authors": [
         {
           "authorId": "2276155",
@@ -7178,7 +7030,7 @@
       "paperId": "b7325b788320f96f7b152768226f16e390ab6475",
       "title": "COCO-Text: Dataset and Benchmark for Text Detection and Recognition in Natural Images",
       "year": 2016,
-      "citationCount": 492,
+      "citationCount": 503,
       "authors": [
         {
           "authorId": "2799898",
@@ -7206,7 +7058,7 @@
       "paperId": "e65142010431ffc089b272a1174214e00693e503",
       "title": "Generation and Comprehension of Unambiguous Object Descriptions",
       "year": 2015,
-      "citationCount": 1251,
+      "citationCount": 1283,
       "authors": [
         {
           "authorId": "36010601",
@@ -7245,7 +7097,7 @@
       "paperId": "29c7f009df21d0112c48dec254ff80cc45fac3af",
       "title": "Are Emergent Abilities of Large Language Models a Mirage?",
       "year": 2023,
-      "citationCount": 356,
+      "citationCount": 371,
       "authors": [
         {
           "authorId": "1749176844",
@@ -7265,7 +7117,7 @@
       "paperId": "848e690a62c327e1210532d58a6b914097cac763",
       "title": "On the Hidden Mystery of OCR in Large Multimodal Models",
       "year": 2023,
-      "citationCount": 177,
+      "citationCount": 198,
       "authors": [
         {
           "authorId": "2108353180",
@@ -7317,14 +7169,14 @@
       "paperId": "7a29f47f6509011fe5b19462abf6607867b68373",
       "title": "GPT-4V(ision) System Card",
       "year": 2023,
-      "citationCount": 232,
+      "citationCount": 260,
       "authors": []
     },
     {
       "paperId": "e3c7a7c18ff1c6ca76c1bed2d97ac470a2a8da04",
       "title": "TaiSu: A 166M Large-scale High-Quality Dataset for Chinese Vision-Language Pre-training",
       "year": 2022,
-      "citationCount": 11,
+      "citationCount": 14,
       "authors": [
         {
           "authorId": "2159087975",
@@ -7379,7 +7231,7 @@
       "paperId": "dcd3434533bd11023ef96020db653055b3fa5a18",
       "title": "The High Flyer",
       "year": 1999,
-      "citationCount": 17,
+      "citationCount": 18,
       "authors": [
         {
           "authorId": "40797868",

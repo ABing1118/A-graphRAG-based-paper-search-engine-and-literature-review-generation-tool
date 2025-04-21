@@ -1,10 +1,1290 @@
 {
   "citations": [
     {
+      "paperId": "5a3d67177a4addf6a59c7c467d153530ffe17075",
+      "title": "Personalized Text-to-Image Generation with Auto-Regressive Models",
+      "year": 2025,
+      "citationCount": 0,
+      "authors": [
+        {
+          "authorId": null,
+          "name": "Kaiyue Sun"
+        },
+        {
+          "authorId": "2335514594",
+          "name": "Xian Liu"
+        },
+        {
+          "authorId": "2269736084",
+          "name": "Yao Teng"
+        },
+        {
+          "authorId": "2257370021",
+          "name": "Xihui Liu"
+        }
+      ]
+    },
+    {
+      "paperId": "b094e99403b17ca923337a34b125ff7d67d44b74",
+      "title": "InstructEngine: Instruction-driven Text-to-Image Alignment",
+      "year": 2025,
+      "citationCount": 0,
+      "authors": [
+        {
+          "authorId": "2329755976",
+          "name": "Xingyu Lu"
+        },
+        {
+          "authorId": "2329576144",
+          "name": "Yuhang Hu"
+        },
+        {
+          "authorId": "2355359640",
+          "name": "Yifan Zhang"
+        },
+        {
+          "authorId": null,
+          "name": "Kaiyu Jiang"
+        },
+        {
+          "authorId": "2312222129",
+          "name": "Changyi Liu"
+        },
+        {
+          "authorId": "2312667943",
+          "name": "Tianke Zhang"
+        },
+        {
+          "authorId": "2355357244",
+          "name": "Jinpeng Wang"
+        },
+        {
+          "authorId": "2312207624",
+          "name": "Bin Wen"
+        },
+        {
+          "authorId": "2355790723",
+          "name": "Chun Yuan"
+        },
+        {
+          "authorId": "2309072594",
+          "name": "Fan Yang"
+        },
+        {
+          "authorId": null,
+          "name": "Tingting Gao"
+        },
+        {
+          "authorId": "2345915130",
+          "name": "Di Zhang"
+        }
+      ]
+    },
+    {
+      "paperId": "9150eccda4ba7518d9a5ac670568cc207a5e0e88",
+      "title": "Pangu Ultra: Pushing the Limits of Dense Large Language Models on Ascend NPUs",
+      "year": 2025,
+      "citationCount": 0,
+      "authors": [
+        {
+          "authorId": "2310196106",
+          "name": "Yichun Yin"
+        },
+        {
+          "authorId": "2226521166",
+          "name": "Wenyong Huang"
+        },
+        {
+          "authorId": "2355571876",
+          "name": "Kaikai Song"
+        },
+        {
+          "authorId": "103603255",
+          "name": "Yehui Tang"
+        },
+        {
+          "authorId": "2313676364",
+          "name": "Xue-Fei Wu"
+        },
+        {
+          "authorId": "2312894504",
+          "name": "Wei Guo"
+        },
+        {
+          "authorId": null,
+          "name": "Peng Guo"
+        },
+        {
+          "authorId": "2354740158",
+          "name": "Yaoyuan Wang"
+        },
+        {
+          "authorId": "2332816459",
+          "name": "Xiaojun Meng"
+        },
+        {
+          "authorId": "2282544603",
+          "name": "Yasheng Wang"
+        },
+        {
+          "authorId": "2354609220",
+          "name": "Dong Li"
+        },
+        {
+          "authorId": "2354610519",
+          "name": "Can Chen"
+        },
+        {
+          "authorId": "2315299495",
+          "name": "Dandan Tu"
+        },
+        {
+          "authorId": "2354575439",
+          "name": "Yin Li"
+        },
+        {
+          "authorId": "2354693875",
+          "name": "Fisher Yu"
+        },
+        {
+          "authorId": "2284295184",
+          "name": "Ruiming Tang"
+        },
+        {
+          "authorId": "2286585171",
+          "name": "Yunhe Wang"
+        },
+        {
+          "authorId": "2239032344",
+          "name": "Baojun Wang"
+        },
+        {
+          "authorId": "2354618212",
+          "name": "Bin Wang"
+        },
+        {
+          "authorId": "2354606326",
+          "name": "Bo Wang"
+        },
+        {
+          "authorId": "2354893255",
+          "name": "Boxiao Liu"
+        },
+        {
+          "authorId": "1409844494",
+          "name": "Changzheng Zhang"
+        },
+        {
+          "authorId": "2315458611",
+          "name": "Duyu Tang"
+        },
+        {
+          "authorId": "2258717400",
+          "name": "Fei Mi"
+        },
+        {
+          "authorId": "2336270652",
+          "name": "Hui Jin"
+        },
+        {
+          "authorId": "2304165881",
+          "name": "Jiansheng Wei"
+        },
+        {
+          "authorId": "79494403",
+          "name": "Jiarui Qin"
+        },
+        {
+          "authorId": "2213935174",
+          "name": "Jinpeng Li"
+        },
+        {
+          "authorId": "2274439181",
+          "name": "Jun Zhao"
+        },
+        {
+          "authorId": "2286434962",
+          "name": "Li-Qiong Deng"
+        },
+        {
+          "authorId": "2336467298",
+          "name": "Lin Li"
+        },
+        {
+          "authorId": "2311673758",
+          "name": "Minghui Xu"
+        },
+        {
+          "authorId": "2355071818",
+          "name": "Naifu Zhang"
+        },
+        {
+          "authorId": "31325504",
+          "name": "Nianzu Zheng"
+        },
+        {
+          "authorId": "2309707789",
+          "name": "Qiang Li"
+        },
+        {
+          "authorId": "2303415441",
+          "name": "Rongju Ruan"
+        },
+        {
+          "authorId": "2194824395",
+          "name": "Shen Cheng"
+        },
+        {
+          "authorId": "2265387471",
+          "name": "Tianyu Guo"
+        },
+        {
+          "authorId": "2153476099",
+          "name": "Wei He"
+        },
+        {
+          "authorId": "2157339847",
+          "name": "Wei Li"
+        },
+        {
+          "authorId": "2327299011",
+          "name": "Wei-Wei Liu"
+        },
+        {
+          "authorId": "2311995135",
+          "name": "Wu-Peng Liu"
+        },
+        {
+          "authorId": null,
+          "name": "Xinyi Dai"
+        },
+        {
+          "authorId": "2335624369",
+          "name": "Yong Dong"
+        },
+        {
+          "authorId": "2294547649",
+          "name": "Yu Pan"
+        },
+        {
+          "authorId": "2322207590",
+          "name": "Yue Li"
+        },
+        {
+          "authorId": "2333754202",
+          "name": "Yufei Wang"
+        },
+        {
+          "authorId": "2240562420",
+          "name": "Yujun Li"
+        },
+        {
+          "authorId": "2282528142",
+          "name": "Yunsheng Ni"
+        },
+        {
+          "authorId": "2280015981",
+          "name": "Zhe Liu"
+        },
+        {
+          "authorId": "2154958775",
+          "name": "Zhenhe Zhang"
+        },
+        {
+          "authorId": "2273461190",
+          "name": "Zhicheng Liu"
+        }
+      ]
+    },
+    {
+      "paperId": "87ec59770297d5d8860a0b74b92eea7c4e54e4b7",
+      "title": "HiFlow: Training-free High-Resolution Image Generation with Flow-Aligned Guidance",
+      "year": 2025,
+      "citationCount": 0,
+      "authors": [
+        {
+          "authorId": "2281827319",
+          "name": "Jiazi Bu"
+        },
+        {
+          "authorId": "2218843242",
+          "name": "Pengyang Ling"
+        },
+        {
+          "authorId": "2354281072",
+          "name": "Yujie Zhou"
+        },
+        {
+          "authorId": "2271462894",
+          "name": "Pan Zhang"
+        },
+        {
+          "authorId": "2307034605",
+          "name": "Tong Wu"
+        },
+        {
+          "authorId": "2118187561",
+          "name": "Xiao-wen Dong"
+        },
+        {
+          "authorId": "12862495",
+          "name": "Yuhang Zang"
+        },
+        {
+          "authorId": "50206929",
+          "name": "Yuhang Cao"
+        },
+        {
+          "authorId": null,
+          "name": "Dahua Lin"
+        },
+        {
+          "authorId": "2267494294",
+          "name": "Jiaqi Wang"
+        }
+      ]
+    },
+    {
+      "paperId": "cabbe6c1b17327918ad573f7b04a0fc7c6bd2082",
+      "title": "Generative AI Models (2018–2024): Advancements and Applications in Kidney Care",
+      "year": 2025,
+      "citationCount": 0,
+      "authors": [
+        {
+          "authorId": "2280827400",
+          "name": "Fnu Neha"
+        },
+        {
+          "authorId": "70976396",
+          "name": "Deepshikha Bhati"
+        },
+        {
+          "authorId": "2333423669",
+          "name": "Deepak Kumar Shukla"
+        }
+      ]
+    },
+    {
+      "paperId": "c71787bd1f5e81b96b8b642c25be0846a3a6054d",
+      "title": "VARGPT-v1.1: Improve Visual Autoregressive Large Unified Model via Iterative Instruction Tuning and Reinforcement Learning",
+      "year": 2025,
+      "citationCount": 0,
+      "authors": [
+        {
+          "authorId": "2293439758",
+          "name": "Xianwei Zhuang"
+        },
+        {
+          "authorId": "2306871988",
+          "name": "Yuxin Xie"
+        },
+        {
+          "authorId": "2341647803",
+          "name": "Yufan Deng"
+        },
+        {
+          "authorId": "1752879605",
+          "name": "Dongchao Yang"
+        },
+        {
+          "authorId": "2307892931",
+          "name": "Liming Liang"
+        },
+        {
+          "authorId": "2341529875",
+          "name": "Jinghan Ru"
+        },
+        {
+          "authorId": "2342470685",
+          "name": "Yuguo Yin"
+        },
+        {
+          "authorId": "2343278524",
+          "name": "Yuexian Zou"
+        }
+      ]
+    },
+    {
+      "paperId": "318a6d0d03fe7293edb973ee5394e55938eecf7f",
+      "title": "ILLUME+: Illuminating Unified MLLM with Dual Visual Tokenization and Diffusion Refinement",
+      "year": 2025,
+      "citationCount": 0,
+      "authors": [
+        {
+          "authorId": "2140386536",
+          "name": "Runhu Huang"
+        },
+        {
+          "authorId": "2258786929",
+          "name": "Chunwei Wang"
+        },
+        {
+          "authorId": "2243330383",
+          "name": "Junwei Yang"
+        },
+        {
+          "authorId": "46182317",
+          "name": "Guansong Lu"
+        },
+        {
+          "authorId": "2157637784",
+          "name": "Yunlong Yuan"
+        },
+        {
+          "authorId": "47180442",
+          "name": "Jianhua Han"
+        },
+        {
+          "authorId": "2311312463",
+          "name": "Lu Hou"
+        },
+        {
+          "authorId": "2256596407",
+          "name": "Wei Zhang"
+        },
+        {
+          "authorId": "2353906756",
+          "name": "Lanqing Hong"
+        },
+        {
+          "authorId": "2310758544",
+          "name": "Hengshuang Zhao"
+        },
+        {
+          "authorId": "2320227478",
+          "name": "Hang Xu"
+        }
+      ]
+    },
+    {
+      "paperId": "a232543f16c796047926babfc3714a8dd6a77a71",
+      "title": "COST: Contrastive One-Stage Transformer for Vision-Language Small Object Tracking",
+      "year": 2025,
+      "citationCount": 0,
+      "authors": [
+        {
+          "authorId": "2247661930",
+          "name": "Chunhui Zhang"
+        },
+        {
+          "authorId": "2302827257",
+          "name": "Li Liu"
+        },
+        {
+          "authorId": "2149257316",
+          "name": "Jialin Gao"
+        },
+        {
+          "authorId": "2353675921",
+          "name": "Xin Sun"
+        },
+        {
+          "authorId": "2269744771",
+          "name": "Hao Wen"
+        },
+        {
+          "authorId": "2302815087",
+          "name": "Xi Zhou"
+        },
+        {
+          "authorId": "2257167253",
+          "name": "Shiming Ge"
+        },
+        {
+          "authorId": "2246831804",
+          "name": "Yanfeng Wang"
+        }
+      ]
+    },
+    {
+      "paperId": "d22210c5c30f1b788c63cf3efa66ebf88422da5a",
+      "title": "Less-to-More Generalization: Unlocking More Controllability by In-Context Generation",
+      "year": 2025,
+      "citationCount": 2,
+      "authors": [
+        {
+          "authorId": "2337874264",
+          "name": "Shaojin Wu"
+        },
+        {
+          "authorId": "2353484888",
+          "name": "Mengqi Huang"
+        },
+        {
+          "authorId": "2353586349",
+          "name": "Wenxu Wu"
+        },
+        {
+          "authorId": "2353694681",
+          "name": "Yufeng Cheng"
+        },
+        {
+          "authorId": "2316428614",
+          "name": "Fei Ding"
+        },
+        {
+          "authorId": "2244598367",
+          "name": "Qian He"
+        }
+      ]
+    },
+    {
+      "paperId": "144b5c52b4ae4b96a3eaf5f8b67f2b534dd30ccd",
+      "title": "Exploring text-to-image generation models: Applications and cloud resource utilization",
+      "year": 2025,
+      "citationCount": 0,
+      "authors": [
+        {
+          "authorId": "1876650509",
+          "name": "Sahani Pooja Jaiprakash"
+        },
+        {
+          "authorId": "11125883",
+          "name": "Choudhary Shyam Prakash"
+        }
+      ]
+    },
+    {
+      "paperId": "f99e8749d98a966fbe22f35c0fc589073f899abc",
+      "title": "Model Hemorrhage and the Robustness Limits of Large Language Models",
+      "year": 2025,
+      "citationCount": 0,
+      "authors": [
+        {
+          "authorId": "2352948034",
+          "name": "Ziyang Ma"
+        },
+        {
+          "authorId": "2274202084",
+          "name": "Zuchao Li"
+        },
+        {
+          "authorId": "2269488794",
+          "name": "Lefei Zhang"
+        },
+        {
+          "authorId": "2343636012",
+          "name": "Gui-Song Xia"
+        },
+        {
+          "authorId": "2306994733",
+          "name": "Bo Du"
+        },
+        {
+          "authorId": "2268745050",
+          "name": "Liangpei Zhang"
+        },
+        {
+          "authorId": "2275194788",
+          "name": "Dacheng Tao"
+        }
+      ]
+    },
+    {
+      "paperId": "2c51a8feb13e7fdcb3c0bea5fca9e5b9be1c0853",
+      "title": "MeshCraft: Exploring Efficient and Controllable Mesh Generation with Flow-based DiTs",
+      "year": 2025,
+      "citationCount": 0,
+      "authors": [
+        {
+          "authorId": "2257432343",
+          "name": "Xianglong He"
+        },
+        {
+          "authorId": "2292205485",
+          "name": "Junyi Chen"
+        },
+        {
+          "authorId": "2352987581",
+          "name": "Di Huang"
+        },
+        {
+          "authorId": "2274196732",
+          "name": "Zexiang Liu"
+        },
+        {
+          "authorId": "2275029776",
+          "name": "Xiaoshui Huang"
+        },
+        {
+          "authorId": "2336864797",
+          "name": "Wanli Ouyang"
+        },
+        {
+          "authorId": "2292394357",
+          "name": "Chun Yuan"
+        },
+        {
+          "authorId": "2292177851",
+          "name": "Yangguang Li"
+        }
+      ]
+    },
+    {
+      "paperId": "cca96bd71d8199607a0ea286f5cf52cfb0097948",
+      "title": "Z-SASLM: Zero-Shot Style-Aligned SLI Blending Latent Manipulation",
+      "year": 2025,
+      "citationCount": 0,
+      "authors": [
+        {
+          "authorId": "2352942793",
+          "name": "Alessio Borgi"
+        },
+        {
+          "authorId": "147336062",
+          "name": "Luca Maiano"
+        },
+        {
+          "authorId": "2281890830",
+          "name": "Irene Amerini"
+        }
+      ]
+    },
+    {
+      "paperId": "6d4def9e60c21ccf6e7620f619cd621b50363c5b",
+      "title": "VBench-2.0: Advancing Video Generation Benchmark Suite for Intrinsic Faithfulness",
+      "year": 2025,
+      "citationCount": 2,
+      "authors": [
+        {
+          "authorId": "2352408090",
+          "name": "Dian Zheng"
+        },
+        {
+          "authorId": "2243375536",
+          "name": "Ziqi Huang"
+        },
+        {
+          "authorId": "2352405612",
+          "name": "Hongbo Liu"
+        },
+        {
+          "authorId": "2352277890",
+          "name": "Kai Zou"
+        },
+        {
+          "authorId": "2118918324",
+          "name": "Yinan He"
+        },
+        {
+          "authorId": "2268852317",
+          "name": "Fan Zhang"
+        },
+        {
+          "authorId": "2145784327",
+          "name": "Yuanhan Zhang"
+        },
+        {
+          "authorId": "2334349148",
+          "name": "Jingwen He"
+        },
+        {
+          "authorId": "2352671384",
+          "name": "Wei-Shi Zheng"
+        },
+        {
+          "authorId": "2327935778",
+          "name": "Yu Qiao"
+        },
+        {
+          "authorId": "2243875466",
+          "name": "Ziwei Liu"
+        }
+      ]
+    },
+    {
+      "paperId": "69a57a3b95743dce030d6099f85519c3aa942300",
+      "title": "Exploring the Roles of Large Language Models in Reshaping Transportation Systems: A Survey, Framework, and Roadmap",
+      "year": 2025,
+      "citationCount": 0,
+      "authors": [
+        {
+          "authorId": "94168461",
+          "name": "Tong Nie"
+        },
+        {
+          "authorId": "2028643500",
+          "name": "Jiangming Sun"
+        },
+        {
+          "authorId": "2277421553",
+          "name": "Wei Ma"
+        }
+      ]
+    },
+    {
+      "paperId": "1303a9d62f458fe2de0aa701e79fc7497e1218f8",
+      "title": "Unified Multimodal Discrete Diffusion",
+      "year": 2025,
+      "citationCount": 0,
+      "authors": [
+        {
+          "authorId": "2350348336",
+          "name": "Alexander Swerdlow"
+        },
+        {
+          "authorId": "1381902419",
+          "name": "Mihir Prabhudesai"
+        },
+        {
+          "authorId": "2352274605",
+          "name": "Siddharth Gandhi"
+        },
+        {
+          "authorId": "2254258594",
+          "name": "Deepak Pathak"
+        },
+        {
+          "authorId": "2315298602",
+          "name": "Katerina Fragkiadaki"
+        }
+      ]
+    },
+    {
+      "paperId": "f6d354ac63aecfb973256a75dee7ea24048bee8e",
+      "title": "Halton Scheduler For Masked Generative Image Transformer",
+      "year": 2025,
+      "citationCount": 1,
+      "authors": [
+        {
+          "authorId": "2300284835",
+          "name": "Victor Besnier"
+        },
+        {
+          "authorId": "2335122090",
+          "name": "Mickael Chen"
+        },
+        {
+          "authorId": "2687885",
+          "name": "David Hurych"
+        },
+        {
+          "authorId": "2237802082",
+          "name": "Eduardo Valle"
+        },
+        {
+          "authorId": "2238525173",
+          "name": "Matthieu Cord"
+        }
+      ]
+    },
+    {
+      "paperId": "dbf07cc6cd5e636506936700f36f136848522adc",
+      "title": "Compose Your Aesthetics: Empowering Text-to-Image Models with the Principles of Art",
+      "year": 2025,
+      "citationCount": 0,
+      "authors": [
+        {
+          "authorId": "1490918186",
+          "name": "Zheng-Hao Jin"
+        },
+        {
+          "authorId": "2335858779",
+          "name": "Tat-Seng Chua"
+        }
+      ]
+    },
+    {
+      "paperId": "a1959c96206a3248863bdb23c532f9c10601e567",
+      "title": "TikZero: Zero-Shot Text-Guided Graphics Program Synthesis",
+      "year": 2025,
+      "citationCount": 0,
+      "authors": [
+        {
+          "authorId": "2138207755",
+          "name": "Jonas Belouadi"
+        },
+        {
+          "authorId": "2350348894",
+          "name": "Eddy Ilg"
+        },
+        {
+          "authorId": "3316866",
+          "name": "M. Keuper"
+        },
+        {
+          "authorId": "2266745900",
+          "name": "Hideki Tanaka"
+        },
+        {
+          "authorId": "2282523299",
+          "name": "Masao Utiyama"
+        },
+        {
+          "authorId": "2331624900",
+          "name": "Raj Dabre"
+        },
+        {
+          "authorId": "2264186499",
+          "name": "Steffen Eger"
+        },
+        {
+          "authorId": "2029669151",
+          "name": "Simone Paolo Ponzetto"
+        }
+      ]
+    },
+    {
+      "paperId": "6f50bcd40b6577754671b5fa7970f998b5c13670",
+      "title": "DiT-Air: Revisiting the Efficiency of Diffusion Model Architecture Design in Text to Image Generation",
+      "year": 2025,
+      "citationCount": 0,
+      "authors": [
+        {
+          "authorId": "2314175969",
+          "name": "Chen Chen"
+        },
+        {
+          "authorId": "2349808898",
+          "name": "Rui Qian"
+        },
+        {
+          "authorId": "2249625471",
+          "name": "Wenze Hu"
+        },
+        {
+          "authorId": "2334572982",
+          "name": "Tsu-Jui Fu"
+        },
+        {
+          "authorId": "2350485941",
+          "name": "Jialing Tong"
+        },
+        {
+          "authorId": "2324073819",
+          "name": "Xinze Wang"
+        },
+        {
+          "authorId": "2264645931",
+          "name": "Le-Qun Li"
+        },
+        {
+          "authorId": "2256276486",
+          "name": "Bowen Zhang"
+        },
+        {
+          "authorId": "2349801955",
+          "name": "Alex Schwing"
+        },
+        {
+          "authorId": "2334891866",
+          "name": "Wei Liu"
+        },
+        {
+          "authorId": "2249897805",
+          "name": "Yinfei Yang"
+        }
+      ]
+    },
+    {
+      "paperId": "aebb4e6efa057aeeee279efae75ddbedd40461c5",
+      "title": "LatexBlend: Scaling Multi-concept Customized Generation with Latent Textual Blending",
+      "year": 2025,
+      "citationCount": 0,
+      "authors": [
+        {
+          "authorId": "2313473737",
+          "name": "Jian Jin"
+        },
+        {
+          "authorId": "2336266744",
+          "name": "Zhenbo Yu"
+        },
+        {
+          "authorId": "2312881691",
+          "name": "Yang Shen"
+        },
+        {
+          "authorId": "37876634",
+          "name": "Zhenyong Fu"
+        },
+        {
+          "authorId": "2286082015",
+          "name": "Jian Yang"
+        }
+      ]
+    },
+    {
+      "paperId": "d44ee6d3908c475d3225caba4bfe24333c9b713c",
+      "title": "Fine-Grained Alignment and Noise Refinement for Compositional Text-to-Image Generation",
+      "year": 2025,
+      "citationCount": 0,
+      "authors": [
+        {
+          "authorId": "2320806271",
+          "name": "Amirmohammad Izadi"
+        },
+        {
+          "authorId": "2346518931",
+          "name": "Seyed Mohammad Hadi Hosseini"
+        },
+        {
+          "authorId": "2325098355",
+          "name": "Soroush Vafaie Tabar"
+        },
+        {
+          "authorId": "2332540806",
+          "name": "Ali Abdollahi"
+        },
+        {
+          "authorId": "2320801904",
+          "name": "Armin Saghafian"
+        },
+        {
+          "authorId": "1799503",
+          "name": "M. Baghshah"
+        }
+      ]
+    },
+    {
+      "paperId": "c2a3a5737c9dc24e81da7836450b9c6f25d5d199",
+      "title": "Anti-Diffusion: Preventing Abuse of Modifications of Diffusion-Based Models",
+      "year": 2025,
+      "citationCount": 0,
+      "authors": [
+        {
+          "authorId": "2310019774",
+          "name": "Zheng Li"
+        },
+        {
+          "authorId": "1604613100",
+          "name": "Liangbin Xie"
+        },
+        {
+          "authorId": "2240252892",
+          "name": "Jiantao Zhou"
+        },
+        {
+          "authorId": "2349306027",
+          "name": "Xintao Wang"
+        },
+        {
+          "authorId": "1557380299",
+          "name": "Haiwei Wu"
+        },
+        {
+          "authorId": "3094320",
+          "name": "Jinyu Tian"
+        }
+      ]
+    },
+    {
+      "paperId": "6f7b9cc9d31e492650a568a50b42fa3855be968b",
+      "title": "Simulating the Real World: A Unified Survey of Multimodal Generative Models",
+      "year": 2025,
+      "citationCount": 1,
+      "authors": [
+        {
+          "authorId": "2348768413",
+          "name": "Yuqi Hu"
+        },
+        {
+          "authorId": "2348926560",
+          "name": "Longguang Wang"
+        },
+        {
+          "authorId": "2348768455",
+          "name": "Xian Liu"
+        },
+        {
+          "authorId": "2349266498",
+          "name": "Ling-Hao Chen"
+        },
+        {
+          "authorId": "2318717905",
+          "name": "Yuwei Guo"
+        },
+        {
+          "authorId": "2348936740",
+          "name": "Yukai Shi"
+        },
+        {
+          "authorId": "2348857916",
+          "name": "Ce Liu"
+        },
+        {
+          "authorId": "2318938389",
+          "name": "Anyi Rao"
+        },
+        {
+          "authorId": "2318969706",
+          "name": "Zeyu Wang"
+        },
+        {
+          "authorId": "2318977065",
+          "name": "Hui Xiong"
+        }
+      ]
+    },
+    {
+      "paperId": "e3405046297329b5298e9f12805580d113870f31",
+      "title": "Towards Improved Text-Aligned Codebook Learning: Multi-Hierarchical Codebook-Text Alignment with Long Text",
+      "year": 2025,
+      "citationCount": 0,
+      "authors": [
+        {
+          "authorId": "2291932854",
+          "name": "Guotao Liang"
+        },
+        {
+          "authorId": "121178411",
+          "name": "Baoquan Zhang"
+        },
+        {
+          "authorId": "2350318568",
+          "name": "Zhiyuan Wen"
+        },
+        {
+          "authorId": "2348538710",
+          "name": "Junteng Zhao"
+        },
+        {
+          "authorId": "2334031602",
+          "name": "Yunming Ye"
+        },
+        {
+          "authorId": "2302796920",
+          "name": "Kola Ye"
+        },
+        {
+          "authorId": "2291970063",
+          "name": "Yao He"
+        }
+      ]
+    },
+    {
+      "paperId": "8870ff90e7b2e684978fd55fc324c2eba7ebf491",
+      "title": "MINT: Multi-modal Chain of Thought in Unified Generative Models for Enhanced Image Generation",
+      "year": 2025,
+      "citationCount": 1,
+      "authors": [
+        {
+          "authorId": "2310866963",
+          "name": "Yi Wang"
+        },
+        {
+          "authorId": "2310653359",
+          "name": "Mushui Liu"
+        },
+        {
+          "authorId": "2266409364",
+          "name": "Wanggui He"
+        },
+        {
+          "authorId": "2348494621",
+          "name": "Longxiang Zhang"
+        },
+        {
+          "authorId": "2297821529",
+          "name": "Ziwei Huang"
+        },
+        {
+          "authorId": "2317156788",
+          "name": "Guanghao Zhang"
+        },
+        {
+          "authorId": "2273645084",
+          "name": "Fangxun Shu"
+        },
+        {
+          "authorId": "2317108517",
+          "name": "Tao Zhong"
+        },
+        {
+          "authorId": "2344754821",
+          "name": "D. She"
+        },
+        {
+          "authorId": "2266420226",
+          "name": "Zhelun Yu"
+        },
+        {
+          "authorId": "2292569045",
+          "name": "Haoyuan Li"
+        },
+        {
+          "authorId": "2348708093",
+          "name": "Weilong Dai"
+        },
+        {
+          "authorId": "2219216075",
+          "name": "Mingli Song"
+        },
+        {
+          "authorId": "2322992173",
+          "name": "Jie Song"
+        },
+        {
+          "authorId": "2266552062",
+          "name": "Hao Jiang"
+        }
+      ]
+    },
+    {
+      "paperId": "b6f14a2a31044d5e850d8490bc60da17c700ee45",
+      "title": "MedUnifier: Unifying Vision-and-Language Pre-training on Medical Data with Vision Generation Task using Discrete Visual Representations",
+      "year": 2025,
+      "citationCount": 1,
+      "authors": [
+        {
+          "authorId": "2348362749",
+          "name": "Ziyang Zhang"
+        },
+        {
+          "authorId": "2348771719",
+          "name": "Yang Yu"
+        },
+        {
+          "authorId": "2348271411",
+          "name": "Yucheng Chen"
+        },
+        {
+          "authorId": "2238337247",
+          "name": "Xulei Yang"
+        },
+        {
+          "authorId": "2348281539",
+          "name": "Si Yong Yeo"
+        }
+      ]
+    },
+    {
+      "paperId": "adb0c91669f211d3e99590d8efb1a6d06aabf016",
+      "title": "Speculative Decoding and Beyond: An In-Depth Survey of Techniques",
+      "year": 2025,
+      "citationCount": 0,
+      "authors": [
+        {
+          "authorId": "2347695046",
+          "name": "Yunhai Hu"
+        },
+        {
+          "authorId": "2348180295",
+          "name": "Zining Liu"
+        },
+        {
+          "authorId": "2321211565",
+          "name": "Zhenyuan Dong"
+        },
+        {
+          "authorId": "2345818434",
+          "name": "Tianfan Peng"
+        },
+        {
+          "authorId": "1841852",
+          "name": "Bradley McDanel"
+        },
+        {
+          "authorId": "2347683737",
+          "name": "Sai Qian Zhang"
+        }
+      ]
+    },
+    {
+      "paperId": "c37314ad8905068eaa9ad9d93cd7b9e370a5cd2b",
+      "title": "CharDiff: Improving Sampling Convergence via Characteristic Function Consistency in Diffusion Models",
+      "year": 2025,
+      "citationCount": 0,
+      "authors": [
+        {
+          "authorId": "2351342321",
+          "name": "Abhishek Kumar"
+        },
+        {
+          "authorId": "2351078969",
+          "name": "Sinha S. Manthira Moorthi"
+        }
+      ]
+    },
+    {
+      "paperId": "c8c75c4dfe7a47cc2096b26a3d70d4d14c2d1a34",
+      "title": "Stable-SPAM: How to Train in 4-Bit More Stably than 16-Bit Adam",
+      "year": 2025,
+      "citationCount": 0,
+      "authors": [
+        {
+          "authorId": "2310637497",
+          "name": "Tianjin Huang"
+        },
+        {
+          "authorId": "2347034789",
+          "name": "Haotian Hu"
+        },
+        {
+          "authorId": "2109338656",
+          "name": "Zhenyu (Allen) Zhang"
+        },
+        {
+          "authorId": "2339777340",
+          "name": "Gaojie Jin"
+        },
+        {
+          "authorId": "2347568238",
+          "name": "Xiang Li"
+        },
+        {
+          "authorId": "2346065531",
+          "name": "Li Shen"
+        },
+        {
+          "authorId": "2295593785",
+          "name": "Tianlong Chen"
+        },
+        {
+          "authorId": "2339888534",
+          "name": "Lu Liu"
+        },
+        {
+          "authorId": "2346980633",
+          "name": "Qingsong Wen"
+        },
+        {
+          "authorId": "2267007672",
+          "name": "Zhangyang Wang"
+        },
+        {
+          "authorId": "2344983897",
+          "name": "Shiwei Liu"
+        }
+      ]
+    },
+    {
+      "paperId": "e1fb0b37ef9e8ec3555398bf50b5ada5cef13879",
+      "title": "Scale-Distribution Decoupling: Enabling Stable and Effective Training of Large Language Models",
+      "year": 2025,
+      "citationCount": 1,
+      "authors": [
+        {
+          "authorId": "2342570163",
+          "name": "Ya Wang"
+        },
+        {
+          "authorId": "2210797120",
+          "name": "Zhijian Zhuo"
+        },
+        {
+          "authorId": "122290781",
+          "name": "Yutao Zeng"
+        },
+        {
+          "authorId": "2323563576",
+          "name": "Xun Zhou"
+        },
+        {
+          "authorId": "2347294114",
+          "name": "Jian Yang"
+        },
+        {
+          "authorId": "2346899198",
+          "name": "Xiaoqing Li"
+        }
+      ]
+    },
+    {
       "paperId": "7aef1c9ad2c4f23b57a73f739f5222b5c07355fd",
       "title": "Personalized Image Generation with Deep Generative Models: A Decade Survey",
       "year": 2025,
-      "citationCount": 0,
+      "citationCount": 1,
       "authors": [
         {
           "authorId": "2156252416",
@@ -23,7 +1303,7 @@
           "name": "Ming Liu"
         },
         {
-          "authorId": "2346378224",
+          "authorId": "15383651",
           "name": "Zhilong Ji"
         },
         {
@@ -84,7 +1364,7 @@
       "paperId": "3cf4e1e35bf302b84065cd2a8aa744fd275d5c22",
       "title": "The Curse of Depth in Large Language Models",
       "year": 2025,
-      "citationCount": 0,
+      "citationCount": 3,
       "authors": [
         {
           "authorId": "2345128324",
@@ -116,7 +1396,7 @@
       "paperId": "aa9a33581cb419ebae1e9ae5c7f79f0c24fd7772",
       "title": "DeepGuard: Identification and Attribution of AI-Generated Synthetic Images",
       "year": 2025,
-      "citationCount": 0,
+      "citationCount": 1,
       "authors": [
         {
           "authorId": "2345260658",
@@ -137,6 +1417,26 @@
         {
           "authorId": "24889005",
           "name": "S. Shiaeles"
+        }
+      ]
+    },
+    {
+      "paperId": "29dfb836a4ab55fa4bbc410b414f5abf9aa79943",
+      "title": "Script-to-storyboard: A new contextual retrieval dataset and benchmark",
+      "year": 2025,
+      "citationCount": 1,
+      "authors": [
+        {
+          "authorId": "2206442597",
+          "name": "Xi Tian"
+        },
+        {
+          "authorId": "2279704669",
+          "name": "Yong-Liang Yang"
+        },
+        {
+          "authorId": "2279760128",
+          "name": "Qi Wu"
         }
       ]
     },
@@ -177,10 +1477,30 @@
       ]
     },
     {
+      "paperId": "6f00812b5e3e6ea0d3cd6da4526b7747d6d27240",
+      "title": "Revealing Gender Bias from Prompt to Image in Stable Diffusion",
+      "year": 2025,
+      "citationCount": 0,
+      "authors": [
+        {
+          "authorId": "9287561",
+          "name": "Yankun Wu"
+        },
+        {
+          "authorId": "2268760114",
+          "name": "Yuta Nakashima"
+        },
+        {
+          "authorId": "26385137",
+          "name": "Noa García"
+        }
+      ]
+    },
+    {
       "paperId": "ccd9ea122d06953c921032013f0bdcb95b64d00d",
       "title": "Parameter-Efficient Fine-Tuning for Foundation Models",
       "year": 2025,
-      "citationCount": 0,
+      "citationCount": 3,
       "authors": [
         {
           "authorId": "2215493789",
@@ -228,7 +1548,7 @@
       "paperId": "359ec89fe7e4d72b0fe5801a3507d74942f3c08d",
       "title": "SPAM: Spike-Aware Adam with Momentum Reset for Stable LLM Training",
       "year": 2025,
-      "citationCount": 0,
+      "citationCount": 1,
       "authors": [
         {
           "authorId": "2310637497",
@@ -260,7 +1580,7 @@
       "paperId": "7196138b0aea58778dfaf43c569cc0827152ef54",
       "title": "Circuit Complexity Bounds for Visual Autoregressive Model",
       "year": 2025,
-      "citationCount": 2,
+      "citationCount": 5,
       "authors": [
         {
           "authorId": "2325954027",
@@ -308,7 +1628,7 @@
       "paperId": "3adba61836dd9373e2d0f8c227e1c9f623ae8a86",
       "title": "Predicting rapid impact compaction of soil using a parallel transformer and long short-term memory architecture for sequential soil profile encoding",
       "year": 2025,
-      "citationCount": 0,
+      "citationCount": 2,
       "authors": [
         {
           "authorId": "95219784",
@@ -340,14 +1660,14 @@
       "paperId": "001ca972f0ce34deb9233eceab83a90bff23b260",
       "title": "ViTs as backbones: Leveraging vision transformers for feature extraction",
       "year": 2025,
-      "citationCount": 0,
+      "citationCount": 2,
       "authors": [
         {
           "authorId": "2285587422",
           "name": "Omar Elharrouss"
         },
         {
-          "authorId": "2267723270",
+          "authorId": "2130461741",
           "name": "Yassine Himeur"
         },
         {
@@ -377,6 +1697,58 @@
       ]
     },
     {
+      "paperId": "07ff8e54b78ef4cd5f6ca064a42c6aefd95b4d7d",
+      "title": "PromptLA: Towards Integrity Verification of Black-box Text-to-Image Diffusion Models",
+      "year": 2024,
+      "citationCount": 0,
+      "authors": [
+        {
+          "authorId": "2336921256",
+          "name": "Zhuomeng Zhang"
+        },
+        {
+          "authorId": "2262536259",
+          "name": "Fangqi Li"
+        },
+        {
+          "authorId": "2336871113",
+          "name": "Chong Di"
+        },
+        {
+          "authorId": "2283446293",
+          "name": "Shilin Wang"
+        }
+      ]
+    },
+    {
+      "paperId": "137e472aa9944eda909f8c47a469f2aa691aef44",
+      "title": "LEDiff: Latent Exposure Diffusion for HDR Generation",
+      "year": 2024,
+      "citationCount": 2,
+      "authors": [
+        {
+          "authorId": "2337387578",
+          "name": "Chao Wang"
+        },
+        {
+          "authorId": "2276725789",
+          "name": "Zhihao Xia"
+        },
+        {
+          "authorId": "2336092842",
+          "name": "Thomas Leimkuehler"
+        },
+        {
+          "authorId": "1790911",
+          "name": "K. Myszkowski"
+        },
+        {
+          "authorId": "2276817614",
+          "name": "Xuaner Zhang"
+        }
+      ]
+    },
+    {
       "paperId": "f784e103d6e9b230ed6defb9bf2b8442daaed93c",
       "title": "Self-control: A Better Conditional Mechanism for Masked Autoregressive Model",
       "year": 2024,
@@ -396,7 +1768,7 @@
       "paperId": "63cd93d0245ad43191d8f147ee53a0c2f5a91693",
       "title": "Mix-LN: Unleashing the Power of Deeper Layers by Combining Pre-LN and Post-LN",
       "year": 2024,
-      "citationCount": 1,
+      "citationCount": 4,
       "authors": [
         {
           "authorId": "2303482643",
@@ -416,7 +1788,7 @@
       "paperId": "f4b8e6895a83493ff0893160f240993069e2f0db",
       "title": "Is Your World Simulator a Good Story Presenter? A Consecutive Events-Based Benchmark for Future Long Video Generation",
       "year": 2024,
-      "citationCount": 0,
+      "citationCount": 2,
       "authors": [
         {
           "authorId": "2334890311",
@@ -472,7 +1844,7 @@
       "paperId": "a77849fd0cbf85818f953e490a8e0385e79ec2ef",
       "title": "SoftVQ-VAE: Efficient 1-Dimensional Continuous Tokenizer",
       "year": 2024,
-      "citationCount": 1,
+      "citationCount": 6,
       "authors": [
         {
           "authorId": "2307335951",
@@ -513,6 +1885,106 @@
         {
           "authorId": "47223178",
           "name": "Emad Barsoum"
+        }
+      ]
+    },
+    {
+      "paperId": "9b05d2494db4f0b857a7f6a8d83cd23ba6c4eb21",
+      "title": "CC-Diff: Enhancing Contextual Coherence in Remote Sensing Image Synthesis",
+      "year": 2024,
+      "citationCount": 0,
+      "authors": [
+        {
+          "authorId": "2334769220",
+          "name": "Mu Zhang"
+        },
+        {
+          "authorId": "2279787174",
+          "name": "Yunfan Liu"
+        },
+        {
+          "authorId": "2279865167",
+          "name": "Yue Liu"
+        },
+        {
+          "authorId": "2279908067",
+          "name": "Hongtian Yu"
+        },
+        {
+          "authorId": "2281946115",
+          "name": "Qixiang Ye"
+        }
+      ]
+    },
+    {
+      "paperId": "af06dc2be258419a3d7c5b38d446234e68b1a4b8",
+      "title": "StyleStudio: Text-Driven Style Transfer with Selective Control of Style Elements",
+      "year": 2024,
+      "citationCount": 0,
+      "authors": [
+        {
+          "authorId": "2334740500",
+          "name": "Mingkun Lei"
+        },
+        {
+          "authorId": "2334824597",
+          "name": "Xue Song"
+        },
+        {
+          "authorId": "2336265253",
+          "name": "Beier Zhu"
+        },
+        {
+          "authorId": "2334818360",
+          "name": "Hao Wang"
+        },
+        {
+          "authorId": "2334822819",
+          "name": "Chi Zhang"
+        }
+      ]
+    },
+    {
+      "paperId": "9c2435a6932a90142e221fd5216a57d6ff4fe9d0",
+      "title": "ACDiT: Interpolating Autoregressive Conditional Modeling and Diffusion Transformer",
+      "year": 2024,
+      "citationCount": 1,
+      "authors": [
+        {
+          "authorId": "92837695",
+          "name": "Jinyi Hu"
+        },
+        {
+          "authorId": "1576223501",
+          "name": "Shengding Hu"
+        },
+        {
+          "authorId": "1610782647",
+          "name": "Yuxuan Song"
+        },
+        {
+          "authorId": "2286459314",
+          "name": "Yufei Huang"
+        },
+        {
+          "authorId": "2285763682",
+          "name": "Mingxuan Wang"
+        },
+        {
+          "authorId": "2274219552",
+          "name": "Hao Zhou"
+        },
+        {
+          "authorId": "2141313179",
+          "name": "Zhiyuan Liu"
+        },
+        {
+          "authorId": "2268308866",
+          "name": "Wei-Ying Ma"
+        },
+        {
+          "authorId": "2273551430",
+          "name": "Maosong Sun"
         }
       ]
     },
@@ -572,7 +2044,7 @@
       "paperId": "085a905534925eaddcdafd7c36ad3439f52126b2",
       "title": "AnyDressing: Customizable Multi-Garment Virtual Dressing via Latent Diffusion Models",
       "year": 2024,
-      "citationCount": 1,
+      "citationCount": 2,
       "authors": [
         {
           "authorId": "2304150355",
@@ -609,10 +2081,10 @@
       ]
     },
     {
-      "paperId": "45922173204d8b84f59da1adbd49d0557829ce44",
-      "title": "Liquid: Language Models are Scalable Multi-modal Generators",
+      "paperId": "c3a3d10d8ca64c546431b0604f4838518ac40e15",
+      "title": "Liquid: Language Models are Scalable and Unified Multi-modal Generators",
       "year": 2024,
-      "citationCount": 4,
+      "citationCount": 6,
       "authors": [
         {
           "authorId": "2146667089",
@@ -652,7 +2124,7 @@
       "paperId": "c91b7e49c4c61e9d724698971e4b2fd26875bd7b",
       "title": "XQ-GAN: An Open-source Image Tokenization Framework for Autoregressive Generation",
       "year": 2024,
-      "citationCount": 1,
+      "citationCount": 3,
       "authors": [
         {
           "authorId": "2304463477",
@@ -692,7 +2164,7 @@
       "paperId": "c12d190209071435e476076a37e586ce463aef09",
       "title": "Switti: Designing Scale-Wise Transformers for Text-to-Image Synthesis",
       "year": 2024,
-      "citationCount": 0,
+      "citationCount": 2,
       "authors": [
         {
           "authorId": "2319404289",
@@ -720,7 +2192,7 @@
       "paperId": "cbf1cf177ea6c4be00fa697b39b6f2fccd6ba22e",
       "title": "ZeroFake: Zero-Shot Detection of Fake Images Generated and Edited by Text-to-Image Generation Models",
       "year": 2024,
-      "citationCount": 2,
+      "citationCount": 3,
       "authors": [
         {
           "authorId": "2150485123",
@@ -937,10 +2409,102 @@
       ]
     },
     {
+      "paperId": "1a24da7ce537416ac30b8e3ecbe6adec012e62b2",
+      "title": "The Enhancement of Advanced Text-to-Image Diffusion Generation Models: A Review",
+      "year": 2024,
+      "citationCount": 0,
+      "authors": [
+        {
+          "authorId": "2355480632",
+          "name": "Hongyun Sheng"
+        }
+      ]
+    },
+    {
+      "paperId": "2afcdcef88390844ec5ddb7b7004dd6c12d6d51c",
+      "title": "GMAI-VL & GMAI-VL-5.5M: A Large Vision-Language Model and A Comprehensive Multimodal Dataset Towards General Medical AI",
+      "year": 2024,
+      "citationCount": 2,
+      "authors": [
+        {
+          "authorId": "2118911039",
+          "name": "Tian-Xin Li"
+        },
+        {
+          "authorId": "121873665",
+          "name": "Yan-Cheng Su"
+        },
+        {
+          "authorId": "2315099629",
+          "name": "Wei Li"
+        },
+        {
+          "authorId": "2261364011",
+          "name": "Bin Fu"
+        },
+        {
+          "authorId": "2305731793",
+          "name": "Zhe Chen"
+        },
+        {
+          "authorId": "15767038",
+          "name": "Ziyan Huang"
+        },
+        {
+          "authorId": "2279318397",
+          "name": "Guoan Wang"
+        },
+        {
+          "authorId": "2332089083",
+          "name": "Chenglong Ma"
+        },
+        {
+          "authorId": "2326449491",
+          "name": "Ying Chen"
+        },
+        {
+          "authorId": "2333217649",
+          "name": "Ming Hu"
+        },
+        {
+          "authorId": "2315111949",
+          "name": "Yanjun Li"
+        },
+        {
+          "authorId": "2271493720",
+          "name": "Pengcheng Chen"
+        },
+        {
+          "authorId": "2324676436",
+          "name": "Xiaowei Hu"
+        },
+        {
+          "authorId": "67198844",
+          "name": "Zhongying Deng"
+        },
+        {
+          "authorId": "2326809046",
+          "name": "Yuanfeng Ji"
+        },
+        {
+          "authorId": "2276055870",
+          "name": "Jin Ye"
+        },
+        {
+          "authorId": "2261364205",
+          "name": "Yu Qiao"
+        },
+        {
+          "authorId": "2310574751",
+          "name": "Junjun He"
+        }
+      ]
+    },
+    {
       "paperId": "263665fee1ee53cf142ff432b948da53fc1cac62",
       "title": "Spider: Any-to-Many Multimodal LLM",
       "year": 2024,
-      "citationCount": 0,
+      "citationCount": 1,
       "authors": [
         {
           "authorId": "15037661",
@@ -972,7 +2536,7 @@
       "paperId": "21207cb8bfeddaeec6313811375ee193483f5563",
       "title": "ENAT: Rethinking Spatial-temporal Interactions in Token-based Image Synthesis",
       "year": 2024,
-      "citationCount": 2,
+      "citationCount": 4,
       "authors": [
         {
           "authorId": "1749325163",
@@ -1036,7 +2600,7 @@
       "paperId": "491838c049ee5bd53a6d7c719033332c4a001fdc",
       "title": "Autoregressive Models in Vision: A Survey",
       "year": 2024,
-      "citationCount": 1,
+      "citationCount": 7,
       "authors": [
         {
           "authorId": "2324168511",
@@ -1122,9 +2686,9 @@
     },
     {
       "paperId": "143dfa086bcd53bce7c48223724870b3f49f9f6d",
-      "title": "ReEdit: Multimodal Exemplar-Based Image Editing with Diffusion Models",
+      "title": "REEDIT: Multimodal Exemplar-Based Image Editing",
       "year": 2024,
-      "citationCount": 0,
+      "citationCount": 1,
       "authors": [
         {
           "authorId": "2329725648",
@@ -1160,7 +2724,7 @@
       "paperId": "24959b24a4cd85becf1bad50ace1f58fa6109d1c",
       "title": "MVPaint: Synchronized Multi-View Diffusion for Painting Anything 3D",
       "year": 2024,
-      "citationCount": 2,
+      "citationCount": 7,
       "authors": [
         {
           "authorId": "2304484026",
@@ -1232,7 +2796,7 @@
       "paperId": "3797fb3be7b8a0c09061405631d80d593c258b2a",
       "title": "Watermarking for Stable Diffusion Models",
       "year": 2024,
-      "citationCount": 4,
+      "citationCount": 7,
       "authors": [
         {
           "authorId": "2292339699",
@@ -1256,7 +2820,7 @@
       "paperId": "4dc065aaf2cf2e38719403265bce701468b2e9f9",
       "title": "Towards Unifying Understanding and Generation in the Era of Vision Foundation Models: A Survey from the Autoregression Perspective",
       "year": 2024,
-      "citationCount": 1,
+      "citationCount": 3,
       "authors": [
         {
           "authorId": "2309217265",
@@ -1300,7 +2864,7 @@
       "paperId": "ec97580c08b545c4a38d0d590859a73f1be403b4",
       "title": "EGGen: Image Generation with Multi-entity Prior Learning through Entity Guidance",
       "year": 2024,
-      "citationCount": 1,
+      "citationCount": 4,
       "authors": [
         {
           "authorId": "2249862018",
@@ -1336,7 +2900,7 @@
       "paperId": "1b7c7ce95731669c2b7d989f37b4d2fced4f0d56",
       "title": "TreeReward: Improve Diffusion Model via Tree-Structured Feedback Learning",
       "year": 2024,
-      "citationCount": 0,
+      "citationCount": 1,
       "authors": [
         {
           "authorId": "2297820463",
@@ -1408,7 +2972,7 @@
       "paperId": "433c7de2be7e892aa0c0831ae42b42947bc80b79",
       "title": "Infinity-MM: Scaling Multimodal Performance with Large-Scale and High-Quality Instruction Data",
       "year": 2024,
-      "citationCount": 5,
+      "citationCount": 15,
       "authors": [
         {
           "authorId": "2315987183",
@@ -1556,7 +3120,7 @@
       "paperId": "107b7460ff46010736a69b96a26164573773cbb4",
       "title": "Text-to-Image Synthesis with Spatial-Semantic Modulation GAN",
       "year": 2024,
-      "citationCount": 0,
+      "citationCount": 1,
       "authors": [
         {
           "authorId": "2333667649",
@@ -1572,7 +3136,7 @@
       "paperId": "cde22d2bd9cca5ba5e18762d3ec937d1542456f6",
       "title": "Synergistic Dual Spatial-aware Generation of Image-to-Text and Text-to-Image",
       "year": 2024,
-      "citationCount": 0,
+      "citationCount": 1,
       "authors": [
         {
           "authorId": "2110263863",
@@ -1630,7 +3194,7 @@
     },
     {
       "paperId": "2b5b3b3458e82dcafbbd3846ecc5efba1d6d2292",
-      "title": "RescueADI: Adaptive Disaster Interpretation in Remote Sensing Images with Autonomous Agents",
+      "title": "RescueADI: Adaptive Disaster Interpretation in Remote Sensing Images With Autonomous Agents",
       "year": 2024,
       "citationCount": 1,
       "authors": [
@@ -1645,6 +3209,10 @@
         {
           "authorId": "2149891192",
           "name": "Bo Yuan"
+        },
+        {
+          "authorId": "2271748037",
+          "name": "Zhiguo Jiang"
         }
       ]
     },
@@ -1652,7 +3220,7 @@
       "paperId": "6a365ea0273f5e2cb1e0b58e241aa3d25d96845c",
       "title": "MagicTailor: Component-Controllable Personalization in Text-to-Image Diffusion Models",
       "year": 2024,
-      "citationCount": 4,
+      "citationCount": 5,
       "authors": [
         {
           "authorId": "2278119919",
@@ -1663,7 +3231,7 @@
           "name": "Jiancheng Huang"
         },
         {
-          "authorId": "2326809786",
+          "authorId": "2329523282",
           "name": "Jinbin Bai"
         },
         {
@@ -1712,7 +3280,7 @@
       "paperId": "0c154d8e5fc75a5b1b062a62d2940b3546da0878",
       "title": "An Online Learning Approach to Prompt-based Selection of Generative Models",
       "year": 2024,
-      "citationCount": 1,
+      "citationCount": 2,
       "authors": [
         {
           "authorId": "2267589676",
@@ -1756,7 +3324,7 @@
       "paperId": "18e1cc814d5a5a502b8c45c4e7723b919ddcfbfa",
       "title": "HART: Efficient Visual Generation with Hybrid Autoregressive Transformer",
       "year": 2024,
-      "citationCount": 10,
+      "citationCount": 30,
       "authors": [
         {
           "authorId": "150127950",
@@ -1820,7 +3388,7 @@
       "paperId": "ce458db7d2e645d4a2bb288d138864b70c2e0bac",
       "title": "Rectified Diffusion: Straightness Is Not Your Need in Rectified Flow",
       "year": 2024,
-      "citationCount": 5,
+      "citationCount": 12,
       "authors": [
         {
           "authorId": "2325188668",
@@ -1845,54 +3413,10 @@
       ]
     },
     {
-      "paperId": "fb9e03636566d2089119c6f8da0b7b9147b22fce",
-      "title": "BroadWay: Boost Your Text-to-Video Generation Model in a Training-free Way",
-      "year": 2024,
-      "citationCount": 0,
-      "authors": [
-        {
-          "authorId": "2281827319",
-          "name": "Jiazi Bu"
-        },
-        {
-          "authorId": "2218843242",
-          "name": "Pengyang Ling"
-        },
-        {
-          "authorId": "2271462894",
-          "name": "Pan Zhang"
-        },
-        {
-          "authorId": "2307034605",
-          "name": "Tong Wu"
-        },
-        {
-          "authorId": "2118187561",
-          "name": "Xiao-wen Dong"
-        },
-        {
-          "authorId": "12862495",
-          "name": "Yuhang Zang"
-        },
-        {
-          "authorId": "50206929",
-          "name": "Yuhang Cao"
-        },
-        {
-          "authorId": "2237734015",
-          "name": "Dahua Lin"
-        },
-        {
-          "authorId": "2267494294",
-          "name": "Jiaqi Wang"
-        }
-      ]
-    },
-    {
       "paperId": "2524a4cd86853a9e0033630840cc38d7178998ac",
       "title": "HyperDet: Generalizable Detection of Synthesized Images by Generating and Merging A Mixture of Hyper LoRAs",
       "year": 2024,
-      "citationCount": 0,
+      "citationCount": 1,
       "authors": [
         {
           "authorId": "2325494403",
@@ -1931,1342 +3455,54 @@
           "name": "Fei Wu"
         }
       ]
-    },
-    {
-      "paperId": "68b89556a65e8e50580a26e6152ccc48ec47ed9a",
-      "title": "SSP: A Simple and Safe Prompt Engineering for Visual Generation",
-      "year": 2024,
-      "citationCount": 0,
-      "authors": [
-        {
-          "authorId": "2277800639",
-          "name": "Weijin Cheng"
-        },
-        {
-          "authorId": "2277456913",
-          "name": "Jianzhi Liu"
-        },
-        {
-          "authorId": "9181217",
-          "name": "Ziyun Jiao"
-        },
-        {
-          "authorId": "2277753119",
-          "name": "Jiawen Deng"
-        },
-        {
-          "authorId": "2263378680",
-          "name": "Fuji Ren"
-        }
-      ]
-    },
-    {
-      "paperId": "6193c4074799458d0ac6b55f03881f0b0dbc16a2",
-      "title": "MVESF: Multi-View Enhanced Semantic Fusion for Controllable Text-to-Image Generation",
-      "year": 2024,
-      "citationCount": 0,
-      "authors": [
-        {
-          "authorId": "2275754991",
-          "name": "Hai Zhang"
-        },
-        {
-          "authorId": "2259973304",
-          "name": "Guitao Cao"
-        },
-        {
-          "authorId": "2341451789",
-          "name": "Xinke Wang"
-        },
-        {
-          "authorId": "2341380691",
-          "name": "Jiahao Quan"
-        }
-      ]
-    },
-    {
-      "paperId": "b41ae48f3389d7aa1f7ef39b823ea587b3232c50",
-      "title": "LANTERN: Accelerating Visual Autoregressive Models with Relaxed Speculative Decoding",
-      "year": 2024,
-      "citationCount": 4,
-      "authors": [
-        {
-          "authorId": "2284765585",
-          "name": "Doohyuk Jang"
-        },
-        {
-          "authorId": "2324683876",
-          "name": "Sihwan Park"
-        },
-        {
-          "authorId": "2004057395",
-          "name": "J. Yang"
-        },
-        {
-          "authorId": "117078549",
-          "name": "Yeonsung Jung"
-        },
-        {
-          "authorId": "80332204",
-          "name": "Jihun Yun"
-        },
-        {
-          "authorId": "2324487615",
-          "name": "Souvik Kundu"
-        },
-        {
-          "authorId": "2324641049",
-          "name": "Sung-Yub Kim"
-        },
-        {
-          "authorId": "2284765685",
-          "name": "Eunho Yang"
-        }
-      ]
-    },
-    {
-      "paperId": "bce2f3eeb770c7ba54fbb80dc538940e8cd70eb7",
-      "title": "Exploring the trade-off between deep-learning and explainable models for brain-machine interfaces",
-      "year": 2024,
-      "citationCount": 0,
-      "authors": [
-        {
-          "authorId": "2128343019",
-          "name": "Luis H. Cubillos"
-        },
-        {
-          "authorId": "2237985691",
-          "name": "Guy Revach"
-        },
-        {
-          "authorId": "17039186",
-          "name": "Matthew J. Mender"
-        },
-        {
-          "authorId": "2100540213",
-          "name": "Joseph T. Costello"
-        },
-        {
-          "authorId": "1784627213",
-          "name": "Hisham Temmar"
-        },
-        {
-          "authorId": "2324833439",
-          "name": "Aren Hite"
-        },
-        {
-          "authorId": "2324833676",
-          "name": "Diksha Zutshi"
-        },
-        {
-          "authorId": "2158998792",
-          "name": "Dylan M. Wallace"
-        },
-        {
-          "authorId": "2059138954",
-          "name": "Xiaoyong Ni"
-        },
-        {
-          "authorId": "2290175895",
-          "name": "Madison M. Kelberman"
-        },
-        {
-          "authorId": "8346883",
-          "name": "Matthew S. Willsey"
-        },
-        {
-          "authorId": "8085475",
-          "name": "Ruud J. G. van Sloun"
-        },
-        {
-          "authorId": "1734023",
-          "name": "Nir Shlezinger"
-        },
-        {
-          "authorId": "8004223",
-          "name": "Parag G. Patil"
-        },
-        {
-          "authorId": "2313913902",
-          "name": "Anne Draelos"
-        },
-        {
-          "authorId": "2297581389",
-          "name": "Cynthia A. Chestek"
-        }
-      ]
-    },
-    {
-      "paperId": "6e3737b055ec4102a25569a1ab52caedd28be0e4",
-      "title": "CaLMFlow: Volterra Flow Matching using Causal Language Models",
-      "year": 2024,
-      "citationCount": 0,
-      "authors": [
-        {
-          "authorId": "2257314768",
-          "name": "Sizhuang He"
-        },
-        {
-          "authorId": "2242367774",
-          "name": "Daniel Levine"
-        },
-        {
-          "authorId": "2284602793",
-          "name": "Ivan Vrkic"
-        },
-        {
-          "authorId": "2325098140",
-          "name": "Marco Francesco Bressana"
-        },
-        {
-          "authorId": "2325115738",
-          "name": "David Zhang"
-        },
-        {
-          "authorId": "2242367286",
-          "name": "S. Rizvi"
-        },
-        {
-          "authorId": "2325092928",
-          "name": "Yangtian Zhang"
-        },
-        {
-          "authorId": "2242366935",
-          "name": "E. Zappala"
-        },
-        {
-          "authorId": "2253468938",
-          "name": "David van Dijk"
-        }
-      ]
-    },
-    {
-      "paperId": "3c59f7b8ec13dee65516a1d75093fd145250e76a",
-      "title": "ImageFolder: Autoregressive Image Generation with Folded Tokens",
-      "year": 2024,
-      "citationCount": 7,
-      "authors": [
-        {
-          "authorId": "2304463477",
-          "name": "Xiang Li"
-        },
-        {
-          "authorId": "2290488011",
-          "name": "Kai Qiu"
-        },
-        {
-          "authorId": "2307335951",
-          "name": "Hao Chen"
-        },
-        {
-          "authorId": "1859486",
-          "name": "Jason Kuen"
-        },
-        {
-          "authorId": "2289808989",
-          "name": "Jiuxiang Gu"
-        },
-        {
-          "authorId": "2288787089",
-          "name": "Bhiksha Raj"
-        },
-        {
-          "authorId": "2306884438",
-          "name": "Zhe Lin"
-        }
-      ]
-    },
-    {
-      "paperId": "5370aa35ab6fc216284402435af6fc7940ec9677",
-      "title": "Accelerating Auto-regressive Text-to-Image Generation with Training-free Speculative Jacobi Decoding",
-      "year": 2024,
-      "citationCount": 3,
-      "authors": [
-        {
-          "authorId": "2269736084",
-          "name": "Yao Teng"
-        },
-        {
-          "authorId": "2285182555",
-          "name": "Han Shi"
-        },
-        {
-          "authorId": "2335514594",
-          "name": "Xian Liu"
-        },
-        {
-          "authorId": "6636914",
-          "name": "Xuefei Ning"
-        },
-        {
-          "authorId": "144290348",
-          "name": "Guohao Dai"
-        },
-        {
-          "authorId": "2283814845",
-          "name": "Yu Wang"
-        },
-        {
-          "authorId": "2302853377",
-          "name": "Zhenguo Li"
-        },
-        {
-          "authorId": "2269789129",
-          "name": "Xihui Liu"
-        }
-      ]
-    },
-    {
-      "paperId": "4f0f9345ca96d6befa25a6e75cb6460eb2dff434",
-      "title": "Riverine flood hazard map prediction by neural networks",
-      "year": 2024,
-      "citationCount": 0,
-      "authors": [
-        {
-          "authorId": "2257436772",
-          "name": "Zeda Yin"
-        },
-        {
-          "authorId": "2267591360",
-          "name": "Arturo S. Leon"
-        }
-      ]
-    },
-    {
-      "paperId": "ade4a39565054eb01b47a1e2ec8c827ad24ed92c",
-      "title": "The Influence Of AI Text-To-Image Technologies On Modern Creative Practices",
-      "year": 2024,
-      "citationCount": 0,
-      "authors": [
-        {
-          "authorId": "2329732280",
-          "name": "Tarun Singh"
-        }
-      ]
-    },
-    {
-      "paperId": "adbc44e0714d11f3a1127b95f4cb9a55dfee2ce6",
-      "title": "MaskMamba: A Hybrid Mamba-Transformer Model for Masked Image Generation",
-      "year": 2024,
-      "citationCount": 1,
-      "authors": [
-        {
-          "authorId": "2323521699",
-          "name": "Wenchao Chen"
-        },
-        {
-          "authorId": "2301581674",
-          "name": "Liqiang Niu"
-        },
-        {
-          "authorId": "2323528436",
-          "name": "Ziyao Lu"
-        },
-        {
-          "authorId": "33427918",
-          "name": "Fandong Meng"
-        },
-        {
-          "authorId": "2265517237",
-          "name": "Jie Zhou"
-        }
-      ]
-    },
-    {
-      "paperId": "611cac8592775665b3985ceb7e2d745d87277334",
-      "title": "Conditional Image Synthesis with Diffusion Models: A Survey",
-      "year": 2024,
-      "citationCount": 2,
-      "authors": [
-        {
-          "authorId": "2323508290",
-          "name": "Zheyuan Zhan"
-        },
-        {
-          "authorId": "1684692",
-          "name": "Defang Chen"
-        },
-        {
-          "authorId": "2323508500",
-          "name": "Jian-Ping Mei"
-        },
-        {
-          "authorId": "2323697446",
-          "name": "Zhenghe Zhao"
-        },
-        {
-          "authorId": "2115448385",
-          "name": "Jiawei Chen"
-        },
-        {
-          "authorId": "2109525713",
-          "name": "Chun Chen"
-        },
-        {
-          "authorId": "2267332404",
-          "name": "Siwei Lyu"
-        },
-        {
-          "authorId": "2302364534",
-          "name": "Can Wang"
-        }
-      ]
-    },
-    {
-      "paperId": "3281d5a46c9de4f7d80c28f58f3aea03e445bd0a",
-      "title": "Emu3: Next-Token Prediction is All You Need",
-      "year": 2024,
-      "citationCount": 49,
-      "authors": [
-        {
-          "authorId": "2263959521",
-          "name": "Xinlong Wang"
-        },
-        {
-          "authorId": "2264589602",
-          "name": "Xiaosong Zhang"
-        },
-        {
-          "authorId": "2275808712",
-          "name": "Zhengxiong Luo"
-        },
-        {
-          "authorId": "2264040642",
-          "name": "Quan Sun"
-        },
-        {
-          "authorId": "2263702215",
-          "name": "Yufeng Cui"
-        },
-        {
-          "authorId": "2257130183",
-          "name": "Jinsheng Wang"
-        },
-        {
-          "authorId": "2264274388",
-          "name": "Fan Zhang"
-        },
-        {
-          "authorId": "2217456303",
-          "name": "Yueze Wang"
-        },
-        {
-          "authorId": "2323506595",
-          "name": "Zhen Li"
-        },
-        {
-          "authorId": "23716915",
-          "name": "Qiying Yu"
-        },
-        {
-          "authorId": "2323418301",
-          "name": "Yingli Zhao"
-        },
-        {
-          "authorId": "2315986393",
-          "name": "Yulong Ao"
-        },
-        {
-          "authorId": "2323368684",
-          "name": "Xuebin Min"
-        },
-        {
-          "authorId": "2247562115",
-          "name": "Tao Li"
-        },
-        {
-          "authorId": "2284733285",
-          "name": "Boya Wu"
-        },
-        {
-          "authorId": "2268224900",
-          "name": "Bo Zhao"
-        },
-        {
-          "authorId": "2318890079",
-          "name": "Bowen Zhang"
-        },
-        {
-          "authorId": "2297262111",
-          "name": "Lian-zi Wang"
-        },
-        {
-          "authorId": "2274194580",
-          "name": "Guang Liu"
-        },
-        {
-          "authorId": "2281226931",
-          "name": "Zheqi He"
-        },
-        {
-          "authorId": "2305036932",
-          "name": "Xi Yang"
-        },
-        {
-          "authorId": "2222717281",
-          "name": "Jingjing Liu"
-        },
-        {
-          "authorId": "2316009746",
-          "name": "Yonghua Lin"
-        },
-        {
-          "authorId": "2257137554",
-          "name": "Tiejun Huang"
-        },
-        {
-          "authorId": "2290188965",
-          "name": "Zhongyuan Wang"
-        }
-      ]
-    },
-    {
-      "paperId": "088a42203bc9a67e14b1bfd5c1fd25a03c126c08",
-      "title": "A Unified Hallucination Mitigation Framework for Large Vision-Language Models",
-      "year": 2024,
-      "citationCount": 0,
-      "authors": [
-        {
-          "authorId": "2322784199",
-          "name": "Yue Chang"
-        },
-        {
-          "authorId": "2322802696",
-          "name": "Liqiang Jing"
-        },
-        {
-          "authorId": "2322797327",
-          "name": "Xiaopeng Zhang"
-        },
-        {
-          "authorId": "2284726330",
-          "name": "Yue Zhang"
-        }
-      ]
-    },
-    {
-      "paperId": "98048df70d84f62ea0ef753675631bb147ae091d",
-      "title": "Understanding Implosion in Text-to-Image Generative Models",
-      "year": 2024,
-      "citationCount": 0,
-      "authors": [
-        {
-          "authorId": "2261291475",
-          "name": "Wenxin Ding"
-        },
-        {
-          "authorId": "2290830909",
-          "name": "C. Y. Li"
-        },
-        {
-          "authorId": "40959657",
-          "name": "Shawn Shan"
-        },
-        {
-          "authorId": "2240917908",
-          "name": "Ben Y. Zhao"
-        },
-        {
-          "authorId": "2704852",
-          "name": "Haitao Zheng"
-        }
-      ]
-    },
-    {
-      "paperId": "ab542bdd98782328250ff705ecff5965bf402f02",
-      "title": "HiPrompt: Tuning-free Higher-Resolution Generation with Hierarchical MLLM Prompts",
-      "year": 2024,
-      "citationCount": 2,
-      "authors": [
-        {
-          "authorId": "2317045048",
-          "name": "Xinyu Liu"
-        },
-        {
-          "authorId": "2154314501",
-          "name": "Yin-Yin He"
-        },
-        {
-          "authorId": "2319614909",
-          "name": "Lanqing Guo"
-        },
-        {
-          "authorId": "2319766108",
-          "name": "Xiang Li"
-        },
-        {
-          "authorId": "2319604668",
-          "name": "Bu Jin"
-        },
-        {
-          "authorId": "2277001086",
-          "name": "Peng Li"
-        },
-        {
-          "authorId": "2319828797",
-          "name": "Yan Li"
-        },
-        {
-          "authorId": "2151547817",
-          "name": "Chi-Min Chan"
-        },
-        {
-          "authorId": "2293316721",
-          "name": "Qifeng Chen"
-        },
-        {
-          "authorId": "2315133973",
-          "name": "Wei Xue"
-        },
-        {
-          "authorId": "2268946386",
-          "name": "Wenhan Luo"
-        },
-        {
-          "authorId": "2319609186",
-          "name": "Qingfeng Liu"
-        },
-        {
-          "authorId": "2118270918",
-          "name": "Yi-Ting Guo"
-        }
-      ]
-    },
-    {
-      "paperId": "d0ae1637238ffe1a48efd39d462fa7a57ebc591d",
-      "title": "AdaNAT: Exploring Adaptive Policy for Token-Based Image Generation",
-      "year": 2024,
-      "citationCount": 4,
-      "authors": [
-        {
-          "authorId": "1749325163",
-          "name": "Zanlin Ni"
-        },
-        {
-          "authorId": "2115664591",
-          "name": "Yulin Wang"
-        },
-        {
-          "authorId": "2308989020",
-          "name": "Renping Zhou"
-        },
-        {
-          "authorId": "2301205439",
-          "name": "Rui Lu"
-        },
-        {
-          "authorId": "2148900054",
-          "name": "Jiayi Guo"
-        },
-        {
-          "authorId": "92837695",
-          "name": "Jinyi Hu"
-        },
-        {
-          "authorId": "2305652650",
-          "name": "Zhiyuan Liu"
-        },
-        {
-          "authorId": "1390925224",
-          "name": "Yuan Yao"
-        },
-        {
-          "authorId": "2306951197",
-          "name": "Gao Huang"
-        }
-      ]
-    },
-    {
-      "paperId": "7ebbd2ace70dbf2dd668f50dc64149475b96eda3",
-      "title": "Text-to-Image Generation Via Energy-Based CLIP",
-      "year": 2024,
-      "citationCount": 0,
-      "authors": [
-        {
-          "authorId": "2061747201",
-          "name": "Roy Ganz"
-        },
-        {
-          "authorId": "2286548289",
-          "name": "Michael Elad"
-        }
-      ]
-    },
-    {
-      "paperId": "bb2bc7048d3e977b5f002a6220fc662c188e790c",
-      "title": "SwiftBrush v2: Make Your One-step Diffusion Model Better Than Its Teacher",
-      "year": 2024,
-      "citationCount": 7,
-      "authors": [
-        {
-          "authorId": "2276606039",
-          "name": "T. Dao"
-        },
-        {
-          "authorId": "2157416204",
-          "name": "Thuan Hoang Nguyen"
-        },
-        {
-          "authorId": "2212720429",
-          "name": "Van Thanh Le"
-        },
-        {
-          "authorId": "2276606498",
-          "name": "D. Vu"
-        },
-        {
-          "authorId": "2261741144",
-          "name": "Khoi Nguyen"
-        },
-        {
-          "authorId": "2269462407",
-          "name": "Cuong Pham"
-        },
-        {
-          "authorId": "2227564672",
-          "name": "Anh Tran"
-        }
-      ]
-    },
-    {
-      "paperId": "f271819b689500d1cd7c95763d77eebc63270a8a",
-      "title": "Urban Foundation Models: A Survey",
-      "year": 2024,
-      "citationCount": 2,
-      "authors": [
-        {
-          "authorId": "9399483",
-          "name": "Weijiao Zhang"
-        },
-        {
-          "authorId": "2146364807",
-          "name": "Jindong Han"
-        },
-        {
-          "authorId": "2276485346",
-          "name": "Zhao Xu"
-        },
-        {
-          "authorId": "2282539801",
-          "name": "Hang Ni"
-        },
-        {
-          "authorId": "2317013056",
-          "name": "Hao Liu"
-        },
-        {
-          "authorId": "2247992230",
-          "name": "Hui Xiong"
-        }
-      ]
-    },
-    {
-      "paperId": "5fd07edfeda12536711500459b36d42f0ec63f9e",
-      "title": "ChatIoT: Zero-code Generation of Trigger-action Based IoT Programs",
-      "year": 2024,
-      "citationCount": 0,
-      "authors": [
-        {
-          "authorId": "49658142",
-          "name": "Yi Gao"
-        },
-        {
-          "authorId": "2320570556",
-          "name": "Kaijie Xiao"
-        },
-        {
-          "authorId": "2237956178",
-          "name": "Fu Li"
-        },
-        {
-          "authorId": "2292643494",
-          "name": "Weifeng Xu"
-        },
-        {
-          "authorId": "2213331405",
-          "name": "Jiaming Huang"
-        },
-        {
-          "authorId": "2237429280",
-          "name": "Wei Dong"
-        }
-      ]
-    },
-    {
-      "paperId": "0ed8aa43670b2d0f49a5ed168b87e76f71b60ee8",
-      "title": "Survey: Transformer-based Models in Data Modality Conversion",
-      "year": 2024,
-      "citationCount": 0,
-      "authors": [
-        {
-          "authorId": "66164802",
-          "name": "Elyas Rashno"
-        },
-        {
-          "authorId": "2315811037",
-          "name": "Amir Eskandari"
-        },
-        {
-          "authorId": "2315812114",
-          "name": "Aman Anand"
-        },
-        {
-          "authorId": "1717045",
-          "name": "F. Zulkernine"
-        }
-      ]
-    },
-    {
-      "paperId": "83a5893fe9b292222bfb25f544b0ecf1563e0899",
-      "title": "BRAT: Bonus oRthogonAl Token for Architecture Agnostic Textual Inversion",
-      "year": 2024,
-      "citationCount": 1,
-      "authors": [
-        {
-          "authorId": "2316176221",
-          "name": "James Baker"
-        }
-      ]
-    },
-    {
-      "paperId": "9a0f54833d843cca892bc452e70bf1fc47f541c5",
-      "title": "D2Styler: Advancing Arbitrary Style Transfer with Discrete Diffusion Methods",
-      "year": 2024,
-      "citationCount": 0,
-      "authors": [
-        {
-          "authorId": "2149412487",
-          "name": "Onkar Susladkar"
-        },
-        {
-          "authorId": "119582522",
-          "name": "Gayatri S Deshmukh"
-        },
-        {
-          "authorId": "2262215176",
-          "name": "Sparsh Mittal"
-        },
-        {
-          "authorId": "2315121670",
-          "name": "Parth Shastri"
-        }
-      ]
-    },
-    {
-      "paperId": "1446e8a4ae7f851772edef992c23eed9c4cbe8cd",
-      "title": "Lumina-mGPT: Illuminate Flexible Photorealistic Text-to-Image Generation with Multimodal Generative Pretraining",
-      "year": 2024,
-      "citationCount": 23,
-      "authors": [
-        {
-          "authorId": "2308683426",
-          "name": "Dongyang Liu"
-        },
-        {
-          "authorId": "2283419424",
-          "name": "Shitian Zhao"
-        },
-        {
-          "authorId": "2300371391",
-          "name": "Le Zhuo"
-        },
-        {
-          "authorId": "2284068796",
-          "name": "Weifeng Lin"
-        },
-        {
-          "authorId": "2312346585",
-          "name": "Yu Qiao"
-        },
-        {
-          "authorId": "2266421952",
-          "name": "Hongsheng Li"
-        },
-        {
-          "authorId": "2310909023",
-          "name": "Peng Gao"
-        }
-      ]
-    },
-    {
-      "paperId": "65010f7d68c06ccd00f0d94e8622224ba4fc7d30",
-      "title": "LEGO: Self-Supervised Representation Learning for Scene Text Images",
-      "year": 2024,
-      "citationCount": 0,
-      "authors": [
-        {
-          "authorId": "2193035735",
-          "name": "Yujin Ren"
-        },
-        {
-          "authorId": "2118131879",
-          "name": "Jiaxin Zhang"
-        },
-        {
-          "authorId": "2256463370",
-          "name": "Lianwen Jin"
-        }
-      ]
-    },
-    {
-      "paperId": "39183d2551db8a5ba84f06345cbd05c83fcf3677",
-      "title": "A Survey of Cross-Modal Visual Content Generation",
-      "year": 2024,
-      "citationCount": 3,
-      "authors": [
-        {
-          "authorId": "2278954441",
-          "name": "Fatemeh Nazarieh"
-        },
-        {
-          "authorId": "2976854",
-          "name": "Zhenhua Feng"
-        },
-        {
-          "authorId": "144987292",
-          "name": "Muhammad Awais"
-        },
-        {
-          "authorId": "2237381575",
-          "name": "Wenwu Wang"
-        },
-        {
-          "authorId": "2240074081",
-          "name": "Josef Kittler"
-        }
-      ]
-    },
-    {
-      "paperId": "54cfe67fb02467fbf45b24f8ce1caa34728cde30",
-      "title": "Reproducibility Study of \"ITI-GEN: Inclusive Text-to-Image Generation\"",
-      "year": 2024,
-      "citationCount": 0,
-      "authors": [
-        {
-          "authorId": "2310900562",
-          "name": "Daniel Gallo Fern'andez"
-        },
-        {
-          "authorId": "2313636438",
-          "name": "Ruazvan-Andrei Matisan"
-        },
-        {
-          "authorId": "2311818994",
-          "name": "Alejandro Monroy Munoz"
-        },
-        {
-          "authorId": "2310899522",
-          "name": "Janusz Partyka"
-        }
-      ]
-    },
-    {
-      "paperId": "c1785306645975af4e5759bb43d93101671b0899",
-      "title": "Contrasting Deepfakes Diffusion via Contrastive Learning and Global-Local Similarities",
-      "year": 2024,
-      "citationCount": 3,
-      "authors": [
-        {
-          "authorId": "1843795",
-          "name": "L. Baraldi"
-        },
-        {
-          "authorId": "2238814159",
-          "name": "Federico Cocchi"
-        },
-        {
-          "authorId": "3468983",
-          "name": "Marcella Cornia"
-        },
-        {
-          "authorId": "1843795",
-          "name": "L. Baraldi"
-        },
-        {
-          "authorId": "2299854427",
-          "name": "Alessandro Nicolosi"
-        },
-        {
-          "authorId": "1741922",
-          "name": "R. Cucchiara"
-        }
-      ]
-    },
-    {
-      "paperId": "d9821386dc870a8b5ca3e2187651a00f68178a7e",
-      "title": "LSReGen: Large-Scale Regional Generator via Backward Guidance Framework",
-      "year": 2024,
-      "citationCount": 0,
-      "authors": [
-        {
-          "authorId": "2312651404",
-          "name": "Bowen Zhang"
-        },
-        {
-          "authorId": "2312331985",
-          "name": "Cheng Yang"
-        },
-        {
-          "authorId": "2312343018",
-          "name": "Xuanhui Liu"
-        }
-      ]
-    },
-    {
-      "paperId": "6076ea640bb70766a9859ad53a7b1a5aa7ced8d7",
-      "title": "Sal-Guide Diffusion: Saliency Maps Guide Emotional Image Generation through Adapter",
-      "year": 2024,
-      "citationCount": 0,
-      "authors": [
-        {
-          "authorId": "2324122039",
-          "name": "Xiangru Lin"
-        },
-        {
-          "authorId": "2278926885",
-          "name": "Shenghua Zhong"
-        },
-        {
-          "authorId": "2293687851",
-          "name": "Yan Liu"
-        },
-        {
-          "authorId": "2265358574",
-          "name": "Gong Chen"
-        }
-      ]
-    },
-    {
-      "paperId": "be00cb5bb7ba7a88203f11a3568a9869a71b6175",
-      "title": "Adversarial Attacks and Defenses on Text-to-Image Diffusion Models: A Survey",
-      "year": 2024,
-      "citationCount": 5,
-      "authors": [
-        {
-          "authorId": "2279759011",
-          "name": "Chenyu Zhang"
-        },
-        {
-          "authorId": "2296381502",
-          "name": "Mingwang Hu"
-        },
-        {
-          "authorId": "2312604722",
-          "name": "Wenhui Li"
-        },
-        {
-          "authorId": "2238386048",
-          "name": "Lanjun Wang"
-        }
-      ]
-    },
-    {
-      "paperId": "467f4ca30a5500b1494955a58c82eb11a02dc6a8",
-      "title": "Learning to Adapt Category Consistent Meta-Feature of CLIP for Few-Shot Classification",
-      "year": 2024,
-      "citationCount": 0,
-      "authors": [
-        {
-          "authorId": "2304790558",
-          "name": "Jiaying Shi"
-        },
-        {
-          "authorId": "2311117754",
-          "name": "Xuetong Xue"
-        },
-        {
-          "authorId": "2304900223",
-          "name": "Shenghui Xu"
-        }
-      ]
-    },
-    {
-      "paperId": "f42f1a767bc1265408f3cb41497bc410f886181f",
-      "title": "PartCraft: Crafting Creative Objects by Parts",
-      "year": 2024,
-      "citationCount": 1,
-      "authors": [
-        {
-          "authorId": "67320898",
-          "name": "KamWoh Ng"
-        },
-        {
-          "authorId": "2116163653",
-          "name": "Xiatian Zhu"
-        },
-        {
-          "authorId": "2115712433",
-          "name": "Yi-Zhe Song"
-        },
-        {
-          "authorId": "2268395717",
-          "name": "Tao Xiang"
-        }
-      ]
-    },
-    {
-      "paperId": "c6b2d6ef263deca6cfc366691b4da276ef4899ac",
-      "title": "MobileFlow: A Multimodal LLM For Mobile GUI Agent",
-      "year": 2024,
-      "citationCount": 3,
-      "authors": [
-        {
-          "authorId": "2310233755",
-          "name": "Songqin Nong"
-        },
-        {
-          "authorId": "2310288161",
-          "name": "Jiali Zhu"
-        },
-        {
-          "authorId": "2216498035",
-          "name": "Rui Wu"
-        },
-        {
-          "authorId": "2310295604",
-          "name": "Jiongchao Jin"
-        },
-        {
-          "authorId": "2310230097",
-          "name": "Shuo Shan"
-        },
-        {
-          "authorId": "2215686085",
-          "name": "Xiutian Huang"
-        },
-        {
-          "authorId": "2215623676",
-          "name": "Wenhao Xu"
-        }
-      ]
-    },
-    {
-      "paperId": "3ba3b46ef11e1f5a287aafe53e78f2d6ddf21cb1",
-      "title": "MIGC++: Advanced Multi-Instance Generation Controller for Image Synthesis",
-      "year": 2024,
-      "citationCount": 6,
-      "authors": [
-        {
-          "authorId": "2283425411",
-          "name": "Dewei Zhou"
-        },
-        {
-          "authorId": "2283354582",
-          "name": "You Li"
-        },
-        {
-          "authorId": "2283456376",
-          "name": "Fan Ma"
-        },
-        {
-          "authorId": "15556978",
-          "name": "Zongxin Yang"
-        },
-        {
-          "authorId": "2273914134",
-          "name": "Yi Yang"
-        }
-      ]
-    },
-    {
-      "paperId": "165de112540a31ffcd2b1a8f50bec3092b588bb2",
-      "title": "Meta 3D TextureGen: Fast and Consistent Texture Generation for 3D Objects",
-      "year": 2024,
-      "citationCount": 13,
-      "authors": [
-        {
-          "authorId": "2309244620",
-          "name": "Raphael Bensadoun"
-        },
-        {
-          "authorId": "3119575",
-          "name": "Yanir Kleiman"
-        },
-        {
-          "authorId": "1602263997",
-          "name": "Idan Azuri"
-        },
-        {
-          "authorId": "2309244660",
-          "name": "Omri Harosh"
-        },
-        {
-          "authorId": "2257160660",
-          "name": "Andrea Vedaldi"
-        },
-        {
-          "authorId": "2273217628",
-          "name": "Natalia Neverova"
-        },
-        {
-          "authorId": "90840812",
-          "name": "Oran Gafni"
-        }
-      ]
-    },
-    {
-      "paperId": "dc7ed870fb23e1319c10553e266b3df6f8243cf3",
-      "title": "UltraPixel: Advancing Ultra-High-Resolution Image Synthesis to New Peaks",
-      "year": 2024,
-      "citationCount": 8,
-      "authors": [
-        {
-          "authorId": "2262215695",
-          "name": "Jingjing Ren"
-        },
-        {
-          "authorId": "2268632020",
-          "name": "Wenbo Li"
-        },
-        {
-          "authorId": "2268767304",
-          "name": "Haoyu Chen"
-        },
-        {
-          "authorId": "2233152667",
-          "name": "Renjing Pei"
-        },
-        {
-          "authorId": "2309244980",
-          "name": "Bin Shao"
-        },
-        {
-          "authorId": "2309267549",
-          "name": "Yong Guo"
-        },
-        {
-          "authorId": "2231981879",
-          "name": "Long Peng"
-        },
-        {
-          "authorId": "2309245574",
-          "name": "Fenglong Song"
-        },
-        {
-          "authorId": "2276668739",
-          "name": "Lei Zhu"
-        }
-      ]
-    },
-    {
-      "paperId": "f46fe824ff7754b127517b27f3045e23f3287afe",
-      "title": "Meta 3D Gen",
-      "year": 2024,
-      "citationCount": 0,
-      "authors": [
-        {
-          "authorId": "2096489651",
-          "name": "R.-J. Bensadoun"
-        },
-        {
-          "authorId": "2309478302",
-          "name": "Tom Monnier"
-        },
-        {
-          "authorId": "2309478238",
-          "name": "Yanir Kleiman"
-        },
-        {
-          "authorId": "2309476957",
-          "name": "Filippos Kokkinos"
-        },
-        {
-          "authorId": "2309477834",
-          "name": "Yawar Siddiqui"
-        },
-        {
-          "authorId": "2309478216",
-          "name": "Mahendra Kariya"
-        },
-        {
-          "authorId": "2309481548",
-          "name": "Omri Harosh"
-        },
-        {
-          "authorId": "2309481546",
-          "name": "Roman Shapovalov"
-        },
-        {
-          "authorId": "2309476219",
-          "name": "Benjamin Graham"
-        },
-        {
-          "authorId": "2066500372",
-          "name": "E. Garreau"
-        },
-        {
-          "authorId": "2309475784",
-          "name": "Animesh Karnewar"
-        },
-        {
-          "authorId": "2309481709",
-          "name": "Ang Cao"
-        },
-        {
-          "authorId": "2309478300",
-          "name": "Idan Azuri"
-        },
-        {
-          "authorId": "2309478333",
-          "name": "Iurii Makarov"
-        },
-        {
-          "authorId": "2064191124",
-          "name": "E. Le"
-        },
-        {
-          "authorId": "2309477011",
-          "name": "Antoine Toisoul"
-        },
-        {
-          "authorId": "2309481544",
-          "name": "David Novotny"
-        },
-        {
-          "authorId": "2309481536",
-          "name": "Oran Gafni"
-        },
-        {
-          "authorId": "2309478335",
-          "name": "Natalia Neverova"
-        },
-        {
-          "authorId": "2309477007",
-          "name": "Andrea Vedaldi"
-        }
-      ]
-    },
-    {
-      "paperId": "4369866a12d6c12c62bc1d2551d9cdf4e2b10fb2",
-      "title": "GVDIFF: Grounded Text-to-Video Generation with Diffusion Models",
-      "year": 2024,
-      "citationCount": 1,
-      "authors": [
-        {
-          "authorId": "2044445804",
-          "name": "Huanzhang Dou"
-        },
-        {
-          "authorId": "2150927216",
-          "name": "Rui Li"
-        },
-        {
-          "authorId": "2218892279",
-          "name": "Wei Su"
-        },
-        {
-          "authorId": "2306943146",
-          "name": "Xi Li"
-        }
-      ]
     }
   ],
   "references": [
     {
+      "paperId": "6296aa7cab06eaf058f7291040b320b5a83c0091",
+      "title": "Generative Adversarial Networks",
+      "year": 2021,
+      "citationCount": 30062,
+      "authors": [
+        {
+          "authorId": "153440022",
+          "name": "I. Goodfellow"
+        },
+        {
+          "authorId": "1403025868",
+          "name": "Jean Pouget-Abadie"
+        },
+        {
+          "authorId": "153583218",
+          "name": "Mehdi Mirza"
+        },
+        {
+          "authorId": "2113742925",
+          "name": "Bing Xu"
+        },
+        {
+          "authorId": "1393680089",
+          "name": "David Warde-Farley"
+        },
+        {
+          "authorId": "1955694",
+          "name": "Sherjil Ozair"
+        },
+        {
+          "authorId": "1760871",
+          "name": "Aaron C. Courville"
+        },
+        {
+          "authorId": "1751762",
+          "name": "Yoshua Bengio"
+        }
+      ]
+    },
+    {
       "paperId": "2af34a036bf54205d782b3dd0c8f2cdf8f8745bd",
       "title": "The road from MLE to EM to VAE: A brief tutorial",
       "year": 2021,
-      "citationCount": 7,
+      "citationCount": 8,
       "authors": [
         {
           "authorId": "2055623247",
@@ -3278,7 +3514,7 @@
       "paperId": "739ceacfafb1c4eaa17509351b647c773270b3ae",
       "title": "An Empirical Study of Training Self-Supervised Vision Transformers",
       "year": 2021,
-      "citationCount": 1650,
+      "citationCount": 1739,
       "authors": [
         {
           "authorId": "39717886",
@@ -3298,7 +3534,7 @@
       "paperId": "e2af3fc33a80b86beed4d38f6247a8ca6f883e25",
       "title": "Controllable Generation from Pre-trained Language Models via Inverse Prompting",
       "year": 2021,
-      "citationCount": 53,
+      "citationCount": 57,
       "authors": [
         {
           "authorId": "46927790",
@@ -3330,7 +3566,7 @@
       "paperId": "a11676f2864b2d923bb9facc9f6548c812f9e005",
       "title": "M6: A Chinese Multimodal Pretrainer",
       "year": 2021,
-      "citationCount": 127,
+      "citationCount": 131,
       "authors": [
         {
           "authorId": "35996608",
@@ -3438,7 +3674,7 @@
       "paperId": "6f870f7f02a8c59c3e23f407f3ef00dd1dcf8fc4",
       "title": "Learning Transferable Visual Models From Natural Language Supervision",
       "year": 2021,
-      "citationCount": 22927,
+      "citationCount": 26141,
       "authors": [
         {
           "authorId": "38909097",
@@ -3494,7 +3730,7 @@
       "paperId": "2cd605106b88c85d7d8b865b1ef0f8c8293debf1",
       "title": "Zero-Shot Text-to-Image Generation",
       "year": 2021,
-      "citationCount": 4280,
+      "citationCount": 4605,
       "authors": [
         {
           "authorId": "1992922591",
@@ -3534,7 +3770,7 @@
       "paperId": "47f7ec3d0a5e6e83b6768ece35206a94dc81919c",
       "title": "Taming Transformers for High-Resolution Image Synthesis",
       "year": 2020,
-      "citationCount": 2411,
+      "citationCount": 2694,
       "authors": [
         {
           "authorId": "35175531",
@@ -3554,7 +3790,7 @@
       "paperId": "887dca3660b7c6543faac513d804e621f0134470",
       "title": "Text-to-Image Generation Grounded by Fine-Grained User Attention",
       "year": 2020,
-      "citationCount": 55,
+      "citationCount": 56,
       "authors": [
         {
           "authorId": "23978705",
@@ -3610,7 +3846,7 @@
       "paperId": "044e13d7dd4e0655eb76f0bd00b2c1bdb44e2be3",
       "title": "Big Bird: Transformers for Longer Sequences",
       "year": 2020,
-      "citationCount": 1876,
+      "citationCount": 1960,
       "authors": [
         {
           "authorId": "1771307",
@@ -3662,7 +3898,7 @@
       "paperId": "bc022dbb37b1bbf3905a7404d19c03ccbf6b81a8",
       "title": "Generative Pretraining From Pixels",
       "year": 2020,
-      "citationCount": 1391,
+      "citationCount": 1451,
       "authors": [
         {
           "authorId": "2108828435",
@@ -3698,7 +3934,7 @@
       "paperId": "725264948d7b6946259af5b8d966e996b9570f99",
       "title": "DeepSpeed: System Optimizations Enable Training Deep Learning Models with Over 100 Billion Parameters",
       "year": 2020,
-      "citationCount": 1087,
+      "citationCount": 1202,
       "authors": [
         {
           "authorId": "3299496",
@@ -3722,7 +3958,7 @@
       "paperId": "706f756b71f0bf51fc78d98f52c358b1a3aeef8e",
       "title": "Self-Supervised Learning: Generative or Contrastive",
       "year": 2020,
-      "citationCount": 1446,
+      "citationCount": 1531,
       "authors": [
         {
           "authorId": "2111312892",
@@ -3758,7 +3994,7 @@
       "paperId": "38f93092ece8eee9771e61c1edaf11b1293cae1b",
       "title": "Bootstrap Your Own Latent: A New Approach to Self-Supervised Learning",
       "year": 2020,
-      "citationCount": 6225,
+      "citationCount": 6487,
       "authors": [
         {
           "authorId": "145840757",
@@ -3822,7 +4058,7 @@
       "paperId": "90abbc2cf38462b954ae1b772fac9532e2ccd8b0",
       "title": "Language Models are Few-Shot Learners",
       "year": 2020,
-      "citationCount": 35506,
+      "citationCount": 38133,
       "authors": [
         {
           "authorId": "31035595",
@@ -3922,7 +4158,7 @@
         },
         {
           "authorId": "1490681878",
-          "name": "B. Chess"
+          "name": "Benjamin Chess"
         },
         {
           "authorId": "2115193883",
@@ -3954,7 +4190,7 @@
       "paperId": "7af72a461ed7cda180e7eab878efd5f35d79bbf4",
       "title": "A Simple Framework for Contrastive Learning of Visual Representations",
       "year": 2020,
-      "citationCount": 16985,
+      "citationCount": 17730,
       "authors": [
         {
           "authorId": "145358498",
@@ -3978,7 +4214,7 @@
       "paperId": "b45d656ac8cc2e940609580cf291ee76ffcac20a",
       "title": "On Layer Normalization in the Transformer Architecture",
       "year": 2020,
-      "citationCount": 850,
+      "citationCount": 908,
       "authors": [
         {
           "authorId": "51130380",
@@ -4026,7 +4262,7 @@
       "paperId": "add2f205338d70e10ce5e686df4a690e2851bdfc",
       "title": "Momentum Contrast for Unsupervised Visual Representation Learning",
       "year": 2019,
-      "citationCount": 11190,
+      "citationCount": 11611,
       "authors": [
         {
           "authorId": "39353098",
@@ -4054,7 +4290,7 @@
       "paperId": "95a251513853c6032bdecebd4b74e15795662986",
       "title": "What Does BERT Look at? An Analysis of BERT’s Attention",
       "year": 2019,
-      "citationCount": 1501,
+      "citationCount": 1535,
       "authors": [
         {
           "authorId": "144358401",
@@ -4078,7 +4314,7 @@
       "paperId": "6be216d93421bf19c1659e7721241ae73d483baf",
       "title": "Generating Diverse High-Fidelity Images with VQ-VAE-2",
       "year": 2019,
-      "citationCount": 1609,
+      "citationCount": 1706,
       "authors": [
         {
           "authorId": "143653164",
@@ -4098,7 +4334,7 @@
       "paperId": "ab995f96722969a0dfc6dc9139eef4c9b13c0524",
       "title": "DM-GAN: Dynamic Memory Generative Adversarial Networks for Text-To-Image Synthesis",
       "year": 2019,
-      "citationCount": 544,
+      "citationCount": 559,
       "authors": [
         {
           "authorId": "145314938",
@@ -4122,7 +4358,7 @@
       "paperId": "fc5cb771ef25ed57e4902cf86433db906cdbbc39",
       "title": "Object-Driven Text-To-Image Synthesis via Adversarial Training",
       "year": 2019,
-      "citationCount": 293,
+      "citationCount": 296,
       "authors": [
         {
           "authorId": "47112872",
@@ -4158,7 +4394,7 @@
       "paperId": "159078136930f3963e01d694faa1b6b51f93c7ec",
       "title": "Lagging Inference Networks and Posterior Collapse in Variational Autoencoders",
       "year": 2019,
-      "citationCount": 268,
+      "citationCount": 269,
       "authors": [
         {
           "authorId": "6215698",
@@ -4182,7 +4418,7 @@
       "paperId": "17734113f254a64b3bae312713edba3b1e34fb56",
       "title": "The Emergence of Deepfake Technology: A Review",
       "year": 2019,
-      "citationCount": 575,
+      "citationCount": 610,
       "authors": [
         {
           "authorId": "47961071",
@@ -4194,7 +4430,7 @@
       "paperId": "b5246fa284f86b544a7c31f050b3bd0defd053fd",
       "title": "SentencePiece: A simple and language independent subword tokenizer and detokenizer for Neural Text Processing",
       "year": 2018,
-      "citationCount": 3330,
+      "citationCount": 3405,
       "authors": [
         {
           "authorId": "1765329",
@@ -4210,7 +4446,7 @@
       "paperId": "b4df354db88a70183a64dbc9e56cf14e7669a6c0",
       "title": "Conceptual Captions: A Cleaned, Hypernymed, Image Alt-text Dataset For Automatic Image Captioning",
       "year": 2018,
-      "citationCount": 2254,
+      "citationCount": 2365,
       "authors": [
         {
           "authorId": "48267618",
@@ -4234,7 +4470,7 @@
       "paperId": "1db9bd18681b96473f3c82b21edc9240b44dc329",
       "title": "Image Transformer",
       "year": 2018,
-      "citationCount": 1583,
+      "citationCount": 1621,
       "authors": [
         {
           "authorId": "3877127",
@@ -4270,7 +4506,7 @@
       "paperId": "8b35c00edfa4edfd7a99d816e671023d2c000d55",
       "title": "AttnGAN: Fine-Grained Text to Image Generation with Attentional Generative Adversarial Networks",
       "year": 2017,
-      "citationCount": 1615,
+      "citationCount": 1661,
       "authors": [
         {
           "authorId": "2118717191",
@@ -4306,7 +4542,7 @@
       "paperId": "f466157848d1a7772fb6d02cdac9a7a5e7ef982e",
       "title": "Neural Discrete Representation Learning",
       "year": 2017,
-      "citationCount": 4256,
+      "citationCount": 4635,
       "authors": [
         {
           "authorId": "3422336",
@@ -4326,7 +4562,7 @@
       "paperId": "231af7dc01a166cac3b5b01ca05778238f796e41",
       "title": "GANs Trained by a Two Time-Scale Update Rule Converge to a Local Nash Equilibrium",
       "year": 2017,
-      "citationCount": 11987,
+      "citationCount": 12860,
       "authors": [
         {
           "authorId": "2445103",
@@ -4354,7 +4590,7 @@
       "paperId": "204e3073870fae3d05bcbc2f6a8e263d9b72e776",
       "title": "Attention is All you Need",
       "year": 2017,
-      "citationCount": 116294,
+      "citationCount": 122776,
       "authors": [
         {
           "authorId": "40348417",
@@ -4394,7 +4630,7 @@
       "paperId": "ea67d2d5f2a7d5760ec6b67ea93d11dd5affa921",
       "title": "StackGAN: Text to Photo-Realistic Image Synthesis with Stacked Generative Adversarial Networks",
       "year": 2016,
-      "citationCount": 2646,
+      "citationCount": 2672,
       "authors": [
         {
           "authorId": null,
@@ -4430,7 +4666,7 @@
       "paperId": "29e944711a354c396fad71936f536e83025b6ce0",
       "title": "Categorical Reparameterization with Gumbel-Softmax",
       "year": 2016,
-      "citationCount": 5049,
+      "citationCount": 5170,
       "authors": [
         {
           "authorId": "145116380",
@@ -4450,7 +4686,7 @@
       "paperId": "5966d7c7f60898d610812e24c64d4d57855ad86a",
       "title": "Semantics derived automatically from language corpora contain human-like biases",
       "year": 2016,
-      "citationCount": 2504,
+      "citationCount": 2567,
       "authors": [
         {
           "authorId": "144537437",
@@ -4470,7 +4706,7 @@
       "paperId": "b022f2a277a4bf5f42382e86e4380b96340b9e86",
       "title": "SGDR: Stochastic Gradient Descent with Warm Restarts",
       "year": 2016,
-      "citationCount": 7362,
+      "citationCount": 7721,
       "authors": [
         {
           "authorId": "1678656",
@@ -4486,7 +4722,7 @@
       "paperId": "97fb4e3d45bb098e27e0071448b6152217bd35a5",
       "title": "Layer Normalization",
       "year": 2016,
-      "citationCount": 9789,
+      "citationCount": 10087,
       "authors": [
         {
           "authorId": "2503659",
@@ -4506,7 +4742,7 @@
       "paperId": "571b0750085ae3d939525e62af510ee2cee9d5ea",
       "title": "Improved Techniques for Training GANs",
       "year": 2016,
-      "citationCount": 8583,
+      "citationCount": 8796,
       "authors": [
         {
           "authorId": "2887364",
@@ -4538,7 +4774,7 @@
       "paperId": "bed3b53a666cb6e34830b1cac348913772fd0e71",
       "title": "Multimodal Feature Integration in the Angular Gyrus during Episodic and Semantic Retrieval",
       "year": 2016,
-      "citationCount": 156,
+      "citationCount": 159,
       "authors": [
         {
           "authorId": "4122629",
@@ -4562,7 +4798,7 @@
       "paperId": "6c7f040a150abf21dbcefe1f22e0f98fa184f41a",
       "title": "Generative Adversarial Text to Image Synthesis",
       "year": 2016,
-      "citationCount": 3052,
+      "citationCount": 3093,
       "authors": [
         {
           "authorId": "144828948",
@@ -4594,7 +4830,7 @@
       "paperId": "41f1d50c85d3180476c4c7b3eea121278b0d8474",
       "title": "Pixel Recurrent Neural Networks",
       "year": 2016,
-      "citationCount": 2476,
+      "citationCount": 2521,
       "authors": [
         {
           "authorId": "3422336",
@@ -4614,7 +4850,7 @@
       "paperId": "0875fc92cce33df5cf7df169590dbf0ca00d2652",
       "title": "Generating Images from Captions with Attention",
       "year": 2015,
-      "citationCount": 440,
+      "citationCount": 445,
       "authors": [
         {
           "authorId": "2711409",
@@ -4638,7 +4874,7 @@
       "paperId": "a2785f66c20fbdf30ec26c0931584c6d6a0f4fca",
       "title": "DRAW: A Recurrent Neural Network For Image Generation",
       "year": 2015,
-      "citationCount": 1939,
+      "citationCount": 1944,
       "authors": [
         {
           "authorId": "144717963",
@@ -4666,7 +4902,7 @@
       "paperId": "0504945cc2d03550fecb6ff02e637f9421107c25",
       "title": "Learning a Deep Convolutional Network for Image Super-Resolution",
       "year": 2014,
-      "citationCount": 4829,
+      "citationCount": 4930,
       "authors": [
         {
           "authorId": "30459277",
@@ -4687,50 +4923,10 @@
       ]
     },
     {
-      "paperId": "13bc4e683075bdd6a3f0155241c276a772d4aa06",
-      "title": "Generative adversarial networks",
-      "year": 2014,
-      "citationCount": 29801,
-      "authors": [
-        {
-          "authorId": "153440022",
-          "name": "I. Goodfellow"
-        },
-        {
-          "authorId": "1403025868",
-          "name": "Jean Pouget-Abadie"
-        },
-        {
-          "authorId": "153583218",
-          "name": "Mehdi Mirza"
-        },
-        {
-          "authorId": "2113742925",
-          "name": "Bing Xu"
-        },
-        {
-          "authorId": "1393680089",
-          "name": "David Warde-Farley"
-        },
-        {
-          "authorId": "1955694",
-          "name": "Sherjil Ozair"
-        },
-        {
-          "authorId": "1760871",
-          "name": "Aaron C. Courville"
-        },
-        {
-          "authorId": "1751762",
-          "name": "Yoshua Bengio"
-        }
-      ]
-    },
-    {
       "paperId": "71b7178df5d2b112d07e45038cb5637208659ff7",
       "title": "Microsoft COCO: Common Objects in Context",
       "year": 2014,
-      "citationCount": 40427,
+      "citationCount": 41886,
       "authors": [
         {
           "authorId": "33493200",
@@ -4770,7 +4966,7 @@
       "paperId": "5f5dc5b9a2ba710937e2c413b37b053cd673df02",
       "title": "Auto-Encoding Variational Bayes",
       "year": 2013,
-      "citationCount": 17123,
+      "citationCount": 17096,
       "authors": [
         {
           "authorId": "1726807",
@@ -4786,7 +4982,7 @@
       "paperId": "62c76ca0b2790c34e85ba1cce09d47be317c7235",
       "title": "Estimating or Propagating Gradients Through Stochastic Neurons for Conditional Computation",
       "year": 2013,
-      "citationCount": 2901,
+      "citationCount": 3000,
       "authors": [
         {
           "authorId": "1751762",
@@ -4806,7 +5002,7 @@
       "paperId": "ea9d2a2b4ce11aaf85136840c65f3bc9c03ab649",
       "title": "Understanding the difficulty of training deep feedforward neural networks",
       "year": 2010,
-      "citationCount": 17031,
+      "citationCount": 17268,
       "authors": [
         {
           "authorId": "3119801",
@@ -4822,7 +5018,7 @@
       "paperId": "d2c733e34d48784a37d717fe43d9e93277a8c53e",
       "title": "ImageNet: A large-scale hierarchical image database",
       "year": 2009,
-      "citationCount": 59655,
+      "citationCount": 61397,
       "authors": [
         {
           "authorId": "153302678",
@@ -4854,7 +5050,7 @@
       "paperId": "bc6dff14a130c57a91d5a21339c23471faf1d46f",
       "title": "Et al",
       "year": 2008,
-      "citationCount": 71243,
+      "citationCount": 71520,
       "authors": [
         {
           "authorId": "2059358552",
@@ -4881,7 +5077,7 @@
       "paperId": "d1c990fe6281865827364d6f8691027a4a5951b4",
       "title": "The human visual cortex.",
       "year": 2004,
-      "citationCount": 1159,
+      "citationCount": 1174,
       "authors": [
         {
           "authorId": "1403305613",
@@ -4897,7 +5093,7 @@
       "paperId": "1aa9c0045f1fe8c79cce03c7c14ef4b4643a21f8",
       "title": "A new algorithm for data compression",
       "year": 1994,
-      "citationCount": 866,
+      "citationCount": 903,
       "authors": [
         {
           "authorId": "2097866775",
@@ -4909,7 +5105,7 @@
       "paperId": "b9478e237b58160c65acd2c41894493d27e2c277",
       "title": "WuDaoCorpora: A super large-scale Chinese corpora for pre-training language models",
       "year": 2021,
-      "citationCount": 97,
+      "citationCount": 109,
       "authors": [
         {
           "authorId": "119548118",
@@ -4996,7 +5192,7 @@
       "paperId": "9405cc0d6169988371b2755e573cc28650d14dfe",
       "title": "Language Models are Unsupervised Multitask Learners",
       "year": 2019,
-      "citationCount": 20472,
+      "citationCount": 21477,
       "authors": [
         {
           "authorId": "38909097",

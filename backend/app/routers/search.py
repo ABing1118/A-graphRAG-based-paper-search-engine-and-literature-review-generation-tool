@@ -93,7 +93,7 @@ async def save_search_results(query: str, papers: list, paper_networks: dict = N
             networks_to_fetch.append(paper)
     
     if networks_to_fetch:
-        logger.info(f"需要获取额外 {len(networks_to_fetch)} 篇高分论文的引用网络")
+        logger.info(f"Need to fetch additional {len(networks_to_fetch)} high-scoring papers' citation networks")
         # 获取这些论文的引用网络
         # ... 获取逻辑 ...
 
@@ -148,7 +148,7 @@ async def check_local_data(query: str) -> tuple[bool, set, int]:
         return is_complete, existing_ids, total_qualified
         
     except Exception as e:
-        logger.error(f"检查本地数据时出错: {str(e)}")
+        logger.error(f"Error checking local data: {str(e)}")
         return False, set(), 0
 
 def generate_simplified_paper_txt(papers: List[Dict[Any, Any]], output_path: Path) -> None:
@@ -227,14 +227,14 @@ async def search_papers(
 数据目录: {QUERIES_DIR}
 """)
         logger.info(f"Searching papers with query: {query}...（搜索论文，关键词: {query}...）")
-        logger.info(f"搜索模式: {SEARCH_MODE.value}")
+        logger.info(f"Search mode: {SEARCH_MODE.value}")
 
         # hybrid模式下先检查本地数据
         if SEARCH_MODE == SearchMode.HYBRID:
             is_complete, existing_ids, total_papers = await check_local_data(query)
             
             if is_complete:
-                logger.info(f"找到完整的本地数据（主题总论文数: {total_papers}），使用离线模式")
+                logger.info(f"Found complete local data (total papers: {total_papers}), using offline mode")
                 return await search_papers_offline(
                     query=query,
                     min_year=min_year,
@@ -243,9 +243,9 @@ async def search_papers(
                     min_score=min_score
                 )
             elif existing_ids:
-                logger.info(f"找到部分本地数据({len(existing_ids)}/{total_papers}篇)，将混合使用本地和在线数据")
+                logger.info(f"Found partial local data ({len(existing_ids)}/{total_papers} papers), will use hybrid mode")
             else:
-                logger.info("本地无数据，使用在线模式")
+                logger.info("No local data found, using online mode")
         
         # 在线模式或本地数据不完整时的处理
         if SEARCH_MODE in [SearchMode.ONLINE, SearchMode.HYBRID]:
@@ -278,7 +278,7 @@ async def search_papers(
                             if isinstance(res, Exception):
                                 # 如果是 HTTPException，可能是 429/4xx/5xx
                                 if isinstance(res, HTTPException):
-                                    logger.error(f"出现 HTTP 错误: {res.status_code}, {res.detail}")
+                                    logger.error(f"HTTP error occurred: {res.status_code}, {res.detail}")
                                     # 你可以选择直接 raise，让前端收到对应状态码
                                     raise res
                                 else:
@@ -296,7 +296,7 @@ async def search_papers(
                     for res in batch_results:
                         if isinstance(res, Exception):
                             if isinstance(res, HTTPException):
-                                logger.error(f"出现 HTTP 错误: {res.status_code}, {res.detail}")
+                                logger.error(f"HTTP error occurred: {res.status_code}, {res.detail}")
                                 raise res
                             else:
                                 logger.error(f"fetch error: {str(res)}")
@@ -336,7 +336,7 @@ async def search_papers(
                             qualified_papers.append(paper)
 
                     except Exception as e:
-                        logger.warning(f"处理论文时出错: {str(e)}, paper: {paper.get('paperId', 'unknown')}")
+                        logger.warning(f"Error processing paper: {str(e)}, paper: {paper.get('paperId', 'unknown')}")
                         continue
 
                 # 按score排序（一定不会再KeyError了）
@@ -387,7 +387,7 @@ async def search_papers(
                 """)
 
                 # 3. 前5篇论文示例
-                logger.info("\n====== 前5篇论文示例 ======")
+                logger.info("\n====== Top 5 Paper Examples ======")
                 for i, paper in enumerate(qualified_papers[:5]):
                     try:
                         # 确保 fieldsOfStudy 是一个列表
@@ -406,29 +406,29 @@ async def search_papers(
                         ]
                         
                         logger.info(f"""
-                        论文 {i+1}:
-                        标题: {paper.get('title', '无标题')}
-                        作者: {', '.join(filter(None, author_names))}
-                        年份: {paper.get('year', '未知')}
-                        期刊/会议: {paper.get('venue', '未知')}
-                        引用数: {paper.get('citationCount', 0)}
-                        评分: {paper.get('score', 0)}
-                        来源: {paper.get('source', 'unknown')}
-                        研究领域: {', '.join(filter(None, fields))}
+                        Paper论文 {i+1}:
+                        Title标题: {paper.get('title', '无标题')}
+                        Author作者: {', '.join(filter(None, author_names))}
+                        Year年份: {paper.get('year', '未知')}
+                        Venue期刊/会议: {paper.get('venue', '未知')}
+                        Citation引用数: {paper.get('citationCount', 0)}
+                        Score评分: {paper.get('score', 0)}
+                        Source来源: {paper.get('source', 'unknown')}
+                        Fields研究领域: {', '.join(filter(None, fields))}
                         """)
                     except Exception as e:
-                        logger.warning(f"处理论文信息时出错: {str(e)}, paper_id: {paper.get('paperId', 'unknown')}")
+                        logger.warning(f"Error processing paper info: {str(e)}, paper_id: {paper.get('paperId', 'unknown')}")
                         continue
 
                 # 4. 分数分布统计
                 scores = [p.get('score', 0) for p in qualified_papers]
                 if scores:
                     logger.info(f"""
-                                ====== 分数统计 ======
-                                最高分: {max(scores):.2f}
-                                最低分: {min(scores):.2f}
-                                平均分: {sum(scores)/len(scores):.2f}
-                                分数分布:
+                                ====== Score Statistics分数统计 ======
+                                Highest score最高分: {max(scores):.2f}
+                                Lowest score最低分: {min(scores):.2f}
+                                Average score平均分: {sum(scores)/len(scores):.2f}
+                                Distribution分数分布:
                                 90-100: {len([s for s in scores if s >= 90])}篇
                                 80-90: {len([s for s in scores if 80 <= s < 90])}篇
                                 70-80: {len([s for s in scores if 70 <= s < 80])}篇
@@ -442,13 +442,13 @@ async def search_papers(
                 if years:
                     current_year = datetime.now().year
                     logger.info(f"""
-                                ====== 年份分布 ======
-                                最新: {max(years)}
-                                最早: {min(years)}
-                                近1年: {len([y for y in years if y >= current_year - 1])}篇
-                                近3年: {len([y for y in years if y >= current_year - 3])}篇
-                                近5年: {len([y for y in years if y >= current_year - 5])}篇
-                                5年以上: {len([y for y in years if y < current_year - 5])}篇
+                                ====== Year Distribution年份分布 ======
+                                Newest最新: {max(years)}
+                                Oldest最早: {min(years)}
+                                Recent 1 year近1年: {len([y for y in years if y >= current_year - 1])}篇
+                                Recent 3 years近3年: {len([y for y in years if y >= current_year - 3])}篇
+                                Recent 5 years近5年: {len([y for y in years if y >= current_year - 5])}篇
+                                Up 5 years 5年以上: {len([y for y in years if y < current_year - 5])}篇
                                 """)
 
                 # 在获取引用网络的部分
@@ -460,11 +460,11 @@ async def search_papers(
 
                 # 如果获取的数据不够，记录警告但不中断流程
                 if len(paper_networks) < NETWORK_MINIMUM_REQUIRED:
-                    logger.warning(f"未能获取足够的引用网络数据: {len(paper_networks)}/{NETWORK_MINIMUM_REQUIRED}")
+                    logger.warning(f"Failed to get enough citation network data: {len(paper_networks)}/{NETWORK_MINIMUM_REQUIRED}")
 
                 # 保存所有数据
                 await save_search_results(query, all_papers, paper_networks)
-                logger.info(f"已将搜索结果保存到本地: {query}")
+                logger.info(f"Search results saved locally: {query}")
 
                 processed_papers.sort(key=lambda x: x.get("score", 0), reverse=True)
 
@@ -520,7 +520,7 @@ async def search_papers(
                 }
 
     except Exception as e:
-        logger.error(f"搜索失败: {str(e)}")
+        logger.error(f"Search failed: {str(e)}")
         raise HTTPException(status_code=500, detail=str(e))
 
 async def search_papers_offline(
@@ -587,14 +587,14 @@ async def search_papers_offline(
                     qualified_papers.append(paper)
                     
             except Exception as e:
-                logger.warning(f"处理论文时出错: {str(e)}, paper: {paper.get('paperId', 'unknown')}")
+                logger.warning(f"Error processing paper: {str(e)}, paper: {paper.get('paperId', 'unknown')}")
                 continue
                 
         # 3. 排序和截取
         qualified_papers.sort(key=lambda x: x["score"], reverse=True)
         
         # 添加日志，显示排序后的论文及其评分
-        logger.info("\n====== 论文排序和评分 ======")
+        logger.info("\n====== Paper Sorting and Scoring ======")
         for i, paper in enumerate(qualified_papers[:20]):  # 只显示前20篇，避免日志太长
             logger.info(f"""
             论文 {i+1}:
@@ -665,7 +665,7 @@ async def search_papers_offline(
         }
         
     except Exception as e:
-        logger.error(f"离线搜索失败: {str(e)}")
+        logger.error(f"Offline search failed: {str(e)}")
         raise HTTPException(status_code=500, detail=str(e))
 
 async def get_citation_networks(query: str, papers: list, required_count: int = NETWORK_CACHE_SIZE) -> dict:
@@ -685,9 +685,9 @@ async def get_citation_networks(query: str, papers: list, required_count: int = 
                     with open(network_path, 'r', encoding='utf-8') as f:
                         existing_networks[paper_id] = json.load(f)
                 except Exception as e:
-                    logger.warning(f"读取网络数据文件出错: {filename}, {str(e)}")
+                    logger.warning(f"Error reading network data file: {filename}, {str(e)}")
 
-    logger.info(f"本地已有 {len(existing_networks)} 篇论文的引用网络")
+    logger.info(f"Local cache has {len(existing_networks)} papers' citation networks")
 
     # 2. 确定需要在线获取的论文
     top_papers = papers[:required_count]
@@ -710,7 +710,7 @@ async def get_citation_networks(query: str, papers: list, required_count: int = 
     # 3. 在线获取缺失的数据
     if papers_to_fetch:
         max_retries = 3
-        logger.info(f"需要在线获取 {len(papers_to_fetch)} 篇论文的引用网络")
+        logger.info(f"Need to fetch {len(papers_to_fetch)} papers' citation networks online")
         
         for i, paper in enumerate(papers_to_fetch, 1):
             try:
@@ -718,7 +718,7 @@ async def get_citation_networks(query: str, papers: list, required_count: int = 
                 if not paper_id:
                     continue
                     
-                logger.info(f"正在获取第 {i}/{len(papers_to_fetch)} 篇论文的引用网络")
+                logger.info(f"Fetching citation network for paper {i}/{len(papers_to_fetch)}")
                 network = {'citations': [], 'references': []}
                 
                 # 获取引用信息（带重试）
@@ -727,12 +727,12 @@ async def get_citation_networks(query: str, papers: list, required_count: int = 
                         citations = await get_paper_citations(paper_id)
                         if citations:
                             network['citations'] = citations
-                            logger.info(f"获取到 {len(citations)} 条引用信息")
+                            logger.info(f"Retrieved {len(citations)} citation records")
                         break
                     except HTTPException as e:
                         if e.status_code == 429 and attempt < max_retries - 1:
                             wait_time = (attempt + 1) * 2
-                            logger.warning(f"遇到429，等待{wait_time}秒后重试...")
+                            logger.warning(f"Rate limit (429) encountered, waiting {wait_time} seconds before retry...")
                             await asyncio.sleep(wait_time)
                         else:
                             raise
@@ -743,12 +743,12 @@ async def get_citation_networks(query: str, papers: list, required_count: int = 
                         references = await get_paper_references(paper_id)
                         if references:
                             network['references'] = references
-                            logger.info(f"获取到 {len(references)} 条参考文献")
+                            logger.info(f"Retrieved {len(references)} reference records")
                         break
                     except HTTPException as e:
                         if e.status_code == 429 and attempt < max_retries - 1:
                             wait_time = (attempt + 1) * 2
-                            logger.warning(f"遇到429，等待{wait_time}秒后重试...")
+                            logger.warning(f"Rate limit (429) encountered, waiting {wait_time} seconds before retry...")
                             await asyncio.sleep(wait_time)
                         else:
                             raise
@@ -761,17 +761,17 @@ async def get_citation_networks(query: str, papers: list, required_count: int = 
                 paper_networks[paper_id] = network
                 
             except Exception as e:
-                logger.error(f"获取论文引用网络失败: {str(e)}")
+                logger.error(f"Failed to fetch paper citation network: {str(e)}")
                 continue
                 
     # 即使本地数据够用，也尝试获取更多数据（后台进行）
     if papers_to_fetch and len(paper_networks) >= NETWORK_MINIMUM_REQUIRED:
-        logger.info(f"后台获取额外的引用网络数据: {len(papers_to_fetch)} 篇")
+        logger.info(f"Fetching additional citation network data in background: {len(papers_to_fetch)} papers")
         try:
             for paper in papers_to_fetch:
                 # ... 获取和保存新数据 ...
                 pass
         except Exception as e:
-            logger.warning(f"获取额外数据时出错: {str(e)}")
+            logger.warning(f"Error fetching additional data: {str(e)}")
     
     return paper_networks

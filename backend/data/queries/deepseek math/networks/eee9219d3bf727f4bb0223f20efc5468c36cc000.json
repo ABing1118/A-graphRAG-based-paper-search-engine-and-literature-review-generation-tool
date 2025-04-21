@@ -1,0 +1,733 @@
+{
+  "citations": [
+    {
+      "paperId": "a98d89f8398e3d63721e7cb8ee96325f89833d23",
+      "title": "Efficient Reasoning Models: A Survey",
+      "year": 2025,
+      "citationCount": 0,
+      "authors": [
+        {
+          "authorId": null,
+          "name": "Sicheng Feng"
+        },
+        {
+          "authorId": "150110431",
+          "name": "Gongfan Fang"
+        },
+        {
+          "authorId": "15532066",
+          "name": "Xinyin Ma"
+        },
+        {
+          "authorId": "2322993154",
+          "name": "Xinchao Wang"
+        }
+      ]
+    },
+    {
+      "paperId": "c7249e8dc79198e4a316e7a9f2b6db24f54843c8",
+      "title": "PRM-BAS: Enhancing Multimodal Reasoning through PRM-guided Beam Annealing Search",
+      "year": 2025,
+      "citationCount": 0,
+      "authors": [
+        {
+          "authorId": null,
+          "name": "Pengfei Hu"
+        },
+        {
+          "authorId": "2128660562",
+          "name": "Zhenrong Zhang"
+        },
+        {
+          "authorId": "2321457351",
+          "name": "Qikai Chang"
+        },
+        {
+          "authorId": "2321671280",
+          "name": "Shuhang Liu"
+        },
+        {
+          "authorId": "2143520841",
+          "name": "Jie Ma"
+        },
+        {
+          "authorId": "2243402281",
+          "name": "Jun Du"
+        },
+        {
+          "authorId": "39557762",
+          "name": "Jianshu Zhang"
+        },
+        {
+          "authorId": "2355787752",
+          "name": "Quan Liu"
+        },
+        {
+          "authorId": "2344792827",
+          "name": "Jianqing Gao"
+        },
+        {
+          "authorId": null,
+          "name": "Feng Ma"
+        },
+        {
+          "authorId": "2355401628",
+          "name": "Qingfeng Liu"
+        }
+      ]
+    },
+    {
+      "paperId": "226dc052a0f9b317727da2e49783ece37be206f1",
+      "title": "Two Heads are Better Than One: Test-time Scaling of Multi-agent Collaborative Reasoning",
+      "year": 2025,
+      "citationCount": 0,
+      "authors": [
+        {
+          "authorId": null,
+          "name": "Can Jin"
+        },
+        {
+          "authorId": null,
+          "name": "Hongwu Peng"
+        },
+        {
+          "authorId": "2355337712",
+          "name": "Qixin Zhang"
+        },
+        {
+          "authorId": "2355402158",
+          "name": "Yujin Tang"
+        },
+        {
+          "authorId": "2290468815",
+          "name": "Dimitris N. Metaxas"
+        },
+        {
+          "authorId": "2343636735",
+          "name": "Tong Che"
+        }
+      ]
+    },
+    {
+      "paperId": "49e49c3d6071ed1ed108d4542b44945455c4fade",
+      "title": "Speculative Thinking: Enhancing Small-Model Reasoning with Large Model Guidance at Inference Time",
+      "year": 2025,
+      "citationCount": 0,
+      "authors": [
+        {
+          "authorId": "2346276866",
+          "name": "Wang Yang"
+        },
+        {
+          "authorId": "2355925885",
+          "name": "Xiang Yue"
+        },
+        {
+          "authorId": "2346129602",
+          "name": "Vipin Chaudhary"
+        },
+        {
+          "authorId": "2346134041",
+          "name": "Xiaotian Han"
+        }
+      ]
+    },
+    {
+      "paperId": "9c41e86dcaa1b1b78e77876a54acb2adf479b20b",
+      "title": "Supervised Optimism Correction: Be Confident When LLMs Are Sure",
+      "year": 2025,
+      "citationCount": 0,
+      "authors": [
+        {
+          "authorId": "2350521366",
+          "name": "Junjie Zhang"
+        },
+        {
+          "authorId": "2216653262",
+          "name": "Rushuai Yang"
+        },
+        {
+          "authorId": "2337077326",
+          "name": "Shunyu Liu"
+        },
+        {
+          "authorId": "31255666",
+          "name": "Ting-En Lin"
+        },
+        {
+          "authorId": null,
+          "name": "Fei Huang"
+        },
+        {
+          "authorId": "2354550511",
+          "name": "Yi Chen"
+        },
+        {
+          "authorId": "2253881638",
+          "name": "Yongbin Li"
+        },
+        {
+          "authorId": "2354552882",
+          "name": "Dacheng Tao"
+        }
+      ]
+    },
+    {
+      "paperId": "614d0ee54c326548a48866ab3234852a06f40de9",
+      "title": "Quantization Hurts Reasoning? An Empirical Study on Quantized Reasoning Models",
+      "year": 2025,
+      "citationCount": 2,
+      "authors": [
+        {
+          "authorId": "2289944505",
+          "name": "Ruikang Liu"
+        },
+        {
+          "authorId": "2325893758",
+          "name": "Yuxuan Sun"
+        },
+        {
+          "authorId": "2354307013",
+          "name": "Manyi Zhang"
+        },
+        {
+          "authorId": "2289833742",
+          "name": "Haoli Bai"
+        },
+        {
+          "authorId": "2354521765",
+          "name": "Xianzhi Yu"
+        },
+        {
+          "authorId": "2355040181",
+          "name": "Tiezheng Yu"
+        },
+        {
+          "authorId": "2290358591",
+          "name": "Chun Yuan"
+        },
+        {
+          "authorId": "2289835402",
+          "name": "Lu Hou"
+        }
+      ]
+    },
+    {
+      "paperId": "38ecd49fe9a4e8e4d8f851d274377e18c1a9e5ac",
+      "title": "T1: Tool-integrated Self-verification for Test-time Compute Scaling in Small Language Models",
+      "year": 2025,
+      "citationCount": 1,
+      "authors": [
+        {
+          "authorId": "2354196227",
+          "name": "Minki Kang"
+        },
+        {
+          "authorId": "2354282486",
+          "name": "Jongwon Jeong"
+        },
+        {
+          "authorId": "2280101597",
+          "name": "Jaewoong Cho"
+        }
+      ]
+    },
+    {
+      "paperId": "2befc232dbd6117358313da0f7079854bf16c509",
+      "title": "Scaling Test-Time Inference with Policy-Optimized, Dynamic Retrieval-Augmented Generation via KV Caching and Decoding",
+      "year": 2025,
+      "citationCount": 0,
+      "authors": [
+        {
+          "authorId": "2203079037",
+          "name": "Sakhinana Sagar Srinivas"
+        },
+        {
+          "authorId": "2139833562",
+          "name": "Venkataramana Runkana"
+        }
+      ]
+    },
+    {
+      "paperId": "bd94932b7604933a11d1538b0de6f9543089711f",
+      "title": "GenPRM: Scaling Test-Time Compute of Process Reward Models via Generative Reasoning",
+      "year": 2025,
+      "citationCount": 1,
+      "authors": [
+        {
+          "authorId": "2344853138",
+          "name": "Jian Zhao"
+        },
+        {
+          "authorId": "2143186392",
+          "name": "Runze Liu"
+        },
+        {
+          "authorId": "2153281320",
+          "name": "Kaiyan Zhang"
+        },
+        {
+          "authorId": "2353258628",
+          "name": "Zhimu Zhou"
+        },
+        {
+          "authorId": "2287801881",
+          "name": "Junqi Gao"
+        },
+        {
+          "authorId": "2288001009",
+          "name": "Dong Li"
+        },
+        {
+          "authorId": "2008151131",
+          "name": "Jiafei Lyu"
+        },
+        {
+          "authorId": null,
+          "name": "Zhouyi Qian"
+        },
+        {
+          "authorId": "66242399",
+          "name": "Biqing Qi"
+        },
+        {
+          "authorId": "2344796466",
+          "name": "Xiu Li"
+        },
+        {
+          "authorId": "2218723159",
+          "name": "Bowen Zhou"
+        }
+      ]
+    },
+    {
+      "paperId": "5d88b24067e740ec10811f92698a608d9ed606c8",
+      "title": "Do We Truly Need So Many Samples? Multi-LLM Repeated Sampling Efficiently Scales Test-Time Compute",
+      "year": 2025,
+      "citationCount": 0,
+      "authors": [
+        {
+          "authorId": "2108513740",
+          "name": "Jianhao Chen"
+        },
+        {
+          "authorId": "2353069651",
+          "name": "Zishuo Xun"
+        },
+        {
+          "authorId": "2336833974",
+          "name": "Bocheng Zhou"
+        },
+        {
+          "authorId": "2353760876",
+          "name": "Han Qi"
+        },
+        {
+          "authorId": "2344790244",
+          "name": "Qiaosheng Zhang"
+        },
+        {
+          "authorId": "2353301184",
+          "name": "Yang Chen"
+        },
+        {
+          "authorId": "2275570641",
+          "name": "Wei Hu"
+        },
+        {
+          "authorId": "2275118719",
+          "name": "Yuzhong Qu"
+        },
+        {
+          "authorId": "2353069939",
+          "name": "Wanli Ouyang"
+        },
+        {
+          "authorId": "2353379295",
+          "name": "Shuyue Hu"
+        }
+      ]
+    },
+    {
+      "paperId": "05d76d68683c88577eb8826f22942c78d474337d",
+      "title": "What, How, Where, and How Well? A Survey on Test-Time Scaling in Large Language Models",
+      "year": 2025,
+      "citationCount": 2,
+      "authors": [
+        {
+          "authorId": "2124959429",
+          "name": "Qiyuan Zhang"
+        },
+        {
+          "authorId": "1704274486",
+          "name": "Fuyuan Lyu"
+        },
+        {
+          "authorId": "2353075323",
+          "name": "Zexu Sun"
+        },
+        {
+          "authorId": "2353322623",
+          "name": "Lei Wang"
+        },
+        {
+          "authorId": "2353196827",
+          "name": "Weixu Zhang"
+        },
+        {
+          "authorId": "2301269240",
+          "name": "Zhihan Guo"
+        },
+        {
+          "authorId": "2353199450",
+          "name": "Yufei Wang"
+        },
+        {
+          "authorId": "2258549144",
+          "name": "Irwin King"
+        },
+        {
+          "authorId": "2353368390",
+          "name": "Xue Liu"
+        },
+        {
+          "authorId": "2324831308",
+          "name": "Chen Ma"
+        }
+      ]
+    },
+    {
+      "paperId": "2c3e41460bea99433b29aef2de54b9b9d3b71aac",
+      "title": "ViLBench: A Suite for Vision-Language Process Reward Modeling",
+      "year": 2025,
+      "citationCount": 1,
+      "authors": [
+        {
+          "authorId": "2239200170",
+          "name": "Haoqin Tu"
+        },
+        {
+          "authorId": "2354198472",
+          "name": "Weitao Feng"
+        },
+        {
+          "authorId": "2352187820",
+          "name": "Hardy Chen"
+        },
+        {
+          "authorId": "2353061362",
+          "name": "Hui Liu"
+        },
+        {
+          "authorId": "2313288320",
+          "name": "Xianfeng Tang"
+        },
+        {
+          "authorId": "2239227247",
+          "name": "Cihang Xie"
+        }
+      ]
+    },
+    {
+      "paperId": "391ebe4dd386f35fa290e22109eea7c9a497b218",
+      "title": "Video-T1: Test-Time Scaling for Video Generation",
+      "year": 2025,
+      "citationCount": 0,
+      "authors": [
+        {
+          "authorId": "2273665760",
+          "name": "Fangfu Liu"
+        },
+        {
+          "authorId": "2291393860",
+          "name": "Hanyang Wang"
+        },
+        {
+          "authorId": "2353204202",
+          "name": "Yimo Cai"
+        },
+        {
+          "authorId": "2353443341",
+          "name": "Kaiyan Zhang"
+        },
+        {
+          "authorId": "2353071730",
+          "name": "Xiaohang Zhan"
+        },
+        {
+          "authorId": "2274036307",
+          "name": "Yueqi Duan"
+        }
+      ]
+    },
+    {
+      "paperId": "f19443485fb8ac84718da18da891e616401d7492",
+      "title": "OpenVLThinker: An Early Exploration to Complex Vision-Language Reasoning via Iterative Self-Improvement",
+      "year": 2025,
+      "citationCount": 6,
+      "authors": [
+        {
+          "authorId": "2303979338",
+          "name": "Yihe Deng"
+        },
+        {
+          "authorId": "103404553",
+          "name": "Hritik Bansal"
+        },
+        {
+          "authorId": "2281946748",
+          "name": "Fan Yin"
+        },
+        {
+          "authorId": "2256996328",
+          "name": "Nanyun Peng"
+        },
+        {
+          "authorId": "2303919444",
+          "name": "Wei Wang"
+        },
+        {
+          "authorId": "2257127887",
+          "name": "Kai-Wei Chang"
+        }
+      ]
+    },
+    {
+      "paperId": "891cc1397f949d4432a5a0602e3757e9e3610862",
+      "title": "Stop Overthinking: A Survey on Efficient Reasoning for Large Language Models",
+      "year": 2025,
+      "citationCount": 10,
+      "authors": [
+        {
+          "authorId": "2117517225",
+          "name": "Yang Sui"
+        },
+        {
+          "authorId": "27615982",
+          "name": "Yu-Neng Chuang"
+        },
+        {
+          "authorId": "2345730387",
+          "name": "Guanchu Wang"
+        },
+        {
+          "authorId": "2288351916",
+          "name": "Jiamu Zhang"
+        },
+        {
+          "authorId": "2351458264",
+          "name": "Tianyi Zhang"
+        },
+        {
+          "authorId": "2212721326",
+          "name": "Jiayi Yuan"
+        },
+        {
+          "authorId": "2289776023",
+          "name": "Hongyi Liu"
+        },
+        {
+          "authorId": "2345695066",
+          "name": "Andrew Wen"
+        },
+        {
+          "authorId": "2181946372",
+          "name": "Shaochen Zhong"
+        },
+        {
+          "authorId": "7315244",
+          "name": "Hanjie Chen"
+        },
+        {
+          "authorId": "2345777659",
+          "name": "Xia Hu"
+        }
+      ]
+    },
+    {
+      "paperId": "b47acc5518700c287e0e94f5a558466e355f8495",
+      "title": "Temporal Consistency for LLM Reasoning Process Error Identification",
+      "year": 2025,
+      "citationCount": 0,
+      "authors": [
+        {
+          "authorId": "2319146416",
+          "name": "Jiacheng Guo"
+        },
+        {
+          "authorId": "2326341284",
+          "name": "Yue Wu"
+        },
+        {
+          "authorId": "2279349525",
+          "name": "Jiahao Qiu"
+        },
+        {
+          "authorId": "2242535459",
+          "name": "Kaixuan Huang"
+        },
+        {
+          "authorId": "2350749410",
+          "name": "Xinzhe Juan"
+        },
+        {
+          "authorId": "2325310340",
+          "name": "Ling Yang"
+        },
+        {
+          "authorId": "2257417692",
+          "name": "Mengdi Wang"
+        }
+      ]
+    },
+    {
+      "paperId": "48d87b9c0e65b08322fc0ea41240c07ecc230f29",
+      "title": "Amulet: ReAlignment During Test Time for Personalized Preference Adaptation of LLMs",
+      "year": 2025,
+      "citationCount": 1,
+      "authors": [
+        {
+          "authorId": "2174174943",
+          "name": "Zhaowei Zhang"
+        },
+        {
+          "authorId": "2216334065",
+          "name": "Fengshuo Bai"
+        },
+        {
+          "authorId": "2327168080",
+          "name": "Qizhi Chen"
+        },
+        {
+          "authorId": "2250489869",
+          "name": "Chengdong Ma"
+        },
+        {
+          "authorId": "2271663665",
+          "name": "Mingzhi Wang"
+        },
+        {
+          "authorId": "2347420836",
+          "name": "Haoran Sun"
+        },
+        {
+          "authorId": "2347375318",
+          "name": "Zilong Zheng"
+        },
+        {
+          "authorId": "2271663147",
+          "name": "Yaodong Yang"
+        }
+      ]
+    },
+    {
+      "paperId": "1c3e59862cb82b78c6fb534fd2c5dc899216ca26",
+      "title": "VLP: Vision-Language Preference Learning for Embodied Manipulation",
+      "year": 2025,
+      "citationCount": 1,
+      "authors": [
+        {
+          "authorId": "2143186392",
+          "name": "Runze Liu"
+        },
+        {
+          "authorId": "2303257958",
+          "name": "Chenjia Bai"
+        },
+        {
+          "authorId": "2008151131",
+          "name": "Jiafei Lyu"
+        },
+        {
+          "authorId": "2323693642",
+          "name": "Shengjie Sun"
+        },
+        {
+          "authorId": "2293568691",
+          "name": "Yali Du"
+        },
+        {
+          "authorId": "2323690201",
+          "name": "Xiu Li"
+        }
+      ]
+    },
+    {
+      "paperId": "ed7a6e478a2949e1b70c27fcaf9d1150e44bbc0a",
+      "title": "Learning to Reason from Feedback at Test-Time",
+      "year": 2025,
+      "citationCount": 1,
+      "authors": [
+        {
+          "authorId": "48514532",
+          "name": "Yanyang Li"
+        },
+        {
+          "authorId": "2293611800",
+          "name": "Michael R. Lyu"
+        },
+        {
+          "authorId": "2346987829",
+          "name": "Liwei Wang"
+        }
+      ]
+    },
+    {
+      "paperId": "b7e7d274d22dc8f7dbd6d431e0c41c0e5a241fa3",
+      "title": "Process-Supervised Reward Models for Verifying Clinical Note Generation: A Scalable Approach Guided by Domain Expertise",
+      "year": 2024,
+      "citationCount": 0,
+      "authors": [
+        {
+          "authorId": "2244971536",
+          "name": "Hanyin Wang"
+        },
+        {
+          "authorId": "2244662436",
+          "name": "Chufan Gao"
+        },
+        {
+          "authorId": "2269139118",
+          "name": "Qiping Xu"
+        },
+        {
+          "authorId": "2299367432",
+          "name": "Bolun Liu"
+        },
+        {
+          "authorId": "2269089723",
+          "name": "Guleid Hussein"
+        },
+        {
+          "authorId": "6102012",
+          "name": "H. Korsapati"
+        },
+        {
+          "authorId": "2211384613",
+          "name": "Mohamad El Labban"
+        },
+        {
+          "authorId": "2299328410",
+          "name": "Kingsley Iheasirim"
+        },
+        {
+          "authorId": "2314434904",
+          "name": "Mohamed Hassan"
+        },
+        {
+          "authorId": "2335665869",
+          "name": "Gokhan Anil"
+        },
+        {
+          "authorId": "2242197347",
+          "name": "Brian N. Bartlett"
+        },
+        {
+          "authorId": "2303912514",
+          "name": "Jimeng Sun"
+        }
+      ]
+    }
+  ],
+  "references": []
+}
